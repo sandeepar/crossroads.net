@@ -1,0 +1,28 @@
+{
+  "name": "crossroads.net",
+  "version": "0.0.0",
+  "homepage": "https://github.com/crdschurch/crossroads.net",
+  "authors": [
+    "aravind666 <aravind.udayashankara@gmail.com>",
+    "Dan Rye <drye@crossroads.net>",
+    "bzmillerboy <bzmiller82@gmail.com>",
+    "sandeepar <sandeep.setty@costrategix.com>"
+  ],
+  "description": "crossroads.net website rebuilt via Milacron",
+  "moduleType": [
+    "globals"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass-official": "3.1.1",
+    "angular":"1.2.16"
+  }
+}
