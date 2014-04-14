@@ -1,0 +1,12 @@
+{
+    "name": "crossroads",
+    "version": "0.0.0",
+    "repository": "https://github.com/crdschurch/crossroads.net.git",
+    "author": "aravind666 <aravind.udayashankara@gmail.com>",
+    "devDependencies": {
+        "grunt-contrib-uglify": "latest",
+    	"grunt-contrib-compass": "latest",
+    	"grunt-contrib-cssmin": "latest",
+        "grunt": "latest"
+    }
+}

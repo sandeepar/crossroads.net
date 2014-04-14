@@ -2,4 +2,5 @@ _site/
 clientside/vendor/
 .sass-cache/
 clientside/stylesheets/
+node_modules
 
