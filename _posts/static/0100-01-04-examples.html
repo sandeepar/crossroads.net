@@ -7,7 +7,6 @@ categories: nav
 ---
 
 <div class="row">
-
 	<div class="col-sm-4">
 		<ul>
 			<li><a href="/one_column">100% width</a></li>
@@ -18,7 +17,46 @@ categories: nav
 		</ul>
 	</div>
 	<div class="col-sm-8">
-		<h3>This page lists the possible layouts for the website to be used.<br><br>The current page is with
-			the header and footer option</h3>
-		</div>
+		<h3>Sample Layouts</h3>
+		<p>
+			We've created a hierarchy of lyouts as follows:
+			<ul>
+				<li>
+						base: Basic structure, including head elements
+						<ul>
+							<li>
+								default: Adds a Header and Footer
+								<ul>
+									<li>
+										container: Adds the container wrapper
+										<ul>
+											<li>
+												container_row: Adds the row wrapper
+												<ul>
+													<li>
+														one_column: Central content section only
+														<ul>
+																<li>post: Adds post meta data (title and date)</li>
+														</ul>
+													</li>
+													<li>left_column: Adds a left sidebar section</li>
+													<li>right_column: Adds a right sdiebar section</li>
+												</ul>
+											</li>
+										</ul>
+									</li>
+									<li>
+										row: Adds the row wrapper, without a container wrapper
+										<ul>
+											<li>full_width: Spans the entire page width</li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+							<li>full_page: No header or footer, complete flexibility within the body</li>
+						</ul>
+				</li>
+			</ul>
+		</p>
 	</div>
+</div>
