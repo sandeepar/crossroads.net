@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% include head.html %}
+  </head>
+
+  <body>
+  
+    {% include header.html %}
+    <!--  This layout to be used for 100% width without a container class -->
+    <div>
+		<div class="row">
+    		<div class="col-sm-12">
+      			{{ content }}
+   	 		</div>
+		</div>
+	</div>  <!-- /container -->
+	
+    {% include footer.html %}
+    
+  </body>
+</html>
