@@ -24,7 +24,7 @@ a:hover {
 footer {
 	background-color: $gray-lighter;
 	padding: 25px 0;
-  margin-top: 40px;
+        margin-top: 40px;
 }
 
 .center {
@@ -67,91 +67,3 @@ footer {
     margin-bottom: 1em;
 }
 /* RIGHT SIDE BAR */
-
-/* footer section */
-.homeContainer {
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 20px;
-    display: block;
-    z-index: 2;
-}
-.footerdimnoborder {
-    color: #747474;
-    font-size: 11px;
-    padding-left: 15px;
-    padding-right: 15px;
-    text-align: left;
-}
-.footerdimnoborder h4 {
-font-size:12px;
-font-weight:bold;
-margin-top:0px;
-}
-.noPspace {
-    margin: 0;
-    padding: 0;
-}
-.imgChWorld {
-float:left;
-font-size: 11px;
-line-height: 20px;
-padding-right:10px;
-}
-.footerdim {
-    border-left: 1px solid #B8B8B8;
-    color: #747474;
-    font-size: 11px;
-    padding-left: 15px;
-    padding-right: 15px;
-    text-align: left;
-}
-.footerdim h4 {
-font-size:12px;
-font-weight:bold;
-margin-top:0px;
-}
-#footer-contact {
-    color: #747474;
-    font-size: 11px;
-}
-footer {
-background-color: #E2E2E2;
-    color: #000000;
-    display: block;
-    font: 12px/20px Helvetica,Arial,Geneva,sans-serif;
-    padding-top: 0;
-}
-
-footer #footer-social, footer #footer-social {
-    margin: 25px 0 0;
-}
-footer #footer-social a, footer #footer-social a {
-    background-image: url("/clientside/images/social-icons.png");
-    display: inline-block;
-    height: 31px;
-    width: 31px;
-}
-footer #footer-social a:hover, footer #footer-social a:hover {
-    text-decoration:none;
-}
-#footer-facebook {
-    background-position: 0 -36px;
-}
-#footer-twitter {
-    background-position: 0 -180px;
-    margin: 0 10px;
-}
-#footer-email {
-    background-position: 0 -108px;
-}
-#footer-facebook:hover {
-background-position: 0 0;
-}
-#footer-twitter:hover {
-background-position: 0 -144px;
-}
-#footer-email:hover {
-background-position: 0 -72px;
-}
-/* footer section */
