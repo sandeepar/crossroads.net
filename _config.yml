@@ -4,7 +4,7 @@ pygments: true
 port: 4002
 prose:
   rooturl: '_posts'
-  siteurl: 'http://localhost:4002'
+  siteurl: 'http://milacron.crossroads.net/'
   relativeLinks: ''
   metadata:
     _posts:
