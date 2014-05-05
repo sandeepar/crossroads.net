@@ -2,7 +2,7 @@ name: New Jekyll site for crossroads.net
 markdown: redcarpet
 pygments: true
 port: 4002
-exclude: ["vendor"]
+exclude: ["vendor", "node_modules"]
 prose:
   rooturl: '_posts'
   siteurl: 'http://milacron.crossroads.net/'
