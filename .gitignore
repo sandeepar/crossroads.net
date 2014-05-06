@@ -4,3 +4,7 @@ clientside/vendor/
 clientside/stylesheets/
 node_modules
 nbproject/
+vendor/ruby
+.bundle
+bin/
+.ruby-version
