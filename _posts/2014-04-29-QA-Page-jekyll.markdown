@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "QA Page to Jekyll!"
-date:   2014-04-29 14:53:03
+date:	2014-05-05 14:53:03
 published: true
-permalink: QA-Page-to-Jekyll
+permalink:
 categories: jekyll update
 ---
 
