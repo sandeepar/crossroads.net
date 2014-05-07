@@ -1,5 +1,5 @@
 ---
-layout: post
+layout:
 title:  "QA Page to Jekyll!"
 date:   2014-04-29 14:53:03
 published: true
