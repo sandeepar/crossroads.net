@@ -28,7 +28,7 @@ prose:
           label: "Add Category"
           placeholder: "Choose Categories"
           options:
-            - name: "Milacron"
+            - name: "Milacronn"
               value: "milacron"
             - name: "Other"
               value: "other"
