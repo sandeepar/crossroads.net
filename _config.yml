@@ -61,8 +61,8 @@ prose:
         field:
           element: "text"
           label: "Permalink"
-          value: ""
-     _includes:
+          value: ""  
+    _includes:
       - name: "layout"
         field:
           element: "hidden"
