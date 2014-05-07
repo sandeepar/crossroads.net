@@ -4,16 +4,10 @@ pygments: true
 port: 4002
 exclude: ["vendor", "node_modules"]
 prose:
-  rooturl: '_includes'
   rooturl: '_posts'
   siteurl: 'http://milacron.crossroads.net/'
   relativeLinks: ''
   metadata:
-    _includes:
-     - name: "layout"
-       field:
-         element: "hidden"
-         value: "post"
     _posts:
       - name: "layout"
         field:
@@ -39,8 +33,6 @@ prose:
               value: "milacron"
             - name: "Other"
               value: "other"
-            - name: "Cat"
-              value: "cat"
       - name: "tags"
         field:
           element: "multiselect"
