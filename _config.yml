@@ -29,10 +29,12 @@ prose:
           label: "Add Category"
           placeholder: "Choose Categories"
           options:
-            - name: "Milacronn"
+            - name: "Milacron"
               value: "milacron"
             - name: "Other"
               value: "other"
+            - name: "Cat"
+              value: "cat"
       - name: "tags"
         field:
           element: "multiselect"
