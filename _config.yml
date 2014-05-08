@@ -4,7 +4,7 @@ pygments: true
 port: 4002
 exclude: ["vendor", "node_modules"]
 prose:
-  rooturl: '.'
+  rooturl: ' '
   siteurl: 'http://milacron.crossroads.net/'
   relativeLinks: ''
   metadata:  
