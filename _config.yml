@@ -42,7 +42,7 @@ prose:
           element: "text"
           label: "Title"
           value: ""
-    _posts:
+    _posts:  
       - name: "published"
         field:
           element: "hidden"
@@ -86,12 +86,12 @@ prose:
               value: "css"
             - name: "JavaScript"
               value: "javascript"  
-       - name: "permalink"
-         field:
-            element: "text"
-            label: "File Link"
-            placeholder: "Add perma link"
-            value: ""
+      - name: "permalink"
+        field:
+          element: "text"
+          label: "File Link"
+          placeholder: "Add perma link"
+          value: ""  
     _posts/static:
       - name: "published"
         field:
@@ -136,10 +136,10 @@ prose:
               value: "css"
             - name: "JavaScript"
               value: "javascript"  
-              - name: "permalink"
+      - name: "permalink"
         field:
-           element: "text"
-           label: "File Link"
-           placeholder: "Add perma link"
-           value: ""
+          element: "text"
+          label: "File Link"
+          placeholder: "Add perma link"
+          value: ""
      
