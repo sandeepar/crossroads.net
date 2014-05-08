@@ -29,9 +29,9 @@ prose:
           value: ""
       - name: "title"
         field:
-          element: "checkbox"
-          label: "Allow Comments"
-          value: "true"  
+          element: "text"
+          label: "Title"
+          value: ""  
     _layouts:
       - name: "layout"
         field:
@@ -39,20 +39,20 @@ prose:
           value: ""
       - name: "title"
         field:
-          element: "checkbox"
-          label: "Allow Comments"
-          value: "true"
+          element: "text"
+          label: "Title"
+          value: ""
     _posts:
       - name: "layout"
         field:
           element: "hidden"
           value: "post"
-      - name: "title"
+      - name: "comment"
         field:
           element: "checkbox"
           label: "Allow Comments"
           value: "true"
-      - name: "comment"
+      - name: "title"
         field:
           element: "text"
           label: "Title"
