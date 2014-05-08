@@ -8,6 +8,18 @@ prose:
   relativeLinks: ''  
   ignore:  
     - _drafts  
+    - clientside
+    - fonts
+    - .bowerrc
+    - .gitignore
+    - Gemfile
+    - Gemfile.lock
+    - Gruntfile.js
+    - README.md
+    - bower.json
+    - config.rb
+    - favicon.ico
+    - index.html
     - package.json
   metadata:  
     _posts:
