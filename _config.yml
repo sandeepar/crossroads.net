@@ -56,7 +56,7 @@ prose:
         field:
           element: "text"
           label: "Title"
-          value: ""
+          value: "true"
       - name: "categories"
         field:
           element: "multiselect"
