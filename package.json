@@ -4,9 +4,17 @@
     "repository": "https://github.com/crdschurch/crossroads.net.git",
     "author": "aravind666 <aravind.udayashankara@gmail.com>",
     "devDependencies": {
-        "grunt-contrib-uglify": "latest",
-    	"grunt-contrib-compass": "latest",
-    	"grunt-contrib-cssmin": "latest",
-        "grunt": "latest"
+      "protractor": ">=0.8.0",
+      "jasmine-given": "~2.1.0",
+      "lineman": ">= 0.28.0",
+      "lineman-angular": ">= 0.2.0",
+      "lineman-less": "0.0.1",
+      "coffee-script": "~1.6.3",
+      "lineman-bower": "0.0.3",
+      "grunt-jekyll": "latest"
+    },
+    "scripts": {
+      "start": "lineman run",
+      "test": "lineman spec-ci"
     }
 }

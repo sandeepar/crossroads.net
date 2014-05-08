@@ -1,6 +1,7 @@
 _site/
 clientside/vendor/
 .sass-cache/
+generated/
 clientside/stylesheets/
 node_modules
 nbproject/
