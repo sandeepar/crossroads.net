@@ -22,12 +22,6 @@ prose:
     - index.html
     - package.json
   metadata:  
-    _includes:
-      - name: "title"
-        field:
-          element: "text"
-          label: "Title"
-          value: ""  
     _layouts:
       - name: "layout"
         field:
