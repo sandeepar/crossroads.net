@@ -4,11 +4,11 @@ pygments: true
 port: 4002
 exclude: ["vendor", "node_modules"]
 prose:
-  rooturl: '_posts'
+  rooturl: '_includes'
   siteurl: 'http://milacron.crossroads.net/'
   relativeLinks: ''
   metadata:
-    _posts:
+    _includes:
       - name: "layout"
         field:
           element: "hidden"
@@ -46,29 +46,4 @@ prose:
             - name: "CSS"
               value: "css"
             - name: "JavaScript"
-              value: "javascript"
-    _posts/static:
-      - name: "layout"
-        field:
-          element: "hidden"
-          value: "default"
-      - name: "title"
-        field:
-          element: "text"
-          label: "Title"
-          value: ""
-      - name: "permalink"
-        field:
-          element: "text"
-          label: "Permalink"
-          value: ""  
-    _includes:
-      - name: "layout"
-        field:
-          element: "hidden"
-          value: "default"
-      - name: "title"
-        field:
-          element: "text"
-          label: "Title"
-          value: ""
+              value: "javascript"  
