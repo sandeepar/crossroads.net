@@ -22,17 +22,27 @@ prose:
     - index.html
     - package.json
   metadata:  
-    _posts:
+    _includes:
       - name: "layout"  
         field:
           element: "hidden"
-          value: "post"
+          value: ""
+      - name: "title"
+        field:
+          element: "checkbox"
+          label: "Allow Comments"
+          value: "true"  
+    _layouts:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: ""
       - name: "title"
         field:
           element: "checkbox"
           label: "Allow Comments"
           value: "true"
-    _includes:
+    _posts:
       - name: "layout"
         field:
           element: "hidden"
