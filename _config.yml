@@ -23,10 +23,6 @@ prose:
     - package.json
   metadata:  
     _includes:
-      - name: "layout"  
-        field:
-          element: "hidden"
-          value: ""
       - name: "title"
         field:
           element: "text"
