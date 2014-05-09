@@ -9,6 +9,13 @@ crossroads.net uses LinemanJs to manage and run things in local development.
 
 For more information about Lineman visit: http://linemanjs.com
 
+### Prerequisites
+* npm (comes with node, http://nodejs.org/)
+
+### Setup
+* ```npm install```
+* you may want to install lineman globally, ```sudo npm -g install lineman```
+
 ### Running the project
 To run the project use: ```lineman run```
 
