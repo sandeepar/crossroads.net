@@ -61,6 +61,7 @@ module.exports = function(lineman) {
         options: {
           src: 'app',
           dest: 'generated',
+          bundleExec: true,
           config: 'config/_config.yml'
         }
       }
