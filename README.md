@@ -26,3 +26,7 @@ coffeescript into javascript and run jkyll-build as well.
 To run specs use: ```lineman spec```
 
 This will start the Testem spec runner.
+
+### Running specs headlessly
+```lineman spec-ci```
+This uses phantomjs, which you will need to have installed.
