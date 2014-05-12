@@ -30,3 +30,7 @@ This will start the Testem spec runner.
 ### Running specs headlessly
 ```lineman spec-ci```
 This uses phantomjs, which you will need to have installed.
+
+### Codeship
+We're on the codeship. The project is at: https://www.codeship.io/projects/20882. Codeship
+is setup to automatically deploy to heroku at: http://crdschurch-dev2.herokuapp.com/
