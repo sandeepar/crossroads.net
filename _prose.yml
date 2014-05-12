@@ -29,6 +29,9 @@ prose:
           element: "text"
           label: "Title"
           value: ""
+    "":
+      - name: "layout"
+      - name: "published"
     _posts:
       - name: "published"
         field:
