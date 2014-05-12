@@ -19,64 +19,63 @@ prose:
     - package.json
     - _config.yml
   metadata:
-    app:
-      _layouts:
-        - name: "layout"
-          field:
-            element: "hidden"
-            value: ""
-        - name: "title"
-          field:
-            element: "text"
-            label: "Title"
-            value: ""
-      _posts:
-        - name: "published"
-          field:
-            element: "hidden"
-            value: "true"
-        - name: "layout"
-          field:
-            element: "hidden"
-            value: "post"
-        - name: "comment"
-          field:
-            element: "checkbox"
-            label: "Allow Comments"
-            value: "true"
-        - name: "title"
-          field:
-            element: "text"
-            label: "Title"
-            value: ""
-            placeholder: "Add title"
-        - name: "categories"
-          field:
-            element: "multiselect"
-            label: "Add Category"
-            placeholder: "Choose Categories"
-            options:
-              - name: "Milacron"
-                value: "milacron"
-              - name: "Other"
-                value: "other"
-        - name: "tags"
-          field:
-            element: "multiselect"
-            label: "Add Tags"
-            placeholder: "Choose Tags"
-            options:
-              - name: "Framework"
-                value: "framework"
-              - name: "Preprocessors"
-                value: "preprocessors"
-              - name: "CSS"
-                value: "css"
-              - name: "JavaScript"
-                value: "javascript"
-        - name: "permalink"
-          field:
-            element: "text"
-            label: "File Link"
-            placeholder: "Add perma link"
-            value: ""
+    "app/_layouts":
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: ""
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          value: ""
+    "app/_posts":
+      - name: "published"
+        field:
+          element: "hidden"
+          value: "true"
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
+      - name: "comment"
+        field:
+          element: "checkbox"
+          label: "Allow Comments"
+          value: "true"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          value: ""
+          placeholder: "Add title"
+      - name: "categories"
+        field:
+          element: "multiselect"
+          label: "Add Category"
+          placeholder: "Choose Categories"
+          options:
+            - name: "Milacron"
+              value: "milacron"
+            - name: "Other"
+              value: "other"
+      - name: "tags"
+        field:
+          element: "multiselect"
+          label: "Add Tags"
+          placeholder: "Choose Tags"
+          options:
+            - name: "Framework"
+              value: "framework"
+            - name: "Preprocessors"
+              value: "preprocessors"
+            - name: "CSS"
+              value: "css"
+            - name: "JavaScript"
+              value: "javascript"
+      - name: "permalink"
+        field:
+          element: "text"
+          label: "File Link"
+          placeholder: "Add perma link"
+          value: ""
