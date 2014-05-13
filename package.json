@@ -13,6 +13,9 @@
       "lineman-bower": "0.0.3",
       "grunt-jekyll": "latest"
     },
+    "dependencies": {
+      "http-server": "latest"
+    },
     "scripts": {
       "start": "lineman run",
       "test": "lineman spec-ci"
