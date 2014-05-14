@@ -71,7 +71,7 @@ module.exports = function(lineman) {
         files: [
           "app/**/*.md",
           "app/**/*.markdown",
-          "app/clientside/**/*.css",
+          "app/css/**/*.css",
           "app/**/*.html"
         ],
         tasks: ["jekyll:build"],

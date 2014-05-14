@@ -18,14 +18,6 @@ module.exports = function(lineman) {
         "app/js/app.js",
         "app/js/**/*.js"
       ]
-    },
-
-    less: {
-      compile: {
-        options: {
-          paths: ["vendor/css/normalize.css", "vendor/css/**/*.css", "app/css/**/*.less"]
-        }
-      }
     }
   };
 };
