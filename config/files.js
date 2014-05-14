@@ -10,7 +10,8 @@ module.exports = function(lineman) {
   return {
     js: {
       vendor: [
-        "vendor/js/angular.js",
+        "vendor/js/underscore.js",
+        "vendor/bower/angular/angular.js",
         "vendor/js/**/*.js"
       ],
       app: [
