@@ -34,13 +34,21 @@ module.exports = function(lineman) {
     // following line:
     //
     enableSass: true,
+    //ACTION: need to update this to generate a minified version once dev is complete
     sass: {
       compile: {
         options: {
-          loadPath: ["app/css", "vendor/css", "vendor/bower/bootstrap-sass/vendor/assets/stylesheets"]
+          noCache: true
+        },
+        files: {
+          'app/css/main.css': 'app/_scss/main.scss',
+          'generated/css/main.css': 'app/_scss/main.scss'
         }
       }
     },
+
+
+
     server: {
       pushState: true
       // API Proxying
@@ -71,11 +79,14 @@ module.exports = function(lineman) {
         files: [
           "app/**/*.md",
           "app/**/*.markdown",
-          "app/css/**/*.css",
           "app/**/*.html"
         ],
         tasks: ["jekyll:build"],
-      }
+      },
+      scss: {
+        files: 'app/_scss/*.scss',
+        tasks: ['sass:compile']
+      },      
     }
     // Asset Fingerprints
     //
