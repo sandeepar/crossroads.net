@@ -40,9 +40,10 @@ module.exports = function(lineman) {
         options: {
           noCache: true
         },
-        files: {
-          'app/css/main.css': 'app/_scss/main.scss',
-          'generated/css/main.css': 'app/_scss/main.scss'
+        dist: {
+          files: {
+            'generated/css/main.css': 'app/css/main.scss'
+          }
         }
       }
     },
@@ -81,12 +82,12 @@ module.exports = function(lineman) {
           "app/**/*.markdown",
           "app/**/*.html"
         ],
-        tasks: ["jekyll:build"],
+        tasks: ["jekyll:build", "sass:compile"],
       },
       scss: {
-        files: 'app/_scss/*.scss',
+        files: 'app/css/*.scss',
         tasks: ['sass:compile']
-      },      
+      },
     }
     // Asset Fingerprints
     //
