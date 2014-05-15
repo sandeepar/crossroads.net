@@ -18,6 +18,11 @@ prose:
     - index.html
     - package.json
     - _config.yml
+    - css
+    - img
+    - js
+    - static
+    - templates
   metadata:
     "app/_layouts":
       - name: "layout"
