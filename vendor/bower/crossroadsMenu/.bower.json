@@ -1,0 +1,31 @@
+{
+  "name": "crossroadsMenu",
+  "main": "dist/crossroadsMenu.js",
+  "ignore": [
+    "app",
+    "config",
+    "spec",
+    "tasks",
+    ".travis.yml",
+    "Gruntfile.js",
+    "main.js",
+    "package.json"
+  ],
+  "dependencies": {
+    "angular": "*"
+  },
+  "devDependencies": {
+    "angular-mocks": "*",
+    "jquery": "*"
+  },
+  "homepage": "https://github.com/crdschurch/crdschurch-menu",
+  "_release": "f541a7d7a1",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "f541a7d7a156e96314b25ac0cf93ec99363861d1"
+  },
+  "_source": "git://github.com/crdschurch/crdschurch-menu.git",
+  "_target": "*",
+  "_originalSource": "git://github.com/crdschurch/crdschurch-menu.git"
+}

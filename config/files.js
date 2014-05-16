@@ -12,6 +12,7 @@ module.exports = function(lineman) {
       vendor: [
         "vendor/js/underscore.js",
         "vendor/bower/angular/angular.js",
+        "vendor/bower/crossroadsMenu/dist/crossroadsMenu.js",
         "vendor/js/**/*.js"
       ],
       app: [
