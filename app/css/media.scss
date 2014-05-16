@@ -1,24 +1,20 @@
 
-.series-list {
+.media-list {
 	list-style: none;
 	padding: 0;
+
+	li{
+		margin-bottom: 15px;
+		padding-top: 15px;
+	}
+
+	li img {
+	width: 100%;
+	}
+
+	li:hover {
+		background-color: #F8F8F8;
+	}
 }
-.series-list li img {width: 100%;}
-
-/* Small devices (tablets, 768px and up) */
-@media (max-width: 767px) { 
-	.series-list li{
-		width: 50%;
-		float: left;
-		margin-bottom: 30px;
-		display: block;
-	}
-	.series-list li:nth-child(odd) {
-		margin-right: 2%;
-		clear: left;
-	}
- }
-
-
 
 .container-max {max-width: 1170px;}
