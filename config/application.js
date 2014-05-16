@@ -13,6 +13,7 @@
  */
 module.exports = function(lineman) {
   //Override application configuration here. Common examples follow in the comments.
+  var app = lineman.config.application;
   return {
     // grunt-angular-templates assumes your module is named "app", but
     // you can override it like so:
@@ -23,9 +24,9 @@ module.exports = function(lineman) {
     //   }
     // }
 
-    loadNpmTasks: lineman.config.application.loadNpmTasks.concat("grunt-jekyll"),
-    appendTasks: {
-      common: ["jekyll"],
+    loadNpmTasks: app.loadNpmTasks.concat("grunt-jekyll"),
+    prependTasks: {
+      common: ["jekyll"].concat(app.prependTasks.common)
     },
     // Sass
     //
@@ -40,11 +41,6 @@ module.exports = function(lineman) {
         options: {
           noCache: true
         },
-        dist: {
-          files: {
-            'generated/css/main.css': 'app/css/main.scss'
-          }
-        }
       }
     },
 
