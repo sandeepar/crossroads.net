@@ -3,7 +3,7 @@ layout: "one_column"
 ---
 <div>
 {% for post in site.tags[page.tag] %}
-  <div class="title">{{ post.title }}</div>
+  <div class="title"><a href="{{post.url}}">{{ post.title }}</a></div>
   <div class="author">{{ post.author }}</div>
   <div class="content">{{ post.content }}</div>
 {% endfor %}
