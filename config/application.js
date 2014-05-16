@@ -78,7 +78,7 @@ module.exports = function(lineman) {
           "app/**/*.markdown",
           "app/**/*.html"
         ],
-        tasks: ["jekyll:build", "coffee", "concat_sourcemap"],
+        tasks: ["jekyll:build", "sass:compile", "coffee", "concat_sourcemap"],
       },
       scss: {
         files: 'app/css/*.scss',
