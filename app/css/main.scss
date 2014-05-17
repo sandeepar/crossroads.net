@@ -8,6 +8,9 @@
 a:hover {
   text-decoration:none;
 }
+p {
+    -webkit-font-smoothing: antialiased;
+}
 .navbar{
 	z-index: 100;
 }
