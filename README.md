@@ -11,10 +11,13 @@ For more information about Lineman visit: http://linemanjs.com
 
 ### Prerequisites
 * npm (comes with node, http://nodejs.org/)
+* Ruby 2.0.0 (version 2.0.0-p451 or higher, https://www.ruby-lang.org)
 
 ### Setup
 * ```npm install```
 * you may want to install lineman globally, ```sudo npm -g install lineman```
+* ```gem install bundle```
+* ```bundle install```
 
 ### Running the project
 To run the project use: ```lineman run```
