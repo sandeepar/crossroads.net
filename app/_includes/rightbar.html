@@ -1,7 +1,6 @@
+<h3>Tags</h3>
 <ul>
-<li>Side bar content 1</li>
-<li>Side bar content 2</li>
-<li>Side bar content 3</li>
-<li>Side bar content 4</li>
-<li>Side bar content 5</li>
+  {% for tag in site.tags %}
+ <li><a href="/tags/{{tag[0]}}">{{ tag[0]  }}</a></li>
+{% endfor %}
 </ul>
