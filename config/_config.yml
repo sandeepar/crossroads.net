@@ -2,5 +2,6 @@ name: New Jekyll site for crossroads.net
 markdown: redcarpet
 pygments: true
 port: 4002
+relative_permalinks: false
 exclude: ["vendor", "node_modules", "*.scss", "*.coffee"]
 
