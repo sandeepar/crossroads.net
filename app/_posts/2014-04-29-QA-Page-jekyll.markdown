@@ -4,7 +4,8 @@ title:  "QA Page to Jekyll!"
 date:	2014-05-05 14:53:03
 published: true
 permalink: QA-Page-to-Jekyll
-categories: jekyll update
+tags:
+  - Fields of Gold
 ---
 
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
