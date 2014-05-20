@@ -4,7 +4,9 @@ highlighter: true
 port: 4002
 relative_permalinks: false
 exclude: ["vendor", "node_modules", "*.scss", "*.coffee"]
-collections:  
+collections:
+  content:
+    output: true
   messages:  
     output: true  
   series:  
