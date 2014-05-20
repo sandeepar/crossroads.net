@@ -1,7 +1,11 @@
 name: New Jekyll site for crossroads.net
 markdown: redcarpet
-pygments: true
+highlighter: true
 port: 4002
 relative_permalinks: false
 exclude: ["vendor", "node_modules", "*.scss", "*.coffee"]
-
+collections:  
+  messages:  
+    output: true  
+  series:  
+    output: true
