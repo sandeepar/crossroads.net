@@ -1,48 +1,94 @@
 .top-bar__nav {
-  list-style-type: none;
   #myhome {
-    width: 115px;
+    width: 120px;
   }
-  li {
+
+  .login {
+    padding-left: 0px;
+    float: left;
+  }
+
+  .dropdown {
     display: inline-block;
-    width: 60px;
+    width: auto;
     font-size: 80%;
     color: #292929;
-    a {
-      background: url('/img/bg_main_nav_left.png') 0 -9999px no-repeat;
+    & > a {
       display: inline-block;
-      padding-bottom: 10px;
-      padding-left: 7px;
-      position: relative;
-      z-index: 100;
-      margin-top: -6px;
-      span {
-        background: url(/img/bg_main_nav_right.png) right -9999px no-repeat;
-        padding-right: 9px;
+      position: relative;margin-bottom: 10px;
+      
+      padding: 7px 10px 7px 10px;
+      border-radius: 4px;
+      text-transform: uppercase;
+    }
+    &:hover > a {
+      color: #fff;
+      @include gradient(#7AA8C2, #4A81A0);
+      &:after {
+        content: "";
         display: block;
-        height: 25px;
-        padding-top: 3px;
-        text-transform: uppercase;
-      }
-      &:hover span {
-        background-position: 100% 0;
-        font-weight: bold;
-      }
-      &:hover {
-        color: #fff!important;
-        background-position: 0 0;
+        position: absolute;
+        left: 10px;
+        bottom: -12px;
+        width: 0;
+        height: 0;
+        border: 6px solid; 
+        border-color: #4A81A0 transparent transparent transparent;
       }
     }
   }
 }
 
-
+/*
+.mobile_menu {
+  color: #303030;
+  padding: 20px 18px 20px 46px;
+  background-position: 12px 14px;
+  background-repeat: no-repeat;
+  border-top: 1px solid rgba(255,255,255,0.05);
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+*/
 .dropdown .dropdown-menu {
-  display: block;
+  padding: 10px;
   opacity: 0;
+  display: block;
+  top: -100000px;
+  transition:opacity .2s ease 0.1s;
+  width: 460px;
 }
 
 .dropdown:hover .dropdown-menu {
-   opacity: 1;
-   transition:opacity 0.1s ease 0.1s;
+  opacity: 1;
+  top: calc(100% - 5px);
+}
+
+.primary h3 {
+  margin: 0px 0px 20px;
+  font-weight: 300;
+}
+
+.form-control {
+  border-radius: 0;
+  border-right-width: 0;
+  box-shadow: none;
+}
+
+.input-group {
+  margin: 10px 0px;
+}
+
+.input-group-addon{
+  background-color: #fff;
+  border-left-width: 0px;
+  border-radius: 0;
+}
+
+.submit {
+  @include gradient(#7AA8C2, #4A81A0);
+  color: #fff;
+}
+
+#remember_nav {
+  margin: 20px 0px 0px 0px;
 }
