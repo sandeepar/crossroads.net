@@ -6,9 +6,7 @@ published: true
 
 <h2>PAGES:</h2>
 <ul>
-	{% for page in site.pages %}
-  <li>
-  	<a href="{{ site.url }}{{ page.url }}" title="{{ page.url }}">{{ page.title }}</a>
-  </li>
-{% endfor %}
+    {% for content in site.content %}
+    <li> <a href="{{ content.url }}">{{ content.title }} </a></li>
+    {% endfor %}
 </ul>
