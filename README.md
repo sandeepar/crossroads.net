@@ -36,3 +36,9 @@ This uses phantomjs, which you will need to have installed.
 
 ### Codeship
 We're on the codeship. The project is at: https://www.codeship.io/projects/20882. Codeship is setup to automatically deploy to heroku at: http://crdschurch-dev2.herokuapp.com/
+
+### Setting up project on windows machine
+It takes a little extra effort to get Jekyll running on a windows machine.  These resources were helpful...
+* http://yizeng.me/2013/05/10/setup-jekyll-on-windows/
+* https://github.com/juthilo/run-jekyll-on-windows/
+* http://www.madhur.co.in/blog/2011/09/01/runningjekyllwindows.html
