@@ -7,6 +7,8 @@
     "spec",
     "tasks",
     ".travis.yml",
+    "Gemfile",
+    "Gemfile.lock",
     "Gruntfile.js",
     "main.js",
     "package.json"
@@ -19,11 +21,11 @@
     "jquery": "*"
   },
   "homepage": "https://github.com/crdschurch/crdschurch-menu",
-  "_release": "f541a7d7a1",
+  "_release": "24226f2a20",
   "_resolution": {
     "type": "branch",
     "branch": "master",
-    "commit": "f541a7d7a156e96314b25ac0cf93ec99363861d1"
+    "commit": "24226f2a208c795010132ccdd378f9fd9e0a4cea"
   },
   "_source": "git://github.com/crdschurch/crdschurch-menu.git",
   "_target": "*",

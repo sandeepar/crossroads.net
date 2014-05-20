@@ -1,0 +1,48 @@
+f.top-bar__nav {
+  list-style-type: none;
+  #myhome {
+    width: 115px;
+  }
+  li {
+    display: inline-block;
+    width: 60px;
+    font-size: 80%;
+    color: #292929;
+    a {
+      background: url('/img/bg_main_nav_left.png') 0 -9999px no-repeat;
+      display: inline-block;
+      padding-bottom: 10px;
+      padding-left: 7px;
+      position: relative;
+      z-index: 100;
+      margin-top: -6px;
+      span {
+        background: url(/img/bg_main_nav_right.png) right -9999px no-repeat;
+        padding-right: 9px;
+        display: block;
+        height: 25px;
+        padding-top: 3px;
+        text-transform: uppercase;
+      }
+      &:hover span {
+        background-position: 100% 0;
+        font-weight: bold;
+      }
+      &:hover {
+        color: #fff!important;
+        background-position: 0 0;
+      }
+    }
+  }
+}
+
+
+.dropdown .dropdown-menu {
+  display: block;
+  opacity: 0;
+}
+
+.dropdown:hover .dropdown-menu {
+   opacity: 1;
+   transition:opacity 0.1s ease 0.1s;
+}
