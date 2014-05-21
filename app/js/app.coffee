@@ -1,7 +1,7 @@
 crossroads = angular.module "crossroads", ["crossroadsMenu"]
 
-crossroads.controller "MainCtrl", ($scope)->
-  $scope.menus = 
+crossroads.controller "MainCtrl", ->
+  @menus = 
     headings: [
       {
         title: "My Crossroads"
