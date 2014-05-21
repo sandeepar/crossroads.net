@@ -68,3 +68,4 @@ crossroads.controller "MainCtrl", ->
         link: "#"
       }
     ]
+  return
