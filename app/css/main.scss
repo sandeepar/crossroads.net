@@ -7,12 +7,12 @@
 @import 'nav';
 
 // @import 'block-grid';
+body {
+  font-family: 'Roboto', 'Helvetica Neue', 'Arial', san-serif;
+}
 
 a:hover {
   text-decoration:none;
-}
-p {
-    -webkit-font-smoothing: antialiased;
 }
 .navbar{
 	z-index: 100;
