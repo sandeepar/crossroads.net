@@ -11,6 +11,7 @@ module.exports = function(lineman) {
     js: {
       vendor: [
         "vendor/js/underscore.js",
+        "vendor/js/mediaelement-and-player.min.js",
         "vendor/bower/angular/angular.js",
         "vendor/bower/crossroadsMenu/dist/crossroadsMenu.js",
         "vendor/js/**/*.js"
