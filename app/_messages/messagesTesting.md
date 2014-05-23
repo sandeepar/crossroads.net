@@ -1,5 +1,5 @@
 ---
-layout: right_column
+layout: media
 published: true
 title: My message location
 permalink: /my-message/
