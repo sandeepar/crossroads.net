@@ -1,0 +1,31 @@
+---
+layout: one_column
+---
+
+<h1>{{ page.title }}</h1>
+<p class="text-muted">{{ page.description }}</p>
+
+<div class="series-message-vid" id="series2vid2">
+    <video width="100%" height="50%" id="player2"
+        poster="{{ page.backgroundImage }}"
+        controls="controls" preload="none">
+      <!-- MP4 source must come first for iOS -->
+    <source src="{{ page.video }}" type="{{ page.videoType }}" />
+    <!-- Fallback flash player for no-HTML5 browsers with JavaScript turned off -->
+    <object width="100%" type="application/x-shockwave-flash" data="/img/flashmediaelement.swf">
+    <param name="movie" value="/img/flashmediaelement.swf" />
+    <param name="flashvars" value="controls=true&amp;file={{ page.video }}" />
+    <!-- Image fall back for non-HTML5 browser with JavaScript turned off and no Flash player installed -->
+    <img src="{{ page.backgroundImage }}"
+	width="100%" alt="hi"
+	title="No video playback capabilities" />
+    </object>
+    </video>
+</div>
+
+<p class="text-muted small">{{ page.startDate }}</p>
+
+<a href="{{ page.audio }}">Download Audio (mp3)</a><br>
+<a href="{{ page.video }}">Download Video (mp4)</a><br>
+<a href="{{ page.programLink }}">View Program (pdf)</a><br>
+<a href="#">Share</a>
