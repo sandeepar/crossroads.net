@@ -14,26 +14,3 @@ categories:
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>	
-
-<h1>Collections</h1>
-
-<h3>Messages</h3>
-
-
-  <ul>
-    {% for message in site.messages %}
-    <li>{{ message.startDate }} to {{ message.endDate }} <br>
-            <a href="{{ message.url }}">{{ message.title }}</a></li>
-    {% endfor %}
-  </ul>
-
-
-<h3>Series</h3>
-
-
-   <ul>
-    {% for series in site.series %}
-            <li>{{ series.startDate }} to {{ series.endDate }} <br>
-            <a href="{{ series.url }}">{{ series.title }}</a></li>
-    {% endfor %}
-  </ul>
