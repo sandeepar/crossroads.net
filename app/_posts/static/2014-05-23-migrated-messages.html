@@ -1,0 +1,17 @@
+---
+layout: right_column
+title: Migrated Messages
+published: true
+permalink: migrated-messages
+categories:
+---
+
+
+<h3>Messages</h3>
+
+
+  <ul>
+    {% for message in site.messages %}
+           <li> <a href="{{ message.url }}">{{ message.title }}</a></li>
+    {% endfor %}
+  </ul>
