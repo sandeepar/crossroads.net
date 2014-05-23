@@ -1,3 +1,7 @@
-<div ng-controller="MainCtrl">
-  <div id="menu" crds-menu="menus"></div>
+<div ng-controller="MainCtrl as main">
+  <div id="menu" crds-menu="main.menus"></div>
 </div>
+
+<script>
+  window.menuData = {{site.data.menu | jsonify}}
+</script>
