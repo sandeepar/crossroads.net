@@ -4,14 +4,8 @@ category: message
 series: "Morph"
 title: "The Meaning of Morph"
 date: 2007-01-20
-audio-description: "Chuck Mingo talks about how the new man is a team player."
-audio: "http://www.crossroads.net/players/media/hq/thenewman_04.mp3"
-audio-title: "Team Player"
-audio-duration: "&#58;"
-program-description: "Program - The New Man WK 4"
-program: "http://www.crossroads.net/players/media/hq/05_17-18_14Program_LO.pdf"
-program-title: "Team Player"
-video-description: "Chuck Mingo talks about how the new man is a team player."
-video-title: "Team Player"
-video: "https://s3.amazonaws.com/crossroadsvideomessages/thenewman_04.mp4"
+audio-description: "Change is frequently uncomfortable, often awkward and ultimately inevitable. Whether you desire change or not, it's a constant in your world, so you might as well embrace it. Welcome it, even, because change can be a very good thing. Join us in January an"
+audio: "http://www.crossroads.net/audio/2007/2007_01_Morph/Morph_03_The_Meaning_of_Morph_01-21-07_Tome.mp3"
+audio-title: "The Meaning of Morph"
+audio-duration: "34&#58;57"
 ---

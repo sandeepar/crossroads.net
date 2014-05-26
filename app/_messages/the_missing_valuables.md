@@ -4,14 +4,8 @@ category: message
 series: "Stuff Jesus Made Up"
 title: "The Missing Valuables"
 date: 2002-02-02
-audio-description: "Chuck Mingo talks about how the new man is a team player."
-audio: "http://www.crossroads.net/players/media/hq/thenewman_04.mp3"
-audio-title: "Team Player"
+audio-description: "Dig into the truths behind these ancient stories and see how they relate to our lives today.  "
+audio: ""
+audio-title: "The Missing Valuables"
 audio-duration: "&#58;"
-program-description: "Program - The New Man WK 4"
-program: "http://www.crossroads.net/players/media/hq/05_17-18_14Program_LO.pdf"
-program-title: "Team Player"
-video-description: "Chuck Mingo talks about how the new man is a team player."
-video-title: "Team Player"
-video: "https://s3.amazonaws.com/crossroadsvideomessages/thenewman_04.mp4"
 ---

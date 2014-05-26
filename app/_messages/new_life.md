@@ -4,14 +4,8 @@ category: message
 series: "The Life"
 title: "New Life"
 date: 2005-03-05
-audio-description: "Chuck Mingo talks about how the new man is a team player."
-audio: "http://www.crossroads.net/players/media/hq/thenewman_04.mp3"
-audio-title: "Team Player"
-audio-duration: "&#58;"
-program-description: "Program - The New Man WK 4"
-program: "http://www.crossroads.net/players/media/hq/05_17-18_14Program_LO.pdf"
-program-title: "Team Player"
-video-description: "Chuck Mingo talks about how the new man is a team player."
-video-title: "Team Player"
-video: "https://s3.amazonaws.com/crossroadsvideomessages/thenewman_04.mp4"
+audio-description: "Who was this guy Jesus and what was he really like? What did he really do? What did he really say? Jesus came so we could have life, and have it to the full. Great. So what does that mean? From late February through mid April we'll look at how Jesus talke"
+audio: "http://www.crossroads.net/audio/2005/2005_03_The_Life/The_Life_02_03-05-05_New_Life.mp3"
+audio-title: "New Life"
+audio-duration: "33&#58;33"
 ---

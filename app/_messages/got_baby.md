@@ -4,14 +4,8 @@ category: message
 series: "Got Christmas?"
 title: "Got Baby?"
 date: 2002-12-07
-audio-description: "Chuck Mingo talks about how the new man is a team player."
-audio: "http://www.crossroads.net/players/media/hq/thenewman_04.mp3"
-audio-title: "Team Player"
-audio-duration: "&#58;"
-program-description: "Program - The New Man WK 4"
-program: "http://www.crossroads.net/players/media/hq/05_17-18_14Program_LO.pdf"
-program-title: "Team Player"
-video-description: "Chuck Mingo talks about how the new man is a team player."
-video-title: "Team Player"
-video: "https://s3.amazonaws.com/crossroadsvideomessages/thenewman_04.mp4"
+audio-description: "Delve into the key staples of the Christmas story."
+audio: "http://s3.amazonaws.com/crossroadsaudiomessages/Got Baby Dec 7-8.mp3"
+audio-title: "Got Baby?"
+audio-duration: "38&#58;53"
 ---

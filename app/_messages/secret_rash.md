@@ -4,14 +4,8 @@ category: message
 series: "The Joneses"
 title: "Secret Rash"
 date: 2006-11-25
-audio-description: "Chuck Mingo talks about how the new man is a team player."
-audio: "http://www.crossroads.net/players/media/hq/thenewman_04.mp3"
-audio-title: "Team Player"
-audio-duration: "&#58;"
-program-description: "Program - The New Man WK 4"
-program: "http://www.crossroads.net/players/media/hq/05_17-18_14Program_LO.pdf"
-program-title: "Team Player"
-video-description: "Chuck Mingo talks about how the new man is a team player."
-video-title: "Team Player"
-video: "https://s3.amazonaws.com/crossroadsvideomessages/thenewman_04.mp4"
+audio-description: "Do you know the Joneses? They live in bigger houses, drive nicer cars and wear more stylish clothes than you do. Try as you might to keep up, they always seem to be a few steps ahead. Might sound familiar, but the reality is that 'the Joneses' are a lie -"
+audio: "http://www.crossroads.net/audio/2006/2006_11_The_Joneses/The_Joneses_4_Secret_Rash_11-26-06_Tome.mp3"
+audio-title: "Secret Rash"
+audio-duration: "40&#58;26"
 ---

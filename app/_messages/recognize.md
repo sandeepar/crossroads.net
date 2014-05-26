@@ -4,14 +4,8 @@ category: message
 series: "Kingdom"
 title: "Recognize"
 date: 2007-02-18
-audio-description: "Chuck Mingo talks about how the new man is a team player."
-audio: "http://www.crossroads.net/players/media/hq/thenewman_04.mp3"
-audio-title: "Team Player"
-audio-duration: "&#58;"
-program-description: "Program - The New Man WK 4"
-program: "http://www.crossroads.net/players/media/hq/05_17-18_14Program_LO.pdf"
-program-title: "Team Player"
-video-description: "Chuck Mingo talks about how the new man is a team player."
-video-title: "Team Player"
-video: "https://s3.amazonaws.com/crossroadsvideomessages/thenewman_04.mp4"
+audio-description: "Jesus didn't come to bring a new religion. He came to start a revolution. He called it the ''Kingdom of God,'' and he said that it operates in a totally different way than the world we see around us. It's radical. It's counterintuitive. It's an alternativ"
+audio: "http://www.crossroads.net/audio/2007/2007_02_Kingdom/Kingdom_01_Recognize_02-18-07_Tome.mp3"
+audio-title: "Recognize"
+audio-duration: "48&#58;59"
 ---

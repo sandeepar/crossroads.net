@@ -4,14 +4,8 @@ category: message
 series: "Love Sex"
 title: "Hope"
 date: 2007-09-29
-audio-description: "Chuck Mingo talks about how the new man is a team player."
-audio: "http://www.crossroads.net/players/media/hq/thenewman_04.mp3"
-audio-title: "Team Player"
-audio-duration: "&#58;"
-program-description: "Program - The New Man WK 4"
-program: "http://www.crossroads.net/players/media/hq/05_17-18_14Program_LO.pdf"
-program-title: "Team Player"
-video-description: "Chuck Mingo talks about how the new man is a team player."
-video-title: "Team Player"
-video: "https://s3.amazonaws.com/crossroadsvideomessages/thenewman_04.mp4"
+audio-description: "God loves sex. Seriously. In fact, He wants you to have a great sex life. What does that mean? Over these five weeks we&apos;ll explore and expose the truths and lies about sex that circulate in our culture. There&apos;s healing and freedom waiting for us when we surrender our sex to God. It&apos;s sure to be eye-opening, a little uncomfortable and even fun."
+audio: "http://www.crossroads.net/audio/2007/2007_07_Love_Sex/Love_Sex_04_Hope_9_30_07_Brian_Tome.mp3"
+audio-title: "Hope"
+audio-duration: "50&#58;19"
 ---
