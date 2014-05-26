@@ -17,7 +17,4 @@ audio-description: ""
 audio: "http://s3.amazonaws.com/crossroadsaudiomessages/Pride_02_06-16-08_Alli_Patterson_webaudio.mp3"
 audio-title: "Pride (Week Two)"
 audio-duration: "48&#58;15"
---- One (Week Two)."
-program: "http://www.crossroads.net/players/media/hq/0712_13Program.pdf"
-program-title: "One (Week Two) - Program"
 ---
