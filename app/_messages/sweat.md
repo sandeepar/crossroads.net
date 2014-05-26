@@ -4,14 +4,8 @@ category: message
 series: "The Drive"
 title: "Sweat"
 date: 2008-01-27
-audio-description: "Chuck Mingo talks about how the new man is a team player."
-audio: "http://www.crossroads.net/players/media/hq/thenewman_04.mp3"
-audio-title: "Team Player"
-audio-duration: "&#58;"
-program-description: "Program - The New Man WK 4"
-program: "http://www.crossroads.net/players/media/hq/05_17-18_14Program_LO.pdf"
-program-title: "Team Player"
-video-description: "Chuck Mingo talks about how the new man is a team player."
-video-title: "Team Player"
-video: "https://s3.amazonaws.com/crossroadsvideomessages/thenewman_04.mp4"
+audio-description: ""
+audio: "http://s3.amazonaws.com/crossroadsaudiomessages/The_Drive_04_Sweat_01-27-08_Brian_Tome_webaudio.mp3"
+audio-title: "Sweat"
+audio-duration: "33&#58;44"
 ---

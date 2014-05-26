@@ -4,14 +4,8 @@ category: message
 series: "Going Crazy"
 title: "Surrender To Reality"
 date: 2004-04-18
-audio-description: "Chuck Mingo talks about how the new man is a team player."
-audio: "http://www.crossroads.net/players/media/hq/thenewman_04.mp3"
-audio-title: "Team Player"
-audio-duration: "&#58;"
-program-description: "Program - The New Man WK 4"
-program: "http://www.crossroads.net/players/media/hq/05_17-18_14Program_LO.pdf"
-program-title: "Team Player"
-video-description: "Chuck Mingo talks about how the new man is a team player."
-video-title: "Team Player"
-video: "https://s3.amazonaws.com/crossroadsvideomessages/thenewman_04.mp4"
+audio-description: "Can a local church really make a difference in someone's life? How about an entire family? How about a neighborhood, a city or a nation? Hey, how about the whole world? Sounds crazy doesn't it? Join us during this series as we look at where Crossroads is "
+audio: "http://www.crossroads.net/audio/2004/2004_05_Going_Crazy/GC_01_04-18-04_Surrender_to_Reality.mp3"
+audio-title: "Surrender To Reality"
+audio-duration: "39&#58;21"
 ---

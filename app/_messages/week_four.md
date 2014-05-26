@@ -1,17 +1,20 @@
 ---
 layout: message
 category: message
-series: "One"
+series: "Pride"
 title: "Week Four"
-date: 2008-07-27
-audio-description: "Chuck Mingo talks about how the new man is a team player."
-audio: "http://www.crossroads.net/players/media/hq/thenewman_04.mp3"
-audio-title: "Team Player"
-audio-duration: "&#58;"
-program-description: "Program - The New Man WK 4"
-program: "http://www.crossroads.net/players/media/hq/05_17-18_14Program_LO.pdf"
-program-title: "Team Player"
-video-description: "Chuck Mingo talks about how the new man is a team player."
-video-title: "Team Player"
-video: "https://s3.amazonaws.com/crossroadsvideomessages/thenewman_04.mp4"
------
+date: 2008-06-28
+audio-description: "Chuck Mingo discusses how pride and anxiety have played out in his life."
+audio: "http://s3.amazonaws.com/crossroadsaudiomessages/Pride_04_06-29-08_Chuck_Mingo_webaudio.mp3"
+audio-title: "Pride (Week Four)"
+audio-duration: "43&#58;10"
+video-description: "Chuck Mingo discusses the connection between anxiety and pride and how each has played out in his life."
+video-title: "Pride (Week Four)"
+video: "http://s3.amazonaws.com/crossroadsvideomessages/Pride4.mp4"
+notes-description: " "
+notes: "http://www.crossroads.net/players/media/hq/SN_06-28-08.pdf "
+notes-title: "Pride (Week Four) - Study Notes"
+program-description: ""
+program: "http://www.crossroads.net/players/media/hq/0628_29Program.pdf"
+program-title: "Pride (Week Four) - Program"
+---

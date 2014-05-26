@@ -4,14 +4,8 @@ category: message
 series: "CSI"
 title: "Evidence of a Blind-Spot"
 date: 2004-11-27
-audio-description: "Chuck Mingo talks about how the new man is a team player."
-audio: "http://www.crossroads.net/players/media/hq/thenewman_04.mp3"
-audio-title: "Team Player"
-audio-duration: "&#58;"
-program-description: "Program - The New Man WK 4"
-program: "http://www.crossroads.net/players/media/hq/05_17-18_14Program_LO.pdf"
-program-title: "Team Player"
-video-description: "Chuck Mingo talks about how the new man is a team player."
-video-title: "Team Player"
-video: "https://s3.amazonaws.com/crossroadsvideomessages/thenewman_04.mp4"
+audio-description: "It’s a dirty little secret. Success isn’t always what we thought it would be. In fact, sometimes success can be more destructive to us as than failure. Join us over these 5 weeks as we investigate the good and the bad evidence from a string of intriguing "
+audio: "http://www.crossroads.net/audio/2004/2004_10_CSI/CSI_05_11-27-04_Evidence_of_a_Blind_Spot.mp3"
+audio-title: "Evidence of a Blind-Spot"
+audio-duration: "39&#58;52"
 ---

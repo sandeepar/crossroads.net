@@ -4,14 +4,8 @@ category: message
 series: "Hero"
 title: "Worshipped"
 date: 2007-12-23
-audio-description: "Chuck Mingo talks about how the new man is a team player."
-audio: "http://www.crossroads.net/players/media/hq/thenewman_04.mp3"
-audio-title: "Team Player"
-audio-duration: "&#58;"
-program-description: "Program - The New Man WK 4"
-program: "http://www.crossroads.net/players/media/hq/05_17-18_14Program_LO.pdf"
-program-title: "Team Player"
-video-description: "Chuck Mingo talks about how the new man is a team player."
-video-title: "Team Player"
-video: "https://s3.amazonaws.com/crossroadsvideomessages/thenewman_04.mp4"
+audio-description: "Some people dropped everything to worship the hero."
+audio: "http://s3.amazonaws.com/crossroadsaudiomessages/Hero_3_Worshipped_12-16-07_Tome_webaudio.mp3"
+audio-title: "Worshipped"
+audio-duration: "33&#58;53"
 ---

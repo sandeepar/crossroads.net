@@ -4,14 +4,8 @@ category: message
 series: "Hard Work"
 title: "Dreams"
 date: 2006-07-22
-audio-description: "Chuck Mingo talks about how the new man is a team player."
-audio: "http://www.crossroads.net/players/media/hq/thenewman_04.mp3"
-audio-title: "Team Player"
-audio-duration: "&#58;"
-program-description: "Program - The New Man WK 4"
-program: "http://www.crossroads.net/players/media/hq/05_17-18_14Program_LO.pdf"
-program-title: "Team Player"
-video-description: "Chuck Mingo talks about how the new man is a team player."
-video-title: "Team Player"
-video: "https://s3.amazonaws.com/crossroadsvideomessages/thenewman_04.mp4"
+audio-description: "It's been said that nothing worth doing is easy. More often than not we find that it's only in taking on the really hard stuff and persevering through difficult situations that any meaningful growth occurs. Join us over the next few weeks as we take a loo"
+audio: "http://www.crossroads.net/audio/2006/2006_07_Hard_Work/Hard_Work_06_Dreams_07-23-06_Myers.mp3"
+audio-title: "Dreams"
+audio-duration: "40&#58;26"
 ---

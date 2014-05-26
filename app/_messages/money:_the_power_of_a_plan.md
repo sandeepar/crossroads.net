@@ -4,14 +4,8 @@ category: message
 series: "Handle with Care"
 title: "Money: The Power of a Plan"
 date: 2002-04-13
-audio-description: "Chuck Mingo talks about how the new man is a team player."
-audio: "http://www.crossroads.net/players/media/hq/thenewman_04.mp3"
-audio-title: "Team Player"
-audio-duration: "&#58;"
-program-description: "Program - The New Man WK 4"
-program: "http://www.crossroads.net/players/media/hq/05_17-18_14Program_LO.pdf"
-program-title: "Team Player"
-video-description: "Chuck Mingo talks about how the new man is a team player."
-video-title: "Team Player"
-video: "https://s3.amazonaws.com/crossroadsvideomessages/thenewman_04.mp4"
+audio-description: "Take a look at several powerful forces that we need to handle with care.  "
+audio: "http://s3.amazonaws.com/crossroadsaudiomessages/Power_of_a_Plan.mp3"
+audio-title: "Money&#58; The Power of a Plan"
+audio-duration: "38&#58;58"
 ---

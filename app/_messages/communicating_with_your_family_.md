@@ -4,14 +4,8 @@ category: message
 series: "Home for the Holidays"
 title: "Communicating with Your Family "
 date: 2000-12-02
-audio-description: "Chuck Mingo talks about how the new man is a team player."
-audio: "http://www.crossroads.net/players/media/hq/thenewman_04.mp3"
-audio-title: "Team Player"
+audio-description: "See how we can use our time at home during the holidays to develop healthier, more real relationships with our families. "
+audio: ""
+audio-title: "Communicating with Your Family "
 audio-duration: "&#58;"
-program-description: "Program - The New Man WK 4"
-program: "http://www.crossroads.net/players/media/hq/05_17-18_14Program_LO.pdf"
-program-title: "Team Player"
-video-description: "Chuck Mingo talks about how the new man is a team player."
-video-title: "Team Player"
-video: "https://s3.amazonaws.com/crossroadsvideomessages/thenewman_04.mp4"
 ---
