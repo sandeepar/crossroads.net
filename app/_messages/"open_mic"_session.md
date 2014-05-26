@@ -2,7 +2,7 @@
 layout: message
 category: message
 series: "Go Ahead and Ask"
-title: ""Open Mic" session"
+title: "Open Mic session"
 date: 2003-03-22
 audio-description: "Chuck Mingo talks about how the new man is a team player."
 audio: "http://www.crossroads.net/players/media/hq/thenewman_04.mp3"
