@@ -4,14 +4,8 @@ category: message
 series: "An Unexpected Interruption of Scandalous Love"
 title: "Celebration From Sacrifice"
 date: 2005-12-24
-audio-description: "Chuck Mingo talks about how the new man is a team player."
-audio: "http://www.crossroads.net/players/media/hq/thenewman_04.mp3"
-audio-title: "Team Player"
-audio-duration: "&#58;"
-program-description: "Program - The New Man WK 4"
-program: "http://www.crossroads.net/players/media/hq/05_17-18_14Program_LO.pdf"
-program-title: "Team Player"
-video-description: "Chuck Mingo talks about how the new man is a team player."
-video-title: "Team Player"
-video: "https://s3.amazonaws.com/crossroadsvideomessages/thenewman_04.mp4"
+audio-description: "Sometimes our world seems to be one giant contradiction. And Christmas is no different. It’s a time of warm family memories and fathers who don’t talk to their children. A time of being thankful for how much we have and hurt by how much we don’t. A time o"
+audio: "http://www.crossroads.net/audio/2005/2005_11_An_Unexpected_Interruption_Of_Scandalous_Love/AUIOSL_04_12-24-05_Celebration_From_Sacrifice.mp3"
+audio-title: "Celebration From Sacrifice"
+audio-duration: "24&#58;25"
 ---

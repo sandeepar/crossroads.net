@@ -4,14 +4,8 @@ category: message
 series: "Supermodels"
 title: "Warriors"
 date: 2003-06-07
-audio-description: "Chuck Mingo talks about how the new man is a team player."
-audio: "http://www.crossroads.net/players/media/hq/thenewman_04.mp3"
-audio-title: "Team Player"
-audio-duration: "&#58;"
-program-description: "Program - The New Man WK 4"
-program: "http://www.crossroads.net/players/media/hq/05_17-18_14Program_LO.pdf"
-program-title: "Team Player"
-video-description: "Chuck Mingo talks about how the new man is a team player."
-video-title: "Team Player"
-video: "https://s3.amazonaws.com/crossroadsvideomessages/thenewman_04.mp4"
+audio-description: "No, we're not doing our own web-cast fashion show. These are the real life models God uses to help shape us. Join us as we take a closer look at how we learn from and honor our own real life supermodels."
+audio: "http://www.crossroads.net/audio/2003%20-%20May%20-%20Supermodels/Supermodels_06-08-03_Warriors.mp3"
+audio-title: "Warriors"
+audio-duration: "23&#58;21"
 ---

@@ -4,14 +4,8 @@ category: message
 series: "United States Of Addiction"
 title: "State Of Emergency"
 date: 2004-10-02
-audio-description: "Chuck Mingo talks about how the new man is a team player."
-audio: "http://www.crossroads.net/players/media/hq/thenewman_04.mp3"
-audio-title: "Team Player"
-audio-duration: "&#58;"
-program-description: "Program - The New Man WK 4"
-program: "http://www.crossroads.net/players/media/hq/05_17-18_14Program_LO.pdf"
-program-title: "Team Player"
-video-description: "Chuck Mingo talks about how the new man is a team player."
-video-title: "Team Player"
-video: "https://s3.amazonaws.com/crossroadsvideomessages/thenewman_04.mp4"
+audio-description: "It’s no secret. Addictions seem to be everywhere. There are those of us that wrestle with the “big” stuff. Maybe its feeling trapped by drugs or alcohol. Or something like sex, overeating or gambling. And then there are some of us that struggle with not s"
+audio: "http://www.crossroads.net/audio/2004/2004_09_USA/USA_01_10-02-04_Emergency.mp3"
+audio-title: "State Of Emergency"
+audio-duration: "40&#58;37"
 ---

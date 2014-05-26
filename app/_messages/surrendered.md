@@ -4,14 +4,8 @@ category: message
 series: "I AM..."
 title: "Surrendered"
 date: 2008-04-20
-audio-description: "Chuck Mingo talks about how the new man is a team player."
-audio: "http://www.crossroads.net/players/media/hq/thenewman_04.mp3"
-audio-title: "Team Player"
-audio-duration: "&#58;"
-program-description: "Program - The New Man WK 4"
-program: "http://www.crossroads.net/players/media/hq/05_17-18_14Program_LO.pdf"
-program-title: "Team Player"
-video-description: "Chuck Mingo talks about how the new man is a team player."
-video-title: "Team Player"
-video: "https://s3.amazonaws.com/crossroadsvideomessages/thenewman_04.mp4"
+audio-description: "Jesus cannot simply be \"added-to\" our lives. When we choose to follow him, it requires that we continually \"die\" to our stuff and our ambitions. In this talk, Brian Tome shares what it looks like to surrender."
+audio: "http://s3.amazonaws.com/crossroadsaudiomessages/I_AM_3_Surrendered_04-20-08_Tome_webaudio.mp3"
+audio-title: "I AM... Surrendered"
+audio-duration: "34&#58;29"
 ---

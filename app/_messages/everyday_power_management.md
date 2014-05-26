@@ -4,14 +4,8 @@ category: message
 series: "Everyday Enron"
 title: "Everyday Power Management"
 date: 2003-02-22
-audio-description: "Chuck Mingo talks about how the new man is a team player."
-audio: "http://www.crossroads.net/players/media/hq/thenewman_04.mp3"
-audio-title: "Team Player"
-audio-duration: "&#58;"
-program-description: "Program - The New Man WK 4"
-program: "http://www.crossroads.net/players/media/hq/05_17-18_14Program_LO.pdf"
-program-title: "Team Player"
-video-description: "Chuck Mingo talks about how the new man is a team player."
-video-title: "Team Player"
-video: "https://s3.amazonaws.com/crossroadsvideomessages/thenewman_04.mp4"
+audio-description: "Lately, it seems the Wall Street Journal looks more like the National Enquirer. And, it doesn't stop with the business page. Whether its work, family or friendships, words like integrity and honesty seem to be distant memories."
+audio: "http://www.crossroads.net/audio/2003%20-%20February%20-%20Everyday%20Enron/02_02-23-93_Everyday_Power-Management.mp3"
+audio-title: "Everyday Power Management"
+audio-duration: "38&#58;44"
 ---
