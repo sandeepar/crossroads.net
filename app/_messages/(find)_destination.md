@@ -4,14 +4,8 @@ category: message
 series: "Seek"
 title: "(Find) Destination"
 date: 2007-08-11
-audio-description: "Chuck Mingo talks about how the new man is a team player."
-audio: "http://www.crossroads.net/players/media/hq/thenewman_04.mp3"
-audio-title: "Team Player"
-audio-duration: "&#58;"
-program-description: "Program - The New Man WK 4"
-program: "http://www.crossroads.net/players/media/hq/05_17-18_14Program_LO.pdf"
-program-title: "Team Player"
-video-description: "Chuck Mingo talks about how the new man is a team player."
-video-title: "Team Player"
-video: "https://s3.amazonaws.com/crossroadsvideomessages/thenewman_04.mp4"
+audio-description: "Crossroads is designed to be a place where we can all seek God, regardless of our starting point. Unfortunately, many of us have never had a healthy seeking process modeled for us. During this four-week series we'll explore the basics of seeking, from how"
+audio: "http://www.crossroads.net/audio/2007/2007_06_Seek/Seek_1_Find_08-12-07_Tome.mp3"
+audio-title: "(Find) Destination"
+audio-duration: "40&#58;02"
 ---

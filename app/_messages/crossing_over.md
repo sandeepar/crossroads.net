@@ -4,14 +4,8 @@ category: message
 series: "The New New Thing"
 title: "Crossing Over"
 date: 2004-03-20
-audio-description: "Chuck Mingo talks about how the new man is a team player."
-audio: "http://www.crossroads.net/players/media/hq/thenewman_04.mp3"
-audio-title: "Team Player"
-audio-duration: "&#58;"
-program-description: "Program - The New Man WK 4"
-program: "http://www.crossroads.net/players/media/hq/05_17-18_14Program_LO.pdf"
-program-title: "Team Player"
-video-description: "Chuck Mingo talks about how the new man is a team player."
-video-title: "Team Player"
-video: "https://s3.amazonaws.com/crossroadsvideomessages/thenewman_04.mp4"
+audio-description: "We’re drowning in Spirituality. It seems to be everywhere. You can’t walk 5 feet at Joseph Beth, or turn on the TV or go to a movie without bumping into someone’s new and improved take on the meaning of life. But at the core is any of it really new or imp"
+audio: "http://www.crossroads.net/audio/2004/2004_04_The_New_New_Thing/TNNT_01_03-21-04_Crossing_Over.mp3"
+audio-title: "Crossing Over"
+audio-duration: "39&#58;09"
 ---

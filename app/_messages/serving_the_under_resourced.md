@@ -4,14 +4,8 @@ category: message
 series: "Letter From a Revolutionary"
 title: "Serving the Under Resourced"
 date: 2003-08-02
-audio-description: "Chuck Mingo talks about how the new man is a team player."
-audio: "http://www.crossroads.net/players/media/hq/thenewman_04.mp3"
-audio-title: "Team Player"
-audio-duration: "&#58;"
-program-description: "Program - The New Man WK 4"
-program: "http://www.crossroads.net/players/media/hq/05_17-18_14Program_LO.pdf"
-program-title: "Team Player"
-video-description: "Chuck Mingo talks about how the new man is a team player."
-video-title: "Team Player"
-video: "https://s3.amazonaws.com/crossroadsvideomessages/thenewman_04.mp4"
+audio-description: "A look at themes such as temptation, patience, and anger from the Bible’s Book of James."
+audio: "http://www.crossroads.net/audio/2003%20-%20July%20-%20LFAR/LFAR_06_08-03-03_Serving_The_Under-Resourced.mp3"
+audio-title: "Serving the Under Resourced"
+audio-duration: "37&#58;04"
 ---

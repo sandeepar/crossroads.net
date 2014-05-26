@@ -4,14 +4,8 @@ category: message
 series: "Public Enemy"
 title: "Enemy Of The Elite"
 date: 2003-11-02
-audio-description: "Chuck Mingo talks about how the new man is a team player."
-audio: "http://www.crossroads.net/players/media/hq/thenewman_04.mp3"
-audio-title: "Team Player"
-audio-duration: "&#58;"
-program-description: "Program - The New Man WK 4"
-program: "http://www.crossroads.net/players/media/hq/05_17-18_14Program_LO.pdf"
-program-title: "Team Player"
-video-description: "Chuck Mingo talks about how the new man is a team player."
-video-title: "Team Player"
-video: "https://s3.amazonaws.com/crossroadsvideomessages/thenewman_04.mp4"
+audio-description: "He wasn’t exactly what people expected. He didn’t follow “the rules”. He didn’t hang out with the right people. He ticked off the wrong people. Sometimes it seemed like he was an enemy to everything respectable. And he changed the world forever."
+audio: "http://www.crossroads.net/audio/2003_October_Public_Enemy/PE_04_11-02-03_Enemy_Of_The_Elite.mp3"
+audio-title: "Enemy Of The Elite"
+audio-duration: "37&#58;26"
 ---

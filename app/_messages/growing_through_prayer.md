@@ -4,14 +4,8 @@ category: message
 series: "The Art of Growth"
 title: "Growing Through Prayer"
 date: 2002-10-13
-audio-description: "Chuck Mingo talks about how the new man is a team player."
-audio: "http://www.crossroads.net/players/media/hq/thenewman_04.mp3"
-audio-title: "Team Player"
-audio-duration: "&#58;"
-program-description: "Program - The New Man WK 4"
-program: "http://www.crossroads.net/players/media/hq/05_17-18_14Program_LO.pdf"
-program-title: "Team Player"
-video-description: "Chuck Mingo talks about how the new man is a team player."
-video-title: "Team Player"
-video: "https://s3.amazonaws.com/crossroadsvideomessages/thenewman_04.mp4"
+audio-description: "There is an art to growth. Learn to grow up and not just old."
+audio: "http://s3.amazonaws.com/crossroadsaudiomessages/Growing Through Prayer.mp3"
+audio-title: "Growing Through Prayer"
+audio-duration: "36&#58;57"
 ---

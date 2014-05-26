@@ -4,14 +4,8 @@ category: message
 series: "Da Vinci Dialogues"
 title: "Da Vinci Dialog Pt. 2"
 date: 2006-06-04
-audio-description: "Chuck Mingo talks about how the new man is a team player."
-audio: "http://www.crossroads.net/players/media/hq/thenewman_04.mp3"
-audio-title: "Team Player"
-audio-duration: "&#58;"
-program-description: "Program - The New Man WK 4"
-program: "http://www.crossroads.net/players/media/hq/05_17-18_14Program_LO.pdf"
-program-title: "Team Player"
-video-description: "Chuck Mingo talks about how the new man is a team player."
-video-title: "Team Player"
-video: "https://s3.amazonaws.com/crossroadsvideomessages/thenewman_04.mp4"
+audio-description: "The recent Da Vinci Code phenomenon has made all kinds of news, and stirred up all kinds of controversy.  While we’re not here to slam the book or blast the new movie, the Da Vinci Code does raise a lot of great questions worthy of consideration.  This th"
+audio: "http://www.crossroads.net/audio/2006/2006_06_Da_Vinci_Dialogues/DaVinci_Dialog_Pt_2_06-04-06_Greg_Boyd.mp3"
+audio-title: "Da Vinci Dialog Pt. 2"
+audio-duration: "39&#58;18"
 ---

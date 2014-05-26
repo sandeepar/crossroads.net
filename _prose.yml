@@ -64,6 +64,8 @@ prose:
               value: "milacron"
             - name: "Other"
               value: "other"
+            - name: "The Feed"
+              value: "thefeed"
       - name: "author"
         field:
           label: "Author"

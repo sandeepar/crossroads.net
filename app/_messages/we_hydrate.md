@@ -4,14 +4,8 @@ category: message
 series: "Context"
 title: "We Hydrate"
 date: 2007-11-17
-audio-description: "Chuck Mingo talks about how the new man is a team player."
-audio: "http://www.crossroads.net/players/media/hq/thenewman_04.mp3"
-audio-title: "Team Player"
-audio-duration: "&#58;"
-program-description: "Program - The New Man WK 4"
-program: "http://www.crossroads.net/players/media/hq/05_17-18_14Program_LO.pdf"
-program-title: "Team Player"
-video-description: "Chuck Mingo talks about how the new man is a team player."
-video-title: "Team Player"
-video: "https://s3.amazonaws.com/crossroadsvideomessages/thenewman_04.mp4"
+audio-description: "If you&apos;ve been around here for more than five minutes or so, you might come to the conclusion that Crossroads is a pretty unusual place. But there&apos;s a method to our madness. That&apos;s why we&apos;re spending three weeks talking context for who we are, what we believe and why we do what we do. We hope to inform, inspire, answer some common questions and maybe even provoke some new ones. Stay tuned."
+audio: "http://www.crossroads.net/audio/2007/2007_09_Context/Context_02_We Hydrate_11_18_07_Brian_Tome.mp3"
+audio-title: "We Hydrate"
+audio-duration: "52&#58;06"
 ---

@@ -4,14 +4,8 @@ category: message
 series: "VIRUS"
 title: "What Next?"
 date: 2004-08-07
-audio-description: "Chuck Mingo talks about how the new man is a team player."
-audio: "http://www.crossroads.net/players/media/hq/thenewman_04.mp3"
-audio-title: "Team Player"
-audio-duration: "&#58;"
-program-description: "Program - The New Man WK 4"
-program: "http://www.crossroads.net/players/media/hq/05_17-18_14Program_LO.pdf"
-program-title: "Team Player"
-video-description: "Chuck Mingo talks about how the new man is a team player."
-video-title: "Team Player"
-video: "https://s3.amazonaws.com/crossroadsvideomessages/thenewman_04.mp4"
+audio-description: "We can be sick and not even know it. Toxic attitudes and beliefs can creep in undetected and slowly take control. Sometimes we’re able to hide the symptoms from those around us. But it’s in us and it’s limiting who we are and what we become. Join us this "
+audio: "http://www.crossroads.net/audio/2004/2004_07_VIRUS/VIRUS_06_08-07-04_What_Next.mp3"
+audio-title: "What Next?"
+audio-duration: "38&#58;17"
 ---

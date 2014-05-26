@@ -4,14 +4,8 @@ category: message
 series: "Fear Factor"
 title: "Fearless Faith"
 date: 2003-09-28
-audio-description: "Chuck Mingo talks about how the new man is a team player."
-audio: "http://www.crossroads.net/players/media/hq/thenewman_04.mp3"
-audio-title: "Team Player"
-audio-duration: "&#58;"
-program-description: "Program - The New Man WK 4"
-program: "http://www.crossroads.net/players/media/hq/05_17-18_14Program_LO.pdf"
-program-title: "Team Player"
-video-description: "Chuck Mingo talks about how the new man is a team player."
-video-title: "Team Player"
-video: "https://s3.amazonaws.com/crossroadsvideomessages/thenewman_04.mp4"
+audio-description: "We live in a culture of fear. Terrorism, West Nile Virus, Christina Aguilera, and the list goes on. Where did all this come from? And is it all bad? Or is there such a thing as “good fear”? Join us as we look at what God has to say about fear."
+audio: "http://www.crossroads.net/audio/2003%20-%20September%20-%20Fear%20Factor/FF_04_09-28-03_Fearless_Faith.mp3"
+audio-title: "Fearless Faith"
+audio-duration: "38&#58;33"
 ---

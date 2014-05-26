@@ -4,14 +4,8 @@ category: message
 series: "Ghost"
 title: "Person"
 date: 2007-04-14
-audio-description: "Chuck Mingo talks about how the new man is a team player."
-audio: "http://www.crossroads.net/players/media/hq/thenewman_04.mp3"
-audio-title: "Team Player"
-audio-duration: "&#58;"
-program-description: "Program - The New Man WK 4"
-program: "http://www.crossroads.net/players/media/hq/05_17-18_14Program_LO.pdf"
-program-title: "Team Player"
-video-description: "Chuck Mingo talks about how the new man is a team player."
-video-title: "Team Player"
-video: "https://s3.amazonaws.com/crossroadsvideomessages/thenewman_04.mp4"
+audio-description: "Powerful and unpredictable, mysterious and tangible, invisible and real. Defying easy description, the Holy Spirit is no vague and impersonal force. This promised Counselor and Teacher has been sent to equip us, comfort us and fill us personally with the "
+audio: "http://www.crossroads.net/audio/2007/2007_03_Ghost/Ghost_02_Person_04-15-07_Tome.mp3"
+audio-title: "Person"
+audio-duration: "43&#58;31"
 ---

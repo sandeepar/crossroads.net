@@ -4,14 +4,8 @@ category: message
 series: "The Matrix Revealed"
 title: "Crossroads Reloaded"
 date: 2003-05-03
-audio-description: "Chuck Mingo talks about how the new man is a team player."
-audio: "http://www.crossroads.net/players/media/hq/thenewman_04.mp3"
-audio-title: "Team Player"
-audio-duration: "&#58;"
-program-description: "Program - The New Man WK 4"
-program: "http://www.crossroads.net/players/media/hq/05_17-18_14Program_LO.pdf"
-program-title: "Team Player"
-video-description: "Chuck Mingo talks about how the new man is a team player."
-video-title: "Team Player"
-video: "https://s3.amazonaws.com/crossroadsvideomessages/thenewman_04.mp4"
+audio-description: "Life is not as it seems. There is a whole dimension to our existence that we can't quite see, touch or smell. This is true for our lives ''out there'' as well as for our lives ''in here'' at Crossroads."
+audio: "http://www.crossroads.net/audio/2003%20-%20April%20-%20The%20Matrix%20Revealed/TheMatrixRevealed_05-04-03_Crossroads_Reloaded.mp3"
+audio-title: "Crossroads Reloaded"
+audio-duration: "37&#58;28"
 ---

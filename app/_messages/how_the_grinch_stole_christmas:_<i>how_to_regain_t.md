@@ -4,14 +4,8 @@ category: message
 series: "Lessons Learned From Christmas Classics"
 title: "How the Grinch Stole Christmas: <i>How to Regain t"
 date: 1998-12-20
-audio-description: "Chuck Mingo talks about how the new man is a team player."
-audio: "http://www.crossroads.net/players/media/hq/thenewman_04.mp3"
-audio-title: "Team Player"
+audio-description: "Sure they're nostalgic and fun to watch... but can we learn a thing or two from these holiday classics? "
+audio: ""
+audio-title: "How the Grinch Stole Christmas&#58; How to Regain t"
 audio-duration: "&#58;"
-program-description: "Program - The New Man WK 4"
-program: "http://www.crossroads.net/players/media/hq/05_17-18_14Program_LO.pdf"
-program-title: "Team Player"
-video-description: "Chuck Mingo talks about how the new man is a team player."
-video-title: "Team Player"
-video: "https://s3.amazonaws.com/crossroadsvideomessages/thenewman_04.mp4"
 ---

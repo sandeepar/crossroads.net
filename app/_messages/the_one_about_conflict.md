@@ -4,14 +4,8 @@ category: message
 series: "The One About Coffee"
 title: "The One About Conflict"
 date: 2004-06-06
-audio-description: "Chuck Mingo talks about how the new man is a team player."
-audio: "http://www.crossroads.net/players/media/hq/thenewman_04.mp3"
-audio-title: "Team Player"
-audio-duration: "&#58;"
-program-description: "Program - The New Man WK 4"
-program: "http://www.crossroads.net/players/media/hq/05_17-18_14Program_LO.pdf"
-program-title: "Team Player"
-video-description: "Chuck Mingo talks about how the new man is a team player."
-video-title: "Team Player"
-video: "https://s3.amazonaws.com/crossroadsvideomessages/thenewman_04.mp4"
+audio-description: "What is it about us and coffee? Whether it's a Starbucks on every corner or the atrium at Crossroads it's everywhere. Have you ever thought that maybe this whole thing is about more than what's in the cup? Maybe it's about the connection, the community we"
+audio: "http://www.crossroads.net/audio/2004/2004_06_About_Coffee/TOAC_01_06-06-04_The_One_About_Conflict.mp3"
+audio-title: "The One About Conflict"
+audio-duration: "40&#58;01"
 ---
