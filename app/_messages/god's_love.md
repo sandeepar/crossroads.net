@@ -4,14 +4,8 @@ category: message
 series: "Fuel"
 title: "God's Love"
 date: 2007-07-07
-audio-description: "Chuck Mingo talks about how the new man is a team player."
-audio: "http://www.crossroads.net/players/media/hq/thenewman_04.mp3"
-audio-title: "Team Player"
-audio-duration: "&#58;"
-program-description: "Program - The New Man WK 4"
-program: "http://www.crossroads.net/players/media/hq/05_17-18_14Program_LO.pdf"
-program-title: "Team Player"
-video-description: "Chuck Mingo talks about how the new man is a team player."
-video-title: "Team Player"
-video: "https://s3.amazonaws.com/crossroadsvideomessages/thenewman_04.mp4"
+audio-description: "What is it that drives you? How do you get direction? And where do you find the energy to keep going when the trip takes an unexpected turn? This summer we're taking a look at how key Bible passages have fueled real people's journeys."
+audio: "http://www.crossroads.net/audio/2007/2007_05_Fuel/Fuel_04_God_is_Love_07-08-07_Wells.mp3"
+audio-title: "God's Love"
+audio-duration: "42&#58;22"
 ---

@@ -4,14 +4,16 @@ category: message
 series: "The Strong Challenge"
 title: "Serve"
 date: 2011-11-05
-audio-description: "Chuck Mingo talks about how the new man is a team player."
-audio: "http://www.crossroads.net/players/media/hq/thenewman_04.mp3"
-audio-title: "Team Player"
-audio-duration: "&#58;"
-program-description: "Program - The New Man WK 4"
-program: "http://www.crossroads.net/players/media/hq/05_17-18_14Program_LO.pdf"
-program-title: "Team Player"
-video-description: "Chuck Mingo talks about how the new man is a team player."
-video-title: "Team Player"
-video: "https://s3.amazonaws.com/crossroadsvideomessages/thenewman_04.mp4"
+audio-description: "Service is a one-two punch to our hearts and our hands—it makes us strong by pulling us away from our own selfish ambitions, and toward the
+needs of others. And the more we serve, the more opportunity we have to understand God’s
+abundant, generous love."
+audio: "http://www.crossroads.net/players/media/hq/strong_05.mp3"
+audio-title: "Serve"
+audio-duration: "36&#58;10"
+program-description: "Strong Challenge - Serve (Program)"
+program: "http://www.crossroads.net/players/media/hq/11_05-06_11STRONGProgram.pdf"
+program-title: "Serve (Program)"
+video-description: "Service is a one-two punch to our hearts and our hands—it makes us strong by pulling us away from our own selfish ambitions, and toward the needs of others. And the more we serve, the more opportunity we have to understand God’s abundant, generous love."
+video-title: "Serve"
+video: "https://s3.amazonaws.com/crossroadsvideomessages/strong_05.mp4"
 ---

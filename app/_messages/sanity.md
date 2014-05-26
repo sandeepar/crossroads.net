@@ -4,14 +4,8 @@ category: message
 series: "All I Want for Christmas Is..."
 title: "Sanity"
 date: 2001-12-08
-audio-description: "Chuck Mingo talks about how the new man is a team player."
-audio: "http://www.crossroads.net/players/media/hq/thenewman_04.mp3"
-audio-title: "Team Player"
-audio-duration: "&#58;"
-program-description: "Program - The New Man WK 4"
-program: "http://www.crossroads.net/players/media/hq/05_17-18_14Program_LO.pdf"
-program-title: "Team Player"
-video-description: "Chuck Mingo talks about how the new man is a team player."
-video-title: "Team Player"
-video: "https://s3.amazonaws.com/crossroadsvideomessages/thenewman_04.mp4"
+audio-description: "It is the time of year when we all make our lists. What are we hoping to get? "
+audio: "http://www.crossroads.net/audio/2001/All_I_Want_For_Christmas/All_I_Want_For_Christmas_01_Sanity_12-08-01_Wells.mp3"
+audio-title: "Sanity"
+audio-duration: "34&#58;51"
 ---

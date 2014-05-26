@@ -4,14 +4,8 @@ category: message
 series: "iD"
 title: "iD Theft"
 date: 2006-03-12
-audio-description: "Chuck Mingo talks about how the new man is a team player."
-audio: "http://www.crossroads.net/players/media/hq/thenewman_04.mp3"
-audio-title: "Team Player"
-audio-duration: "&#58;"
-program-description: "Program - The New Man WK 4"
-program: "http://www.crossroads.net/players/media/hq/05_17-18_14Program_LO.pdf"
-program-title: "Team Player"
-video-description: "Chuck Mingo talks about how the new man is a team player."
-video-title: "Team Player"
-video: "https://s3.amazonaws.com/crossroadsvideomessages/thenewman_04.mp4"
+audio-description: "YOU SHOULD DO MORE.YOU SHOULD MAKE MORE.YOU DESERVE MORE.  Simple statements that have crossed our radar and somehow managed to become a part of our identity. But what if those statements you’ve embraced as your identity are actually lies? Consider the de"
+audio: "http://www.crossroads.net/audio/2006/2006_02_iD_Series/iD_02_ID_Theft_03-12-06.mp3"
+audio-title: "iD Theft"
+audio-duration: "01&#58;00&#58;44"
 ---

@@ -4,14 +4,20 @@ category: message
 series: "A Journey Home"
 title: "The Promise Of Home"
 date: 2012-10-06
-audio-description: "Chuck Mingo talks about how the new man is a team player."
-audio: "http://www.crossroads.net/players/media/hq/thenewman_04.mp3"
-audio-title: "Team Player"
-audio-duration: "&#58;"
-program-description: "Program - The New Man WK 4"
-program: "http://www.crossroads.net/players/media/hq/05_17-18_14Program_LO.pdf"
-program-title: "Team Player"
-video-description: "Chuck Mingo talks about how the new man is a team player."
-video-title: "Team Player"
-video: "https://s3.amazonaws.com/crossroadsvideomessages/thenewman_04.mp4"
+program-description: "Week 1 - Program"
+program: "http://www.crossroads.net/players/media/hq/10_06-07_12_HOMEProgram.pdf"
+program-title: "A Journey Home"
+audio-description: "What is it like to be at home?
+Because of an ancient tragedy that occurred in our
+family lines, our default mode of operation is living as abandoned orphans. But it can be changed—God’s greatest desire is that we would all come Home."
+audio: "http://www.crossroads.net/players/media/hq/journeyhome_01.mp3"
+audio-title: "A Journey Home"
+audio-duration: "55&#58;29"
+video-description: "What is it like to be at home?
+Because of an ancient tragedy that occurred in our
+family lines, our default mode of operation is living as
+abandoned orphans. But it can be changed—God’s
+greatest desire is that we would all come Home."
+video-title: "A Journey Home"
+video: "https://s3.amazonaws.com/crossroadsvideomessages/journeyhome_01.mp4"
 ---

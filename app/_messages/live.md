@@ -4,14 +4,16 @@ category: message
 series: "The Strong Challenge"
 title: "Live"
 date: 2011-11-12
-audio-description: "Chuck Mingo talks about how the new man is a team player."
-audio: "http://www.crossroads.net/players/media/hq/thenewman_04.mp3"
-audio-title: "Team Player"
-audio-duration: "&#58;"
-program-description: "Program - The New Man WK 4"
-program: "http://www.crossroads.net/players/media/hq/05_17-18_14Program_LO.pdf"
-program-title: "Team Player"
-video-description: "Chuck Mingo talks about how the new man is a team player."
-video-title: "Team Player"
-video: "https://s3.amazonaws.com/crossroadsvideomessages/thenewman_04.mp4"
+audio-description: "The challenges we’ve incorporated over the past weeks are all important elements of the lives of disciples of Jesus. As we continue to engage with
+these rhythms and practices, we grow closer to God and spiritually strong."
+audio: "http://www.crossroads.net/players/media/hq/strong06.mp3"
+audio-title: "Live"
+audio-duration: "51&#58;07"
+program-description: "The challenges we’ve incorporated over the past weeks are all important elements of the lives of disciples of Jesus. As we continue to engage with
+these rhythms and practices, we grow closer to God and spiritually strong."
+program: "http://www.crossroads.net/players/media/hq/11_12-13_11STRONGProgram.pdf"
+program-title: "Live"
+video-description: "The challenges we’ve incorporated over the past weeks are all important elements of the lives of disciples of Jesus. As we continue to engage with these rhythms and practices, we grow closer to God and spiritually strong."
+video-title: "Live"
+video: "https://s3.amazonaws.com/crossroadsvideomessages/strong06.mp4"
 ---

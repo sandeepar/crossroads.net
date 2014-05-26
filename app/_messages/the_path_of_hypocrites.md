@@ -4,14 +4,8 @@ category: message
 series: "House of Hypocrites"
 title: "The Path of Hypocrites"
 date: 2002-08-25
-audio-description: "Chuck Mingo talks about how the new man is a team player."
-audio: "http://www.crossroads.net/players/media/hq/thenewman_04.mp3"
-audio-title: "Team Player"
-audio-duration: "&#58;"
-program-description: "Program - The New Man WK 4"
-program: "http://www.crossroads.net/players/media/hq/05_17-18_14Program_LO.pdf"
-program-title: "Team Player"
-video-description: "Chuck Mingo talks about how the new man is a team player."
-video-title: "Team Player"
-video: "https://s3.amazonaws.com/crossroadsvideomessages/thenewman_04.mp4"
+audio-description: "Hypocrisy is everywhere. Let's look at how we all help to build this house of hypocrites."
+audio: "http://www.crossroads.net/audio/2002/House_of_Hypocrites/House_Of_Hypocrites_02_Path_08-25-02_Tome.mp3"
+audio-title: "The Path of Hypocrites"
+audio-duration: "39&#58;16"
 ---

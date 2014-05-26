@@ -4,14 +4,8 @@ category: message
 series: "Seasons"
 title: "Summer"
 date: 2007-11-03
-audio-description: "Chuck Mingo talks about how the new man is a team player."
-audio: "http://www.crossroads.net/players/media/hq/thenewman_04.mp3"
-audio-title: "Team Player"
-audio-duration: "&#58;"
-program-description: "Program - The New Man WK 4"
-program: "http://www.crossroads.net/players/media/hq/05_17-18_14Program_LO.pdf"
-program-title: "Team Player"
-video-description: "Chuck Mingo talks about how the new man is a team player."
-video-title: "Team Player"
-video: "https://s3.amazonaws.com/crossroadsvideomessages/thenewman_04.mp4"
+audio-description: "We&apos;re designed for a certain rhythm. Work, rest, play, change and growth are all part of this rhythm. We feel the reality of this cycle in our bodies and we see it in nature around us. In this series we&apos;ll look at what we can learn about healthy living from the real-time lessons of Fall, Winter, Spring and Summer."
+audio: "http://www.crossroads.net/audio/2007/2007_08_Seasons/Seasons_04_Summer_11_04_07_Brian_Tome.mp3"
+audio-title: "Summer"
+audio-duration: "37&#58;51"
 ---

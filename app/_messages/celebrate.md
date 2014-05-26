@@ -4,14 +4,21 @@ category: message
 series: "Game Change"
 title: "Celebrate"
 date: 2010-11-20
-audio-description: "Chuck Mingo talks about how the new man is a team player."
-audio: "http://www.crossroads.net/players/media/hq/thenewman_04.mp3"
-audio-title: "Team Player"
+audio-description: "A brief history of God from beginning to end.  "
+audio: ""
+audio-title: "The Beginning"
 audio-duration: "&#58;"
-program-description: "Program - The New Man WK 4"
-program: "http://www.crossroads.net/players/media/hq/05_17-18_14Program_LO.pdf"
-program-title: "Team Player"
-video-description: "Chuck Mingo talks about how the new man is a team player."
-video-title: "Team Player"
-video: "https://s3.amazonaws.com/crossroadsvideomessages/thenewman_04.mp4"
+audio-description: "Today we celebrate. And we thank God for the great things he will do in our city and throughout the
+world, and for allowing us to be a part of
+furthering his Kingdom."
+audio: "http://s3.amazonaws.com/crossroadsaudiomessages/gamechange07.mp3"
+audio-title: "Game Change - Celebrate"
+audio-duration: "29&#58;16"
+program-description: "Game Change - Celebrate (Program)"
+program: "http://www.crossroads.net/players/media/hq/11_20-21_10Program.pdf"
+program-title: "Game Change - Celebrate (Program)"
+video-description: "Today we celebrate. And we thank God for the great things he
+will do in our city and throughout the world, and for allowing us to be a part of furthering his Kingdom."
+video-title: "Game Change - Celebrate"
+video: "https://s3.amazonaws.com/crossroadsvideomessages/gamechange07.mp4"
 ---

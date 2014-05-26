@@ -4,14 +4,8 @@ category: message
 series: "Elements"
 title: "Element 005"
 date: 2005-09-03
-audio-description: "Chuck Mingo talks about how the new man is a team player."
-audio: "http://www.crossroads.net/players/media/hq/thenewman_04.mp3"
-audio-title: "Team Player"
-audio-duration: "&#58;"
-program-description: "Program - The New Man WK 4"
-program: "http://www.crossroads.net/players/media/hq/05_17-18_14Program_LO.pdf"
-program-title: "Team Player"
-video-description: "Chuck Mingo talks about how the new man is a team player."
-video-title: "Team Player"
-video: "https://s3.amazonaws.com/crossroadsvideomessages/thenewman_04.mp4"
+audio-description: "Elements&#58; Fundamental, essential and basic assumptions or principles of a subject or entity.   Remember squinting your eyes at that ugly multi-colored chart on the science room wall - The Periodic Table of Elements? Well, the elements are the basic buildi"
+audio: "http://www.crossroads.net/audio/2005/2005_07_Elements/Elements_05_09-04-05_Element_5.mp3"
+audio-title: "Element 005"
+audio-duration: "39&#58;06"
 ---

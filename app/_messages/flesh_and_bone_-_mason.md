@@ -4,14 +4,8 @@ category: message
 series: "God Is ____"
 title: "Flesh and Bone - Mason"
 date: 2013-08-03
-audio-description: "Chuck Mingo talks about how the new man is a team player."
-audio: "http://www.crossroads.net/players/media/hq/thenewman_04.mp3"
-audio-title: "Team Player"
-audio-duration: "&#58;"
-program-description: "Program - The New Man WK 4"
-program: "http://www.crossroads.net/players/media/hq/05_17-18_14Program_LO.pdf"
-program-title: "Team Player"
-video-description: "Chuck Mingo talks about how the new man is a team player."
-video-title: "Team Player"
-video: "https://s3.amazonaws.com/crossroadsvideomessages/thenewman_04.mp4"
+audio-description: "Mark Stecher talks about how Jesus is God in flesh and bone."
+audio: "http://www.crossroads.net/players/media/hq/god_is_04_mason.mp3"
+audio-title: "Flesh and Bone - Mason"
+audio-duration: "42&#58;08"
 ---
