@@ -4,14 +4,8 @@ category: message
 series: "Life, The Universe and Everything"
 title: "God Wants Your Obsession"
 date: 2004-09-18
-audio-description: "Chuck Mingo talks about how the new man is a team player."
-audio: "http://www.crossroads.net/players/media/hq/thenewman_04.mp3"
-audio-title: "Team Player"
-audio-duration: "&#58;"
-program-description: "Program - The New Man WK 4"
-program: "http://www.crossroads.net/players/media/hq/05_17-18_14Program_LO.pdf"
-program-title: "Team Player"
-video-description: "Chuck Mingo talks about how the new man is a team player."
-video-title: "Team Player"
-video: "https://s3.amazonaws.com/crossroadsvideomessages/thenewman_04.mp4"
+audio-description: "Life, The Universe and Everything"
+audio: "http://www.crossroads.net/audio/2004/2004_08_Life/LTUAE_06_09-18-04_Obsession.mp3"
+audio-title: "God Wants Your Obsession"
+audio-duration: "34&#58;08"
 ---

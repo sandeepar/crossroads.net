@@ -4,14 +4,8 @@ category: message
 series: "Going Crazy"
 title: "Celebration Event"
 date: 2004-05-23
-audio-description: "Chuck Mingo talks about how the new man is a team player."
-audio: "http://www.crossroads.net/players/media/hq/thenewman_04.mp3"
-audio-title: "Team Player"
-audio-duration: "&#58;"
-program-description: "Program - The New Man WK 4"
-program: "http://www.crossroads.net/players/media/hq/05_17-18_14Program_LO.pdf"
-program-title: "Team Player"
-video-description: "Chuck Mingo talks about how the new man is a team player."
-video-title: "Team Player"
-video: "https://s3.amazonaws.com/crossroadsvideomessages/thenewman_04.mp4"
+audio-description: "Can a local church really make a difference in someone's life? How about an entire family? How about a neighborhood, a city or a nation? Hey, how about the whole world? Sounds crazy doesn't it? Join us during this series as we look at where Crossroads is "
+audio: "http://www.crossroads.net/audio/2004/2004_05_Going_Crazy/GC_06_05-23-04_Celebration_Event.mp3"
+audio-title: "Celebration Event"
+audio-duration: "45&#58;41"
 ---

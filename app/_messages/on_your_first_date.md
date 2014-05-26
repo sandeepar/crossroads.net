@@ -4,14 +4,8 @@ category: message
 series: "The Clue Phone Is Ringing"
 title: "On Your First Date"
 date: 2002-03-23
-audio-description: "Chuck Mingo talks about how the new man is a team player."
-audio: "http://www.crossroads.net/players/media/hq/thenewman_04.mp3"
-audio-title: "Team Player"
-audio-duration: "&#58;"
-program-description: "Program - The New Man WK 4"
-program: "http://www.crossroads.net/players/media/hq/05_17-18_14Program_LO.pdf"
-program-title: "Team Player"
-video-description: "Chuck Mingo talks about how the new man is a team player."
-video-title: "Team Player"
-video: "https://s3.amazonaws.com/crossroadsvideomessages/thenewman_04.mp4"
+audio-description: "Examine those subtle little hints that the clue phone gives us that signal an area in which we need to grow.  "
+audio: "http://www.crossroads.net/audio/2002/The%20Clue%20Phone%20Is%20Ringing/TCPIR_05_03-24-02_On_Your_First_Date.mp3"
+audio-title: "On Your First Date"
+audio-duration: "39&#58;23"
 ---

@@ -4,14 +4,8 @@ category: message
 series: "Vision Night"
 title: "Vision Night"
 date: 2008-02-06
-audio-description: "Chuck Mingo talks about how the new man is a team player."
-audio: "http://www.crossroads.net/players/media/hq/thenewman_04.mp3"
-audio-title: "Team Player"
-audio-duration: "&#58;"
-program-description: "Program - The New Man WK 4"
-program: "http://www.crossroads.net/players/media/hq/05_17-18_14Program_LO.pdf"
-program-title: "Team Player"
-video-description: "Chuck Mingo talks about how the new man is a team player."
-video-title: "Team Player"
-video: "https://s3.amazonaws.com/crossroadsvideomessages/thenewman_04.mp4"
+audio-description: "Once a year, the \"core\" of our church gets together to talk about where we're headed. In this talk, we hear about all of the efforts Crossroads is involved in within our city, in South Africa and in India."
+audio: "http://s3.amazonaws.com/crossroadsaudiomessages/Vision_Night_2008_webaudio.mp3"
+audio-title: "Vision Night"
+audio-duration: "01&#58;19&#58;41"
 ---

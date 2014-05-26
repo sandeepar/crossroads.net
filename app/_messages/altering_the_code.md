@@ -4,14 +4,8 @@ category: message
 series: "The DNA Of Change"
 title: "Altering The Code"
 date: 2004-01-25
-audio-description: "Chuck Mingo talks about how the new man is a team player."
-audio: "http://www.crossroads.net/players/media/hq/thenewman_04.mp3"
-audio-title: "Team Player"
-audio-duration: "&#58;"
-program-description: "Program - The New Man WK 4"
-program: "http://www.crossroads.net/players/media/hq/05_17-18_14Program_LO.pdf"
-program-title: "Team Player"
-video-description: "Chuck Mingo talks about how the new man is a team player."
-video-title: "Team Player"
-video: "https://s3.amazonaws.com/crossroadsvideomessages/thenewman_04.mp4"
+audio-description: "There’s one thing that seems to be a constant presence in our lives&#58; change. In this series we’ll take an inside look at this challenging and sometimes intimidating issue and how we can learn to not only deal with it, but use it to our advantage in everyd"
+audio: "http://www.crossroads.net/audio/2004/2004_01_DNA_Of_Change/DNA_of_Change_04_01-25-04_Altering_The_Code.mp3"
+audio-title: "Altering The Code"
+audio-duration: "39&#58;13"
 ---
