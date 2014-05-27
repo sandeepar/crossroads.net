@@ -14,4 +14,5 @@ program-title: "The Dividing Son"
 video-description: "Brian Tome talks about how Jesus' birth brought division."
 video-title: "The Dividing Son"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/awaitedson03.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/awaitedson03_still.jpg"
 ---

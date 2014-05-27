@@ -11,4 +11,5 @@ audio-duration: "41&#58;22"
 video-description: "Jesus gives us the example of how to engage culture. In this talk, Chuck Mingo shows us what it looks like when we choose to be engaged right where we are."
 video-title: "I AM... Engaged"
 video: "http://s3.amazonaws.com/crossroadsvideomessages/I-Am-Engaged.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/i-am-engaged-still.jpg"
 ---

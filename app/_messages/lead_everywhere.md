@@ -14,4 +14,5 @@ program-title: "Lead Everywhere"
 video-description: "Chuck Mingo talks about how to put our talents to work."
 video-title: "Lead Everywhere"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/htlyj_03.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/htlyj_03_still.jpg"
 ---

@@ -17,4 +17,5 @@ program-title: "No Be Yes (Program)"
 video-description: "Brian Tome shares why we need to respond to the greatest commitment ever made - the one God has made to us."
 video-title: "No Be Yes"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/Commitment3.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/Commitment3-still.jpg"
 ---

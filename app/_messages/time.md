@@ -14,4 +14,5 @@ program-title: "Time (Program)"
 video-description: "Chuck Mingo discusses how to line up our calendar with our passions."
 video-title: "Time"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/HouseWork04.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/HouseWork04_Still.jpg"
 ---

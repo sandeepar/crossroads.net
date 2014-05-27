@@ -7,6 +7,7 @@ date: 2009-10-18
 video-description: "Chuck Mingo discusses the importance of spending time in good soil."
 video-title: "Roots"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/Web.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/Web.jpg"
 audio-description: "Chuck Mingo discusses the importance of spending time in good soil."
 audio: "http://s3.amazonaws.com/crossroadsaudiomessages/Web.mp3"
 audio-title: "Roots"

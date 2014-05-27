@@ -14,4 +14,5 @@ program-title: "Statement"
 video-description: "We’ll have the chance to invest for an enormous return."
 video-title: "Statement"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/roi_06.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/roi_06_still.jpg"
 ---

@@ -14,4 +14,5 @@ program-title: "Return Home"
 video-description: "What does it look like to return home? In order to go home, we have to leave behind our misunderstandings of God and ourselves."
 video-title: "Return Home"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/journeyhome_04.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/journeyhome_04_still.jpg"
 ---

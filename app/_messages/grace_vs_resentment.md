@@ -14,4 +14,5 @@ program-title: "Grace vs Resentment"
 video-description: "Brian Tome talks about how our guide, the Holy Spirit, leads us away from resentment and into places of giving and receiving grace."
 video-title: "Grace vs Resentment"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/theguide02.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/theguide02_still.jpg"
 ---

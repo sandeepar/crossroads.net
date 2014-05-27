@@ -11,4 +11,5 @@ audio-duration: "13&#58;46"
 video-description: "Brian Tome discusses the role of the Holy Spirit and the importance of baptism."
 video-title: "Filled&#58; Baptism"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/Filled4.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/Filled4-still.gif"
 ---

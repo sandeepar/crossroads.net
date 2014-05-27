@@ -14,4 +14,5 @@ program-title: "How to Build with Brick"
 video-description: "Brian Tome talks about how to build our finances with brick."
 video-title: "How to Build with Brick"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/bigbadwolf_03.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/bigbadwolf_03_still.jpg"
 ---

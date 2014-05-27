@@ -14,4 +14,5 @@ program-title: "Case studies in rhythmic living&#58; Community Stories"
 video-description: "People in our community share their rhythms"
 video-title: "Case studies in rhythmic living&#58; Community Stories"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/rhythm03.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/rhythm03_still.jpg"
 ---

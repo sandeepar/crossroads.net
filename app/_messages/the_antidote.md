@@ -17,4 +17,5 @@ program-title: "GIMME GIMME&#58; The Antidote (Program)"
 video-description: "The antidote to an attitude of entitlement is the discipline of gratitude. In this talk, Brian Tome discusses how we can build disciplined gratitude into our lives."
 video-title: "GIMME GIMME&#58; The Antidote"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/GIMMEGIMME3.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/GIMMEGIMME3-still.jpg"
 ---

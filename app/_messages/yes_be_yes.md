@@ -11,4 +11,5 @@ audio-duration: "32&#58;27"
 video-description: "Chuck Mingo discusses the importance of keeping commitments."
 video-title: "Yes Be Yes"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/Commitment1.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/Commitment1-still.jpg"
 ---

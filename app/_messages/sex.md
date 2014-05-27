@@ -14,4 +14,5 @@ program-title: "Sex"
 video-description: "Brian Tome talks about sex and the powerful collisions that surround it."
 video-title: "Sex"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/collide03.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/collide03_still.jpg"
 ---

@@ -11,4 +11,5 @@ audio-duration: "39&#58;47"
 video-description: "Pastor Fred Luter from New Orleans shares what to do when the storms come. "
 video-title: "I Love My City"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/WeLoveCincy4.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/WeLoveCincy4-still.jpg"
 ---

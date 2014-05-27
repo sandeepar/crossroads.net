@@ -14,4 +14,5 @@ program-title: "Family (Program)"
 video-description: "Jeremy Pryor talks about what happens when we collide with God’s intentions for family."
 video-title: "Family"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/collide02.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/collide02_still.jpg"
 ---

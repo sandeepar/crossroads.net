@@ -14,4 +14,5 @@ program-title: "Jesus spoke hard truth (Program)"
 video-description: "Steven Manuel talks about how Jesus didn't play to the crowds."
 video-title: "Jesus spoke hard truth"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/greatestshow01.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/greatestshow01_still.jpg"
 ---

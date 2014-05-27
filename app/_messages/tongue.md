@@ -14,4 +14,5 @@ program-title: "Tongue Program"
 video-description: "Brian Tome talks about the power of our tongues."
 video-title: "Tongue"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/james_03.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/james_03_still.jpg"
 ---

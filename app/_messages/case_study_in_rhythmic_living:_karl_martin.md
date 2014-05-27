@@ -14,4 +14,5 @@ program-title: "Case study in rhythmic living&#58; Karl Martin"
 video-description: "Karl Martin shares the rhythms he’s established in Scotland."
 video-title: "Case study in rhythmic living&#58; Karl Martin"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/rhythm04.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/rhythm04-still.jpg"
 ---

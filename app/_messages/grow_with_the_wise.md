@@ -18,4 +18,5 @@ program-title: "Grow Up&#58; Grow with the Wise"
 video-description: "Chuck Mingo talks about growing through intentional community."
 video-title: "Grow Up - Grow with the Wise"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/growup02.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/chuckstillweb.jpg"
 ---

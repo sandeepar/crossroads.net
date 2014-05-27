@@ -14,4 +14,5 @@ program-title: "Case study in rhythmic living&#58; Chuck Mingo"
 video-description: "Chuck Mingo presents a case study in rhythmic living."
 video-title: "Case study in rhythmic living&#58; Chuck Mingo"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/rhythm_02.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/rhythm_02_still.jpg"
 ---

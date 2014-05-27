@@ -14,4 +14,5 @@ program-title: "Friends (Program)"
 video-description: "Brian Tome discusses the importance of friendship."
 video-title: "Friends"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/TypeCast1.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/TypeCast1-still.jpg"
 ---

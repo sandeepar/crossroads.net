@@ -15,4 +15,5 @@ program-title: "Self-Absorbed"
 video-description: "Brian Tome talks about how God is self-absorbed."
 video-title: "Self-Absorbed"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/god_is_06.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/god-is-06-still.jpg"
 ---

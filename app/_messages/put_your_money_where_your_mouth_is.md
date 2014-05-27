@@ -14,4 +14,5 @@ program-title: "Put Your Money Where Your Mouth Is"
 video-description: "Brian Tome talks about how changing the world requires personal investment."
 video-title: "Put Your Money Where Your Mouth Is"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/htctw_04.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/htctw_04_still.jpg"
 ---

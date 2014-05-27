@@ -14,4 +14,5 @@ program-title: "Suffering"
 video-description: "Chuck Mingo talks about how trials strengthen our faith."
 video-title: "Suffering"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/james_02.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/james_02_still.jpg"
 ---

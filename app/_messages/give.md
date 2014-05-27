@@ -14,4 +14,5 @@ audio-duration: "28&#58;59"
 video-description: "Brian Tome talks about what it looks like to give grace."
 video-title: "Give"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/Lavish05.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/Lavish05_Still.jpg"
 ---

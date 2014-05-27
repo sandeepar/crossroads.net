@@ -11,4 +11,5 @@ audio-duration: "29&#58;56"
 video-description: "Chuck Mingo talks about what it means to be an aggressive man."
 video-title: "Man Up"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/Manly3.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/Manly3-still.jpg"
 ---

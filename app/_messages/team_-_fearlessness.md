@@ -14,4 +14,5 @@ program-title: "Team/Fearlessness"
 video-description: "Brian Tome talks about fearlessness in pursuit of new ventures."
 video-title: "Team/Fearlessness"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/go_forth_03.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/go_forth_03_still.jpg"
 ---

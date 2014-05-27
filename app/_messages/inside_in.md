@@ -17,4 +17,5 @@ program-title: "Inside In (Study Notes)"
 video-description: "Brian Tome discusses the dynamics of growth and why Crossroads is setup to be an environment of growth."
 video-title: "Inside In"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/InsideOut2.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/InsideOut2-still.jpg"
 ---

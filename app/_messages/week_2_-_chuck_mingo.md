@@ -14,4 +14,5 @@ program-title: "Week 2 - Chuck Mingo"
 video-description: "We’re talking about how hope is a key ingredient to the good life."
 video-title: "Week 2 - Chuck Mingo"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/goodlife_02.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/goodlife_02_still.jpg"
 ---

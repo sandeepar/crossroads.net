@@ -14,4 +14,5 @@ program-title: "The Value of Work"
 video-description: "Brian Tome talks about the value of work."
 video-title: "The Value of Work"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/htlyj_01.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/htlyj_01_Still.jpg"
 ---

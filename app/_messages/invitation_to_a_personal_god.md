@@ -14,4 +14,5 @@ program-title: "Invitation to a Personal God"
 video-description: "Chuck Mingo talks about the invitation of Christmas."
 video-title: "Invitation to a Personal God"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/rsvp01.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/rsvp01_still.jpg"
 ---

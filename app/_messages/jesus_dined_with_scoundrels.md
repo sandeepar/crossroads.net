@@ -14,4 +14,5 @@ program-title: "Jesus Dined With Scoundrels"
 video-description: "Brian Wells talks about about how Jesus redefined God."
 video-title: "Jesus Dined With Scoundrels"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/greatestshow04.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/greatestshow04_still.jpg"
 ---

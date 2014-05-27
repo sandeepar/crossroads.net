@@ -14,4 +14,5 @@ program-title: "Eat Weird"
 video-description: "Brian Tome talks about investments that can change the world."
 video-title: "Eat Weird"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/htctw_03.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/htctw_03_still.jpg"
 ---

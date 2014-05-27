@@ -14,4 +14,5 @@ program-title: "Parenting via the Invitation Challenge Matrix"
 video-description: "Brian Tome talks about parenting through invitation and challenge."
 video-title: "Parenting via the Invitation Challenge Matrix"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/htbp_04.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/htbp_04_still.jpg"
 ---

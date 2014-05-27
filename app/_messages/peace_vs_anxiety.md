@@ -14,4 +14,5 @@ program-title: "Peace vs. Anxiety"
 video-description: "Brian Tome talks about how the Guide can steer us out of fear and into peace."
 video-title: "Peace vs. Anxiety"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/theguide03.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/theguide03_still.jpg"
 ---

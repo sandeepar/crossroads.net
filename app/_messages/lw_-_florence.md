@@ -11,4 +11,5 @@ audio-duration: "28&#58;07"
 video-description: "Florence"
 video-title: "Last Wednesday - Florence"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/022614-lw-florence.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/last-wednesday.jpg"
 ---

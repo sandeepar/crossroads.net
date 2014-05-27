@@ -14,4 +14,5 @@ program-title: "Treasure"
 video-description: "Brian Tome talks about what it means to get a good return."
 video-title: "Treasure"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/roi_01.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/roi_01_still.jpg"
 ---

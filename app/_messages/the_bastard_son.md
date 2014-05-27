@@ -14,4 +14,5 @@ program-title: "The Bastard Son"
 video-description: "Brian Tome talks about how unexpected Jesus was when he came into the world."
 video-title: "The Bastard Son"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/awaitedson02.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/awaitedson02.jpg"
 ---

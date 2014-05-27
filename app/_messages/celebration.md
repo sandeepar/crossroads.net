@@ -18,4 +18,5 @@ program-title: "Celebration (Program)"
 video-description: "Brian Tome talks about what it means to live in celebration of the miracle of Christmas."
 video-title: "Celebration"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/celebration.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/celebration_still.jpg"
 ---

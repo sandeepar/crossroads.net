@@ -11,4 +11,5 @@ audio-duration: "41&#58;01"
 video-description: "Brian Tome discusses what it means to do what's next instead of worrying about what's five steps ahead."
 video-title: "Next Is Next"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/Next1.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/Next1-still.jpg"
 ---

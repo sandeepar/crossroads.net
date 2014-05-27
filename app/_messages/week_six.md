@@ -7,6 +7,7 @@ date: 2008-08-10
 video-description: "John Burke talks about staying in touch with God."
 video-title: "One (Week Six)"
 video: "http://s3.amazonaws.com/crossroadsvideomessages/One-week6.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/One-week6-still.jpg"
 notes-description: "Study Notes for One (Week Six) "
 notes: "http://www.crossroads.net/players/media/hq/SN_08-10-08.pdf "
 notes-title: "One (Week Six) - Study Notes"

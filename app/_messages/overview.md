@@ -14,4 +14,5 @@ program-title: "House Work 01 (Program)"
 video-description: "Brian Tome discusses uncovering your God-given passions."
 video-title: "Overview"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/House_Work01.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/House_Work01_Still.jpg"
 ---

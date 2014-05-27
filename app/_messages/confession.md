@@ -14,4 +14,5 @@ program-title: "Confession"
 video-description: "Brian Tome talks about the healing that comes through confession."
 video-title: "Confession"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/james_05.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/james_05_still.jpg"
 ---

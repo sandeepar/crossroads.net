@@ -14,4 +14,5 @@ program-title: "Upside Down (Program)"
 video-description: "Chuck Mingo discusses what it looks like to seek the Kingdom."
 video-title: "Upside Down"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/KingdomCome05.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/080810_still"
 ---

@@ -14,4 +14,5 @@ program-title: "Next Is Near (Program)"
 video-description: "Brian Tome talks about how God uses our feelings to move us forward."
 video-title: "Next Is Near "
 video: "https://s3.amazonaws.com/crossroadsvideomessages/Next4.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/Next4-still.jpg"
 ---

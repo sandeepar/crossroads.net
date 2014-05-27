@@ -11,4 +11,5 @@ audio-duration: "38&#58;18"
 video-description: "Oakley"
 video-title: "Last Wednesday - Oakley"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/022614-lw-oakley.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/last-wednesday.jpg"
 ---

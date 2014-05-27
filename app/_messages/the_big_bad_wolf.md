@@ -14,4 +14,5 @@ program-title: "The Big Bad Wolf"
 video-description: "Brian Tome talks about the characteristics of Big Bad Wolf."
 video-title: "The Big Bad Wolf"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/bigbadwolf_01.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/bigbadwolf01_still.jpg"
 ---

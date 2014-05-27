@@ -17,4 +17,5 @@ program-title: "Program 5/24-25/08"
 video-description: "Pastor Titus Sithole from Mamelodi, South Africa teaches on prayer and its importance."
 video-title: "RIQ&#58; Service"
 video: "http://s3.amazonaws.com/crossroadsvideomessages/RIQ3-talk.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/RIQ3-still.jpg"
 ---

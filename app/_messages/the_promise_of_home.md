@@ -20,4 +20,5 @@ abandoned orphans. But it can be changed—God’s
 greatest desire is that we would all come Home."
 video-title: "A Journey Home"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/journeyhome_01.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/journeyhome_01_still.jpg"
 ---

@@ -17,4 +17,5 @@ program-title: "Cost (Program)"
 video-description: "Brian Tome discusses the story of Stephen from the book of Acts and how every revolution involves cost."
 video-title: "Cost"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/Roadmap4.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/Roadmap4-still.jpg"
 ---

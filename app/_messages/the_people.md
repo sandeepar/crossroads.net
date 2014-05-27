@@ -17,4 +17,5 @@ program-title: "Unlock(ed)&#58; The People (Program)"
 video-description: "Brian Tome discusses how we should engage people as a core part of engaging in the Kingdom."
 video-title: "Unlock(ed)&#58; The People"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/Unlocked2.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/unlocked2.jpg"
 ---

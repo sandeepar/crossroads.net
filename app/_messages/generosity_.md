@@ -14,4 +14,5 @@ program-title: "Generosity"
 video-description: "Brian Tome talks about trusting God through our generosity."
 video-title: "Generosity"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/gamechangers_03.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/gamechangers_03_still.jpg"
 ---

@@ -14,4 +14,5 @@ program-title: "Avoid the Traps"
 video-description: "Brian Tome talks about troubleshooting what prevents us from loving our jobs."
 video-title: "Avoid the Traps"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/htlyj_02.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/HTLYJ_02_still.jpg"
 ---

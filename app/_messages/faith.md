@@ -14,4 +14,5 @@ program-title: "Faith"
 video-description: "Chuck Mingo talks about what faith is all about."
 video-title: "Faith"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/james_01.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/james_01_still.jpg"
 ---

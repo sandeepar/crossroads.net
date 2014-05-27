@@ -14,4 +14,5 @@ program-title: "Church"
 video-description: "Brian Tome talks about the role of the Church in God's story."
 video-title: "Church"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/thestory07.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/thestory07_still.jpg"
 ---

@@ -14,4 +14,5 @@ program-title: "Jesus heals"
 video-description: "We’re going to talk about how Jesus healed people, and the crowds that his miracles attracted."
 video-title: "Jesus heals"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/greatestshow05.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/greatestshow05_still.jpg"
 ---

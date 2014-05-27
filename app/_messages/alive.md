@@ -11,4 +11,5 @@ audio-duration: "37&#58;02"
 video-description: "The Saturday night baptism service."
 video-title: "I AM... Alive (Sat, 5&#58;30pm)"
 video: "http://s3.amazonaws.com/crossroadsvideomessages/baptism-sat.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/bapt-sat-still.jpg"
 ---

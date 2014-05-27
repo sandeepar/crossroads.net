@@ -14,4 +14,5 @@ program-title: "Creation/Fall Program"
 video-description: "Brian Tome talks about God's purpose for creation, and the tragic events that transpired."
 video-title: "Creation/Fall"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/thestory02.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/thestory02_still.jpg"
 ---

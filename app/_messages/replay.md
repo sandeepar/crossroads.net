@@ -14,4 +14,5 @@ program-title: "rePLAY (Program)"
 video-description: "Chuck Mingo talks about discovering joy through play."
 video-title: "rePLAY"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/replay.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/replay_still.jpg"
 ---

@@ -14,4 +14,5 @@ program-title: "Return"
 video-description: "We are experimenting with investing for return."
 video-title: "Return"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/roi_03.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/roi_03_still.jpg"
 ---

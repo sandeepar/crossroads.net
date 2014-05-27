@@ -14,4 +14,5 @@ program-title: "Program"
 video-description: "Chuck talks about dating"
 video-title: "Dating"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/KnockOff_02.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/knockoff_02_still.jpg"
 ---

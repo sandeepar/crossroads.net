@@ -15,4 +15,5 @@ video-description: "Chuck Mingo talks about how the good life can happen, even i
 midst of suffering."
 video-title: "Week 7 - Chuck Mingo"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/goodlife_07.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/goodlife_07_still.jpg"
 ---

@@ -14,4 +14,5 @@ program-title: "Week 4 - Mike Breen"
 video-description: "Mike Breen talks about how Jesus both invites us and challenges us into the good life."
 video-title: "Week 4 - Mike Breen"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/goodlife_04.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/goodlife_04_still.jpg"
 ---

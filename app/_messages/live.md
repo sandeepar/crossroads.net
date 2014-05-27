@@ -16,4 +16,5 @@ program-title: "Live"
 video-description: "The challenges we’ve incorporated over the past weeks are all important elements of the lives of disciples of Jesus. As we continue to engage with these rhythms and practices, we grow closer to God and spiritually strong."
 video-title: "Live"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/strong06.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/strong06_still.jpg"
 ---

@@ -14,4 +14,5 @@ program-title: "Faithful God (Program)"
 video-description: "Brian Tome talks about God's Faithfulness."
 video-title: "Faithful God"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/TheFaithful01.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/TheFaithful01_Still.jpg"
 ---

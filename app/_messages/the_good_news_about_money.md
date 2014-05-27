@@ -14,4 +14,5 @@ program-title: "The Good News About Money"
 video-description: "Chuck Mingo talks about how God is the opposite of the Big Bad Wolf."
 video-title: "The Good News About Money"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/bigbadwolf_02.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/bigbadwolf_02_still.jpg"
 ---

@@ -14,4 +14,5 @@ program-title: "Talk vs. Walk"
 video-description: "Why don’t church people act like Jesus?"
 video-title: "Talk vs. Walk"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/heavyweights2_wk5.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/heavyweights2_wk5_still.jpg"
 ---

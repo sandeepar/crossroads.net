@@ -14,4 +14,5 @@ program-title: "Back Deck"
 video-description: "Chuck Mingo talks about being boldly authentic in our faith journey."
 video-title: "Back Deck"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/backyardgospel_03.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/backyardgospel_03_still.jpg"
 ---

@@ -14,4 +14,5 @@ program-title: "Endurance (Program)"
 video-description: "Brian Tome talks about the importance of endurance and the four phases we go through on the way to freedom."
 video-title: "Endurance"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/Free4.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/Free4-still.jpg"
 ---

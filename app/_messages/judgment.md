@@ -7,6 +7,7 @@ date: 2008-06-01
 video-description: "Many of us walk around carrying rocks, ready to throw them at anyone who thinks or behaves in a way we think to be wrong. In this talk, we analyze this through the lens of a story in Jesus' life."
 video-title: "RIQ&#58; Judgment"
 video: "http://s3.amazonaws.com/crossroadsvideomessages/RIQ4-talk.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/RIQ4-still.jpg"
 audio-description: ""
 audio: "http://s3.amazonaws.com/crossroadsaudiomessages/RIQ_04_Judgment_06-01-08_Tome_webaudio.mp3"
 audio-title: "RIQ&#58; Judgment"

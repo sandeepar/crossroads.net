@@ -11,4 +11,5 @@ audio-duration: "40&#58;56"
 video-description: "God's Kingdom brings freedom and blessing. When we engage with a generous ethic, we experience life as God intended."
 video-title: "Consumed (Week Four)"
 video: "http://s3.amazonaws.com/crossroadsvideomessages/consumed4-030208.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/consumed4messagepic.jpg"
 ---

@@ -14,4 +14,5 @@ program-title: "How Change Happens"
 video-description: "Brian Tome talks about how change happens."
 video-title: "How Change Happens"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/powertochange_02.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/powertochange_02_still.jpg"
 ---

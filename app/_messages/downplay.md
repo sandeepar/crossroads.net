@@ -11,4 +11,5 @@ audio-duration: "39&#58;03"
 video-description: "Jenny Baker talks about the importance of rest."
 video-title: "downPLAY"
 video: "http://s3.amazonaws.com/crossroadsvideomessages/downplay.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/downplay_still.jpg"
 ---

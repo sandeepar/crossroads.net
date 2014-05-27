@@ -14,4 +14,5 @@ program-title: "Local Church (Program)"
 video-description: "Mosa Sono talks about the powerful things that can happen when the Church collides with God’s intentions."
 video-title: "Local Church"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/collide_01.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/collide01_still.jpg"
 ---

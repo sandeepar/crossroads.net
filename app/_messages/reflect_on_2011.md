@@ -14,4 +14,5 @@ audio-duration: "41&#58;28"
 video-description: "Brian Tome talks about what we learned in 2011 and how we believe God is calling our community in the coming year."
 video-title: "2011 Recap"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/2011_recap_new.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/2011recap_still.jpg"
 ---

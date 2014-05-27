@@ -14,4 +14,5 @@ program-title: "Wise Builders"
 video-description: "We’ll hear from people in our community talk about money."
 video-title: "Wise Builders"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/bigbadwolf_04.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/bigbadwolf_04_still.jpg"
 ---

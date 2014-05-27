@@ -14,4 +14,5 @@ program-title: "A Street Fighter"
 video-description: "Steven Manuel talks about how God is like a street fighter."
 video-title: "A Street Fighter"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/god_is_02.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/god_is_still_02.jpg"
 ---

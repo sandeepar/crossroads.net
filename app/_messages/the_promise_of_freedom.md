@@ -14,4 +14,5 @@ program-title: "The Promise of Freedom"
 video-description: "Brian Tome talks about the promise of freedom."
 video-title: "The Promise of Freedom"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/giftoffreedom_01.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/giftoffreedom_01_still.jpg"
 ---

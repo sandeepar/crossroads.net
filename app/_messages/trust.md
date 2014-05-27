@@ -14,4 +14,5 @@ program-title: "Trust"
 video-description: "Brian Tome talks about Jesus’ investment in us."
 video-title: "Trust"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/roi_04.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/roi_04_still.jpg"
 ---

@@ -17,4 +17,5 @@ video-description: "Brian Tome discusses how pleasure is an important part of
 experiencing God’s grace."
 video-title: "Get"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/Lavish4.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/052910_still.jpg"
 ---

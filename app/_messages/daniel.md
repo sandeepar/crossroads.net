@@ -17,4 +17,5 @@ program-title: "Lost Books&#58; Daniel (Program)"
 video-description: "In the seventh annual \"Big Game\" we hear about how courage is following God."
 video-title: "Lost Books&#58; Daniel (Super Bowl)"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/LostBooks4.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/lostbooks4-still.jpg"
 ---

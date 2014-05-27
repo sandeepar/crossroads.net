@@ -14,4 +14,5 @@ program-title: "Jesus /Cross"
 video-description: "Chuck Mingo talks about the story of the sacrificial lamb."
 video-title: "Jesus/Cross"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/thestory04.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/thestory04_still.jpg"
 ---

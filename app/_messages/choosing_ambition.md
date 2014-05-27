@@ -14,4 +14,5 @@ program-title: "Choosing Ambition"
 video-description: "Brian Tome talks about ambition."
 video-title: "Choosing Ambition"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/placeatthetable_04.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/placeatthetable_04_still.jpg"
 ---

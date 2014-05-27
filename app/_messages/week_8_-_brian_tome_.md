@@ -14,4 +14,5 @@ program-title: "Week 8 - Brian Tome"
 video-description: "Brian Tome talks about finding the good life in the midst of tension."
 video-title: "Week 8 - Brian Tome"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/goodlife_08.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/goodlife_08_still.jpg"
 ---
