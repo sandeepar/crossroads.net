@@ -7,7 +7,7 @@ date: 2009-11-08
 audio-description: "Brian Tome discusses how growth naturally leads to reproduction and fruit."
 audio: "http://s3.amazonaws.com/crossroadsaudiomessages/TheGarden5.mp3"
 audio-title: "Reproduction"
-audio-duration: "38&#58;48"
+audio-duration: "38:48"
 program-description: ""
 program: "http://www.crossroads.net/players/media/hq/11_07-08_09Program.pdf"
 program-title: "Reproduction (Program)"

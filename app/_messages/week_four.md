@@ -7,7 +7,7 @@ date: 2008-06-28
 audio-description: "Chuck Mingo discusses how pride and anxiety have played out in his life."
 audio: "http://s3.amazonaws.com/crossroadsaudiomessages/Pride_04_06-29-08_Chuck_Mingo_webaudio.mp3"
 audio-title: "Pride (Week Four)"
-audio-duration: "43&#58;10"
+audio-duration: "43:10"
 video-description: "Chuck Mingo discusses the connection between anxiety and pride and how each has played out in his life."
 video-title: "Pride (Week Four)"
 video: "http://s3.amazonaws.com/crossroadsvideomessages/Pride4.mp4"

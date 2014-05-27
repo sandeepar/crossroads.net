@@ -10,7 +10,7 @@ we’re surrounded by love and approval, a place
 where we can find rest, protection and hope."
 audio: "http://www.crossroads.net/players/media/hq/journeyhome_02.mp3"
 audio-title: "Know Your Dad"
-audio-duration: "40&#58;34"
+audio-duration: "40:34"
 program-description: "A Journey Home Program - WK 2 "
 program: "http://www.crossroads.net/players/media/hq/10_13-14_12_HOMEProgram.pdf"
 program-title: "Know Your Dad"

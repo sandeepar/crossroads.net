@@ -11,5 +11,5 @@ video-poster: "https://www.crossroads.net/uploadedfiles/042413-LW-Oakley-still.j
 audio-description: "Last Wednesday April 2013 - Oakley"
 audio: "http://www.crossroads.net/players/media/hq/042413-LW-Oakley.mp3"
 audio-title: "Last Wednesday April 2013 - Oakley"
-audio-duration: "14&#58;07"
+audio-duration: "14:07"
 ---

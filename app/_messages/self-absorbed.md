@@ -7,7 +7,7 @@ date: 2013-08-17
 audio-description: "Brian Tome talks about how God is self-absorbed."
 audio: "http://www.crossroads.net/players/media/hq/god_is_06.mp3"
 audio-title: "Self-Absorbed"
-audio-duration: "42&#58;36"
+audio-duration: "42:36"
 program-description: "Program - WK6 God Is______.
 "
 program: "http://www.crossroads.net/players/media/hq/08_17-18_13Program_LO.pdf"

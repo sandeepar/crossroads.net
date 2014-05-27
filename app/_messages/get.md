@@ -12,7 +12,7 @@ audio-description: "Brian Tome discusses how pleasure is an important part of
 experiencing God’s grace."
 audio: "http://s3.amazonaws.com/crossroadsaudiomessages/Lavish4.mp3"
 audio-title: "Get"
-audio-duration: "36&#58;09"
+audio-duration: "36:09"
 video-description: "Brian Tome discusses how pleasure is an important part of
 experiencing God’s grace."
 video-title: "Get"

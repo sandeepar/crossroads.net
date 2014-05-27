@@ -7,7 +7,7 @@ date: 2012-03-10
 audio-description: "This week we’re talking about how Game Changers share common traits, including dissatisfaction with the status quo."
 audio: "http://www.crossroads.net/players/media/hq/gamechangers_01.mp3"
 audio-title: "Dissatisfaction"
-audio-duration: "53&#58;29"
+audio-duration: "53:29"
 program-description: "Game Changers - Dissatisfaction Program"
 program: "http://www.crossroads.net/players/media/hq/03_10-11_12Program.pdf"
 program-title: "Dissatisfaction"

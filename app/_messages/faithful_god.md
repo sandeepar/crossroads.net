@@ -7,7 +7,7 @@ date: 2010-08-15
 audio-description: "Brian Tome talks about God's faithfulness."
 audio: "http://s3.amazonaws.com/crossroadsaudiomessages/TheFaithful01.mp3"
 audio-title: "Faithful God"
-audio-duration: "34&#58;52"
+audio-duration: "34:52"
 program-description: "Faithful God (Program)"
 program: "http://www.crossroads.net/players/media/hq/08_14-15_10Program.pdf"
 program-title: "Faithful God (Program)"

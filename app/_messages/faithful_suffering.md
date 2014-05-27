@@ -14,5 +14,5 @@ video-poster: "https://www.crossroads.net/uploadedfiles/TheFaithful04_still.jpg"
 audio-description: "Chuck Mingo talks about how the faithful deal with suffering."
 audio: "http://s3.amazonaws.com/crossroadsaudiomessages/TheFaithful04.mp3"
 audio-title: "Faithful Suffering  "
-audio-duration: "33&#58;20"
+audio-duration: "33:20"
 ---

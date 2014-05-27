@@ -7,7 +7,7 @@ date: 2009-06-14
 audio-description: "Brian Tome discusses how Jesus came to bring freedom and how freedom always accompanies the revolution."
 audio: "http://s3.amazonaws.com/crossroadsaudiomessages/Roadmap6.mp3"
 audio-title: "Freedom and Grace"
-audio-duration: "34&#58;39"
+audio-duration: "34:39"
 video-description: "Brian Tome discusses how Jesus came to set us free."
 video-title: "Freedom and Grace"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/Roadmap6.mp4"

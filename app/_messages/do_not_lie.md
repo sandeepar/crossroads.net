@@ -7,5 +7,5 @@ date: 1998-08-02
 audio-description: "We look at the 10 Commandments and their relevancy in our lives today. "
 audio: ""
 audio-title: "Do Not Lie"
-audio-duration: "&#58;"
+audio-duration: ":"
 ---

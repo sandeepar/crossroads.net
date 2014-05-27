@@ -7,7 +7,7 @@ date: 2013-07-20
 audio-description: "Steven Manuel talks about how God is like a street fighter."
 audio: "http://www.crossroads.net/players/media/hq/god_is_02.mp3"
 audio-title: "A Street Fighter"
-audio-duration: "47&#58;59"
+audio-duration: "47:59"
 program-description: "Program God Is___ WK 2"
 program: "http://www.crossroads.net/players/media/hq/07_20-21_13Program_LO.pdf"
 program-title: "A Street Fighter"

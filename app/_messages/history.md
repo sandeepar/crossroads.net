@@ -7,7 +7,7 @@ date: 2013-01-05
 audio-description: "Mike Breen talks about the history of the family."
 audio: "http://www.crossroads.net/players/media/hq/saintsandscoundrels-01.mp3"
 audio-title: "History"
-audio-duration: "46&#58;02"
+audio-duration: "46:02"
 program-description: "Program - Week 1 Saints & Scoundrels"
 program: "http://www.crossroads.net/players/media/hq/01_05-06_13Program_LORES.pdf"
 program-title: "History"

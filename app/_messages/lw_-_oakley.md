@@ -7,7 +7,7 @@ date: 2014-02-26
 audio-description: "Oakley"
 audio: "http://www.crossroads.net/players/media/hq/022614-lw-oakley.mp3"
 audio-title: "Last Wednesday - Oakley"
-audio-duration: "38&#58;18"
+audio-duration: "38:18"
 video-description: "Oakley"
 video-title: "Last Wednesday - Oakley"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/022614-lw-oakley.mp4"

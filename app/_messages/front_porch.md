@@ -7,7 +7,7 @@ date: 2012-05-26
 audio-description: "Brian Tome examines how to start a conversation about Jesus with your friends—no matter what you believe."
 audio: "http://www.crossroads.net/players/media/hq/backyardgospel_01.mp3"
 audio-title: "Front Porch"
-audio-duration: "48&#58;54"
+audio-duration: "48:54"
 program-description: "Program"
 program: "http://www.crossroads.net/players/media/hq/05_26-27_12Program.pdf"
 program-title: "Front Porch"

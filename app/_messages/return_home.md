@@ -7,7 +7,7 @@ date: 2012-10-27
 audio-description: "What does it look like to return home? In order to go home, we have to leave behind our misunderstandings of God and ourselves."
 audio: "http://www.crossroads.net/players/media/hq/journeyhome_04.mp3"
 audio-title: "Return Home"
-audio-duration: "47&#58;52"
+audio-duration: "47:52"
 program-description: "Program - WK4 A Journey Home"
 program: "http://www.crossroads.net/players/media/hq/10_27-28_12_HOMEProgram.pdf"
 program-title: "Return Home"

@@ -7,7 +7,7 @@ date: 2009-07-19
 audio-description: "Brad Johansen talks about what loving our neighbors and ultimately our city looks like to him."
 audio: "http://s3.amazonaws.com/crossroadsaudiomessages/WeLoveCincy3.mp3"
 audio-title: "I Love My Neighborhood"
-audio-duration: "35&#58;41"
+audio-duration: "35:41"
 video-description: "Brad Johansen talks about what loving his neighborhood means to him."
 video-title: "I Love My Neighborhood"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/WeLoveCincy3.mp4"

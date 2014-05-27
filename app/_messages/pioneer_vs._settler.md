@@ -7,7 +7,7 @@ date: 2013-08-31
 audio-description: "Chuck Mingo talks about how a good team needs both pioneers and settlers."
 audio: "http://www.crossroads.net/players/media/hq/go_forth_02.mp3"
 audio-title: "Pioneer vs. Settler"
-audio-duration: "40&#58;59"
+audio-duration: "40:59"
 program-description: "Program - WK2&#58; Go Forth"
 program: "http://www.crossroads.net/players/media/hq/08_31-9_1_13Program_LO.pdf"
 program-title: "Pioneer vs. Settler"

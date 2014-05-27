@@ -7,5 +7,5 @@ date: 2002-06-08
 audio-description: "Discover, honor and learn from these icons.  "
 audio: ""
 audio-title: "Paul"
-audio-duration: "&#58;"
+audio-duration: ":"
 ---

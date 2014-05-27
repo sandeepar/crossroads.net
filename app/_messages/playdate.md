@@ -7,7 +7,7 @@ date: 2010-09-19
 audio-description: "Brian Tome talks about the value of purposeless pleasure."
 audio: "http://s3.amazonaws.com/crossroadsaudiomessages/Play01.mp3"
 audio-title: "PLAYdate"
-audio-duration: "42&#58;29"
+audio-duration: "42:29"
 program-description: "PLAYdate (Program)"
 program: "http://www.crossroads.net/players/media/hq/09_18-19_10Program.pdf"
 program-title: "PLAYdate (Program)"

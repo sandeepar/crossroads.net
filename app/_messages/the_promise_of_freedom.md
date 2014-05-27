@@ -7,7 +7,7 @@ date: 2013-11-30
 audio-description: "Brian Tome talks about the promise of freedom."
 audio: "http://www.crossroads.net/players/media/hq/giftoffreedom_01.mp3"
 audio-title: "The Promise of Freedom"
-audio-duration: "33&#58;55"
+audio-duration: "33:55"
 program-description: "Program&#58; WK 1 The Promise of Freedom"
 program: "http://www.crossroads.net/players/media/hq/11_30-12_1_13Program_LO.pdf"
 program-title: "The Promise of Freedom"

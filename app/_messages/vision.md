@@ -14,5 +14,5 @@ notes-title: "Rebuild&#58; Vision (Study Notes)"
 audio-description: "What do you do when you are moved to act? In this talk, Brian Tome introduces us to the story of Nehemiah and his effort to follow his personal vision."
 audio: "http://s3.amazonaws.com/crossroadsaudiomessages/Rebuild1.mp3"
 audio-title: "Rebuild&#58; Vision"
-audio-duration: "32&#58;31"
+audio-duration: "32:31"
 ---

@@ -7,7 +7,7 @@ date: 2011-07-16
 audio-description: "We’re going to talk about how Jesus healed people, and the crowds that his miracles attracted."
 audio: "http://www.crossroads.net/players/media/hq/greatestshow05.mp3"
 audio-title: "Jesus heals"
-audio-duration: "48&#58;44"
+audio-duration: "48:44"
 program-description: "Jesus heals (Program)"
 program: "http://www.crossroads.net/players/media/hq/07_16-17_11Program.pdf"
 program-title: "Jesus heals"

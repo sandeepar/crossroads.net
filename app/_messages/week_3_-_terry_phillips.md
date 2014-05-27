@@ -14,5 +14,5 @@ video-poster: "https://www.crossroads.net/uploadedfiles/goodlife03_still.jpg"
 audio-description: "Terry Phillips talks about how a life of expectancy leads to the good life."
 audio: "http://www.crossroads.net/players/media/hq/goodlife_03.mp3"
 audio-title: "Week 3 - Terry Phillips"
-audio-duration: "37&#58;21"
+audio-duration: "37:21"
 ---

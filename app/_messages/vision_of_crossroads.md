@@ -7,7 +7,7 @@ date: 2013-09-14
 audio-description: "Brian Tome talks about Crossroads’ entrepreneurial vision."
 audio: "http://www.crossroads.net/players/media/hq/go_forth_04.mp3"
 audio-title: "Vision of Crossroads"
-audio-duration: "45&#58;32"
+audio-duration: "45:32"
 video-description: "Brian Tome talks about Crossroads’ entrepreneurial vision."
 video-title: "Vision of Crossroads"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/go_forth_04.mp4"

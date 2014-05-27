@@ -7,5 +7,5 @@ date: 1998-11-22
 audio-description: "The holidays can be tough on family and friends. Here's a primer on relationships that we can use every day of the year. "
 audio: ""
 audio-title: "Surviving a Difficult Marriage"
-audio-duration: "&#58;"
+audio-duration: ":"
 ---

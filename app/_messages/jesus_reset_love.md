@@ -7,7 +7,7 @@ date: 2009-03-15
 audio-description: "Love is defined as this&#58; Jesus died for us. This week we're looking at how Jesus redefines love."
 audio: "http://s3.amazonaws.com/crossroadsaudiomessages/Reset4.mp3"
 audio-title: "Jesus Reset Love"
-audio-duration: "35&#58;48"
+audio-duration: "35:48"
 video-description: "Jesus reset our understanding of love by dying on the cross."
 video-title: "Jesus Reset Love"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/Reset4.mp4"

@@ -7,5 +7,5 @@ date: 2007-09-02
 audio-description: "Crossroads is designed to be a place where we can all seek God, regardless of our starting point. Unfortunately, many of us have never had a healthy seeking process modeled for us. During this four-week series we'll explore the basics of seeking, from how"
 audio: "http://www.crossroads.net/audio/2007/2007_06_Seek/Seek_04_Tools_09-02-07_C_Mingo.mp3"
 audio-title: "Tools"
-audio-duration: "46&#58;20"
+audio-duration: "46:20"
 ---

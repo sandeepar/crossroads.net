@@ -14,5 +14,5 @@ video-poster: "https://www.crossroads.net/uploadedfiles/everydayfriendsstill_04.
 audio-description: "Chuck Mingo talks about how great friendships mirror great teams."
 audio: "http://www.crossroads.net/players/media/hq/everydayfriends_04.mp3"
 audio-title: "Team"
-audio-duration: "36&#58;01"
+audio-duration: "36:01"
 ---

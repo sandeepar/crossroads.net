@@ -7,7 +7,7 @@ date: 2013-06-15
 audio-description: "Chuck Mingo talks about building spiritual maturity."
 audio: "http://www.crossroads.net/players/media/hq/htbp_01.mp3"
 audio-title: "Building Spiritual Maturity"
-audio-duration: "43&#58;53"
+audio-duration: "43:53"
 program-description: "Program - WK1 How to Build People"
 program: "http://www.crossroads.net/players/media/hq/06_15-16_13Program_LO.pdf"
 program-title: "Building Spiritual Maturity"

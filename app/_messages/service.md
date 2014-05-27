@@ -7,7 +7,7 @@ date: 2008-05-25
 audio-description: ""
 audio: "http://s3.amazonaws.com/crossroadsaudiomessages/RIQ_03_Serving_05-24-08_Tome_webaudio.mp3"
 audio-title: "RIQ&#58; Service"
-audio-duration: "42&#58;30"
+audio-duration: "42:30"
 notes-description: " "
 notes: "http://www.crossroads.net/players/media/hq/SN_05_24-25_08.pdf "
 notes-title: "Study Notes 5/24-25/08"

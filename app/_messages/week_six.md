@@ -14,5 +14,5 @@ notes-title: "One (Week Six) - Study Notes"
 audio-description: "John Burke shares his thoughts on staying connected with God."
 audio: "http://s3.amazonaws.com/crossroadsaudiomessages/One-week6.mp3"
 audio-title: "One (Week Six)"
-audio-duration: "44&#58;29"
+audio-duration: "44:29"
 ---

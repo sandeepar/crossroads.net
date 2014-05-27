@@ -7,7 +7,7 @@ date: 2013-08-10
 audio-description: "Mosa Sono gives us a South African perspective on who God is."
 audio: "http://www.crossroads.net/players/media/hq/god_is_05.mp3"
 audio-title: "About the Small Places"
-audio-duration: "40&#58;14"
+audio-duration: "40:14"
 video-description: "Mosa Sono gives us a South African perspective on who God is."
 video-title: "About the Small Places"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/god_is_05.mp4"

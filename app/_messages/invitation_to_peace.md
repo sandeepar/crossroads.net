@@ -14,5 +14,5 @@ program-title: "Invitation to Peace"
 audio-description: "Brian Wells talks about God’s invitation to peace."
 audio: "http://www.crossroads.net/players/media/hq/rsvp02.mp3"
 audio-title: "Invitation to Peace"
-audio-duration: "37&#58;16"
+audio-duration: "37:16"
 ---

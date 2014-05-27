@@ -7,7 +7,7 @@ date: 2013-04-06
 audio-description: "Brian Tome about the possibility of an enormous return."
 audio: "http://www.crossroads.net/players/media/hq/roi_05.mp3"
 audio-title: "CR ROI"
-audio-duration: "55&#58;03"
+audio-duration: "55:03"
 program-description: "Program - ROI Week 5"
 program: "http://www.crossroads.net/players/media/hq/04_6-7_13Program_loRes.pdf"
 program-title: "CR ROI"

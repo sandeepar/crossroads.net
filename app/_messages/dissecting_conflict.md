@@ -7,5 +7,5 @@ date: 1998-02-01
 audio-description: "How to deal with conflict without killing everybody! "
 audio: ""
 audio-title: "Dissecting Conflict"
-audio-duration: "&#58;"
+audio-duration: ":"
 ---

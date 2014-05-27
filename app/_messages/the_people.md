@@ -7,7 +7,7 @@ date: 2008-10-12
 audio-description: "The Kingdom is about the King's heart for people. When we are engaged in following Jesus, we make it our business to be about people as well. In this talk, Brian Tome discusses how we can imitate Jesus' passion for people."
 audio: "http://s3.amazonaws.com/crossroadsaudiomessages/Unlocked_Week2_The_People_10-12-08_Brian_Tome.mp3"
 audio-title: "Unlock(ed)&#58; The People"
-audio-duration: "45&#58;54"
+audio-duration: "45:54"
 notes-description: " "
 notes: "http://www.crossroads.net/players/media/hq/SN_10_11-12_08.pdf "
 notes-title: "Unlock(ed)&#58; The People (Study Notes)"

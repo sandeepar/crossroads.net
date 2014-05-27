@@ -7,5 +7,5 @@ date: 1998-02-15
 audio-description: "How to deal with conflict without killing everybody! "
 audio: ""
 audio-title: "Receiving Criticism"
-audio-duration: "&#58;"
+audio-duration: ":"
 ---

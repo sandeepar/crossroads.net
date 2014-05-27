@@ -15,5 +15,5 @@ audio-description: "Brian Tome discusses how we sometimes need to put ourselves 
 receive God's grace."
 audio: "http://s3.amazonaws.com/crossroadsaudiomessages/Lavish2.mp3"
 audio-title: "Grunt"
-audio-duration: "39&#58;21"
+audio-duration: "39:21"
 ---

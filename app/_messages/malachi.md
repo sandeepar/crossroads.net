@@ -7,7 +7,7 @@ date: 2009-01-25
 audio-description: "Chuck Mingo shares the message of Malachi and how God demands to be honored."
 audio: "http://s3.amazonaws.com/crossroadsaudiomessages/LostBooks3.mp3"
 audio-title: "Lost Books&#58; Malachi"
-audio-duration: "32&#58;34"
+audio-duration: "32:34"
 video-description: "Chuck Mingo shares the message of Malachi and how God demands to be honored. <b>[NOTE&#58; the texting Chuck refers to in his talk is now disabled to new signups. Please see the Crossroads blog for the daily dares.]</b>"
 video-title: "Lost Books&#58; Malachi"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/LostBooks3.mp4"

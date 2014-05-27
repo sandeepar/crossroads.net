@@ -14,5 +14,5 @@ program-title: "Israel/Law"
 audio-description: "Brian Tome talks about the nation of Israel and God's promise to them."
 audio: "http://s3.amazonaws.com/crossroadsaudiomessages/thestory03.mp3"
 audio-title: "Israel/Law"
-audio-duration: "39&#58;02"
+audio-duration: "39:02"
 ---

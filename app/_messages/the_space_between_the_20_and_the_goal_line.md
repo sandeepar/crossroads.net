@@ -7,5 +7,5 @@ date: 2003-01-25
 audio-description: "We've somehow lost that healthy space between sanity and our maximum limits."
 audio: "http://s3.amazonaws.com/crossroadsaudiomessages/Between the 20 and the Goal.mp3"
 audio-title: "The Space Between the 20 and the Goal Line"
-audio-duration: "39&#58;01"
+audio-duration: "39:01"
 ---

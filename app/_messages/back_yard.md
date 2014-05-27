@@ -7,7 +7,7 @@ date: 2012-06-02
 audio-description: "Kirk Perry talks about how to live out our faith in the workplace."
 audio: "http://www.crossroads.net/players/media/hq/backyardgospel_02.mp3"
 audio-title: "Back Yard"
-audio-duration: "44&#58;10"
+audio-duration: "44:10"
 program-description: "Program"
 program: "http://www.crossroads.net/players/media/hq/06_02-03_12Program.pdf"
 program-title: "Back Yard"

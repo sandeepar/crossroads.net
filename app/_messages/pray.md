@@ -14,5 +14,5 @@ video-poster: "https://www.crossroads.net/uploadedfiles/strong02_still.jpg"
 audio-description: "When we pray, we open ourselves up to life-changing conversations with God. Prayer is meant to be more than an emergency flare to heaven in our times of need—it’s designed for us to connect with God on a real, intimate, everyday basis."
 audio: "http://www.crossroads.net/players/media/hq/strong02.mp3"
 audio-title: "Pray"
-audio-duration: "40&#58;50"
+audio-duration: "40:50"
 ---

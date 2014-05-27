@@ -7,7 +7,7 @@ date: 2013-03-16
 audio-description: "Chuck Mingo talks about investing."
 audio: "http://www.crossroads.net/players/media/hq/roi_02.mp3"
 audio-title: "Invest"
-audio-duration: "44&#58;20"
+audio-duration: "44:20"
 program-description: "Program - Wk2 ROI"
 program: "http://www.crossroads.net/players/media/hq/03_16-17_13Program_LO.pdf"
 program-title: "Invest"

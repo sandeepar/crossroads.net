@@ -14,5 +14,5 @@ video-poster: "https://www.crossroads.net/uploadedfiles/heavyweights2_wk6_still.
 audio-description: "Aren’t all religions basically the same?"
 audio: "http://www.crossroads.net/players/media/hq/heavyweights2_wk6.mp3"
 audio-title: "Jesus vs. Other Religions"
-audio-duration: "&#58;"
+audio-duration: ":"
 ---

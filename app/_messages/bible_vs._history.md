@@ -7,7 +7,7 @@ date: 2014-02-08
 audio-description: "Is the Bible a true source of history?"
 audio: "http://www.crossroads.net/players/media/hq/heavyweights2_wk01.mp3"
 audio-title: "Bible vs. History"
-audio-duration: "50&#58;44"
+audio-duration: "50:44"
 program-description: "Program WK1 - HeavyWeights2"
 program: "http://www.crossroads.net/players/media/hq/02_08-09_14Program_LO.pdf"
 program-title: "Bible vs. History"

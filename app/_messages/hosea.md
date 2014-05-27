@@ -7,7 +7,7 @@ date: 2009-02-15
 audio-description: "Chuck Mingo shares the story of Hosea and a God who demands fidelity."
 audio: "http://s3.amazonaws.com/crossroadsaudiomessages/LostBooks6.mp3"
 audio-title: "Lost Books&#58; Hosea"
-audio-duration: "33&#58;54"
+audio-duration: "33:54"
 video-description: "Chuck Mingo shares the story of Hosea and a God who demands fidelity."
 video-title: "Lost Books&#58; Hosea"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/LostBooks6.mp4"

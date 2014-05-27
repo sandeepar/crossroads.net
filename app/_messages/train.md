@@ -10,7 +10,7 @@ fresh ways can supercharge our growth, and reveal
 spiritual muscles we never even knew we had."
 audio: "http://www.crossroads.net/players/media/hq/strong04.mp3"
 audio-title: "Train"
-audio-duration: "53&#58;52"
+audio-duration: "53:52"
 program-description: "Strong Challenge - Train (Program)"
 program: "http://www.crossroads.net/players/media/hq/10_29-30_11STRONGProgram.pdf"
 program-title: "Train"

@@ -7,7 +7,7 @@ date: 2012-05-05
 audio-description: "Brian Tome talks about the power of our tongues."
 audio: "http://www.crossroads.net/players/media/hq/james_03.mp3"
 audio-title: "Tongue"
-audio-duration: "39&#58;13"
+audio-duration: "39:13"
 program-description: "Program"
 program: "http://www.crossroads.net/players/media/hq/05_05-06_12Program_OAKLEY.pdf"
 program-title: "Tongue Program"

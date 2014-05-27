@@ -7,7 +7,7 @@ date: 2009-04-12
 audio-description: "Jesus' death and resurrection is the central point of history. In this talk, Brian Tome discusses why this is so and why it is something that we each must deal with."
 audio: "http://s3.amazonaws.com/crossroadsaudiomessages/Easter09.mp3"
 audio-title: "Easter 2009"
-audio-duration: "37&#58;07"
+audio-duration: "37:07"
 video-description: "Brian Tome discusses why the resurrection of Jesus is significant and why it must be dealt with."
 video-title: "Easter 2009"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/Easter09.mp4"

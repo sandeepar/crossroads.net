@@ -7,7 +7,7 @@ date: 2012-09-01
 audio-description: "Chuck Mingo talks about how to put our talents to work."
 audio: "http://www.crossroads.net/players/media/hq/htlyj_03.mp3"
 audio-title: "Lead Everywhere"
-audio-duration: "36&#58;25"
+audio-duration: "36:25"
 program-description: "Program - Week 3 How To Love Your Job"
 program: "http://www.crossroads.net/players/media/hq/09_01-02_12Program.pdf"
 program-title: "Lead Everywhere"

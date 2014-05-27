@@ -7,5 +7,5 @@ date: 2002-07-20
 audio-description: "A brief history of God from beginning to end.  "
 audio: ""
 audio-title: "The Answer"
-audio-duration: "&#58;"
+audio-duration: ":"
 ---

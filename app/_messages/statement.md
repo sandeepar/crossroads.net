@@ -7,7 +7,7 @@ date: 2013-04-13
 audio-description: "We’ll have the chance to invest for an enormous return."
 audio: "http://www.crossroads.net/players/media/hq/roi_06.mp3"
 audio-title: "Statement"
-audio-duration: "43&#58;01"
+audio-duration: "43:01"
 program-description: "Program - WK6 ROI"
 program: "http://www.crossroads.net/players/media/hq/04_13-14_13Program_LO.pdf"
 program-title: "Statement"

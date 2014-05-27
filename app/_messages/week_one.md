@@ -17,5 +17,5 @@ program-title: "Pride&#58; Week One (Program)"
 audio-description: ""
 audio: "http://s3.amazonaws.com/crossroadsaudiomessages/Pride_01_06-08-08_Wells_webaudio.mp3"
 audio-title: "Pride&#58; Week One"
-audio-duration: "41&#58;40"
+audio-duration: "41:40"
 ---

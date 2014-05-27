@@ -7,5 +7,5 @@ date: 2002-09-22
 audio-description: "What does it mean to live out loud?"
 audio: "http://s3.amazonaws.com/crossroadsaudiomessages/Real Questions.mp3"
 audio-title: "Real Questions"
-audio-duration: "36&#58;17"
+audio-duration: "36:17"
 ---

@@ -7,7 +7,7 @@ date: 2009-06-28
 audio-description: "Chuck Mingo discusses the importance of relevance in the revolution of Jesus."
 audio: "http://s3.amazonaws.com/crossroadsaudiomessages/Roadmap7.mp3"
 audio-title: "Relevance"
-audio-duration: "33&#58;07"
+audio-duration: "33:07"
 video-description: "Chuck Mingo discusses the importance of relevance in the revolution of the early church."
 video-title: "Relevance"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/Roadmap7.mp4"

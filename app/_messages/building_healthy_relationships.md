@@ -7,5 +7,5 @@ date: 1999-03-21
 audio-description: "Is the Bible really relevant to our normal everyday lives? "
 audio: ""
 audio-title: "Building Healthy Relationships"
-audio-duration: "&#58;"
+audio-duration: ":"
 ---

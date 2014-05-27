@@ -7,5 +7,5 @@ date: 2007-10-27
 audio-description: "We�re designed for a certain rhythm. Work, rest, play, change and growth are all part of this rhythm. We feel the reality of this cycle in our bodies and we see it in nature around us. In this series we�ll look at what we can learn about healthy living from the real-time lessons of Fall, Winter, Spring and Summer."
 audio: "http://www.crossroads.net/audio/2007/2007_08_Seasons/Seasons_03_Spring_10_28_07_Brian_Tome.mp3"
 audio-title: "Spring"
-audio-duration: "45&#58;42"
+audio-duration: "45:42"
 ---

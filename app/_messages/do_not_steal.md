@@ -7,5 +7,5 @@ date: 1998-07-26
 audio-description: "We look at the 10 Commandments and their relevancy in our lives today. "
 audio: ""
 audio-title: "Do Not Steal"
-audio-duration: "&#58;"
+audio-duration: ":"
 ---

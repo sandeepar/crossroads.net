@@ -11,5 +11,5 @@ video-poster: "https://www.crossroads.net/uploadedfiles/lw_0213_florence.jpg"
 audio-description: "In Florence, listen to Brian highlight tribal stories from the past 17 years."
 audio: "http://www.crossroads.net/players/media/hq/022713-lw-florence.mp3"
 audio-title: "Last Wednesday - Feb. 2013"
-audio-duration: "44&#58;32"
+audio-duration: "44:32"
 ---

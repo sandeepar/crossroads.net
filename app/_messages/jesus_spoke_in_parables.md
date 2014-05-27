@@ -7,7 +7,7 @@ date: 2011-07-23
 audio-description: "Chuck Mingo talks about how Jesus spoke truth in the form of parables."
 audio: "http://www.crossroads.net/players/media/hq/thegreatestshow06.mp3"
 audio-title: "Jesus Spoke In Parables"
-audio-duration: "42&#58;08"
+audio-duration: "42:08"
 program-description: "Jesus Spoke In Parables (Program)"
 program: "http://www.crossroads.net/players/media/hq/07_23-24_11Program.pdf"
 program-title: "Jesus Spoke In Parables (Program)"

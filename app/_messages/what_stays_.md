@@ -7,5 +7,5 @@ date: 2001-11-10
 audio-description: "Don't miss these last three weeks before the big move. What stuff should we definitely take and what would be better left behind? "
 audio: ""
 audio-title: "What Stays? "
-audio-duration: "&#58;"
+audio-duration: ":"
 ---

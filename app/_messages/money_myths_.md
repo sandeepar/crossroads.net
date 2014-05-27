@@ -7,5 +7,5 @@ date: 1998-01-11
 audio-description: "How to handle our money in a way that makes sense and pleases God. "
 audio: ""
 audio-title: "Money Myths "
-audio-duration: "&#58;"
+audio-duration: ":"
 ---

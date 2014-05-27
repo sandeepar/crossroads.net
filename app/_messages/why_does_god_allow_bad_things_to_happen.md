@@ -7,5 +7,5 @@ date: 1998-04-19
 audio-description: "We answer the top five questions about Christianity. "
 audio: ""
 audio-title: "Why Does God Allow Bad Things To Happen?"
-audio-duration: "&#58;"
+audio-duration: ":"
 ---

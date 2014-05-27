@@ -7,7 +7,7 @@ date: 2009-06-07
 audio-description: "Brian Tome discusses the story of Stephen from the book of Acts and how revolution involves cost."
 audio: "http://s3.amazonaws.com/crossroadsaudiomessages/Roadmap4.mp3"
 audio-title: "Cost"
-audio-duration: "36&#58;51"
+audio-duration: "36:51"
 notes-description: " "
 notes: "http://www.crossroads.net/players/media/hq/SN_06_06-07_09.pdf "
 notes-title: "Cost (Study Notes)"

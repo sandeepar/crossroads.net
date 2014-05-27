@@ -7,7 +7,7 @@ date: 2013-07-13
 audio-description: "Chuck Mingo talks about how God is other worldly."
 audio: "http://www.crossroads.net/players/media/hq/god_is_01.mp3"
 audio-title: "Other Worldly"
-audio-duration: "40&#58;13"
+audio-duration: "40:13"
 program-description: "Program WK1 - God Is_____"
 program: "http://www.crossroads.net/players/media/hq/07_13-14_13Program_LO.pdf"
 program-title: "Other Worldly"

@@ -9,7 +9,7 @@ needs of others. And the more we serve, the more opportunity we have to understa
 abundant, generous love."
 audio: "http://www.crossroads.net/players/media/hq/strong_05.mp3"
 audio-title: "Serve"
-audio-duration: "36&#58;10"
+audio-duration: "36:10"
 program-description: "Strong Challenge - Serve (Program)"
 program: "http://www.crossroads.net/players/media/hq/11_05-06_11STRONGProgram.pdf"
 program-title: "Serve (Program)"

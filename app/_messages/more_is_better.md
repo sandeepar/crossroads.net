@@ -7,5 +7,5 @@ date: 2001-02-24
 audio-description: "These lies, while subtle, are the ones that are influencing our biggest life choices. "
 audio: ""
 audio-title: "More Is Better"
-audio-duration: "&#58;"
+audio-duration: ":"
 ---

@@ -7,7 +7,7 @@ date: 2008-05-18
 audio-description: ""
 audio: "http://s3.amazonaws.com/crossroadsaudiomessages/RIQ_02_Submission_05-18-08_Tome_webaudio.mp3"
 audio-title: "RIQ&#58; Submission"
-audio-duration: "37&#58;08"
+audio-duration: "37:08"
 video-description: "Relationally Intelligent people understand how to submit. "
 video-title: "RIQ&#58; Submission"
 video: "http://s3.amazonaws.com/crossroadsvideomessages/RIQ2.mp4"
