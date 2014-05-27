@@ -8,7 +8,7 @@ audio-description: "We'll be talking about God's redemptive plan for sex.
 (This message contains adult content.)"
 audio: "http://www.crossroads.net/players/media/hq/goodsex_04.mp3"
 audio-title: "Consecration"
-audio-duration: "42&#58;34"
+audio-duration: "42:34"
 program-description: "Program - GoodSex Wk4"
 program: "http://www.crossroads.net/players/media/hq/06_08-09_13Program_LO.pdf"
 program-title: "Consecration"

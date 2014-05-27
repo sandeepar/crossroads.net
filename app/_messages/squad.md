@@ -7,5 +7,5 @@ date: 2008-01-20
 audio-description: ""
 audio: "http://s3.amazonaws.com/crossroadsaudiomessages/The_Drive_03_Squad_01-20-08_Chuck_Mingo_webaudio.mp3"
 audio-title: "Squad"
-audio-duration: "23&#58;21"
+audio-duration: "23:21"
 ---

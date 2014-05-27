@@ -7,7 +7,7 @@ date: 2012-02-25
 audio-description: "Brian Tome talks about our need for approval."
 audio: "http://www.crossroads.net/players/media/hq/placeatthetable_03.mp3"
 audio-title: "Finding Approval"
-audio-duration: "37&#58;54"
+audio-duration: "37:54"
 program-description: "A Place at the Table - Finding Approval Program"
 program: "http://www.crossroads.net/players/media/hq/02_25-26_12Program.pdf"
 program-title: "Finding Approval"

@@ -7,7 +7,7 @@ date: 2010-03-14
 audio-description: "Brian Tome discusses the four phases we go through as we pursue freedom."
 audio: "http://s3.amazonaws.com/crossroadsaudiomessages/Free4.mp3"
 audio-title: "Endurance"
-audio-duration: "32&#58;35"
+audio-duration: "32:35"
 program-description: ""
 program: "http://www.crossroads.net/players/media/hq/03_13-14_10Program.pdf"
 program-title: "Endurance (Program)"

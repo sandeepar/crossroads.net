@@ -7,7 +7,7 @@ date: 2009-07-12
 audio-description: "Alli Patterson talks about how relating to Jesus as a friend is essential to engaging in city-changing relationships."
 audio: "http://s3.amazonaws.com/crossroadsaudiomessages/LoveMyFriend.mp3"
 audio-title: "I Love My Friend"
-audio-duration: "39&#58;55"
+audio-duration: "39:55"
 notes-description: " "
 notes: "http://www.crossroads.net/players/media/hq/we love cincinnati-friendship.pdf "
 notes-title: "I Love My Friend (Study Notes)"

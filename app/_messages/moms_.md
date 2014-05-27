@@ -7,5 +7,5 @@ date: 1999-05-09
 audio-description: "Special Mother's Day message "
 audio: ""
 audio-title: "Moms "
-audio-duration: "&#58;"
+audio-duration: ":"
 ---

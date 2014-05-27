@@ -11,5 +11,5 @@ video-poster: "https://www.crossroads.net/uploadedfiles/062613-LW-still.jpg"
 audio-description: "Last Wednesday 6.26"
 audio: "http://www.crossroads.net/players/media/hq/062613-LW.mp3"
 audio-title: "Last Wednesday 6.26"
-audio-duration: "54&#58;50"
+audio-duration: "54:50"
 ---

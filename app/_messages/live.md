@@ -8,7 +8,7 @@ audio-description: "The challenges we’ve incorporated over the past weeks are 
 these rhythms and practices, we grow closer to God and spiritually strong."
 audio: "http://www.crossroads.net/players/media/hq/strong06.mp3"
 audio-title: "Live"
-audio-duration: "51&#58;07"
+audio-duration: "51:07"
 program-description: "The challenges we’ve incorporated over the past weeks are all important elements of the lives of disciples of Jesus. As we continue to engage with
 these rhythms and practices, we grow closer to God and spiritually strong."
 program: "http://www.crossroads.net/players/media/hq/11_12-13_11STRONGProgram.pdf"

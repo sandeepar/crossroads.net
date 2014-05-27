@@ -7,7 +7,7 @@ date: 2012-07-28
 audio-description: "We’re learning about how the good life comes when we take Jesus at his word."
 audio: "http://www.crossroads.net/players/media/hq/goodlife_06.mp3"
 audio-title: "Week 6 - Kathy Beechem"
-audio-duration: "38&#58;46"
+audio-duration: "38:46"
 program-description: "Program"
 program: "http://www.crossroads.net/players/media/hq/07_28-29_12Program.pdf"
 program-title: "Week 6 - Kathy Beechem"

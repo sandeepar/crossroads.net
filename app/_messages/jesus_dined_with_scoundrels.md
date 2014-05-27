@@ -7,7 +7,7 @@ date: 2011-07-09
 audio-description: "Brian Wells talks about how Jesus redefined God."
 audio: "http://www.crossroads.net/players/media/hq/greatestshow04.mp3"
 audio-title: "Jesus Dined With Scoundrels"
-audio-duration: "45&#58;58"
+audio-duration: "45:58"
 program-description: "Jesus Dined With Scoundrels (Program)"
 program: "http://www.crossroads.net/players/media/hq/07_09-10_11Program.pdf"
 program-title: "Jesus Dined With Scoundrels"

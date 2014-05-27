@@ -7,5 +7,5 @@ date: 2000-05-21
 audio-description: "Our series surrounding our building campaign. "
 audio: ""
 audio-title: "It's About Gratitude"
-audio-duration: "&#58;"
+audio-duration: ":"
 ---

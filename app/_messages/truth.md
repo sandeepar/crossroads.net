@@ -7,7 +7,7 @@ date: 2008-05-11
 audio-description: "Chuck Mingo discusses how to give and receive truth in our relationships."
 audio: "http://s3.amazonaws.com/crossroadsaudiomessages/RIQ_01_05-11-08_Mingo_webaudio.mp3"
 audio-title: "RIQ&#58; Truth"
-audio-duration: "41&#58;06"
+audio-duration: "41:06"
 video-description: "Chuck Mingo discusses how to give and receive truth in our relationships."
 video-title: "RIQ&#58; Truth"
 video: "http://s3.amazonaws.com/crossroadsvideomessages/RIQ1.mp4"

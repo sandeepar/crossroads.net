@@ -7,5 +7,5 @@ date: 1998-03-29
 audio-description: "We answer the top five questions about Christianity. "
 audio: ""
 audio-title: "Is the Bible Reliable"
-audio-duration: "&#58;"
+audio-duration: ":"
 ---

@@ -7,7 +7,7 @@ date: 2009-08-09
 audio-description: "Chuck Mingo shares what it looks like to be on mission in Cincinnati."
 audio: "http://s3.amazonaws.com/crossroadsaudiomessages/WeLoveCincy6.mp3"
 audio-title: "On Mission In Cincy"
-audio-duration: "41&#58;23"
+audio-duration: "41:23"
 notes-description: " "
 notes: "http://www.crossroads.net/players/media/hq/SN_08_08-09_09.pdf "
 notes-title: "On Mission In Cincy (Study Notes)"

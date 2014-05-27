@@ -7,5 +7,5 @@ date: 2005-08-28
 audio-description: "Elements&#58; Fundamental, essential and basic assumptions or principles of a subject or entity.   Remember squinting your eyes at that ugly multi-colored chart on the science room wall - The Periodic Table of Elements? Well, the elements are the basic buildi"
 audio: "http://www.crossroads.net/audio/2005/2005_07_Elements/Elements_04_08-28-05_Element_4.mp3"
 audio-title: "Element 004"
-audio-duration: "45&#58;43"
+audio-duration: "45:43"
 ---

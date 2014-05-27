@@ -7,7 +7,7 @@ date: 2013-10-19
 audio-description: ""
 audio: "http://www.crossroads.net/players/media/hq/101913_Service.mp3"
 audio-title: "Receive | Enter the Kingdom"
-audio-duration: "36&#58;15"
+audio-duration: "36:15"
 video-description: ""
 video-title: "Receive | Enter the Kingdom"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/101913_Service.mp4"

@@ -14,5 +14,5 @@ video-poster: "https://www.crossroads.net/uploadedfiles/gamechange05_still.jpg"
 audio-description: "Brian Tome talks about the opportunity that is before us."
 audio: "http://s3.amazonaws.com/crossroadsaudiomessages/gamechange05.mp3"
 audio-title: "Game Change - Next"
-audio-duration: "47&#58;28"
+audio-duration: "47:28"
 ---

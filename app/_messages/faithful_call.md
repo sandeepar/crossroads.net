@@ -7,7 +7,7 @@ date: 2010-08-29
 audio-description: "Brian Tome talks about how the faithful respond to God's call."
 audio: "http://s3.amazonaws.com/crossroadsaudiomessages/TheFaithful03.mp3"
 audio-title: "Faithful Call"
-audio-duration: "46&#58;37"
+audio-duration: "46:37"
 program-description: "Faithful Call (Program)"
 program: "http://www.crossroads.net/players/media/hq/08_28-29_10Program.pdf"
 program-title: "Faithful Call (Program)"

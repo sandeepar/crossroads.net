@@ -7,7 +7,7 @@ date: 2011-04-02
 audio-description: "Brian Tome talks about God's purpose for creation, and the tragic events that transpired."
 audio: "http://s3.amazonaws.com/crossroadsaudiomessages/thestory02.mp3"
 audio-title: "Creation/Fall"
-audio-duration: "48&#58;42"
+audio-duration: "48:42"
 program-description: "Creation/Fall Program"
 program: "http://www.crossroads.net/players/media/hq/04_02-03_11Program.pdf"
 program-title: "Creation/Fall Program"

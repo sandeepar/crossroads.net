@@ -7,7 +7,7 @@ date: 2009-09-27
 audio-description: "Brian Tome discusses why we must respond to the greatest commitment ever made - the one God has made to us."
 audio: "http://s3.amazonaws.com/crossroadsaudiomessages/Commitment3.mp3"
 audio-title: "No Be Yes"
-audio-duration: "28&#58;53"
+audio-duration: "28:53"
 notes-description: " "
 notes: "http://www.crossroads.net/players/media/hq/SN_09_26-27_09.pdf "
 notes-title: "No Be Yes (Study Notes)"

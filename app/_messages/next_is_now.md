@@ -7,7 +7,7 @@ date: 2010-01-17
 audio-description: "Todd Henry shares how God uses dreams to inspire greatness in us right now."
 audio: "http://s3.amazonaws.com/crossroadsaudiomessages/Next3.mp3"
 audio-title: "Next Is Now"
-audio-duration: "32&#58;17"
+audio-duration: "32:17"
 program-description: ""
 program: "http://www.crossroads.net/players/media/hq/01_16-17_10Program.pdf"
 program-title: "Next Is Now (Program)"

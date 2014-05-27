@@ -7,7 +7,7 @@ date: 2008-10-26
 audio-description: "What is the purpose of all of this \"Kingdom\" talk? In this message, Brian Tome discusses what it means for us to receive the key of love and to be unlocked."
 audio: "http://s3.amazonaws.com/crossroadsaudiomessages/unlocked4.mp3"
 audio-title: "Unlock(ed)&#58; The Purpose"
-audio-duration: "39&#58;34"
+audio-duration: "39:34"
 notes-description: " "
 notes: "http://www.crossroads.net/players/media/hq/SN_10_25-26_08.pdf "
 notes-title: "Unlock(ed)&#58; The Purpose (Study Notes)"

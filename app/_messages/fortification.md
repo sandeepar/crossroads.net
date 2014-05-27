@@ -7,7 +7,7 @@ date: 2009-11-01
 audio-description: "Brian Tome discusses why it's important for us to be resilient and patiently active, even in the midst of a storm."
 audio: "http://s3.amazonaws.com/crossroadsaudiomessages/Garden4.mp3"
 audio-title: "Fortification"
-audio-duration: "34&#58;05"
+audio-duration: "34:05"
 video-description: "Brian Tome discusses why it's important for us to be resilient and patiently active, even in the midst of a storm."
 video-title: "Fortification"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/Garden4.mp4"

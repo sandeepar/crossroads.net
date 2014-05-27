@@ -7,7 +7,7 @@ date: 2013-03-09
 audio-description: "Brian Tome talks about what it means to get a good return."
 audio: "http://www.crossroads.net/players/media/hq/roi_01.mp3"
 audio-title: "Treasure"
-audio-duration: "50&#58;40"
+audio-duration: "50:40"
 program-description: "Program - Wk-01 ROI"
 program: "http://www.crossroads.net/players/media/hq/03_09-10_13Program_LO.pdf"
 program-title: "Treasure"

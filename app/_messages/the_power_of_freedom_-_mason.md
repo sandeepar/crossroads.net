@@ -7,5 +7,5 @@ date: 2013-12-14
 audio-description: "Mason"
 audio: "http://www.crossroads.net/players/media/hq/giftoffreedom_03_mason.mp3"
 audio-title: "The Power of Freedom"
-audio-duration: "42&#58;40"
+audio-duration: "42:40"
 ---

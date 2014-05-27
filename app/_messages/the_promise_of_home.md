@@ -12,7 +12,7 @@ Because of an ancient tragedy that occurred in our
 family lines, our default mode of operation is living as abandoned orphans. But it can be changed—God’s greatest desire is that we would all come Home."
 audio: "http://www.crossroads.net/players/media/hq/journeyhome_01.mp3"
 audio-title: "A Journey Home"
-audio-duration: "55&#58;29"
+audio-duration: "55:29"
 video-description: "What is it like to be at home?
 Because of an ancient tragedy that occurred in our
 family lines, our default mode of operation is living as

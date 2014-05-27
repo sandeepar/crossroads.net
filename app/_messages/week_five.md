@@ -7,7 +7,7 @@ date: 2008-08-03
 audio-description: "Kevin Myers from 12Stone church in Atlanta continues our ONE series."
 audio: "http://s3.amazonaws.com/crossroadsaudiomessages/One_Week_5_Kevin_Meyers_8-3-2008.mp3"
 audio-title: "One (Week Five)"
-audio-duration: "37&#58;21"
+audio-duration: "37:21"
 notes-description: "Study Notes for One (Week Five) "
 notes: "http://www.crossroads.net/players/media/hq/SN_08-03-08.pdf "
 notes-title: "One (Week Five) - Study Notes"

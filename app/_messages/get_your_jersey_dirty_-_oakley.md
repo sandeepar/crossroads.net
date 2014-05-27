@@ -7,7 +7,7 @@ date: 2014-03-29
 audio-description: "Chuck Mingo talks about getting our jerseys dirty."
 audio: "http://www.crossroads.net/players/media/hq/htctw_02.mp3"
 audio-title: "Get Your Jersey Dirty"
-audio-duration: "&#58;"
+audio-duration: ":"
 program-description: "Program - WK 2 How to Change the World"
 program: "http://www.crossroads.net/players/media/hq/03_29-30_14Program_LO.pdf"
 program-title: "Get Your Jersey Dirty"

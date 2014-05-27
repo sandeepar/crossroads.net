@@ -7,7 +7,7 @@ date: 2014-04-26
 audio-description: "Brian Tome talks about what truly makes a man."
 audio: "http://www.crossroads.net/players/media/hq/thenewman_01.mp3"
 audio-title: "5 Marks of a Man"
-audio-duration: "&#58;"
+audio-duration: ":"
 program-description: "The New Man - WK1 Program"
 program: "http://www.crossroads.net/players/media/hq/04_26-17_14Program.pdf"
 program-title: "5 Marks of a Man"

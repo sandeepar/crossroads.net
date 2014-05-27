@@ -11,5 +11,5 @@ video-poster: "https://www.crossroads.net/uploadedfiles/iam-focused-still.jpg"
 audio-description: "When Jesus heard from God, he bent his life to that truth. Also, temptations and intentions are not what's important, but action."
 audio: "http://s3.amazonaws.com/crossroadsaudiomessages/I_AM_1_Focused_04-06-08_Tome_webaudio.mp3"
 audio-title: "I AM... Focused"
-audio-duration: "34&#58;46"
+audio-duration: "34:46"
 ---

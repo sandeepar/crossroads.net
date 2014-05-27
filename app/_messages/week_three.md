@@ -7,7 +7,7 @@ date: 2008-06-21
 audio-description: ""
 audio: "http://s3.amazonaws.com/crossroadsaudiomessages/Pride_03_06-22-08_Tome_webaudio.mp3"
 audio-title: "Pride (Week Three)"
-audio-duration: "38&#58;50"
+audio-duration: "38:50"
 video-description: "In this talk, Brian Tome discusses how pride has taken root in his life and offers some ways that we can combat it."
 video-title: "Pride (Week Three)"
 video: "http://s3.amazonaws.com/crossroadsvideomessages/Pride3.mp4"

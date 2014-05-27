@@ -7,7 +7,7 @@ date: 2010-02-28
 audio-description: "Brian Tome discusses the Freedom Giver and how he fights for our freedom."
 audio: "http://s3.amazonaws.com/crossroadsaudiomessages/Free2.mp3"
 audio-title: "The Freedom Giver"
-audio-duration: "40&#58;29"
+audio-duration: "40:29"
 program-description: ""
 program: "http://www.crossroads.net/players/media/hq/02_27-28_10Program.pdf"
 program-title: "The Freedom Giver (Program)"

@@ -7,7 +7,7 @@ date: 2012-04-21
 audio-description: "Chuck Mingo talks about what faith is all about."
 audio: "http://www.crossroads.net/players/media/hq/james_01.mp3"
 audio-title: "Faith"
-audio-duration: "40&#58;15"
+audio-duration: "40:15"
 program-description: "Program"
 program: "http://www.crossroads.net/players/media/hq/04_21-22_12Program.pdf"
 program-title: "Faith"

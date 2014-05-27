@@ -7,7 +7,7 @@ date: 2009-08-16
 audio-description: "Brian Tome discusses why crossroads is set up to be a place for normal people to hear about Jesus."
 audio: "http://s3.amazonaws.com/crossroadsaudiomessages/InsideOut1.mp3"
 audio-title: "Outside In"
-audio-duration: "45&#58;31"
+audio-duration: "45:31"
 program-description: ""
 program: "http://www.crossroads.net/players/media/hq/0815_16Program.pdf"
 program-title: "Outside In (Program)"

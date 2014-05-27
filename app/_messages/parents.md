@@ -7,7 +7,7 @@ date: 2009-11-29
 audio-description: "Brian Tome discusses the stages of parenting along the progression from nurse to friend."
 audio: "http://s3.amazonaws.com/crossroadsaudiomessages/Typecast3.mp3"
 audio-title: "Parents"
-audio-duration: "30&#58;12"
+audio-duration: "30:12"
 video-description: "Brian Tome discusses the stages of parenting along the progression from nurse to friend."
 video-title: "Parents"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/Typecast3.mp4"

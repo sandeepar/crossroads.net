@@ -7,7 +7,7 @@ date: 2009-03-22
 audio-description: "Jesus reset prayer from transactional to relational.a"
 audio: "http://s3.amazonaws.com/crossroadsaudiomessages/Reset5.mp3"
 audio-title: "Jesus Reset Prayer"
-audio-duration: "41&#58;58"
+audio-duration: "41:58"
 video-description: "Jesus reset prayer from transactional to relational."
 video-title: "Jesus Reset Prayer"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/Reset5.mp4"

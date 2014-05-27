@@ -7,7 +7,7 @@ date: 2010-10-03
 audio-description: "Chuck Mingo talks about discovering joy through play."
 audio: "http://s3.amazonaws.com/crossroadsaudiomessages/replay.mp3"
 audio-title: "rePLAY"
-audio-duration: "35&#58;56"
+audio-duration: "35:56"
 program-description: "rePLAY (Program)"
 program: "http://www.crossroads.net/players/media/hq/10_02-03_10Program.pdf"
 program-title: "rePLAY (Program)"

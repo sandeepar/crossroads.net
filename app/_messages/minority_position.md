@@ -7,7 +7,7 @@ date: 2014-05-03
 audio-description: "The New Man takes a minority position."
 audio: "http://www.crossroads.net/players/media/hq/thenewman_02.mp3"
 audio-title: "Minority Position"
-audio-duration: "&#58;"
+audio-duration: ":"
 program-description: "The new man takes a minority position."
 program: "http://www.crossroads.net/players/media/hq/05_03-04_14Program_LO.pdf"
 program-title: "Minority Position"

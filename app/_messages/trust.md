@@ -7,7 +7,7 @@ date: 2013-03-30
 audio-description: "Brian Tome talks about Jesus’ investment in us."
 audio: "http://www.crossroads.net/players/media/hq/roi_04.mp3"
 audio-title: "Trust"
-audio-duration: "32&#58;02"
+audio-duration: "32:02"
 program-description: "Program - WK 3 ROI"
 program: "http://www.crossroads.net/players/media/hq/03_30-31_13Program_LO.pdf"
 program-title: "Trust"

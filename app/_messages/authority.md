@@ -7,7 +7,7 @@ date: 2009-06-21
 audio-description: "Alli Patterson discusses why authority is an important component of a revolution."
 audio: "http://s3.amazonaws.com/crossroadsaudiomessages/Roadmap5.mp3"
 audio-title: "Authority"
-audio-duration: "34&#58;47"
+audio-duration: "34:47"
 notes-description: " "
 notes: "http://www.crossroads.net/players/media/hq/SN_06_13-14_09.pdf "
 notes-title: "Authority (study notes)"

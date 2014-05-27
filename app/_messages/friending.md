@@ -7,7 +7,7 @@ date: 2010-05-02
 audio-description: "Todd Henry talks about how technology is conforming the experience of being human."
 audio: "http://s3.amazonaws.com/crossroadsaudiomessages/ForceFeed4.mp3"
 audio-title: "Friending"
-audio-duration: "36&#58;16"
+audio-duration: "36:16"
 video-description: "Todd Henry talks about how technology is conforming the experience of being human."
 video-title: "Friending"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/ForceFeed4.mp4"

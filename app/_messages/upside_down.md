@@ -7,7 +7,7 @@ date: 2010-08-08
 audio-description: "Chuck Mingo discusses what it looks like to seek the Kingdom."
 audio: "http://s3.amazonaws.com/crossroadsaudiomessages/KingdomCome05.mp3"
 audio-title: "Upside Down"
-audio-duration: "28&#58;21"
+audio-duration: "28:21"
 program-description: "Upside Down (Program)"
 program: "http://www.crossroads.net/players/media/hq/08_07-08_10Program.pdf"
 program-title: "Upside Down (Program)"

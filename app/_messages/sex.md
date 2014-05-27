@@ -7,7 +7,7 @@ date: 2011-08-27
 audio-description: "Brian Tome talks about sex and the powerful collisions that surround it."
 audio: "http://www.crossroads.net/players/media/hq/collide03.mp3"
 audio-title: "Sex"
-audio-duration: "47&#58;35"
+audio-duration: "47:35"
 program-description: "Program - Collide&#58; Sex"
 program: "http://www.crossroads.net/players/media/hq/08_27-28_11Program.pdf"
 program-title: "Sex"

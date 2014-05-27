@@ -7,7 +7,7 @@ date: 2011-05-14
 audio-description: "Brian Tome talks about how the story ends."
 audio: "http://s3.amazonaws.com/crossroadsaudiomessages/thestory08.mp3"
 audio-title: "Re-Creation"
-audio-duration: "55&#58;59"
+audio-duration: "55:59"
 program-description: "The Story&#58; Re-Creation Program"
 program: "http://www.crossroads.net/players/media/hq/05_14-15_11Program.pdf"
 program-title: "Re-Creation Program"

@@ -7,7 +7,7 @@ date: 2009-10-25
 audio-description: "Sometimes God will \"prune\" things out of our life - even good things - so that we can bear more fruit over the long-term."
 audio: "http://s3.amazonaws.com/crossroadsaudiomessages/Garden3.mp3"
 audio-title: "Pruning"
-audio-duration: "43&#58;01"
+audio-duration: "43:01"
 video-description: "Sometimes God will \"prune\" things out of our life - even good things - so that we can bear more fruit over the long-term."
 video-title: "Pruning"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/Garden3.mp4"

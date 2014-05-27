@@ -7,5 +7,5 @@ date: 1998-02-22
 audio-description: "How to deal with conflict without killing everybody! "
 audio: ""
 audio-title: "Offering Criticism with Minimal Pain"
-audio-duration: "&#58;"
+audio-duration: ":"
 ---

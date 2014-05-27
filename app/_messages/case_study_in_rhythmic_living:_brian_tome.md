@@ -14,5 +14,5 @@ video-poster: "https://www.crossroads.net/uploadedfiles/rhythm_01_still.jpg"
 audio-description: "Brian Tome presents a case study in rhythmic living."
 audio: "http://www.crossroads.net/players/media/hq/rhythm_01a.mp3"
 audio-title: "Case study in rhythmic living&#58; Brian Tome"
-audio-duration: "36&#58;03"
+audio-duration: "36:03"
 ---

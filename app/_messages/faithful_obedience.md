@@ -7,7 +7,7 @@ date: 2010-08-22
 audio-description: "Brian Tome talks about how the faithful obey God."
 audio: "http://s3.amazonaws.com/crossroadsaudiomessages/TheFaithful02.mp3"
 audio-title: "Faithful Obedience"
-audio-duration: "42&#58;42"
+audio-duration: "42:42"
 program-description: "Faithful Obedience (Program)"
 program: "http://www.crossroads.net/players/media/hq/08_21-22_10Program.pdf"
 program-title: "Faithful Obedience (Program)"

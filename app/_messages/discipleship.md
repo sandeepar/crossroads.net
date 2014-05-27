@@ -7,7 +7,7 @@ date: 2013-06-29
 audio-description: "We’ll unpack a word Jesus used a lot&#58; “disciple.”"
 audio: "http://www.crossroads.net/players/media/hq/htbp_03.mp3"
 audio-title: "Discipleship"
-audio-duration: "43&#58;50"
+audio-duration: "43:50"
 program-description: "Program - WK 3 How to Build People"
 program: "http://www.crossroads.net/players/media/hq/06_29-30_13Program_LO.pdf"
 program-title: "Discipleship"

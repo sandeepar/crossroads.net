@@ -7,7 +7,7 @@ date: 2013-11-02
 audio-description: ""
 audio: "http://www.crossroads.net/players/media/hq/110213Web.mp3"
 audio-title: "Fight | Kingdom At War"
-audio-duration: "41&#58;51"
+audio-duration: "41:51"
 video-description: ""
 video-title: "Fight | Kingdom At War"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/110213Web.mp4"

@@ -14,5 +14,5 @@ video-poster: "https://www.crossroads.net/uploadedfiles/culture_02_still.jpg"
 audio-description: "Brian Tome talks about living in an #instantwatch world."
 audio: "http://www.crossroads.net/players/media/hq/culture_02.mp3"
 audio-title: "Instant Watch"
-audio-duration: "31&#58;58"
+audio-duration: "31:58"
 ---

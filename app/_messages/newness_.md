@@ -7,7 +7,7 @@ date: 2013-08-24
 audio-description: "Brian Tome talks about why frontiers are important."
 audio: "http://www.crossroads.net/players/media/hq/go-forth-01.mp3"
 audio-title: "Newness & The Entrepreneurial nature of Jesus"
-audio-duration: "38&#58;19"
+audio-duration: "38:19"
 program-description: "Program - Go Forth Wk. 1"
 program: "http://www.crossroads.net/players/media/hq/08_24-25_13Program_LO.pdf"
 program-title: "Newness & The Entrepreneurial nature of Jesus"

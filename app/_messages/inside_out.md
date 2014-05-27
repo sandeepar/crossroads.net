@@ -7,7 +7,7 @@ date: 2009-08-30
 audio-description: "Brian Tome discusses why crossroads exists to mobilize people toward things God cares about."
 audio: "http://s3.amazonaws.com/crossroadsaudiomessages/InsideOut3.mp3"
 audio-title: "Inside Out"
-audio-duration: "44&#58;48"
+audio-duration: "44:48"
 notes-description: " "
 notes: "http://www.crossroads.net/players/media/hq/SN_08_29-30_09.pdf "
 notes-title: "Inside Out (Study Notes)"

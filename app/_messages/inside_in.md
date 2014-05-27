@@ -7,7 +7,7 @@ date: 2009-08-23
 audio-description: "Brian Tome shares the dynamics of growth and why crossroads is designed to be an environment for growth."
 audio: "http://s3.amazonaws.com/crossroadsaudiomessages/InsideOut2.mp3"
 audio-title: "Inside In"
-audio-duration: "40&#58;00"
+audio-duration: "40:00"
 notes-description: " "
 notes: "http://www.crossroads.net/players/media/hq/SN_08_22-23_09.pdf "
 notes-title: "Inside In (Study Notes)"

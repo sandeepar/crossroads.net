@@ -14,5 +14,5 @@ video-poster: "https://www.crossroads.net/uploadedfiles/Reset7-still.jpg"
 audio-description: "Brian Tome recaps the Reset journey and discusses where we go from here."
 audio: "http://s3.amazonaws.com/crossroadsaudiomessages/Reset7-edit.mp3"
 audio-title: "Reset&#58; Recap"
-audio-duration: "33&#58;28"
+audio-duration: "33:28"
 ---

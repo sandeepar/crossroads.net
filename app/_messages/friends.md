@@ -7,7 +7,7 @@ date: 2009-11-15
 audio-description: "Brian Tome discusses the importance of friendships."
 audio: "http://s3.amazonaws.com/crossroadsaudiomessages/Typecast1.mp3"
 audio-title: "Friends"
-audio-duration: "30&#58;50"
+audio-duration: "30:50"
 program-description: ""
 program: "http://www.crossroads.net/players/media/hq/11_14-15_09Program.pdf"
 program-title: "Friends (Program)"

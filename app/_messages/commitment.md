@@ -7,7 +7,7 @@ date: 2009-05-17
 audio-description: "What are the conditions necessary for a revolution to thrive? Join us over the next several weeks as we analyze the Roadmap For A Revolution. This week Brian Tome talks about the importance of \"commitment.\""
 audio: "http://s3.amazonaws.com/crossroadsaudiomessages/roadmap1.mp3"
 audio-title: "Commitment"
-audio-duration: "38&#58;55"
+audio-duration: "38:55"
 notes-description: " "
 notes: "http://www.crossroads.net/players/media/hq/SN_05_16-17_09.pdf "
 notes-title: "Commitment (Study Notes)"

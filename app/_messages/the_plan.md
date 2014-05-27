@@ -7,7 +7,7 @@ date: 2008-10-19
 audio-description: "There are a few “rules of engagement” for those who accept the invitation to participate in the Kingdom of God.  First, we are fueled by faith that Jesus is who he said he is.  Then, we sacrifice for love; we are willing to be inconvenienced in order to help and love others.  Third, we have hope, and we are inspired by that hope to take bold action.  "
 audio: "http://s3.amazonaws.com/crossroadsaudiomessages/unlocked3.mp3"
 audio-title: "Unlock(ed)&#58; The Plan"
-audio-duration: "39&#58;52"
+audio-duration: "39:52"
 notes-description: "There are a few “rules of engagement” for those who accept the invitation to participate in the Kingdom of God.  First, we are fueled by faith that Jesus is who he said he is.  Then, we sacrifice for love; we are willing to be inconvenienced in order to help and love others.  Third, we have hope, and we are inspired by that hope to take bold action.   "
 notes: "http://www.crossroads.net/players/media/hq/SN_10_17-18_08.pdf "
 notes-title: "Unlock(ed)&#58; The Plan"

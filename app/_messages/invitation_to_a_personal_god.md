@@ -7,7 +7,7 @@ date: 2011-11-26
 audio-description: "Chuck Mingo talks about the invitation of Christmas."
 audio: "http://www.crossroads.net/players/media/hq/rsvp01.mp3"
 audio-title: "Invitation to a Personal God"
-audio-duration: "45&#58;39"
+audio-duration: "45:39"
 program-description: "RSVP - Invitation to a Personal God (Program)"
 program: "http://www.crossroads.net/players/media/hq/11_26-27_11Program.pdf"
 program-title: "Invitation to a Personal God"

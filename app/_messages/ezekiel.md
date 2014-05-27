@@ -7,7 +7,7 @@ date: 2009-02-08
 audio-description: "Brian Tome discusses being faithful in the midst of changing times."
 audio: "http://s3.amazonaws.com/crossroadsaudiomessages/LostBooks5.mp3"
 audio-title: "Lost Books&#58; Ezekiel"
-audio-duration: "28&#58;42"
+audio-duration: "28:42"
 video-description: "Brian Tome discusses being faithful in the midst of changing times."
 video-title: "Lost Books&#58; Ezekiel"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/LostBooks5.mp4"

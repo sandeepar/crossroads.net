@@ -7,7 +7,7 @@ date: 2011-07-30
 audio-description: "We'll be hearing from people in the community about where and how they see Jesus."
 audio: "http://www.crossroads.net/players/media/hq/073011_1145.mp3"
 audio-title: "Jesus told the best stories"
-audio-duration: "48&#58;41"
+audio-duration: "48:41"
 program-description: "Jesus told the best stories program"
 program: "http://www.crossroads.net/players/media/hq/07_30-31_11Program.pdf"
 program-title: "Jesus told the best stories"

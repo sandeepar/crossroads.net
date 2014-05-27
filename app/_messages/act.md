@@ -7,7 +7,7 @@ date: 2013-03-02
 audio-description: "Brian Tome talks about learning how to act on what the Leader is asking us to do."
 audio: "http://www.crossroads.net/players/media/hq/followtheleader-04.mp3"
 audio-title: "Act"
-audio-duration: "41&#58;10"
+audio-duration: "41:10"
 program-description: "Program - Wk4"
 program: "http://www.crossroads.net/players/media/hq/03_02-03_13Program_LO.pdf"
 program-title: "Act"

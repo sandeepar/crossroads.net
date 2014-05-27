@@ -7,5 +7,5 @@ date: 1998-03-08
 audio-description: "An easy-to-understand handbook for some everyday life topics. "
 audio: ""
 audio-title: "Relationships for Dummies"
-audio-duration: "&#58;"
+audio-duration: ":"
 ---

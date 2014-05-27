@@ -14,5 +14,5 @@ video-poster: "https://www.crossroads.net/uploadedfiles/saintsandscoundrels-04-s
 audio-description: "Brian Tome talks about the Church as an adventure."
 audio: "http://www.crossroads.net/players/media/hq/saintsandscoundrels-04.mp3"
 audio-title: "Mission"
-audio-duration: "42&#58;23"
+audio-duration: "42:23"
 ---

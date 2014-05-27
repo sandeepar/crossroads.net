@@ -7,5 +7,5 @@ date: 2007-04-14
 audio-description: "Powerful and unpredictable, mysterious and tangible, invisible and real. Defying easy description, the Holy Spirit is no vague and impersonal force. This promised Counselor and Teacher has been sent to equip us, comfort us and fill us personally with the "
 audio: "http://www.crossroads.net/audio/2007/2007_03_Ghost/Ghost_02_Person_04-15-07_Tome.mp3"
 audio-title: "Person"
-audio-duration: "43&#58;31"
+audio-duration: "43:31"
 ---

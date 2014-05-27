@@ -8,7 +8,7 @@ audio-description: "For thousands of years, the Jewish people waited for Him--th
 as we uncover the mystery and character of the long-awaited Son."
 audio: "http://www.crossroads.net/players/media/hq/awaitedson_01.mp3"
 audio-title: "The Conquering Son"
-audio-duration: "45&#58;39"
+audio-duration: "45:39"
 program-description: "Program-Week 1 Awaited Son"
 program: "http://www.crossroads.net/players/media/hq/11_24-25_12Program_LO.pdf"
 program-title: "The conquering Son"

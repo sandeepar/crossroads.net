@@ -7,7 +7,7 @@ date: 2012-03-31
 audio-description: "Brian Wells talks about how Game Changers defeat Goliath by fighting differently."
 audio: "http://www.crossroads.net/players/media/hq/gamechangers_04.mp3"
 audio-title: "Innovation"
-audio-duration: "56&#58;14"
+audio-duration: "56:14"
 program-description: "Brian Wells talks about how Game Changers defeat Goliath by fighting differently."
 program: "http://www.crossroads.net/players/media/hq/03_31-04-01_12Program.pdf"
 program-title: "Innovation"

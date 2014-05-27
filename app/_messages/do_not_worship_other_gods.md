@@ -7,5 +7,5 @@ date: 1998-06-07
 audio-description: "We look at the 10 Commandments and their relevancy in our lives today. "
 audio: ""
 audio-title: "Do Not Worship Other Gods"
-audio-duration: "&#58;"
+audio-duration: ":"
 ---

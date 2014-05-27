@@ -13,5 +13,5 @@ audio-description: " In this talk we hear about Crossroads' plans for multi-site
 "
 audio: "http://s3.amazonaws.com/crossroadsaudiomessages/I_AM_4_Reproduced_04-27-08_Tome_webaudio.mp3"
 audio-title: "I AM... Reproduced"
-audio-duration: "35&#58;40"
+audio-duration: "35:40"
 ---

@@ -7,7 +7,7 @@ date: 2011-04-16
 audio-description: "Chuck Mingo talks about the story of the sacrificial lamb."
 audio: "http://s3.amazonaws.com/crossroadsaudiomessages/thestory04.mp3"
 audio-title: "Jesus /Cross"
-audio-duration: "37&#58;05"
+audio-duration: "37:05"
 program-description: "The Story&#58; Jesus /Cross Program"
 program: "http://www.crossroads.net/players/media/hq/04_16-17_11Program.pdf"
 program-title: "Jesus /Cross"

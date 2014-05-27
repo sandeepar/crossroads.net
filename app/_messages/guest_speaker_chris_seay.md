@@ -7,7 +7,7 @@ date: 2011-08-06
 audio-description: "We will be wrapping up our series on what made Jesus the “Greatest Show on Earth” with guest speaker Chris Seay."
 audio: "http://www.crossroads.net/players/media/hq/greatestshow08.mp3"
 audio-title: "Guest speaker Chris Seay"
-audio-duration: "32&#58;35"
+audio-duration: "32:35"
 program-description: "We will be wrapping up our series on what made Jesus the “Greatest Show on Earth” with guest speaker Chris Seay."
 program: "http://www.crossroads.net/players/media/hq/08_06-07_11Program.pdf"
 program-title: "Guest speaker Chris Seay"

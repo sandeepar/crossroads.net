@@ -7,7 +7,7 @@ date: 2012-04-28
 audio-description: "Chuck Mingo talks about how trials strengthen our faith."
 audio: "http://www.crossroads.net/players/media/hq/james_02.mp3"
 audio-title: "Suffering"
-audio-duration: "43&#58;35"
+audio-duration: "43:35"
 program-description: "Program"
 program: "http://www.crossroads.net/players/media/hq/04_28-29_12Program.pdf"
 program-title: "Suffering"

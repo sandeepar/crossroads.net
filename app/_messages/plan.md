@@ -7,7 +7,7 @@ date: 2008-08-24
 audio-description: "The thing that will keep us from pursuing a personal vision is fear. In this talk, Brian Tome discusses how we can begin to overcome the fear that keeps us paralyzed."
 audio: "http://s3.amazonaws.com/crossroadsaudiomessages/Rebuild2.mp3"
 audio-title: "Rebuild&#58; Plan"
-audio-duration: "25&#58;43"
+audio-duration: "25:43"
 video-description: "Brian Tome shares how fear can keep us from pursuing a personal vision."
 video-title: "Rebuild&#58; Plan"
 video: "http://s3.amazonaws.com/crossroadsvideomessages/Rebuild2.mp4"

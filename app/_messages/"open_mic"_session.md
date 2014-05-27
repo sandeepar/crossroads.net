@@ -7,5 +7,5 @@ date: 2003-03-22
 audio-description: "Open mic Q&amp;A session"
 audio: "http://s3.amazonaws.com/crossroadsaudiomessages/Go_Ahead_And_Ask_Q&A_Compilation.mp3"
 audio-title: "Go Ahead And Ask - Open Mic Q&A"
-audio-duration: "52&#58;54"
+audio-duration: "52:54"
 ---

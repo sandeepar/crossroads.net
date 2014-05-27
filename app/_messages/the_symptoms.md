@@ -7,7 +7,7 @@ date: 2008-11-09
 audio-description: "Entitlement can easily creep into our relationships, and especially our marriages. In this talk, Chuck Mingo discusses some of the symptoms of entitlement as it relates to our key relationships."
 audio: "http://s3.amazonaws.com/crossroadsaudiomessages/GimmeGimme2.mp3"
 audio-title: "GIMME GIMME&#58; The Symptoms"
-audio-duration: "31&#58;45"
+audio-duration: "31:45"
 video-description: "Entitlement can easily creep into our relationships, and especially our marriages. In this talk, Chuck Mingo discusses some of the symptoms of entitlement as it relates to our key relationships."
 video-title: "GIMME GIMME&#58; The Symptoms"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/GimmeGimme2.mp4"

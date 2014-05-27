@@ -7,7 +7,7 @@ date: 2009-01-18
 audio-description: "Brian Tome discusses the power of intentionality as seen in the book of Haggai."
 audio: "http://s3.amazonaws.com/crossroadsaudiomessages/LostBooks2.mp3"
 audio-title: "Lost Books&#58; Haggai"
-audio-duration: "25&#58;12"
+audio-duration: "25:12"
 program-description: ""
 program: "http://www.crossroads.net/players/media/hq/0117_18Program.pdf"
 program-title: "Lost Books&#58; Haggai (Program)"

@@ -7,7 +7,7 @@ date: 2013-05-18
 audio-description: "Chuck Mingo talks about God's design for good sex. (This message contains adult content.)"
 audio: "http://www.crossroads.net/players/media/hq/goodsex_01.mp3"
 audio-title: "Covenant"
-audio-duration: "53&#58;18"
+audio-duration: "53:18"
 video-description: "Chuck Mingo talks about God's design for good sex. (This message contains adult content.)"
 video-title: "Covenant"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/goodsex_01.mp4"

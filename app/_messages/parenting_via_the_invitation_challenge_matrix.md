@@ -7,7 +7,7 @@ date: 2013-07-06
 audio-description: "Brian Tome talks about parenting through invitation and challenge."
 audio: "http://www.crossroads.net/players/media/hq/htbp_04.mp3"
 audio-title: "Parenting via the Invitation Challenge Matrix"
-audio-duration: "45&#58;53"
+audio-duration: "45:53"
 program-description: "Program - WK4 How To Build People"
 program: "http://www.crossroads.net/players/media/hq/07_06-07_13Program_LO.pdf"
 program-title: "Parenting via the Invitation Challenge Matrix"

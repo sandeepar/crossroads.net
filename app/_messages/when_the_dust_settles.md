@@ -7,5 +7,5 @@ date: 2000-06-03
 audio-description: "A follow up to our building campaign. "
 audio: ""
 audio-title: "When the Dust Settles"
-audio-duration: "&#58;"
+audio-duration: ":"
 ---

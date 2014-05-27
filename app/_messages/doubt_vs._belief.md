@@ -14,5 +14,5 @@ video-poster: "https://www.crossroads.net/uploadedfiles/heavyweights01still.jpg"
 audio-description: "The age-old foes of Doubt and Belief will be taking center stage."
 audio: "http://s3.amazonaws.com/crossroadsaudiomessages/heavyweights_01.mp3"
 audio-title: "Doubt vs. Belief"
-audio-duration: "39&#58;27"
+audio-duration: "39:27"
 ---

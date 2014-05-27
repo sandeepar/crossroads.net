@@ -7,7 +7,7 @@ date: 2014-04-12
 audio-description: "Brian Tome talks about how changing the world requires personal investment."
 audio: "http://www.crossroads.net/players/media/hq/htctw_04.mp3"
 audio-title: "Put Your Money Where Your Mouth Is"
-audio-duration: "&#58;"
+audio-duration: ":"
 program-description: "Program WK4 - How to Change the World"
 program: "http://www.crossroads.net/players/media/hq/04_12-13_14Program_LO.pdf"
 program-title: "Put Your Money Where Your Mouth Is"

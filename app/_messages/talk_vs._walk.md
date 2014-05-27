@@ -7,7 +7,7 @@ date: 2014-03-08
 audio-description: "Why don’t church people act like Jesus?"
 audio: "http://www.crossroads.net/players/media/hq/heavyweights2_wk5.mp3"
 audio-title: "Talk vs. Walk"
-audio-duration: "49&#58;16"
+audio-duration: "49:16"
 program-description: "Program - WK5 Heavyweights 2"
 program: "http://www.crossroads.net/players/media/hq/03_08-09_14Program_LO.pdf"
 program-title: "Talk vs. Walk"

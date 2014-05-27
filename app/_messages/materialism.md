@@ -13,5 +13,5 @@ audio-description: "Is it possible that we're missing life in the pursuit of a b
 "
 audio: "http://s3.amazonaws.com/crossroadsaudiomessages/Consumed_1_Materialism_02-10-08_Tome_webaudio.mp3"
 audio-title: "Consumed (Week One)"
-audio-duration: "50&#58;44"
+audio-duration: "50:44"
 ---

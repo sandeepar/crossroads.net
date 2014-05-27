@@ -7,7 +7,7 @@ date: 2011-10-22
 audio-description: "The Bible isn’t a rule book. It’s a field guide to relationship with God and others. We read it to grow our understanding of God, to grow in wisdom, and to grow our ability to love other people."
 audio: "http://www.crossroads.net/players/media/hq/strong03.mp3"
 audio-title: "Study"
-audio-duration: "38&#58;42"
+audio-duration: "38:42"
 video-description: "The Bible isn’t a rule book. It’s a field guide to relationship with God and others. We read it to grow our understanding of God, to grow in wisdom, and to grow our ability to love other people."
 video-title: "Study"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/strong03.mp4"
