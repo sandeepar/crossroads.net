@@ -14,4 +14,5 @@ program-title: "Discipleship"
 video-description: "Jo Saxton unpacks a word Jesus used a lot&#58; “disciple.”"
 video-title: "Discipleship"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/htbp_03.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/htbp_03_still.jpg"
 ---

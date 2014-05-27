@@ -14,4 +14,5 @@ program-title: "Lordship"
 video-description: "Brian Tome talks about what it means to submit to the King of the story."
 video-title: "Lordship"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/thestory06.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/thestory06_still.jpg"
 ---

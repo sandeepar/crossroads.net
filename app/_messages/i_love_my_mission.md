@@ -17,4 +17,5 @@ program-title: "I Love My Mission (Program)"
 video-description: "Mark Stecher shares why he loves his mission, which primarily revolves around loving his city."
 video-title: "I Love My Mission"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/WeLoveCincy5.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/WeLoveCincy5-still.jpg"
 ---

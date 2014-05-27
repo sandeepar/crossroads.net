@@ -14,4 +14,5 @@ audio-duration: "29&#58;11"
 video-description: "Chuck Mingo discusses what it means to be \"bound\" to Jesus."
 video-title: "Grace"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/Lavish3.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/052210_still.jpg"
 ---

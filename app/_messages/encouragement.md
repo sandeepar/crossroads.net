@@ -14,4 +14,5 @@ program-title: "Encouragement"
 video-description: "Chuck Mingo talks about the power of encouragement in friendships."
 video-title: "Encouragement"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/everydayfriends02.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/everydayfriends02_still2.jpg"
 ---

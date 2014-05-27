@@ -14,4 +14,5 @@ program-title: "Jesus told the best stories"
 video-description: "We’ll be hearing from people in the community about where and how they see Jesus."
 video-title: "Jesus told the best stories"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/073011_1145.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/073011_1145.jpg"
 ---

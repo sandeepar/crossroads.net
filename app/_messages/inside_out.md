@@ -17,4 +17,5 @@ program-title: "Inside Out (Program)"
 video-description: "Brian Tome discusses why crossroads exists to mobilize people toward things God cares about."
 video-title: "Inside Out"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/InsideOut3.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/InsideOut3-still.jpg"
 ---

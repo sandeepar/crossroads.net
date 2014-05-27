@@ -14,4 +14,5 @@ program-title: "Outside In (Program)"
 video-description: "Brian Tome shares why crossroads is setup to be a place where  normal people can hear about Jesus."
 video-title: "Outside In"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/InsideOut1.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/InsideOut1-still.jpg"
 ---

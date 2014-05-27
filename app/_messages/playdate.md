@@ -14,4 +14,5 @@ program-title: "PLAYdate (Program)"
 video-description: "Brian Tome talks about the value of purposeless pleasure."
 video-title: "PLAYdate"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/play01.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/PLAYdate_still.jpg"
 ---

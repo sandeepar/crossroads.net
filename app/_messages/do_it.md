@@ -18,4 +18,5 @@ program-title: "Game Change - Do It (Program)"
 video-description: "Brian Tome talks about being faithful to what God has called us to do."
 video-title: "Game Change - Do It"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/gamechange04.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/gamechange04_still.jpg"
 ---

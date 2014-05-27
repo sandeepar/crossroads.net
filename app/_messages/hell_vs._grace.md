@@ -18,4 +18,5 @@ program-title: "Hell vs. Grace"
 video-description: "We'll be wrestling with the question of how a good God can allow people to go to hell."
 video-title: "Hell vs. Grace"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/heavyweights04.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/heavyweights04_still.jpg"
 ---

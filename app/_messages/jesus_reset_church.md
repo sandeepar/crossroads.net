@@ -14,4 +14,5 @@ program-title: "Jesus Reset Church"
 video-description: "Jesus is alive and active today through his Body - the Church. "
 video-title: "Jesus Reset Church"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/Reset6.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/Reset6-still.jpg"
 ---

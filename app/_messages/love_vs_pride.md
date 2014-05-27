@@ -14,4 +14,5 @@ program-title: "Love vs. Pride"
 video-description: "Brian Tome talks about what it looks like to follow the Guide out of places of pride and into love."
 video-title: "Love vs. Pride"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/theguide04.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/theguide04_still.jpg"
 ---

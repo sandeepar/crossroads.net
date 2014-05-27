@@ -14,4 +14,5 @@ program-title: "Team Player"
 video-description: "Chuck Mingo talks about how the new man is a team player."
 video-title: "Team Player"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/thenewman_04.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/thenewman_04_still.jpg"
 ---

@@ -14,4 +14,5 @@ program-title: "Resurrection/Adoption"
 video-description: "We'll be examining the credibility of the most outrageous part of the story&#58; the resurrection of Jesus."
 video-title: "Resurrection/Adoption"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/thestory05.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/thestory05_still.jpg"
 ---

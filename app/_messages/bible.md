@@ -17,4 +17,5 @@ program-title: "Core Strength&#58; Bible (Program)"
 video-description: "Brian Tome discusses how to build Core Strength through reading the bible."
 video-title: "Core Strength&#58; Bible"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/CoreStrength2.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/CoreStrength2-still.jpg"
 ---

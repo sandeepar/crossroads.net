@@ -16,4 +16,5 @@ video-description: "We'll be talking about God's redemptive plan for sex.
 (This message contains adult content.)"
 video-title: "Consecration"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/goodsex_04.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/goodsex_04_still.jpg"
 ---

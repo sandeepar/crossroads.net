@@ -17,4 +17,5 @@ program-title: "One (Week Five) - Program"
 video-description: "Kevin Myers from Atlanta shares his thoughts about unity in the Church."
 video-title: "One (Week Five)"
 video: "http://s3.amazonaws.com/crossroadsvideomessages/One-week5.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/one-week5-still.jpg"
 ---

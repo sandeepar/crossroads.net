@@ -18,4 +18,5 @@ program-title: "Grow Up - Grow Through Sacrifice (Program)"
 video-description: "Brian Tome talks about how a lifestyle of sacrifice leads to growth."
 video-title: "Grow Up - Grow Through Sacrifice"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/growup04.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/growup04_still.jpg"
 ---

@@ -14,4 +14,5 @@ program-title: "Pioneer vs. Settler"
 video-description: "Chuck Mingo talks about how a good team needs both pioneers and settlers."
 video-title: "Pioneer vs. Settler"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/go_forth_02.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/go_forth_02_still.jpg"
 ---

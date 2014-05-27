@@ -14,4 +14,5 @@ program-title: "Jesus Spoke In Parables (Program)"
 video-description: "Chuck Mingo talks about how Jesus spoke truth in the form of parables."
 video-title: "Jesus Spoke In Parables"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/thegreatestshow06.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/thegreatestshow06_still.jpg"
 ---

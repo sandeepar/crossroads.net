@@ -14,4 +14,5 @@ program-title: "Trust Your Dad"
 video-description: "Who are you depending on? Our orphan tendencies come from our desperate search for approval."
 video-title: "Trust Your Dad"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/journeyhome_03.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/journeyhome_03_still.jpg"
 ---

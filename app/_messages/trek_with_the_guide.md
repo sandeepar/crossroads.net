@@ -14,4 +14,5 @@ program-title: "TREK WITH THE GUIDE"
 video-description: "Chuck Mingo talks about how to recognize and follow the Holy Spirit's guidance."
 video-title: "TREK WITH THE GUIDE"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/theguide01.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/theguide01_still.jpg"
 ---

@@ -14,4 +14,5 @@ program-title: "Brand Me"
 video-description: "Chuck Mingo talks about living in a #brandme world."
 video-title: "Brand Me"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/culture_01.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/culture_01_still.jpg"
 ---

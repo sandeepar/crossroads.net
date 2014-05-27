@@ -17,4 +17,5 @@ program-title: "Unlock(ed)&#58; The Purpose (Program)"
 video-description: "What is the purpose of all of this \"Kingdom\" talk? In this message, Brian Tome discusses what it means for us to receive the key of love and to be unlocked."
 video-title: "Unlock(ed)&#58; The Purpose"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/unlocked4.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/unlocked4-still.jpg"
 ---

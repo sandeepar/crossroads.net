@@ -14,4 +14,5 @@ program-title: "Faithful Obedience (Program)"
 video-description: "Brian Tome talks about how the faithful obey God."
 video-title: "Faithful Obedience"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/TheFaithful01.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/TheFaithful02_still.jpg"
 ---

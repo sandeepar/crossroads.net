@@ -15,4 +15,5 @@ video-description: "Brian Tome examines how to engage in challenging conversatio
 about God."
 video-title: "Tool Shed"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/backyardgospel_04.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/backyardgospel_04_still.jpg"
 ---

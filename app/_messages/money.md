@@ -14,4 +14,5 @@ program-title: "Housework03 (Program)"
 video-description: "Chuck Mingo discusses how to line up our budget with our passions."
 video-title: "Money"
 video: "http://s3.amazonaws.com/crossroadsvideomessages/HouseWork03.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/HouseWork03_Still.jpg"
 ---

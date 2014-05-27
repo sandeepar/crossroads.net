@@ -7,6 +7,7 @@ date: 2008-04-27
 video-description: "In this talk we hear about Crossroads' plans for multi-site locations and about the importance of reproducing and building into others."
 video-title: "I AM... Reproduced"
 video: "http://s3.amazonaws.com/crossroadsvideomessages/IAM-Reproduced.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/iam-reproduced-still.jpg"
 audio-description: " In this talk we hear about Crossroads' plans for multi-site locations and about the importance of reproducing and building into others.
 
 "

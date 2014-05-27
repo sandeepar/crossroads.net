@@ -18,4 +18,5 @@ program-title: "Science vs. Faith"
 video-description: "We'll be wrestling with the question of how you can believe the Bible when it seems to stand in opposition to modern science."
 video-title: "Science vs. Faith"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/heavyweights05.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/heavyweights05_still.jpg"
 ---

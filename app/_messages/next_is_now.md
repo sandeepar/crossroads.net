@@ -14,4 +14,5 @@ program-title: "Next Is Now (Program)"
 video-description: "Todd Henry shares how God uses dreams to build into us the capacity for greatness."
 video-title: "Next Is Now"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/Next3.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/Next3-still.jpg"
 ---

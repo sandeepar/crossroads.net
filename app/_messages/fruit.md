@@ -17,4 +17,5 @@ notes-title: "Reproduction (Study Notes)"
 video-description: "Brian Tome discusses how growth naturally leads to reproduction and fruit."
 video-title: "Reproduction"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/TheGarden5.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/TheGarden5-still.jpg"
 ---

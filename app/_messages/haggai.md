@@ -17,4 +17,5 @@ notes-title: "Lost Books&#58; Haggai (Study Notes)"
 video-description: "If we want spiritual greatness, we must pay the price by being intentional. In this talk, Brian Tome highlights the theme of intentionality found in the Old Testament book of Haggai."
 video-title: "Lost Books&#58; Haggai"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/LostBooks2.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/LostBooks2-still.jpg"
 ---

@@ -11,4 +11,5 @@ audio-duration: "35&#58;38"
 video-description: "Brian Tome shares why setting good boundaries and saying \"no\" is critical to making healthy commitments."
 video-title: "No Be No"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/commitment2.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/commitment2-still.jpg"
 ---

@@ -17,4 +17,5 @@ program-title: "Singles (Program)"
 video-description: "Being single can be a blessing. Brian Tome and a panel of single people discuss the nature of being single and what God says about it."
 video-title: "Singles"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/Typecast2.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/Typecast2-still.jpg"
 ---

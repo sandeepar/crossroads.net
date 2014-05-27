@@ -14,4 +14,5 @@ program-title: "Innovation"
 video-description: "Brian Wells talks about how Game Changers defeat Goliath by fighting differently."
 video-title: "Innovation"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/gamechangers_04.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/gamechangers_04_still.jpg"
 ---

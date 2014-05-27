@@ -14,4 +14,5 @@ program-title: "Bible vs. History"
 video-description: "Is the Bible a true source of history?"
 video-title: "Bible vs. History"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/heavyweights2_wk01.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/heavyweights2_wk01_still.jpg"
 ---

@@ -14,4 +14,5 @@ program-title: "Sacrifice - Program"
 video-description: "Brian Tome talks about the power of sacrifice in friendships."
 video-title: "Sacrifice"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/everydayfriends_03.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/everydayfriends_03_still.jpg"
 ---

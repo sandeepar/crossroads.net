@@ -14,4 +14,5 @@ program-title: "Program"
 video-description: "Kirk Perry talks about how to develop business leaders."
 video-title: "Developing Business Leaders"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/htbp_02.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/htbp_02_still.jpg"
 ---

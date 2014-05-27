@@ -14,4 +14,5 @@ program-title: "Week 5 - Mike Breen"
 video-description: "Mike Breen talks about how rest can lead us to the good life."
 video-title: "Week 5 - Mike Breen"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/goodlife_05.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/goodlife_05_still.jpg"
 ---

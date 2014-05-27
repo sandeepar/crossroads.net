@@ -14,4 +14,5 @@ audio-duration: "31&#58;55"
 video-description: "Brian Tome discusses next steps in pursuing freedom."
 video-title: "Looking Forward"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/Free6.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/Free6-still.jpg"
 ---

@@ -16,4 +16,5 @@ program-title: "Serve (Program)"
 video-description: "Service is a one-two punch to our hearts and our hands—it makes us strong by pulling us away from our own selfish ambitions, and toward the needs of others. And the more we serve, the more opportunity we have to understand God’s abundant, generous love."
 video-title: "Serve"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/strong_05.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/strong_05_still.jpg"
 ---

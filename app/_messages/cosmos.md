@@ -14,4 +14,5 @@ program-title: "Cosmos (Program)"
 video-description: "We'll be starting at the beginning of the story-before the world began-and talking about what it means that God is eternal and holy."
 video-title: "Cosmos"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/thestory01.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/thestory01_still.jpg"
 ---

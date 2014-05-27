@@ -17,4 +17,5 @@ program-title: "Train"
 video-description: "You’ll never find tires lying on the field during a football game. But running through them during practice helps build the necessary footwork and agility for game situations. Spiritual strengthening is no different. Engaging God in fresh ways can supercharge our growth, and reveal spiritual muscles we never even knew we had."
 video-title: "Train"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/strong04.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/strong04_still.jpg"
 ---

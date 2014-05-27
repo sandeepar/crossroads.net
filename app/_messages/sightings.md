@@ -11,4 +11,5 @@ audio-duration: "38&#58;16"
 video-description: "We hear from ten people in our community about how they are seeing the Kingdom in their life."
 video-title: "Sightings"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/KingdomCome03.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/KingdomCome04_still.jpg"
 ---

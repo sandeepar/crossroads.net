@@ -14,4 +14,5 @@ program-title: "Embracing Identity"
 video-description: "Chuck Mingo talks about how we view our identity&#58; as an abandoned orphan or treasured child of God."
 video-title: "Embracing Identity"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/placeatthetable_01.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/placeattable_01_still.jpg"
 ---

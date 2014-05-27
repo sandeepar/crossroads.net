@@ -11,4 +11,5 @@ audio-duration: "38&#58;12"
 video-description: "Florence"
 video-title: "The Power of Freedom"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/giftoffreedom_03_florence.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/giftoffreedom_03_fl_still.jpg"
 ---

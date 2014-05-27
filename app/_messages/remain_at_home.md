@@ -16,4 +16,5 @@ video-description: "How is God moving you?
 Remaining with God looks like living from His approval and continually experiencing His fatherhood."
 video-title: "Remain At Home"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/journeyhome_06.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/journeyhome_06_still.jpg"
 ---

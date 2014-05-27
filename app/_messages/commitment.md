@@ -17,4 +17,5 @@ program-title: "Commitment (Program)"
 video-description: "What are the conditions necessary for a revolution to thrive? Join us over the next several weeks as we analyze the Roadmap For A Revolution. This week Brian Tome talks about the importance of \"commitment.\""
 video-title: "Commitment"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/roadmap1.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/roadmap1-still.jpg"
 ---

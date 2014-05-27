@@ -14,4 +14,5 @@ program-title: "How Change Becomes Permanent"
 video-description: "Karl Martin talks about how change becomes permanent."
 video-title: "How Change Becomes Permanent"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/powertochange_04.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/powertochange_04_still.jpg"
 ---

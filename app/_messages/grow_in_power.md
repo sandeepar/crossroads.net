@@ -18,4 +18,5 @@ program-title: "Grow Up - Grow in Power (Program)"
 video-description: "Brian Tome talks about what the Bible describes as \"walking in the Spirit\" and how it is instrumental to growth."
 video-title: "Grow Up - Grow in Power"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/growup05.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/growup05_still.jpg"
 ---

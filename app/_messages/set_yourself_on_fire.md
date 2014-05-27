@@ -14,4 +14,5 @@ program-title: "Set Yourself on Fire"
 video-description: "We’re talking about setting ourselves on fire."
 video-title: "Set Yourself on Fire"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/htctw_01.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/HowToChangeWorld_90x90.jpg"
 ---

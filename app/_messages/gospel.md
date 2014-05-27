@@ -14,4 +14,5 @@ program-title: "Gospel (Program)"
 video-description: "Brian Tome talks about why the gospel is good news."
 video-title: "Gospel"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/Lavish1.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/Lavish1-still.jpg"
 ---

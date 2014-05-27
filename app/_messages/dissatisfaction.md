@@ -15,4 +15,5 @@ video-description: "This week we’re talking about how Game Changers share comm
 traits, including dissatisfaction with the status quo."
 video-title: "Dissatisfaction"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/gamechangers_01.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/gamechangers_01_still.jpg"
 ---

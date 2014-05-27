@@ -17,4 +17,5 @@ program-title: "I Love My Friend (Program)"
 video-description: "Alli Patterson talks about how relating to Jesus as a friend is essential to engaging in city-changing relationships."
 video-title: "I Love My Friend"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/071209.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/Picture 3.png"
 ---

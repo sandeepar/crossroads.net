@@ -14,4 +14,5 @@ program-title: "The Potential of Freedom"
 video-description: "This year was like climbing the biggest mountain we’ve ever faced. It was exhausting, energizing, uncertain and wonderful, and now here we are—standing at the peak of 2013."
 video-title: "The Potential of Freedom"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/giftoffreedom_02.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/giftoffreedom_02_still.jpg"
 ---

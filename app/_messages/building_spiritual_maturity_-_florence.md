@@ -11,4 +11,5 @@ audio-duration: "41&#58;05"
 video-description: "Terry Phillips talks about building spiritual maturity."
 video-title: "Building Spiritual Maturity - Florence"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/htbp_01_florence.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/htbp_01_still_fl.jpg"
 ---

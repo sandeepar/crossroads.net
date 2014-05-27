@@ -14,4 +14,5 @@ program-title: "Belief"
 video-description: "Today we're talking about how Game Changers believe in something bigger than themselves."
 video-title: "Belief"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/gamechangers_02.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/gamechangers_02_still.jpg"
 ---

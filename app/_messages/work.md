@@ -14,4 +14,5 @@ program-title: "Work"
 video-description: "Kirk talks about the work of following."
 video-title: "Work"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/thenewman_03.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/thenewman_03.jpg"
 ---

@@ -14,4 +14,5 @@ program-title: "Jesus turned religion on its head"
 video-description: "Chuck Mingo talks about how Jesus turned religion on its head."
 video-title: "Jesus turned religion on its head"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/greatestshow03.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/greatestshow03_still.jpg"
 ---

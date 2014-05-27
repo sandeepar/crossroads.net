@@ -14,4 +14,5 @@ program-title: "Re-Creation Program"
 video-description: "Brian Tome talks about how the story ends."
 video-title: "Re-Creation"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/thestory08.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/thestory08_still.jpg"
 ---

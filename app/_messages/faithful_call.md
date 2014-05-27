@@ -14,4 +14,5 @@ program-title: "Faithful Call (Program)"
 video-description: "Brian Tome talks about how the faithful respond to God's call."
 video-title: "Faithful Call"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/TheFaithful03.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/TheFaithful03_still.jpg"
 ---

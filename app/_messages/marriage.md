@@ -14,4 +14,5 @@ program-title: "Marriage"
 video-description: "Brian Tome talks about what real marriage looks like."
 video-title: "Marriage"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/KnockOff_01.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/KnockOff_01_Still.jpg"
 ---

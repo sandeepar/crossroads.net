@@ -14,4 +14,5 @@ program-title: "Jesus vs. Religion"
 video-description: "We'll wrestle with the question of how Jesus can claim to be the only way to God."
 video-title: "Jesus vs. Religion"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/heavyweights_03.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/heavyweights_03_still.jpg"
 ---

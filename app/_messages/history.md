@@ -14,4 +14,5 @@ program-title: "History"
 video-description: "Mike Breen talks about the history of the family."
 video-title: "History"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/saintsandscoundrels-01.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/saintsandscoundrels01-still.jpg"
 ---

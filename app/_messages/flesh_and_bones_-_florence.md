@@ -11,4 +11,5 @@ audio-duration: "39&#58;11"
 video-description: "Terry Phillips talks about how Jesus is God in flesh and bone."
 video-title: "Flesh and Bone - Florence"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/god_is_04_fl.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/god_is_04_still_fl.jpg"
 ---

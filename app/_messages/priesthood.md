@@ -14,4 +14,5 @@ program-title: "Priesthood"
 video-description: "Brian Tome talks about priesthood."
 video-title: "Priesthood"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/saintsandscoundrels-02.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/saintsandscoundrels-02-still.jpg"
 ---

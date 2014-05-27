@@ -18,4 +18,5 @@ program-title: "Anticipation (Program)"
 video-description: "Chuck Mingo talks about how we can cultivate an attitude of anticipation year-round."
 video-title: "Anticipation"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/anticipation.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/aniticipation_still.jpg"
 ---

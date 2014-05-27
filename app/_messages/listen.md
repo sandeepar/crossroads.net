@@ -18,4 +18,5 @@ audio-duration: "43&#58;26"
 video-description: "Chuck Mingo talks about what it means to listen to God."
 video-title: "Game Change - Listen"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/gamechange03.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/gamechange03_still.jpg"
 ---

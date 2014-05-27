@@ -14,4 +14,5 @@ program-title: "Newness & The Entrepreneurial nature of Jesus"
 video-description: "Brian Tome talks about why frontiers are important."
 video-title: "Newness & The Entrepreneurial nature of Jesus"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/go-forth-01.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/go-forth-01-still.jpg"
 ---

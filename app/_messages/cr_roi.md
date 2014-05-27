@@ -14,4 +14,5 @@ program-title: "CR ROI"
 video-description: "Brian Tome talks about the possibility of an enormous return."
 video-title: "CR ROI"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/roi_05.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/roi_05_still.jpg"
 ---

@@ -14,4 +14,5 @@ program-title: "Faithful Story (program)"
 video-description: "Brian talks about what it looks like to be faithful in your profession."
 video-title: "Faithful Story"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/thefaithful05.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/TheFaithful05_still.jpg"
 ---

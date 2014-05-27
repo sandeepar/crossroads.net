@@ -14,4 +14,5 @@ program-title: "Jesus Hung Out With Normal People (Program)"
 video-description: "Brian Tome talks about how Jesus went out of his way to hang out with normal people."
 video-title: "Jesus hung out with normal people"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/greatestshow02.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/greatestshow02_still.jpg"
 ---

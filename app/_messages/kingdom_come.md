@@ -14,4 +14,5 @@ program-title: "Kingdom Come (Program)"
 video-description: "Greg Boyd talks about what the Kingdom is, and what it means to seek it."
 video-title: "Kingdom Come"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/KingdomCome01.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/GregBoyd.jpg"
 ---

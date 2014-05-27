@@ -11,4 +11,5 @@ audio-duration: "01&#58;16&#58;37"
 video-description: "Tome vs. Mingo in the annual smackdown of preaching."
 video-title: "Super Bowl of Preaching XII"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/020114SuperBowlXII.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/superbowlofpreachingxii_still.jpg"
 ---

@@ -14,4 +14,5 @@ program-title: "Grace vs. Judgment"
 video-description: "Do you have to be anti-gay to go to church?"
 video-title: "Grace vs. Judgment"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/heavyweights2_wk3.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/heavyweights2_wk3_still.jpg"
 ---

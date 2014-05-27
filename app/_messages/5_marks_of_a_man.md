@@ -14,4 +14,5 @@ program-title: "5 Marks of a Man"
 video-description: "Jesus was the beginning of a new breed of men. Men who take a stand, even if no one else stands with them; vigilant men who faithfully protect; men who follow, then lead; and men who choose sacrifice in the name of love."
 video-title: "5 Marks of a Man"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/thenewman_01.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/thenewman_01_still.jpg"
 ---

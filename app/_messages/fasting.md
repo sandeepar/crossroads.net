@@ -14,4 +14,5 @@ program-title: "Fasting (program)"
 video-description: "Chuck Mingo talks about the importance of pauses in our life."
 video-title: "Fasting "
 video: "https://s3.amazonaws.com/crossroadsvideomessages/ForceFeed3.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/forcefeed3-still.jpg"
 ---

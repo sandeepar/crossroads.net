@@ -14,4 +14,5 @@ program-title: "Suffering vs. A Loving God"
 video-description: "We'll wrestle with the question of how God can really be loving when there's so much suffering in the world."
 video-title: "Suffering vs. A Loving God"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/heavyweights_02.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/heavyweights_02_still.jpg"
 ---

@@ -15,4 +15,5 @@ video-description: "Chuck talks about how following the leader can change your b
 and actions."
 video-title: "Follow"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/followtheleader-01.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/followtheleader-01-Still.jpg"
 ---

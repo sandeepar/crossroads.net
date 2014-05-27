@@ -14,4 +14,5 @@ program-title: "Front Porch"
 video-description: "Brian Tome examines how to start a conversation about Jesus with your friends—no matter what you believe."
 video-title: "Front Porch"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/backyardgospel_01.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/backyardgospel_01_still.jpg"
 ---

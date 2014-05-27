@@ -14,4 +14,5 @@ program-title: "Cross"
 video-description: "We’ll talk about receiving freedom from our sexual past. (This message contains adult content.)"
 video-title: "Cross"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/goodsex_03.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/goodsex_03_still.jpg"
 ---

@@ -14,4 +14,5 @@ program-title: "Finding Approval"
 video-description: "Brian Tome talks about our need for approval."
 video-title: "Finding Approval"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/placeatthetable_03.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/placeatthetable_03_still.jpg"
 ---

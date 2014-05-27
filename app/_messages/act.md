@@ -14,4 +14,5 @@ program-title: "Act"
 video-description: "Brian Tome talks about learning how to act on what the Leader is asking us to do."
 video-title: "Act"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/followtheleader-04.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/followtheleader-04-still.jpg"
 ---

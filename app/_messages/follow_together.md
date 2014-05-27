@@ -14,4 +14,5 @@ program-title: "Follow Together"
 video-description: "Chuck Mingo talks about how following the Leader is best with a tribe."
 video-title: "Follow the Leader"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/followtheleader_oakley_03.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/followtheleader_oakley_03_still.jpg"
 ---

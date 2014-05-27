@@ -14,4 +14,5 @@ program-title: "Invest"
 video-description: "Chuck Mingo talks about investing."
 video-title: "Invest"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/roi_02.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/roi_02_still.jpg"
 ---

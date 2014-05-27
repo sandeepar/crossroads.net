@@ -17,4 +17,5 @@ program-title: "On Mission In Cincy (Program)"
 video-description: "Chuck Mingo shares what being on mission in Cincinnati looks like."
 video-title: "On Mission In Cincy"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/WeLoveCincy6.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/WeLoveCincy6-still.jpg"
 ---

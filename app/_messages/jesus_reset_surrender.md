@@ -14,4 +14,5 @@ program-title: "Jesus RESET Surrender (Program)"
 video-description: "Following Jesus often means living counter-culturally. In this talk, Brian Tome discusses what it means to surrender and find life on the other side."
 video-title: "Jesus RESET Surrender"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/Reset3.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/Reset3-still.jpg"
 ---

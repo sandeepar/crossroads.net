@@ -14,4 +14,5 @@ program-title: "Get Your Jersey Dirty"
 video-description: "Chuck Mingo talks about getting our jerseys dirty."
 video-title: "Get Your Jersey Dirty"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/htctw_02.mp4"
+video-poster: "https://www.crossroads.net/uploadedfiles/htctw_02_still.jpg"
 ---
