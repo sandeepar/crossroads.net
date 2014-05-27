@@ -1,0 +1,25 @@
+---
+layout: right_column
+title: Blog
+published: true
+permalink: blog-content
+categories:
+---
+
+<h1>Blog</h1>
+
+
+<div id="articles">
+{% for post in site.posts %}
+  <article>
+    <div class="item">
+      <div class="item_details">
+        <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+      </div>
+      <div class="item_content">
+        {{ post.content }}
+      </div>
+    </div>
+  </article>
+{% endfor %}
+</div>
