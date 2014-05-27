@@ -32,8 +32,11 @@ layout: one_column
 </div>
     
 <p class="text-muted small">{{ page.startDate }}</p>
-
+{% if page.audio contains 'mp3' %}
 <a href="{{ page.audio }}">Download Audio (mp3)</a><br>
+{% endif %}
+{% if page.audio contains 'mp4' %}
 <a href="{{ page.video }}">Download Video (mp4)</a><br>
+{% endif %}
 <a href="{{ page.program }}">View Program (pdf)</a><br>
 <a href="#">Share</a>
