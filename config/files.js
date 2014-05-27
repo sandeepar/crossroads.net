@@ -14,6 +14,7 @@ module.exports = function(lineman) {
         "vendor/js/mediaelement-and-player.min.js",
         "vendor/bower/angular/angular.js",
         "vendor/bower/crossroadsMenu/dist/crossroadsMenu.js",
+        "vendor/bower/masonry/dist/masonry.pkgd.js",
         "vendor/js/**/*.js"
       ],
       app: [

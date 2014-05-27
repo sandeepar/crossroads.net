@@ -1,0 +1,19 @@
+---
+layout: right_column
+title: The Feed
+published: true
+permalink: thefeed
+categories:
+---
+
+<h1> The Feed </h1>
+
+<div id="container--test">
+  {% for post in site.posts %}
+  {% if post.categories contains "thefeed" %}
+  <div class="item", style="width: 25%">
+    {% post.content %}
+  </div>
+  {% endif %}
+  {% endfor %}
+</div>
