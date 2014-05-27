@@ -8,12 +8,20 @@ categories:
 
 <h1> The Feed </h1>
 
-<div id="container--test">
+<div id="container--feed">
   {% for post in site.posts %}
-  {% if post.categories contains "thefeed" %}
-  <div class="item", style="width: 25%">
-    {% post.content %}
-  </div>
+  {% if post.categories contains 'thefeed' %}
+    {{ post.content }}
   {% endif %}
   {% endfor %}
 </div>
+
+<script type="text/javascript">
+  $('document').ready(function() {
+    var container = document.querySelector('#container--feed');
+    var msnry = new Masonry( container, {
+      columnWidth: 200,
+      itemSelector: '.item'
+    });
+  });
+</script>
