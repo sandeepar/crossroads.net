@@ -6,7 +6,7 @@ title: "Reset: Recap"
 date: 2009-04-05
 program-description: ""
 program: "http://www.crossroads.net/players/media/hq/04_0405Program.pdf"
-program-title: "Reset&#58; Recap (Program)"
+program-title: "Reset: Recap (Program)"
 video-description: "In this talk Brian Tome recaps our Reset journey and discusses where we're headed next."
 video-title: "Reset&#58; Recap"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/Reset7.mp4"

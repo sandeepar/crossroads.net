@@ -17,5 +17,5 @@ notes: "http://www.crossroads.net/players/media/hq/SN_01_24-25_09.pdf "
 notes-title: "Lost Books&#58; Malachi (Study Notes)"
 program-description: "Chuck Mingo shares the message of Malachi and how God demands to be honored."
 program: "http://www.crossroads.net/players/media/hq/0124_25Program.pdf"
-program-title: "Lost Books&#58; Malachi (Program)"
+program-title: "Lost Books: Malachi (Program)"
 ---

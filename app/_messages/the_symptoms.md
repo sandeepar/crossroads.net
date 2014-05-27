@@ -17,5 +17,5 @@ notes: "http://www.crossroads.net/players/media/hq/SN_11_08-09_08.pdf "
 notes-title: "GIMME GIMME&#58; The Symptoms (Study Notes)"
 program-description: ""
 program: "http://www.crossroads.net/players/media/hq/1108_09Program.pdf"
-program-title: "GIMME GIMME&#58; The Symptoms (Program)"
+program-title: "GIMME GIMME: The Symptoms (Program)"
 ---

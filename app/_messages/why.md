@@ -17,5 +17,5 @@ video: "https://s3.amazonaws.com/crossroadsvideomessages/Filled1.mp4"
 video-poster: "https://www.crossroads.net/uploadedfiles/Filled1.jpg"
 program-description: ""
 program: "http://www.crossroads.net/players/media/hq/0418_19Program.pdf"
-program-title: "Filled&#58; Why? (Program)"
+program-title: "Filled: Why? (Program)"
 ---

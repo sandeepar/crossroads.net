@@ -17,5 +17,5 @@ notes: "http://www.crossroads.net/players/media/hq/SN.05.11-12.08.pdf "
 notes-title: "RIQ&#58; Truth"
 program-description: "Program from May 11-12, 2008."
 program: "http://www.crossroads.net/players/media/hq/0510_11Program.pdf"
-program-title: "RIQ&#58; Truth"
+program-title: "RIQ: Truth"
 ---

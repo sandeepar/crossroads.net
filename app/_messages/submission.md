@@ -17,5 +17,5 @@ notes: "http://www.crossroads.net/players/media/hq/SN_5-17-18-08.pdf "
 notes-title: "RIQ&#58; Submission"
 program-description: "Program from May 17-18, 2008."
 program: "http://www.crossroads.net/players/media/hq/0517_18Program.pdf"
-program-title: "RIQ&#58; Submission"
+program-title: "RIQ: Submission"
 ---
