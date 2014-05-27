@@ -2,7 +2,7 @@
 layout: message
 category: message
 series: "Go Ahead and Ask"
-title: ""Open Mic" session"
+title: "Open Mic session"
 date: 2003-03-22
 audio-description: "Open mic Q&amp;A session"
 audio: "http://s3.amazonaws.com/crossroadsaudiomessages/Go_Ahead_And_Ask_Q&A_Compilation.mp3"
