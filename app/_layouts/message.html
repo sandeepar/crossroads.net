@@ -11,7 +11,7 @@ layout: one_column
         <source src="{{ page.video }}" type="video/mp4">
     </video>
     {% else %}
-    <b>Video not found.</b>
+    <p><b>Video not found.</b></p>
     {% endif %}
     <p><b>{{ page.video-title }}</b></p>
     <p>{{ page.video-description }}</p>
@@ -24,7 +24,7 @@ layout: one_column
         <source src="{{ page.audio }}" type="audio/mpeg">
     </audio> 
     {% else %}
-    <b>Audio not found.</b>
+    <p><b>Audio not found.</b></p>
     {% endif %}
     <p><b>{{ page.audio-title }}</b></p>
     <p>{{ page.audio-description }}</p>
@@ -35,7 +35,7 @@ layout: one_column
 {% if page.audio contains 'mp3' %}
 <a href="{{ page.audio }}">Download Audio (mp3)</a><br>
 {% endif %}
-{% if page.audio contains 'mp4' %}
+{% if page.video contains 'mp4' %}
 <a href="{{ page.video }}">Download Video (mp4)</a><br>
 {% endif %}
 <a href="{{ page.program }}">View Program (pdf)</a><br>
