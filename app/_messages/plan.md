@@ -17,5 +17,5 @@ notes: "http://www.crossroads.net/players/media/hq/SN_08_23-24_08.pdf "
 notes-title: "Rebuild&#58; Plan (Study Notes)"
 program-description: ""
 program: "http://www.crossroads.net/players/media/hq/0823_24Program.pdf"
-program-title: "Rebuild&#58; Plan (Program)"
+program-title: "Rebuild: Plan (Program)"
 ---

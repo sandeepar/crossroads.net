@@ -17,5 +17,5 @@ notes: "http://www.crossroads.net/players/media/hq/SN_02_08-08_09.pdf "
 notes-title: "Lost Books&#58; Ezekiel (Study Notes)"
 program-description: ""
 program: "http://www.crossroads.net/players/media/hq/0207_08Program.pdf"
-program-title: "Lost Books&#58; Ezekiel (Program)"
+program-title: "Lost Books: Ezekiel (Program)"
 ---
