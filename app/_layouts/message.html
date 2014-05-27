@@ -1,33 +1,42 @@
 ---
 layout: one_column
 ---
-
-<h1>{{ page.title }}</h1>
+<h1>Series: {{ page.series }}</h1>
+<h2>{{ page.title }}</h2>
 <p class="text-muted">{{ page.description }}</p>
 
 <div>
+    {% if page.video contains 'mp4' %}
     <video width="700" height="400" controls poster="{{ page.video-poster }}">
         <source src="{{ page.video }}" type="video/mp4">
     </video>
-    <p>
-        {{ page.video-title }}
-        <span class="message-date">{{ page.date }}</span>
-    </p>
+    {% else %}
+    <p><b>Video not found.</b></p>
+    {% endif %}
+    <p><b>{{ page.video-title }}</b></p>
+    <p>{{ page.video-description }}</p>
+    <p><span class="message-date">{{ page.date }}</span></p>
 </div>
-<br><br>
+<h3>Audio:</h3><br>
 <div>
+    {% if page.audio contains 'mp3' %}
     <audio controls>
         <source src="{{ page.audio }}" type="audio/mpeg">
     </audio> 
-    <p>
-        {{ page.audio-title }}
-        <span class="message-date">{{ page.date }}</span>
-    </p>
+    {% else %}
+    <p><b>Audio not found.</b></p>
+    {% endif %}
+    <p><b>{{ page.audio-title }}</b></p>
+    <p>{{ page.audio-description }}</p>
+    <p><span class="message-date">{{ page.date }}</span></p>
 </div>
     
 <p class="text-muted small">{{ page.startDate }}</p>
-
+{% if page.audio contains 'mp3' %}
 <a href="{{ page.audio }}">Download Audio (mp3)</a><br>
+{% endif %}
+{% if page.video contains 'mp4' %}
 <a href="{{ page.video }}">Download Video (mp4)</a><br>
+{% endif %}
 <a href="{{ page.program }}">View Program (pdf)</a><br>
 <a href="#">Share</a>
