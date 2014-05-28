@@ -24,15 +24,13 @@ layout: one_column
     </tr>
   </thead>
   <tbody>
-      {% assign sorted = site.messages | sort %}
-      {% for message in sorted %}
-          {% if page.series == message.series %}
+      {% assign sorted = site.messages | where:"series",page.series | sort:'date','first' %}
+      {% for message in sorted reversed %}
               <tr>
                   <td>{{ message.title }}</td>
                   <td>{{ message.date }}</td>
                   <td><a href="{{ message.url }}">View</a></td>
               </tr>
-          {% endif %}
       {% endfor %}
   </tbody>
 </table>
