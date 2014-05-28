@@ -8,5 +8,3 @@ endDate: 2014-04-19 12:12:12
 description: We're talking about setting ourselves on fire.
 src: /img/series/190x110_HowToChangeWorld.jpg
 ---
-
-We're talking about setting ourselves on fire.
