@@ -24,12 +24,15 @@ layout: one_column
     </tr>
   </thead>
   <tbody>
-      {% for message in site.messages %}
-      <tr>
-          <td>{{ message.title }}</td>
-          <td>{{ message.startDate }}</td>
-          <td><a href="{{ message.url }}">View</a></td>
-      </tr>
+      {% assign sorted = site.messages | sort %}
+      {% for message in sorted %}
+          {% if page.series == message.series %}
+              <tr>
+                  <td>{{ message.title }}</td>
+                  <td>{{ message.date }}</td>
+                  <td><a href="{{ message.url }}">View</a></td>
+              </tr>
+          {% endif %}
       {% endfor %}
   </tbody>
 </table>
