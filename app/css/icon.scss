@@ -1,0 +1,11 @@
+.icon:after {
+  content: "";
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  vertical-align: text-bottom;
+}
+
+.icon--user:after {
+  background-image: url('/img/user.svg');
+}
