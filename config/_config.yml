@@ -7,9 +7,13 @@ exclude: ["vendor", "node_modules", "*.scss", "*.coffee"]
 collections:
   content:
     output: true
-  messages:  
+  media:
     output: true  
-  series:  
+  messages:
+    output: true
+  music:
+    output: true
+  series:
     output: true
   pages: 
     output: true

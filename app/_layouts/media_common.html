@@ -1,0 +1,40 @@
+---
+layout: one_column
+---
+<h1>{{ page.title }}</h1>
+<p class="text-muted">{{ page.description }}</p>
+
+{% if page.video %}
+<div>
+    {% if page.video contains 'mp4' %}
+    <video width="700" height="400" controls poster="{{ page.video-poster }}">
+        <source src="{{ page.video }}" type="video/mp4">
+    </video>
+    {% else %}
+    <p><b>Video not found with valid format.</b></p>
+    {% endif %}
+</div>
+{% endif %}
+
+{% if page.audio %}
+    {% if page.video == nil or page.video == empty %}
+    <div>
+        {% if page.audio contains 'mp3' %}
+        <audio controls>
+            <source src="{{ page.audio }}" type="audio/mpeg">
+        </audio>
+        {% else %}
+        <p><b>Audio not found with valid format.</b></p>
+        {% endif %}
+    </div>
+    {% endif %}
+{% endif %}
+    
+<p class="text-muted small">{{ page.date }}</p>
+{% if page.audio contains 'mp3' %}
+<a href="{{ page.audio }}">Download Audio (mp3)</a><br>
+{% endif %}
+{% if page.video contains 'mp4' %}
+<a href="{{ page.video }}">Download Video (mp4)</a><br>
+{% endif %}
+<a href="#">Share</a>
