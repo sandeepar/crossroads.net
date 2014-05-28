@@ -11,3 +11,5 @@ collections:
     output: true  
   series:  
     output: true
+  pages: 
+    output: true
