@@ -10,4 +10,7 @@ collections:
   messages:  
     output: true  
   series:  
-    output: true
+    output: true  
+  media:  
+    output: true  
+    

@@ -1,0 +1,17 @@
+---
+layout: one_column
+---
+<h1>Series: {{ page.series }}</h1>
+<h2>{{ page.title }}</h2>
+<p class="text-muted">{{ page.description }}</p>
+
+<div>
+    {% if page.audio contains 'mp3' %}
+    <audio controls>
+        <source src="{{ page.audio }}" type="audio/mpeg">
+    </audio> 
+    {% else %}
+    <p><b>Audio not found.</b></p>
+    {% endif %}
+    <p><span class="message-date">{{ page.date }}</span></p>
+</div>
