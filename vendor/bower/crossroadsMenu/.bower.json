@@ -21,11 +21,11 @@
     "jquery": "*"
   },
   "homepage": "https://github.com/crdschurch/crdschurch-menu",
-  "_release": "24226f2a20",
+  "_release": "9a5cab0974",
   "_resolution": {
     "type": "branch",
     "branch": "master",
-    "commit": "24226f2a208c795010132ccdd378f9fd9e0a4cea"
+    "commit": "9a5cab0974e2340b067a675b1af807eee017cafc"
   },
   "_source": "git://github.com/crdschurch/crdschurch-menu.git",
   "_target": "*",

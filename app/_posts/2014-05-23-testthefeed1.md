@@ -4,7 +4,6 @@ published: true
 title: TestTheFeed1
 comment: true
 categories: 
-  - thefeed
 ---
 
 ## Testing the Feed 1
