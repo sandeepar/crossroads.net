@@ -3,6 +3,7 @@
     - 
       title: "My Crossroads"
       link: "#"
+      icon: "icon--crossroads"
       items: 
         - 
           title: "Dashboard"
@@ -19,6 +20,7 @@
     - 
       title: "Engage"
       link: "#"
+      icon: "icon--engage"
       items: 
         - 
           title: "Get Involved"
@@ -35,6 +37,7 @@
     - 
       title: "Grow"
       link: "#"
+      icon: "icon--grow"
       items: 
         - 
           title: "Essentials of Growth"
@@ -54,6 +57,7 @@
     - 
       title: "About"
       link: "#"
+      icon: "icon--about"
       items: 
         - 
           title: "Explore Crossroads"
@@ -79,6 +83,7 @@
     - 
       title: "Give"
       link: "#"
+      icon: "icon--give"
       items: 
         - 
           title: "Recurring Gift"
@@ -101,6 +106,7 @@
     - 
       title: "Media"
       link: "#"
+      icon: "icon--media"
       items: 
         - 
           title: "Weekend Service"
@@ -117,3 +123,4 @@
     - 
       title: "Admin"
       link: "#"
+      icon: "icon--admin"
