@@ -6,17 +6,47 @@
       icon: "icon--crossroads"
       items: 
         - 
-          title: "Dashboard"
-          link: "#"
+          title: "My Account"
+          items:
+            - 
+              title: "Dashboard"
+              link: "#"
+            - 
+              title: "Profile"
+              link: "#"
+            - 
+              title: "Giving History"
+              link: "#"
+            - 
+              title: "My Groups"
+              link: "#"
         - 
-          title: "Profile"
-          link: "#"
+          title: "Most Recent Weekend"
+          items:
+            - 
+              title: "Weekend service audio"
+              link: "#"
+            - 
+              title: "Weekend service video"
+              link: "#"
+            - 
+              title: "Weekend Kids' Club lesson"
+              link: "#"
+            - 
+              title: "Weekend Middle School lesson"
+              link: "#"
         - 
-          title: "Giving History"
-          link: "#"
-        - 
-          title: "My Groups"
-          link: "#"
+          title: "Learn about Crossroads"
+          items:
+            -
+              title: "Blog"
+              link: "#"
+            - 
+              title: "Home"
+              link: "#"
+            - 
+              title: "Explore Crossroads"
+              link: "#"
     - 
       title: "Engage"
       link: "#"
