@@ -6,7 +6,7 @@
 @import 'gradient';
 @import 'nav';
 @import 'icon';
-
+@import 'thefeed';
 // @import 'block-grid';
 body {
   font-family: 'Roboto', 'Helvetica Neue', 'Arial', san-serif;
@@ -76,3 +76,34 @@ footer {
     margin-bottom: 1em;
 }
 /* RIGHT SIDE BAR */
+
+
+
+/* Nav Page Push */
+@media only screen and (min-device-width : 320px) and (max-device-width : 768px) {
+  #sp-nav {
+    -webkit-transform: translatex(-100%);
+    transform: translatex(-100%);
+    position: absolute;
+    transition: all 0.3s;
+  }
+
+  #sp-page {
+    -webkit-transform: translatex(0%);
+    transform: translatex(0%);
+    transition: all 0.3s;
+    padding: 0 20px;
+  }
+
+  #sp-nav.show {
+    -webkit-transform: translatex(0%);
+    transform: translatex(0%);
+    transition: all 0.3s;
+  }
+
+  #sp-page.show {
+    -webkit-transform: translatex(90%);
+    transform: translatex(0%);
+    transition: all 0.3s;
+  }
+}
