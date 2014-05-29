@@ -1,0 +1,18 @@
+---
+layout: right_column
+title: Blog
+published: true
+permalink: blog-content
+categories:
+---
+
+<h1>Blog</h1>
+
+<div id="container--test">
+{% for post in site.posts  %}
+  {% if post.categories contains 'thefeed' %}
+    {{ post.content }}
+  {% endif %}
+{% endfor %}
+</div>
+
