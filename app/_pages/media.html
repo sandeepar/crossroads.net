@@ -11,21 +11,24 @@ permalink: /media/
 <br>
 
 <h2>MESSAGE SERIES</h2>
+{% include series.html %}
 <div class="row">
   <ul class="media-list">
+    {% assign sorted_series = site.series | sort:'startDate','first' %}
+    {% for series in sorted_series reversed limit: 2 %}
     <li class="col-sm-2 col-xs-6">
-      <a href="#">
-        <img src="/img/series/190x110_HowToChangeWorld.jpg" class="img-responsive">
-        <h4>How to Change the World</h4>
-        <p class="text-muted">3.22.2014</p>
-      </a>
-    </li>
-
+      <a href="{{ series.permalink }}">
+        <img src="{{ series.src }}" class="img-responsive" />
+        <h4>{{ series.title }}</h4>
+        <p class="text-muted">{{ series.startDate | date: "%m.%d.%Y" }}</p>
+        </a>
+    </li>  
+    {% if forloop.index == 6 %}
+    <div class="clearfix visible-sm visible-md visible-lg"></div>
+    {% elsif forloop.index == 2 %}
     <div class="clearfix visible-xs"></div>
-
-
-    <div class="clearfix hidden-xs"></div>
-    <div class="clearfix visible-xs"></div>
+    {% endif %}
+    {% endfor %}
 
   </ul>
 </div>
@@ -41,18 +44,21 @@ permalink: /media/
 <h2>MUSIC</h2>
 <div class="row">
   <ul class="media-list">
-
+  {% assign sorted_music = site.music | sort:'date','first' %}
+    {% for music in sorted_music reversed limit: 6 %}
     <li class="col-sm-2 col-xs-6">
-      <a href="#">
-        <img src="/img/music/beauty_190x110.jpg" class="img-responsive">
-        <h4>empty music list</h4>
-        <p class="text-muted">2.08.2014</p>
-      </a>
-    </li>
-
-    <div class="clearfix hidden-xs"></div>
+      <a href="{{ music.permalink }}">
+        <img src="{{ music.src }}" class="img-responsive" />
+        <h4>{{ music.title }}</h4>
+        <p class="text-muted">{{ music.date | date: "%m.%d.%Y" }}</p>
+        </a>
+    </li> 
+    {% if forloop.index == 6 %}
+    <div class="clearfix visible-sm visible-md visible-lg"></div>
+    {% elsif forloop.index == 2 %}
     <div class="clearfix visible-xs"></div>
-
+    {% endif %}
+    {% endfor %}
   </ul>
 </div>
 <div class="row">
@@ -69,17 +75,21 @@ permalink: /media/
 <h2>VIDEO</h2>
 <div class="row">
   <ul class="media-list">
+  {% assign sorted_media = site.media | sort:'date','first' %}
+    {% for media in sorted_media reversed limit: 6 %}
     <li class="col-sm-2 col-xs-6">
-      <a href="#">
-        <img src="/img/video/givefreedom_still.jpg" class="img-responsive">
-        <h4>empty video list</h4>
-        <p class="text-muted">2.08.2014</p>
-      </a>
-    </li>
-
-    <div class="clearfix hidden-xs"></div>
+      <a href="{{ media.permalink }}">
+        <img src="{{ media.src }}" class="img-responsive" />
+        <h4>{{ media.title }}</h4>
+        <p class="text-muted">{{ media.date | date: "%m.%d.%Y" }}</p>
+        </a>
+    </li> 
+    {% if forloop.index == 6 %}
+    <div class="clearfix visible-sm visible-md visible-lg"></div>
+    {% elsif forloop.index == 2 %}
     <div class="clearfix visible-xs"></div>
-
+    {% endif %}
+    {% endfor %}
   </ul>
 </div>
 <div class="row">
