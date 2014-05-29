@@ -1,23 +1,17 @@
-list type: {{ list_type }}
-
-{% case list_type %}
-{% when 'series' %}
+{% case include.list_type %}
+{% when 'Series' %}
   {% assign sorted = site.series | sort:'startDate','first' %}
-{% when 'music' %}
+{% when 'Music' %}
   {% assign sorted = site.music | sort:'date','first' %}
-{% when 'media' %}
+{% when 'Media' %}
   {% assign sorted = site.media | sort:'date','first' %}
 {% endcase %}
-help
-<div class="row">{{ page.type }}
-  <ul class="media-list">
-    {% if list_limit == 'all' %}
-    {% assign limit = 99 %}
-    {% else %}
-    {% assign limit = list_limit %}
-    {% endif %}
-    
-    {% for item in sorted reversed limit: limit %}
+
+<div class="row">
+<ul class="media-list"> 
+
+
+{% for item in sorted reversed %}{% if include.list_limit == 0 or forloop.index <= include.list_limit %}
     <li class="col-sm-2 col-xs-6">
       <a href="{{ item.permalink }}">
         <img src="{{ item.src }}" class="img-responsive" />
@@ -30,6 +24,11 @@ help
     {% elsif forloop.index == 2 %}
     <div class="clearfix visible-xs"></div>
     {% endif %}
-    {% endfor %}
+    {% endif %}{% endfor %}
   </ul>
 </div>
+{% if include.list_limit != 0 %}
+<div class="row">
+  <a href="{{ include.view_all_link }}" class="btn btn-default pull-right">View All {{ include.list_type }}</a>
+</div>
+{% endif %}
