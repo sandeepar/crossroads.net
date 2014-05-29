@@ -1,0 +1,35 @@
+list type: {{ list_type }}
+
+{% case list_type %}
+{% when 'series' %}
+  {% assign sorted = site.series | sort:'startDate','first' %}
+{% when 'music' %}
+  {% assign sorted = site.music | sort:'date','first' %}
+{% when 'media' %}
+  {% assign sorted = site.media | sort:'date','first' %}
+{% endcase %}
+help
+<div class="row">{{ page.type }}
+  <ul class="media-list">
+    {% if list_limit == 'all' %}
+    {% assign limit = 99 %}
+    {% else %}
+    {% assign limit = list_limit %}
+    {% endif %}
+    
+    {% for item in sorted reversed limit: limit %}
+    <li class="col-sm-2 col-xs-6">
+      <a href="{{ item.permalink }}">
+        <img src="{{ item.src }}" class="img-responsive" />
+        <h4>{{ item.title }}</h4>
+        <p class="text-muted">{{ item.startDate | date: "%m.%d.%Y" }}</p>
+        </a>
+    </li> 
+    {% if forloop.index == 6 %}
+    <div class="clearfix visible-sm visible-md visible-lg"></div>
+    {% elsif forloop.index == 2 %}
+    <div class="clearfix visible-xs"></div>
+    {% endif %}
+    {% endfor %}
+  </ul>
+</div>
