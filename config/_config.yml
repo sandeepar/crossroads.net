@@ -12,5 +12,7 @@ collections:
   series:  
     output: true  
   media:  
-    output: true  
+    output: true 
+  music:  
+    output: true
     
