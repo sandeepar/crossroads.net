@@ -1,0 +1,8 @@
+---
+layout: message
+category: message
+series: "Revolution"
+title: "Crazy Choices"
+date: 2005-01-15
+message_id: 137
+---
