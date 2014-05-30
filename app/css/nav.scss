@@ -44,6 +44,9 @@
       border-radius: 4px;
       text-transform: uppercase;
       color: #636363;
+      .icon{
+        display: none;
+      }
     }
     &:hover > a.dropdown-toggle {
       color: #fff;
@@ -171,6 +174,7 @@
         text-transform: uppercase;
         color: #4c4c4c;
         background: none;
+        line-height: 25px;
         &:hover {
           color: #4c4c4c;
         }
