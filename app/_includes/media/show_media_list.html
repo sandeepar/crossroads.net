@@ -1,9 +1,9 @@
 {% case include.list_type %}
-{% when 'Series' %}
-  {% assign sorted = site.series | sort:'startDate','first' %}
-{% when 'Music' %}
+{% when 'series' %}
+  {% assign sorted = site.series | sort:'date','first' %}
+{% when 'music' %}
   {% assign sorted = site.music | sort:'date','first' %}
-{% when 'Media' %}
+{% when 'media' %}
   {% assign sorted = site.media | sort:'date','first' %}
 {% endcase %}
 
@@ -16,7 +16,7 @@
       <a href="{{ item.permalink }}">
         <img src="{{ item.src }}" class="img-responsive" />
         <h4>{{ item.title }}</h4>
-        <p class="text-muted">{{ item.startDate | date: "%m.%d.%Y" }}</p>
+        <p class="text-muted">{{ item.date | date: "%m.%d.%Y" }}</p>
         </a>
     </li> 
     {% if forloop.index == 6 %}
@@ -29,6 +29,6 @@
 </div>
 {% if include.list_limit != 0 %}
 <div class="row">
-  <a href="{{ include.view_all_link }}" class="btn btn-default pull-right">View All {{ include.list_type }}</a>
+  <a href="{{ include.view_all_link | downcase }}" class="btn btn-default pull-right">View All {{ include.view_all_link }}</a>
 </div>
 {% endif %}
