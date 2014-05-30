@@ -13,6 +13,8 @@ module.exports = function(lineman) {
 		"vendor/js/underscore.js",
 		"vendor/js/mediaelement-and-player.min.js",
 		"vendor/bower/angular/angular.js",
+		"vendor/bower/angular-strap/dist/angular-strap.js",
+		"vendor/bower/angular-strap/dist/angular-strap.tpl.js",
 		"vendor/bower/crossroadsMenu/dist/crossroadsMenu.js",
 		"vendor/bower/masonry/dist/masonry.pkgd.js",
 		"vendor/bower/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/affix.js",

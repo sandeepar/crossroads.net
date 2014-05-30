@@ -9,7 +9,7 @@ end
 source "https://rubygems.org"
 
 # gem "rails"
-gem 'jekyll'
+gem 'jekyll', :git => 'https://github.com/jekyll/jekyll.git'
 gem 'sass'
 gem 'rspec'
 gem 'pry'
