@@ -1,0 +1,41 @@
+{% assign sorted = site.messages | sort: "date", "first" %}
+<!-- assign sorted = site.messages -->
+{% assign message = sorted.last %}
+
+<div id="video-player-box">
+    <div class="row">
+        <div class="replay-image col-md-4">
+            <a href="{{ message.url }}">
+                <img src="{{ message.video-poster }}" width="190" height="106" alt="Pic Weekend">
+            </a>
+        </div><!-- end replay-image -->
+        <div class="video-info col-md-8">
+            <p class="video-date">
+                <a href="{{ message.url }}">
+                    <em>{{ message.title }} </em>
+                </a>
+                &nbsp;
+                {{ message.date }}
+            </p>
+            <p class="video-desc">
+                {{ message.video-description }}
+            </p>
+            <ul class="list-inline">
+                <li><a href="{{ message.url }}">Audio</a></li>
+                <li><a href="{{ message.url }}">Video</a></li>
+                <li><a href="{{ site.data.external_links.itunes.video }}" target="_blank">iTunes</a></li>
+            </ul>
+
+            <div>
+                {% if message.audio contains 'mp3' %}
+                <audio controls>
+                    <source src="{{ message.audio }}" type="audio/mpeg">
+                </audio>
+                {% else %}
+                <p><b>Audio not found.</b></p>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+    <!-- end video-info -->
+</div>

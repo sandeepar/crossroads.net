@@ -22,3 +22,14 @@
 
 
 .container-max {max-width: 1170px;}
+
+
+/***************************************************************************************
+* Message Preview Include - used on _includes/media/message_preview.html
+***************************************************************************************/
+#video-player-box {
+  background: #f8f3e5;
+  padding: 10px 0 10px 10px;
+  margin: 0 0 20px 0;
+  position: relative;
+}
