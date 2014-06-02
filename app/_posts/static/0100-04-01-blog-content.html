@@ -8,18 +8,11 @@ categories:
 
 <h1>Blog</h1>
 
-
-<div id="articles">
-{% for post in site.posts %}
-  <article>
-    <div class="item">
-      <div class="item_details">
-        <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-      </div>
-      <div class="item_content">
-        {{ post.content }}
-      </div>
-    </div>
-  </article>
+<div id="container--test">
+{% for post in site.posts  %}
+  {% if post.categories contains 'thefeed' %}
+    {{ post.content }}
+  {% endif %}
 {% endfor %}
 </div>
+
