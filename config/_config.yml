@@ -3,6 +3,7 @@ markdown: redcarpet
 highlighter: true
 port: 4002
 relative_permalinks: false
+baseurl: http://localhost:8000
 exclude: ["vendor", "node_modules", "*.scss", "*.coffee"]
 collections:
   content:

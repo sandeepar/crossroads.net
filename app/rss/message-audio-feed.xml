@@ -1,0 +1,94 @@
+---
+layout: nil
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss
+        xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+        xmlns:atom="http://www.w3.org/2005/Atom"
+        xmlns:media="http://search.yahoo.com/mrss/"
+        version="2.0">
+
+    <channel>
+        <atom:link href="http://www.crossroads.net" type="application/rss+xml"/>
+        <title>Crossroads Church (Audio)</title>
+        <link>{{ site.baseurl }}</link>
+        <language>en-us</language>
+        <copyright>Please redistribute</copyright>
+        <itunes:author>Crossroads</itunes:author>
+        <itunes:summary>Crossroads Church in
+            Cincinnati, Ohio is a community for people who are seeking God - from those who
+            are brand new to the whole "church" thing to committed followers of
+            Jesus.
+        </itunes:summary>
+        <description>Crossroads Church in Cincinnati, Ohio is a
+            community for people who are seeking God - from those who are brand new to the
+            whole "church" thing to committed followers of Jesus.
+        </description>
+        <image>
+            <title>Crossroads Church (Audio)</title>
+            <url>http://www.crossroads.net/uploadedfiles/CR_podcast_audio.jpg</url>
+            <link>{{ site.baseurl }}</link>
+            <width>100</width>
+            <height>200</height>
+        </image>
+        <itunes:owner>
+            <itunes:name>Crossroads</itunes:name>
+            <itunes:email>websitefeedback@crossroads.net</itunes:email>
+        </itunes:owner>
+        <itunes:image href="http://www.crossroads.net/uploadedfiles/CR_podcast_audio.jpg"/>
+
+        <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml"
+                     href="{{ site.baseurl }}{{ page.url }}"/>
+        <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/"/>
+        <media:copyright>Please redistribute</media:copyright>
+        <media:thumbnail url="http://www.crossroads.net/uploadedfiles/CR_podcast_audio.jpg"/>
+        <media:keywords>Crossroads,Cincinnati,church,Tome,Brian,Tome,Chuck,Mingo,Mingo</media:keywords>
+        <media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">Religion &amp; Spirituality/Christianity
+        </media:category>
+        <itunes:explicit>no</itunes:explicit>
+        <itunes:keywords>Crossroads,Cincinnati,church,Tome,Brian,Tome,Chuck,Mingo,Mingo</itunes:keywords>
+        <itunes:subtitle>Crossroads Church in Cincinnati, Ohio is a community for people who are seeking God - from
+            those who are brand new to the whole "church" thing to committed followers of Jesus.
+        </itunes:subtitle>
+        <itunes:category text="Religion &amp; Spirituality">
+            <itunes:category text="Christianity"/>
+        </itunes:category>
+
+        <!-- New Feed URL to migrate to new site location -->
+        <itunes:new-feed-url>{{ site.url }}{{ page.url }}</itunes:new-feed-url>
+
+        {% assign sorted = site.messages | sort: "date", "first" %}
+        {% for message in sorted reversed limit:15 %}
+        {% if message.audio %}
+
+        <item>
+            <itunes:author>Crossroads</itunes:author>
+            <itunes:summary>Brian Tome talks about how the new man is a protector.</itunes:summary>
+            <itunes:keywords>Brian Tome,crossroads,crossroads church</itunes:keywords>
+
+            <title>{{ message.title }}</title>
+            <description>{{ message.audio-description | xml_escape }}</description>
+
+            {% if message.explicit == true %}
+            <itunes:explicit>yes</itunes:explicit>
+            {% else %}
+            <itunes:explicit>no</itunes:explicit>
+            {% endif %}
+
+            <itunes:duration>{{ message.audio-duration }}</itunes:duration>
+            <enclosure url="{{ message.audio }}" type="audio/mpeg3"
+                       length="123456"/>
+            <guid isPermaLink="false">{{ message.audio }}</guid>
+            <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S" }} GMT</pubDate>
+            <media:content url="{{ message.audio }}" fileSize="123456"
+                           type="audio/mpeg3"/>
+            <itunes:subtitle>{{ message.series }}</itunes:subtitle>
+            <link>{{ message.audio }}</link>
+        </item>
+
+        {% endif %}
+        {% endfor %}
+
+    </channel>
+
+</rss>
