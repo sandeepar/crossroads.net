@@ -12,18 +12,17 @@
     "package.json"
   ],
   "dependencies": {
-    "angular": "*",
-    "angular-cookies": "~1.2.16"
+    "angular": "*"
   },
   "devDependencies": {
     "angular-mocks": "*"
   },
   "homepage": "https://github.com/crdschurch/crdsAuth",
-  "_release": "f337f7cf72",
+  "_release": "a05b7489eb",
   "_resolution": {
     "type": "branch",
     "branch": "master",
-    "commit": "f337f7cf7233d4df28f17ebf758613a8455f4803"
+    "commit": "a05b7489ebdcf1d41afb82773ae6bc3a4cae481d"
   },
   "_source": "git@github.com:crdschurch/crdsAuth.git",
   "_target": "*",

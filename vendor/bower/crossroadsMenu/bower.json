@@ -16,6 +16,7 @@
   ],
   "dependencies": {
     "angular": "*",
+    "angular-cookies": "1.2.16",
     "crdsAuth": "git@github.com:crdschurch/crdsAuth.git"
   },
   "devDependencies": {
