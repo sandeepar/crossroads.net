@@ -24,7 +24,7 @@
     "branch": "master",
     "commit": "a05b7489ebdcf1d41afb82773ae6bc3a4cae481d"
   },
-  "_source": "git@github.com:crdschurch/crdsAuth.git",
+  "_source": "git://github.com/crdschurch/crdsAuth.git",
   "_target": "*",
-  "_originalSource": "git@github.com:crdschurch/crdsAuth.git"
+  "_originalSource": "git://github.com/crdschurch/crdsAuth.git"
 }
