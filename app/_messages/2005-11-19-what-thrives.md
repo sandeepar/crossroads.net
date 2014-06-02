@@ -5,4 +5,8 @@ series: "Death of Religion"
 title: "What Thrives?"
 date: 2005-11-19-00-00
 message_id: 93
+audio-description: "What if we learned that Jesus didn't come to start a nice, feel good religion? What if he didn't come to start any kind of religion at all? In fact, what if he came to fight and overthrow the whole system of codes and traditions that are religion? What if"
+audio: "http://www.crossroads.net/audio/2005/2005_10_Death_To_Religion/Religion_03_11-19-05_What_Thrives.mp3"
+audio-title: "What Thrives?"
+audio-duration: "36:54"
 ---
