@@ -1,0 +1,17 @@
+---
+layout: right_column
+title: Migrated Audio
+published: true
+permalink: migrated-audio
+categories: 
+---
+
+
+<h3>Audio</h3>
+
+
+  <ul>
+    {% for music in site.music %}
+           <li> <a href="{{ music.url }}">{{ music.title }}</a></li>
+    {% endfor %}
+  </ul>
