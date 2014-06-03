@@ -9,12 +9,17 @@ layout: nil
         version="2.0">
 
     <channel>
-        <atom:link href="http://www.crossroads.net" type="application/rss+xml"/>
-        <title>Crossroads Church (Audio)</title>
-        <link>{{ site.baseurl }}</link>
         <language>en-us</language>
-        <copyright>Please redistribute</copyright>
-        <itunes:author>Crossroads</itunes:author>
+
+        <!-- TITLE -->
+        <title>Crossroads Church (Audio)</title>
+
+        <!-- SUBTITLE -->
+        <itunes:subtitle>Crossroads Church in Cincinnati, Ohio is a community for people who are seeking God - from
+            those who are brand new to the whole "church" thing to committed followers of Jesus.
+        </itunes:subtitle>
+
+        <!-- SUMMARY DESCRIPTION -->
         <itunes:summary>Crossroads Church in
             Cincinnati, Ohio is a community for people who are seeking God - from those who
             are brand new to the whole "church" thing to committed followers of
@@ -24,6 +29,26 @@ layout: nil
             community for people who are seeking God - from those who are brand new to the
             whole "church" thing to committed followers of Jesus.
         </description>
+
+        <!-- AUTHOR and OWNER -->
+        <itunes:author>Crossroads</itunes:author>
+        <itunes:owner>
+            <itunes:name>Crossroads</itunes:name>
+            <itunes:email>websitefeedback@crossroads.net</itunes:email>
+        </itunes:owner>
+
+        <!-- LINKS -->
+        <link>{{ site.baseurl }}</link>
+        <atom:link href="{{ site.baseurl }}{{ page.url }}" type="application/rss+xml"/>
+        <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml"
+                     href="{{ site.baseurl }}{{ page.url }}"/>
+        <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/"/>
+
+        <itunes:explicit>no</itunes:explicit>
+
+        <!-- THUMBNAIL -->
+        <media:thumbnail url="http://www.crossroads.net/uploadedfiles/CR_podcast_audio.jpg"/>
+        <itunes:image href="http://www.crossroads.net/uploadedfiles/CR_podcast_audio.jpg"/>
         <image>
             <title>Crossroads Church (Audio)</title>
             <url>http://www.crossroads.net/uploadedfiles/CR_podcast_audio.jpg</url>
@@ -31,32 +56,26 @@ layout: nil
             <width>100</width>
             <height>200</height>
         </image>
-        <itunes:owner>
-            <itunes:name>Crossroads</itunes:name>
-            <itunes:email>websitefeedback@crossroads.net</itunes:email>
-        </itunes:owner>
-        <itunes:image href="http://www.crossroads.net/uploadedfiles/CR_podcast_audio.jpg"/>
 
-        <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml"
-                     href="{{ site.baseurl }}{{ page.url }}"/>
-        <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/"/>
-        <media:copyright>Please redistribute</media:copyright>
-        <media:thumbnail url="http://www.crossroads.net/uploadedfiles/CR_podcast_audio.jpg"/>
+        <!-- KEYWORDS -->
         <media:keywords>Crossroads,Cincinnati,church,Tome,Brian,Tome,Chuck,Mingo,Mingo</media:keywords>
+        <itunes:keywords>Crossroads,Cincinnati,church,Tome,Brian,Tome,Chuck,Mingo,Mingo</itunes:keywords>
+
+        <!-- CATEGORY -->
         <media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">Religion &amp; Spirituality/Christianity
         </media:category>
-        <itunes:explicit>no</itunes:explicit>
-        <itunes:keywords>Crossroads,Cincinnati,church,Tome,Brian,Tome,Chuck,Mingo,Mingo</itunes:keywords>
-        <itunes:subtitle>Crossroads Church in Cincinnati, Ohio is a community for people who are seeking God - from
-            those who are brand new to the whole "church" thing to committed followers of Jesus.
-        </itunes:subtitle>
         <itunes:category text="Religion &amp; Spirituality">
             <itunes:category text="Christianity"/>
         </itunes:category>
 
+        <!-- COPYRIGHT -->
+        <media:copyright>Please redistribute</media:copyright>
+        <copyright>Please redistribute</copyright>
+
         <!-- New Feed URL to migrate to new site location -->
         <itunes:new-feed-url>{{ site.url }}{{ page.url }}</itunes:new-feed-url>
 
+        <!-- PODCAST ITEMS -->
         {% assign sorted = site.messages | sort: "date", "first" %}
         {% for message in sorted reversed limit:15 %}
         {% if message.audio %}
