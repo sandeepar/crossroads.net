@@ -12,7 +12,7 @@ layout: nil
         <language>en-us</language>
 
         <!-- TITLE -->
-        <title>Crossroads Church (Audio)</title>
+        <title>Crossroads Church (Video)</title>
 
         <!-- SUBTITLE -->
         <itunes:subtitle>Crossroads Church in Cincinnati, Ohio is a community for people who are seeking God - from
@@ -46,8 +46,8 @@ layout: nil
         <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/"/>
 
         <!-- THUMBNAIL -->
-        <media:thumbnail url="http://www.crossroads.net/uploadedfiles/CR_podcast_audio.jpg"/>
-        <itunes:image href="http://www.crossroads.net/uploadedfiles/CR_podcast_audio.jpg"/>
+        <media:thumbnail url="http://www.crossroads.net/uploadedfiles/CR_podcast_video.jpg"/>
+        <itunes:image href="http://www.crossroads.net/uploadedfiles/CR_podcast_video.jpg"/>
         <image>
             <title>Crossroads Church (Audio)</title>
             <url>http://www.crossroads.net/uploadedfiles/CR_podcast_audio.jpg</url>
@@ -81,7 +81,7 @@ layout: nil
         <!-- PODCAST ITEMS -->
         {% assign sorted = site.messages | sort: "date", "first" %}
         {% for message in sorted reversed %}
-        {% if message.audio %}
+        {% if message.video %}
 
         <item>
             <!-- PODCAST - AUTHOR AND DETAILS -->
@@ -89,9 +89,9 @@ layout: nil
             <pubDate>{{ message.date | date: "%a, %d %b %Y %H:%M:%S %Z" }}</pubDate>
 
             <title>{{ message.title | xml_escape | truncate:255 }}</title>
-            <itunes:subtitle>{{ message.audio-description | xml_escape | truncate:255 }}</itunes:subtitle>
-            <description>{{ message.audio-description | xml_escape }}</description>
-            <itunes:summary>{{ message.audio-description | xml_escape }}</itunes:summary>
+            <itunes:subtitle>{{ message.video-description | xml_escape | truncate:255 }}</itunes:subtitle>
+            <description>{{ message.video-description | xml_escape }}</description>
+            <itunes:summary>{{ message.video-description | xml_escape }}</itunes:summary>
             <itunes:keywords>Brian Tome,crossroads,crossroads church</itunes:keywords>
 
             <!-- PODCAST - ADULT CONTENT -->
@@ -102,11 +102,11 @@ layout: nil
             {% endif %}
 
             <!-- PODCAST - MEDIA LINKS -->
-            <itunes:duration>{{ message.audio-duration }}</itunes:duration>
-            <enclosure url="{{ message.audio | xml_escape | replace:' ','+' }}" type="audio/mpeg3" length="123456"/>
-            <guid isPermaLink="false">{{ message.audio | xml_escape | replace:' ','+' }}</guid>
-            <media:content url="{{ message.audio | xml_escape | replace:' ','+' }}" fileSize="123456" type="audio/mpeg3"/>
-            <link>{{ message.audio | xml_escape }}</link>
+            <itunes:duration>{{ message.video-duration }}</itunes:duration>
+            <enclosure url="{{ message.video | xml_escape | replace:' ','+' }}" type="video/mpeg4" length="123456"/>
+            <guid isPermaLink="false">{{ message.video | xml_escape | replace:' ','+' }}</guid>
+            <media:content url="{{ message.video | xml_escape | replace:' ','+' }}" fileSize="123456" type="video/mpeg4"/>
+            <link>{{ message.video | xml_escape }}</link>
         </item>
 
         {% endif %}
