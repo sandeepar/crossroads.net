@@ -6,4 +6,5 @@ date: 2014-01-21
 description: "We’re talking about how community can change us."
 audio: "http://www.crossroads.net/players/media/hq/powertochange_03.mp3"
 audio-duration: "45:58"
+src: "http://www.crossroads.net/players/media/mediumHz/PowerToChange_190x110.jpg"
 ---
