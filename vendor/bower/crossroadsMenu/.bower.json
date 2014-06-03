@@ -15,20 +15,21 @@
   ],
   "dependencies": {
     "angular": "*",
-    "crdsAuth": "git@github.com:crdschurch/crdsAuth.git"
+    "angular-cookies": "1.2.16",
+    "crdsAuth": "git://github.com/crdschurch/crdsAuth.git"
   },
   "devDependencies": {
     "angular-mocks": "*",
     "jquery": "*"
   },
   "homepage": "https://github.com/crdschurch/crdschurch-menu",
-  "_release": "11137943e4",
+  "_release": "a49f692da0",
   "_resolution": {
     "type": "branch",
     "branch": "master",
-    "commit": "11137943e4411d08f5fb41e12d99a052aeb7e858"
+    "commit": "a49f692da0210dc6b19e3b31553b4f12cb83e115"
   },
-  "_source": "git@github.com:crdschurch/crdschurch-menu.git",
+  "_source": "git://github.com/crdschurch/crdschurch-menu.git",
   "_target": "*",
-  "_originalSource": "git@github.com:crdschurch/crdschurch-menu.git"
+  "_originalSource": "git://github.com/crdschurch/crdschurch-menu.git"
 }
