@@ -1,23 +1,27 @@
 {
-    "name": "crossroads",
-    "version": "0.0.0",
-    "repository": "https://github.com/crdschurch/crossroads.net.git",
-    "author": "aravind666 <aravind.udayashankara@gmail.com>",
-    "devDependencies": {
-      "protractor": ">=0.8.0",
-      "jasmine-given": "~2.1.0",
-      "lineman": ">= 0.28.0",
-      "lineman-angular": ">= 0.2.0",
-      "lineman-less": "0.0.1",
-      "coffee-script": "~1.6.3",
-      "lineman-bower": "0.0.3",
-      "grunt-jekyll": "latest"
-    },
-    "dependencies": {
-      "http-server": "latest"
-    },
-    "scripts": {
-      "start": "lineman run",
-      "test": "lineman spec-ci"
-    }
+  "name": "crossroads",
+  "version": "0.0.0",
+  "repository": "https://github.com/crdschurch/crossroads.net.git",
+  "author": "aravind666 <aravind.udayashankara@gmail.com>",
+  "devDependencies": {
+    "lineman": ">= 0.28.0",
+    "lineman-angular": ">= 0.2.0",
+    "lineman-bower": "0.0.3",
+    "grunt-jekyll": "latest",
+    "grunt-nodemon": "^0.2.1",
+    "jasmine-given": "~2.1.0",
+    "lineman-less": "0.0.1",
+    "protractor": ">=0.8.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.3.0",
+    "coffee-script": "^1.7.1",
+    "dotenv": "^0.2.8",
+    "express": "^4.4.1",
+    "http-server": "latest"
+  },
+  "scripts": {
+    "start": "lineman run",
+    "test": "lineman spec-ci"
+  }
 }
