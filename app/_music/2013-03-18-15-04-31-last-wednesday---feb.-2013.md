@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "Last-Wednesday---Feb.-2013"
+title: "Last Wednesday - Feb. 2013"
 series: "Last Wednesday"
 date: 2013-03-18 
 description: "In Oakley, get coached by Chuck and Andrea on listening and hearing from God."

@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "Greatness-From-Lessness"
+title: "Greatness From Lessness"
 series: "An Unexpected Interruption of Scandalous Love"
 date: 2005-12-03 
 description: "Sometimes our world seems to be one giant contradiction. And Christmas is no different. It’s a time of warm family memories and fathers who don’t talk to their children. A time of being thankful for how much we have and hurt by how much we don’t. A time o"

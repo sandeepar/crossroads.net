@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "The-Conquering-Son"
+title: "The Conquering Son"
 series: "The Awaited Son"
 date: 2012-11-26 
 description: "For thousands of years, the Jewish people waited for Him--the Son of the King-to come set them free. He became a legend whispered through the generations--a riddle recited by the mystics. Some wondered if He was the invention of wishful thinking, or if he would ever arrive. Join us

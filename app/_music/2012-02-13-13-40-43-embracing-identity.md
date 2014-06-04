@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "Embracing-Identity"
+title: "Embracing Identity"
 series: "A Place at the Table"
 date: 2012-02-13 
 description: "Chuck Mingo talks about how we view our identity&#58; as an abandoned orphan or treasured child of God."

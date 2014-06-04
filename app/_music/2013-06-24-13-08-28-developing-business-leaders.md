@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "Developing-Business-Leaders"
+title: "Developing Business Leaders"
 series: "How to Build People"
 date: 2013-06-24 
 description: "Kirk Perry talks about how to develop business leaders."

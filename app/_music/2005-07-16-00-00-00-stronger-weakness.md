@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "Stronger-Weakness"
+title: "Stronger Weakness"
 series: "Special Effects"
 date: 2005-07-16 
 description: "Special effects are everywhere. Sometimes they're these huge, obvious productions used to bring to life the destruction of the world or to convince us that Billy Bob Thornton is sexy. But other times they're more subtle, in the background and hardly notic"

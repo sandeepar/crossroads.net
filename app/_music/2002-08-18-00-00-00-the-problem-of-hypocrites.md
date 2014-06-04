@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "The-Problem-of-Hypocrites"
+title: "The Problem of Hypocrites"
 series: "House of Hypocrites"
 date: 2002-08-18 
 description: "Hypocrisy is everywhere. Let's look at how we all help to build this house of hypocrites."

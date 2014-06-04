@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "Week-3---Terry-Phillips"
+title: "Week 3 - Terry Phillips"
 series: "The Good Life"
 date: 2012-07-10 
 description: "Terry Phillips talks about how a life of expectancy leads to the good life."

@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "Parenting-via-the-Invitation-Challenge-Matrix"
+title: "Parenting via the Invitation Challenge Matrix"
 series: "How to Build People"
 date: 2013-07-08 
 description: "Brian Tome talks about parenting through invitation and challenge."

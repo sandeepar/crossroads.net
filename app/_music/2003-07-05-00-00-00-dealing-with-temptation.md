@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "Dealing-With-Temptation"
+title: "Dealing With Temptation"
 series: "Letter From a Revolutionary"
 date: 2003-07-05 
 description: "A look at themes such as temptation, patience, and anger from the Bible’s Book of James."

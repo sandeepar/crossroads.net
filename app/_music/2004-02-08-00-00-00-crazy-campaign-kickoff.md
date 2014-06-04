@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "Crazy-Campaign-Kickoff"
+title: "Crazy Campaign Kickoff"
 series: "Super Bowl"
 date: 2004-02-08 
 description: "Super Bowl Sunday 2004"

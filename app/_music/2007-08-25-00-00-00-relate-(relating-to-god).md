@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "Relate-(Relating-To-God)"
+title: "Relate (Relating To God)"
 series: "Seek"
 date: 2007-08-25 
 description: "Crossroads is designed to be a place where we can all seek God, regardless of our starting point. Unfortunately, many of us have never had a healthy seeking process modeled for us. During this four-week series we'll explore the basics of seeking, from how"

@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "Last-Wednesday---Florence"
+title: "Last Wednesday - Florence"
 series: "#culture"
 date: 2013-09-27 
 description: "Last Wednesday - Florence"

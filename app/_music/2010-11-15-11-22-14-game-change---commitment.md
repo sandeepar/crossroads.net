@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "Game-Change---Commitment"
+title: "Game Change - Commitment"
 series: "Game Change"
 date: 2010-11-15 
 description: "Brian Tome talks about the commitment and acting on our call."

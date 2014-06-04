@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "Lost-Books-Haggai"
+title: "Lost Books: Haggai"
 series: "Lost Books"
 date: 2009-01-18 
 description: "Brian Tome discusses the power of intentionality as seen in the book of Haggai."

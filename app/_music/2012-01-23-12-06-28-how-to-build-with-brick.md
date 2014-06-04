@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "How-to-Build-with-Brick"
+title: "How to Build with Brick"
 series: "Big Bad Wolf"
 date: 2012-01-23 
 description: "Brian Tome talks about how to build our finances with brick."

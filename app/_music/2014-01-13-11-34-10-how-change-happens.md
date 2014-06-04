@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "How-Change-Happens"
+title: "How Change Happens"
 series: "Power To Change"
 date: 2014-01-13 
 description: "Brian Tome talks about how change happens."

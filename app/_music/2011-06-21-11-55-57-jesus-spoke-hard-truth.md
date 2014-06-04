@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "Jesus-spoke-hard-truth"
+title: "Jesus spoke hard truth"
 series: "Jesus: The Greatest Show on Earth"
 date: 2011-06-21 
 description: "Steven Manuel talks about how Jesus didn't play to the crowds."

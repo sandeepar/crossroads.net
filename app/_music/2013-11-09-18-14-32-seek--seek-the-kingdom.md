@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "Seek--Seek-the-Kingdom"
+title: "Seek | Seek the Kingdom"
 series: "Kingdom Come"
 date: 2013-11-09 
 description: "Brian Tome talks about Seeking the Kingdom"

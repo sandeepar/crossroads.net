@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "Consumed-(Week-Three)"
+title: "Consumed (Week Three)"
 series: "Consumed"
 date: 2008-02-25 
 description: ""

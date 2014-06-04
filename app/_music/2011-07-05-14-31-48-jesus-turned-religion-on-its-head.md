@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "Jesus-turned-religion-on-its-head"
+title: "Jesus turned religion on its head"
 series: "Jesus: The Greatest Show on Earth"
 date: 2011-07-05 
 description: "We'll be talking about how Jesus turned religion on its head."

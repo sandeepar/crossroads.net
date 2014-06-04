@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "Jesus-told-the-best-stories"
+title: "Jesus told the best stories"
 series: "Jesus: The Greatest Show on Earth"
 date: 2011-08-01 
 description: "We'll be hearing from people in the community about where and how they see Jesus."

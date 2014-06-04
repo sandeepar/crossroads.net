@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "Faithful-Obedience"
+title: "Faithful Obedience"
 series: "The Faithful"
 date: 2010-08-26 
 description: "Brian Tome talks about how the faithful obey God."

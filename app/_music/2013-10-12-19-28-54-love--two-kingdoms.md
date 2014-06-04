@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "Love--Two-Kingdoms"
+title: "Love | Two Kingdoms"
 series: "Kingdom Come"
 date: 2013-10-12 
 description: ""

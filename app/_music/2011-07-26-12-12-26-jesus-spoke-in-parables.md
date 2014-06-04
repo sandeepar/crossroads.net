@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "Jesus-Spoke-In-Parables"
+title: "Jesus Spoke In Parables"
 series: "Jesus: The Greatest Show on Earth"
 date: 2011-07-26 
 description: "Chuck Mingo talks about how Jesus spoke truth in the form of parables."

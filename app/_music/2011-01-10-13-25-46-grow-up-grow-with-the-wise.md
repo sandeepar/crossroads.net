@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "Grow-Up-Grow-with-the-Wise"
+title: "Grow Up: Grow with the Wise"
 series: "Grow Up"
 date: 2011-01-10 
 description: "Chuck Mingo talks about growing through intentional community."

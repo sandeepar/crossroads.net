@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "Surrender-to-Surrender"
+title: "Surrender to Surrender"
 series: "Going Crazy"
 date: 2004-04-25 
 description: "Can a local church really make a difference in someone's life? How about an entire family? How about a neighborhood, a city or a nation? Hey, how about the whole world? Sounds crazy doesn't it? Join us during this series as we look at where Crossroads is "

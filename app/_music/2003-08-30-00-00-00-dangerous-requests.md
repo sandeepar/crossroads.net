@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "Dangerous-Requests"
+title: "Dangerous Requests"
 series: "Dangerous Conversations"
 date: 2003-08-30 
 description: "What if prayer wasn’t a collection of pre-arranged lines but just a conversation with God? Join us as we take a look at prayer."

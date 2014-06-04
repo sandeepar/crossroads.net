@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "Unlock(ed)-The-Plan"
+title: "Unlock(ed): The Plan"
 series: "Unlock(ed)"
 date: 2008-10-20 
 description: "There are a few “rules of engagement” for those who accept the invitation to participate in the Kingdom of God.  First, we are fueled by faith that Jesus is who he said he is.  Then, we sacrifice for love; we are willing to be inconvenienced in order to help and love others.  Third, we have hope, and we are inspired by that hope to take bold action.  "

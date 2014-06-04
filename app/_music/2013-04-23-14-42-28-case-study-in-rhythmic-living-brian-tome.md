@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "Case-study-in-rhythmic-living-Brian-Tome"
+title: "Case study in rhythmic living: Brian Tome"
 series: "Rhythm"
 date: 2013-04-23 
 description: "Brian Tome presents a case study in rhythmic living."

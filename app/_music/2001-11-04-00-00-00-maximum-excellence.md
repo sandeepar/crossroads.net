@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "Maximum-Excellence"
+title: "Maximum Excellence"
 series: "Maximum Impact"
 date: 2001-11-04 
 description: "Wherever you are in your life, God has a new level to which He want to take you. Join us as we ramp up for a life of maximum impact. "

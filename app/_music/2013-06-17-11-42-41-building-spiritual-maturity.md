@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "Building-Spiritual-Maturity"
+title: "Building Spiritual Maturity"
 series: "How to Build People"
 date: 2013-06-17 
 description: "Chuck Mingo talks about building spiritual maturity."

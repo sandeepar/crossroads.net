@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "Lost-Books-Ezekiel"
+title: "Lost Books: Ezekiel"
 series: "Lost Books"
 date: 2009-02-09 
 description: "Brian Tome discusses being faithful in the midst of changing times."

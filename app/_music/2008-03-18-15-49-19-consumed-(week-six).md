@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "Consumed-(Week-Six)"
+title: "Consumed (Week Six)"
 series: "Consumed"
 date: 2008-03-18 
 description: "Generous communities change the world. This week we're each making the commitment to live more generously."

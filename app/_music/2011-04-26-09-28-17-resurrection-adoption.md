@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "Resurrection-Adoption"
+title: "Resurrection/Adoption"
 series: "The Story"
 date: 2011-04-26 
 description: "We'll be examining the credibility of the most outrageous part of the story&#58; the resurrection of Jesus."

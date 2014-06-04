@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "The-Meaning-of-Morph"
+title: "The Meaning of Morph"
 series: "Morph"
 date: 2007-01-20 
 description: "Change is frequently uncomfortable, often awkward and ultimately inevitable. Whether you desire change or not, it's a constant in your world, so you might as well embrace it. Welcome it, even, because change can be a very good thing. Join us in January an"

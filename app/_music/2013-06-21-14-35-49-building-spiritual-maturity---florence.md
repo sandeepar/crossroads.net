@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "Building-Spiritual-Maturity---Florence"
+title: "Building Spiritual Maturity - Florence"
 series: "How to Build People"
 date: 2013-06-21 
 description: "Terry Phillips talks about building spiritual maturity."

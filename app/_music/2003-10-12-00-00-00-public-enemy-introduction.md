@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "Public-Enemy-Introduction"
+title: "Public Enemy Introduction"
 series: "Public Enemy"
 date: 2003-10-12 
 description: "He wasn’t exactly what people expected. He didn’t follow “the rules”. He didn’t hang out with the right people. He ticked off the wrong people. Sometimes it seemed like he was an enemy to everything respectable. And he changed the world forever."

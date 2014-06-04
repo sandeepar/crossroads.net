@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "God-Wants-Your-Dreams"
+title: "God Wants Your Dreams"
 series: "Life, The Universe and Everything"
 date: 2004-08-15 
 description: "Life, The Universe and Everything"

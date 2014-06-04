@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "Last-Wednesday---Oakley"
+title: "Last Wednesday - Oakley"
 series: "God Is ____"
 date: 2013-08-01 
 description: "Kyle talks about how God is using fire to make men of steel"

@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "Last-Wednesday---Oakley"
+title: "Last Wednesday - Oakley"
 series: "#culture"
 date: 2013-09-27 
 description: "Last Wednesday - Oakley"

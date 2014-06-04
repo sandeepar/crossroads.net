@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "Last-Wednesday---Oakley"
+title: "Last Wednesday - Oakley"
 series: "Heavyweights 2"
 date: 2014-02-27 
 description: "Oakley"

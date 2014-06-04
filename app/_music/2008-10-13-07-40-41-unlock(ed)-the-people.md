@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "Unlock(ed)-The-People"
+title: "Unlock(ed): The People"
 series: "Unlock(ed)"
 date: 2008-10-13 
 description: "The Kingdom is about the King's heart for people. When we are engaged in following Jesus, we make it our business to be about people as well. In this talk, Brian Tome discusses how we can imitate Jesus' passion for people."

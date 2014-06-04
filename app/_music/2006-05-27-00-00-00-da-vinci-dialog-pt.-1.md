@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "Da-Vinci-Dialog-Pt.-1"
+title: "Da Vinci Dialog Pt. 1"
 series: "Da Vinci Dialogues"
 date: 2006-05-27 
 description: "The recent Da Vinci Code phenomenon has made all kinds of news, and stirred up all kinds of controversy.  While we’re not here to slam the book or blast the new movie, the Da Vinci Code does raise a lot of great questions worthy of consideration.  This th"

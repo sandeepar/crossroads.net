@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "Why-Does-God-Allow-Suffering"
+title: "Why Does God Allow Suffering?"
 series: "Go Ahead and Ask"
 date: 2003-04-05 
 description: "Some stuff about God just doesn't seem to add up. Maybe it's something we've wondered about since we were kids. Maybe it's something we just started questioning last week. Crossroads is a safe place to ask all of these questions about God."

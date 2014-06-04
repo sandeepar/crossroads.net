@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "God-Wants-Your-Ways-And-Means"
+title: "God Wants Your Ways And Means"
 series: "Life, The Universe and Everything"
 date: 2004-08-21 
 description: "Life, The Universe and Everything"

@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "Lost-Books-Daniel-(Super-Bowl)"
+title: "Lost Books: Daniel (Super Bowl)"
 series: "Lost Books"
 date: 2009-02-05 
 description: "In the seventh annual \"Big Game\" we hear about how courage is about following God."

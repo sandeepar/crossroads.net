@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "Case-studies-in-rhythmic-living-Community-Stories"
+title: "Case studies in rhythmic living: Community Stories"
 series: "Rhythm"
 date: 2013-05-07 
 description: "People in our community share their rhythms"

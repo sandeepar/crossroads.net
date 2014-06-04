@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "Super-Bowl-of-Preaching-XII"
+title: "Super Bowl of Preaching XII"
 series: "Super Bowl of Preaching XII"
 date: 2014-02-03 
 description: "Tome vs. Mingo in the annual smackdown of preaching."

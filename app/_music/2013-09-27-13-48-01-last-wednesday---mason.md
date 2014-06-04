@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "Last-Wednesday---Mason"
+title: "Last Wednesday - Mason"
 series: "#culture"
 date: 2013-09-27 
 description: "Last Wednesday - Mason"

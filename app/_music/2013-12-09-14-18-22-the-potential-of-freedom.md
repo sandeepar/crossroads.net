@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "The-Potential-of-Freedom"
+title: "The Potential of Freedom"
 series: "The Gift of Freedom"
 date: 2013-12-09 
 description: "This year was like climbing the biggest mountain we’ve ever faced. It was exhausting, energizing, uncertain and wonderful, and now here we are—standing at the peak of 2013."

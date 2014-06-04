@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "Put-Your-Money-Where-Your-Mouth-Is"
+title: "Put Your Money Where Your Mouth Is"
 series: "How to Change the World"
 date: 2014-04-14 
 description: "Brian Tome talks about how changing the world requires personal investment."

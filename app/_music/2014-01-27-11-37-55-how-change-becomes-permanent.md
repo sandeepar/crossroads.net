@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "How-Change-Becomes-Permanent"
+title: "How Change Becomes Permanent"
 series: "Power To Change"
 date: 2014-01-27 
 description: "Karl Martin talks about how change becomes permanent."

@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "The-Good-News-About-Money"
+title: "The Good News About Money"
 series: "Big Bad Wolf"
 date: 2012-01-17 
 description: "Chuck Mingo talks about how God is the opposite of the Big Bad Wolf."
