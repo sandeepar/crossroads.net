@@ -20,8 +20,8 @@
 
     <!-- PODCAST - MEDIA LINKS -->
     <itunes:duration>{{ rssItem[duration] }}</itunes:duration>
-    <enclosure url="{{ rssItem[url] | xml_escape | replace:' ','+' }}" type="audio/mpeg3" length="123456"/>
+    <enclosure url="{{ rssItem[url] | xml_escape | replace:' ','+' }}" type="{{ rssContentType }}" length="123456"/>
     <guid isPermaLink="false">{{ rssItem[url] | xml_escape | replace:' ','+' }}</guid>
-    <media:content url="{{ rssItem[url] | xml_escape | replace:' ','+' }}" fileSize="123456" type="audio/mpeg3"/>
+    <media:content url="{{ rssItem[url] | xml_escape | replace:' ','+' }}" fileSize="123456" type="{{ rssContentType }}"/>
     <link>{{ rssItem[url] | xml_escape }}</link>
 </item>
