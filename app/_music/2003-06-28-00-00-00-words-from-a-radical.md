@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "Words-from-a-Radical"
+title: "Words from a Radical"
 series: "Letter From a Revolutionary"
 date: 2003-06-28 
 description: "A look at themes such as temptation, patience, and anger from the Bible’s Book of James."

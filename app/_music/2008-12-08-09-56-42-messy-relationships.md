@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "Messy-Relationships"
+title: "Messy Relationships"
 series: "We Wish You A Messy Christmas"
 date: 2008-12-08 
 description: "Brian Tome discusses how Jesus' arrival creates a beautiful mess in our lives."

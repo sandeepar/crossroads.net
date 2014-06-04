@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "Celebration-Event"
+title: "Celebration Event"
 series: "Going Crazy"
 date: 2004-05-23 
 description: "Can a local church really make a difference in someone's life? How about an entire family? How about a neighborhood, a city or a nation? Hey, how about the whole world? Sounds crazy doesn't it? Join us during this series as we look at where Crossroads is "

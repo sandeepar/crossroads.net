@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "The-Profile-of-Hypocrites"
+title: "The Profile of Hypocrites"
 series: "House of Hypocrites"
 date: 2002-09-01 
 description: "Hypocrisy is everywhere. Let's look at how we all help to build this house of hypocrites."

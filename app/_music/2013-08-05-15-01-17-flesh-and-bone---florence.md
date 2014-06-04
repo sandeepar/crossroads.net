@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "Flesh-and-Bone---Florence"
+title: "Flesh and Bone - Florence"
 series: "God Is ____"
 date: 2013-08-05 
 description: "Terry Phillips talks about how Jesus is God in flesh and blood."

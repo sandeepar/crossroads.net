@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "God-Wants-Your-Leadership"
+title: "God Wants Your Leadership"
 series: "Life, The Universe and Everything"
 date: 2004-09-11 
 description: "Life, The Universe and Everything"

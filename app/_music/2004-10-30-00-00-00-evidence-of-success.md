@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "Evidence-of-Success"
+title: "Evidence of Success"
 series: "CSI"
 date: 2004-10-30 
 description: "It’s a dirty little secret. Success isn’t always what we thought it would be. In fact, sometimes success can be more destructive to us as than failure. Join us over these 5 weeks as we investigate the good and the bad evidence from a string of intriguing "

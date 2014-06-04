@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "Set-Yourself-on-Fire"
+title: "Set Yourself on Fire"
 series: "How to Change the World"
 date: 2014-03-24 
 description: "We’re talking about setting ourselves on fire."

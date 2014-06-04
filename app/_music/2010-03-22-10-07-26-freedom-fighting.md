@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "Freedom-Fighting"
+title: "Freedom Fighting"
 series: "Free"
 date: 2010-03-22 
 description: "Chuck Mingo discusses how freedom is maintained in community."

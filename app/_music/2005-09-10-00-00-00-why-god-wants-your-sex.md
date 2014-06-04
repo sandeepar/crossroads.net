@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "Why-God-wants-your-sex"
+title: "Why God wants your sex"
 series: "Sex: What's The Big Deal?"
 date: 2005-09-10 
 description: "Oh Great. Here we go. The church talks about sex. Hey, give us a chance. Expecting a bunch of tips to get your moral merit badge? Not going to happen. How about four weeks of polite euphemisms about the wonder of life? We don't even know how to do that. S"

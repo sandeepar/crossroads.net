@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "Minority-Position"
+title: "Minority Position"
 series: "The New Man"
 date: 2014-05-05 
 description: "The New Man takes a minority position."

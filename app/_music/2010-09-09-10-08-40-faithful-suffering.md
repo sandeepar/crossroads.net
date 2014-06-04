@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "Faithful-Suffering--"
+title: "Faithful Suffering  "
 series: "The Faithful"
 date: 2010-09-09 
 description: "Chuck Mingo talks about how the faithful deal with suffering."

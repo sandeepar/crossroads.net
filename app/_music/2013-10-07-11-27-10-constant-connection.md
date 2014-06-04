@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "Constant-Connection"
+title: "Constant Connection"
 series: "#culture"
 date: 2013-10-07 
 description: "Chuck Mingo talks about learning how to engage in #culture."

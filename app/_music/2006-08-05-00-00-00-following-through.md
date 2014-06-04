@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "Following-Through"
+title: "Following Through"
 series: "Hard Work"
 date: 2006-08-05 
 description: "It's been said that nothing worth doing is easy. More often than not we find that it's only in taking on the really hard stuff and persevering through difficult situations that any meaningful growth occurs. Join us over the next few weeks as we take a loo"

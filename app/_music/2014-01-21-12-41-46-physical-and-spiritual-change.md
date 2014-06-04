@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "Physical-and-Spiritual-Change"
+title: "Physical and Spiritual Change"
 series: "Power To Change"
 date: 2014-01-21 
 description: "We’re talking about how community can change us."

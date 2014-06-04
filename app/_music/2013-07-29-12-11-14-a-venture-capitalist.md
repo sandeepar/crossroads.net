@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "A-Venture-Capitalist"
+title: "A Venture Capitalist"
 series: "God Is ____"
 date: 2013-07-29 
 description: "Tim Senff talks about how God is like a venture capitalist."

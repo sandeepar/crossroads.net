@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "Modeling-for-Maximum-Impact"
+title: "Modeling for Maximum Impact"
 series: "Maximum Impact"
 date: 2001-10-06 
 description: "Wherever you are in your life, God has a new level to which He want to take you. Join us as we continue our series. "

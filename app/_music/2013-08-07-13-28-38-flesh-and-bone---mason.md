@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "Flesh-and-Bone---Mason"
+title: "Flesh and Bone - Mason"
 series: "God Is ____"
 date: 2013-08-07 
 description: "Mark Stecher talks about how Jesus is God in flesh and bone."

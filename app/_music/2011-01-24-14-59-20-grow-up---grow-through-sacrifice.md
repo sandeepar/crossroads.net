@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "Grow-Up---Grow-Through-Sacrifice"
+title: "Grow Up - Grow Through Sacrifice"
 series: "Grow Up"
 date: 2011-01-24 
 description: "Brian Tome talks about how a lifestyle of sacrifice leads to growth."

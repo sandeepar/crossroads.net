@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "Jesus-Reset-Church"
+title: "Jesus Reset Church"
 series: "Reset"
 date: 2009-03-29 
 description: "Jesus is still alive and active in the world today through his Body - the Church."

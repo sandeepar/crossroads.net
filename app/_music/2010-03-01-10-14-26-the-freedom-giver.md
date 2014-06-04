@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "The-Freedom-Giver"
+title: "The Freedom Giver"
 series: "Free"
 date: 2010-03-01 
 description: "Brian Tome discusses the Freedom Giver and how he fights for our freedom."

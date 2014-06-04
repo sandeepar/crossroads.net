@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "Practicing-Patience"
+title: "Practicing Patience"
 series: "Letter From a Revolutionary"
 date: 2003-07-12 
 description: "A look at themes such as temptation, patience, and anger from the Bible’s Book of James."

@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "Invitation-to-the-Party"
+title: "Invitation to the Party"
 series: "RSVP"
 date: 2011-12-12 
 description: "Brian Tome talks about extending the invitation."

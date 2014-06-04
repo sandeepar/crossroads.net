@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "Finding-Approval"
+title: "Finding Approval"
 series: "A Place at the Table"
 date: 2012-02-27 
 description: "Brian Tome talks about our need for approval."

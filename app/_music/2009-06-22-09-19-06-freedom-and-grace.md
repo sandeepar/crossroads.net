@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "Freedom-and-Grace"
+title: "Freedom and Grace"
 series: "Roadmap For A Revolution"
 date: 2009-06-22 
 description: "Brian Tome discusses how Jesus came to bring freedom and how freedom always accompanies the revolution."

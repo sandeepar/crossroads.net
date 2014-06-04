@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "About-the-Small-Places"
+title: "About the Small Places"
 series: "God Is ____"
 date: 2013-08-12 
 description: "Mosa Sono gives us a South African perspective on who God is."

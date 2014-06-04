@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "Q-and-A-With-Greg-Boyd"
+title: "Q&A With Greg Boyd"
 series: "Da Vinci Dialogues"
 date: 2006-06-04 
 description: "The recent Da Vinci Code phenomenon has made all kinds of news, and stirred up all kinds of controversy.  While we’re not here to slam the book or blast the new movie, the Da Vinci Code does raise a lot of great questions worthy of consideration.  This th"

@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "Jesus-RESET-Assumptions"
+title: "Jesus RESET Assumptions"
 series: "Reset"
 date: 2009-02-23 
 description: "In the first week of our RESET journey, Brian Tome discusses the case for examining Jesus and his claims."

@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "10th-Anniversary-Celebration"
+title: "10th Anniversary Celebration"
 series: "10th Anniversary"
 date: 2006-03-26 
 description: ""

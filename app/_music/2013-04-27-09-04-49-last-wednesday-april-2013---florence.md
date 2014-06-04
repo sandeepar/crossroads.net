@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "Last-Wednesday-April-2013---Florence"
+title: "Last Wednesday April 2013 - Florence"
 series: "Rhythm"
 date: 2013-04-27 
 description: "Last Wednesday April 2013 - Florence"

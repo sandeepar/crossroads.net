@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "Last-Wednesday---Florence"
+title: "Last Wednesday - Florence"
 series: "Kingdom Come"
 date: 2013-12-20 
 description: "Last Wednesday November - Florence"

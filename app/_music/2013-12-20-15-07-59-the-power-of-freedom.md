@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "The-Power-of-Freedom"
+title: "The Power of Freedom"
 series: "The Gift of Freedom"
 date: 2013-12-20 
 description: "Mason"

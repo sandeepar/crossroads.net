@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "Relational-Growth"
+title: "Relational Growth"
 series: "Hard Work"
 date: 2006-07-29 
 description: "It's been said that nothing worth doing is easy. More often than not we find that it's only in taking on the really hard stuff and persevering through difficult situations that any meaningful growth occurs. Join us over the next few weeks as we take a loo"

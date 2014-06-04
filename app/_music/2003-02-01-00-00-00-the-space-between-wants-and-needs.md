@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "The-Space-Between-Wants-and-Needs"
+title: "The Space Between Wants and Needs"
 series: "The Space Between"
 date: 2003-02-01 
 description: "We've somehow lost that healthy space between sanity and our maximum limits."

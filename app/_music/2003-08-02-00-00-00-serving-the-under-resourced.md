@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "Serving-the-Under-Resourced"
+title: "Serving the Under Resourced"
 series: "Letter From a Revolutionary"
 date: 2003-08-02 
 description: "A look at themes such as temptation, patience, and anger from the Bible’s Book of James."

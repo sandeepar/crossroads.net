@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "Barriers-To-Change"
+title: "Barriers To Change"
 series: "The DNA Of Change"
 date: 2004-01-18 
 description: "There’s one thing that seems to be a constant presence in our lives&#58; change. In this series we’ll take an inside look at this challenging and sometimes intimidating issue and how we can learn to not only deal with it, but use it to our advantage in everyd"

@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "Fight--Kingdom-At-War"
+title: "Fight | Kingdom At War"
 series: "Kingdom Come"
 date: 2013-11-02 
 description: ""

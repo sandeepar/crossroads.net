@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "Team-Fearlessness"
+title: "Team/Fearlessness"
 series: "Go Forth"
 date: 2013-09-09 
 description: "Brian Tome talks about fearlessness in pursuit of new ventures."

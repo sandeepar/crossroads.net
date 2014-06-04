@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "Vision-of-Crossroads"
+title: "Vision of Crossroads"
 series: "Go Forth"
 date: 2013-09-17 
 description: "Brian Tome talks about Crossroads’ entrepreneurial vision."

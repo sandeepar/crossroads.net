@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "Managing-Our-Anger"
+title: "Managing Our Anger"
 series: "Letter From a Revolutionary"
 date: 2003-07-26 
 description: "A look at themes such as temptation, patience, and anger from the Bible’s Book of James."

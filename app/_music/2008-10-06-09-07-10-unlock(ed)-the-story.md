@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "Unlock(ed)-The-Story"
+title: "Unlock(ed): The Story"
 series: "Unlock(ed)"
 date: 2008-10-06 
 description: "Brian Tome discusses God's plan for his creation and how we're each to be \"unlocked\" and to \"unlock\" others."

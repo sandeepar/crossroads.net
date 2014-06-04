@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "The-One-About-a-Cause"
+title: "The One About a Cause"
 series: "The One About Coffee"
 date: 2004-06-13 
 description: "What is it about us and coffee? Whether it's a Starbucks on every corner or the atrium at Crossroads it's everywhere. Have you ever thought that maybe this whole thing is about more than what's in the cup? Maybe it's about the connection, the community we"

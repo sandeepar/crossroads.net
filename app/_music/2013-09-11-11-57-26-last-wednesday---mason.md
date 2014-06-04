@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "Last-Wednesday---Mason"
+title: "Last Wednesday - Mason"
 series: "Go Forth"
 date: 2013-09-11 
 description: "Last Wednesday"

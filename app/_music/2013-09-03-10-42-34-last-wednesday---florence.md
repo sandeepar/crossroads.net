@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "Last-Wednesday---Florence"
+title: "Last Wednesday - Florence"
 series: "Go Forth"
 date: 2013-09-03 
 description: ""

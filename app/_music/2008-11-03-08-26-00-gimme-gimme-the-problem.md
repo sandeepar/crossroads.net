@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "GIMME-GIMME-The-Problem"
+title: "GIMME GIMME: The Problem"
 series: "GIMME GIMME"
 date: 2008-11-03 
 description: "Entitlement can creep into our lives in unexpected ways. In this talk, Brian Tome discusses the entitlement mentality as found in the story of Jacob and Esau in the bible."

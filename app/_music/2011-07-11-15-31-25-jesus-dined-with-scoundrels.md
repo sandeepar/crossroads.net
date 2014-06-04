@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "Jesus-Dined-With-Scoundrels"
+title: "Jesus Dined With Scoundrels"
 series: "Jesus: The Greatest Show on Earth"
 date: 2011-07-11 
 description: "Brian Wells talks about how Jesus redefined God."

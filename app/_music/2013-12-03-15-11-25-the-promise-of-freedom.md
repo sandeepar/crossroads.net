@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "The-Promise-of-Freedom"
+title: "The Promise of Freedom"
 series: "The Gift of Freedom"
 date: 2013-12-03 
 description: "Brian Tome talks about the promise of freedom."

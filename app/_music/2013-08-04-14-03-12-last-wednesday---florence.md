@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "Last-Wednesday---Florence"
+title: "Last Wednesday - Florence"
 series: "God Is ____"
 date: 2013-08-04 
 description: "Terry talks about how God is a visionary."

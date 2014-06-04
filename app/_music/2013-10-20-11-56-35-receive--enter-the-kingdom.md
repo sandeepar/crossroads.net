@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "Receive--Enter-the-Kingdom"
+title: "Receive | Enter the Kingdom"
 series: "Kingdom Come"
 date: 2013-10-20 
 description: ""

@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "Prayer-is-Natural"
+title: "Prayer is Natural"
 series: "Fresh Breath"
 date: 2005-04-30 
 description: "Consider the natural things we do - the rhythm of life, eating, sleeping, breathing. Now, think of prayer. For most of us it doesn't fit. For many of us, prayer has become this unnatural, planned thing we do at ''official'' places like church and the hors"

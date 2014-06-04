@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "Last-Wednesday-April-2013---Oakley"
+title: "Last Wednesday April 2013 - Oakley"
 series: "Rhythm"
 date: 2013-04-26 
 description: "Last Wednesday April 2013 - Oakley"

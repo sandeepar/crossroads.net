@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "Case-study-in-rhythmic-living-Karl-Martin"
+title: "Case study in rhythmic living: Karl Martin"
 series: "Rhythm"
 date: 2013-05-13 
 description: "Karl Martin shares the rhythms he’s established in Scotland."

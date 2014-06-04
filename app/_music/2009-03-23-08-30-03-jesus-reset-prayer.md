@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "Jesus-Reset-Prayer"
+title: "Jesus Reset Prayer"
 series: "Reset"
 date: 2009-03-23 
 description: "Jesus reset prayer from transactional to relational.a"

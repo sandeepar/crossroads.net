@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "Power-To-Change---Week-1"
+title: "Power To Change - Week 1"
 series: "Power To Change"
 date: 2014-01-06 
 description: "Brian talks about why it’s possible to change."

@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "God-Loves-Cincinnati"
+title: "God Loves Cincinnati"
 series: "We Love Cincinnati"
 date: 2009-07-06 
 description: "Chuck Mingo shares the four actions of a city lover."
