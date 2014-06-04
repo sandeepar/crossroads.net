@@ -9,12 +9,17 @@ categories:
 {% include media/message_preview.html %}
 
 <h1>Blog</h1>
-
+  <div><span class="blog_headline">Blog</span> &#62; &#62; <p><span class="category_headline">Crossroads</span> &#62; <span class="current">All Blog Posts</span></div>
 
   <ul class="posts">
     {% for post in site.posts %}
       {% unless post.categories contains "thefeed" %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+      <li>
+        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+        <p><span class="category_title">Crossroads</span> &#62; <span class="posted_by_label">Posted by</span> <a class="author_link">Author</a> <span class="post_date">{{ post.date | date_to_string }}</span></p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p><span class="comment">Post a comment</span><span class="pluginButtonLabel">Like</span><span class="pluginButtonLabel">Share</span></p>
+      </li>
       {% endunless %}
     {% endfor %}
   </ul>	
