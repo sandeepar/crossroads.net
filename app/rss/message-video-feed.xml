@@ -1,117 +1,22 @@
 ---
-layout: nil
+layout: rss
+title: "Crossroads Church (Audio)"
+thumbnail: "http://www.crossroads.net/uploadedfiles/CR_podcast_audio.jpg"
 ---
-<?xml version="1.0" encoding="UTF-8"?>
-<rss
-        xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
-        xmlns:atom="http://www.w3.org/2005/Atom"
-        xmlns:media="http://search.yahoo.com/mrss/"
-        version="2.0">
 
-    <channel>
-        <language>en-us</language>
+<!-- PODCAST ITEMS -->
+{% assign sorted = site.messages | sort: "date", "first" %}
+{% for message in sorted reversed %}
+    {% assign rssItem = message %}
 
-        <!-- TITLE -->
-        <title>Crossroads Church (Video)</title>
+    {% if rssItem.video %}
 
-        <!-- SUBTITLE -->
-        <itunes:subtitle>Crossroads Church in Cincinnati, Ohio is a community for people who are seeking God - from
-            those who are brand new to the whole "church" thing to committed followers of Jesus.
-        </itunes:subtitle>
+        <!-- Define field names specific to the item type to be used by the include -->
+        {% assign description = 'video-description' %}
+        {% assign duration = 'video-duration' %}
+        {% assign url = 'video' %}
 
-        <!-- SUMMARY DESCRIPTION -->
-        <itunes:summary>Crossroads Church in
-            Cincinnati, Ohio is a community for people who are seeking God - from those who
-            are brand new to the whole "church" thing to committed followers of
-            Jesus.
-        </itunes:summary>
-        <description>Crossroads Church in Cincinnati, Ohio is a
-            community for people who are seeking God - from those who are brand new to the
-            whole "church" thing to committed followers of Jesus.
-        </description>
+        {% include rss/rss_item.xml %}
 
-        <!-- AUTHOR and OWNER -->
-        <itunes:author>Crossroads</itunes:author>
-        <itunes:owner>
-            <itunes:name>Crossroads</itunes:name>
-            <itunes:email>websitefeedback@crossroads.net</itunes:email>
-        </itunes:owner>
-        <media:credit role="author">Crossroads</media:credit>
-
-        <!-- LINKS -->
-        <link>{{ site.baseurl }}</link>
-        <atom:link href="{{ site.baseurl }}{{ page.url }}" type="application/rss+xml"/>
-        <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml"
-                     href="{{ site.baseurl }}{{ page.url }}"/>
-        <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/"/>
-
-        <!-- THUMBNAIL -->
-        <media:thumbnail url="http://www.crossroads.net/uploadedfiles/CR_podcast_video.jpg"/>
-        <itunes:image href="http://www.crossroads.net/uploadedfiles/CR_podcast_video.jpg"/>
-        <image>
-            <title>Crossroads Church (Audio)</title>
-            <url>http://www.crossroads.net/uploadedfiles/CR_podcast_audio.jpg</url>
-            <link>{{ site.baseurl }}</link>
-            <width>100</width>
-            <height>200</height>
-        </image>
-
-        <!-- KEYWORDS -->
-        <media:keywords>Crossroads,Cincinnati,church,Tome,Brian,Tome,Chuck,Mingo,Mingo</media:keywords>
-        <itunes:keywords>Crossroads,Cincinnati,church,Tome,Brian,Tome,Chuck,Mingo,Mingo</itunes:keywords>
-
-        <!-- CATEGORY -->
-        <media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">Religion &amp; Spirituality/Christianity
-        </media:category>
-        <itunes:category text="Religion &amp; Spirituality">
-            <itunes:category text="Christianity"/>
-        </itunes:category>
-
-        <!-- ADULT CONTENT -->
-        <itunes:explicit>no</itunes:explicit>
-        <media:rating>nonadult</media:rating>
-
-        <!-- COPYRIGHT -->
-        <media:copyright>Please redistribute</media:copyright>
-        <copyright>Please redistribute</copyright>
-
-        <!-- New Feed URL to migrate to new site location -->
-        <itunes:new-feed-url>{{ site.baseurl }}{{ page.url }}</itunes:new-feed-url>
-
-        <!-- PODCAST ITEMS -->
-        {% assign sorted = site.messages | sort: "date", "first" %}
-        {% for message in sorted reversed %}
-        {% if message.video %}
-
-        <item>
-            <!-- PODCAST - AUTHOR AND DETAILS -->
-            <itunes:author>Crossroads</itunes:author>
-            <pubDate>{{ message.date | date: "%a, %d %b %Y %H:%M:%S %Z" }}</pubDate>
-
-            <title>{{ message.title | xml_escape | truncate:255 }}</title>
-            <itunes:subtitle>{{ message.video-description | xml_escape | truncate:255 }}</itunes:subtitle>
-            <description>{{ message.video-description | xml_escape }}</description>
-            <itunes:summary>{{ message.video-description | xml_escape }}</itunes:summary>
-            <itunes:keywords>Brian Tome,crossroads,crossroads church</itunes:keywords>
-
-            <!-- PODCAST - ADULT CONTENT -->
-            {% if message.explicit == true %}
-            <itunes:explicit>yes</itunes:explicit>
-            {% else %}
-            <itunes:explicit>no</itunes:explicit>
-            {% endif %}
-
-            <!-- PODCAST - MEDIA LINKS -->
-            <itunes:duration>{{ message.video-duration }}</itunes:duration>
-            <enclosure url="{{ message.video | xml_escape | replace:' ','+' }}" type="video/mpeg4" length="123456"/>
-            <guid isPermaLink="false">{{ message.video | xml_escape | replace:' ','+' }}</guid>
-            <media:content url="{{ message.video | xml_escape | replace:' ','+' }}" fileSize="123456" type="video/mpeg4"/>
-            <link>{{ message.video | xml_escape }}</link>
-        </item>
-
-        {% endif %}
-        {% endfor %}
-
-    </channel>
-
-</rss>
+    {% endif %}
+{% endfor %}
