@@ -9,12 +9,13 @@ thumbnail: "http://www.crossroads.net/uploadedfiles/CR_podcast_audio.jpg"
 {% for message in sorted reversed %}
     {% assign rssItem = message %}
 
-    {% if rssItem.audio %}
+    {% if rssItem.video %}
 
         <!-- Define field names specific to the item type to be used by the include -->
-        {% assign description = 'audio-description' %}
-        {% assign duration = 'audio-duration' %}
-        {% assign url = 'audio' %}
+        {% assign description = 'video-description' %}
+        {% assign duration = 'video-duration' %}
+        {% assign url = 'video' %}
+        {% assign rssContentType = 'video/mp4' %}
 
         {% include rss/rss_item.xml %}
 
