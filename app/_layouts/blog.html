@@ -1,0 +1,32 @@
+---
+layout: one_column
+---
+<h2>{{ page.title }}</h2>
+<p class="text-muted">{{ page.description }}</p>
+
+<div>
+{{ page.content }}
+<div>
+<br>
+<div>
+{% if page.image contains '.' %}
+<img class="img-responsive" src="{{ page.image }}" width="{{ page.image-width }}" height="{{ page.image-height }}" />
+{% endif %}
+</div>
+<div>
+    {% if page.video contains 'mp4' %}
+    <video width="{{ page.video-width }}" height="{{ page.video-height}}" controls poster="{{ page.video-image }}">
+        <source src="{{ page.video }}" type="video/mp4">
+    </video>
+    <p><span class="message-date">{{ page.date }}</span></p>
+    {% endif %}
+</div>
+<div>
+    {% if page.audio contains 'mp3' %}
+    <audio controls>
+        <source src="{{ page.audio }}" type="audio/mpeg">
+    </audio>
+    <p><span class="message-date">{{ page.date }}</span></p>
+    {% endif %}
+</div>
+
