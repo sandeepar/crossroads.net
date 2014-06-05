@@ -1,7 +1,16 @@
-.posts{
-  width: 90%;
+.blog_path_headline{
+  margin-bottom: 30px;
 }
 
+
+.posts{
+  width: 90%;
+  padding-left: 0;
+}
+
+.post_body_text{
+  padding-bottom: 20px;
+}
 h2 a{
   font-family: Helvetica, Arial, sans-serif;
   font-size: 30px;
@@ -16,6 +25,10 @@ h2 a{
   font-weight: bold;
   color: #3a6e8f;
   text-decoration: none;
+}
+
+.social_media-line{
+  padding-bottom: 20px;
 }
 
 .container{
