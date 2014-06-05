@@ -5,7 +5,7 @@ crossroads.controller "MainCtrl", ($window) ->
   return
 
 crossroads.directive "crdsMenu", ->
-  templateUrl: "templates/crdsMenu.html"
+  templateUrl: "/templates/crdsMenu.html"
   require: "authForm"
   scope:
     menus: "=crdsMenu"
@@ -23,7 +23,7 @@ crossroads.run(($rootScope) ->
 
 crossroads.directive "authForm", ->
   restrict: "EA"
-  templateUrl: "templates/login.html"
+  templateUrl: "/templates/login.html"
   controller: "LoginCtrl"
 
 crossroads.factory "Auth", ($cookieStore, $http, $location, $rootScope) ->
