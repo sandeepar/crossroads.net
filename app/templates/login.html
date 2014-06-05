@@ -1,0 +1,24 @@
+<div class="login col-md-12">
+  <div class="dd_menu">
+    <div class="primary">
+      <h3>Login</h3>
+      <form id="nav_login" role="form" ng-submit="login()">
+	<div class="form-group">
+	  <div class="input-group">
+	    <input class="form-control" type="text" name="userName" id="username_nav" placeholder="Username" ng-model="user.username">
+	    <span class="input-group-addon"><a href="#">@</a></span>
+	  </div>
+	  <div class="input-group">
+	    <input class="form-control" autocomplete="off" type="password" name="password" id="password_nav" placeholder="Password" ng-model="user.password">
+	    <span class="input-group-addon"> <a href="#">@</a></span>
+	  </div>
+	  <input type="submit" name="submit_nav" value="Login" id="submit_nav" class="col-md-12 btn submit" >
+	  <div style="font-size: smaller;">
+	    <input type="checkbox" name="remember" id="remember_nav">
+	    <label for="remember">Stay Logged In</label>
+	  </div>
+	</div>
+      </form>
+    </div>
+  </div>
+</div>
