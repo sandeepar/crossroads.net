@@ -6,5 +6,5 @@ date: 2014-01-06
 description: "Brian talks about why it’s possible to change."
 audio: "http://www.crossroads.net/players/media/hq/powertochange_01.mp3"
 audio-duration: "41:50"
-src: "http://www.crossroads.net/players/media/mediumHz/"
+src: "http://www.crossroads.net/players/media/mediumHz/DefaultVideoImage.jpg"
 ---

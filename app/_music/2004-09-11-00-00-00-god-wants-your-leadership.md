@@ -6,5 +6,5 @@ date: 2004-09-11
 description: "Life, The Universe and Everything"
 audio: "http://www.crossroads.net/audio/2004/2004_08_Life/LTUAE_05_09-11-04_Leadership.mp3"
 audio-duration: "33:35"
-src: "http://www.crossroads.net/players/media/mediumHz/DefaultVideoImage.jpg"
+src: "http://www.crossroads.net/players/media/mediumHz/"
 ---
