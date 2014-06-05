@@ -6,10 +6,12 @@ permalink: blog
 categories:
 ---
 
-{% include media/message_preview.html %}
 
-<h1>Blog</h1>
-  <div><span class="blog_headline">Blog</span> &#62; &#62; <p><span class="category_headline">Crossroads</span> &#62; <span class="current">All Blog Posts</span></div>
+<div class="blog_path_headline">
+  <a href="#" class="blog_headline">Blog</a> &#62; &#62;<a href="#" class="category_headline">Crossroads</a> &#62; <a href="#" class="current">All Blog Posts</a>
+</div>
+
+{% include media/message_preview.html %}
 
   <ul class="posts">
     {% for post in site.tags["Crossroads"] %}
