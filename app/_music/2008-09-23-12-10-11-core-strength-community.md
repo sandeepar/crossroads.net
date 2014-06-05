@@ -7,5 +7,5 @@ description: "Brian Tome discusses how being in community with others is another
 discipline."
 audio: "http://s3.amazonaws.com/crossroadsaudiomessages/092008ServiceAudio.mp3"
 audio-duration: "30:59"
-src: "http://www.crossroads.net/players/media/mediumHz/CoreStrength_190x110.gif"
+src: "http://www.crossroads.net/players/media/series/CoreStrength_190x110.gif"
 ---

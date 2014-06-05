@@ -7,5 +7,5 @@ description: "For thousands of years, the Jewish people waited for Him--the Son 
 as we uncover the mystery and character of the long-awaited Son."
 audio: "http://www.crossroads.net/players/media/hq/awaitedson_01.mp3"
 audio-duration: "45:39"
-src: "http://www.crossroads.net/players/media/mediumHz/190x110_AwaitedSon.jpg"
+src: "http://www.crossroads.net/players/media/series/190x110_AwaitedSon.jpg"
 ---
