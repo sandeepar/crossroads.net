@@ -16,8 +16,6 @@ module.exports = function(lineman) {
 		"vendor/bower/angular-strap/dist/angular-strap.js",
 		"vendor/bower/angular-strap/dist/angular-strap.tpl.js",
 		"vendor/bower/angular-cookies/angular-cookies.js",
-		"vendor/bower/crdsAuth/dist/crdsAuth.js",
-		"vendor/bower/crossroadsMenu/dist/crossroadsMenu.js",
 		"vendor/bower/masonry/dist/masonry.pkgd.js",
 		"vendor/bower/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/affix.js",
 		"vendor/bower/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/alert.js",
