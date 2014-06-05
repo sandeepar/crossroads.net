@@ -8,5 +8,5 @@ description: "Is it possible that we're missing life in the pursuit of a better 
 "
 audio: "http://s3.amazonaws.com/crossroadsaudiomessages/Consumed_1_Materialism_02-10-08_Tome_webaudio.mp3"
 audio-duration: "50:44"
-src: "http://www.crossroads.net/players/media/mediumHz/consumed225.jpg"
+src: "http://www.crossroads.net/players/media/series/consumed225.jpg"
 ---
