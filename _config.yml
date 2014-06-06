@@ -1,0 +1,26 @@
+name: New Jekyll site for crossroads.net
+source: app
+destination: generated
+markdown: redcarpet
+highlighter: true
+port: 4002
+keep_files: ["css/*", "js/*"]
+relative_permalinks: false
+baseurl: http://localhost:3000
+feedurl: http://milacron.crossroads.net
+exclude: ["vendor", "node_modules", "*.scss", "*.coffee"]
+collections:
+  blog:
+    output: true
+  content:
+    output: true
+  messages:
+    output: true
+  series:
+    output: true
+  media:
+    output: true
+  music:
+    output: true
+  blog:
+    output: true
