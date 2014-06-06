@@ -52,14 +52,16 @@ h2 a{
 
 .posted_by_label{
   color: #949393;
+  padding-left: 5px;
 }
 
 .author_link{
   color: #3a6e8f;
 }
-.pluginButtonLabel{
+.social_media_buttons{
   display: inline-block;
   float: right;
+  padding-top: 10px;
 }
 
 .blog_headline {
@@ -71,12 +73,21 @@ h2 a{
 
 .category_headline{
   color: #b05c30;
-  margin: 4px 0 0 12px;
-  padding: 3px 0 0 20px;
+  margin: 4px 0 0 4px;
+  padding: 3px 0 0 5px;
 } 
 
 .current{
   color: #b05c30;
-  margin: 4px 0 0 12px;
-  padding: 3px 0 0 20px;
+  margin: 4px 0 0 4px;
+  padding: 3px 0 0 5px;
+}
+
+.greater_than{
+  color: #bcb8b8;
+  padding-left: 5px;
+}
+
+.blog_content{
+  padding-bottom: 10px;
 }
