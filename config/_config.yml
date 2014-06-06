@@ -17,5 +17,6 @@ collections:
     output: true
   blog: 
     output: true 
-
+  pages: 
+    output: true
     
