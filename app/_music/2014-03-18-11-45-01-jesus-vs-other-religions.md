@@ -1,0 +1,10 @@
+---
+layout: music 
+title: "Jesus vs. Other Religions"
+series: "Heavyweights 2"
+date: 2014-03-18 
+description: "Aren’t all religions basically the same?"
+audio: "http://www.crossroads.net/players/media/hq/heavyweights2_wk6.mp3"
+audio-duration: "00:00"
+src: "http://www.crossroads.net/players/media/series/190x110HeavyWeights14.jpg"
+---

@@ -5,6 +5,8 @@ port: 4002
 relative_permalinks: false
 exclude: ["vendor", "node_modules", "*.scss", "*.coffee"]
 collections:
+  blog: 
+    output: true 
   content:
     output: true
   media:
@@ -12,8 +14,8 @@ collections:
   messages:
     output: true
   music:
+    output: true 
+  pages: 
     output: true
   series:
-    output: true
-  pages: 
     output: true
