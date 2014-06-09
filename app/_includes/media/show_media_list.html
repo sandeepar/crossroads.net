@@ -1,0 +1,41 @@
+{% case include.list_type %}
+{% when 'series' %}
+  {% assign sorted = site.series | sort:'date','first' %}
+  {% assign srcField = 'src' %}
+{% when 'music' %}
+  {% assign sorted = site.music | sort:'date','first' %}
+{% assign srcField = 'src' %}
+{% when 'media' %}
+  {% assign sorted = site.media | sort:'date','first' %}
+  {% assign srcField = 'video-poster' %}
+{% endcase %}
+
+<div class="row">
+<ul class="media-list"> 
+
+
+{% for item in sorted reversed %}{% if include.list_limit == 0 or forloop.index <= include.list_limit %}
+    {% capture modulo6 %}{{ forloop.index | modulo:6 }}{% endcapture %}
+    {% capture modulo2 %}{{ forloop.index | modulo:2 }}{% endcapture %}
+    <li class="col-sm-2 col-xs-6">
+      <a href="{{ item.url }}">
+        <img src="{{ item[srcField] }}" class="img-responsive" />
+        <h4>{{ item.title }}</h4>
+        <p class="text-muted">{{ item.date | date: "%m.%d.%Y" }}</p>
+        </a>
+    </li> 
+    
+    {% if modulo6 == '0' %}
+    <div class="clearfix visible-sm visible-md visible-lg"></div>
+    {% elsif modulo2 == '0' %}
+    <div class="clearfix visible-xs"></div>
+    {% endif %}
+    {% endif %}{% endfor %}
+    
+  </ul>
+</div>
+{% if include.list_limit != 0 %}
+<div class="row">
+  <a href="{{ include.view_all_link | downcase }}" class="btn btn-default pull-right">View All {{ include.view_all_link }}</a>
+</div>
+{% endif %}
