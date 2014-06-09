@@ -7,18 +7,17 @@ baseurl: http://localhost:3000
 feedurl: http://milacron.crossroads.net
 exclude: ["vendor", "node_modules", "*.scss", "*.coffee"]
 collections:
+  blog: 
+    output: true 
   content:
     output: true
-  messages:  
+  media:
     output: true  
-  series:  
-    output: true  
-  media:  
-    output: true 
-  music:  
+  messages:
     output: true
-  blog: 
+  music:
     output: true 
   pages: 
     output: true
-    
+  series:
+    output: true

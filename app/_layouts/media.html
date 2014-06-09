@@ -1,17 +1,3 @@
 ---
-layout: one_column
+layout: media_common
 ---
-<h1>Series: {{ page.series }}</h1>
-<h2>{{ page.title }}</h2>
-<p class="text-muted">{{ page.description }}</p>
-
-<div>
-    {% if page.video contains 'mp4' %}
-    <video width="700" height="400" controls poster="{{ page.video-poster }}">
-        <source src="{{ page.video }}" type="video/mp4">
-    </video>
-    {% else %}
-    <p><b>Video not found.</b></p>
-    {% endif %}
-    <p><span class="message-date">{{ page.date }}</span></p>
-</div>

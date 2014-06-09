@@ -1,0 +1,32 @@
+---
+layout: one_column
+title: Media
+published: true
+permalink: /media/
+---
+
+<h1>MEDIA</h1>
+<p class="text-muted">We got videos, music, messages, and more...o yeah.</p>
+
+<br>
+
+<h2>MESSAGE SERIES</h2>
+{% include media/show_media_list.html  list_limit=12 list_type="series" view_all_link="Series" %}
+<br>
+<br>
+<hr>
+<br>
+<br>
+
+<h2>MUSIC</h2>
+{% include media/show_media_list.html list_limit=6 list_type="music" view_all_link="Music" %}
+<br>
+<br>
+<hr>
+<br>
+<br>
+
+<h2>VIDEO</h2>
+{% include media/show_media_list.html list_limit=6 list_type="media" view_all_link="Video" %}
+<br>
+<br>
