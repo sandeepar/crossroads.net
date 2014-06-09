@@ -23,9 +23,13 @@ crossroads.controller "crdsMenuCtrl", ($scope) ->
 
   $scope.toggleMenu = ->
     if $scope.menuShow == true
+      $("header").removeClass("show")
+      $("header").removeClass("overlay")
       $("#container").removeClass("show")
       $scope.menuShow = false
     else
+      $("header").addClass("show")
+      $("header").addClass("overlay")
       $("#container").addClass("show")
       $scope.menuShow = true
 
