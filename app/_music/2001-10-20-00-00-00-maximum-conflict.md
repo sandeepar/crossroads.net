@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "Maximum-Conflict"
+title: "Maximum Conflict"
 series: "Maximum Impact"
 date: 2001-10-20 
 description: "Wherever you are in your life, God has a new level to which He want to take you. Join us as we continue our series. "

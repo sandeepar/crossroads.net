@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "Money-The-Power-of-Money"
+title: "Money: The Power of Money"
 series: "Handle with Care"
 date: 2002-04-06 
 description: "Take a look at several powerful forces that we need to handle with care.  "

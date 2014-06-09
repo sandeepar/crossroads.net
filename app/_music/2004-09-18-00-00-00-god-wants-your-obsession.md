@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "God-Wants-Your-Obsession"
+title: "God Wants Your Obsession"
 series: "Life, The Universe and Everything"
 date: 2004-09-18 
 description: "Life, The Universe and Everything"

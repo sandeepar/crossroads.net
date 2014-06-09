@@ -6,7 +6,7 @@ title: "Last Wednesday-Oakley"
 date: 2013-08-28-00-00
 message_id: 812
 audio-description: ""
-audio: "http://www.crossroads.net/players/media/hq/082813_LW-Oakley.mp3"
+audio: "http://www.crossroads.net/players/media/hq/082813%20LW-Oakley.mp3"
 audio-title: "Last Wednesday - Oakley"
 audio-duration: "40:30"
 video-description: ""

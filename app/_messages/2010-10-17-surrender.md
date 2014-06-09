@@ -6,7 +6,7 @@ title: "Surrender"
 date: 2010-10-17-00-00
 message_id: 642
 audio-description: "What does it mean to live out loud?"
-audio: "http://s3.amazonaws.com/crossroadsaudiomessages/Beyond Faking It.mp3"
+audio: "http://s3.amazonaws.com/crossroadsaudiomessages/Beyond%20Faking%20It.mp3"
 audio-title: "Beyond Faking It"
 audio-duration: "37:30"
 audio-description: "Brian Tome talks about what it means to surrender."

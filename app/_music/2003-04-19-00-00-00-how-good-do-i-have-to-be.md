@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "How-Good-Do-I-Have-to-Be"
+title: "How Good Do I Have to Be?"
 series: "Easter"
 date: 2003-04-19 
 description: ""

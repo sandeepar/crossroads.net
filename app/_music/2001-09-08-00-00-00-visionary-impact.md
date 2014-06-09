@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "Visionary-Impact"
+title: "Visionary Impact"
 series: "Maximum Impact"
 date: 2001-09-08 
 description: "Wherever you are in your life, God has a new level to which He want to take you. Join us as we ramp up for a life of maximum impact. "
