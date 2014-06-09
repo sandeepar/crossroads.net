@@ -85,22 +85,3 @@ footer {
 .rt_block_spacer {
     margin-bottom: 1em;
 }
-
-
-#container.show {
-  position: fixed;
-  top: 10%;
-  -webkit-transform: translatex(75%);
-  transform: translatex(75%);
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
-  .overlay {
-    background: rgba(50, 50, 50, 0.5);
-    height: 100%;
-    position: absolute;
-    width: 100%;
-    z-index: 1000000;
-    left: -10px;
-    top: -10px;
-  }
-}
