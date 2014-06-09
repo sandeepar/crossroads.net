@@ -13,7 +13,7 @@
 
 {% for item in sorted reversed %}{% if include.list_limit == 0 or forloop.index <= include.list_limit %}
     <li class="col-sm-2 col-xs-6">
-      <a href="{{ item.permalink }}">
+      <a href="{{ item.url }}">
         <img src="{{ item.src }}" class="img-responsive" />
         <h4>{{ item.title }}</h4>
         <p class="text-muted">{{ item.date | date: "%m.%d.%Y" }}</p>
