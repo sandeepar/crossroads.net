@@ -39,10 +39,10 @@ layout: nil
         <media:credit role="author">Crossroads</media:credit>
 
         <!-- LINKS -->
-        <link>{{ site.baseurl }}</link>
-        <atom:link href="{{ site.baseurl }}{{ page.url }}" type="application/rss+xml"/>
+        <link>{{ site.feedurl }}</link>
+        <atom:link href="{{ site.feedurl }}{{ page.url }}" type="application/rss+xml"/>
         <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml"
-                     href="{{ site.baseurl }}{{ page.url }}"/>
+                     href="{{ site.feedurl }}{{ page.url }}"/>
         <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/"/>
 
         <!-- THUMBNAIL -->
@@ -51,7 +51,7 @@ layout: nil
         <image>
             <title>Crossroads Church (Audio)</title>
             <url>http://www.crossroads.net/uploadedfiles/CR_podcast_audio.jpg</url>
-            <link>{{ site.baseurl }}</link>
+            <link>{{ site.feedurl }}</link>
             <width>100</width>
             <height>200</height>
         </image>
@@ -76,7 +76,7 @@ layout: nil
         <copyright>Please redistribute</copyright>
 
         <!-- New Feed URL to migrate to new site location -->
-        <itunes:new-feed-url>{{ site.baseurl }}{{ page.url }}</itunes:new-feed-url>
+        <itunes:new-feed-url>{{ site.feedurl }}{{ page.url }}</itunes:new-feed-url>
 
         {{ content }}
 

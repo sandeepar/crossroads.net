@@ -3,7 +3,8 @@ markdown: redcarpet
 highlighter: true
 port: 4002
 relative_permalinks: false
-baseurl: http://localhost:8000
+baseurl: http://localhost:3000
+feedurl: http://milacron.crossroads.net
 exclude: ["vendor", "node_modules", "*.scss", "*.coffee"]
 collections:
   content:
