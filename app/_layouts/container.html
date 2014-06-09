@@ -1,7 +1,10 @@
 ---
 layout: default
 ---
-<div class="container" id="sp-page">
-  {{ content }}
-</div>  <!-- /container -->
-{% include footer.html %}
+<div id="container" ng-class="{show: menuShow}">
+	<div class="container">
+		<div class="overlay"></div>
+	 	{{ content }}
+	</div>  <!-- /container -->
+	{% include footer.html %}
+</div>
