@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "With-Your-Friends"
+title: "With Your Friends"
 series: "The Clue Phone Is Ringing"
 date: 2002-03-16 
 description: "Examine those subtle little hints that the clue phone gives us that signal an area in which we need to grow.  "

@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "Go-Ahead-And-Ask---Open-Mic-Q-and-A"
+title: "Go Ahead And Ask - Open Mic Q&A"
 series: "Go Ahead and Ask"
 date: 2008-01-25 
 description: "Open mic Q&amp;A session"

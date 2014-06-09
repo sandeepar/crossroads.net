@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "Money-The-Power-of-Giving"
+title: "Money: The Power of Giving"
 series: "Handle with Care"
 date: 2002-04-20 
 description: "Take a look at several powerful forces that we need to handle with care.  "

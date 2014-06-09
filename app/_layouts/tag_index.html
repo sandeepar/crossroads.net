@@ -6,5 +6,29 @@ layout: "right_column"
   <div class="title"><a href="{{post.url}}">{{ post.title }}</a></div>
   <div class="author">{{ post.author }}</div>
   <div class="content">{{ post.content }}</div>
+
+<div>
+{% if post.image contains '.' %}
+<img class="img-responsive" src="{{ post.image }}" width="{{ post.image-width }}" height="{{ post.image-height }}" />
+{% endif %}
+</div>
+<div>
+    {% if post.video contains 'mp4' %}
+    <video width="{{ post.video-width }}" height="{{ post.video-height}}" controls poster="{{ post.video-image }}">
+        <source src="{{ post.video }}" type="video/mp4">
+    </video>
+    <p><span class="message-date">{{ post.date }}</span></p>
+    {% endif %}
+</div>
+<div>
+    {% if post.audio contains 'mp3' %}
+    <audio controls>
+        <source src="{{ post.audio }}" type="audio/mpeg">
+    </audio>
+    <p><span class="message-date">{{ post.date }}</span></p>
+    {% endif %}
+</div>
+
+
 {% endfor %}
 </div>

@@ -1,10 +1,10 @@
 ---
 layout: music 
-title: "Constant-Connection"
+title: "Constant Connection"
 series: "#culture"
 date: 2013-10-07 
 description: "Chuck Mingo talks about learning how to engage in #culture."
 audio: "http://www.crossroads.net/players/media/hq/culture_03.mp3"
 audio-duration: "46:10"
-src: "http://www.crossroads.net/players/media/mediumHz/190x110_culture.jpg"
+src: "http://www.crossroads.net/players/media/series/190x110_culture.jpg"
 ---

@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "Disconnected-Thinking"
+title: "Disconnected Thinking"
 series: "Hard Wired"
 date: 2006-08-26 
 description: "Life would be much more convenient if we could compartmentalize it into distinct and separate pieces&#58; home and work, play and personal, spiritual and non-spiritual. But reality is that separation is impossible. Everything is connected. If even one thing i"

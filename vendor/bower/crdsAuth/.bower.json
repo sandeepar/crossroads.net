@@ -18,7 +18,7 @@
     "angular-mocks": "*"
   },
   "homepage": "https://github.com/crdschurch/crdsAuth",
-  "_release": "a05b7489eb",
+  "_release": "master",
   "_resolution": {
     "type": "branch",
     "branch": "master",

@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "God-Wants-Your-Everything"
+title: "God Wants Your Everything"
 series: "Life, The Universe and Everything"
 date: 2004-09-25 
 description: "Life, The Universe and Everything"

@@ -1,10 +1,10 @@
 ---
 layout: music 
-title: "Consumed-(Week-Two)"
+title: "Consumed (Week Two)"
 series: "Consumed"
 date: 2008-02-19 
 description: ""
 audio: "http://s3.amazonaws.com/crossroadsaudiomessages/Consumed_2_Gratitude_02-17-08_Tome_webaudio.mp3"
 audio-duration: "49:44"
-src: "http://www.crossroads.net/players/media/mediumHz/consumed225.jpg"
+src: "http://www.crossroads.net/players/media/series/consumed225.jpg"
 ---

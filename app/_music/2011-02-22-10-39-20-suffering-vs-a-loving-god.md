@@ -1,0 +1,10 @@
+---
+layout: music 
+title: "Suffering vs. A Loving God"
+series: "Heavy-Weights"
+date: 2011-02-22 
+description: "We'll wrestle with the question of how God can really be loving when there's so much suffering in the world."
+audio: "http://s3.amazonaws.com/crossroadsaudiomessages/heavyweights_02.mp3"
+audio-duration: "45:13"
+src: "http://www.crossroads.net/players/media/series/190x110HeavyWeights.jpg"
+---

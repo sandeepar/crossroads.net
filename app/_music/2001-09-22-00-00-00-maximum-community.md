@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "Maximum-Community"
+title: "Maximum Community"
 series: "Maximum Impact"
 date: 2001-09-22 
 description: "Wherever you are in your life, God has a new level to which He want to take you. Join us as we continue our series. "

@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "Money-The-Power-of-a-Plan"
+title: "Money: The Power of a Plan"
 series: "Handle with Care"
 date: 2002-04-13 
 description: "Take a look at several powerful forces that we need to handle with care.  "

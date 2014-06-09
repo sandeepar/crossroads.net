@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "God-Wants-Your-Change"
+title: "God Wants Your Change"
 series: "Life, The Universe and Everything"
 date: 2004-08-28 
 description: "Life, The Universe and Everything"

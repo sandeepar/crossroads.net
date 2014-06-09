@@ -1,10 +1,10 @@
 ---
 layout: music 
-title: "Week-6---Kathy-Beechem"
+title: "Week 6 - Kathy Beechem"
 series: "The Good Life"
 date: 2012-07-30 
 description: "We’re learning about how the good life comes when we take Jesus at his word."
 audio: "http://www.crossroads.net/players/media/hq/goodlife_06.mp3"
 audio-duration: "38:46"
-src: "http://www.crossroads.net/players/media/mediumHz/GoodLife_190x110.jpg"
+src: "http://www.crossroads.net/players/media/series/GoodLife_190x110.jpg"
 ---

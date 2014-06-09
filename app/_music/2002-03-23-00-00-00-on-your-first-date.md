@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "On-Your-First-Date"
+title: "On Your First Date"
 series: "The Clue Phone Is Ringing"
 date: 2002-03-23 
 description: "Examine those subtle little hints that the clue phone gives us that signal an area in which we need to grow.  "

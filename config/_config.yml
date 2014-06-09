@@ -16,4 +16,8 @@ collections:
     output: true 
   music:  
     output: true
+  blog: 
+    output: true 
+  pages: 
+    output: true
     

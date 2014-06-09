@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "The-Path-of-Hypocrites"
+title: "The Path of Hypocrites"
 series: "House of Hypocrites"
 date: 2002-08-25 
 description: "Hypocrisy is everywhere. Let's look at how we all help to build this house of hypocrites."

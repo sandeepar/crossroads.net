@@ -1,6 +1,6 @@
 ---
 layout: music 
-title: "Wasnt-Jesus-Just-a-Very-Good-Man"
+title: "Wasn't Jesus Just a Very Good Man?"
 series: "The Heart of the Matter"
 date: 2000-04-22 
 description: "Aren't all religions the same? Join us and learn the basics of Christianity. "
