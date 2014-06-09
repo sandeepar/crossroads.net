@@ -24,12 +24,15 @@ layout: one_column
     </tr>
   </thead>
   <tbody>
-      {% for message in site.messages %}
-      <tr>
-          <td>{{ message.title }}</td>
-          <td>{{ message.startDate }}</td>
-          <td><a href="{{ message.url }}">View</a></td>
-      </tr>
+      {% assign sorted = site.messages | where:"series",page.series | sort:'date','first' %}
+      {% for message in sorted reversed %}
+              <tr>
+                  <td>{{ message.title }}</td>
+                  <td>{{ message.date }}</td>
+                  <td><a href="{{ message.url }}">View</a></td>
+              </tr>
       {% endfor %}
   </tbody>
 </table>
+
+{{ page.content | markdownify }}
