@@ -6,13 +6,29 @@ permalink: blog
 categories:
 ---
 
-<h1>Blog</h1>
 
+<div class="blog_path_headline">
+  <a href="#" class="blog_headline">Blog</a><span class="greater_than"> &#62;</span> <span class="greater_than"> &#62;</span><a href="#" class="category_headline">Crossroads</a> <span class="greater_than"> &#62;</span> <a href="#" class="current">All Blog Posts</a>
+</div>
+
+{% include media/message_preview.html %}
 
   <ul class="posts">
-    {% for post in site.posts %}
+    {% for post in site.tags["Crossroads"] %}
       {% unless post.categories contains "thefeed" %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+      <li>
+        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+        <p><span class="category_title">Crossroads</span><span class="greater_than"> &#62;</span><span class="posted_by_label">Posted by</span> <a class="author_link">Author</a> <span class="post_date">{{ post.date | date_to_string }}</span></p>
+        <p>{{ post.content }}</p>
+        <span class="comment">Post a comment</span>
+        <div class="social_media_buttons addthis_toolbox addthis_default_style addthis_32x32_style">
+          <a class="addthis_button_preferred_1"></a>
+          <a class="addthis_button_preferred_2"></a>
+          <a class="addthis_button_preferred_3"></a>
+          <a class="addthis_counter addthis_bubble_style"></a>
+        </div>
+        <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5391d6a6145291c4"></script></p>
+      </li>
       {% endunless %}
     {% endfor %}
-  </ul>	
+  </ul>

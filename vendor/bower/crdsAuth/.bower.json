@@ -1,0 +1,30 @@
+{
+  "name": "crdsAuth",
+  "main": "dist/crdsAuth.js",
+  "ignore": [
+    "app",
+    "config",
+    "spec",
+    "tasks",
+    ".travis.yml",
+    "Gruntfile.js",
+    "main.js",
+    "package.json"
+  ],
+  "dependencies": {
+    "angular": "*"
+  },
+  "devDependencies": {
+    "angular-mocks": "*"
+  },
+  "homepage": "https://github.com/crdschurch/crdsAuth",
+  "_release": "master",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "a05b7489ebdcf1d41afb82773ae6bc3a4cae481d"
+  },
+  "_source": "git://github.com/crdschurch/crdsAuth.git",
+  "_target": "*",
+  "_originalSource": "git://github.com/crdschurch/crdsAuth.git"
+}

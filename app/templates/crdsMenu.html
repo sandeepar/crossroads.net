@@ -1,0 +1,54 @@
+<div class="navbar navbar-default" role="navigation">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="row">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand logo" href="/"><img src="/img/logo.svg" alt="crossroads" /></a>
+            <ul class="signin">
+              <li class="dropdown hidden-xs hidden-sm" data-toggle="dropdown">
+                <a class="btn login dropdown-toggle" data-toggle="dropdown" href="#">
+                  <i class="icon icon--user"></i>
+                  <span>Sign In</span>
+                </a>
+                <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                  <li role="presentation">
+		    <auth-form></auth-form>
+                  </li>
+                </ul>
+              </li>
+              <li class="visible-xs visible-sm">
+                <a class="btn login" href="/login">
+                  <i class="icon icon--user"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav col-xs-10" id="sp-nav">
+              <li class="dropdown" ng-repeat="heading in menus.headings">
+                <a class="dropdown-toggle heading__title" data-toggle="dropdown" href="#">
+                  <i class="icon {{heading.icon}}"></i>
+		  {{heading.title}}
+		</a>
+                <ul class="dropdown-menu col-sm-12" role="menu" aria-labeledby="dropdownMenu1">
+              	  <li role="presentation" ng-repeat="item in heading.items">
+                    <a class="heading__item" role="menuitem" tabindex="-1" href="{{item.link}}">{{item.title}}</a>
+              	  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

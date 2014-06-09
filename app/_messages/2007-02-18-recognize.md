@@ -5,4 +5,8 @@ series: "Kingdom"
 title: "Recognize"
 date: 2007-02-18-00-00
 message_id: 31
+audio-description: "Jesus didn't come to bring a new religion. He came to start a revolution. He called it the ''Kingdom of God,'' and he said that it operates in a totally different way than the world we see around us. It's radical. It's counterintuitive. It's an alternativ"
+audio: "http://www.crossroads.net/audio/2007/2007_02_Kingdom/Kingdom_01_Recognize_02-18-07_Tome.mp3"
+audio-title: "Recognize"
+audio-duration: "48:59"
 ---

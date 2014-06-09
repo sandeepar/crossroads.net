@@ -1,0 +1,49 @@
+---
+layout: right_column 
+title: "Crossroads: prayer requests" 
+category: "My"
+---
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html><body><div id="mainContent">
+
+            <div class="breadcrumbs">
+                <a class="main" href="/my/care/">
+                    <img src="http://s3.amazonaws.com/crossroads-media/images/legacy/tabs/care_tab.gif" alt="Care">
+                </a>
+                
+
+                <span class="current">Prayer Requests</span>
+            </div>
+<h2>Prayer Requests</h2>
+<p class="noPspace"><span class="first">We absolutely believe in the power of prayer.</span><br><br>Please know that your prayer requests are confidential within our Prayer Team, and we are ready to hear you. If this is an urgent need, please call 513.731.7400 so we can find someone for you to talk to. Thank you for trusting us with your prayer request.</p>  
+		<br>
+        <script src="/javascript/forms/forms.js"></script>
+		<div id="contactUs">
+		
+		<form action="/forms/formProc/fireWebMailEmail.php" method="post">
+		<input type="hidden" name="SendTo" id="SendTo" value="2">
+		<input type="hidden" name="Subject" id="Subject" value="Prayer Request">
+		<input type="hidden" name="Receipt" id="Receipt" value="pages/my/care/prayerReceipt.htm">		
+			<table class="standard">
+				
+				<tr>
+<td>Name</td>
+<td><input type="Text" name="FromName" class="on required"></td>
+</tr>
+				<tr>
+<td>E-Mail Address</td>
+<td><input type="Text" name="FromAddress" class="on required"></td>
+</tr>
+				<tr>
+<td>Prayer Request</td>
+<td><textarea cols="50" rows="10" name="Message" class="on required"></textarea></td>
+</tr>
+						
+				<tr>
+<td> </td>
+<td><input type="button" value="Send" onclick="submitForms('contactUs');"></td>
+</tr>
+			</table>
+		</form> 
+		</div>  
+	   </div></body></html>

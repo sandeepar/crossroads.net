@@ -22,6 +22,9 @@ For more information about Lineman visit: http://linemanjs.com
 ### Running the project
 To run the project use: ```lineman run```
 
+Then you will need to also start NodeMon in another terminal window.
+You can do this by using: ```lineman grunt nodemon```
+
 This will watch the filesystem and compile all the sass into css,
 coffeescript into javascript and run jkyll-build as well.
 
