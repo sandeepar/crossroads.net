@@ -2,7 +2,7 @@
 <item>
     <!-- PODCAST - AUTHOR AND DETAILS -->
     <itunes:author>Crossroads</itunes:author>
-    <pubDate>{{ rssItem.date | date: "%a, %d %b %Y %H:%M:%S %Z" }}</pubDate>
+    <pubDate>{{ rssItem.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
 
     <title>{{ rssItem.title | xml_escape | truncate:255 }}</title>
 
