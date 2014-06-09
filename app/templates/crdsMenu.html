@@ -17,7 +17,7 @@
               <ul class="side-nav__subnav list-unstyled">
                 <li class="side-nav__subnav--item" role="presentation" ng-repeat="item in heading.items">
                   <a class="heading__item" role="menuitem" tabindex="-1" href="{{item.link}}">{{item.title}}</a>
-                </li>        
+                </li>
               </ul>
             </li>
           </ul>
@@ -58,29 +58,11 @@
                 {{heading.title}}
               </a>
               <ul class="navbar__dropdown--subnav list-unstyled col-sm-12" role="menu" aria-labeledby="dropdownMenu1">
-                <li class="navbar__dropdown--subnav--item" role="presentation" ng-repeat="item in heading.items">
-                  <a class="heading__item" role="menuitem" tabindex="-1" href="{{item.link}}">{{item.title}}</a>
-                  <ul class="navbar__dropdown--subnav__list list-unstyled col-sm-12" role="menu" aria-labeledby="dropdownMenu1">
+                <li ng-repeat="headingItem in heading.items" ng-class="headingItem.items && 'navbar__dropdown--subnav--item' || 'navbar__dropdown--subnav__list--item'" role="presentation">
+                  <a ng-class="{heading__item: headingItem.items}"  role="menuitem" tabindex="-1" href="{{headingItem.link}}">{{headingItem.title}}</a>
+                  <ul class="navbar__dropdown--subnav__list list-unstyled col-sm-12" role="menu" aria-labeledby="dropdownMenu1" ng-repeat="item in headingItem.items">
                     <li class="navbar__dropdown--subnav__list--item" role="presentation">
-                      <a class="hey" role="menuitem" tabindex="-1" href="#">Hey</a>
-                    </li>
-                    <li class="navbar__dropdown--subnav__list--item" role="presentation">
-                      <a class="hey" role="menuitem" tabindex="-1" href="#">Hey</a>
-                    </li>
-                    <li class="navbar__dropdown--subnav__list--item" role="presentation">
-                      <a class="hey" role="menuitem" tabindex="-1" href="#">Hey</a>
-                    </li>
-                    <li class="navbar__dropdown--subnav__list--item" role="presentation">
-                      <a class="hey" role="menuitem" tabindex="-1" href="#">Hey</a>
-                    </li>
-                    <li class="navbar__dropdown--subnav__list--item" role="presentation">
-                      <a class="hey" role="menuitem" tabindex="-1" href="#">Hey</a>
-                    </li>
-                    <li class="navbar__dropdown--subnav__list--item" role="presentation">
-                      <a class="hey" role="menuitem" tabindex="-1" href="#">Hey</a>
-                    </li>
-                    <li class="navbar__dropdown--subnav__list--item" role="presentation">
-                      <a class="hey" role="menuitem" tabindex="-1" href="#">Hey</a>
+                      <a class="hey" role="menuitem" tabindex="-1" href="{{item.link}}">{{item.title}}</a>
                     </li>
                   </ul>
                 </li>
