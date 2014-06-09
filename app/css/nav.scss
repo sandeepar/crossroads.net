@@ -206,6 +206,7 @@
 .navbar__dropdown--subnav--item {
   display: inline-block;
   padding: 10px 15px 10px 0;
+  max-width: 400px;
   &:first-child {
     background: #eee;
   }
@@ -314,5 +315,5 @@
 /***** Mobile Nav *****/
 // iPhone
 @media only all and (min-device-width : 320px) and (max-device-width : 768px) {
-  
+
 }

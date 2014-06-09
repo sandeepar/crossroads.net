@@ -29,10 +29,6 @@ crossroads.controller "crdsMenuCtrl", ($scope) ->
       $("#container").addClass("show")
       $scope.menuShow = true
 
-
-
-
-
 crossroads.run(($rootScope) ->
   $rootScope.CONFIG =
     apiUrl: "https://my.crossroads.net/ministryplatform/oauth"
