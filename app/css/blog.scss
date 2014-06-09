@@ -1,7 +1,16 @@
-.posts{
-  width: 90%;
+.blog_path_headline{
+  margin-bottom: 30px;
 }
 
+
+.posts{
+  width: 90%;
+  padding-left: 0;
+}
+
+.post_body_text{
+  padding-bottom: 20px;
+}
 h2 a{
   font-family: Helvetica, Arial, sans-serif;
   font-size: 30px;
@@ -18,10 +27,8 @@ h2 a{
   text-decoration: none;
 }
 
-.container{
-  font: 12px "Helvetica Neue", Helvetica, Arial, sans-serif;
-  line-height: 1.75;
-  color: #3E3E3E;
+.social_media-line{
+  padding-bottom: 20px;
 }
 
 .category_title{
@@ -39,14 +46,16 @@ h2 a{
 
 .posted_by_label{
   color: #949393;
+  padding-left: 5px;
 }
 
 .author_link{
   color: #3a6e8f;
 }
-.pluginButtonLabel{
+.social_media_buttons{
   display: inline-block;
   float: right;
+  padding-top: 10px;
 }
 
 .blog_headline {
@@ -58,12 +67,21 @@ h2 a{
 
 .category_headline{
   color: #b05c30;
-  margin: 4px 0 0 12px;
-  padding: 3px 0 0 20px;
+  margin: 4px 0 0 4px;
+  padding: 3px 0 0 5px;
 } 
 
 .current{
   color: #b05c30;
-  margin: 4px 0 0 12px;
-  padding: 3px 0 0 20px;
+  margin: 4px 0 0 4px;
+  padding: 3px 0 0 5px;
+}
+
+.greater_than{
+  color: #bcb8b8;
+  padding-left: 5px;
+}
+
+.blog_content{
+  padding-bottom: 10px;
 }

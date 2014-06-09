@@ -6,20 +6,29 @@ permalink: blog
 categories:
 ---
 
+
+<div class="blog_path_headline">
+  <a href="#" class="blog_headline">Blog</a><span class="greater_than"> &#62;</span> <span class="greater_than"> &#62;</span><a href="#" class="category_headline">Crossroads</a> <span class="greater_than"> &#62;</span> <a href="#" class="current">All Blog Posts</a>
+</div>
+
 {% include media/message_preview.html %}
 
-<h1>Blog</h1>
-  <div><span class="blog_headline">Blog</span> &#62; &#62; <p><span class="category_headline">Crossroads</span> &#62; <span class="current">All Blog Posts</span></div>
-
   <ul class="posts">
-    {% for post in site.posts %}
+    {% for post in site.tags["Crossroads"] %}
       {% unless post.categories contains "thefeed" %}
       <li>
         <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-        <p><span class="category_title">Crossroads</span> &#62; <span class="posted_by_label">Posted by</span> <a class="author_link">Author</a> <span class="post_date">{{ post.date | date_to_string }}</span></p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <p><span class="comment">Post a comment</span><span class="pluginButtonLabel">Like</span><span class="pluginButtonLabel">Share</span></p>
+        <p><span class="category_title">Crossroads</span><span class="greater_than"> &#62;</span><span class="posted_by_label">Posted by</span> <a class="author_link">Author</a> <span class="post_date">{{ post.date | date_to_string }}</span></p>
+        <p>{{ post.content }}</p>
+        <span class="comment">Post a comment</span>
+        <div class="social_media_buttons addthis_toolbox addthis_default_style addthis_32x32_style">
+          <a class="addthis_button_preferred_1"></a>
+          <a class="addthis_button_preferred_2"></a>
+          <a class="addthis_button_preferred_3"></a>
+          <a class="addthis_counter addthis_bubble_style"></a>
+        </div>
+        <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5391d6a6145291c4"></script></p>
       </li>
       {% endunless %}
     {% endfor %}
-  </ul>	
+  </ul>
