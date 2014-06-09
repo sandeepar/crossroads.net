@@ -1,4 +1,5 @@
 <!-- rss_item.html -->
+{% if rssItem[url] contains 'http://' or rssItem[url] contains 'https://' %}
 <item>
     <!-- PODCAST - AUTHOR AND DETAILS -->
     <itunes:author>Crossroads</itunes:author>
@@ -19,9 +20,16 @@
     {% endif %}
 
     <!-- PODCAST - MEDIA LINKS -->
-    <itunes:duration>{{ rssItem[duration] }}</itunes:duration>
+    {% if rssItem[duration] == ":" %}
+        <itunes:duration>0:00</itunes:duration>
+    {% else %}
+        <itunes:duration>{{ rssItem[duration] }}</itunes:duration>
+    {% endif %}
     <enclosure url="{{ rssItem[url] | xml_escape | replace:' ','+' }}" type="{{ rssContentType }}" length="123456"/>
-    <guid isPermaLink="false">{{ rssItem[url] | xml_escape | replace:' ','+' }}</guid>
     <media:content url="{{ rssItem[url] | xml_escape | replace:' ','+' }}" fileSize="123456" type="{{ rssContentType }}"/>
     <link>{{ rssItem[url] | xml_escape }}</link>
+
+    <!-- Unique ID -->
+    <guid isPermaLink="false">{{ rssItem[url] | xml_escape | replace:' ','+' }}-{{ rssItem.relative_path }}</guid>
 </item>
+{% endif %}
