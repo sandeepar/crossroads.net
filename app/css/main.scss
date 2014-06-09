@@ -9,9 +9,6 @@
 @import 'icon';
 @import 'thefeed';
 // @import 'block-grid';
-body {
-  font-family: 'Roboto', 'Helvetica Neue', 'Arial', san-serif;
-}
 
 a:hover {
   text-decoration:none;
@@ -45,6 +42,18 @@ footer {
 }
 
 .posts li {list-style:none;}
+
+.home .home-header {
+  color: $cr-blue;
+  letter-spacing: -1px;
+}
+.home .tagline {
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+.home .tagline small {
+  font-weight: 300;
+}
 
 
 /***************************************************************************************
