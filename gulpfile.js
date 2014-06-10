@@ -127,7 +127,6 @@ gulp.task('karma', ['coffee'], function(done) {
 gulp.task('watch', function() {
     gulp.watch(paths.posts, ['jekyll']);
     gulp.watch(paths.scripts, ['clean', 'coffee']);
-    gulp.watch(paths.templates, ['ngtemplate']);
     gulp.watch(paths.sass, ['sass']);
 });
 

@@ -1,156 +1,394 @@
 ---
-  headings: 
-    - 
+  headings:
+    -
       title: "My Crossroads"
-      link: "#"
       icon: "icon--crossroads"
-      items: 
-        - 
+      items:
+        -
           title: "My Account"
           items:
-            - 
+            -
               title: "Dashboard"
-              link: "#"
-            - 
+              link: "/mydashboard"
+            -
               title: "Profile"
-              link: "#"
-            - 
+              link: "/myprofile"
+            -
               title: "Giving History"
-              link: "#"
-            - 
-              title: "My Groups"
-              link: "#"
-        - 
+              link: "/givinghistory"
+            -
+              title: "My History"
+              link: "/myhistory"
+        -
           title: "Most Recent Weekend"
           items:
-            - 
+            -
               title: "Weekend service audio"
-              link: "#"
-            - 
+              link: "/media/series"
+            -
               title: "Weekend service video"
-              link: "#"
-            - 
+              link: "/media/series/"
+            -
               title: "Weekend Kids' Club lesson"
-              link: "#"
-            - 
+              link: "/kidsclublesson"
+            -
               title: "Weekend Middle School lesson"
-              link: "#"
-        - 
+              link: "/kidsclublesson"
+        -
           title: "Learn about Crossroads"
           items:
             -
               title: "Blog"
-              link: "#"
-            - 
+              link: "/blog"
+            -
               title: "Home"
-              link: "#"
-            - 
+              link: "/"
+            -
               title: "Explore Crossroads"
-              link: "#"
-    - 
+              link: "/explore"
+    -
       title: "Engage"
-      link: "#"
       icon: "icon--engage"
-      items: 
-        - 
-          title: "Get Involved"
-          link: "#"
-        - 
+      items:
+        -
+          title: "Serving Opportunities"
+          items:
+            -
+              title: "Get Involved (Overview)"
+              link: "/getinvolved"
+            -
+              title: "First Impressions"
+              link: "/firstimpressions"
+            -
+              title: "Kids' Club"
+              link: "/#"
+            -
+              title: "Middle School"
+              link: "/#"
+            -
+              title: "High School"
+              link: "/#"
+            -
+              title: "Small Groups"
+              link: "/#"
+            -
+              title: "Community Groups"
+              link: "/#"
+            -
+              title: "Creative Arts"
+              link: "/#"
+            -
+              title: "Behind the Scenes"
+              link: "/#"
+            -
+              title: "Pastoral Care"
+              link: "/#"
+            -
           title: "Connect"
           link: "#"
-        - 
-          title: "Corkboard"
-          link: "#"
-        - 
+          items:
+            -
+              title: "Overview"
+              link: "/connectoverview"
+            -
+              title: "Community Groups"
+              link: "#"
+            -
+              title: "Small Groups"
+              link: "#"
+             -
+              title: "Find A Small Group"
+              link: "#"
+             -
+              title: "Start A Small Group"
+              link: "#"
+             -
+              title: "Teens"
+              link: "#"
+             -
+              title: "Corkboard"
+              link: "#"
+        -
           title: "Reachout"
-          link: "#"
-    - 
+          items:
+            -
+              title: "Overview"
+              link: "#"
+            -
+              title: "Give time"
+              link: "#"
+            -
+              title: "Give stuff"
+              link: "#"
+            -
+              title: "GO somewhere"
+              link: "#"
+    -
       title: "Grow"
-      link: "#"
       icon: "icon--grow"
-      items: 
-        - 
-          title: "Essentials of Growth"
-          link: "#"
-        - 
-          title: "Subscribe to the Daily"
-          link: "#"
-        - 
-          title: "Get in Community"
-          link: "#"
-        - 
-          title: "Baptism"
-          link: "#"
-        - 
+      items:
+        -
+          title: "Ways to Grow"
+          items:
+            -
+              title: "Essentials of Growth"
+              link: "#"
+            -
+              title: "Subscribe to the Daily"
+              link: "#"
+            -
+              title: "Get in Community"
+              link: "#"
+            -
+              title: "Baptism"
+              link: "#"
+        -
+          title: "The Daily"
+          items:
+            -
+              title: "What is it?"
+              link: "#"
+            -
+              title: "Subscribe (Email)"
+              link: "#"
+            -
+              title: "May 8: the New Man Pursues a Pure Life"
+              link: "#"
+            -
+              title: "May 7: The New Man is an Investor"
+              link: "#"
+            -
+              title: "May 6: The New Man Steps Down"
+              link: "#"
+        -
+          title: "Community"
+          items:
+            -
+              title: "Get in Community"
+              link: "#"
+            -
+              title: "Small Groups"
+              link: "#"
+            -
+              title: "Community Groups"
+              link: "#"
+            -
+              title: "Healing Groups"
+              link: "#"
+        -
           title: "Lead Your Family"
-          link: "#"
-    - 
+          items:
+            -
+              title: "Parent Resources"
+              link: "#"
+            -
+              title: "Kids' Club (0-5th grade)"
+              link: "#"
+            -
+              title: "Middle School (6,7,8th grade)"
+              link: "#"
+            -
+              title: "High School"
+              link: "#"
+            -
+              title: "Marriage Resources"
+              link: "#"
+    -
       title: "About"
-      link: "#"
       icon: "icon--about"
-      items: 
-        - 
-          title: "Explore Crossroads"
-          link: "#"
-        - 
-          title: "Who We Are"
-          link: "#"
-        - 
-          title: "Blog"
-          link: "#"
-        - 
+      items:
+        -
+          title: "About Us"
+          items:
+            -
+              title: "Explore Crossroads"
+              link: "/explore"
+            -
+              title: "Who We Are"
+              link: "#"
+            -
+              title: "What we believe"
+              link: "#"
+            -
+              title: "7 Hill We Die On"
+              link: "#"
+            -
+              title: "Our History"
+              link: "#"
+            -
+              title: "Kids' Club (0-5th grade)"
+              link: "#"
+            -
+              title: "Middle School (6,7,8th grade)"
+              link: "#"
+            -
+              title: "High School"
+              link: "#"
+            -
+              title: "Frequent questions"
+              link: "#"
+        -
           title: "Locations"
-          link: "#"
-        - 
-          title: "Service Times and Directions"
-          link: "#"
-        - 
+          items:
+            -
+              title: "Crossroads Florence"
+              link: "#"
+            -
+              title: "Crossroads Mason"
+              link: "#"
+            -
+              title: "Crossroads Oakley"
+              link: "#"
+            -
+              title: "Crossroads West Side"
+              link: "#"
+            -
+              title: "Multi-site Strategy"
+              link: "#"
+            -
+              title: "Service times & directions"
+              link: "#"
+        -
           title: "Pastoral Care"
-          link: "#"
-        - 
+          items:
+            -
+              title: "Overview"
+              link: "#"
+            -
+              title: "Weddings"
+              link: "#"
+            -
+              title: "Counselors"
+              link: "#"
+            -
+              title: "Funerals"
+              link: "#"
+            -
+              title: "Prayer"
+              link: "#"
+            -
+              title: "Care Pages"
+              link: "#"
+        -
           title: "Contact Us"
-          link: "#"
-    - 
+          items:
+            -
+              title: "Ask a question"
+              link: "#"
+            -
+              title: "Staff contacts"
+              link: "#"
+            -
+              title: "Prayer request"
+              link: "#"
+    -
       title: "Give"
-      link: "#"
       icon: "icon--give"
-      items: 
-        - 
-          title: "Recurring Gift"
-          link: "#"
-        - 
-          title: "One-time"
-          link: "#"
-        - 
-          title: "Transfer Stock"
-          link: "#"
-        - 
-          title: "Estate Giving"
-          link: "#"
-        - 
+      items:
+        -
+          title: "Give to Crossroads"
+          items:
+            -
+              title: "Recurring Gift"
+              link: "#"
+            -
+              title: "One-time"
+              link: "#"
+            -
+              title: "Transfer Stock"
+              link: "#"
+            -
+              title: "Estate Giving"
+              link: "#"
+        -
           title: "Give to Others"
-          link: "#"
-        - 
-          title: "Financial Philosophy"
-          link: "#"
-    - 
+          items:
+            -
+              title: "Give your stuff"
+              link: "#"
+            -
+              title: "Give a car (Wheels)"
+              link: "#"
+            -
+              title: "Give your time"
+              link: "#"
+            -
+              title: "Give to someone's trip"
+              link: "#"
+        -
+          title: "Questions"
+          items:
+            -
+              title: "Financial Philosophy"
+              link: "#"
+            -
+              title: "Frequent questions"
+              link: "#"
+            -
+              title: "Online security"
+              link: "#"
+    -
       title: "Media"
-      link: "#"
       icon: "icon--media"
-      items: 
-        - 
-          title: "Weekend Service"
-          link: "#"
-        - 
-          title: "Videos"
-          link: "#"
-        - 
-          title: "Music"
-          link: "#"
-        - 
-          title: "Podcast"
-          link: "#"
-    - 
+      items:
+        -
+        title: "Recent Weekend Audio"
+        items:
+          -
+            title: "The New Man: Week 1"
+            link: "#"
+          -
+            title: "The New Man: Week 2"
+            link: "#"
+          -
+            title: "How to Change the World: Week 1"
+            link: "#"
+          -
+            title: "How to Change the World: Week 2"
+            link: "#"
+          -
+            title: "All Past Weekends"
+            link: "#"
+      -
+        title: "Media Categories"
+        items:
+          -
+            title: "Weekend Service"
+            link: "#"
+          -
+            title: "Videos"
+            link: "#"
+          -
+            title: "Music"
+            link: "#"
+          -
+            title: "YouTube Channel"
+            link: "#"
+      -
+        title: "Podcast"
+        items:
+          -
+            title: "iTunes Weekend Message Audio"
+            link: "#"
+          -
+            title: "iTunes Weekend Message Video"
+            link: "#"
+          -
+            title: "iTunes Music"
+            link: "#"
+          -
+            title: "iTunes Videos"
+            link: "#"
+          -
+            title: "Help"
+            link: "#"
+    -
       title: "Admin"
-      link: "#"
       icon: "icon--admin"
+      items:
+        -
+          title: "Admin"
+          link: "/admin"
+        -
+          title: "Ministry Platform"
+          link: "https://my.crossroads.net/ministryplatform"

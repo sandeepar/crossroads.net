@@ -7,6 +7,13 @@
   z-index: 1000000;
 }
 
+#container {
+  -webkit-transform: translatex(0%);
+  transform: translatex(0%);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
 #container.show {
   position: fixed;
   top: 10%;
@@ -22,7 +29,6 @@
 
 .navbar-left{
   float: left;
-  margin-left: 10px;
 }
 
 .navbar-right {
@@ -31,7 +37,7 @@
 }
 
 /******************** Mobile ********************/
-.navbar-brand.logo {
+.navbar-brand {
   padding: 15px 10px 0px 10px;
 }
 
@@ -39,28 +45,33 @@
   width: 100%;
   -webkit-transform: translatex(0%);
   transform: translatex(0%);
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
+  -webkit-transition: all 0.563s;
+  transition: all 0.563s;
 }
 
 .navbar-header.show {
   position: fixed;
   z-index: 100000;
-  -webkit-transform: translatex(72%);
-  transform: translatex(72%);
+  -webkit-transform: translatex(64%);
+  transform: translatex(64%);
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
+  .navbar-brand.logo {
+    width: 80%;
+  }
+  .navbar-brand.logo, .navbar--login {
+    opacity: 0;
+  }
 }
 
 .nav__side--toggle {
   position: relative;
-  margin-right: 25%;
   padding: 9px 10px;
   margin-top: 8px;
   margin-bottom: 0px;
-  background-color: transparent;
+  background-color: #fff;
   background-image: none;
-  border-bottom: 1px solid transparent;
+  border: 1px solid transparent;
   border-color: #ddd;
   z-index: 10000;
   border-radius: 4px;
@@ -80,8 +91,7 @@
   position: fixed;
   z-index: 100000;
   height: 100%;
-  background-color: #fff;
-  right: 0;
+  background-color: #f9f9f9;
   padding-right: 0;
   -webkit-transform: translatex(-115%);
   transform: translatex(-115%);
@@ -90,6 +100,7 @@
 }
 
 .side-nav.show {
+  overflow: scroll;
   -webkit-transform: translatex(-11%);
   transform: translatex(-11%);
   -webkit-transition: all 0.5s;
@@ -185,6 +196,7 @@
 .navbar__dropdown {
   padding: 10px;
   display: block;
+  margin-left: -8px;
 }
 
 .navbar__dropdown--subnav {
@@ -199,7 +211,6 @@
 
 .navbar__dropdown--item{
   display: inline;
-  font-size: 80%;
   &:hover {
     color: #fff;
     display: inline-block;
@@ -281,6 +292,7 @@
 
 .navbar--login {
   float: right;
+  margin-top: 2px;
   background-color: #fff;
   &:hover {
     a.dropdown-toggle:after {
@@ -289,7 +301,7 @@
     }
   }
   .btn {
-    background: none;
+    margin-top: 10px;
   }
   .dropdown-menu {
     left: calc(100% - 300px);
@@ -297,9 +309,13 @@
   }
 }
 
+.navbar--login__button {
+  padding: 0;
+}
+
 .navbar--login__dropdown  {
   opacity: 0;
-  display: block;
+  display: none;
   position: absolute;
   right: 0;
   top: -170%;
@@ -313,7 +329,8 @@
 .navbar--login__dropdown.toggleOpen {
   opacity: 1;
   top: 80%;
-   z-index: 1000000;
+  display: block;
+  z-index: 1000000;
   -webkit-transition: opacity 0.2s, top 0.75s;
   transition: opacity 0.2s, top 0.75s;
 }
@@ -327,14 +344,17 @@
   @include gradient(#7AA8C2, #4A81A0);
 }
 
-/***** Desktop Nav ****
-@media only all and (min-device-width : 1024px) {
-.side-nav, .nav__side--toggle { display: none; }
-.navbar { display: block; }
-}
-
 /***** Mobile Nav *****/
-// iPhone
-@media only all and (min-device-width : 320px) and (max-device-width : 768px) {
 
+@media (max-width: 992px) {
+  .navbar-brand.logo {
+    width: 73%;
+    > img {
+      margin-left: auto;
+      margin-right: auto;
+      width: 140px;
+      display: block;
+      margin-top: 0px;
+    }
+  }
 }
