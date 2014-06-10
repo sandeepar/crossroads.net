@@ -28,7 +28,7 @@ layout: one_column
       {% for message in sorted reversed %}
               <tr>
                   <td>{{ message.title }}</td>
-                  <td>{{ message.date }}</td>
+                  <td>{{ message.date | date:"%m.%d.%Y" }}</td>
                   <td><a href="{{ message.url }}">View</a></td>
               </tr>
       {% endfor %}
