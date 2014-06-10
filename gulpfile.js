@@ -125,7 +125,7 @@ gulp.task('server', function() {
 
 
 gulp.task('karma', ['coffee'], function(done) {
-    karma.start(_.assign({}, karmaConf, {singleRun: true}), done);
+    return karma.start(_.assign({}, karmaConf, {singleRun: true}), done);
 });
 
 gulp.task('watch', function() {
@@ -141,5 +141,5 @@ gulp.task('spec-watch', function() {
 gulp.task('test', ['clean', 'karma', 'spec-watch']);
 gulp.task('ci', ['clean', 'karma']);
 gulp.task('dev', ['clean', 'coffee', 'sass', 'jekyll', 'server', 'watch']);
-gulp.task('build', ['clean', 'coffee', 'sass']);
+gulp.task('build', ['clean', 'jekyll', 'coffee', 'sass']);
 gulp.task('default', ['dev']);
