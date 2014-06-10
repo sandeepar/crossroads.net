@@ -5,10 +5,33 @@ crossroads.controller "MainCtrl", ($window) ->
   return
 
 crossroads.directive "crdsMenu", ->
+  controller: "crdsMenuCtrl",
   templateUrl: "/templates/crdsMenu.html"
   require: "authForm"
   scope:
     menus: "=crdsMenu"
+
+crossroads.controller "crdsMenuCtrl", ($scope) ->
+  $scope.menuShow = false
+  $scope.loginShow = false
+
+  $scope.toggleDesktopLogin = ->
+    if $scope.loginShow == true
+      $scope.loginShow = false
+    else
+      $scope.loginShow = true
+
+  $scope.toggleMenu = ->
+    if $scope.menuShow == true
+      $("header").removeClass("show")
+      $("header").removeClass("overlay")
+      $("#container").removeClass("show")
+      $scope.menuShow = false
+    else
+      $("header").addClass("show")
+      $("header").addClass("overlay")
+      $("#container").addClass("show")
+      $scope.menuShow = true
 
 crossroads.run(($rootScope) ->
   $rootScope.CONFIG =
@@ -106,10 +129,3 @@ crossroads.controller "LoginCtrl", ($scope, Auth) ->
   return
 
 return
-
-
-$(document).ready ->
-  menu = $('#sp-nav, #sp-page')
-
-  $('.navbar-toggle').on 'click', ->
-    menu.toggleClass('show')
