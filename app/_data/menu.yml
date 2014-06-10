@@ -83,7 +83,7 @@
             -
               title: "Pastoral Care"
               link: "/#"
-        -
+            -
           title: "Connect"
           link: "#"
           items:
@@ -96,16 +96,16 @@
             -
               title: "Small Groups"
               link: "#"
-             -
+            -
               title: "Find A Small Group"
               link: "#"
-             -
+            -
               title: "Start A Small Group"
               link: "#"
-             -
+            -
               title: "Teens"
               link: "#"
-             -
+            -
               title: "Corkboard"
               link: "#"
         -
@@ -332,56 +332,57 @@
       icon: "icon--media"
       items:
         -
-        title: "Recent Weekend Audio"
-        items:
-          -
-            title: "The New Man: Week 1"
-            link: "#"
-          -
-            title: "The New Man: Week 2"
-            link: "#"
-          -
-            title: "How to Change the World: Week 1"
-            link: "#"
-          -
-            title: "How to Change the World: Week 2"
-            link: "#"
-          -
-            title: "All Past Weekends"
-            link: "#"
-      -
-        title: "Media Categories"
-        items:
-          -
-            title: "Weekend Service"
-            link: "#"
-          -
-            title: "Videos"
-            link: "#"
-          -
-            title: "Music"
-            link: "#"
-          -
-            title: "YouTube Channel"
-            link: "#"
-      -
-        title: "Podcast"
-        items:
-          -
-            title: "iTunes Weekend Message Audio"
-            link: "#"
-          -
-            title: "iTunes Weekend Message Video"
-            link: "#"
-          -
-            title: "iTunes Music"
-            link: "#"
-          -
-            title: "iTunes Videos"
-            link: "#"
-          -
-            title: "Help"
-            link: "#"
+          title: "Recent Weekend Audio"
+          items:
+            -
+              title: "The New Man: Week 1"
+              link: "#"
+            -
+              title: "The New Man: Week 2"
+              link: "#"
+            -
+              title: "How to Change the World: Week 1"
+              link: "#"
+            -
+              title: "How to Change the World: Week 2"
+              link: "#"
+            -
+              title: "All Past Weekends"
+              link: "#"
+            -
+              title: "Media Categories"
+              items:
+        -
+          title: "Weekend Service"
+          link: "#"
+          items:
+            -
+              title: "Videos"
+              link: "#"
+            -
+              title: "Music"
+              link: "#"
+            -
+              title: "YouTube Channel"
+              link: "#"
+        -
+          title: "Podcast"
+          items:
+            -
+              title: "iTunes Weekend Message Audio"
+              link: "#"
+            -
+              title: "iTunes Weekend Message Video"
+              link: "#"
+            -
+              title: "iTunes Music"
+              link: "#"
+            -
+              title: "iTunes Videos"
+              link: "#"
+            -
+              title: "Help"
+              link: "#"
     -
       title: "Admin"
       icon: "icon--admin"
