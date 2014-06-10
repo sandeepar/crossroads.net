@@ -49,8 +49,8 @@ layout: nil
         <media:thumbnail url="{{ page.thumbnail }}"/>
         <itunes:image href="{{ page.thumbnail }}"/>
         <image>
-            <title>Crossroads Church (Audio)</title>
-            <url>http://www.crossroads.net/uploadedfiles/CR_podcast_audio.jpg</url>
+            <title>{{ page.title }}</title>
+            <url>{{ page.thumbnail }}</url>
             <link>{{ site.feedurl }}</link>
             <width>100</width>
             <height>200</height>
