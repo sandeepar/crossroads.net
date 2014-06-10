@@ -15,7 +15,7 @@
                     <em>{{ message.title }} </em>
                 </a>
                 &nbsp;
-                {{ message.date }}
+                {{ message.date | date:"%m.%d.%Y" }}
             </p>
             <p class="video-desc">
                 {{ message.video-description }}
