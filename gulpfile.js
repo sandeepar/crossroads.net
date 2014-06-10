@@ -103,7 +103,7 @@ gulp.task('coffee', function() {
 	.pipe(concat('app.js'))
 	.pipe(gulpif(!devEnv, ngmin()))
 	.pipe(gulp.dest('generated/js'))
-	.pipe(livereload());
+	.pipe(gulpif(devEnv, livereload()));
 });
 
 gulp.task('sass', function() {
@@ -112,7 +112,7 @@ gulp.task('sass', function() {
     	.pipe(concat('app.css'))
 	.pipe(gulpif(!devEnv, minifyCSS()))
 	.pipe(gulp.dest('generated/css'))
-	.pipe(livereload());
+	.pipe(gulpif(devEnv, livereload()));
 });
 
 gulp.task('server', function() {
