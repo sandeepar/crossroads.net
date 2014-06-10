@@ -1,0 +1,23 @@
+---
+layout: rss
+title: "Crossroads Church (Audio)"
+thumbnail: "http://www.crossroads.net/uploadedfiles/CR_podcast_audio.jpg"
+---
+
+<!-- PODCAST ITEMS -->
+{% assign sorted = site.messages | sort: "date", "first" %}
+{% for message in sorted reversed %}
+    {% assign rssItem = message %}
+
+    {% if rssItem.audio %}
+
+        <!-- Define field names specific to the item type to be used by the include -->
+        {% assign description = 'audio-description' %}
+        {% assign duration = 'audio-duration' %}
+        {% assign url = 'audio' %}
+        {% assign rssContentType = 'audio/mpeg3' %}
+
+        {% include rss/rss_item.xml %}
+
+    {% endif %}
+{% endfor %}

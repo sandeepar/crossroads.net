@@ -9,9 +9,6 @@
 @import 'icon';
 @import 'thefeed';
 // @import 'block-grid';
-body {
-  font-family: 'Roboto', 'Helvetica Neue', 'Arial', san-serif;
-}
 
 a:hover {
   text-decoration:none;
@@ -46,6 +43,18 @@ footer {
 
 .posts li {list-style:none;}
 
+.home .home-header {
+  color: $cr-blue;
+  letter-spacing: -1px;
+}
+.home .tagline {
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+.home .tagline small {
+  font-weight: 300;
+}
+
 
 /***************************************************************************************
 * Dashboard Elements - used on /dashboard.html
@@ -75,36 +84,4 @@ footer {
 
 .rt_block_spacer {
     margin-bottom: 1em;
-}
-/* RIGHT SIDE BAR */
-
-
-
-/* Nav Page Push */
-@media only screen and (min-device-width : 320px) and (max-device-width : 768px) {
-  #sp-nav {
-    -webkit-transform: translatex(-100%);
-    transform: translatex(-100%);
-    position: absolute;
-    transition: all 0.3s;
-  }
-
-  #sp-page {
-    -webkit-transform: translatex(0%);
-    transform: translatex(0%);
-    transition: all 0.3s;
-    padding: 0 20px;
-  }
-
-  #sp-nav.show {
-    -webkit-transform: translatex(0%);
-    transform: translatex(0%);
-    transition: all 0.3s;
-  }
-
-  #sp-page.show {
-    -webkit-transform: translatex(90%);
-    transform: translatex(0%);
-    transition: all 0.3s;
-  }
 }

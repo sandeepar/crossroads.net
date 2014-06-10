@@ -1,13 +1,13 @@
 crossroads.net
 ==============
- 
+
 Code base for Milacron.
 Please feel free to contribute by forking and doing a pull request
 
 ## Local Development
-crossroads.net uses LinemanJs to manage and run things in local development.
+crossroads.net uses GulpJS to manage and run things in local development.
 
-For more information about Lineman visit: http://linemanjs.com
+For more information about Gulp visit: http://gulpjs.com
 
 ### Prerequisites
 * npm (comes with node, http://nodejs.org/)
@@ -15,27 +15,21 @@ For more information about Lineman visit: http://linemanjs.com
 
 ### Setup
 * ```npm install```
-* you may want to install lineman globally, ```sudo npm -g install lineman```
-* ```gem install bundle```
+* you may want to install gulp globally, ```npm -g install gulp```
+* ```gem install bundler```
 * ```bundle install```
 
 ### Running the project
-To run the project use: ```lineman run```
-
-Then you will need to also start NodeMon in another terminal window.
-You can do this by using: ```lineman grunt nodemon```
+To run the project use: ```gulp```
 
 This will watch the filesystem and compile all the sass into css,
-coffeescript into javascript and run jkyll-build as well.
+coffeescript into javascript and run jekyll-build as well. This will also run
+the node server making the site available at localhost:3000
 
 ### Running the specs
-To run specs use: ```lineman spec```
+To run specs use: ```gulp test```
 
-This will start the Testem spec runner.
-
-### Running specs headlessly
-```lineman spec-ci```
-This uses phantomjs, which you will need to have installed.
+This will run the AngularJS spec headlessly in phantomjs, which you will need to have installed.
 
 ### Codeship
 We're on the codeship. The project is at: https://www.codeship.io/projects/20882. Codeship is setup to automatically deploy to heroku at: http://crdschurch-dev2.herokuapp.com/
