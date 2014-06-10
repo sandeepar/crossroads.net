@@ -1,7 +1,6 @@
 var devEnv = process.env.NODE_ENV == 'development';
 
 var gulp = require('gulp'),
-    exec =  require('gulp-exec'),
     templateCache = require('gulp-angular-templatecache'),
     coffeelint = require('gulp-coffeelint'),
     gutil = require('gulp-util'),
@@ -16,7 +15,9 @@ var gulp = require('gulp'),
     gulpif = require('gulp-if'),
     ngmin = require('gulp-ngmin'),
     uglify = require('gulp-uglify'),
-    minifyCSS = require('gulp-minify-css');
+    minifyCSS = require('gulp-minify-css'),
+    cp = require('child_process'),
+    livereload = require('gulp-livereload');
 
 var paths = {
     specs: ['spec/js/**/*.coffee'],
@@ -75,33 +76,34 @@ gulp.task('clean', function() {
 	.pipe(clean());
 });
 
-gulp.task('jekyll', function(){
-    var options = {
-	continueOnError: true
-    };
-    return gulp.src('')
-	.pipe(exec('bundle exec jekyll build', options));
+gulp.task('jekyll', function(cb){
+    var bundle = cp.spawn('bundle', ['exec', 'jekyll', 'build', '--watch']);
+    bundle.on('close', cb);
+    bundle.stdout.on('data', function(data) {
+	console.log('[jekyll] ', data.toString());
+	livereload.changed('jekyll');
+    });
 });
 
-gulp.task('mkdirs', ['jekyll'], function() {
-    return gulp.src('')
-	.pipe(exec('mkdir -p generated/js'))
-	.pipe(exec('mkdir -p generated/css'));
+gulp.task('mkdirs', function() {
+    cp.exec('mkdir -p generated/js');
+    cp.exec('mkdir -p generated/css');
 });
 
-gulp.task('coffee', ['mkdirs'], function() {
+gulp.task('coffee', function() {
     return streamqueue({ objectMode: true },
-		gulp.src(vendor),
-		gulp.src(paths.scripts)
-		.pipe(coffeelint())
-		.pipe(coffeelint.reporter())
-		.pipe(coffee().on('error', gutil.log)),
-		gulp.src(paths.templates)
-		.pipe(templateCache({standalone: true}))
-	       )
+		       gulp.src(vendor),
+		       gulp.src(paths.scripts)
+		       .pipe(coffeelint())
+		       .pipe(coffeelint.reporter())
+		       .pipe(coffee().on('error', gutil.log)),
+		       gulp.src(paths.templates)
+		       .pipe(templateCache({standalone: true}))
+		      )
 	.pipe(concat('app.js'))
 	.pipe(gulpif(!devEnv, ngmin()))
-	.pipe(gulp.dest('generated/js'));
+	.pipe(gulp.dest('generated/js'))
+	.pipe(gulpif(devEnv, livereload()));
 });
 
 gulp.task('sass', function() {
@@ -109,7 +111,8 @@ gulp.task('sass', function() {
 	.pipe(sass({sourcemap: false}))
     	.pipe(concat('app.css'))
 	.pipe(gulpif(!devEnv, minifyCSS()))
-	.pipe(gulp.dest('generated/css'));
+	.pipe(gulp.dest('generated/css'))
+	.pipe(gulpif(devEnv, livereload()));
 });
 
 gulp.task('server', function() {
@@ -117,6 +120,7 @@ gulp.task('server', function() {
 	script: './server/server.js',
 	ignore: ['app/','_site/','config/','generated/','spec/','tmp/','vendor/']
     });
+    livereload.listen();
 });
 
 
@@ -125,7 +129,6 @@ gulp.task('karma', ['coffee'], function(done) {
 });
 
 gulp.task('watch', function() {
-    gulp.watch(paths.posts, ['jekyll']);
     gulp.watch(paths.scripts, ['clean', 'coffee']);
     gulp.watch(paths.sass, ['sass']);
 });
@@ -137,6 +140,6 @@ gulp.task('spec-watch', function() {
 
 gulp.task('test', ['clean', 'karma', 'spec-watch']);
 gulp.task('ci', ['clean', 'karma']);
-gulp.task('dev', ['clean', 'coffee', 'sass', 'server', 'watch']);
+gulp.task('dev', ['clean', 'coffee', 'sass', 'jekyll', 'server', 'watch']);
 gulp.task('build', ['clean', 'coffee', 'sass']);
 gulp.task('default', ['dev']);
