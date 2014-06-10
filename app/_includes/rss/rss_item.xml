@@ -1,0 +1,35 @@
+<!-- rss_item.html -->
+{% if rssItem[url] contains 'http://' or rssItem[url] contains 'https://' %}
+<item>
+    <!-- PODCAST - AUTHOR AND DETAILS -->
+    <itunes:author>Crossroads</itunes:author>
+    <pubDate>{{ rssItem.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+
+    <title>{{ rssItem.title | xml_escape | truncate:255 }}</title>
+
+    <itunes:subtitle>{{ rssItem[description] | xml_escape | truncate:255 }}</itunes:subtitle>
+    <description>{{ rssItem[description] | xml_escape }}</description>
+    <itunes:summary>{{ rssItem[description] | xml_escape }}</itunes:summary>
+    <itunes:keywords>Brian Tome,crossroads,crossroads church</itunes:keywords>
+
+    <!-- PODCAST - ADULT CONTENT -->
+    {% if rssItem.explicit == true %}
+    <itunes:explicit>yes</itunes:explicit>
+    {% else %}
+    <itunes:explicit>no</itunes:explicit>
+    {% endif %}
+
+    <!-- PODCAST - MEDIA LINKS -->
+    {% if rssItem[duration] == ":" %}
+        <itunes:duration>0:00</itunes:duration>
+    {% else %}
+        <itunes:duration>{{ rssItem[duration] }}</itunes:duration>
+    {% endif %}
+    <enclosure url="{{ rssItem[url] | xml_escape | replace:' ','+' }}" type="{{ rssContentType }}" length="123456"/>
+    <media:content url="{{ rssItem[url] | xml_escape | replace:' ','+' }}" fileSize="123456" type="{{ rssContentType }}"/>
+    <link>{{ rssItem[url] | xml_escape }}</link>
+
+    <!-- Unique ID -->
+    <guid isPermaLink="false">{{ rssItem[url] | xml_escape | replace:' ','+' }}-{{ rssItem.relative_path }}</guid>
+</item>
+{% endif %}

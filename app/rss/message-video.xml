@@ -1,0 +1,23 @@
+---
+layout: rss
+title: "Crossroads Church (Message Video)"
+thumbnail: "http://www.crossroads.net/uploadedfiles/CR_podcast_video.jpg"
+---
+
+<!-- PODCAST ITEMS -->
+{% assign sorted = site.messages | sort: "date", "first" %}
+{% for message in sorted reversed %}
+    {% assign rssItem = message %}
+
+    {% if rssItem.video %}
+
+        <!-- Define field names specific to the item type to be used by the include -->
+        {% assign description = 'video-description' %}
+        {% assign duration = 'video-duration' %}
+        {% assign url = 'video' %}
+        {% assign rssContentType = 'video/mp4' %}
+
+        {% include rss/rss_item.xml %}
+
+    {% endif %}
+{% endfor %}
