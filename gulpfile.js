@@ -141,13 +141,12 @@ gulp.task('karma', ['coffee'], function(done) {
 });
 
 gulp.task('watch', function() {
-    gulp.watch(paths.scripts, ['clean', 'coffee']);
+    gulp.watch([paths.scripts, paths.templates], ['clean', 'coffee']);
     gulp.watch(paths.sass, ['sass']);
 });
 
 gulp.task('spec-watch', function() {
-    gulp.watch(paths.specs, ['clean', 'coffee', 'karma']);
-    gulp.watch(paths.scripts, ['clean', 'coffee', 'karma']);
+    gulp.watch([paths.specs, paths.scripts, paths.templates], ['clean', 'coffee', 'karma']);
 });
 
 gulp.task('test', ['clean', 'mkdirs', 'karma', 'spec-watch']);

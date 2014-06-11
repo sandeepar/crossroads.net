@@ -14,7 +14,7 @@ describe "crds menu directive", ->
         title: "hi",
   	    link: "foo",
   	    items : [
-      	  {title: "thing",  link: "#"}]
+      	  {title: "thing",  link: "#", items: [title: "thing",  link: "#"]}]
       ]
     }
 
@@ -27,6 +27,6 @@ describe "crds menu directive", ->
   it "should have an element", ->
     expect(@element.html().length).toBeGreaterThan(0)
   it "should render a menu", ->
-    expect(@element.find(".heading__title").html()).toMatch /hi/
+    expect(@element.find(".navbar--heading__title").html()).toMatch /hi/
   it "should render items", ->
     expect(@element.find(".heading__item").html()).toMatch /thing/
