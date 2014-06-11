@@ -77,7 +77,7 @@ gulp.task('clean', function() {
 });
 
 gulp.task('jekyll', function(cb){
-    var bundle = cp.spawn('bundle', ['exec', 'jekyll', 'build', '--watch']);
+    var bundle = cp.spawn('bundle', ['exec', 'jekyll', 'build', '--config', '_config.yml,config/_config.dev.yml', '--watch']);
     bundle.on('close', cb);
     bundle.stdout.on('data', function(data) {
 	console.log('[jekyll] ', data.toString());
@@ -86,7 +86,7 @@ gulp.task('jekyll', function(cb){
 });
 
 gulp.task('jb', function(cb) {
-    var bundle = cp.spawn('bundle', ['exec', 'jekyll', 'build']);
+    var bundle = cp.spawn('bundle', ['exec', 'jekyll', 'build', '--config', '_config.yml,config/_config.ci.yml']);
     bundle.on('close', cb);
     bundle.stdout.on('data', function(data) {
 	console.log('[jekyll] ', data.toString());

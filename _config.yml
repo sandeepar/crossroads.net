@@ -6,7 +6,7 @@ highlighter: true
 port: 4002
 keep_files: ["css/*", "js/*"]
 relative_permalinks: false
-baseurl: http://localhost:3000
+baseurl: http://milacron.crossroads.net
 feedurl: http://milacron.crossroads.net
 exclude: ["vendor", "node_modules", "*.scss", "*.coffee"]
 collections:
