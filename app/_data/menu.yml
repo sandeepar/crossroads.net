@@ -3,6 +3,13 @@
     -
       title: "My Crossroads"
       icon: "icon--crossroads"
+      mobile_items:
+        -
+          title: "mobile link 1"
+          link: "#"
+        -
+          title: "mobile link 2"
+          link: "#"
       items:
         -
           title: "My Account"
@@ -49,6 +56,13 @@
     -
       title: "Engage"
       icon: "icon--engage"
+      mobile_items:
+        -
+          title: "mobile link 1"
+          link: "#"
+        -
+          title: "mobile link 2"
+          link: "#"
       items:
         -
           title: "Serving Opportunities"
@@ -126,6 +140,13 @@
     -
       title: "Grow"
       icon: "icon--grow"
+      mobile_items:
+        -
+          title: "mobile link 1"
+          link: "#"
+        -
+          title: "mobile link 2"
+          link: "#"
       items:
         -
           title: "Ways to Grow"
@@ -196,6 +217,13 @@
     -
       title: "About"
       icon: "icon--about"
+      mobile_items:
+        -
+          title: "mobile link 1"
+          link: "#"
+        -
+          title: "mobile link 2"
+          link: "#"
       items:
         -
           title: "About Us"
@@ -284,6 +312,13 @@
     -
       title: "Give"
       icon: "icon--give"
+      mobile_items:
+        -
+          title: "mobile link 1"
+          link: "#"
+        -
+          title: "mobile link 2"
+          link: "#"
       items:
         -
           title: "Give to Crossroads"
@@ -330,6 +365,13 @@
     -
       title: "Media"
       icon: "icon--media"
+      mobile_items:
+        -
+          title: "mobile link 1"
+          link: "#"
+        -
+          title: "mobile link 2"
+          link: "#"
       items:
         -
           title: "Recent Weekend Audio"
@@ -386,6 +428,13 @@
     -
       title: "Admin"
       icon: "icon--admin"
+      mobile_items:
+        -
+          title: "mobile link 1"
+          link: "#"
+        -
+          title: "mobile link 2"
+          link: "#"
       items:
         -
           title: "Admin"
