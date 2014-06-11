@@ -1,8 +1,8 @@
 describe "crds menu directive", ->
   beforeEach ->
     module("crossroads")
-    module('templates/crdsMenu.html')
-    module('templates/login.html')
+    module('/templates/crdsMenu.html')
+    module('/templates/login.html')
 
   beforeEach inject(($compile, $rootScope, $httpBackend) ->
     $httpBackend.whenGET("https://my.crossroads.net/ministryplatform/oauth/me")

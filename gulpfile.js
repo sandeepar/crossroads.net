@@ -30,13 +30,18 @@ var paths = {
 var karmaConf = {
     preprocessors: {
 	'**/*.coffee': ['coffee'],
-	'app/templates/**/*.html': ['ng-html2js']
+	'**/*.html': ['ng-html2js']
 
+    },
+    coffeePreprocessor: {
+      options: {
+        bare: false,
+        sourceMap: false
+      }
     },
     ngHtml2JsPreprocessor: {
-	stripPrefix: 'app/'
+	stripPrefix: "app"
     },
-
     browsers: ['PhantomJS'],
     frameworks: ['jasmine'],
     files: [
@@ -131,7 +136,6 @@ gulp.task('server', function() {
     livereload.listen();
 });
 
-
 gulp.task('karma', ['coffee'], function(done) {
     return karma.start(_.assign({}, karmaConf, {singleRun: true}), done);
 });
@@ -146,7 +150,7 @@ gulp.task('spec-watch', function() {
     gulp.watch(paths.scripts, ['clean', 'coffee', 'karma']);
 });
 
-gulp.task('test', ['clean', 'karma', 'spec-watch']);
+gulp.task('test', ['clean', 'mkdirs', 'karma', 'spec-watch']);
 gulp.task('ci', ['clean', 'karma']);
 gulp.task('dev', ['clean', 'coffee', 'sass', 'jekyll', 'server', 'watch']);
 gulp.task('build', ['clean', 'jb', 'coffee', 'sass']);
