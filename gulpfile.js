@@ -85,6 +85,14 @@ gulp.task('jekyll', function(cb){
     });
 });
 
+gulp.task('jb', function(cb) {
+    var bundle = cp.spawn('bundle', ['exec', 'jekyll', 'build', '--watch']);
+    bundle.on('close', cb);
+    bundle.stdout.on('data', function(data) {
+	console.log('[jekyll] ', data.toString());
+    });
+});
+
 gulp.task('mkdirs', function() {
     cp.exec('mkdir -p generated/js');
     cp.exec('mkdir -p generated/css');
@@ -141,5 +149,5 @@ gulp.task('spec-watch', function() {
 gulp.task('test', ['clean', 'karma', 'spec-watch']);
 gulp.task('ci', ['clean', 'karma']);
 gulp.task('dev', ['clean', 'coffee', 'sass', 'jekyll', 'server', 'watch']);
-gulp.task('build', ['clean', 'jekyll', 'coffee', 'sass']);
+gulp.task('build', ['clean', 'jb', 'coffee', 'sass']);
 gulp.task('default', ['dev']);
