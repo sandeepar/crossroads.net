@@ -86,7 +86,7 @@ gulp.task('jekyll', function(cb){
 });
 
 gulp.task('jb', function(cb) {
-    var bundle = cp.spawn('bundle', ['exec', 'jekyll', 'build', '--watch']);
+    var bundle = cp.spawn('bundle', ['exec', 'jekyll', 'build']);
     bundle.on('close', cb);
     bundle.stdout.on('data', function(data) {
 	console.log('[jekyll] ', data.toString());
