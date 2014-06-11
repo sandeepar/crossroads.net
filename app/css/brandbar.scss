@@ -2,8 +2,10 @@
 .brandbar {
 	height: 8px;
 	width: 100%;
-	z-index: 200;
+	z-index: 1000000;
+	position: absolute;
 }
+
 .brandbar span {
 	height: 100%;
 	float: left;
