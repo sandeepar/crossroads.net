@@ -107,6 +107,7 @@ gulp.task('mkdirs', function() {
 gulp.task('vendor', function() {
     return gulp.src(vendor)
 	.pipe(concat('vendor.js'))
+    	.pipe(gulpif(!devEnv, ngmin()))
 	.pipe(gulp.dest('generated/js'));
 });
 
