@@ -46,6 +46,7 @@ var karmaConf = {
     frameworks: ['jasmine'],
     files: [
 	'spec/helpers/*.js',
+	'generated/js/vendor.js',
 	'generated/js/app.js',
 	'spec/js/**/*.coffee',
 	'app/templates/**/*.html'
@@ -77,7 +78,7 @@ var vendor = [
 ];
 
 gulp.task('clean', function() {
-    gulp.src('generated/js/*.*')
+    gulp.src('generated/{js,css}/*.*')
 	.pipe(clean());
 });
 
@@ -103,9 +104,14 @@ gulp.task('mkdirs', function() {
     cp.exec('mkdir -p generated/css');
 });
 
-gulp.task('coffee', function() {
+gulp.task('vendor', function() {
+    return gulp.src(vendor)
+	.pipe(concat('vendor.js'))
+	.pipe(gulp.dest('generated/js'));
+});
+
+gulp.task('coffee', ['vendor'], function() {;
     return streamqueue({ objectMode: true },
-		       gulp.src(vendor),
 		       gulp.src(paths.scripts)
 		       .pipe(coffeelint())
 		       .pipe(coffeelint.reporter())
@@ -149,7 +155,7 @@ gulp.task('spec-watch', function() {
     gulp.watch([paths.specs, paths.scripts, paths.templates], ['clean', 'coffee', 'karma']);
 });
 
-gulp.task('test', ['clean', 'mkdirs', 'karma', 'spec-watch']);
+gulp.task('test', ['clean', 'mkdirs', 'sass', 'karma', 'spec-watch']);
 gulp.task('ci', ['clean', 'karma']);
 gulp.task('dev', ['clean', 'coffee', 'sass', 'jekyll', 'server', 'watch']);
 gulp.task('build', ['clean', 'jb', 'coffee', 'sass']);
