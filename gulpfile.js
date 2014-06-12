@@ -30,17 +30,23 @@ var paths = {
 var karmaConf = {
     preprocessors: {
 	'**/*.coffee': ['coffee'],
-	'app/templates/**/*.html': ['ng-html2js']
+	'**/*.html': ['ng-html2js']
 
+    },
+    coffeePreprocessor: {
+      options: {
+        bare: false,
+        sourceMap: false
+      }
     },
     ngHtml2JsPreprocessor: {
-	stripPrefix: 'app/'
+	stripPrefix: "app"
     },
-
     browsers: ['PhantomJS'],
     frameworks: ['jasmine'],
     files: [
 	'spec/helpers/*.js',
+	'generated/js/vendor.js',
 	'generated/js/app.js',
 	'spec/js/**/*.coffee',
 	'app/templates/**/*.html'
@@ -72,7 +78,7 @@ var vendor = [
 ];
 
 gulp.task('clean', function() {
-    gulp.src('generated/js/*.*')
+    gulp.src('generated/{js,css}/*.*')
 	.pipe(clean());
 });
 
@@ -98,9 +104,15 @@ gulp.task('mkdirs', function() {
     cp.exec('mkdir -p generated/css');
 });
 
-gulp.task('coffee', function() {
+gulp.task('vendor', function() {
+    return gulp.src(vendor)
+	.pipe(concat('vendor.js'))
+    	.pipe(gulpif(!devEnv, ngmin()))
+	.pipe(gulp.dest('generated/js'));
+});
+
+gulp.task('coffee', ['vendor'], function() {;
     return streamqueue({ objectMode: true },
-		       gulp.src(vendor),
 		       gulp.src(paths.scripts)
 		       .pipe(coffeelint())
 		       .pipe(coffeelint.reporter())
@@ -131,22 +143,20 @@ gulp.task('server', function() {
     livereload.listen();
 });
 
-
 gulp.task('karma', ['coffee'], function(done) {
     return karma.start(_.assign({}, karmaConf, {singleRun: true}), done);
 });
 
 gulp.task('watch', function() {
-    gulp.watch(paths.scripts, ['clean', 'coffee']);
+    gulp.watch([paths.scripts, paths.templates], ['clean', 'coffee']);
     gulp.watch(paths.sass, ['sass']);
 });
 
 gulp.task('spec-watch', function() {
-    gulp.watch(paths.specs, ['clean', 'coffee', 'karma']);
-    gulp.watch(paths.scripts, ['clean', 'coffee', 'karma']);
+    gulp.watch([paths.specs, paths.scripts, paths.templates], ['clean', 'coffee', 'karma']);
 });
 
-gulp.task('test', ['clean', 'karma', 'spec-watch']);
+gulp.task('test', ['clean', 'mkdirs', 'sass', 'karma', 'spec-watch']);
 gulp.task('ci', ['clean', 'karma']);
 gulp.task('dev', ['clean', 'coffee', 'sass', 'jekyll', 'server', 'watch']);
 gulp.task('build', ['clean', 'jb', 'coffee', 'sass']);
