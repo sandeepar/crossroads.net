@@ -7,11 +7,12 @@ $icon-font-path: "/app/fonts/";
 // -------------------------
 
 $cr-blue:				#3b6e8f; //PMS 5405 C58 M17 Y0   K46
-$cr-orange:				#d06f1a; //PMS 167  C0  M60 Y100 K17
+$cr-orange:				#b05c30; //PMS 167  C0  M60 Y100 K17
 $cr-dkblue:				#113556;
 $cr-grey:				#878785; //PMS Cool Grey 9
 
 $brand-primary:			$cr-blue;
+$brand-secondary:   $cr-orange;
 
 // Navbar
 // -------------------------
@@ -22,3 +23,10 @@ $navbar-default-border:            none;
 
 // Navbar links
 $navbar-default-link-active-bg:         #fff;
+
+//== Buttons
+//
+//## For each of Bootstrap's buttons, define text, background and border color.
+$btn-default-color:              #fff !default;
+$btn-default-bg:                 $brand-secondary !default;
+$btn-default-border:             darken($btn-default-bg, 5%) !default;
