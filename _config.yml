@@ -8,6 +8,7 @@ keep_files: ["css/*", "js/*"]
 relative_permalinks: false
 baseurl: http://milacron.crossroads.net
 feedurl: http://milacron.crossroads.net
+disqus_shortname: milacroncrossroadsnet
 exclude: ["vendor", "node_modules", "*.scss", "*.coffee"]
 collections:
   blog:
