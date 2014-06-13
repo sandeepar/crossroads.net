@@ -5,8 +5,7 @@ series: "Fresh Breath"
 title: "Prayer is Easy"
 date: 2005-04-23-00-00
 message_id: 123
-audio-description: "Consider the natural things we do - the rhythm of life, eating, sleeping, breathing. Now, think of prayer. For most of us it doesn't fit. For many of us, prayer has become this unnatural, planned thing we do at ''official'' places like church and the hors"
-audio: "http://www.crossroads.net/audio/2005/2005_04_Fresh_Breath/Fresh_Breath_02_04_23_05_Prayer_is_Easy.mp3"
-audio-title: "Prayer is Easy"
+audio: "http://s3.amazonaws.com/crossroads-media/media/legacy/mp3/Fresh_Breath_02_04_23_05_Prayer_is_Easy.mp3"
 audio-duration: "29:57"
+flag: "N"
 ---

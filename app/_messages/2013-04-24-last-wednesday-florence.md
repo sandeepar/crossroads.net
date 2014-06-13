@@ -5,12 +5,11 @@ series: "Rhythm"
 title: "Last Wednesday: Florence"
 date: 2013-04-24-00-00
 message_id: 783
-audio-description: "Last Wednesday April 2013 - Florence"
-audio: "http://www.crossroads.net/players/media/hq/042413-LW-Florence.mp3"
-audio-title: "Last Wednesday April 2013 - Florence"
+audio: "http://s3.amazonaws.com/crossroads-media/media/legacy/mp3/042413-LW-Florence.mp3"
 audio-duration: "14:45"
-video-description: "Last Wednesday April 2013 - Florence"
-video-title: "Last Wednesday April 2013 - Florence"
+description: "Last Wednesday April 2013 - Florence"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/042413-LW-Florence.mp4"
-video-poster: "https://www.crossroads.net/uploadedfiles/042413-LW-Florence-still.jpg"
+video-duration: "14:46"
+video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/042413-LW-Florence-still.jpg"
+flag: "N"
 ---

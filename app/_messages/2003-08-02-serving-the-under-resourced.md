@@ -5,8 +5,7 @@ series: "Letter From a Revolutionary"
 title: "Serving the Under Resourced"
 date: 2003-08-02-00-00
 message_id: 212
-audio-description: "A look at themes such as temptation, patience, and anger from the Bible’s Book of James."
-audio: "http://www.crossroads.net/audio/2003%20-%20July%20-%20LFAR/LFAR_06_08-03-03_Serving_The_Under-Resourced.mp3"
-audio-title: "Serving the Under Resourced"
+audio: "http://s3.amazonaws.com/crossroads-media/media/legacy/mp3/LFAR_06_08-03-03_Serving_The_Under-Resourced.mp3"
 audio-duration: "37:04"
+flag: "N"
 ---

@@ -5,8 +5,7 @@ series: "Life, The Universe and Everything"
 title: "God Wants Your Leadership"
 date: 2004-09-11-00-00
 message_id: 154
-audio-description: "Life, The Universe and Everything"
-audio: "http://www.crossroads.net/audio/2004/2004_08_Life/LTUAE_05_09-11-04_Leadership.mp3"
-audio-title: "God Wants Your Leadership"
+audio: "http://s3.amazonaws.com/crossroads-media/media/legacy/mp3/LTUAE_05_09-11-04_Leadership.mp3"
 audio-duration: "33:35"
+flag: "N"
 ---

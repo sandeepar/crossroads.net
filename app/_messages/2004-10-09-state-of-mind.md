@@ -5,8 +5,7 @@ series: "United States Of Addiction"
 title: "State Of Mind"
 date: 2004-10-09-00-00
 message_id: 150
-audio-description: "It’s no secret. Addictions seem to be everywhere. There are those of us that wrestle with the “big” stuff. Maybe its feeling trapped by drugs or alcohol. Or something like sex, overeating or gambling. And then there are some of us that struggle with not s"
-audio: "http://www.crossroads.net/audio/2004/2004_09_USA/USA_02_10-09-04_Mind.mp3"
-audio-title: "State Of Mind"
+audio: "http://s3.amazonaws.com/crossroads-media/media/legacy/mp3/USA_02_10-09-04_Mind.mp3"
 audio-duration: "40:01"
+flag: "N"
 ---

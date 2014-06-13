@@ -5,12 +5,11 @@ series: "The Gift of Freedom"
 title: "The Power of Freedom"
 date: 2013-12-14-00-00
 message_id: 835
-audio-description: "Florence"
-audio: "http://www.crossroads.net/players/media/hq/giftoffreedom_03_florence.mp3"
-audio-title: "The Power of Freedom"
+audio: "http://s3.amazonaws.com/crossroads-media/media/legacy/mp3/giftoffreedom_03_florence.mp3"
 audio-duration: "38:12"
-video-description: "Florence"
-video-title: "The Power of Freedom"
+description: "Florence"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/giftoffreedom_03_florence.mp4"
-video-poster: "https://www.crossroads.net/uploadedfiles/giftoffreedom_03_fl_still.jpg"
+video-duration: "38:12"
+video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/giftoffreedom_03_fl_still.jpg"
+flag: "N"
 ---

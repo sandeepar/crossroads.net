@@ -5,12 +5,11 @@ series: "Go Forth"
 title: "Last Wednesday-Oakley"
 date: 2013-08-28-00-00
 message_id: 812
-audio-description: ""
-audio: "http://www.crossroads.net/players/media/hq/082813%20LW-Oakley.mp3"
-audio-title: "Last Wednesday - Oakley"
+audio: "http://s3.amazonaws.com/crossroads-media/media/legacy/mp3/082813%20LW-Oakley.mp3"
 audio-duration: "40:30"
-video-description: ""
-video-title: "Last Wednesday - Oakley"
+description: ""
 video: "https://s3.amazonaws.com/crossroadsvideomessages/082813 LW-Oakley.mp4"
-video-poster: "https://www.crossroads.net/uploadedfiles/082813_LW-Oakley_still.jpg"
+video-duration: "40:35"
+video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/082813_LW-Oakley_still.jpg"
+flag: "N"
 ---

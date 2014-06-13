@@ -5,8 +5,7 @@ series: "The Joneses"
 title: "Fatter Cash"
 date: 2006-11-11-00-00
 message_id: 43
-audio-description: "Do you know the Joneses? They live in bigger houses, drive nicer cars and wear more stylish clothes than you do. Try as you might to keep up, they always seem to be a few steps ahead. Might sound familiar, but the reality is that 'the Joneses' are a lie -"
-audio: "http://www.crossroads.net/audio/2006/2006_11_The_Joneses/The_Joneses_02_Fatter_Cash_11-12-06_Tome.mp3"
-audio-title: "Fatter Cash"
+audio: "http://s3.amazonaws.com/crossroads-media/media/legacy/mp3/The_Joneses_02_Fatter_Cash_11-12-06_Tome.mp3"
 audio-duration: "48:16"
+flag: "N"
 ---
