@@ -1,0 +1,15 @@
+{% assign sorted = site.series | sort: "date", "first" %}
+{% assign series = sorted.last %}
+<div class="col-sm-3">
+    <img class="img-responsive" src="{{ series.src }}" alt="{{ series.title }}" >
+</div>
+<div class="col-sm-9">
+    <h5 class="series-title">
+        <strong>
+            Current Series {{ series.date | date:"%B %d" }}&#8212;{{ series.endDate | date:"%B %d" }}: {{ series.title }}
+        </strong>
+    </h5>
+    <p class="series-description">{{ series.description }}</p>
+    <br>
+    <a href="{{ series.url }}">View Messages</a>
+</div>

@@ -37,8 +37,18 @@ a:hover {
 footer {
 	background-color: $gray-lighter;
 	padding: 25px 0;
-    margin-top: 40px;
+  margin-top: 40px;
+  padding-bottom: 200px;
+  color: $cr-grey;
 }
+footer h5 {
+  margin-top: 0;
+}
+
+footer .open, footer .office {
+  border-left: 1px solid #878785;
+}
+
 
 .center {
     float:none;
