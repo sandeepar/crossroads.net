@@ -84,9 +84,6 @@ crossroads.factory "Auth", ($cookieStore, $http, $location, $rootScope) ->
 
   getAccessToken: (username, password) ->
     data =
-      client_id: $rootScope.CONFIG.clientId
-      client_secret: $rootScope.CONFIG.clientSecret
-      grant_type: "password"
       username: username
       password: password
 
@@ -98,9 +95,6 @@ crossroads.factory "Auth", ($cookieStore, $http, $location, $rootScope) ->
         "Content-Type": "application/x-www-form-urlencoded"
         Authorization: null
     ).success((data, status, headers, config) ->
-      console.log "Authentication Successful!"
-      $cookieStore.put "auth", data
-      authenticate data.access_token
       redirectToHome()
       return
     ).error (data, status) ->

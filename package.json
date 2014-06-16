@@ -19,7 +19,6 @@
     "gulp-ruby-sass": "^0.5.0",
     "gulp-uglify": "^0.3.0",
     "gulp-util": "^2.2.16",
-     "superagent": "~0.16.0",
     "karma": "^0.12.16",
     "karma-chrome-launcher": "^0.1.4",
     "karma-coffee-preprocessor": "^0.2.1",
@@ -34,6 +33,10 @@
     "body-parser": "^1.3.0",
     "dotenv": "^0.2.8",
     "express": "^4.4.1",
-    "http-server": "latest"
+    "http-server": "latest",
+    "simple-oauth2": "^0.1.9",
+    "superagent": "~0.16.0",
+    "passport": "~0.2.0",
+    "moment": "~2.5.1"
   }
 }
