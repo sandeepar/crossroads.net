@@ -23,19 +23,19 @@ passport.deserializeUser(function(str, done) {
 
 module.exports = function(app) {
     app.post("/login", function(req, res, next){
-        var token;
-        OAuth2.Password.getToken({
+        var token = OAuth2.Password.getToken({
             username: req.body.username,
             password: req.body.password
         }, saveToken);
+
         function saveToken(error, result) {
             if (error) {
-                return res.send(error, result);
+                return res.send(403);
             }
             token = OAuth2.AccessToken.create(result);
             req.login(token, function(error) {
                 if(error) {
-                  return next(error);
+                    return res.send(500);
                }
                return res.send(200);
             });
