@@ -77,3 +77,22 @@
   }
 
 }
+
+//breadcrumb overrides
+.breadcrumb {
+  background-color: transparent;
+  padding-left: 0;
+  > li {
+    + li:before {
+      color: $cr-grey;
+    }
+  }
+}
+ol.breadcrumb li {
+  color: $cr-blue;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+ol.breadcrumb li.active {
+  text-transform: none;
+}
