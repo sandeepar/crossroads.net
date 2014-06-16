@@ -12,5 +12,5 @@ description: "Brian Tome talks about how the story ends."
 video: "https://s3.amazonaws.com/crossroadsvideomessages/thestory08.mp4"
 video-duration: "56:07"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/thestory08_still.jpg"
-flag: "N"
+explicit: "N"
 ---

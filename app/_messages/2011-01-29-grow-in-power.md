@@ -14,5 +14,5 @@ description: "Brian Tome talks about what the Bible describes as \"walking in th
 video: "https://s3.amazonaws.com/crossroadsvideomessages/growup05.mp4"
 video-duration: "39:12"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/growup05_still.jpg"
-flag: "N"
+explicit: "N"
 ---

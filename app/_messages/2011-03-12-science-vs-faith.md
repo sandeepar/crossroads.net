@@ -12,5 +12,5 @@ description: "We'll be wrestling with the question of how you can believe the Bi
 video: "https://s3.amazonaws.com/crossroadsvideomessages/heavyweights05.mp4"
 video-duration: "45:32"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/heavyweights05_still.jpg"
-flag: "N"
+explicit: "N"
 ---

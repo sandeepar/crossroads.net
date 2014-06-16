@@ -7,5 +7,5 @@ date: 2003-11-02-00-00
 message_id: 199
 audio: "http://s3.amazonaws.com/crossroads-media/media/legacy/mp3/PE_04_11-02-03_Enemy_Of_The_Elite.mp3"
 audio-duration: "37:26"
-flag: "N"
+explicit: "N"
 ---

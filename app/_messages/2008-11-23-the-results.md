@@ -14,5 +14,5 @@ description: "When we choose to engage with an attitude of gratitude, we find th
 video: "https://s3.amazonaws.com/crossroadsvideomessages/GIMMEGIMME4.mp4"
 video-duration: "46:27"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/GIMMEGIMME4-still.jpg"
-flag: "N"
+explicit: "N"
 ---

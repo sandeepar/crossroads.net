@@ -12,5 +12,5 @@ description: "Do you have to be anti-gay to go to church?"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/heavyweights2_wk3.mp4"
 video-duration: "57:06"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/heavyweights2_wk3_still.jpg"
-flag: "N"
+explicit: "N"
 ---

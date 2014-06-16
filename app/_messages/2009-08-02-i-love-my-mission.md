@@ -15,5 +15,5 @@ description: "Mark Stecher shares why he loves his mission, which primarily revo
 video: "https://s3.amazonaws.com/crossroadsvideomessages/WeLoveCincy5.mp4"
 video-duration: "44:11"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/WeLoveCincy5-still.jpg"
-flag: "N"
+explicit: "N"
 ---

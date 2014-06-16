@@ -7,5 +7,5 @@ date: 2002-10-13-00-00
 message_id: 260
 audio: "http://s3.amazonaws.com/crossroadsaudiomessages/Growing%20Through%20Prayer.mp3"
 audio-duration: "36:57"
-flag: "N"
+explicit: "N"
 ---

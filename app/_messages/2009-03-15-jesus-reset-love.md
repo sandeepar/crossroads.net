@@ -12,5 +12,5 @@ video: "https://s3.amazonaws.com/crossroadsvideomessages/Reset4.mp4"
 video-duration: "39:57"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/Reset4-still.jpg"
 program: "http://s3.amazonaws.com/crossroads-media/media/legacy/documents/0314_15Program.pdf"
-flag: "N"
+explicit: "N"
 ---

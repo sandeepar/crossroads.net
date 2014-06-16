@@ -11,5 +11,5 @@ description: "Tome vs. Mingo in the annual smackdown of preaching."
 video: "https://s3.amazonaws.com/crossroadsvideomessages/020114SuperBowlXII.mp4"
 video-duration: "01:16:37"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/superbowlofpreachingxii_still.jpg"
-flag: "N"
+explicit: "N"
 ---

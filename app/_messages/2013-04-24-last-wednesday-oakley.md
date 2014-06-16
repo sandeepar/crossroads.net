@@ -11,5 +11,5 @@ video-duration: "14:09"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/042413-LW-Oakley-still.jpg"
 audio: "http://s3.amazonaws.com/crossroads-media/media/legacy/mp3/042413-LW-Oakley.mp3"
 audio-duration: "14:07"
-flag: "N"
+explicit: "N"
 ---

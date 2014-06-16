@@ -13,5 +13,5 @@ traits, including dissatisfaction with the status quo."
 video: "https://s3.amazonaws.com/crossroadsvideomessages/gamechangers_01.mp4"
 video-duration: "53:36"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/gamechangers_01_still.jpg"
-flag: "N"
+explicit: "N"
 ---

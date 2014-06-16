@@ -12,5 +12,5 @@ description: "At some point, we’ve all felt like we didn’t quite belong. But
 video: "https://s3.amazonaws.com/crossroadsvideomessages/journeyhome_02.mp4"
 video-duration: "40:39"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/journeyhome_02_still.jpg"
-flag: "N"
+explicit: "N"
 ---

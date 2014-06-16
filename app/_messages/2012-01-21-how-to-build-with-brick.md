@@ -12,5 +12,5 @@ description: "Brian Tome talks about how to build our finances with brick."
 video: "https://s3.amazonaws.com/crossroadsvideomessages/bigbadwolf_03.mp4"
 video-duration: "41:29"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/bigbadwolf_03_still.jpg"
-flag: "N"
+explicit: "N"
 ---

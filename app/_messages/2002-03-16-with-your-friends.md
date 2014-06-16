@@ -7,5 +7,5 @@ date: 2002-03-16-00-00
 message_id: 290
 audio: "http://s3.amazonaws.com/crossroads-media/media/legacy/mp3/TCPIR_04_03-17-02_With_Your_Friends.mp3"
 audio-duration: "39:57"
-flag: "N"
+explicit: "N"
 ---

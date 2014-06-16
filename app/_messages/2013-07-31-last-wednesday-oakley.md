@@ -11,5 +11,5 @@ description: "Kyle talks about how God is using fire to make men of steel."
 video: "https://s3.amazonaws.com/crossroadsvideomessages/073113-oakley-lw.mp4"
 video-duration: "42:35"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/073113-oakley-lw-still.jpg"
-flag: "N"
+explicit: "N"
 ---

@@ -14,5 +14,5 @@ description: "We'll be wrestling with the question of how a good God can allow p
 video: "https://s3.amazonaws.com/crossroadsvideomessages/heavyweights04.mp4"
 video-duration: "39:55"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/heavyweights04_still.jpg"
-flag: "N"
+explicit: "N"
 ---

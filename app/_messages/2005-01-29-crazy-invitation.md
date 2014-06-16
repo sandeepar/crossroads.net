@@ -7,5 +7,5 @@ date: 2005-01-29-00-00
 message_id: 135
 audio: "http://s3.amazonaws.com/crossroads-media/media/legacy/mp3/Revolution_04_01-29-05_Crazy_Invitation.mp3"
 audio-duration: "46:36"
-flag: "N"
+explicit: "N"
 ---

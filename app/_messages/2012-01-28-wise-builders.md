@@ -12,5 +12,5 @@ description: "We’ll hear from people in our community talk about money."
 video: "https://s3.amazonaws.com/crossroadsvideomessages/bigbadwolf_04.mp4"
 video-duration: "44:28"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/bigbadwolf_04_still.jpg"
-flag: "N"
+explicit: "N"
 ---

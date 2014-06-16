@@ -12,5 +12,5 @@ description: "Brian Tome talks about the characteristics of Big Bad Wolf."
 video: "https://s3.amazonaws.com/crossroadsvideomessages/bigbadwolf_01.mp4"
 video-duration: "44:22"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/bigbadwolf01_still.jpg"
-flag: "N"
+explicit: "N"
 ---

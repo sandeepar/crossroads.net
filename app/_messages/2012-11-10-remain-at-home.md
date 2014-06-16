@@ -13,5 +13,5 @@ Remaining with God looks like living from His approval and continually experienc
 video: "https://s3.amazonaws.com/crossroadsvideomessages/journeyhome_06.mp4"
 video-duration: "56:48"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/journeyhome_06_still.jpg"
-flag: "N"
+explicit: "N"
 ---

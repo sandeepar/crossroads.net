@@ -11,5 +11,5 @@ description: "Florence"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/032713_lw_florence.mp4"
 video-duration: "27:23"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/032713_LW_Florence.jpg"
-flag: "N"
+explicit: "N"
 ---

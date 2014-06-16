@@ -7,5 +7,5 @@ date: 2003-02-22-00-00
 message_id: 241
 audio: "http://s3.amazonaws.com/crossroads-media/media/legacy/mp3/02_02-23-93_Everyday_Power-Management.mp3"
 audio-duration: "38:44"
-flag: "N"
+explicit: "N"
 ---

@@ -7,5 +7,5 @@ date: 2004-05-16-00-00
 message_id: 171
 audio: "http://s3.amazonaws.com/crossroads-media/media/legacy/mp3/GC_05_05-16-04_Letting_It_Go.mp3"
 audio-duration: "39:41"
-flag: "N"
+explicit: "N"
 ---

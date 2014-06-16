@@ -12,5 +12,5 @@ description: "Chuck Mingo talks about how we view our identity&#58; as an abando
 video: "https://s3.amazonaws.com/crossroadsvideomessages/placeatthetable_01.mp4"
 video-duration: "42:47"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/placeattable_01_still.jpg"
-flag: "N"
+explicit: "N"
 ---

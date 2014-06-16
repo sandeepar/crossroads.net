@@ -7,5 +7,5 @@ date: 2001-09-08-00-00
 message_id: 316
 audio: "http://s3.amazonaws.com/crossroads-media/media/legacy/mp3/MI_01_09-09-01_Visionary_Impact.mp3"
 audio-duration: "34:55"
-flag: "N"
+explicit: "N"
 ---

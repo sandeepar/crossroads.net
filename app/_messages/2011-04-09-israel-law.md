@@ -12,5 +12,5 @@ video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/the
 program: "http://s3.amazonaws.com/crossroads-media/media/legacy/documents/04_09-10_11Program.pdf"
 audio: "http://s3.amazonaws.com/crossroadsaudiomessages/thestory03.mp3"
 audio-duration: "39:02"
-flag: "N"
+explicit: "N"
 ---

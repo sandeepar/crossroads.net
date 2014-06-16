@@ -15,5 +15,5 @@ program: "http://s3.amazonaws.com/crossroads-media/media/legacy/documents/1213_1
 notes-description: ""
 notes: "http://s3.amazonaws.com/crossroads-media/media/legacy/documents/SN_12_13-14_08.pdf"
 notes-title: "Messy Lives (Study Notes)"
-flag: "N"
+explicit: "N"
 ---

@@ -11,5 +11,5 @@ description: "Jesus came to be the rescuer of all people."
 video: "https://s3.amazonaws.com/crossroadsvideomessages/Redemption1.mp4"
 video-duration: "26:08"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/Redemption1-still.jpg"
-flag: "N"
+explicit: "N"
 ---

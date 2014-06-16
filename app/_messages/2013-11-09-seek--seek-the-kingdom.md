@@ -12,5 +12,5 @@ video: "https://s3.amazonaws.com/crossroadsvideomessages/110913forweb.mp4"
 video-duration: "42:37"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/btstill110913.jpg"
 program: "http://s3.amazonaws.com/crossroads-media/media/legacy/documents/KingdomProgram_Week5_LO.pdf"
-flag: "N"
+explicit: "N"
 ---

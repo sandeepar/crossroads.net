@@ -12,5 +12,5 @@ video: "https://s3.amazonaws.com/crossroadsvideomessages/god_is_03.mp4"
 video-duration: "47:39"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/god_is_03_still.jpg"
 program: "http://s3.amazonaws.com/crossroads-media/media/legacy/documents/07_27-28_13Program_LO.pdf"
-flag: "N"
+explicit: "N"
 ---

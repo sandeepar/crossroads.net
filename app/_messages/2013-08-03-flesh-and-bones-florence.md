@@ -11,5 +11,5 @@ description: "Terry Phillips talks about how Jesus is God in flesh and bone."
 video: "https://s3.amazonaws.com/crossroadsvideomessages/god_is_04_fl.mp4"
 video-duration: "39:16"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/god_is_04_still_fl.jpg"
-flag: "N"
+explicit: "N"
 ---

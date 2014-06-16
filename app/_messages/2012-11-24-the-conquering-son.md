@@ -12,5 +12,5 @@ description: "For thousands of years, the Jewish people waited for Him--the Son 
 video: "https://s3.amazonaws.com/crossroadsvideomessages/awaitedson_01.mp4"
 video-duration: "45:45"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/awaitedson01.jpg"
-flag: "N"
+explicit: "N"
 ---

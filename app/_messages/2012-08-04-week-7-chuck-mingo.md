@@ -13,5 +13,5 @@ midst of suffering."
 video: "https://s3.amazonaws.com/crossroadsvideomessages/goodlife_07.mp4"
 video-duration: "41:47"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/goodlife_07_still.jpg"
-flag: "N"
+explicit: "N"
 ---

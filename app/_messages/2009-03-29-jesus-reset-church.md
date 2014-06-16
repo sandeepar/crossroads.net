@@ -12,5 +12,5 @@ description: "Jesus is alive and active today through his Body - the Church. "
 video: "https://s3.amazonaws.com/crossroadsvideomessages/Reset6.mp4"
 video-duration: "40:15"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/Reset6-still.jpg"
-flag: "N"
+explicit: "N"
 ---

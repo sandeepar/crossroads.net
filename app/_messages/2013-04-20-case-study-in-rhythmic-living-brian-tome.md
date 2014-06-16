@@ -12,5 +12,5 @@ video-duration: "36:08"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/rhythm_01_still.jpg"
 audio: "http://s3.amazonaws.com/crossroads-media/media/legacy/mp3/rhythm_01a.mp3"
 audio-duration: "36:03"
-flag: "N"
+explicit: "N"
 ---

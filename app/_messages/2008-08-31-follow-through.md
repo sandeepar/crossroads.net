@@ -15,5 +15,5 @@ video: "http://s3.amazonaws.com/crossroadsvideomessages/Rebuild3-Raw.mp4"
 video-duration: "42:27"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/Rebuild-3-still.jpg"
 program: "http://s3.amazonaws.com/crossroads-media/media/legacy/documents/0830_31Program.pdf"
-flag: "N"
+explicit: "N"
 ---

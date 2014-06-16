@@ -12,5 +12,5 @@ description: "We’re talking about how community can change us."
 video: "https://s3.amazonaws.com/crossroadsvideomessages/powertochange_03.mp4"
 video-duration: "45:58"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/powertochange_03_still.jpg"
-flag: "N"
+explicit: "N"
 ---

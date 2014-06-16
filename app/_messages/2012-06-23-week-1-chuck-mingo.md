@@ -12,5 +12,5 @@ description: "We’re learning some practical ways to live the good life in the 
 video: "https://s3.amazonaws.com/crossroadsvideomessages/goodlife_01.mp4"
 video-duration: "39:24"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/goodlife_thumbnail.jpg"
-flag: "N"
+explicit: "N"
 ---

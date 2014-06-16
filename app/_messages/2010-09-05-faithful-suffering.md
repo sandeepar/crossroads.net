@@ -12,5 +12,5 @@ video-duration: "33:24"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/TheFaithful04_still.jpg"
 audio: "http://s3.amazonaws.com/crossroadsaudiomessages/TheFaithful04.mp3"
 audio-duration: "33:20"
-flag: "N"
+explicit: "N"
 ---

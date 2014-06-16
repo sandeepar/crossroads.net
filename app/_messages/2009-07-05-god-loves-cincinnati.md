@@ -15,5 +15,5 @@ program: "http://s3.amazonaws.com/crossroads-media/media/legacy/documents/0704_0
 notes-description: ""
 notes: "http://s3.amazonaws.com/crossroads-media/media/legacy/documents/SN_07_04-05_09.pdf"
 notes-title: "God Loves Cincinnati (Study Notes)"
-flag: "N"
+explicit: "N"
 ---

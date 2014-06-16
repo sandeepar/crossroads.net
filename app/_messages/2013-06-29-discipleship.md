@@ -12,5 +12,5 @@ description: "Jo Saxton unpacks a word Jesus used a lot&#58; “disciple.”"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/htbp_03.mp4"
 video-duration: "43:49"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/htbp_03_still.jpg"
-flag: "N"
+explicit: "N"
 ---

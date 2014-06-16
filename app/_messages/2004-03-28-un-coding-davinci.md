@@ -7,5 +7,5 @@ date: 2004-03-28-00-00
 message_id: 178
 audio: "http://s3.amazonaws.com/crossroads-media/media/legacy/mp3/TNNT_02_03-28-04_Un-Coding_DaVinci.mp3"
 audio-duration: "39:50"
-flag: "N"
+explicit: "N"
 ---

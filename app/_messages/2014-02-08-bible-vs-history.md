@@ -12,5 +12,5 @@ description: "Is the Bible a true source of history?"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/heavyweights2_wk01.mp4"
 video-duration: "50:44"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/heavyweights2_wk01_still.jpg"
-flag: "N"
+explicit: "N"
 ---

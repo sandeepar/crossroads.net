@@ -12,5 +12,5 @@ description: "We’ll be hearing from people in the community about where and ho
 video: "https://s3.amazonaws.com/crossroadsvideomessages/073011_1145.mp4"
 video-duration: "48:48"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/073011_1145.jpg"
-flag: "N"
+explicit: "N"
 ---

@@ -12,5 +12,5 @@ description: "Brian Tome talks about how God is self-absorbed."
 video: "https://s3.amazonaws.com/crossroadsvideomessages/god_is_06.mp4"
 video-duration: "42:42"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/god-is-06-still.jpg"
-flag: "N"
+explicit: "N"
 ---

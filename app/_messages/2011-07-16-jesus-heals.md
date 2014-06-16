@@ -12,5 +12,5 @@ description: "We’re going to talk about how Jesus healed people, and the crowd
 video: "https://s3.amazonaws.com/crossroadsvideomessages/greatestshow05.mp4"
 video-duration: "48:50"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/greatestshow05_still.jpg"
-flag: "N"
+explicit: "N"
 ---

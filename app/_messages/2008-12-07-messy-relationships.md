@@ -17,5 +17,5 @@ video-duration: "33:21"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/messyxmas2-still.jpg"
 audio: "http://s3.amazonaws.com/crossroadsaudiomessages/messyxmas2.mp3"
 audio-duration: "29:29"
-flag: "N"
+explicit: "N"
 ---

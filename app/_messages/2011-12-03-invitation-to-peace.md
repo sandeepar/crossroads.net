@@ -12,5 +12,5 @@ video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/rsv
 program: "http://s3.amazonaws.com/crossroads-media/media/legacy/documents/12_03-04_11Program.pdf"
 audio: "http://s3.amazonaws.com/crossroads-media/media/legacy/mp3/rsvp02.mp3"
 audio-duration: "37:16"
-flag: "N"
+explicit: "N"
 ---

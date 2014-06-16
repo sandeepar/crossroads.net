@@ -12,5 +12,5 @@ video-duration: ":"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/heavyweights2_wk6_still.jpg"
 audio: "http://s3.amazonaws.com/crossroads-media/media/legacy/mp3/heavyweights2_wk6.mp3"
 audio-duration: ":"
-flag: "N"
+explicit: "N"
 ---

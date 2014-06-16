@@ -12,5 +12,5 @@ description: "Mosa Sono talks about the powerful things that can happen when the
 video: "https://s3.amazonaws.com/crossroadsvideomessages/collide_01.mp4"
 video-duration: "53:58"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/collide01_still.jpg"
-flag: "N"
+explicit: "N"
 ---

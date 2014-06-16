@@ -12,5 +12,5 @@ description: "Chuck Mingo discusses what it looks like to seek the Kingdom."
 video: "https://s3.amazonaws.com/crossroadsvideomessages/KingdomCome05.mp4"
 video-duration: "28:24"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/080810_still"
-flag: "N"
+explicit: "N"
 ---

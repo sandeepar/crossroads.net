@@ -12,5 +12,5 @@ video-duration: "37:26"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/goodlife03_still.jpg"
 audio: "http://s3.amazonaws.com/crossroads-media/media/legacy/mp3/goodlife_03.mp3"
 audio-duration: "37:21"
-flag: "N"
+explicit: "N"
 ---

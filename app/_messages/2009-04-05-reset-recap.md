@@ -12,5 +12,5 @@ video-duration: "37:55"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/Reset7-still.jpg"
 audio: "http://s3.amazonaws.com/crossroadsaudiomessages/Reset7-edit.mp3"
 audio-duration: "33:28"
-flag: "N"
+explicit: "N"
 ---

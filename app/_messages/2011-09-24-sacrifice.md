@@ -12,5 +12,5 @@ description: "Brian Tome talks about the power of sacrifice in friendships."
 video: "https://s3.amazonaws.com/crossroadsvideomessages/everydayfriends_03.mp4"
 video-duration: "39:38"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/everydayfriends_03_still.jpg"
-flag: "N"
+explicit: "N"
 ---

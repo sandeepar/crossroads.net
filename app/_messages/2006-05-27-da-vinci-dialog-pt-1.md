@@ -7,5 +7,5 @@ date: 2006-05-27-00-00
 message_id: 68
 audio: "http://s3.amazonaws.com/crossroads-media/media/legacy/mp3/DaVinci_Dialog_Pt_1_05-28-06.mp3"
 audio-duration: "45:08"
-flag: "N"
+explicit: "N"
 ---

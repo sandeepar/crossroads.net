@@ -12,5 +12,5 @@ description: "Brian Tome talks about how our guide, the Holy Spirit, leads us aw
 video: "https://s3.amazonaws.com/crossroadsvideomessages/theguide02.mp4"
 video-duration: "43:56"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/theguide02_still.jpg"
-flag: "N"
+explicit: "N"
 ---

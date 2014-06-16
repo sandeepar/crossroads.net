@@ -12,5 +12,5 @@ description: "Greg Boyd talks about what the Kingdom is, and what it means to se
 video: "https://s3.amazonaws.com/crossroadsvideomessages/KingdomCome01.mp4"
 video-duration: "47:36"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/GregBoyd.jpg"
-flag: "N"
+explicit: "N"
 ---

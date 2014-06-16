@@ -11,5 +11,5 @@ description: "Last Wednesday - Oakley"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/052814-lw-oakley.mp4"
 video-duration: ":"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/last-wednesday.jpg"
-flag: "N"
+explicit: "N"
 ---

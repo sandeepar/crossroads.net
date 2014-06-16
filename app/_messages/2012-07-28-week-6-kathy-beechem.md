@@ -12,5 +12,5 @@ description: "We’re learning about how the good life comes when we take Jesus 
 video: "https://s3.amazonaws.com/crossroadsvideomessages/goodlife_06.mp4"
 video-duration: "38:51"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/goodlife_06_still.jpg"
-flag: "N"
+explicit: "N"
 ---

@@ -16,5 +16,5 @@ discipline."
 video: "https://s3.amazonaws.com/crossroadsvideomessages/092008Service.mp4"
 video-duration: "30:59"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/092008ServiceStill.jpg"
-flag: "N"
+explicit: "N"
 ---

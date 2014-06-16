@@ -12,5 +12,5 @@ video: "https://s3.amazonaws.com/crossroadsvideomessages/InsideOut4.mp4"
 video-duration: "35:40"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/InsideOut4-still.jpg"
 program: "http://s3.amazonaws.com/crossroads-media/media/legacy/documents/0905_06Program.pdf"
-flag: "N"
+explicit: "N"
 ---

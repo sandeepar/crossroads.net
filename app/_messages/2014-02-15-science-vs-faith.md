@@ -12,5 +12,5 @@ description: "Are science and faith mutually exclusive?"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/heavyweights2_02.mp4"
 video-duration: "55:16"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/heavyweight2_02_still.jpg"
-flag: "N"
+explicit: "N"
 ---

@@ -12,5 +12,5 @@ description: "Chuck Mingo talks about building spiritual maturity."
 video: "https://s3.amazonaws.com/crossroadsvideomessages/htbp_01.mp4"
 video-duration: "43:53"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/htbp_01_still.jpg"
-flag: "N"
+explicit: "N"
 ---

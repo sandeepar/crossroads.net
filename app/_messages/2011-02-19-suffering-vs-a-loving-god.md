@@ -12,5 +12,5 @@ description: "We'll wrestle with the question of how God can really be loving wh
 video: "https://s3.amazonaws.com/crossroadsvideomessages/heavyweights_02.mp4"
 video-duration: "45:19"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/heavyweights_02_still.jpg"
-flag: "N"
+explicit: "N"
 ---

@@ -12,5 +12,5 @@ description: "We will be wrapping up our series on what made Jesus the “Greate
 video: "https://s3.amazonaws.com/crossroadsvideomessages/greatestshow08.mp4"
 video-duration: "32:40"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/greatestshow08_still.jpg"
-flag: "N"
+explicit: "N"
 ---

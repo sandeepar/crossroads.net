@@ -11,5 +11,5 @@ description: "Brian Tome discusses what it means to do what's next instead of wo
 video: "https://s3.amazonaws.com/crossroadsvideomessages/Next1.mp4"
 video-duration: "41:01"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/Next1-still.jpg"
-flag: "N"
+explicit: "N"
 ---

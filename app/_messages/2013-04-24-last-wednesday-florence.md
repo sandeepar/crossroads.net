@@ -11,5 +11,5 @@ description: "Last Wednesday April 2013 - Florence"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/042413-LW-Florence.mp4"
 video-duration: "14:46"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/042413-LW-Florence-still.jpg"
-flag: "N"
+explicit: "N"
 ---

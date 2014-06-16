@@ -12,5 +12,5 @@ description: "Chuck Mingo talks about how trials strengthen our faith."
 video: "https://s3.amazonaws.com/crossroadsvideomessages/james_02.mp4"
 video-duration: "43:41"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/james_02_still.jpg"
-flag: "N"
+explicit: "N"
 ---

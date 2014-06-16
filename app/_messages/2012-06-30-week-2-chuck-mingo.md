@@ -12,5 +12,5 @@ description: "We’re talking about how hope is a key ingredient to the good lif
 video: "https://s3.amazonaws.com/crossroadsvideomessages/goodlife_02.mp4"
 video-duration: "40:13"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/goodlife_02_still.jpg"
-flag: "N"
+explicit: "N"
 ---

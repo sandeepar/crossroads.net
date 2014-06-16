@@ -12,5 +12,5 @@ video: "https://s3.amazonaws.com/crossroadsvideomessages/go_forth_04.mp4"
 video-duration: "45:32"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/go_forth_04_still.jpg"
 program: "http://s3.amazonaws.com/crossroads-media/media/legacy/documents/09_14-15_13Program_LO.pdf"
-flag: "N"
+explicit: "N"
 ---

@@ -12,5 +12,5 @@ video: "https://s3.amazonaws.com/crossroadsvideomessages/gamechangers_06.mp4"
 video-duration: "41:14"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/gamechangers_06_still.jpg"
 program: "http://s3.amazonaws.com/crossroads-media/media/legacy/documents/04_14-15_12Program.pdf"
-flag: "N"
+explicit: "N"
 ---

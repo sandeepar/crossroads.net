@@ -12,5 +12,5 @@ video-duration: "31:58"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/culture_02_still.jpg"
 audio: "http://s3.amazonaws.com/crossroads-media/media/legacy/mp3/culture_02.mp3"
 audio-duration: "31:58"
-flag: "N"
+explicit: "N"
 ---

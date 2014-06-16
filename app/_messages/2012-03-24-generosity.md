@@ -12,5 +12,5 @@ description: "Brian Tome talks about trusting God through our generosity."
 video: "https://s3.amazonaws.com/crossroadsvideomessages/gamechangers_03.mp4"
 video-duration: "52:02"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/gamechangers_03_still.jpg"
-flag: "N"
+explicit: "N"
 ---

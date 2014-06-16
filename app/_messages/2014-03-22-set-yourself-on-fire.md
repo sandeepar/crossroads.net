@@ -12,5 +12,5 @@ description: "We’re talking about setting ourselves on fire."
 video: "https://s3.amazonaws.com/crossroadsvideomessages/htctw_01.mp4"
 video-duration: ":"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/HowToChangeWorld_90x90.jpg"
-flag: "N"
+explicit: "N"
 ---

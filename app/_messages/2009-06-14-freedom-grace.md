@@ -14,5 +14,5 @@ video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/Roa
 notes-description: ""
 notes: "http://s3.amazonaws.com/crossroads-media/media/legacy/documents/SN_06_20-21_09.pdf"
 notes-title: "Freedom and Grace (study notes)"
-flag: "N"
+explicit: "N"
 ---

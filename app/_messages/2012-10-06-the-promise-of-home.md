@@ -16,5 +16,5 @@ greatest desire is that we would all come Home."
 video: "https://s3.amazonaws.com/crossroadsvideomessages/journeyhome_01.mp4"
 video-duration: "55:36"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/journeyhome_01_still.jpg"
-flag: "N"
+explicit: "N"
 ---

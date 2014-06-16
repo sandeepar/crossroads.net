@@ -11,5 +11,5 @@ video-duration: "54:57"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/062613-LW-still.jpg"
 audio: "http://s3.amazonaws.com/crossroads-media/media/legacy/mp3/062613-LW.mp3"
 audio-duration: "54:50"
-flag: "N"
+explicit: "N"
 ---

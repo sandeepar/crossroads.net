@@ -15,5 +15,5 @@ program: "http://s3.amazonaws.com/crossroads-media/media/legacy/documents/1129_3
 notes-description: ""
 notes: "http://s3.amazonaws.com/crossroads-media/media/legacy/documents/SN_11_29-30_08.pdf"
 notes-title: "Messy Choices (Study Notes)"
-flag: "N"
+explicit: "N"
 ---

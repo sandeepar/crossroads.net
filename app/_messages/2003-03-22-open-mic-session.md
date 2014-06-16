@@ -7,5 +7,5 @@ date: 2003-03-22-00-00
 message_id: 479
 audio: "http://s3.amazonaws.com/crossroadsaudiomessages/Go_Ahead_And_Ask_Q&A_Compilation.mp3"
 audio-duration: "52:54"
-flag: "N"
+explicit: "N"
 ---

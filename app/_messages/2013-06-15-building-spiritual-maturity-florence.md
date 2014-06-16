@@ -11,5 +11,5 @@ description: "Terry Phillips talks about building spiritual maturity."
 video: "https://s3.amazonaws.com/crossroadsvideomessages/htbp_01_florence.mp4"
 video-duration: "41:11"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/htbp_01_still_fl.jpg"
-flag: "N"
+explicit: "N"
 ---

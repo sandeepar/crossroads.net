@@ -14,5 +14,5 @@ description: "Brian Tome talks about what it looks like to bend your life to the
 video: "https://s3.amazonaws.com/crossroadsvideomessages/growup03.mp4"
 video-duration: "34:49"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/growup03_still.jpg"
-flag: "N"
+explicit: "N"
 ---

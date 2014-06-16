@@ -15,5 +15,5 @@ program: "http://s3.amazonaws.com/crossroads-media/media/legacy/documents/10-11_
 notes-description: ""
 notes: "http://s3.amazonaws.com/crossroads-media/media/legacy/documents/SN_11-1_09.pdf"
 notes-title: "Fortification (Study Notes)"
-flag: "N"
+explicit: "N"
 ---

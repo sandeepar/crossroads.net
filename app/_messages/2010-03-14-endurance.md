@@ -12,5 +12,5 @@ description: "Brian Tome talks about the importance of endurance and the four ph
 video: "https://s3.amazonaws.com/crossroadsvideomessages/Free4.mp4"
 video-duration: "46:10"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/Free4-still.jpg"
-flag: "N"
+explicit: "N"
 ---

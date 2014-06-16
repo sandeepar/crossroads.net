@@ -7,5 +7,5 @@ date: 2007-08-25-00-00
 message_id: 4
 audio: "http://s3.amazonaws.com/crossroads-media/media/legacy/mp3/Seek_03_Relate_08-25-07_Tome.mp3"
 audio-duration: "48:59"
-flag: "N"
+explicit: "N"
 ---

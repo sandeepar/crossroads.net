@@ -12,5 +12,5 @@ description: "We’ll have the chance to invest for an enormous return."
 video: "https://s3.amazonaws.com/crossroadsvideomessages/roi_06.mp4"
 video-duration: "43:07"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/roi_06_still.jpg"
-flag: "N"
+explicit: "N"
 ---

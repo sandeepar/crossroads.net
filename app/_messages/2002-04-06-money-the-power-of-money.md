@@ -7,5 +7,5 @@ date: 2002-04-06-00-00
 message_id: 287
 audio: "http://s3.amazonaws.com/crossroadsaudiomessages/Power_of_Money.mp3"
 audio-duration: "38:12"
-flag: "N"
+explicit: "N"
 ---

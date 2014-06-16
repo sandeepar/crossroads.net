@@ -12,5 +12,5 @@ description: "Who are you depending on? Our orphan tendencies come from our desp
 video: "https://s3.amazonaws.com/crossroadsvideomessages/journeyhome_03.mp4"
 video-duration: "45:52"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/journeyhome_03_still.jpg"
-flag: "N"
+explicit: "N"
 ---

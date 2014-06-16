@@ -7,5 +7,5 @@ date: 2002-09-15-00-00
 message_id: 264
 audio: "http://s3.amazonaws.com/crossroadsaudiomessages/Real%20Friendships.mp3"
 audio-duration: "42:15"
-flag: "N"
+explicit: "N"
 ---

@@ -15,5 +15,5 @@ description: "Entitlement can creep into our lives in unexpected ways. In this t
 video: "https://s3.amazonaws.com/crossroadsvideomessages/gimmegimme1.mp4"
 video-duration: "37:12"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/gimme1-still.jpg"
-flag: "N"
+explicit: "N"
 ---

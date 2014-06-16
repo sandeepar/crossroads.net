@@ -12,5 +12,5 @@ video: "https://s3.amazonaws.com/crossroadsvideomessages/Free5.mp4"
 video-duration: "37:47"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/Free5-still.jpg"
 program: "http://s3.amazonaws.com/crossroads-media/media/legacy/documents/03_20-21_10Program.pdf"
-flag: "N"
+explicit: "N"
 ---

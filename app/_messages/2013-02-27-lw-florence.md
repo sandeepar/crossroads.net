@@ -11,5 +11,5 @@ video-duration: "44:37"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/lw_0213_florence.jpg"
 audio: "http://s3.amazonaws.com/crossroads-media/media/legacy/mp3/022713-lw-florence.mp3"
 audio-duration: "44:32"
-flag: "N"
+explicit: "N"
 ---

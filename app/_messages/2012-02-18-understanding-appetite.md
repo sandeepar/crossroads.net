@@ -12,5 +12,5 @@ description: "Brian Tome talks about what motivates our appetites."
 video: "https://s3.amazonaws.com/crossroadsvideomessages/placeatthetable_02.mp4"
 video-duration: "42:39"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/placeatthetable_02_still.jpg"
-flag: "N"
+explicit: "N"
 ---

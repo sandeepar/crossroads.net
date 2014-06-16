@@ -12,5 +12,5 @@ video: "https://s3.amazonaws.com/crossroadsvideomessages/Roadmap7.mp4"
 video-duration: "33:07"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/Roadmap7-still.jpg"
 program: "http://s3.amazonaws.com/crossroads-media/media/legacy/documents/0627_28Program.pdf"
-flag: "N"
+explicit: "N"
 ---

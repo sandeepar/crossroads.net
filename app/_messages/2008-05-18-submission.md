@@ -15,5 +15,5 @@ notes-description: "Study notes for week two of RIQ."
 notes: "http://s3.amazonaws.com/crossroads-media/media/legacy/documents/SN_5-17-18-08.pdf"
 notes-title: "RIQ&#58; Submission"
 program: "http://s3.amazonaws.com/crossroads-media/media/legacy/documents/0517_18Program.pdf"
-flag: "N"
+explicit: "N"
 ---

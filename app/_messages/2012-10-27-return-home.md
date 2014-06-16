@@ -12,5 +12,5 @@ description: "What does it look like to return home? In order to go home, we hav
 video: "https://s3.amazonaws.com/crossroadsvideomessages/journeyhome_04.mp4"
 video-duration: "47:59"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/journeyhome_04_still.jpg"
-flag: "N"
+explicit: "N"
 ---

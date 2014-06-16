@@ -12,5 +12,5 @@ description: "Chuck Mingo talks about the story of the sacrificial lamb."
 video: "https://s3.amazonaws.com/crossroadsvideomessages/thestory04.mp4"
 video-duration: "37:10"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/thestory04_still.jpg"
-flag: "N"
+explicit: "N"
 ---

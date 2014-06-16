@@ -12,5 +12,5 @@ description: "How are you living at home? God’s greatest desire for you is to 
 video: "https://s3.amazonaws.com/crossroadsvideomessages/journeyhome_05.mp4"
 video-duration: "51:38"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/journeyhome_05_still.jpg"
-flag: "N"
+explicit: "N"
 ---

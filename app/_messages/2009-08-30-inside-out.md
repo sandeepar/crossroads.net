@@ -15,5 +15,5 @@ description: "Brian Tome discusses why crossroads exists to mobilize people towa
 video: "https://s3.amazonaws.com/crossroadsvideomessages/InsideOut3.mp4"
 video-duration: "44:48"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/InsideOut3-still.jpg"
-flag: "N"
+explicit: "N"
 ---
