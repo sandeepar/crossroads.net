@@ -1,4 +1,6 @@
+{% if page.title and page.category %}
 <ol class="breadcrumb">
   <li>{{page.category}}</li>
   <li class="active">{{page.title}}</li>
 </ol>
+{% endif %}
