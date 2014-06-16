@@ -3,21 +3,17 @@ layout: one_column
 ---
 <h1>Series: {{ page.series }}</h1>
 <h2>{{ page.title }}</h2>
-<p class="text-muted">{{ page.description }}</p>
-
+<p><span class="message-date">{{ page.date }}</span></p> 
 <div>
     {% if page.video contains 'mp4' %}
-    <video width="700" height="400" controls poster="{{ page.video-poster }}">
+    <video width="700" height="400" controls poster="{{ page.video-image }}">
         <source src="{{ page.video }}" type="video/mp4">
     </video>
     {% else %}
     <p><b>Video not found.</b></p>
     {% endif %}
-    <p><b>{{ page.video-title }}</b></p>
-    <p>{{ page.video-description }}</p>
-    <p><span class="message-date">{{ page.date }}</span></p>
+    <p>{{ page.description }}</p>
 </div>
-<h3>Audio:</h3><br>
 <div>
     {% if page.audio contains 'mp3' %}
     <audio controls>
@@ -26,12 +22,8 @@ layout: one_column
     {% else %}
     <p><b>Audio not found.</b></p>
     {% endif %}
-    <p><b>{{ page.audio-title }}</b></p>
-    <p>{{ page.audio-description }}</p>
-    <p><span class="message-date">{{ page.date }}</span></p>
 </div>
-    
-<p class="text-muted small">{{ page.startDate }}</p>
+  
 {% if page.audio contains 'mp3' %}
 <a href="{{ page.audio }}">Download Audio (mp3)</a><br>
 {% endif %}
