@@ -1,0 +1,42 @@
+---
+layout: right_column
+permalink: /prayer-request/
+---
+<!-- Template: prayer-request.html -->
+
+<h2>
+    Prayer Requests
+</h2>
+<h3><small>We absolutely believe in the power of prayer.</small></h3>
+
+<p>
+    Please know that your prayer requests are confidential within our Prayer Team, and we are ready to hear you.
+    If this is an urgent need, please call 513.731.7400 (during work hours) or 513.731.7400 x1333 (after hours) so we can find someone for you to talk to right away.
+    Thank you for trusting us with your prayer request.
+</p>
+
+<br/>
+<br/>
+
+<div>
+    <form action="/form-handlers" method="post">
+        <input type="hidden" name="crossroads-redirect" value="/contact-submitted-test"/>
+        <input type="hidden" name="crossroads-authorization-signature" value="huzzah"/>
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" id="name" name="name"/>
+        </div>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email" name="email"/>
+        </div>
+        <div class="form-group">
+            <label for="name">Prayer Request</label>
+            <textarea class="form-control" id="request" name="request">
+            </textarea>
+        </div>
+        <div class="form-group">
+            <button type="submit" class="btn btn-default">Submit</button>
+        </div>
+    </form>
+</div>
