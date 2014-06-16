@@ -35,7 +35,7 @@ crossroads.controller "crdsMenuCtrl", ($scope) ->
 
 crossroads.run(($rootScope) ->
   $rootScope.CONFIG =
-    apiUrl: "https://my.crossroads.net/ministryplatform/oauth"
+    apiUrl: "/login"
     clientId: "client"
     clientSecret: "secret"
 
@@ -91,7 +91,7 @@ crossroads.factory "Auth", ($cookieStore, $http, $location, $rootScope) ->
       password: password
 
     $http(
-      url: $rootScope.CONFIG.apiUrl + "/token"
+      url: $rootScope.CONFIG.apiUrl
       method: "POST"
       data: $.param(data)
       headers:
