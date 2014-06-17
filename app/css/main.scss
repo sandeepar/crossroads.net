@@ -13,7 +13,9 @@
 // @import 'block-grid';
 
 body {
-  font-family: "Helvetica Neue Condensed", 'Roboto', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
 }
 
 a:hover {
