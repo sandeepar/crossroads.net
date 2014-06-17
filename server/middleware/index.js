@@ -19,8 +19,9 @@ module.exports = function(app) {
     app.use(refreshToken());
     app.use(session({
         store: new RedisStore({ url: process.env.REDISCLOUD_URL }),
+        key: "crossroads.sid",
         secret: 'secret',
-        cookie: { secure: true }
+        cookie: { path: '/', httpOnly: true, maxAge: null }
     }));
     return app.use(express["static"]("" + __dirname + "/../../generated"));
 };
