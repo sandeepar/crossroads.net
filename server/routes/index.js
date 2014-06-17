@@ -4,6 +4,8 @@ var util = require('util');
 module.exports = function(app) {
    // var mandrillApiKey = "c84f6RI_NE-LKsA3n3EB4g";    // Crossroads.net API key
     var mandrillApiKey = "Ng3po8yK9LlryPGwXorM5Q";  // personal test API key
+    var fromEmail = "notifications@crossroads.net";
+    var fromName = "Notifications";
 
     app.route('/form-handlers')
         .post(function(req, res, next) {
@@ -12,24 +14,21 @@ module.exports = function(app) {
             // do not send an email but reply as usual
             var honeypot = req.param('crds-form-authorization-signature');
             if (!honeypot) {
-                var fromNameField = req.param('crds-form-from-name') || 'FromName';
-                var fromEmailField = req.param('crds-form-from-email') || 'FromAddress';
+                var replyNameField = req.param('crds-form-reply-name') || 'replayName';
+                var replyEmailField = req.param('crds-form-reply-email') || 'replyEmail';
 
                 // Validate the form inputs
                 // TODO:  How to redirect and report on form errors
                 req.assert('crds-form-subject', 'Form subject is required').notEmpty();
                 req.assert('crds-form-to', 'Form to address is required').notEmpty();
-                req.assert(fromEmailField, 'From email required').notEmpty();
-                req.assert(fromEmailField, 'Valid from email required').isEmail();
+                req.assert(replyEmailField, 'Reply email required').notEmpty();
+                req.assert(replyEmailField, 'Valid Reply email required').isEmail();
 
                 // Check for configured required field
-                var required = req.param('require');
+                var required = req.param('crds-form-require');
                 for (var requiredKey in required) {
-                    console.log('Required key: ' + requiredKey);
                     if (required.hasOwnProperty(requiredKey)) {
                         req.sanitize(requiredKey).trim();
-
-                        console.log('Testing for key: ' + requiredKey + ' against value "' + req.param(requiredKey) + '"');
                         req.assert(requiredKey, 'Missing required field: ' + requiredKey).notEmpty();
                     }
                 }
@@ -44,8 +43,8 @@ module.exports = function(app) {
                 var subject = req.param('crds-form-subject');
                 var redirect = req.param('crds-form-redirect');
 
-                var fromName = req.param(fromNameField) || 'None Provided';
-                var fromEmail = req.param(fromEmailField) || null;
+                var replyName = req.param(replyNameField) || 'None Provided';
+                var replyEmail = req.param(replyEmailField) || null;
 
                 var toParam = req.param('crds-form-to');
                 var toList = toParam ? toParam.trim().split(/\s*,\s*/) : [];
@@ -67,7 +66,7 @@ module.exports = function(app) {
                 }
 
                 // Send the email using Mandrill
-                send(toList, fromEmail, fromName, subject, content);
+                send(toList, replyEmail, replyName, subject, content);
             } else {
                 console.log('BOT submitted request');
             }
@@ -76,7 +75,7 @@ module.exports = function(app) {
             res.redirect(redirect || '/contact-submitted');
         });
 
-    var send = function(toList, fromEmail, fromName, subject, content) {
+    var send = function(toList, replyEmail, replyName, subject, content) {
         var mandrill_client = new mandrill.Mandrill(mandrillApiKey);
 
         var toArray = [];
@@ -87,6 +86,8 @@ module.exports = function(app) {
             });
         });
 
+        var replyTo = replyName && replyName.length ? replyName + " <" + replyEmail + ">" : replyEmail;
+
         var message = {
            // "html": "<p>Example HTML content</p>",
             "text": content || 'No Form Data Submitted',
@@ -95,7 +96,7 @@ module.exports = function(app) {
             "from_name": fromName,
             "to": toArray,
             "headers": {
-                "Reply-To": "message.reply@example.com"
+                "Reply-To": replyTo
             },
             "important": false,
             "track_opens": null,
@@ -106,44 +107,13 @@ module.exports = function(app) {
             "url_strip_qs": null,
             "preserve_recipients": null,
             "view_content_link": null,
-//            "bcc_address": "message.bcc_address@example.com",
             "tracking_domain": null,
             "signing_domain": null,
-            "return_path_domain": null,
-//            "merge": true,
-//            "global_merge_vars": [{
-//                "name": "merge1",
-//                "content": "merge1 content"
-//            }],
-//            "merge_vars": [{
-//                "rcpt": "recipient.email@example.com",
-//                "vars": [{
-//                    "name": "merge2",
-//                    "content": "merge2 content"
-//                }]
-//            }],
+            "return_path_domain": null
+//            "bcc_address": "message.bcc_address@example.com"
 //            "tags": [
 //                "password-resets"
 //            ],
-//            "metadata": {
-//                "website": "www.example.com"
-//            },
-//            "recipient_metadata": [{
-//                "rcpt": "recipient.email@example.com",
-//                "values": {
-//                    "user_id": 123456
-//                }
-//            }],
-//            "attachments": [{
-//                "type": "text/plain",
-//                "name": "myfile.txt",
-//                "content": "ZXhhbXBsZSBmaWxl"
-//            }],
-//            "images": [{
-//                "type": "image/png",
-//                "name": "IMAGECID",
-//                "content": "ZXhhbXBsZSBmaWxl"
-//            }]
         };
         var async = false;
         var ip_pool = "Main Pool";
