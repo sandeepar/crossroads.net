@@ -1,4 +1,4 @@
-var app, dotenv, express;
+var app, dotenv, express, passport;
 
 express = require('express');
 
