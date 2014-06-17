@@ -12,6 +12,7 @@ For more information about Gulp visit: http://gulpjs.com
 ### Prerequisites
 * npm (comes with node, http://nodejs.org/)
 * Ruby 2.0.0 (version 2.0.0-p451 or higher, https://www.ruby-lang.org)
+* local Redis 2.0 or higher in order to run the node server and store sessions.
 
 ### Setup
 * ```npm install```

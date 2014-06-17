@@ -1,4 +1,4 @@
-var app, dotenv, express, expressValidator, bodyParser;
+var app, dotenv, express, passport;
 
 express = require('express');
 bodyParser = require('body-parser');
