@@ -2,8 +2,6 @@ var mandrill = require('mandrill-api/mandrill');
 var util = require('util');
 
 module.exports = function(app) {
-//    var mandrillUser = 'cradmin@crossroads.net';
-//    var mandrillPass = 'L0rd&Savi0r';
    // var mandrillApiKey = "c84f6RI_NE-LKsA3n3EB4g";    // Crossroads.net API key
     var mandrillApiKey = "Ng3po8yK9LlryPGwXorM5Q";  // personal test API key
 
@@ -14,12 +12,15 @@ module.exports = function(app) {
             // do not send an email but reply as usual
             var honeypot = req.param('crossroads-authorization-signature');
             if (!honeypot) {
+                var fromNameField = req.param('crossroads-from-name') || 'FromName';
+                var fromEmailField = req.param('crossroads-from-email') || 'FromAddress';
+
                 // Validate the form inputs
                 // TODO:  How to redirect and report on form errors
                 req.assert('crossroads-subject', 'Form subject is required').notEmpty();
                 req.assert('crossroads-to', 'Form to address is required').notEmpty();
-                req.assert('FromAddress', 'From email required').notEmpty();
-                req.assert('FromAddress', 'Valid from email required').isEmail();
+                req.assert(fromEmailField, 'From email required').notEmpty();
+                req.assert(fromEmailField, 'Valid from email required').isEmail();
 
                 // Check for configured required field
                 var required = req.param('require');
@@ -43,8 +44,8 @@ module.exports = function(app) {
                 var subject = req.param('crossroads-subject');
                 var redirect = req.param('crossroads-redirect');
 
-                var fromName = req.param('FromName') || 'None Provided';
-                var fromEmail = req.param('FromAddress') || null;
+                var fromName = req.param(fromNameField) || 'None Provided';
+                var fromEmail = req.param(fromEmailField) || null;
 
                 var toParam = req.param('crossroads-to');
                 var to = toParam ? toParam.trim().split(/\s*,\s*/) : [];
