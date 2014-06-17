@@ -10,15 +10,15 @@ module.exports = function(app) {
             // This field should be empty in the form
             // If a BOT has auto-filled this form trying to use the form for Spam,
             // do not send an email but reply as usual
-            var honeypot = req.param('crossroads-authorization-signature');
+            var honeypot = req.param('crds-form-authorization-signature');
             if (!honeypot) {
-                var fromNameField = req.param('crossroads-from-name') || 'FromName';
-                var fromEmailField = req.param('crossroads-from-email') || 'FromAddress';
+                var fromNameField = req.param('crds-form-from-name') || 'FromName';
+                var fromEmailField = req.param('crds-form-from-email') || 'FromAddress';
 
                 // Validate the form inputs
                 // TODO:  How to redirect and report on form errors
-                req.assert('crossroads-subject', 'Form subject is required').notEmpty();
-                req.assert('crossroads-to', 'Form to address is required').notEmpty();
+                req.assert('crds-form-subject', 'Form subject is required').notEmpty();
+                req.assert('crds-form-to', 'Form to address is required').notEmpty();
                 req.assert(fromEmailField, 'From email required').notEmpty();
                 req.assert(fromEmailField, 'Valid from email required').isEmail();
 
@@ -41,21 +41,33 @@ module.exports = function(app) {
                 }
 
                 // Extract the form parameters
-                var subject = req.param('crossroads-subject');
-                var redirect = req.param('crossroads-redirect');
+                var subject = req.param('crds-form-subject');
+                var redirect = req.param('crds-form-redirect');
 
                 var fromName = req.param(fromNameField) || 'None Provided';
                 var fromEmail = req.param(fromEmailField) || null;
 
-                var toParam = req.param('crossroads-to');
-                var to = toParam ? toParam.trim().split(/\s*,\s*/) : [];
+                var toParam = req.param('crds-form-to');
+                var toList = toParam ? toParam.trim().split(/\s*,\s*/) : [];
+
+                // Build the email content with all form params and values
+                var keyList = [];
+                for (var key in req.body) {
+                    if (req.body.hasOwnProperty(key) && key.search(/^crds-form-/) === -1) {
+                        keyList.push(key);
+                    }
+                }
+
+                keyList.sort();
+
+                var content = '';
+                for (var i=0; i<keyList.length; i++) {
+                    content += keyList[i] + "\n";
+                    content += req.body[keyList[i]] + "\n\n";
+                }
 
                 // Send the email using Mandrill
-                to.forEach(function(email) {
-                    console.log("Send to: " + email);
-                });
-
-                send(to, fromEmail, fromName, subject);
+                send(toList, fromEmail, fromName, subject, content);
             } else {
                 console.log('BOT submitted request');
             }
@@ -64,11 +76,11 @@ module.exports = function(app) {
             res.redirect(redirect || '/contact-submitted');
         });
 
-    var send = function(to, fromEmail, fromName, subject) {
+    var send = function(toList, fromEmail, fromName, subject, content) {
         var mandrill_client = new mandrill.Mandrill(mandrillApiKey);
 
         var toArray = [];
-        to.forEach(function(email) {
+        toList.forEach(function(email) {
             toArray.push({
                 "email": email,
                 "type": "to"
@@ -76,8 +88,8 @@ module.exports = function(app) {
         });
 
         var message = {
-            "html": "<p>Example HTML content</p>",
-            "text": "Example text content",
+           // "html": "<p>Example HTML content</p>",
+            "text": content || 'No Form Data Submitted',
             "subject": subject,
             "from_email": fromEmail,
             "from_name": fromName,
