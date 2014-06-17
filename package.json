@@ -34,6 +34,8 @@
     "dotenv": "^0.2.8",
     "express": "^4.4.1",
     "http-server": "latest",
-    "mandrill-api": "~1.0.39"
+    "mandrill-api": "~1.0.39",
+    "express-validator": "~2.3.0",
+    "validator": "~3.16.0"
   }
 }
