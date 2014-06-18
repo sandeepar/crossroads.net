@@ -11,5 +11,5 @@ video-duration: "49:55"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/consumed1.jpg"
 audio: "http://s3.amazonaws.com/crossroadsaudiomessages/Consumed_1_Materialism_02-10-08_Tome_webaudio.mp3"
 audio-duration: "50:44"
-explicit: "N"
+explicit: false
 ---

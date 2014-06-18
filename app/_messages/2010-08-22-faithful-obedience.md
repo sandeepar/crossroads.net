@@ -12,5 +12,5 @@ description: "Brian Tome talks about how the faithful obey God."
 video: "https://s3.amazonaws.com/crossroadsvideomessages/TheFaithful01.mp4"
 video-duration: "34:56"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/TheFaithful02_still.jpg"
-explicit: "N"
+explicit: false
 ---

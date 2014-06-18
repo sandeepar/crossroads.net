@@ -12,5 +12,5 @@ description: "We'll wrestle with the question of how Jesus can claim to be the o
 video: "https://s3.amazonaws.com/crossroadsvideomessages/heavyweights_03.mp4"
 video-duration: "52:58"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/heavyweights_03_still.jpg"
-explicit: "N"
+explicit: false
 ---

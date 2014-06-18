@@ -12,5 +12,5 @@ description: "Brian Tome talks about how unexpected Jesus was when he came into 
 video: "https://s3.amazonaws.com/crossroadsvideomessages/awaitedson02.mp4"
 video-duration: "49:58"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/awaitedson02.jpg"
-explicit: "N"
+explicit: false
 ---

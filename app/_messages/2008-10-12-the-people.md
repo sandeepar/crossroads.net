@@ -15,5 +15,5 @@ description: "Brian Tome discusses how we should engage people as a core part of
 video: "https://s3.amazonaws.com/crossroadsvideomessages/Unlocked2.mp4"
 video-duration: "42:34"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/unlocked2.jpg"
-explicit: "N"
+explicit: false
 ---

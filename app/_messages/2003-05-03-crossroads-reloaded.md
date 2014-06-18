@@ -7,5 +7,5 @@ date: 2003-05-03-00-00
 message_id: 225
 audio: "http://s3.amazonaws.com/crossroads-media/media/legacy/mp3/TheMatrixRevealed_05-04-03_Crossroads_Reloaded.mp3"
 audio-duration: "37:28"
-explicit: "N"
+explicit: false
 ---

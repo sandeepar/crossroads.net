@@ -12,5 +12,5 @@ description: "Brian Tome talks about what it looks like to follow the Guide out 
 video: "https://s3.amazonaws.com/crossroadsvideomessages/theguide04.mp4"
 video-duration: "40:43"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/theguide04_still.jpg"
-explicit: "N"
+explicit: false
 ---

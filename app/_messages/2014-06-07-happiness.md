@@ -12,5 +12,5 @@ description: "Brian Tome talks about the meaning of happiness."
 video: "https://s3.amazonaws.com/crossroadsvideomessages/meaning_01.mp4"
 video-duration: ":"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/meaning_01_still.jpg"
-explicit: "N"
+explicit: false
 ---

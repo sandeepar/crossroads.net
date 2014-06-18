@@ -12,5 +12,5 @@ description: "Brian Tome talks about God's purpose for creation, and the tragic 
 video: "https://s3.amazonaws.com/crossroadsvideomessages/thestory02.mp4"
 video-duration: "48:48"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/thestory02_still.jpg"
-explicit: "N"
+explicit: false
 ---

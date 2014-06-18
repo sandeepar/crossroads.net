@@ -12,5 +12,5 @@ video: "https://s3.amazonaws.com/crossroadsvideomessages/preparation.mp4"
 video-duration: "36:27"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/preparation_still.jpg"
 program: "http://s3.amazonaws.com/crossroads-media/media/legacy/documents/12_04-05_10Program.pdf"
-explicit: "N"
+explicit: false
 ---

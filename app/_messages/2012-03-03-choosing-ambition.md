@@ -12,5 +12,5 @@ description: "Brian Tome talks about ambition."
 video: "https://s3.amazonaws.com/crossroadsvideomessages/placeatthetable_04.mp4"
 video-duration: "44:24"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/placeatthetable_04_still.jpg"
-explicit: "N"
+explicit: false
 ---

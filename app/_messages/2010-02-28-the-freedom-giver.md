@@ -12,5 +12,5 @@ description: "Brian Tome discusses the Freedom Giver and how he fights for our f
 video: "https://s3.amazonaws.com/crossroadsvideomessages/Free2.mp4"
 video-duration: "40:29"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/Free2-still.jpg"
-explicit: "N"
+explicit: false
 ---

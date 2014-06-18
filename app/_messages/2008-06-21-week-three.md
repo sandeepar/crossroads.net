@@ -15,5 +15,5 @@ notes-description: "Study notes for Pride (week three)."
 notes: "http://s3.amazonaws.com/crossroads-media/media/legacy/documents/SN_06-22-08.pdf"
 notes-title: "Pride (Week Three) - Study Notes"
 program: "http://s3.amazonaws.com/crossroads-media/media/legacy/documents/0621_22Program.pdf"
-explicit: "N"
+explicit: false
 ---

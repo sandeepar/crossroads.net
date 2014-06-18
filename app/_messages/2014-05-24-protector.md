@@ -12,5 +12,5 @@ video-duration: ":"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/thenewman_05_still.jpg"
 audio: "http://s3.amazonaws.com/crossroads-media/media/legacy/mp3/thenewman_05.mp3"
 audio-duration: ":"
-explicit: "N"
+explicit: false
 ---

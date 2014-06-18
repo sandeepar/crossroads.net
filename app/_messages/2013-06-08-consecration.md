@@ -13,5 +13,5 @@ description: "We'll be talking about God's redemptive plan for sex.
 video: "https://s3.amazonaws.com/crossroadsvideomessages/goodsex_04.mp4"
 video-duration: "42:39"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/goodsex_04_still.jpg"
-explicit: "Y"
+explicit: true
 ---

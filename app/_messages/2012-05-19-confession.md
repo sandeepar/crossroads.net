@@ -12,5 +12,5 @@ description: "Brian Tome talks about the healing that comes through confession."
 video: "https://s3.amazonaws.com/crossroadsvideomessages/james_05.mp4"
 video-duration: "33:24"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/james_05_still.jpg"
-explicit: "N"
+explicit: false
 ---

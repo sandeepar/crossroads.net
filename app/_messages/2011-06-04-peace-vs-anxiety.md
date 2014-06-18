@@ -12,5 +12,5 @@ description: "Brian Tome talks about how the Guide can steer us out of fear and 
 video: "https://s3.amazonaws.com/crossroadsvideomessages/theguide03.mp4"
 video-duration: "45:16"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/theguide03_still.jpg"
-explicit: "N"
+explicit: false
 ---

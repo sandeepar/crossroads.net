@@ -12,5 +12,5 @@ description: "People in our community share their rhythms"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/rhythm03.mp4"
 video-duration: "44:44"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/rhythm03_still.jpg"
-explicit: "N"
+explicit: false
 ---

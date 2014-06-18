@@ -11,5 +11,5 @@ video-duration: "59:35"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/consumed6still.jpg"
 audio: "http://s3.amazonaws.com/crossroadsaudiomessages/Consumed_6_03-16-08_Tome_webaudio.mp3"
 audio-duration: "44:08"
-explicit: "N"
+explicit: false
 ---

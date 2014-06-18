@@ -15,5 +15,5 @@ notes-description: "Entitlement can easily creep into our relationships, and esp
 notes: "http://s3.amazonaws.com/crossroads-media/media/legacy/documents/SN_11_08-09_08.pdf"
 notes-title: "GIMME GIMME&#58; The Symptoms (Study Notes)"
 program: "http://s3.amazonaws.com/crossroads-media/media/legacy/documents/1108_09Program.pdf"
-explicit: "N"
+explicit: false
 ---

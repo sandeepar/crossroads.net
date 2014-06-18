@@ -12,5 +12,5 @@ description: "If God is so loving, why is there suffering in the world?"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/heavyweights2_wk4.mp4"
 video-duration: "56:39"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/heavyweights2_wk4_still.jpg"
-explicit: "N"
+explicit: false
 ---

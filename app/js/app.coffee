@@ -35,7 +35,7 @@ crossroads.controller "crdsMenuCtrl", ($scope) ->
 
 crossroads.run(($rootScope) ->
   $rootScope.CONFIG =
-    apiUrl: "https://my.crossroads.net/ministryplatform/oauth"
+    apiUrl: "/login"
     clientId: "client"
     clientSecret: "secret"
 
@@ -84,24 +84,20 @@ crossroads.factory "Auth", ($cookieStore, $http, $location, $rootScope) ->
 
   getAccessToken: (username, password) ->
     data =
-      client_id: $rootScope.CONFIG.clientId
-      client_secret: $rootScope.CONFIG.clientSecret
-      grant_type: "password"
       username: username
       password: password
 
     $http(
-      url: $rootScope.CONFIG.apiUrl + "/token"
+      url: $rootScope.CONFIG.apiUrl
       method: "POST"
       data: $.param(data)
       headers:
         "Content-Type": "application/x-www-form-urlencoded"
         Authorization: null
     ).success((data, status, headers, config) ->
-      console.log "Authentication Successful!"
-      $cookieStore.put "auth", data
-      authenticate data.access_token
-      redirectToHome()
+      $http.get('/api/ministryplatformapi/PlatformService.svc/GetCurrentUserInfo').then (response) ->
+        console.log "Current USER: ", response
+        redirectToHome()
       return
     ).error (data, status) ->
       if status is 0

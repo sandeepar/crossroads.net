@@ -14,5 +14,5 @@ description: "Brian Tome talks about how a lifestyle of sacrifice leads to growt
 video: "https://s3.amazonaws.com/crossroadsvideomessages/growup04.mp4"
 video-duration: "36:56"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/growup04_still.jpg"
-explicit: "N"
+explicit: false
 ---

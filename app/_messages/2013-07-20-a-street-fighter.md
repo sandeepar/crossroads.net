@@ -12,5 +12,5 @@ description: "Steven Manuel talks about how God is like a street fighter."
 video: "https://s3.amazonaws.com/crossroadsvideomessages/god_is_02.mp4"
 video-duration: "48:05"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/god_is_still_02.jpg"
-explicit: "N"
+explicit: false
 ---

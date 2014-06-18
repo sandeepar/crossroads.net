@@ -12,5 +12,5 @@ description: "Chuck Mingo talks about how God is the opposite of the Big Bad Wol
 video: "https://s3.amazonaws.com/crossroadsvideomessages/bigbadwolf_02.mp4"
 video-duration: "43:26"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/bigbadwolf_02_still.jpg"
-explicit: "N"
+explicit: false
 ---

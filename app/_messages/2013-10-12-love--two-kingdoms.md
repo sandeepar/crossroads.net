@@ -12,5 +12,5 @@ video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/Kin
 audio: "http://s3.amazonaws.com/crossroads-media/media/legacy/mp3/kingdom_come_1.mp3"
 audio-duration: "44:26"
 program: "http://s3.amazonaws.com/crossroads-media/media/legacy/documents/KingdomProgram_Week1_LO.pdf"
-explicit: "N"
+explicit: false
 ---

@@ -12,5 +12,5 @@ video: "https://s3.amazonaws.com/crossroadsvideomessages/Next2.mp4"
 video-duration: "37:18"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/Next2-still.jpg"
 program: "http://s3.amazonaws.com/crossroads-media/media/legacy/documents/01_09-10_10Program.pdf"
-explicit: "N"
+explicit: false
 ---

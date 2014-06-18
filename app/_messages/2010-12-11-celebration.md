@@ -12,5 +12,5 @@ description: "Brian Tome talks about what it means to live in celebration of the
 video: "https://s3.amazonaws.com/crossroadsvideomessages/celebration.mp4"
 video-duration: "35:13"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/celebration_still.jpg"
-explicit: "N"
+explicit: false
 ---

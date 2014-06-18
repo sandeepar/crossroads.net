@@ -8,10 +8,10 @@ message_id: 717
 audio: "http://s3.amazonaws.com/crossroads-media/media/legacy/mp3/gamechangers_01.mp3"
 audio-duration: "53:29"
 program: "http://s3.amazonaws.com/crossroads-media/media/legacy/documents/03_10-11_12Program.pdf"
-description: "This week we’re talking about how Game Changers share common
+description: "This week we're talking about how Game Changers share common
 traits, including dissatisfaction with the status quo."
 video: "https://s3.amazonaws.com/crossroadsvideomessages/gamechangers_01.mp4"
 video-duration: "53:36"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/gamechangers_01_still.jpg"
-explicit: "N"
+explicit: false
 ---

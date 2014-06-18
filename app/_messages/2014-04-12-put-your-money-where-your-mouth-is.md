@@ -12,5 +12,5 @@ description: "Brian Tome talks about how changing the world requires personal in
 video: "https://s3.amazonaws.com/crossroadsvideomessages/htctw_04.mp4"
 video-duration: ":"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/htctw_04_still.jpg"
-explicit: "N"
+explicit: false
 ---

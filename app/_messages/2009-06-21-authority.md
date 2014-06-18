@@ -15,5 +15,5 @@ video: "https://s3.amazonaws.com/crossroadsvideomessages/Roadmap5.mp4"
 video-duration: "34:47"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/Roadmap5-still.jpg"
 program: "http://s3.amazonaws.com/crossroads-media/media/legacy/documents/0613_14Program.pdf"
-explicit: "N"
+explicit: false
 ---

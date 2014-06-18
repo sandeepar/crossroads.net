@@ -11,5 +11,5 @@ description: "Pastor Fred Luter from New Orleans shares what to do when the stor
 video: "https://s3.amazonaws.com/crossroadsvideomessages/WeLoveCincy4.mp4"
 video-duration: "39:47"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/WeLoveCincy4-still.jpg"
-explicit: "N"
+explicit: false
 ---

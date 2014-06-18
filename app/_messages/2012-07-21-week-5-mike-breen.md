@@ -12,5 +12,5 @@ description: "Mike Breen talks about how rest can lead us to the good life."
 video: "https://s3.amazonaws.com/crossroadsvideomessages/goodlife_05.mp4"
 video-duration: "30:05"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/goodlife_05_still.jpg"
-explicit: "N"
+explicit: false
 ---

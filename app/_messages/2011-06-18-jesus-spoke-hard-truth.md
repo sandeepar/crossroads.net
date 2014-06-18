@@ -12,5 +12,5 @@ description: "Steven Manuel talks about how Jesus didn't play to the crowds."
 video: "https://s3.amazonaws.com/crossroadsvideomessages/greatestshow01.mp4"
 video-duration: "47:08"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/greatestshow01_still.jpg"
-explicit: "N"
+explicit: false
 ---

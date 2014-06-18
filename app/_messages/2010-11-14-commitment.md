@@ -12,5 +12,5 @@ description: "Brian Tome talks about the commitment and acting on that call."
 video: "https://s3.amazonaws.com/crossroadsvideomessages/gamechange06.mp4"
 video-duration: "35:46"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/gamechange06_still.jpg"
-explicit: "N"
+explicit: false
 ---

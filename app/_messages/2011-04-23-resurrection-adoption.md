@@ -12,5 +12,5 @@ description: "We'll be examining the credibility of the most outrageous part of 
 video: "https://s3.amazonaws.com/crossroadsvideomessages/thestory05.mp4"
 video-duration: "50:43"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/thestory05_still.jpg"
-explicit: "N"
+explicit: false
 ---

@@ -12,5 +12,5 @@ description: "Chuck Mingo talks about how we can cultivate an attitude of antici
 video: "https://s3.amazonaws.com/crossroadsvideomessages/anticipation.mp4"
 video-duration: "34:24"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/aniticipation_still.jpg"
-explicit: "N"
+explicit: false
 ---

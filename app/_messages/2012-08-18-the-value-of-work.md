@@ -12,5 +12,5 @@ description: "Brian Tome talks about the value of work."
 video: "https://s3.amazonaws.com/crossroadsvideomessages/htlyj_01.mp4"
 video-duration: "44:59"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/htlyj_01_Still.jpg"
-explicit: "N"
+explicit: false
 ---

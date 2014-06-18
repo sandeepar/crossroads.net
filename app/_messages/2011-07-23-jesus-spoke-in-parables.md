@@ -12,5 +12,5 @@ description: "Chuck Mingo talks about how Jesus spoke truth in the form of parab
 video: "https://s3.amazonaws.com/crossroadsvideomessages/thegreatestshow06.mp4"
 video-duration: "42:13"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/thegreatestshow06_still.jpg"
-explicit: "N"
+explicit: false
 ---

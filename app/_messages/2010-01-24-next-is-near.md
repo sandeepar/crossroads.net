@@ -12,5 +12,5 @@ description: "Brian Tome talks about how God uses our feelings to move us forwar
 video: "https://s3.amazonaws.com/crossroadsvideomessages/Next4.mp4"
 video-duration: "36:29"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/Next4-still.jpg"
-explicit: "N"
+explicit: false
 ---

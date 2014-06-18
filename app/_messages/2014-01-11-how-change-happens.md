@@ -12,5 +12,5 @@ description: "Brian Tome talks about how change happens."
 video: "https://s3.amazonaws.com/crossroadsvideomessages/powertochange_02.mp4"
 video-duration: "42:45"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/powertochange_02_still.jpg"
-explicit: "N"
+explicit: false
 ---

@@ -12,5 +12,5 @@ description: "Brian Tome talks about parenting through invitation and challenge.
 video: "https://s3.amazonaws.com/crossroadsvideomessages/htbp_04.mp4"
 video-duration: "45:59"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/htbp_04_still.jpg"
-explicit: "N"
+explicit: false
 ---

@@ -11,5 +11,5 @@ description: "Florence"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/022614-lw-florence.mp4"
 video-duration: "28:07"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/last-wednesday.jpg"
-explicit: "N"
+explicit: false
 ---

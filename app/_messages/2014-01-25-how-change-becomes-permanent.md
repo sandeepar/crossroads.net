@@ -12,5 +12,5 @@ description: "Karl Martin talks about how change becomes permanent."
 video: "https://s3.amazonaws.com/crossroadsvideomessages/powertochange_04.mp4"
 video-duration: "35:07"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/powertochange_04_still.jpg"
-explicit: "N"
+explicit: false
 ---

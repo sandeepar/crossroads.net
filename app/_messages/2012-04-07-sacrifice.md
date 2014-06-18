@@ -12,5 +12,5 @@ description: "Brian Tome talks about Jesus, the ultimate game changer and how it
 video: "https://s3.amazonaws.com/crossroadsvideomessages/gamechangers_05.mp4"
 video-duration: "40:26"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/gamechangers_05_still.jpg"
-explicit: "N"
+explicit: false
 ---

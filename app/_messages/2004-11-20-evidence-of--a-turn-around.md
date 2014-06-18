@@ -7,5 +7,5 @@ date: 2004-11-20-00-00
 message_id: 144
 audio: "http://s3.amazonaws.com/crossroads-media/media/legacy/mp3/CSI_04_11-20-04_Evidence_of_a_Turn-Around.mp3"
 audio-duration: "38:34"
-explicit: "N"
+explicit: false
 ---

@@ -11,10 +11,10 @@ audio-duration: "55:29"
 description: "What is it like to be at home?
 Because of an ancient tragedy that occurred in our
 family lines, our default mode of operation is living as
-abandoned orphans. But it can be changed—God’s
+abandoned orphans. But it can be changed—God's
 greatest desire is that we would all come Home."
 video: "https://s3.amazonaws.com/crossroadsvideomessages/journeyhome_01.mp4"
 video-duration: "55:36"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/journeyhome_01_still.jpg"
-explicit: "N"
+explicit: false
 ---
