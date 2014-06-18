@@ -1,12 +1,35 @@
 module.exports = function(app) {
     var mandrill = require('mandrill-api/mandrill');
     var util = require('util');
+    var q = require('q');
+    var request = require('superagent');
 
-    // var mandrillApiKey = "c84f6RI_NE-LKsA3n3EB4g";    // Crossroads.net API key
-    var mandrillApiKey = "Ng3po8yK9LlryPGwXorM5Q";  // personal test API key
+    //
+    // OAuth2 Support for Ministry Platform calls
+    //
+    var credentials = {
+        clientID: 'client',
+        clientSecret: 'secret',
+        site: 'https://my.crossroads.net/ministryplatform',
+        authorizationPath: '/oauth/authorize',
+        tokenPath: '/oauth/token'
+    };
+
+    var OAuth2 = require('simple-oauth2')(credentials);
+
+    var contactUrl = 'https://my.crossroads.net/ministryplatformapi/PlatformService.svc/GetPageRecord';
+    var contactPageId = 292;
+
+    //
+    // Configuration Settings
+    //
+    var mandrillApiKey = "c84f6RI_NE-LKsA3n3EB4g";    // Crossroads.net API key
     var fromEmail = "notifications@crossroads.net";
     var fromName = "Notifications";
 
+    //
+    // Express Route for Form Processing
+    //
     app.route('/form-handlers')
         .post(function (req, res, next) {
             // This field should be empty in the form
@@ -65,8 +88,18 @@ module.exports = function(app) {
                     content += req.body[keyList[i]] + "\n\n";
                 }
 
-                // Send the email using Mandrill
-                send(toList, replyEmail, replyName, subject, content);
+                // Lookup the TO Contact(s) in Ministry Platform
+                var promise = lookupContacts(toList);
+                promise
+                    .then(function(emails) {
+                        console.log('Retrieved email addresses: ' + emails);
+
+                        // Send the email using Mandrill
+                        send(emails, replyEmail, replyName, subject, content);
+                    }, function(err) {
+                        console.log('Error looking up email addresses for contact ids: ' + toList);
+                    })
+                    .done();
             } else {
                 console.log('BOT submitted request');
             }
@@ -75,15 +108,71 @@ module.exports = function(app) {
             res.redirect(redirect || '/contact-submitted');
         });
 
+    //
+    // Lookup Contacts in Ministry Platform
+    //
+    var lookupContacts = function(toList) {
+        var promises = [];
+        var emails = [];
+
+        toList.forEach(function(recordId) {
+            promises.push(lookupContact(recordId));
+        });
+
+        return q.all(promises);
+    };
+
+    var lookupContact = function(recordId) {
+        var deferred = q.defer();
+        getTokenForService()
+            .then(function(token) {
+                request
+                    .get(contactUrl)
+                    .query({ pageId: contactPageId, recordId: recordId })
+                    .set('Authorization', 'Bearer ' + token.access_token)
+                    .end(function(err, res) {
+                        if (err || res.error) {
+                            console.log('Contact Lookup Error: ' + util.inspect(err || res.error));
+                            return;
+                        }
+
+                        var email = extractFieldValue(res.body, 'Email_Address');
+                        deferred.resolve(email);
+                    });
+            }, function(error) {
+                deferred.reject(error);
+            })
+            .done();
+
+        return deferred.promise;
+    };
+
+    var extractFieldValue = function(res, fieldName) {
+        if (res.Fields && res.Data && res.Data[0]) {
+            for (var i=0; i < res.Fields.length; i++) {
+                if (res.Fields[i].Name === fieldName) {
+                    return res.Data[0][res.Fields[i].Index];
+                }
+            }
+        }
+
+        return null;
+    };
+
+    //
+    // Send Email through Mandrill
+    //
     var send = function (toList, replyEmail, replyName, subject, content) {
         var mandrill_client = new mandrill.Mandrill(mandrillApiKey);
 
         var toArray = [];
         toList.forEach(function (email) {
-            toArray.push({
-                "email": email,
-                "type": "to"
-            });
+            if (email && email.trim()) {
+                toArray.push({
+                    "email": email.trim(),
+                    "type": "to"
+                });
+            }
         });
 
         var replyTo = replyName && replyName.length ? replyName + " <" + replyEmail + ">" : replyEmail;
@@ -110,10 +199,6 @@ module.exports = function(app) {
             "tracking_domain": null,
             "signing_domain": null,
             "return_path_domain": null
-//            "bcc_address": "message.bcc_address@example.com"
-//            "tags": [
-//                "password-resets"
-//            ],
         };
         var async = false;
         var ip_pool = "Main Pool";
@@ -133,4 +218,42 @@ module.exports = function(app) {
             // A mandrill error occurred: Unknown_Subaccount - No subaccount exists with the id 'customer-123'
         });
     };
+
+    //
+    // Create Token for server-to-server API calls
+    //
+
+    var getTokenForService = function() {
+        var deferred = q.defer();
+//        OAuth2.Client.getToken({
+//            client_id: 'client',
+//            client_secret: 'secret'
+//        }, function(error, result) {
+//            if (error) {
+//                console.log('OAuth error: ' + util.inspect(error));
+//                deferred.reject(error);
+//                return;
+//            }
+//
+//            console.log('Access token: ' + util.inspect(result));
+//            deferred.resolve(result);
+//        });
+
+        OAuth2.Password.getToken({
+                username: 'form-mailer-service',
+                password: 'password'
+            }, function(error, result) {
+            if (error) {
+                console.log('OAuth error: ' + util.inspect(error));
+                deferred.reject(error);
+                return;
+            }
+
+            //console.log('Access token: ' + util.inspect(result));
+            deferred.resolve(result);
+        });
+
+        return deferred.promise;
+    };
+
 };

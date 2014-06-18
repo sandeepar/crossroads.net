@@ -43,6 +43,7 @@
     "moment": "~2.5.1",
     "passport": "~0.2.0",
     "simple-oauth2": "^0.1.9",
-    "superagent": "~0.16.0"
+    "superagent": "~0.16.0",
+    "q": "~1.0.1"
   }
 }
