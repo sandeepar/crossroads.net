@@ -13,12 +13,23 @@
 // @import 'block-grid';
 
 body {
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
   font-family: "Helvetica Neue Condensed", 'Roboto', Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  line-height: 22px;
 }
-
 a:hover {
   text-decoration:none;
 }
+.brand-font {
+  font-family: $brand-font-family;
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: -1.8px;
+  }
+
 .navbar{
 	z-index: 100;
 }
@@ -65,8 +76,6 @@ footer .open, footer .office {
 }
 .home .home-header {
   color: $cr-blue;
-  letter-spacing: -2px;
-  font-weight: bold;
 }
 .home .tagline {
   margin-bottom: 20px;
