@@ -5,6 +5,7 @@ http = require("http");
 https = require("https");
 
 url = require("url");
+var util = require('util');
 
 module.exports = function(uri) {
     if (typeof uri === "string") {

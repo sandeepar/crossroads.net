@@ -95,7 +95,9 @@ crossroads.factory "Auth", ($cookieStore, $http, $location, $rootScope) ->
         "Content-Type": "application/x-www-form-urlencoded"
         Authorization: null
     ).success((data, status, headers, config) ->
-      redirectToHome()
+      $http.get('/api/ministryplatformapi/PlatformService.svc/GetCurrentUserInfo').then (response) ->
+        console.log "Current USER: ", response
+        redirectToHome()
       return
     ).error (data, status) ->
       if status is 0
