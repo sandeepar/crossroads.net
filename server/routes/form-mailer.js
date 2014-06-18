@@ -30,7 +30,7 @@ module.exports = function(app) {
     //
     // Express Route for Form Processing
     //
-    app.route('/form-handlers')
+    app.route('/form-mail')
         .post(function (req, res, next) {
             // This field should be empty in the form
             // If a BOT has auto-filled this form trying to use the form for Spam,
