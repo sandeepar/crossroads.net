@@ -148,7 +148,7 @@ gulp.task('karma', ['coffee'], function(done) {
 });
 
 gulp.task('watch', function() {
-    gulp.watch([paths.scripts, paths.templates], ['clean', 'coffee']);
+    gulp.watch([paths.scripts, paths.templates], ['coffee']);
     gulp.watch(paths.sass, ['sass']);
 });
 
