@@ -12,5 +12,5 @@ video-duration: "39:32"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/heavyweights01still.jpg"
 audio: "http://s3.amazonaws.com/crossroadsaudiomessages/heavyweights_01.mp3"
 audio-duration: "39:27"
-explicit: "N"
+explicit: false
 ---

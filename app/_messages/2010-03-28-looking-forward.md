@@ -12,5 +12,5 @@ description: "Brian Tome discusses next steps in pursuing freedom."
 video: "https://s3.amazonaws.com/crossroadsvideomessages/Free6.mp4"
 video-duration: "31:55"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/Free6-still.jpg"
-explicit: "N"
+explicit: false
 ---

@@ -12,5 +12,5 @@ description: "Mike Breen talks about how Jesus both invites us and challenges us
 video: "https://s3.amazonaws.com/crossroadsvideomessages/goodlife_04.mp4"
 video-duration: "37:31"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/goodlife_04_still.jpg"
-explicit: "N"
+explicit: false
 ---

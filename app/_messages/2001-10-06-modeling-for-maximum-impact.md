@@ -7,5 +7,5 @@ date: 2001-10-06-00-00
 message_id: 312
 audio: "http://s3.amazonaws.com/crossroads-media/media/legacy/mp3/MI_04_09-30-01_Modeling_For_Maximum_Impact.mp3"
 audio-duration: "35:43"
-explicit: "N"
+explicit: false
 ---

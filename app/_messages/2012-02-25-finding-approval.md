@@ -12,5 +12,5 @@ description: "Brian Tome talks about our need for approval."
 video: "https://s3.amazonaws.com/crossroadsvideomessages/placeatthetable_03.mp4"
 video-duration: "37:59"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/placeatthetable_03_still.jpg"
-explicit: "N"
+explicit: false
 ---

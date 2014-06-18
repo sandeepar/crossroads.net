@@ -12,5 +12,5 @@ description: "Brian talks about what it looks like to be faithful in your profes
 video: "https://s3.amazonaws.com/crossroadsvideomessages/thefaithful05.mp4"
 video-duration: "37:52"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/TheFaithful05_still.jpg"
-explicit: "N"
+explicit: false
 ---

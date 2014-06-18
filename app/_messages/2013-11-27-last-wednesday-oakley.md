@@ -11,5 +11,5 @@ description: "Oakley"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/1127813_lw_oakley.mp4"
 video-duration: "34:39"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/112713_lw_oakley_still.jpg"
-explicit: "N"
+explicit: false
 ---

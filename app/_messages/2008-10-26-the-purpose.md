@@ -15,5 +15,5 @@ description: "What is the purpose of all of this \"Kingdom\" talk? In this messa
 video: "https://s3.amazonaws.com/crossroadsvideomessages/unlocked4.mp4"
 video-duration: "39:31"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/unlocked4-still.jpg"
-explicit: "N"
+explicit: false
 ---

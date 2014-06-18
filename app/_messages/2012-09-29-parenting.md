@@ -12,5 +12,5 @@ description: "Brian Tome talks about parenting."
 video: "https://s3.amazonaws.com/crossroadsvideomessages/knockoff_03.mp4"
 video-duration: "43:14"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/knockoff_03_still.jpg"
-explicit: "N"
+explicit: false
 ---

@@ -7,5 +7,5 @@ date: 2003-09-28-00-00
 message_id: 204
 audio: "http://s3.amazonaws.com/crossroads-media/media/legacy/mp3/FF_04_09-28-03_Fearless_Faith.mp3"
 audio-duration: "38:33"
-explicit: "N"
+explicit: false
 ---

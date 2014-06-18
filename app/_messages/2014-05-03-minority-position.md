@@ -12,5 +12,5 @@ description: "The new man takes a minority position."
 video: "https://s3.amazonaws.com/crossroadsvideomessages/thenewman_02.mp4"
 video-duration: ":"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/thenewman_02.jpg"
-explicit: "N"
+explicit: false
 ---

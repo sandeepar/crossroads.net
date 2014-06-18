@@ -12,5 +12,5 @@ description: "Brian Tome talks about how the faithful respond to God's call."
 video: "https://s3.amazonaws.com/crossroadsvideomessages/TheFaithful03.mp4"
 video-duration: "46:37"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/TheFaithful03_still.jpg"
-explicit: "N"
+explicit: false
 ---

@@ -13,5 +13,5 @@ will do in our city and throughout the world, and for allowing us to be a part o
 video: "https://s3.amazonaws.com/crossroadsvideomessages/gamechange07.mp4"
 video-duration: "29:20"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/gamechange07_still.jpg"
-explicit: "N"
+explicit: false
 ---

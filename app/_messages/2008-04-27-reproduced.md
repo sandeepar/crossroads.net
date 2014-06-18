@@ -11,5 +11,5 @@ video-duration: "42:07"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/iam-reproduced-still.jpg"
 audio: "http://s3.amazonaws.com/crossroadsaudiomessages/I_AM_4_Reproduced_04-27-08_Tome_webaudio.mp3"
 audio-duration: "35:40"
-explicit: "N"
+explicit: false
 ---

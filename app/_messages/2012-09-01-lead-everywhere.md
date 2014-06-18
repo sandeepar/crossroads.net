@@ -12,5 +12,5 @@ description: "Chuck Mingo talks about how to put our talents to work."
 video: "https://s3.amazonaws.com/crossroadsvideomessages/htlyj_03.mp4"
 video-duration: "36:30"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/htlyj_03_still.jpg"
-explicit: "N"
+explicit: false
 ---

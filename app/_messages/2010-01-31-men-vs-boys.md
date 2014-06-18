@@ -12,5 +12,5 @@ video: "https://s3.amazonaws.com/crossroadsvideomessages/Manly1.mp4"
 video-duration: "38:45"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/Manly1-Still.jpg"
 program: "http://s3.amazonaws.com/crossroads-media/media/legacy/documents/01_30-31_10Program.pdf"
-explicit: "N"
+explicit: false
 ---

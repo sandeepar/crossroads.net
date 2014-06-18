@@ -11,5 +11,5 @@ description: "This week we're focusing on how generosity frees us. "
 video: "http://s3.amazonaws.com/crossroadsvideomessages/consumed2.mp4"
 video-duration: "39:23"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/consumed2.jpg"
-explicit: "N"
+explicit: false
 ---

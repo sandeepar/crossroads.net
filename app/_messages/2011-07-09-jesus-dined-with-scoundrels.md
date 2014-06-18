@@ -12,5 +12,5 @@ description: "Brian Wells talks about about how Jesus redefined God."
 video: "https://s3.amazonaws.com/crossroadsvideomessages/greatestshow04.mp4"
 video-duration: "46:04"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/greatestshow04_still.jpg"
-explicit: "N"
+explicit: false
 ---

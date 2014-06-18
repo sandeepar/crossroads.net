@@ -15,5 +15,5 @@ description: "Chuck Mingo shares what being on mission in Cincinnati looks like.
 video: "https://s3.amazonaws.com/crossroadsvideomessages/WeLoveCincy6.mp4"
 video-duration: "41:23"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/WeLoveCincy6-still.jpg"
-explicit: "N"
+explicit: false
 ---

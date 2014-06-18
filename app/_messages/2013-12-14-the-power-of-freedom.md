@@ -11,5 +11,5 @@ description: "Florence"
 video: "https://s3.amazonaws.com/crossroadsvideomessages/giftoffreedom_03_florence.mp4"
 video-duration: "38:12"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/giftoffreedom_03_fl_still.jpg"
-explicit: "N"
+explicit: false
 ---

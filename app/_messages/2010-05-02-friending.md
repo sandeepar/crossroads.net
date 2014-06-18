@@ -12,5 +12,5 @@ video: "https://s3.amazonaws.com/crossroadsvideomessages/ForceFeed4.mp4"
 video-duration: "44:01"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/DefaultVideoImage.jpg"
 program: "http://s3.amazonaws.com/crossroads-media/media/legacy/documents/05_01-02_10Program.pdf"
-explicit: "N"
+explicit: false
 ---

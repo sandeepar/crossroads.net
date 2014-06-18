@@ -14,5 +14,5 @@ description: "Chuck Mingo talks about growing through intentional community."
 video: "https://s3.amazonaws.com/crossroadsvideomessages/growup02.mp4"
 video-duration: "39:34"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/chuckstillweb.jpg"
-explicit: "N"
+explicit: false
 ---

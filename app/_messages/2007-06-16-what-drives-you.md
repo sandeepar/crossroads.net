@@ -7,5 +7,5 @@ date: 2007-06-16-00-00
 message_id: 14
 audio: "http://s3.amazonaws.com/crossroads-media/media/legacy/mp3/FUEL_01_06-17-07_Tome.mp3"
 audio-duration: "37:07"
-explicit: "N"
+explicit: false
 ---

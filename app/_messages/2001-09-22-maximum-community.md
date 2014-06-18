@@ -7,5 +7,5 @@ date: 2001-09-22-00-00
 message_id: 314
 audio: "http://s3.amazonaws.com/crossroads-media/media/legacy/mp3/MI_02_09-16-01_Maximum_Community.mp3"
 audio-duration: "39:31"
-explicit: "N"
+explicit: false
 ---

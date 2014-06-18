@@ -12,5 +12,5 @@ description: "Todd Henry shares how God uses dreams to build into us the capacit
 video: "https://s3.amazonaws.com/crossroadsvideomessages/Next3.mp4"
 video-duration: "32:17"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/Next3-still.jpg"
-explicit: "N"
+explicit: false
 ---

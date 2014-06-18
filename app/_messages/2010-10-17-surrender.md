@@ -14,5 +14,5 @@ description: "Brian Tome talks about what it means to surrender."
 video: "https://s3.amazonaws.com/crossroadsvideomessages/gamechange02.mp4"
 video-duration: "56:21"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/gamechange02_still.jpg"
-explicit: "N"
+explicit: false
 ---

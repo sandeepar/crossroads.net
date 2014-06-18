@@ -7,5 +7,5 @@ date: 2003-08-02-00-00
 message_id: 212
 audio: "http://s3.amazonaws.com/crossroads-media/media/legacy/mp3/LFAR_06_08-03-03_Serving_The_Under-Resourced.mp3"
 audio-duration: "37:04"
-explicit: "N"
+explicit: false
 ---

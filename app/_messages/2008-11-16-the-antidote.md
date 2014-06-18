@@ -15,5 +15,5 @@ description: "The antidote to an attitude of entitlement is the discipline of gr
 video: "https://s3.amazonaws.com/crossroadsvideomessages/GIMMEGIMME3.mp4"
 video-duration: "36:07"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/GIMMEGIMME3-still.jpg"
-explicit: "N"
+explicit: false
 ---

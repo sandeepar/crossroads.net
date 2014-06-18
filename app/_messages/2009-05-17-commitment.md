@@ -15,5 +15,5 @@ description: "What are the conditions necessary for a revolution to thrive? Join
 video: "https://s3.amazonaws.com/crossroadsvideomessages/roadmap1.mp4"
 video-duration: "38:55"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/roadmap1-still.jpg"
-explicit: "N"
+explicit: false
 ---

@@ -7,5 +7,5 @@ date: 2002-10-27-00-00
 message_id: 258
 audio: "http://s3.amazonaws.com/crossroadsaudiomessages/Growing%20Together.mp3"
 audio-duration: "40:04"
-explicit: "N"
+explicit: false
 ---

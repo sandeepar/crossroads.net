@@ -12,5 +12,5 @@ description: "Chuck Mingo talks about getting our jerseys dirty."
 video: "https://s3.amazonaws.com/crossroadsvideomessages/htctw_02.mp4"
 video-duration: ":"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/htctw_02_still.jpg"
-explicit: "N"
+explicit: false
 ---

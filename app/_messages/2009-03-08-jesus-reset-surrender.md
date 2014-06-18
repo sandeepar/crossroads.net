@@ -12,5 +12,5 @@ description: "Following Jesus often means living counter-culturally. In this tal
 video: "https://s3.amazonaws.com/crossroadsvideomessages/Reset3.mp4"
 video-duration: "46:26"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/Reset3-still.jpg"
-explicit: "N"
+explicit: false
 ---

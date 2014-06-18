@@ -12,5 +12,5 @@ description: "Chuck Mingo talks about the power of encouragement in friendships.
 video: "https://s3.amazonaws.com/crossroadsvideomessages/everydayfriends02.mp4"
 video-duration: "33:48"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/everydayfriends02_still2.jpg"
-explicit: "N"
+explicit: false
 ---

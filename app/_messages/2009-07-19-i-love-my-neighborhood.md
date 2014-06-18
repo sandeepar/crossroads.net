@@ -15,5 +15,5 @@ notes-description: ""
 notes: "http://s3.amazonaws.com/crossroads-media/media/legacy/documents/SN_07_18-19_09.pdf"
 notes-title: "I Love My Neighborhood (Study Notes)"
 program: "http://s3.amazonaws.com/crossroads-media/media/legacy/documents/0718_19Program.pdf"
-explicit: "N"
+explicit: false
 ---
