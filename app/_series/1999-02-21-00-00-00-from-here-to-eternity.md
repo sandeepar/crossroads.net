@@ -6,5 +6,5 @@ title: From Here To Eternity
 date: 1999-02-21 00:00:00
 endDate: 1999-02-28 00:00:00
 description: "An in-depth look at Heaven and Hell "
-src: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/"
+src: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/GenericCrnerSign.jpg"
 ---
