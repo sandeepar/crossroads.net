@@ -1,6 +1,6 @@
 ---
 layout: right_column
-permalink: /prayer-request/
+permalink: /prayerrequest/
 ---
 <!-- Template: prayer-request.html -->
 
@@ -19,24 +19,24 @@ permalink: /prayer-request/
 <br/>
 
 <div>
-    <form action="/form-handlers" method="post">
+    <form action="/form-mail" method="post">
         <!-- Form Configuration -->
         <input type="hidden" name="crds-form-authorization-signature" value=""/>
-        <input type="hidden" name="crds-form-subject" value="Happy Test Form"/>
+        <input type="hidden" name="crds-form-to" value="228413"/>
+        <input type="hidden" name="crds-form-subject" value="Prayer Request"/>
         <input type="hidden" name="crds-form-redirect" value="/contact-submitted"/>
         <input type="hidden" name="crds-form-reply-name" value="replyName"/>
         <input type="hidden" name="crds-form-reply-email" value="replyEmail"/>
-        <input type="hidden" name="crds-form-to" value="chris@tallented.com"/>
         <input type="hidden" name="crds-form-require[request]" value="true"/>
         <input type="hidden" name="crds-form-require[replyName]" value="true"/>
 
         <div class="form-group">
             <label for="replyName">Name</label>
-            <input type="text" class="form-control" id="replyName" name="replyName" value="Chris"/>
+            <input type="text" class="form-control" id="replyName" name="replyName"/>
         </div>
         <div class="form-group">
             <label for="replyEmail">Email</label>
-            <input type="email" class="form-control" id="replyEmail" name="replyEmail" value="chris@tallented.net"/>
+            <input type="email" class="form-control" id="replyEmail" name="replyEmail"/>
         </div>
         <div class="form-group">
             <label for="request">Prayer Request</label>
