@@ -84,8 +84,8 @@ module.exports = function(app) {
 
                 var content = '';
                 for (var i = 0; i < keyList.length; i++) {
-                    content += keyList[i] + "\n";
-                    content += req.body[keyList[i]] + "\n\n";
+                    content += "<p><b>" + keyList[i] + "</b><br/>\n";
+                    content += req.body[keyList[i]] + "</p>\n";
                 }
 
                 // Lookup the TO Contact(s) in Ministry Platform
@@ -177,9 +177,17 @@ module.exports = function(app) {
 
         var replyTo = replyName && replyName.length ? replyName + " <" + replyEmail + ">" : replyEmail;
 
+        var templateName = "primary";
+        var templateContent = [
+            {
+                "name" : "main",
+                "content": content || 'No Form Data'
+            }
+        ];
+
         var message = {
             // "html": "<p>Example HTML content</p>",
-            "text": content || 'No Form Data Submitted',
+            //"text": content || 'No Form Data Submitted',
             "subject": subject,
             "from_email": fromEmail,
             "from_name": fromName,
@@ -202,7 +210,12 @@ module.exports = function(app) {
         };
         var async = false;
         var ip_pool = "Main Pool";
-        mandrill_client.messages.send({"message": message, "async": async }, function (result) {
+        mandrill_client.messages.sendTemplate({
+            "template_name" : templateName,
+            "template_content" : templateContent,
+            "message": message,
+            "async": async
+        }, function (result) {
             console.log(result);
             /*
              [{
