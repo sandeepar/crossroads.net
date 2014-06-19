@@ -72,11 +72,12 @@ gulp.task "coffee", ->
   , gulp.src(paths.scripts)
     .pipe(coffeelint())
     .pipe(coffeelint.reporter())
-    .pipe(coffee().on("error", gutil.log))
+    .pipe(coffee({bare: true}).on("error", gutil.log))
   , gulp.src(paths.templates)
     .pipe(templateCache(standalone: true)))
     .pipe(concat("app.js"))
     .pipe(gulpif(not devEnv, ngmin()))
+    .pipe(gulpif(not devEnv, uglify()))
     .pipe(gulp.dest("generated/js"))
     .pipe gulpif(devEnv, livereload())
 
