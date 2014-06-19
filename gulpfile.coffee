@@ -153,6 +153,7 @@ gulp.task "dev", [
 gulp.task "build", [
   "clean"
   "jb"
+  "vendor"
   "coffee"
   "sass"
 ]
