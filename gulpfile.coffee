@@ -132,11 +132,13 @@ gulp.task "test", [
   "clean"
   "mkdirs"
   "sass"
+  "vendor"
   "karma"
   "spec-watch"
 ]
 gulp.task "ci", [
   "clean"
+  "vendor"
   "karma"
 ]
 gulp.task "dev", [
