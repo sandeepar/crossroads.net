@@ -10,3 +10,9 @@ published: true
     <li> <a href="{{ content.url }}">{{ content.title }} </a></li>
     {% endfor %}
 </ul>
+<h2>Blog Posts :</h2>
+{% for post in site.posts %}
+<ul>
+    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+</ul>
+{% endfor %}
