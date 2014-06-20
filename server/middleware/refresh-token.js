@@ -5,9 +5,9 @@ request = require('superagent');
 
 module.exports = function() {
   return function(req, res, next) {
-    if ((req.user != null) && (req.user.expires_at != null) && moment().add('seconds', 30).isAfter(moment(req.user.expires_at))) {
+    if ((req.user != null) && (req.user.token.expires_at != null) && moment().add('seconds', 30).isAfter(moment(req.user.token.expires_at))) {
       return request.post("" + config.api.url + "/oauth/token").send({
-        refresh_token: req.user.refresh_token,
+        refresh_token: req.user.token.refresh_token,
         client_id: 'client',
         client_secret: 'secret',
         grant_type: "refresh_token"
