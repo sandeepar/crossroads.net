@@ -1,4 +1,4 @@
-crossroads = angular.module("crossroads", ["ngCookies", 'mgcrea.ngStrap'])
+angular.module("crossroads", ["ngCookies", 'mgcrea.ngStrap'])
 
 .run (Auth) ->
   # Auth.authenticate()

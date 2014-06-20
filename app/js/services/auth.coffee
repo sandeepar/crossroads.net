@@ -1,4 +1,6 @@
-crossroads.factory "Auth", ($cookieStore, $http, $location, $rootScope) ->
+angular.module('crossroads')
+
+.factory "Auth", ($cookieStore, $http, $location, $rootScope) ->
   login: (username, password) ->
     data =
       username: username

@@ -1,4 +1,5 @@
 devEnv = process.env.NODE_ENV == 'development'
+
 gulp = require 'gulp'
 templateCache = require 'gulp-angular-templatecache'
 coffeelint = require 'gulp-coffeelint'
@@ -72,7 +73,7 @@ gulp.task "coffee", ->
   , gulp.src(paths.scripts)
     .pipe(coffeelint())
     .pipe(coffeelint.reporter())
-    .pipe(coffee({bare: true}).on("error", gutil.log))
+    .pipe(coffee().on("error", gutil.log))
   , gulp.src(paths.templates)
     .pipe(templateCache(standalone: true)))
     .pipe(concat("app.js"))
