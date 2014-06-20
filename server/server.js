@@ -4,10 +4,6 @@ express = require('express');
 bodyParser = require('body-parser');
 expressValidator = require('express-validator');
 
-dotenv = require('dotenv');
-
-dotenv.load();
-
 app = express();
 app.use(bodyParser());
 app.use(expressValidator([]));
