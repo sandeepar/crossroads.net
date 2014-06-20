@@ -116,3 +116,17 @@ footer .open, footer .office {
 .rt_block_spacer {
     margin-bottom: 1em;
 }
+
+/***************************************************************************************
+* GROWL NOTIFICATIONS
+***************************************************************************************/
+.crossroads-growl {
+  .growl-container {
+    top: 15px !important;
+    z-index: 100100;
+
+    >.growl-item {
+      @include box-shadow(0 3px 9px rgba(0,0,0,.5));
+    }
+  }
+}

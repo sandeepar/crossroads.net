@@ -5,7 +5,8 @@
     {% include head.html %}
   </head>
 
-  <body ng-app="crossroads">
+  <body ng-app="crossroads" ng-controller="AppCtrl">
+    <div growl class="crossroads-growl"></div>
     {{ content }}
   </body>
 </html>

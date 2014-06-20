@@ -81,7 +81,7 @@ gulp.task "coffee", ->
     .pipe gulpif(devEnv, livereload())
 
 gulp.task "sass", ->
-  gulp.src("app/css/main.scss")
+  gulp.src(vendor.css.concat [ "app/css/main.scss"])
     .pipe(sass(sourcemap: false))
     .pipe(concat("app.css"))
     .pipe(gulpif(not devEnv, minifyCSS()))
