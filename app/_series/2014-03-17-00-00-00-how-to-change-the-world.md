@@ -2,9 +2,9 @@
 layout: series
 series: "How to Change the World"
 permalink: "/how-to-change-the-world/"
-title: How to Change the World
+title: "How to Change the World"
 date: 2014-03-17 00:00:00
 endDate: 2014-04-20 00:00:00
 description: "We're talking about setting ourselves on fire."
-src: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/HowToChangeWorld_127x127.jpg"
+src: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/HowToChangeWorld_190x110.jpg"
 ---
