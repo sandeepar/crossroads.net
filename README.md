@@ -23,6 +23,8 @@ For more information about Gulp visit: http://gulpjs.com
 ### Running the project
 To run the project use: ```gulp```
 
+If you would prefer to disable the growl notifications you may run: ```gulp -n```
+
 This will watch the filesystem and compile all the sass into css,
 coffeescript into javascript and run jekyll-build as well. This will also run
 the node server making the site available at localhost:3000
