@@ -1,6 +1,12 @@
 angular.module('crossroads')
 
 .factory "Auth", ($cookieStore, $http, $location, $rootScope) ->
+  getCurrentUser: ->
+    $http.get('/api/ministryplatformapi/PlatformService.svc/GetCurrentUserInfo')
+      .then (response) ->
+        $rootScope.currentUser = response.data
+      return
+
   login: (username, password) ->
     data =
       username: username

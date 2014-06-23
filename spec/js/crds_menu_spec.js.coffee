@@ -7,6 +7,8 @@ describe "crds menu directive", ->
   beforeEach inject(($compile, $rootScope, $httpBackend) ->
     $httpBackend.whenGET("https://my.crossroads.net/ministryplatform/oauth/me")
       .respond("Success")
+    $httpBackend.whenGET("/api/ministryplatformapi/PlatformService.svc/GetCurrentUserInfo")
+      .respond({"DateOfBirth":null,"DisplayName":"Doe, John","EmailAddress":"jdoe@example.net","ExternalIdentities":[],"FirstName":"John","GenderId":1,"LastName":"Doe","Locale":"","MaritalStatusId":2,"MiddleName":null,"MobilePhone":"513-555-1234","NewPassword":null,"Nickname":"John","PrefixId":null,"SuffixId":null,"Theme":"mpdark","TimeZoneId":""})
 
     @scope = $rootScope
     @scope.menu = {
