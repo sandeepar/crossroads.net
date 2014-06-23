@@ -22,6 +22,11 @@ paths = require './config/paths'
 karmaConf = require './config/karma_conf'
 vendor = require './config/files'
 
+# Growl notification when Jekyll completes
+notify = require 'gulp-notify'
+nn = require 'node-notifier'
+notifier = new nn()
+
 gulp.task "clean", ->
   gulp.src("generated/{js,css}/*.*").pipe clean()
   return
@@ -39,6 +44,10 @@ gulp.task "jekyll", (cb) ->
   bundle.stdout.on "data", (data) ->
     console.log "[jekyll] ", data.toString()
     livereload.changed "jekyll"
+
+    if devEnv && data.toString().search('done.') != -1
+      notifier.notify({ title: "Gulp", message: 'Jekyll is done' })
+
     return
   return
 
@@ -69,18 +78,19 @@ gulp.task "vendor", ->
 
 gulp.task "coffee", ->
   streamqueue(
-    objectMode: true
-  , gulp.src(paths.scripts)
-    .pipe(coffeelint())
-    .pipe(coffeelint.reporter())
-    .pipe(coffee().on("error", gutil.log))
-  , gulp.src(paths.templates)
-    .pipe(templateCache(standalone: true)))
-    .pipe(concat("app.js"))
-    .pipe(gulpif(not devEnv, ngmin()))
-    .pipe(gulpif(not devEnv, uglify()))
-    .pipe(gulp.dest("generated/js"))
-    .pipe gulpif(devEnv, livereload())
+    objectMode: true,
+    gulp.src(paths.scripts)
+      .pipe(coffeelint())
+      .pipe(coffeelint.reporter())
+      .pipe(coffee().on("error", gutil.log)),
+    gulp.src(paths.templates)
+      .pipe(templateCache(standalone: true)))
+      .pipe(concat("app.js"))
+      .pipe(gulpif(not devEnv, ngmin()))
+      .pipe(gulpif(not devEnv, uglify()))
+      .pipe(gulp.dest("generated/js"))
+      .pipe(gulpif(devEnv, livereload())
+  ).pipe(gulpif(devEnv, notify('Coffee is done')))
 
 gulp.task "sass", ->
   gulp.src(vendor.css.concat [ "app/css/main.scss"])
@@ -89,6 +99,7 @@ gulp.task "sass", ->
     .pipe(gulpif(not devEnv, minifyCSS()))
     .pipe(gulp.dest("generated/css"))
     .pipe gulpif(devEnv, livereload())
+    .pipe(gulpif(devEnv, notify('Sass is done')))
   return
 
 gulp.task "server", ->
