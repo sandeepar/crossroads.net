@@ -1,6 +1,6 @@
 angular.module('crossroads')
 
-.directive "crdsMenu", ($rootScope) ->
+.directive "crdsMenu", ->
   controller: "crdsMenuCtrl",
   templateUrl: "/templates/crdsMenu.html"
   require: "authForm"

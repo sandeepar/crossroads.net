@@ -4,8 +4,15 @@ angular.module('crossroads')
   getCurrentUser: ->
     $http.get('/api/ministryplatformapi/PlatformService.svc/GetCurrentUserInfo')
       .then (response) ->
-        $rootScope.currentUser = response.data
+        if typeof response.data is 'object'
+          $rootScope.currentUser = response.data
+        else
+          $rootScope.currentUser = null
       return
+
+  logout: ->
+    $http.delete('/logout').then ->
+      $rootScope.currentUser = null
 
   login: (username, password) ->
     data =
