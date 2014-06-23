@@ -24,5 +24,3 @@ angular.module('crossroads')
       if status is 0
         console.log "Could not reach API"
       else console.log "Invalid username & password"
-      return
-    return
