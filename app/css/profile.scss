@@ -1,0 +1,11 @@
+// Profile Styling
+
+.profile-header {
+  margin-bottom: 22px;
+}
+
+.profile-body {
+  .tab-pane {
+    @extend .panel-body;
+  }
+}
