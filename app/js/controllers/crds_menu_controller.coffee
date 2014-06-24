@@ -14,16 +14,20 @@ angular.module('crossroads')
       $scope.loginShow = true
 
   $scope.toggleMenu = ->
+    thing = $(this).attr("class")
     if $scope.menuShow == true
-      $("header").removeClass("show")
-      $("header").removeClass("overlay")
+      $(".overlay_container").removeClass("show")
+      $(".overlay_container").removeClass("overlay")
       $("#container").removeClass("show")
       $scope.menuShow = false
     else
-      $("header").addClass("show")
-      $("header").addClass("overlay")
+      $(".overlay_container").addClass("show")
+      $(".overlay_container").addClass("overlay")
       $("#container").addClass("show")
       $scope.menuShow = true
 
   $rootScope.$on 'login:hide', ->
     $scope.toggleDesktopLogin()
+
+  $rootScope.$on 'menu:toggle', ->
+    $scope.toggleMenu()

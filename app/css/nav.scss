@@ -1,10 +1,11 @@
 // Basic Styling
-.show.overlay, .show > .overlay {
+.overlay_container.show.overlay {
+  height: 1000px;
   background: rgba(50, 50, 50, 0.5);
-  height: 100%;
+  height: 1000px;
   position: absolute;
   width: 100%;
-  z-index: 1000000;
+  z-index: 100000;
 }
 
 #container {
@@ -17,9 +18,6 @@
 header.show .container {
   padding-top: 10px;
   margin-top: -10px;
-  .nav {
-  // margin-top: 10px;
-  }
 }
 .menu__container {
   z-index: 100000;
@@ -115,8 +113,8 @@ header.show .container {
   background-color: #f9f9f9;
   padding-right: 0;
   padding-top: 10px;
-  -webkit-transform: translatex(-115%);
-  transform: translatex(-115%);
+  -webkit-transform: translatex(-125%);
+  transform: translatex(-125%);
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
   .icon--small {
