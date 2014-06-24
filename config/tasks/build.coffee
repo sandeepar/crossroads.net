@@ -3,6 +3,7 @@ module.exports = (gulp) ->
     "clean"
     "jb"
     "vendor"
+    "angular"
     "coffee"
     "sass"
   ]
