@@ -9,5 +9,5 @@ module.exports = (gulp, devEnv) ->
     gulp.src(vendor.js)
       .pipe(concat("vendor.js"))
       .pipe(gulpif(not devEnv, jsmin()))
-      .pipe(gulpif(not devEnv, uglify()))
+      .pipe(gulpif(not devEnv, uglify(mangle: false)))
       .pipe gulp.dest("generated/js")
