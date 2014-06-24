@@ -25,8 +25,8 @@ header.show .container {
 #container.show {
   position: fixed;
   top: 10%;
-  -webkit-transform: translatex(75%);
-  transform: translatex(75%);
+  -webkit-transform: translatex(77%);
+  transform: translatex(77%);
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
@@ -391,7 +391,7 @@ header.show .container {
 
 @media (max-width: 992px) {
   .navbar-brand.logo {
-    /*width: 73%;*/
+    width: 81%;
     > img {
       margin-left: auto;
       margin-right: auto;
