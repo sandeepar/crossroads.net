@@ -6,3 +6,4 @@ angular.module('crossroads')
   require: "authForm"
   scope:
     menus: "=crdsMenu"
+    currentUser: "="

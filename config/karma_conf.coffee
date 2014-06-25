@@ -16,7 +16,9 @@ module.exports =
   files: [
     "spec/helpers/*.js"
     "generated/js/vendor.js"
+    "generated/js/angular.js"
     "generated/js/app.js"
+    "vendor/bower/angular-mocks/angular-mocks.js"
     "spec/js/**/*.coffee"
     "app/templates/**/*.html"
   ]

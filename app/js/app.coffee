@@ -6,7 +6,7 @@ angular.module("crossroads", ["ngCookies", 'ngAnimate', 'mgcrea.ngStrap', 'angul
   growlProvider.globalDisableIcons true
 
 .run (Auth) ->
-  # Auth.authenticate()
+  Auth.getCurrentUser()
   return
 
 .controller "AppCtrl", ($rootScope, $log, growl)->
