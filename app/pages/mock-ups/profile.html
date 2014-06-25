@@ -7,18 +7,19 @@ categories:
 ---
 
 <div class="row">
-  <div class="col-sm-12">
+  <div class="col-sm-10 col-sm-offset-1">
     <h1>My Profile </h1>
     <p class="lead">Hello, special you. </p>
   
     <div class="profile-header">
       <div class="row">
-        <div class="profile-pic col-sm-2 clearfix">
-          <a href="#">
+        <div class="col-xs-5 col-sm-2">
+          <a href="#" class="profile-pic">
             <img class="profile-image pull-left img-square img-responsive" src="http://placehold.it/185x185" alt="Profile Default Photo" />
+            <span class="change-photo">Change Photo</span>
           </a>
         </div>
-        <div class="profile-desc col-sm-9">
+        <div class="profile-desc col-xs-7 col-sm-9">
           <h2>Test User</h2>
           <p class="lead">Church Site</p>
           <div class="col-sm-6 row">
@@ -45,35 +46,62 @@ categories:
       <div class="tab-content panel">
         <div class="tab-pane fade in active" id="personal">
           <form role="form">
-            <div class="row clearfix">
 
-              <div class="form-group col-sm-4">
+            <div class="row">
+              <div class="form-group col-sm-6">
+                <label for="firstname">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter email address">
+              </div>
+            </div>
+
+            <div class="row">
+
+              <div class="form-group col-sm-6">
                 <label for="firstname">First Name</label>
                 <input type="text" class="form-control" id="firstname" placeholder="Enter first name">
               </div>
 
-              <div class="form-group col-sm-4">
+              <div class="form-group col-sm-6">
                 <label for="middlename">Middle Name</label>
                 <input type="text" class="form-control" id="middlename" placeholder="Enter middle name">
               </div>
 
-              <div class="form-group col-sm-4">
+              <div class="form-group col-sm-6">
                 <label for="lastname">Last Name</label>
                 <input type="text" class="form-control" id="lastname" placeholder="Enter last name">
               </div>
 
-              <div class="form-group col-sm-4">
-                <label for="nickname">Nick Name</label>
-                <input type="text" class="form-control" id="nickname" placeholder="Enter nick name">
-              </div>
-              <div class="form-group col-sm-4">
+              <div class="form-group col-sm-6">
                 <label for="maidenname">Maiden Name</label>
                 <input type="text" class="form-control" id="maidenname" placeholder="Enter maiden name">
               </div>
+
+              <div class="form-group col-sm-6">
+                <label for="nickname">Nick Name <small>(Example: Rob or Becky)</small></label>
+                <input type="text" class="form-control" id="nickname" placeholder="Enter nick name">
+              </div>
+
             </div>
             
-            <div class="row clearfix">
-              <div class="form-group col-sm-4">
+            <div class="row">
+              <div class="form-group col-sm-6">
+                <label for="nickname">Mobile Phone</label>
+                <input type="text" class="form-control" id="mobile" placeholder="Enter mobile phone">
+              </div>
+
+              <div class="form-group col-sm-6">
+                <label for="nickname">Provider</label>
+                <select class="form-control col-sm-12">
+                  {% for i in (1..31) %}
+                    <option>{{ i }}</option>
+                  {% endfor %}
+                </select>
+              </div>
+            
+            </div>
+
+            <div class="row">
+              <div class="form-group col-sm-3">
                 <label for="birthdate">Birthday Month</label>
                 <select class="form-control col-sm-12">
                   {% for i in (1..31) %}
@@ -81,7 +109,7 @@ categories:
                   {% endfor %}
                 </select>
               </div>
-              <div class="form-group col-sm-4">
+              <div class="form-group col-sm-3">
                 <label for="birthdate">Birthday Date</label>
                 <select class="form-control col-sm-12">
                   {% for i in (1..31) %}
@@ -89,7 +117,7 @@ categories:
                   {% endfor %}
                 </select>
               </div>
-              <div class="form-group col-sm-4">
+              <div class="form-group col-sm-6">
                 <label for="birthdate">Birthday Year</label>
                 <select class="form-control col-sm-12">
                   {% for i in (1..31) %}
@@ -97,9 +125,42 @@ categories:
                   {% endfor %}
                 </select>
               </div>
+
+              <div class="form-group col-sm-6">
+                <label for="marital_status">Maritial Status</label>
+                <select class="form-control col-sm-12">
+                  {% for i in (1..31) %}
+                    <option>{{ i }}</option>
+                  {% endfor %}
+                </select>
+              </div>
+
+              <div class="form-group col-sm-6">
+                <label class="block">Gender</label>
+                <label class="radio-inline">
+                  <input type="radio" id="gender" value="male"> Male
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" id="gender" value="female"> Female
+                </label>
+              </div>
             </div>
 
-            <button type="submit" class="btn btn-default">Submit</button>
+            <div class="row">
+              <div class="form-group col-sm-6">
+                <label for="employer">Employer</label>
+                <input type="text" class="form-control" id="employer" placeholder="Enter employer">
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="form-group col-sm-6">
+                <label for="employer">When did you start attending Crossroads?</label>
+                <input type="date" class="form-control" id="crossroads_attend_date" />
+              </div>
+            </div>
+
+            <button type="submit" class="btn btn-default">Save</button>
             </form>
         </div>
 

@@ -9,3 +9,28 @@
     @extend .panel-body;
   }
 }
+
+.profile-pic {
+  position: relative;
+  display: block;
+  overflow: hidden;
+
+  .change-photo {
+    display: block;
+    position: absolute;
+    bottom: -30px;
+    height: 30px;
+    line-height: 30px;
+    width: 100%;
+    background: $brand-primary;
+    text-align: center;
+    color: white;
+    @include transition(all .2s ease-in)
+  }
+
+  &:hover {
+    .change-photo {
+      bottom: 0;
+    }
+  }
+}
