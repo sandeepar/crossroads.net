@@ -7,18 +7,23 @@
         -
           title: "Dashboard"
           link: "/mydashboard"
+          secure: true
         -
           title: "The Feed"
           link: "/thefeed"
+          secure: true
         -
           title: "Profile"
           link: "/myprofile"
+          secure: true
         -
           title: "Giving History"
           link: "/givinghistory"
+          secure: true
         -
           title: "My History"
           link: "/myhistory"
+          secure: true
       items:
         -
           title: "My Account"
