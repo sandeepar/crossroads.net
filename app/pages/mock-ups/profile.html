@@ -13,15 +13,15 @@ categories:
   
     <div class="profile-header">
       <div class="row">
-        <div class="col-xs-5 col-sm-2">
+        <div class="col-xs-3 col-sm-2">
           <a href="#" class="profile-pic">
-            <img class="profile-image pull-left img-square img-responsive" src="http://placehold.it/185x185" alt="Profile Default Photo" />
+            <img class="profile-image pull-left img-square img-responsive" src="/img/avatar.svg" alt="Profile Default Photo" />
             <span class="change-photo">Change Photo</span>
           </a>
         </div>
         <div class="profile-desc col-xs-7 col-sm-9">
-          <h2>Test User</h2>
-          <p class="lead">Church Site</p>
+          <h2 class="profile-name">Test User</h2>
+          <p class="lead"><a href="#household" data-toggle="tab" class="edit-church-site">Church Site <span class="glyphicon glyphicon-pencil"></span></a></p>
           <div class="col-sm-6 row">
             <div class="progress">
               <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
@@ -36,6 +36,7 @@ categories:
     <div class="profile-body col-sm-12 row">
       <ul class="nav nav-tabs">
         <li class="active"><a href="#personal" data-toggle="tab">Personal</a></li>
+        <li><a href="#household" data-toggle="tab">Household</a></li>
         <li><a href="#contact" data-toggle="tab">Contact</a></li>
         <li><a href="#work" data-toggle="tab">Work</a></li>
         <li><a href="#skills" data-toggle="tab">Skills</a></li>
@@ -45,125 +46,9 @@ categories:
       <!-- Tab panes -->
       <div class="tab-content panel">
         <div class="tab-pane fade in active" id="personal">
-          <form role="form">
-
-            <div class="row">
-              <div class="form-group col-sm-6">
-                <label for="firstname">Email</label>
-                <input type="email" class="form-control" id="email" placeholder="Enter email address">
-              </div>
-            </div>
-
-            <div class="row">
-
-              <div class="form-group col-sm-6">
-                <label for="firstname">First Name</label>
-                <input type="text" class="form-control" id="firstname" placeholder="Enter first name">
-              </div>
-
-              <div class="form-group col-sm-6">
-                <label for="middlename">Middle Name</label>
-                <input type="text" class="form-control" id="middlename" placeholder="Enter middle name">
-              </div>
-
-              <div class="form-group col-sm-6">
-                <label for="lastname">Last Name</label>
-                <input type="text" class="form-control" id="lastname" placeholder="Enter last name">
-              </div>
-
-              <div class="form-group col-sm-6">
-                <label for="maidenname">Maiden Name</label>
-                <input type="text" class="form-control" id="maidenname" placeholder="Enter maiden name">
-              </div>
-
-              <div class="form-group col-sm-6">
-                <label for="nickname">Nick Name <small>(Example: Rob or Becky)</small></label>
-                <input type="text" class="form-control" id="nickname" placeholder="Enter nick name">
-              </div>
-
-            </div>
-            
-            <div class="row">
-              <div class="form-group col-sm-6">
-                <label for="nickname">Mobile Phone</label>
-                <input type="text" class="form-control" id="mobile" placeholder="Enter mobile phone">
-              </div>
-
-              <div class="form-group col-sm-6">
-                <label for="nickname">Provider</label>
-                <select class="form-control col-sm-12">
-                  {% for i in (1..31) %}
-                    <option>{{ i }}</option>
-                  {% endfor %}
-                </select>
-              </div>
-            
-            </div>
-
-            <div class="row">
-              <div class="form-group col-sm-3">
-                <label for="birthdate">Birthday Month</label>
-                <select class="form-control col-sm-12">
-                  {% for i in (1..31) %}
-                    <option>{{ i }}</option>
-                  {% endfor %}
-                </select>
-              </div>
-              <div class="form-group col-sm-3">
-                <label for="birthdate">Birthday Date</label>
-                <select class="form-control col-sm-12">
-                  {% for i in (1..31) %}
-                    <option>{{ i }}</option>
-                  {% endfor %}
-                </select>
-              </div>
-              <div class="form-group col-sm-6">
-                <label for="birthdate">Birthday Year</label>
-                <select class="form-control col-sm-12">
-                  {% for i in (1..31) %}
-                    <option>{{ i }}</option>
-                  {% endfor %}
-                </select>
-              </div>
-
-              <div class="form-group col-sm-6">
-                <label for="marital_status">Maritial Status</label>
-                <select class="form-control col-sm-12">
-                  {% for i in (1..31) %}
-                    <option>{{ i }}</option>
-                  {% endfor %}
-                </select>
-              </div>
-
-              <div class="form-group col-sm-6">
-                <label class="block">Gender</label>
-                <label class="radio-inline">
-                  <input type="radio" id="gender" value="male"> Male
-                </label>
-                <label class="radio-inline">
-                  <input type="radio" id="gender" value="female"> Female
-                </label>
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="form-group col-sm-6">
-                <label for="employer">Employer</label>
-                <input type="text" class="form-control" id="employer" placeholder="Enter employer">
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="form-group col-sm-6">
-                <label for="employer">When did you start attending Crossroads?</label>
-                <input type="date" class="form-control" id="crossroads_attend_date" />
-              </div>
-            </div>
-
-            <button type="submit" class="btn btn-default">Save</button>
-            </form>
+        {% include mockup-ups/profile-personal.html %}
         </div>
-
+        <div class="tab-pane fade" id="household">Household</div>
         <div class="tab-pane fade" id="contact">Contact</div>
         <div class="tab-pane fade" id="work">Work</div>
         <div class="tab-pane fade" id="skills">Skills</div>
