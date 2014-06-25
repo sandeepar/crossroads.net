@@ -12,4 +12,4 @@ require('./middleware')(app);
 
 require('./routes')(app);
 
-app.listen(process.env.PORT || 3000);
+app.listen(process.env.PORT || 8000);

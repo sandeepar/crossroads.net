@@ -1,9 +1,8 @@
-nodemon = require 'gulp-nodemon'
-livereload = require 'gulp-livereload'
+browserSync = require 'browser-sync'
 
-module.exports = (gulp) ->
+module.exports = (gulp, $) ->
   gulp.task "server", ->
-    nodemon
+    $.nodemon
       script: "./server/server.js"
       ignore: [
         "app/"
@@ -14,5 +13,5 @@ module.exports = (gulp) ->
         "tmp/"
         "vendor/"
       ]
-    livereload.listen()
+    browserSync.init(null, proxy: "localhost:8000")
     return
