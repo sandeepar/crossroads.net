@@ -1,0 +1,58 @@
+// Profile Styling
+
+.profile-header {
+  margin-bottom: 22px;
+
+  .profile-name {
+    margin: 0px 0 ($line-height-computed/4);
+  }
+
+  .edit-church-site {
+    padding-right: 20px;
+
+    span {
+      display: none;
+      font-size: .6em;
+      color: $gray;
+      @include transition(all .2s ease-in)
+    }
+
+    &:hover {
+      span {
+        display: inline;
+      }
+    }
+  }
+}
+
+.profile-body {
+  .tab-pane {
+    @extend .panel-body;
+  }
+}
+
+.profile-pic {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  background: $gray-lighter;
+
+  .change-photo {
+    display: block;
+    position: absolute;
+    bottom: -30px;
+    height: 30px;
+    line-height: 30px;
+    width: 100%;
+    background: $brand-primary;
+    text-align: center;
+    color: white;
+    @include transition(all .2s ease-in)
+  }
+
+  &:hover {
+    .change-photo {
+      bottom: 0;
+    }
+  }
+}

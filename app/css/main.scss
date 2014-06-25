@@ -9,6 +9,7 @@
 @import 'icon';
 @import 'thefeed';
 @import 'explore';
+@import 'profile';
 
 // @import 'block-grid';
 
@@ -127,6 +128,28 @@ footer .open, footer .office {
 
     >.growl-item {
       @include box-shadow(0 3px 9px rgba(0,0,0,.5));
+    }
+  }
+}
+
+/***************************************************************************************
+* Helpers
+***************************************************************************************/
+.block {
+  display: block;
+}
+
+/***************************************************************************************
+* Date Picker
+***************************************************************************************/
+.datepicker {
+  .btn {
+    background: white;
+    border: none;
+    color: $gray-darker;
+    
+    &:hover {
+      background: $gray-lighter;
     }
   }
 }
