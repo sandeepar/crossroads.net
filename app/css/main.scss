@@ -10,6 +10,7 @@
 @import 'thefeed';
 @import 'explore';
 @import 'profile';
+@import 'crossroads';
 
 // @import 'block-grid';
 
@@ -147,7 +148,7 @@ footer .open, footer .office {
     background: white;
     border: none;
     color: $gray-darker;
-    
+
     &:hover {
       background: $gray-lighter;
     }
