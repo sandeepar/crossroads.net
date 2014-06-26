@@ -33,6 +33,7 @@
     "lodash": "^2.4.1",
     "node-notifier": "~3.0.4",
     "protractor": ">=0.8.0",
+    "psi": "0.0.4",
     "streamqueue": "^0.1.1",
     "yargs": "^1.2.5"
   },
