@@ -4,6 +4,18 @@ angular.module('crossroads')
   $scope.logout = ->
     Auth.logout()
 
+  $scope.menuSelection = {}
+
+  $scope.collapsed = (index)->
+    index != @menuSelection.index
+
+  $scope.toggleMenuItem = (index) ->
+    console.log "collapsing #{index}"
+    if @collapsed(index)
+      @menuSelection.index = index
+    else
+      @menuSelection = {}
+
   $scope.menuShow = false
   $scope.loginShow = false
 
@@ -27,7 +39,8 @@ angular.module('crossroads')
       $scope.menuShow = true
 
   $rootScope.$on 'login:hide', ->
-    $scope.toggleDesktopLogin()
+    if $scope.loginShow == true
+      $scope.toggleDesktopLogin()
 
   $rootScope.$on 'menu:toggle', ->
     $scope.toggleMenu()
