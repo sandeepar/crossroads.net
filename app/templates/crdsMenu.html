@@ -60,7 +60,46 @@
               <a class="navbar--heading__title" data-toggle="dropdown" href="#">
                 {{heading.title}}
               </a>
-              <ul class="navbar__dropdown--subnav list-unstyled col-sm-12" role="menu" aria-labeledby="dropdownMenu1">
+              <ul class="navbar__dropdown--subnav list-unstyled col-sm-12" role="menu" aria-labeledby="dropdownMenu1" ng-if="$first">
+                <li ng-repeat="headingItem in heading.items" ng-class="headingItem.items && 'navbar__dropdown--subnav--item' || 'navbar__dropdown--subnav__list--item'" role="presentation">
+                  <div ng-if="$first">
+                    <div ng-if="! currentUser">
+                      <form id="nav_login" method="post">
+                            <ul>
+                                <li>
+                                    <label for="username">Username:</label>
+                                    <input type="text" name="userName" id="username_nav">
+                                </li>
+                                <li>
+                                    <label for="password">Password:</label>
+                                    <input  type="password" name="password" id="password_nav">
+                                </li>
+                            </ul>
+                            <input type="submit" name="submit_nav" value="Submit" id="submit_nav">
+                        </form>
+                    </div>
+                    <div ng-if="currentUser">
+                      <a ng-class="{heading__item: headingItem.items}"  role="menuitem" tabindex="-1" href="{{headingItem.link}}">{{headingItem.title}}</a>
+                      <ul class="navbar__dropdown--subnav__list list-unstyled col-sm-12" role="menu" aria-labeledby="dropdownMenu1" ng-repeat="item in headingItem.items">
+                        <li class="navbar__dropdown--subnav__list--item" role="presentation">
+                          <a role="menuitem" tabindex="-1" href="{{item.link}}">{{item.title}}</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div ng-if="$index != 0">
+                    <a ng-class="{heading__item: headingItem.items}"  role="menuitem" tabindex="-1" href="{{headingItem.link}}">{{headingItem.title}}</a>
+                    <ul class="navbar__dropdown--subnav__list list-unstyled col-sm-12" role="menu" aria-labeledby="dropdownMenu1" ng-repeat="item in headingItem.items">
+                      <li class="navbar__dropdown--subnav__list--item" role="presentation">
+                        <a role="menuitem" tabindex="-1" href="{{item.link}}">{{item.title}}</a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+
+              <ul class="navbar__dropdown--subnav list-unstyled col-sm-12" role="menu" aria-labeledby="dropdownMenu1" ng-if="$index != 0">
                 <li ng-repeat="headingItem in heading.items" ng-class="headingItem.items && 'navbar__dropdown--subnav--item' || 'navbar__dropdown--subnav__list--item'" role="presentation">
                   <a ng-class="{heading__item: headingItem.items}"  role="menuitem" tabindex="-1" href="{{headingItem.link}}">{{headingItem.title}}</a>
                   <ul class="navbar__dropdown--subnav__list list-unstyled col-sm-12" role="menu" aria-labeledby="dropdownMenu1" ng-repeat="item in headingItem.items">
@@ -72,8 +111,8 @@
               </ul>
             </li>
           </ul>
-        </div>
-      </div>
+        </li>
+      </ul>
     </div>
   </div>
 </div>
