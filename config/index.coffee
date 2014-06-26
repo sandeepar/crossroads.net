@@ -11,7 +11,7 @@ nn = require 'node-notifier'
 notifier = new nn()
 
 require('./tasks/clean')(gulp, $)
-require('./tasks/jekyll')(gulp, notifier, devEnv)
+require('./tasks/jekyll')(gulp, notifier, devEnv, $)
 require('./tasks/jekyll_build')(gulp)
 require('./tasks/coffee')(gulp, notify, devEnv, $)
 require('./tasks/sass')(gulp, notify, devEnv, $)

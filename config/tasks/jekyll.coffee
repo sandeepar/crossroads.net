@@ -3,7 +3,7 @@ args = require('yargs').argv
 browserSync = require 'browser-sync'
 n = args.n
 
-module.exports = (gulp, notifier, devEnv) ->
+module.exports = (gulp, notifier, devEnv, $) ->
   gulp.task "jekyll", (cb) ->
     bundle = cp.spawn("bundle", [
       "exec"
