@@ -5,7 +5,7 @@ browserSync = require 'browser-sync'
 
 n = args.n
 
-module.exports = (gulp, notify, devEnv, $) ->
+module.exports = (gulp, devEnv, $) ->
   gulp.task "coffee", ->
     streamqueue(
       objectMode: true,
@@ -18,4 +18,4 @@ module.exports = (gulp, notify, devEnv, $) ->
       .pipe($.concat("app.js"))
       .pipe(gulp.dest(".tmp/js"))
       .pipe(if devEnv then browserSync.reload(stream: true, once: true) else $.util.noop())
-      .pipe(if devEnv and not n then notify('Coffee is done') else $.util.noop())
+      .pipe(if devEnv and not n then $.notify('Coffee is done') else $.util.noop())

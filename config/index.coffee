@@ -5,16 +5,11 @@ $ = require('gulp-load-plugins')()
 browserSync = require 'browser-sync'
 reload = browserSync.reload()
 
-# Growl notification when Jekyll completes
-notify = require 'gulp-notify'
-nn = require 'node-notifier'
-notifier = new nn()
-
 require('./tasks/clean')(gulp, $)
-require('./tasks/jekyll')(gulp, notifier, devEnv, $)
+require('./tasks/jekyll')(gulp, devEnv, $)
 require('./tasks/jekyll_build')(gulp)
-require('./tasks/coffee')(gulp, notify, devEnv, $)
-require('./tasks/sass')(gulp, notify, devEnv, $)
+require('./tasks/coffee')(gulp, devEnv, $)
+require('./tasks/sass')(gulp, devEnv, $)
 require('./tasks/server')(gulp, $)
 require('./tasks/karma')(gulp)
 require('./tasks/watch')(gulp)

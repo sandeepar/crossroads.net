@@ -1,9 +1,11 @@
 cp = require 'child_process'
 args = require('yargs').argv
+nn = require 'node-notifier'
+notifier = new nn()
 browserSync = require 'browser-sync'
 n = args.n
 
-module.exports = (gulp, notifier, devEnv, $) ->
+module.exports = (gulp, devEnv, $) ->
   gulp.task "jekyll", (cb) ->
     bundle = cp.spawn("bundle", [
       "exec"
