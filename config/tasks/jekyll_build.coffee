@@ -1,7 +1,7 @@
 cp = require 'child_process'
 
 module.exports = (gulp) ->
-  gulp.task "jb", (cb) ->
+  gulp.task "jb", ['html'], (cb) ->
     bundle = cp.spawn("bundle", [
       "exec"
       "jekyll"

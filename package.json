@@ -26,7 +26,7 @@
     "gulp-rev": "^0.4.1",
     "gulp-ruby-sass": "^0.5.0",
     "gulp-uglify": "^0.3.0",
-    "gulp-usemin": "^0.3.5",
+    "gulp-usemin": "git://github.com/zont/gulp-usemin.git#master",
     "gulp-util": "^2.2.16",
     "imagemin-pngcrush": "^0.1.0",
     "karma": "^0.12.16",
