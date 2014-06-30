@@ -19,6 +19,7 @@ For more information about Gulp visit: http://gulpjs.com
 * you may want to install gulp globally, ```npm -g install gulp```
 * ```gem install bundler```
 * ```bundle install```
+* setup node env var in your bash ```export NODE_ENV=developmebt```
 
 ### Running the project
 To run the project use: ```gulp```
