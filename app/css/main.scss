@@ -139,6 +139,9 @@ footer .open, footer .office {
   display: block;
 }
 
+// Empty href attributes for UI Bootstrap
+.nav, .pagination, .carousel, .panel-title a { cursor: pointer; }
+
 /***************************************************************************************
 * Date Picker
 ***************************************************************************************/

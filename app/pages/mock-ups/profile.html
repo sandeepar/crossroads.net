@@ -34,28 +34,14 @@ categories:
     </div>
     
     <div class="profile-body col-sm-12 row">
-      <ul class="nav nav-tabs" role="tablist">
-        <li><a href="#personal" role="tab" data-toggle="tab">Personal</a></li>
-        <li class="active"><a href="#household" role="tab" data-toggle="tab">Household</a></li>
-        <li><a href="#contact" role="tab" data-toggle="tab">Contact</a></li>
-        <li><a href="#work" role="tab" data-toggle="tab">Work</a></li>
-        <li><a href="#skills" role="tab" data-toggle="tab">Skills</a></li>
-        <li><a href="#history" role="tab" data-toggle="tab">History</a></li>
-      </ul>
-
-      <!-- Tab panes -->
-      <div class="tab-content panel">
-        <div class="tab-pane" id="personal">
-          {% include mock-ups/profile_personal.html %}
-        </div>
-        <div class="tab-pane active" id="household">
-          {% include mock-ups/profile_household.html %}
-        </div>
-        <div class="tab-pane" id="contact">Contact</div>
-        <div class="tab-pane" id="work">Work</div>
-        <div class="tab-pane" id="skills">Skills</div>
-        <div class="tab-pane" id="history">History</div>
-      </div>
+      <tabset>
+        <tab heading="Personal">{% include mock-ups/profile_personal.html %}</tab>
+        <tab heading="Household">{% include mock-ups/profile_household.html %}</tab>
+        <tab heading="Contact">Contact</tab>
+        <tab heading="Work">Work</tab>
+        <tab heading="Skills">Skills</tab>
+        <tab heading="History">History</tab>
+      </tabset>
     </div>
   </div>
 </div>
