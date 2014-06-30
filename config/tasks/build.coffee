@@ -3,7 +3,7 @@ module.exports = (gulp) ->
     "clean"
     "coffee"
     "sass"
-    "imagemin"
     "html"
+    "imagemin"
     "jb"
   ]
