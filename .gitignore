@@ -15,3 +15,5 @@ dist/
 /.tmp/
 .DS_Store
 /**/.DS_Store
+.project
+npm-debug.log
