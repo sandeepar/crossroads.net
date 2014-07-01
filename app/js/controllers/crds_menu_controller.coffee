@@ -27,7 +27,8 @@ angular.module('crossroads')
       $scope.menuShow = true
 
   $rootScope.$on 'login:hide', ->
-    $scope.toggleDesktopLogin()
+    if $scope.loginShow == true
+      $scope.toggleDesktopLogin()
 
   $rootScope.$on 'menu:toggle', ->
     $scope.toggleMenu()

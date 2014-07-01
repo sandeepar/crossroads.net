@@ -64,19 +64,7 @@
                 <li ng-repeat="headingItem in heading.items" ng-class="headingItem.items && 'navbar__dropdown--subnav--item' || 'navbar__dropdown--subnav__list--item'" role="presentation">
                   <div ng-if="$first">
                     <div ng-if="! currentUser">
-                      <form id="nav_login" method="post">
-                            <ul>
-                                <li>
-                                    <label for="username">Username:</label>
-                                    <input type="text" name="userName" id="username_nav">
-                                </li>
-                                <li>
-                                    <label for="password">Password:</label>
-                                    <input  type="password" name="password" id="password_nav">
-                                </li>
-                            </ul>
-                            <input type="submit" name="submit_nav" value="Submit" id="submit_nav">
-                        </form>
+		      <auth-form></auth-form>
                     </div>
                     <div ng-if="currentUser">
                       <a ng-class="{heading__item: headingItem.items}"  role="menuitem" tabindex="-1" href="{{headingItem.link}}">{{headingItem.title}}</a>
