@@ -17,14 +17,23 @@
               <ul class="side-nav__subnav list-unstyled">
                 <li class="col-xs-12">
                   <div class="col-xs-6">
-                    <div ng-if="! currentUser">
-                      <auth-form></auth-form>
-                    </div>
+		    <div ng-if="$first">
+                      <div ng-if="!currentUser">
+			<auth-form></auth-form>
+                      </div>
+		    </div>
                   </div>
                 </li>
-                <li class="side-nav__subnav--item" role="presentation" ng-repeat="item in heading.mobile_items">
-                  <a class="heading__item" role="menuitem" tabindex="-1" href="{{item.link}}">{{item.title}}</a>
-                </li>
+		<div ng-if="currentUser">
+                  <li class="side-nav__subnav--item" role="presentation" ng-repeat="item in heading.mobile_items">
+                    <a class="heading__item" role="menuitem" tabindex="-1" href="{{item.link}}">{{item.title}}</a>
+                  </li>
+		</div>
+		<div ng-if="$index != 0">
+                  <li class="side-nav__subnav--item" role="presentation" ng-repeat="item in heading.mobile_items">
+                    <a class="heading__item" role="menuitem" tabindex="-1" href="{{item.link}}">{{item.title}}</a>
+                  </li>
+		</div>
               </ul>
             </li>
           </ul>
