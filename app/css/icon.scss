@@ -44,6 +44,10 @@
   background-image: url('/img/engage.svg');
 }
 
+.icon--forgot:after {
+  background-image: url('/img/question.svg');
+}
+
 .icon--give:after{
   background-image: url('/img/give.svg');
 }
@@ -58,10 +62,6 @@
 
 .icon--media:after{
   background-image: url('/img/media.svg');
-}
-
-.icon--forgot:after {
-  background-image: url('/img/question.svg');
 }
 
 .icon--search:after {

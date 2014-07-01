@@ -185,7 +185,7 @@ header.show .container {
 }
 
 .side-nav__dropdown--item.open {
-  .icon--small {
+  .icon--dropdown {
     -webkit-transform: rotate(180deg);
     transform: rotate(180deg);
   }
@@ -251,7 +251,6 @@ header.show .container {
 .navbar__dropdown--item{
   display: inline;
   &:hover {
-    color: #fff;
     display: inline-block;
     > .navbar__dropdown--subnav {
       top: 100px;
@@ -280,6 +279,7 @@ header.show .container {
   vertical-align: top;
   &:first-child {
     background: #eee;
+    max-width: 250px;
   }
 }
 
