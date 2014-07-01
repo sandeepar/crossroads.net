@@ -1,0 +1,77 @@
+.icon {
+  display: inline-block;
+  height: 25px;
+  width: 25px;
+  margin-right: 5px;
+  &:after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+    background-size: 100%;
+    vertical-align: bottom;
+    background-repeat: no-repeat;
+  }
+}
+
+.icon--small {
+  @extend .icon;
+  width: 15px;
+  height: 15px;
+}
+
+.icon--right {
+  float: right;
+}
+
+.icon--about:after{
+  background-image: url('/img/abouticon.svg');
+}
+
+.icon--admin:after{
+  background-image: url('/img/admin.svg');
+}
+
+.icon--crossroads:after{
+  background-image: url('/img/CRIcon.svg');
+}
+
+.icon--dropdown:after{
+  background-image: url('/img/dropdown_arrow.svg');
+}
+
+.icon--engage:after{
+  background-image: url('/img/engage.svg');
+}
+
+.icon--give:after{
+  background-image: url('/img/give.svg');
+}
+
+.icon--grow:after{
+  background-image: url('/img/grow.svg');
+}
+
+.icon--login:after {
+  background-image: url('/img/search.svg');
+}
+
+.icon--media:after{
+  background-image: url('/img/media.svg');
+}
+
+.icon--forgot:after {
+  background-image: url('/img/question.svg');
+}
+
+.icon--search:after {
+  background-image: url('/img/search.svg');
+}
+
+.icon--user:after {
+  background-image: url('/img/user.svg');
+}
+
+.icon--user__white:after {
+  background-image: url('/img/user_white.svg');
+}

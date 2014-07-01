@@ -2,7 +2,7 @@
   headings:
     -
       title: "My Crossroads"
-      icon: "icon-CRIcon"
+      icon: "icon--crossroads"
       mobile_items:
         -
           title: "Dashboard"
@@ -72,7 +72,7 @@
               link: "/explore"
     -
       title: "Engage"
-      icon: "icon-engage"
+      icon: "icon--engage"
       mobile_items:
         -
           title: "Get Involved (Overview)"
@@ -162,7 +162,7 @@
               link: "/content/ReachOut/GOtrips.html"
     -
       title: "Grow"
-      icon: "icon-grow"
+      icon: "icon--grow"
       mobile_items:
         -
           title: "Essentials of Growth"
@@ -248,7 +248,7 @@
               link: "/content/Grow/marriageresources.html"
     -
       title: "About"
-      icon: "icon-abouticon"
+      icon: "icon--about"
       mobile_items:
         -
           title: "Explore Crossroads"
@@ -355,7 +355,7 @@
               link: "/prayerrequest"
     -
       title: "Give"
-      icon: "icon-give"
+      icon: "icon--give"
       mobile_items:
         -
           title: "Recurring Gift"
@@ -420,7 +420,7 @@
               link: "/content/Give/security.html"
     -
       title: "Media"
-      icon: "icon-media"
+      icon: "icon--media"
       mobile_items:
         -
           title: "Weekend Messages"
@@ -489,7 +489,7 @@
               link: "/content/Media/help.html"
     -
       title: "Admin"
-      icon: "icon-admin"
+      icon: "icon--admin"
       mobile_items:
         -
           title: "Admin"

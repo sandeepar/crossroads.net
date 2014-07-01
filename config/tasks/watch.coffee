@@ -7,5 +7,4 @@ module.exports = (gulp) ->
       paths.templates
     ], ["coffee"]
     gulp.watch paths.sass, ["sass"]
-    gulp.watch 'app/img/*.svg', ['icons', 'sass']
     return
