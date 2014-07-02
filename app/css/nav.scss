@@ -163,11 +163,9 @@ header.show .container {
 }
 
 .side-nav__subnav {
-  position: absolute;
   top: 100%;
   left: 0;
   z-index: 1000;
-  display: none;
   float: left;
   min-width: 160px;
   padding: 5px 0;
