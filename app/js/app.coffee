@@ -1,4 +1,4 @@
-angular.module("crossroads", ["ngCookies", 'ngAnimate', 'mgcrea.ngStrap', 'angular-growl'])
+angular.module("crossroads", ["ngCookies", 'ngAnimate', 'mgcrea.ngStrap', 'angular-growl', 'crds-ajax-form'])
 
 .config (growlProvider) ->
   growlProvider.globalPosition 'top-center'
