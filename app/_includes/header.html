@@ -1,7 +1,7 @@
 <div ng-controller="MainCtrl as main">
-	<header>
-		<div class="overlay_container" ng-class="show" ng-click="main.toggleMenu()"></div>
-		{% include brandbar.html %}
-		{% include nav.html %}
-	</header>
+  <header>
+    <div class="overlay_container" ng-class="{show: menu.isMobileShowing, overlay: menu.isMobileShowing}" ng-click="main.toggleMenu()"></div>
+    {% include brandbar.html %}
+    {% include nav.html %}
+  </header>
 </div>

@@ -1,6 +1,9 @@
 angular.module('crossroads')
 
-.controller "crdsMenuCtrl", ($scope, $rootScope, Auth) ->
+.controller "crdsMenuCtrl", ($scope, $rootScope, Menu, Auth) ->
+
+  $scope.menu = Menu
+
   $scope.logout = ->
     Auth.logout()
 
@@ -10,7 +13,6 @@ angular.module('crossroads')
     index != @menuSelection.index
 
   $scope.toggleMenuItem = (index) ->
-    console.log "collapsing #{index}"
     if @collapsed(index)
       @menuSelection.index = index
     else
@@ -25,18 +27,9 @@ angular.module('crossroads')
     else
       $scope.loginShow = true
 
-  $scope.toggleMenu = ->
+  $scope.toggleMenuDisplay = ->
     thing = $(this).attr("class")
-    if $scope.menuShow == true
-      $(".overlay_container").removeClass("show")
-      $(".overlay_container").removeClass("overlay")
-      $("#container").removeClass("show")
-      $scope.menuShow = false
-    else
-      $(".overlay_container").addClass("show")
-      $(".overlay_container").addClass("overlay")
-      $("#container").addClass("show")
-      $scope.menuShow = true
+    @menu.toggleMobileDisplay()
 
   $rootScope.$on 'login:hide', ->
     if $scope.loginShow == true
