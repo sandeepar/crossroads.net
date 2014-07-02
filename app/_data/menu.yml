@@ -54,10 +54,10 @@
               link: "/media/series/"
             -
               title: "Weekend Kids' Club lesson"
-              link: "/content/Kids-Club/lessons.html"
+              link: "/content/kids-club/lessons.htm"
             -
               title: "Weekend Middle School lesson"
-              link: "/content/Kids-Club/LessonsMiddleSchool.html"
+              link: "/content/kids-club/LessonsMiddleSchool.htm"
         -
           title: "Learn about Crossroads"
           items:
@@ -76,63 +76,63 @@
       mobile_items:
         -
           title: "Get Involved (Overview)"
-          link: "/content/Engage/overview.html"
+          link: "/content/engage/overview.htm"
         -
           title: "Connect"
-          link: "/content/My-Connect/overview.html"
+          link: "/content/my-connect/overview.htm"
         -
           title: "Corkboard"
           link: "/corkboard"
         -
           title: "ReachOut"
-          link: "/content/ReachOut/index.html"
+          link: "/content/reachout/index.htm"
       items:
         -
           title: "Serving Opportunities"
           items:
             -
               title: "Get Involved (Overview)"
-              link: "/content/Engage/overview.html"
+              link: "/content/engage/overview.htm"
             -
               title: "First Impressions"
-              link: "/content/Engage/firstImpressions.html"
+              link: "/content/engage/firstImpressions.htm"
             -
               title: "Kids' Club"
-              link: "/content/Engage/KidsClub.html"
+              link: "/content/engage/KidsClub.htm"
             -
               title: "Middle School"
-              link: "/content/Engage/KidsClub.html"
+              link: "/content/engage/KidsClub.htm"
             -
               title: "High School"
-              link: "/content/Engage/CSMJrSenior.html"
+              link: "/content/engage/CSMJrSenior.htm"
             -
               title: "Small Groups"
-              link: "/content/Small-Groups/smallGroups.html"
+              link: "/content/small-groups/smallGroups.htm"
             -
               title: "Community Groups"
-              link: "/content/Engage/communityGroups.html"
+              link: "/content/engage/communityGroups.htm"
             -
               title: "Creative Arts"
-              link: "/content/Engage/creativeArts.html"
+              link: "/content/engage/creativeArts.htm"
             -
               title: "Behind the Scenes"
-              link: "/content/Engage/behindTheScenes.html"
+              link: "/content/engage/behindTheScenes.htm"
             -
               title: "Pastoral Care"
-              link: "/content/Engage/pastoralCare.html"
+              link: "/content/engage/pastoralCare.htm"
             -
           title: "Connect"
           link: "#"
           items:
             -
               title: "Overview"
-              link: "/content/My-Connect/overview.html"
+              link: "/content/my-connect/overview.htm"
             -
               title: "Community Groups"
-              link: "/content/Community-Groups/communityGroups.html"
+              link: "/content/community-groups/communityGroups.htm"
             -
               title: "Small Groups"
-              link: "/content/Small-Groups/smallGroups.html"
+              link: "/content/small-groups/smallGroups.htm"
             -
               title: "Find A Small Group"
               link: "/findasmallgroup"
@@ -141,7 +141,7 @@
               link: "/startasmallgroup"
             -
               title: "Teens"
-              link: "/content/Highschool/teens.html"
+              link: "/content/highschool/teens.htm"
             -
               title: "Corkboard"
               link: "/corkboard"
@@ -150,60 +150,60 @@
           items:
             -
               title: "Overview"
-              link: "/content/ReachOut/index.html"
+              link: "/content/reachout/index.htm"
             -
               title: "Give time"
-              link: "/content/ReachOut/GiveTime.html"
+              link: "/content/reachout/GiveTime.htm"
             -
               title: "Give stuff"
-              link: "/content/ReachOut/GiveStuff.html"
+              link: "/content/reachout/GiveStuff.htm"
             -
               title: "GO somewhere"
-              link: "/content/ReachOut/GOtrips.html"
+              link: "/content/reachout/GOtrips.htm"
     -
       title: "Grow"
       icon: "icon--grow"
       mobile_items:
         -
           title: "Essentials of Growth"
-          link: "/content/Grow/threestaples.html"
+          link: "/content/grow/threestaples.htm"
         -
           title: "Subscribe to the Daily"
-          link: "/content/Grow/theDailySignup.html"
+          link: "/content/grow/theDailySignup.htm"
         -
           title: "Get in Community"
-          link: "/content/Grow/getincommunity.html"
+          link: "/content/grow/getincommunity.htm"
         -
           title: "Baptism"
-          link: "/content/Grow/baptism.html"
+          link: "/content/grow/baptism.htm"
         -
           title: "Parent Resources"
-          link: "/content/Grow/parents.html"
+          link: "/content/grow/parents.htm"
       items:
         -
           title: "Ways to Grow"
           items:
             -
               title: "Essentials of Growth"
-              link: "/content/Grow/threestaples.html"
+              link: "/content/grow/threestaples.htm"
             -
               title: "Subscribe to the Daily"
-              link: "/content/Grow/theDailySignup.html"
+              link: "/content/grow/theDailySignup.htm"
             -
               title: "Get in Community"
-              link: "/content/Grow/getincommunity.html"
+              link: "/content/grow/getincommunity.htm"
             -
               title: "Baptism"
-              link: "/content/Grow/baptism.html"
+              link: "/content/grow/baptism.htm"
         -
           title: "The Daily"
           items:
             -
               title: "What is it?"
-              link: "/content/Grow/theDailyOverview.html"
+              link: "/content/grow/theDailyOverview.htm"
             -
               title: "Subscribe (Email)"
-              link: "/content/Grow/theDailySignup.html"
+              link: "/content/grow/theDailySignup.htm"
             -
               title: "May 8: the New Man Pursues a Pure Life"
               link: "#"
@@ -218,34 +218,34 @@
           items:
             -
               title: "Get in Community"
-              link: "/content/Grow/getincommunity.html"
+              link: "/content/grow/getincommunity.htm"
             -
               title: "Small Groups"
-              link: "/content/Small-Groups/smallGroups.html"
+              link: "/content/small-groups/smallGroups.htm"
             -
               title: "Community Groups"
-              link: "/content/Community-Groups/communityGroups.html"
+              link: "/content/community-groups/communityGroups.htm"
             -
               title: "Healing Groups"
-              link: "/content/Community-Groups/healinggroups.html"
+              link: "/content/community-groups/healinggroups.htm"
         -
           title: "Lead Your Family"
           items:
             -
               title: "Parent Resources"
-              link: "/content/Grow/parents.html"
+              link: "/content/grow/parents.htm"
             -
               title: "Kids' Club (0-5th grade)"
-              link: "/content/Kids-Club/kidsclub.html"
+              link: "/content/kids-club/kidsclub.htm"
             -
               title: "Middle School (6,7,8th grade)"
-              link: "/content/Kids-Club/middleschool.html"
+              link: "/content/kids-club/middleschool.htm"
             -
               title: "High School"
-              link: "/content/Highschool/teens.html"
+              link: "/content/highschool/teens.htm"
             -
               title: "Marriage Resources"
-              link: "/content/Grow/marriageresources.html"
+              link: "/content/grow/marriageresources.htm"
     -
       title: "About"
       icon: "icon--about"
@@ -255,16 +255,16 @@
           link: "/explore"
         -
           title: "Who We Are"
-          link: "/content/About/index.html"
+          link: "/content/about/index.htm"
         -
           title: "Blog"
           link: "/blog"
         -
           title: "Service Times &amp; Directions"
-          link: "/content/About/serviceTimes.html"
+          link: "/content/about/serviceTimes.htm"
         -
           title: "Pastoral Care"
-          link: "/content/Care/pastoralCare.html"
+          link: "/content/care/pastoralCare.htm"
         -
           title: "Contact Us"
           link: "/contactus"
@@ -277,28 +277,28 @@
               link: "/explore"
             -
               title: "Who We Are"
-              link: "/content/About/index.html"
+              link: "/content/about/index.htm"
             -
               title: "What we believe"
-              link: "/content/About/whatWeBelieve.html"
+              link: "/content/about/whatWeBelieve.htm"
             -
               title: "7 Hill We Die On"
-              link: "/content/About/sevenHills.html"
+              link: "/content/about/sevenHills.htm"
             -
               title: "Our History"
-              link: "/content/About/ourHistory.html"
+              link: "/content/about/ourHistory.htm"
             -
               title: "Kids' Club (0-5th grade)"
-              link: "/content/Kids-Club/kidsclub.html"
+              link: "/content/kids-club/kidsclub.htm"
             -
               title: "Middle School (6,7,8th grade)"
-              link: "/content/Kids-Club/middleschool.html"
+              link: "/content/kids-club/middleschool.htm"
             -
               title: "High School"
-              link: "/content/Highschool/teens.html"
+              link: "/content/highschool/teens.htm"
             -
               title: "Frequent questions"
-              link: "/content/About/faq.html"
+              link: "/content/about/faq.htm"
         -
           title: "Locations"
           items:
@@ -316,28 +316,28 @@
               link: "/westside"
             -
               title: "Multi-site Strategy"
-              link: "/content/About/campuses.html"
+              link: "/content/about/campuses.htm"
             -
               title: "Service times & directions"
-              link: "/content/About/serviceTimes.html"
+              link: "/content/about/serviceTimes.htm"
         -
           title: "Pastoral Care"
           items:
             -
               title: "Overview"
-              link: "/content/Care/pastoralCare.html"
+              link: "/content/care/pastoralCare.htm"
             -
               title: "Weddings"
-              link: "/content/Care/wedding.html"
+              link: "/content/care/wedding.htm"
             -
               title: "Counselors"
-              link: "/content/Care/counselors.html"
+              link: "/content/care/counselors.htm"
             -
               title: "Funerals"
-              link: "/content/Care/funerals.html"
+              link: "/content/care/funerals.htm"
             -
               title: "Prayer"
-              link: "/content/Care/prayer.html"
+              link: "/content/care/prayer.htm"
             -
               title: "Care Pages"
               link: "https://www.carepages.com/"
@@ -349,7 +349,7 @@
               link: "/contactus"
             -
               title: "Staff contacts"
-              link: "/content/About/staffcontacts.html"
+              link: "/content/about/staffcontacts.htm"
             -
               title: "Prayer request"
               link: "/prayerrequest"
@@ -371,10 +371,10 @@
           link: "/estategiving"
         -
           title: "Financial Philosophy"
-          link: "/content/Give/finance.html"
+          link: "/content/give/finance.htm"
         -
           title: "Give to Others"
-          link: "/content/Engage/overview.html"
+          link: "/content/engage/overview.htm"
       items:
         -
           title: "Give to Crossroads"
@@ -402,7 +402,7 @@
               link: "/wheels"
             -
               title: "Give your time"
-              link: "/content/Engage/overview.html"
+              link: "/content/engage/overview.htm"
             -
               title: "Give to someone's trip"
               link: "/GOTripGiving"
@@ -411,13 +411,13 @@
           items:
             -
               title: "Financial Philosophy"
-              link: "/content/Give/finance.html"
+              link: "/content/give/finance.htm"
             -
               title: "Frequent questions"
-              link: "/content/Give/FAQ.html"
+              link: "/content/give/FAQ.htm"
             -
               title: "Online security"
-              link: "/content/Give/security.html"
+              link: "/content/give/security.htm"
     -
       title: "Media"
       icon: "icon--media"
@@ -486,7 +486,7 @@
               link: "#"
             -
               title: "Help"
-              link: "/content/Media/help.html"
+              link: "/content/media/help.htm"
     -
       title: "Admin"
       icon: "icon--admin"
