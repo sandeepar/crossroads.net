@@ -1,9 +1,9 @@
 <ul class="posts">
   {% for post in site.tags[tag]  %}
     {% unless post.categories contains "thefeed" %}
-      <li>
+      <li class="post">
         <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-        <p><span class="category_title">{{ tag }}</span><span class="greater_than"> &#62;</span><span class="posted_by_label">Posted by</span> <a class="author_link">Author</a><span class="post_date">{{ post.date | date_to_string }}</span></p>
+        <p><span class="category_title"><em><a href="/tags/{{tag}}" class="category-link" >{{ tag }}</a></em></span><span class="greater_than"> &#62;</span><span class="posted_by_label">Posted by</span> <a class="author_link">Author</a><span class="post_date"> {{ post.date | date_to_string | date: "%B %d, %Y" }}</span></p>
         <p>{{ post.content }}</p>
         <div>
           {% if post.image contains '.' %}

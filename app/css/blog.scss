@@ -6,7 +6,9 @@
   width: 90%;
   padding-left: 0;
 }
-
+.post{
+  margin-bottom: 80px;
+}
 .post_body_text{
   padding-bottom: 20px;
 }
@@ -28,13 +30,9 @@ h2 a{
 .social_media-line{
   padding-bottom: 20px;
 }
-
-.category_title{
-  font-style: italic;
-  text-decoration: none;
-  font-size: 12px;
+.category-link{
+  text-transform: capitalize;
 }
-
 .post_date{
   padding-left: 5px;
   color: $cr-grey;
@@ -76,6 +74,3 @@ h2 a{
 .blog_content{
   padding-bottom: 10px;
 }
-
-
-

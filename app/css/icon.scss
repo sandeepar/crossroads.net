@@ -1,4 +1,4 @@
-.icon{
+.icon {
   display: inline-block;
   height: 25px;
   width: 25px;
@@ -18,10 +18,6 @@
   @extend .icon;
   width: 15px;
   height: 15px;
-}
-
-.icon--no_margin {
-  margin-right: 0;
 }
 
 .icon--right {
