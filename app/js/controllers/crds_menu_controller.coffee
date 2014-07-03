@@ -22,18 +22,13 @@ angular.module('crossroads')
   $scope.loginShow = false
 
   $scope.toggleDesktopLogin = ->
-    if $scope.loginShow == true
-      $scope.loginShow = false
+    if @loginShow == true
+      @loginShow = false
     else
-      $scope.loginShow = true
+      @loginShow = true
 
   $scope.toggleMenuDisplay = ->
-    thing = $(this).attr("class")
     @menu.toggleMobileDisplay()
 
   $rootScope.$on 'login:hide', ->
-    if $scope.loginShow == true
-      $scope.toggleDesktopLogin()
-
-  $rootScope.$on 'menu:toggle', ->
-    $scope.toggleMenu()
+    $scope.loginShow = false
