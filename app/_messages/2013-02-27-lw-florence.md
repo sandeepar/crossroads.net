@@ -6,10 +6,10 @@ title: "LW-Florence"
 date: 2013-02-27-00-00
 message_id: 778
 description: "In Florence, listen to Brian highlight tribal stories from the past 17 years."
-video: "http://s3.amazonaws.com/crossroads-media/message/video/022713-lw-florence.mp4"
+video: "http://s3.amazonaws.com/crossroads-media/messages/video/022713-lw-florence.mp4"
 video-duration: "44:37"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/lw_0213_florence.jpg"
-audio: "http://s3.amazonaws.com/crossroads-media/message/audio/022713-lw-florence.mp3"
+audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/022713-lw-florence.mp3"
 audio-duration: "44:32"
 explicit: false
 ---

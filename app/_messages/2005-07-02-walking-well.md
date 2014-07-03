@@ -5,7 +5,7 @@ series: "Special Effects"
 title: "Walking Well"
 date: 2005-07-02-00-00
 message_id: 113
-audio: "http://s3.amazonaws.com/crossroads-media/message/audio/Special_Effects_03_07-03-05_Walking_Well.mp3"
+audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/Special_Effects_03_07-03-05_Walking_Well.mp3"
 audio-duration: "33:50"
 explicit: false
 ---

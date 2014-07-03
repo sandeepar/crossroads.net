@@ -5,10 +5,10 @@ series: "We Love Cincinnati"
 title: "I Love My Neighborhood"
 date: 2009-07-19-00-00
 message_id: 572
-audio: "http://s3.amazonaws.com/crossroads-media/message/audio/WeLoveCincy3.mp3"
+audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/WeLoveCincy3.mp3"
 audio-duration: "35:41"
 description: "Brad Johansen talks about what loving his neighborhood means to him."
-video: "http://s3.amazonaws.com/crossroads-media/message/video/WeLoveCincy3.mp4"
+video: "http://s3.amazonaws.com/crossroads-media/messages/video/WeLoveCincy3.mp4"
 video-duration: "35:41"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/WeLoveCincy3-still.jpg"
 notes-description: ""

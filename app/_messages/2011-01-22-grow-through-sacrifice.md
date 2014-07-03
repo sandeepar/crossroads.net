@@ -5,13 +5,13 @@ series: "Grow Up"
 title: "Grow Through Sacrifice"
 date: 2011-01-22-00-00
 message_id: 654
-audio: "http://s3.amazonaws.com/crossroads-media/message/audio/Easter2002.mp3"
+audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/Easter2002.mp3"
 audio-duration: "34:04"
-audio: "http://s3.amazonaws.com/crossroads-media/message/audio/growup04.mp3"
+audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/growup04.mp3"
 audio-duration: "36:51"
 program: "http://s3.amazonaws.com/crossroads-media/documents/01_22-23_11Program.pdf"
 description: "Brian Tome talks about how a lifestyle of sacrifice leads to growth."
-video: "http://s3.amazonaws.com/crossroads-media/message/video/growup04.mp4"
+video: "http://s3.amazonaws.com/crossroads-media/messages/video/growup04.mp4"
 video-duration: "36:56"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/growup04_still.jpg"
 explicit: false

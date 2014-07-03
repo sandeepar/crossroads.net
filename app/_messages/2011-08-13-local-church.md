@@ -5,11 +5,11 @@ series: "Collide"
 title: "Local Church"
 date: 2011-08-13-00-00
 message_id: 687
-audio: "http://s3.amazonaws.com/crossroads-media/message/audio/collide_01.mp3"
+audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/collide_01.mp3"
 audio-duration: "53:51"
 program: "http://s3.amazonaws.com/crossroads-media/documents/08_13-14_11Program.pdf"
 description: "Mosa Sono talks about the powerful things that can happen when the Church collides with God's intentions."
-video: "http://s3.amazonaws.com/crossroads-media/message/video/collide_01.mp4"
+video: "http://s3.amazonaws.com/crossroads-media/messages/video/collide_01.mp4"
 video-duration: "53:58"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/collide01_still.jpg"
 explicit: false
