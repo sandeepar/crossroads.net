@@ -9,13 +9,11 @@ categories:
 <div class="row">
   <div class="col-sm-10 col-sm-offset-1">
     <h2>My Profile <small>Hello, special you. </small></h2>
-
-  
     <div class="profile-header">
       <div class="row">
         <div class="col-xs-3 col-sm-2">
           <a href="#" class="profile-pic">
-            <img class="profile-image pull-left img-square img-responsive" src="/img/avatar.svg" alt="Profile Default Photo" />
+            <img class="profile-image pull-left img-square img-responsive" src="//crossroads-media.s3.amazonaws.com/images/avatar.svg" alt="Profile Default Photo" />
             <span class="change-photo">Change Photo</span>
           </a>
         </div>
@@ -32,7 +30,7 @@ categories:
         </div>
       </div>
     </div>
-    
+
     <div class="profile-body col-sm-12 row">
 
       <tabset ng-init="set = {}">
@@ -41,10 +39,8 @@ categories:
         <tab heading="Account" >{% include mock-ups/profile_account.html %}</tab>
         <tab heading="Skills" class="hidden-xs" active="set.showSkills">Skills</tab>
         <tab heading="History" class="hidden-xs" active="set.showHistory">History</tab>
-        
         <li role="tab" data-toggle="tab" class="dropdown hidden-md hidden-lg hidden-sm dropdown-toggle" data-toggle="dropdown">
           <a href="#">More <span class="caret"></span></a>
-          
           <ul class="dropdown-menu" role="menu">
             <li><a href="#" ng-click="set.showSkills = true">Skills</a></li>
             <li><a href="#" ng-click="set.showHistory = true">History</a></li>

@@ -5,12 +5,12 @@ series: "A Place at the Table"
 title: "Finding Approval"
 date: 2012-02-25-00-00
 message_id: 715
-audio: "http://s3.amazonaws.com/crossroads-media/media/legacy/mp3/placeatthetable_03.mp3"
+audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/placeatthetable_03.mp3"
 audio-duration: "37:54"
-program: "http://s3.amazonaws.com/crossroads-media/media/legacy/documents/02_25-26_12Program.pdf"
+program: "http://s3.amazonaws.com/crossroads-media/documents/02_25-26_12Program.pdf"
 description: "Brian Tome talks about our need for approval."
-video: "https://s3.amazonaws.com/crossroadsvideomessages/placeatthetable_03.mp4"
+video: "http://s3.amazonaws.com/crossroads-media/messages/video/placeatthetable_03.mp4"
 video-duration: "37:59"
-video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/placeatthetable_03_still.jpg"
+video-image: "http://s3.amazonaws.com/crossroads-media/images/placeatthetable_03_still.jpg"
 explicit: false
 ---

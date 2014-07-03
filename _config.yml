@@ -19,7 +19,7 @@ collections:
     output: true
   series:
     output: true
-  media:
+  other-media:
     output: true
   music:
     output: true

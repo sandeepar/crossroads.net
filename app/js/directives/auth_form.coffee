@@ -4,3 +4,4 @@ angular.module('crossroads')
   restrict: "EA"
   templateUrl: "/templates/login.html"
   controller: "LoginCtrl"
+  priority: 0

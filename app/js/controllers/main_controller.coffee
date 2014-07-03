@@ -1,7 +1,8 @@
 angular.module('crossroads')
 
-.controller "MainCtrl", ($window, $rootScope) ->
-  @menus = $window.menuData
+.controller "MainCtrl", (Menu) ->
+  @menus = Menu.menuData
   @toggleMenu = ->
-    $rootScope.$emit 'menu:toggle'
+    Menu.toggleMobileDisplay()
+
   return

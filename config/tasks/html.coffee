@@ -4,6 +4,6 @@ module.exports = (gulp, $) ->
       .pipe($.usemin
         css: [$.csso(), $.rev()]
         js: [$.ngmin(), $.uglify(), $.rev()]
-        html: [$.minifyHtml()]
+        html: [$.util.noop()]
       )
       .pipe(gulp.dest('app/_includes'))
