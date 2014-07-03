@@ -61,11 +61,6 @@ header.show .container {
   margin-top: 10px;
 }
 
-.navbar--login__dropdown {
-  margin-top: 10px;
-  margin-right: 5px;
-}
-
 .navbar-header.show {
   position: fixed;
   z-index: 100000;
@@ -348,6 +343,7 @@ header.show .container {
   }
   .btn {
     margin-top: 10px;
+    margin-bottom: 15px;
   }
   .dropdown-menu {
     left: calc(100% - 300px);
@@ -363,7 +359,7 @@ header.show .container {
   opacity: 0;
   display: none;
   position: absolute;
-  right: 0;
+  right: 12px;
   top: -170%;
   border: 1px solid #ccc;
   background-color: #fff;
@@ -383,11 +379,18 @@ header.show .container {
 
 .navbar--login__input {
   margin: 10px 0;
+  width: 100%;
 }
 
 .btn.navbar--login__submit {
   color: #fff;
   @include gradient(#7AA8C2, #4A81A0);
+}
+
+.icon__container {
+  position: absolute;
+  margin-top: -32px;
+  right: 18px;
 }
 
 /***** Mobile Nav *****/
