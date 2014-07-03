@@ -33,10 +33,14 @@
   overflow-y: hidden;
   background: $gray-lighter;
 
+  img {
+    @include opacity(.1); // temporary solution until we find a long term solution for icons
+  }
+
   .change-photo {
     display: block;
     position: absolute;
-    bottom: -30px;
+    bottom: -35px;
     height: 30px;
     line-height: 30px;
     left: -1px;
@@ -71,6 +75,7 @@
 
     img {
       max-width: 50px;
+      @include opacity(.1); // temporary solution until we find a long term solution for icons
     }
   }
 }
