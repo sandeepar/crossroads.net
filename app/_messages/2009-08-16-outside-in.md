@@ -5,12 +5,12 @@ series: "Inside Out"
 title: "Outside In"
 date: 2009-08-16-00-00
 message_id: 577
-audio: "http://s3.amazonaws.com/crossroadsaudiomessages/InsideOut1.mp3"
+audio: "http://s3.amazonaws.com/crossroads-media/message/audio/InsideOut1.mp3"
 audio-duration: "45:31"
-program: "http://s3.amazonaws.com/crossroads-media/media/legacy/documents/0815_16Program.pdf"
+program: "http://s3.amazonaws.com/crossroads-media/documents/0815_16Program.pdf"
 description: "Brian Tome shares why crossroads is setup to be a place where  normal people can hear about Jesus."
-video: "https://s3.amazonaws.com/crossroadsvideomessages/InsideOut1.mp4"
+video: "http://s3.amazonaws.com/crossroads-media/message/video/InsideOut1.mp4"
 video-duration: "45:31"
-video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/InsideOut1-still.jpg"
+video-image: "http://s3.amazonaws.com/crossroads-media/images/InsideOut1-still.jpg"
 explicit: false
 ---
