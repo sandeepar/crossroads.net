@@ -38,8 +38,8 @@ categories:
       <tabset ng-init="set = {}">
         <tab heading="Personal">{% include mock-ups/profile_personal.html %}</tab>
         <tab heading="Household">{% include mock-ups/profile_household.html %}</tab>
-        <tab heading="Account" >{% include mock-ups/profile_account.html %}</tab>
-        <tab heading="Skills" class="hidden-xs" active="set.showSkills">Skills</tab>
+        <tab heading="Account">{% include mock-ups/profile_account.html %}</tab>
+        <tab heading="Skills" class="hidden-xs" active="set.showSkills">{% include mock-ups/profile_skills.html %}</tab>
         <tab heading="History" class="hidden-xs" active="set.showHistory">History</tab>
         <li role="tab" data-toggle="tab" class="dropdown hidden-md hidden-lg hidden-sm dropdown-toggle" data-toggle="dropdown">
           <a href="#">More <span class="caret"></span></a>
