@@ -34,12 +34,22 @@ categories:
     </div>
     
     <div class="profile-body col-sm-12 row">
+
       <tabset>
         <tab heading="Personal">{% include mock-ups/profile_personal.html %}</tab>
         <tab heading="Household">{% include mock-ups/profile_household.html %}</tab>
-        <tab heading="Skills">Skills</tab>
-        <tab heading="Account">{% include mock-ups/profile_account.html %}</tab>
-        <tab heading="History">History</tab>
+        <tab heading="Skills" class="hidden-xs" active="tab.active || forceTab == 'skills'">Skills</tab>
+        <tab heading="Account" >{% include mock-ups/profile_account.html %}</tab>
+        <tab heading="History" class="hidden-xs" active="tab.active || forceTab == 'history'">History</tab>
+        
+        <li role="tab" data-toggle="tab" class="dropdown hidden-md hidden-lg">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">More <span class="caret"></span></a>
+          
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#" ng-click="forceTab = 'skills'">Skills</a></li>
+            <li><a href="#" ng-click="forceTab = 'history'">History</a></li>
+          </ul>
+        </li>
       </tabset>
     </div>
   </div>
