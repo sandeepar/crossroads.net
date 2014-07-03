@@ -105,7 +105,11 @@ module.exports = function(app) {
             }
 
             // Redirect to a success page
-            res.redirect(redirect || '/contact-submitted');
+            if (redirect) {
+                res.redirect(redirect);
+            } else {
+                res.send(200);
+            }
         });
 
     //
