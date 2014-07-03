@@ -2,8 +2,6 @@ devEnv = process.env.NODE_ENV == 'development'
 
 gulp = require 'gulp'
 $ = require('gulp-load-plugins')()
-browserSync = require 'browser-sync'
-reload = browserSync.reload()
 
 require('./tasks/clean')(gulp, $)
 require('./tasks/jekyll')(gulp, devEnv, $)
