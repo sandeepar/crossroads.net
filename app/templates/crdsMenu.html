@@ -9,12 +9,12 @@
           </div>
           <ul class="side-nav__dropdown list-unstyled" id="mobile-menu">
             <li class="side-nav__dropdown--item" ng-repeat="heading in menus.headings">
-              <a class="heading__title" ng-click="toggleMenuItem($index)">
+              <a class="heading__title" ng-click="menu.toggleMenuItem($index)">
                 <i class="icon {{heading.icon}}"></i>
                 {{heading.title}}
                 <i class="icon--small icon--dropdown icon--right"></i>
               </a>
-              <ul class="side-nav__subnav list-unstyled" collapse="collapsed($index)">
+              <ul class="side-nav__subnav list-unstyled" collapse="menu.collapsed($index)">
                 <li class="col-xs-12">
                   <div class="col-xs-12 col-sm-6">
 		    <div ng-if="$first">
