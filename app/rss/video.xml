@@ -5,7 +5,7 @@ thumbnail: "http://www.crossroads.net/uploadedfiles/CR_podcast_video.jpg"
 ---
 
 <!-- PODCAST ITEMS -->
-{% assign sorted = site.media | sort: "date", "first" %}
+{% assign sorted = site.other-media | sort: "date", "first" %}
 {% for video in sorted reversed %}
     {% assign rssItem = video %}
 
