@@ -12,5 +12,10 @@ description: "Brian Tome talks about our need for approval."
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/placeatthetable_03.mp4"
 video-duration: "37:59"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/placeatthetable_03_still.jpg"
+tag: 
+ - approval
+ - tome
+ - orphan
+ - program
 explicit: false
 ---

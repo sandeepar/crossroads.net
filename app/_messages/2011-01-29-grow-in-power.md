@@ -14,5 +14,17 @@ description: "Brian Tome talks about what the Bible describes as \"walking in th
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/growup05.mp4"
 video-duration: "39:12"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/growup05_still.jpg"
+tag: 
+ - relationship
+ - single
+ - date
+ - flv
+ - wells
+ - dating
+ - tome
+ - growth
+ - power
+ - spirit
+ - program
 explicit: false
 ---

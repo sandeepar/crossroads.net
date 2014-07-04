@@ -14,5 +14,14 @@ description: "We'll be wrestling with the question of how a good God can allow p
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/heavyweights04.mp4"
 video-duration: "39:55"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/heavyweights04_still.jpg"
+tag: 
+ - religion
+ - tome
+ - wrestling
+ - hell
+ - grace
+ - heaven
+ - program
+ - heroes
 explicit: false
 ---

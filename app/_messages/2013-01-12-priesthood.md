@@ -12,5 +12,9 @@ description: "Brian Tome talks about priesthood."
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/saintsandscoundrels-02.mp4"
 video-duration: "46:18"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/saintsandscoundrels-02-still.jpg"
+tag: 
+ - tome
+ - priesthood
+ - program
 explicit: false
 ---

@@ -12,5 +12,13 @@ description: "Brian Tome talks about how Jesus went out of his way to hang out w
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/greatestshow02.mp4"
 video-duration: "43:14"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/greatestshow02_still.jpg"
+tag: 
+ - tome
+ - friendship
+ - relationships
+ - citylink
+ - baptism
+ - program
+ - game-change
 explicit: false
 ---

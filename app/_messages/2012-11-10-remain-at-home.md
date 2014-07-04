@@ -13,5 +13,12 @@ Remaining with God looks like living from His approval and continually experienc
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/journeyhome_06.mp4"
 video-duration: "56:48"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/journeyhome_06_still.jpg"
+tag: 
+ - journey
+ - home
+ - tome
+ - adoption
+ - foster-care
+ - program
 explicit: false
 ---

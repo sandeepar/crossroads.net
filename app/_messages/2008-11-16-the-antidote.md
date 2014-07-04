@@ -15,5 +15,10 @@ description: "The antidote to an attitude of entitlement is the discipline of gr
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/GIMMEGIMME3.mp4"
 video-duration: "36:07"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/GIMMEGIMME3-still.jpg"
+tag: 
+ - entitlement
+ - gratitude
+ - thanksgiving
+ - tome
 explicit: false
 ---

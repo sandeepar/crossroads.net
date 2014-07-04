@@ -12,5 +12,13 @@ description: "We're talking about how community can change us."
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/powertochange_03.mp4"
 video-duration: "45:58"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/powertochange_03_still.jpg"
+tag: 
+ - crossroads-church
+ - change
+ - crossroads
+ - jenny-baker
+ - chuck-mingo
+ - kim-botto
+ - program
 explicit: false
 ---

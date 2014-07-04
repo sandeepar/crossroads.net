@@ -12,5 +12,14 @@ description: "Brian Tome talks about fearlessness in pursuit of new ventures."
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/go_forth_03.mp4"
 video-duration: "43:16"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/go_forth_03_still.jpg"
+tag: 
+ - crossroads-church
+ - crossroads
+ - brian-tome
+ - entrepreneurs
+ - fear
+ - fearlessness
+ - program
+ - whiz-kids
 explicit: false
 ---

@@ -12,5 +12,10 @@ description: "Chuck Mingo talks about the invitation of Christmas."
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/rsvp01.mp4"
 video-duration: "45:45"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/rsvp01_still.jpg"
+tag: 
+ - mingo
+ - christmas
+ - program
+ - invitation
 explicit: false
 ---

@@ -14,5 +14,19 @@ description: "Brian Tome talks about what it looks like to bend your life to the
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/growup03.mp4"
 video-duration: "34:49"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/growup03_still.jpg"
+tag: 
+ - money
+ - generosity
+ - giving
+ - tithing
+ - investing
+ - miracle
+ - plan
+ - budget
+ - tome
+ - truth
+ - bible
+ - maturity
+ - program
 explicit: false
 ---

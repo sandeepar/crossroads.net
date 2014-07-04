@@ -15,5 +15,17 @@ description: "Brian Tome discusses why crossroads exists to mobilize people towa
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/InsideOut3.mp4"
 video-duration: "44:48"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/InsideOut3-still.jpg"
+tag: 
+ - reachout
+ - go
+ - india
+ - mamelodi
+ - cincinnati
+ - new-orleans
+ - serving
+ - giving
+ - tithing
+ - vision
+ - africa
 explicit: false
 ---

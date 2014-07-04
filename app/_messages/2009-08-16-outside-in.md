@@ -12,5 +12,10 @@ description: "Brian Tome shares why crossroads is setup to be a place where  nor
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/InsideOut1.mp4"
 video-duration: "45:31"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/InsideOut1-still.jpg"
+tag: 
+ - vision
+ - tome
+ - crossroads
+ - friends
 explicit: false
 ---

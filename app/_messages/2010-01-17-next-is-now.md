@@ -12,5 +12,10 @@ description: "Todd Henry shares how God uses dreams to build into us the capacit
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/Next3.mp4"
 video-duration: "32:17"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/Next3-still.jpg"
+tag: 
+ - dreams
+ - joseph
+ - karate-kid
+ - todd
 explicit: false
 ---

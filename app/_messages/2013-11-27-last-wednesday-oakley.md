@@ -11,5 +11,12 @@ description: "Oakley"
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/1127813_lw_oakley.mp4"
 video-duration: "34:39"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/112713_lw_oakley_still.jpg"
+tag: 
+ - oakley
+ - last-wednesday
+ - crossroads
+ - crossroads-church
+ - chuck-mingo
+ - thanksgiving
 explicit: false
 ---

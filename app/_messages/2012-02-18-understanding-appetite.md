@@ -12,5 +12,10 @@ description: "Brian Tome talks about what motivates our appetites."
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/placeatthetable_02.mp4"
 video-duration: "42:39"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/placeatthetable_02_still.jpg"
+tag: 
+ - tome
+ - orphan
+ - appetite
+ - program
 explicit: false
 ---

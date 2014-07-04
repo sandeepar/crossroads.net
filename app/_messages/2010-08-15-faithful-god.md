@@ -12,5 +12,9 @@ description: "Brian Tome talks about God's Faithfulness."
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/TheFaithful01.mp4"
 video-duration: "34:56"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/TheFaithful01_Still.jpg"
+tag: 
+ - faithfulness
+ - tome
+ - program
 explicit: false
 ---

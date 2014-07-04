@@ -12,5 +12,12 @@ video: "http://s3.amazonaws.com/crossroads-media/messages/video/go_forth_04.mp4"
 video-duration: "45:32"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/go_forth_04_still.jpg"
 program: "http://s3.amazonaws.com/crossroads-media/documents/09_14-15_13Program_LO.pdf"
+tag: 
+ - crossroads
+ - crossroads-church
+ - vision
+ - brian-tome
+ - program
+ - whiz-kids
 explicit: false
 ---

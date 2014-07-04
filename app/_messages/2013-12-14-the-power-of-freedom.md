@@ -11,5 +11,12 @@ description: "Florence"
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/giftoffreedom_03_florence.mp4"
 video-duration: "38:12"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/giftoffreedom_03_fl_still.jpg"
+tag: 
+ - terry-phillips
+ - florence
+ - crossroads
+ - crossroads-church
+ - christmas
+ - freedom
 explicit: false
 ---

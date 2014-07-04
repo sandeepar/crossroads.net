@@ -12,5 +12,10 @@ video-duration: ":"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/thenewman_05_still.jpg"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/thenewman_05.mp3"
 audio-duration: ":"
+tag: 
+ - program
+ - crossroads
+ - crossroads-church
+ - brian-tome
 explicit: false
 ---

@@ -12,5 +12,10 @@ description: "Greg Boyd talks about what the Kingdom is, and what it means to se
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/KingdomCome01.mp4"
 video-duration: "47:36"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/GregBoyd.jpg"
+tag: 
+ - greg-boyd
+ - kingdom
+ - seek
+ - love
 explicit: false
 ---

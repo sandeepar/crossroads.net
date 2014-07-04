@@ -11,5 +11,7 @@ video-duration: "54:57"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/062613-LW-still.jpg"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/062613-LW.mp3"
 audio-duration: "54:50"
+tag: 
+ - last-wednesday
 explicit: false
 ---

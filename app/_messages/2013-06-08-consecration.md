@@ -13,5 +13,9 @@ description: "We'll be talking about God's redemptive plan for sex.
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/goodsex_04.mp4"
 video-duration: "42:39"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/goodsex_04_still.jpg"
+tag: 
+ - tome
+ - program
+ - brian-tome
 explicit: true
 ---

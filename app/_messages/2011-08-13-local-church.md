@@ -12,5 +12,12 @@ description: "Mosa Sono talks about the powerful things that can happen when the
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/collide_01.mp4"
 video-duration: "53:58"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/collide01_still.jpg"
+tag: 
+ - local-church
+ - mosa-sono
+ - mingo
+ - citylink
+ - south-africa
+ - program
 explicit: false
 ---

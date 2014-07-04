@@ -12,5 +12,11 @@ description: "Chuck Mingo talks about how we view our identity&#58; as an abando
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/placeatthetable_01.mp4"
 video-duration: "42:47"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/placeattable_01_still.jpg"
+tag: 
+ - mingo
+ - orphan
+ - kim-botto
+ - adoption
+ - program
 explicit: false
 ---

@@ -15,5 +15,10 @@ description: "Entitlement can creep into our lives in unexpected ways. In this t
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/gimmegimme1.mp4"
 video-duration: "37:12"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/gimme1-still.jpg"
+tag: 
+ - entitlement
+ - fairness
+ - tome
+ - crib
 explicit: false
 ---

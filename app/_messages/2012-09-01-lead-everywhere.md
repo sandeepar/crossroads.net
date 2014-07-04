@@ -12,5 +12,13 @@ description: "Chuck Mingo talks about how to put our talents to work."
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/htlyj_03.mp4"
 video-duration: "36:30"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/htlyj_03_still.jpg"
+tag: 
+ - mingo
+ - leading
+ - serve
+ - program
+ - whiz-kids
+ - journey
+ - job
 explicit: false
 ---

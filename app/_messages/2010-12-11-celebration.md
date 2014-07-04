@@ -12,5 +12,9 @@ description: "Brian Tome talks about what it means to live in celebration of the
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/celebration.mp4"
 video-duration: "35:13"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/celebration_still.jpg"
+tag: 
+ - tome
+ - celebration
+ - christmas
 explicit: false
 ---

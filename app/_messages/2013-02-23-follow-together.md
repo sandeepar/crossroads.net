@@ -12,5 +12,10 @@ description: "Chuck Mingo talks about how following the Leader is best with a tr
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/followtheleader_oakley_03.mp4"
 video-duration: "38:05"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/followtheleader_oakley_03_still.jpg"
+tag: 
+ - mingo
+ - following
+ - community
+ - program
 explicit: false
 ---

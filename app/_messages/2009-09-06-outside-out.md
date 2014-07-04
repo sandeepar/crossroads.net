@@ -12,5 +12,11 @@ video: "http://s3.amazonaws.com/crossroads-media/messages/video/InsideOut4.mp4"
 video-duration: "35:40"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/InsideOut4-still.jpg"
 program: "http://s3.amazonaws.com/crossroads-media/documents/0905_06Program.pdf"
+tag: 
+ - reachout
+ - haiti
+ - justice
+ - slavery
+ - tome
 explicit: false
 ---

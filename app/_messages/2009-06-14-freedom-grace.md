@@ -14,5 +14,14 @@ video-image: "http://s3.amazonaws.com/crossroads-media/images/Roadmap6-still.jpg
 notes-description: ""
 notes: "http://s3.amazonaws.com/crossroads-media/documents/SN_06_20-21_09.pdf"
 notes-title: "Freedom and Grace (study notes)"
+tag: 
+ - freedom
+ - grace
+ - roadmap
+ - tome
+ - paul
+ - early-church
+ - acts
+ - prison
 explicit: false
 ---

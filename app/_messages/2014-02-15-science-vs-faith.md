@@ -12,5 +12,13 @@ description: "Are science and faith mutually exclusive?"
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/heavyweights2_02.mp4"
 video-duration: "55:16"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/heavyweight2_02_still.jpg"
+tag: 
+ - crossroads
+ - crossroads-church
+ - science
+ - faith
+ - brian-tome
+ - keith-crutcher
+ - program
 explicit: false
 ---

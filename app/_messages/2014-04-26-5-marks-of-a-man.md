@@ -12,5 +12,11 @@ description: "Jesus was the beginning of a new breed of men. Men who take a stan
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/thenewman_01.mp4"
 video-duration: ":"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/thenewman_01_still.jpg"
+tag: 
+ - crossroads
+ - crossroads-church
+ - brian-tome
+ - men
+ - program
 explicit: false
 ---

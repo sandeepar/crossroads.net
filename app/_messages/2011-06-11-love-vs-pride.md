@@ -12,5 +12,12 @@ description: "Brian Tome talks about what it looks like to follow the Guide out 
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/theguide04.mp4"
 video-duration: "40:43"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/theguide04_still.jpg"
+tag: 
+ - holy-spirit
+ - guide
+ - love
+ - pride
+ - tome
+ - program
 explicit: false
 ---

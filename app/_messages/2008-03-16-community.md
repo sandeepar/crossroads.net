@@ -11,5 +11,9 @@ video-duration: "59:35"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/consumed6still.jpg"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/Consumed_6_03-16-08_Tome_webaudio.mp3"
 audio-duration: "44:08"
+tag: 
+ - consumed
+ - generosity
+ - consumerism
 explicit: false
 ---

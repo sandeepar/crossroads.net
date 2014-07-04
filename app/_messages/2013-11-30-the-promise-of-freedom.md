@@ -12,5 +12,11 @@ description: "Brian Tome talks about the promise of freedom."
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/giftoffreedom_01.mp4"
 video-duration: "33:55"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/giftoffreedom_01_still.jpg"
+tag: 
+ - crossroads-church
+ - brian-tome
+ - christmas
+ - freedom
+ - program
 explicit: false
 ---

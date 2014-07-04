@@ -12,5 +12,10 @@ description: "Chuck Mingo talks about how a good team needs both pioneers and se
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/go_forth_02.mp4"
 video-duration: "41:04"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/go_forth_02_still.jpg"
+tag: 
+ - mingo
+ - crossroads-church
+ - chuck-mingo
+ - program
 explicit: false
 ---

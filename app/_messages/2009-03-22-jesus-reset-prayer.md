@@ -12,5 +12,10 @@ video: "http://s3.amazonaws.com/crossroads-media/messages/video/Reset5.mp4"
 video-duration: "41:58"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/Reset5-still.jpg"
 program: "http://s3.amazonaws.com/crossroads-media/documents/0321_22Program.pdf"
+tag: 
+ - prayer
+ - jesus
+ - reset
+ - mingo
 explicit: false
 ---

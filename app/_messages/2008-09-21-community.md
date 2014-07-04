@@ -16,5 +16,8 @@ discipline."
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/092008Service.mp4"
 video-duration: "30:59"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/092008ServiceStill.jpg"
+tag: 
+ - community
+ - tome
 explicit: false
 ---

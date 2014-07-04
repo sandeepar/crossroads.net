@@ -7,5 +7,13 @@ date: 2002-04-20-00-00
 message_id: 285
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/Power_of_Giving.mp3"
 audio-duration: "38:51"
+tag: 
+ - money
+ - generosity
+ - giving
+ - tithing
+ - investing
+ - miracle
+ - tome
 explicit: false
 ---

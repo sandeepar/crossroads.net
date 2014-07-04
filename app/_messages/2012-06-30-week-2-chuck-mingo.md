@@ -12,5 +12,10 @@ description: "We're talking about how hope is a key ingredient to the good life.
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/goodlife_02.mp4"
 video-duration: "40:13"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/goodlife_02_still.jpg"
+tag: 
+ - mingo
+ - good-life
+ - program
+ - john
 explicit: false
 ---

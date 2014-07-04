@@ -7,5 +7,15 @@ date: 2003-01-18-00-00
 message_id: 246
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/My%20Power%20and%20Gods%20Power.mp3"
 audio-duration: "39:21"
+tag: 
+ - money
+ - consumerism
+ - debt
+ - tithing
+ - margin
+ - greed
+ - consumer
+ - power
+ - tome
 explicit: false
 ---

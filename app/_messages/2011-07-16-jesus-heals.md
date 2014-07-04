@@ -12,5 +12,13 @@ description: "We're going to talk about how Jesus healed people, and the crowds 
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/greatestshow05.mp4"
 video-duration: "48:50"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/greatestshow05_still.jpg"
+tag: 
+ - healing
+ - suffering
+ - death
+ - disease
+ - cancer
+ - beechem
+ - program
 explicit: false
 ---

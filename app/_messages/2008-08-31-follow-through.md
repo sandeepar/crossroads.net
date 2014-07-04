@@ -15,5 +15,12 @@ video: "http://s3.amazonaws.com/crossroads-media/messages/video/Rebuild3-Raw.mp4
 video-duration: "42:27"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/Rebuild-3-still.jpg"
 program: "http://s3.amazonaws.com/crossroads-media/documents/0830_31Program.pdf"
+tag: 
+ - mingo
+ - setbacks
+ - keenan
+ - made-it
+ - nehemiah
+ - vision
 explicit: false
 ---

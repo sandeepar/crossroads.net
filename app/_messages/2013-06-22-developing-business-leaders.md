@@ -12,5 +12,10 @@ description: "Kirk Perry talks about how to develop business leaders."
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/htbp_02.mp4"
 video-duration: "46:58"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/htbp_02_still.jpg"
+tag: 
+ - kirk-perry
+ - leadership
+ - leader
+ - business
 explicit: false
 ---

@@ -11,5 +11,12 @@ description: "Pastor Fred Luter from New Orleans shares what to do when the stor
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/WeLoveCincy4.mp4"
 video-duration: "39:47"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/WeLoveCincy4-still.jpg"
+tag: 
+ - fred-luter
+ - new-orleans
+ - city
+ - cincinnati
+ - katrina
+ - hurricane
 explicit: false
 ---

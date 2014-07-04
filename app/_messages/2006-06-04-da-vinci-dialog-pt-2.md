@@ -7,5 +7,14 @@ date: 2006-06-04-00-00
 message_id: 66
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/DaVinci_Dialog_Pt_2_06-04-06_Greg_Boyd.mp3"
 audio-duration: "39:18"
+tag: 
+ - truth
+ - da-vinci
+ - code
+ - many-paths
+ - new-age
+ - boyd
+ - canon
+ - bible
 explicit: false
 ---

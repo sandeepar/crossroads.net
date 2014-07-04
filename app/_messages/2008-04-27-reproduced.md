@@ -11,5 +11,16 @@ video-duration: "42:07"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/iam-reproduced-still.jpg"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/I_AM_4_Reproduced_04-27-08_Tome_webaudio.mp3"
 audio-duration: "35:40"
+tag: 
+ - multisite
+ - reproduction
+ - running
+ - tome
+ - dodo
+ - kindle
+ - reproduced
+ - i-am
+ - multi-site
+ - mason
 explicit: false
 ---

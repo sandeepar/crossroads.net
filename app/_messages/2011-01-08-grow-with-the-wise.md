@@ -14,5 +14,16 @@ description: "Chuck Mingo talks about growing through intentional community."
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/growup02.mp4"
 video-duration: "39:34"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/chuckstillweb.jpg"
+tag: 
+ - money
+ - generosity
+ - giving
+ - tithing
+ - investing
+ - miracle
+ - tome
+ - mingo
+ - community
+ - intentionality
 explicit: false
 ---

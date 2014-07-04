@@ -14,5 +14,14 @@ description: "Brian Tome talks about how a lifestyle of sacrifice leads to growt
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/growup04.mp4"
 video-duration: "36:56"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/growup04_still.jpg"
+tag: 
+ - forgiveness
+ - gospel
+ - grace
+ - tome
+ - easter
+ - growth
+ - sacrifice
+ - program
 explicit: false
 ---

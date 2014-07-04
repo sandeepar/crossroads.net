@@ -12,5 +12,12 @@ description: "Brian Tome talks about parenting."
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/knockoff_03.mp4"
 video-duration: "43:14"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/knockoff_03_still.jpg"
+tag: 
+ - brian-tome
+ - parenting
+ - discipline
+ - program
+ - journey
+ - tome
 explicit: false
 ---

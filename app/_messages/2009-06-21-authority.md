@@ -15,5 +15,12 @@ video: "http://s3.amazonaws.com/crossroads-media/messages/video/Roadmap5.mp4"
 video-duration: "34:47"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/Roadmap5-still.jpg"
 program: "http://s3.amazonaws.com/crossroads-media/documents/0613_14Program.pdf"
+tag: 
+ - authority
+ - alli
+ - kingdom
+ - revolution
+ - holy-spirit
+ - roadmap
 explicit: false
 ---

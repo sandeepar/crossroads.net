@@ -12,5 +12,11 @@ video: "http://s3.amazonaws.com/crossroads-media/messages/video/gamechangers_06.
 video-duration: "41:14"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/gamechangers_06_still.jpg"
 program: "http://s3.amazonaws.com/crossroads-media/documents/04_14-15_12Program.pdf"
+tag: 
+ - tome
+ - campaign
+ - game-changers
+ - commitment
+ - program
 explicit: false
 ---

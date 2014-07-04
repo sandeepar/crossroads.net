@@ -15,5 +15,11 @@ description: "What are the conditions necessary for a revolution to thrive? Join
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/roadmap1.mp4"
 video-duration: "38:55"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/roadmap1-still.jpg"
+tag: 
+ - commitment
+ - acts
+ - church
+ - early-church
+ - tome
 explicit: false
 ---
