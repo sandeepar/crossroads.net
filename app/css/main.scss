@@ -21,6 +21,30 @@ body {
 a:hover {
   text-decoration:none;
 }
+.subheading {
+  font-weight: 400;
+  color: #777;
+  margin-top: -11px;
+}
+h1.subheading {
+  font-size: $font-size-h1*$subheading-ratio;
+}
+h2.subheading {
+  font-size: $font-size-h2*$subheading-ratio
+}
+h3.subheading {
+  font-size: $font-size-h3*$subheading-ratio
+}
+h4.subheading {
+  font-size: $font-size-h4*$subheading-ratio
+}
+h5.subheading {
+  font-size: $font-size-h5*$subheading-ratio
+}
+h6.subheading {
+  font-size: $font-size-h6*$subheading-ratio
+}
+
 .brand-font {
   font-family: $brand-font-family;
   text-transform: uppercase;
@@ -58,7 +82,6 @@ footer .open, footer .office {
   border-left: 1px solid #878785;
 }
 
-
 .center {
     float:none;
     display:inline-block;
@@ -91,6 +114,7 @@ footer .open, footer .office {
 /***************************************************************************************
 * Dashboard Elements - used on /dashboard.html
 ***************************************************************************************/
+
 .status-block {padding: 30px 0; color:$gray-lighter;}
 .status-blocks h2 {font-size: $font-size-h2+30px;}
 .documents, .documents ul {list-style: none;}
@@ -139,6 +163,36 @@ footer .open, footer .office {
   display: block;
 }
 
+// Empty href attributes for UI Bootstrap
+.nav, .pagination, .carousel, .panel-title a { cursor: pointer; }
+
+/***************************************************************************************
+* Forms
+***************************************************************************************/
+.input-group-addon {
+  label {
+    margin-bottom: 0px;
+  }
+}
+
+.form-control {
+  &:focus {
+    border-color: $brand-primary;
+    @include box-shadow(inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(59, 110, 143, 0.2));
+  }
+}
+
+/***************************************************************************************
+* Tabs
+***************************************************************************************/
+.nav-tabs > li > a > tab-heading > span {
+  line-height: 1.625;
+  display: block;
+}
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+  background-color: #eeeeee;
+  border-color: #eeeeee;
+}
 /***************************************************************************************
 * Date Picker
 ***************************************************************************************/

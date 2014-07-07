@@ -5,12 +5,18 @@ series: "The Guide"
 title: "TREK WITH THE GUIDE"
 date: 2011-05-21-00-00
 message_id: 674
-audio: "http://s3.amazonaws.com/crossroadsaudiomessages/theguide01.mp3"
+audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/theguide01.mp3"
 audio-duration: "42:43"
-program: "http://s3.amazonaws.com/crossroads-media/media/legacy/documents/05_21-22_11Program.pdf"
+program: "http://s3.amazonaws.com/crossroads-media/documents/05_21-22_11Program.pdf"
 description: "Chuck Mingo talks about how to recognize and follow the Holy Spirit's guidance."
-video: "https://s3.amazonaws.com/crossroadsvideomessages/theguide01.mp4"
+video: "http://s3.amazonaws.com/crossroads-media/messages/video/theguide01.mp4"
 video-duration: "42:49"
-video-image: "http://s3.amazonaws.com/crossroads-media/images/legacy/content/theguide01_still.jpg"
+video-image: "http://s3.amazonaws.com/crossroads-media/images/theguide01_still.jpg"
+tag: 
+ - mingo
+ - guide
+ - holy-spirit
+ - guidance
+ - program
 explicit: false
 ---

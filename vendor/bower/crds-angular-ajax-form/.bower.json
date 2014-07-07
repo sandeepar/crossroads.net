@@ -1,0 +1,48 @@
+{
+  "name": "crds-angular-ajax-form",
+  "homepage": "https://github.com/crdschurch/crds-angular-ajax-form",
+  "authors": [
+    "Chris Tallent <chris@tallented.net>",
+    "Dan Rye <drye@crossroads.net>",
+    "bzmillerboy <bzmiller82@gmail.com>"
+  ],
+  "description": "AngularJS directive to intercept Form POST and submit using Ajax without an explicit Controller",
+  "keywords": [
+    "angular",
+    "angularjs",
+    "ajax",
+    "crds",
+    "crossroads.net"
+  ],
+  "license": "MIT",
+  "main": "dist/crds-angular-ajax-form.js",
+  "ignore": [
+    "app",
+    "config",
+    "**/*.iml",
+    "generated",
+    "gulpfile.*",
+    "node_modules",
+    "package.json",
+    "bower_components",
+    "server",
+    "spec",
+    "vendor"
+  ],
+  "dependencies": {
+    "angular": "~1.2.16"
+  },
+  "devDependencies": {
+    "bootstrap": "~3.1.1",
+    "angular-growl-v2": "~0.6.1"
+  },
+  "_release": "f4ccf694cd",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "f4ccf694cde79b795a7a10b4930ff3f667fac5d2"
+  },
+  "_source": "git://github.com/crdschurch/crds-angular-ajax-form.git",
+  "_target": "*",
+  "_originalSource": "crds-angular-ajax-form"
+}
