@@ -1,26 +1,31 @@
 angular.module('crossroads')
 
 .factory "Contact", ($cookieStore, $http, $location, $rootScope) ->
-  getSomething: ->
-    console.log("getSomething")
-    $http.get('/api/ministryplatformapi/PlatformService.svc/GetPageRecord?pageid=339')
+
+  getMaritalStatusValues: ->
+    $http.get('/getMaritalStatus')
       .then ((response) ->
-        console.log response.data
         if typeof response.data is 'object'
-          $rootScope.lookup = response.data
-          # null
-          # $rootScope.lookup = "abc"
+          data = response.data
         else
           null
     ), (response) ->
       null
-  getContact: ->
-    $http.get('/api/ministryplatformapi/PlatformService.svc/GetPageRecord?pageid=292&recordId=2')
+
+  getGenderValues: ->
+    $http.get('/getGenders')
       .then ((response) ->
         if typeof response.data is 'object'
-          # $rootScope.contact = response.data
-          # response.data
-          # console.log(response.data)
+          data = response.data
+        else
+          null
+    ), (response) ->
+      null
+
+  getContact:  (contactId) ->
+    $http.get("/getContact/#{contactId}")
+      .then ((response) ->
+        if typeof response.data is 'object'
           data =
             emailaddress: extractFieldValue(response.data, 'Email_Address')
             firstname: extractFieldValue(response.data, 'First_Name')
