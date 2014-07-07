@@ -89,6 +89,9 @@
     cursor: default;
     background: $cr-orange;
     line-height: 3;
+  a {
+    padding-left: 10px;
+    @include transition(all .2s ease-in);
 
     &:hover {
       color: #fff;
@@ -136,5 +139,19 @@
         margin-left: 0;
       }
     }
+  }
+}
+
+.skill-group {
+  margin-bottom: 20px;
+
+  .cat-skill-group {
+    border-bottom: 1px solid $legend-border-color;
+    padding-bottom: 20px;
+
+    @media (min-width: $screen-sm-min) {
+      @include content-columns(4);
+    }
+
   }
 }
