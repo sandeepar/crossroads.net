@@ -17,8 +17,8 @@ module.exports = function(app) {
   var OAuth2 = require('simple-oauth2')(credentials);
 
   passport.serializeUser(function(token, done) {
-    if (token.expires_in != null) {
-      token.expires_at = moment().add('seconds', token.expires_in);
+    if (token.expires_at != null) {
+      token.expires_at = moment().add('seconds', token.expires_at);
     }
     return done(null, JSON.stringify(token));
   });
