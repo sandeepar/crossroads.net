@@ -30,6 +30,8 @@ If you would prefer to disable the growl notifications you may run: ```gulp -n``
 For a faster jekyll build you may run: ```gulp -burp```
 (This excludes items, see[_config.exclude.yml](https://github.com/crdschurch/crossroads.net/blob/master/config/_config.exclude.yml]))
 
+If burp doesn't suit your needs you can also add local only jekyll configs here: ```config/_config.local.yml```
+
 This will watch the filesystem and compile all the sass into css,
 coffeescript into javascript and run jekyll-build as well. This will also run
 the node server making the site available at localhost:3000
