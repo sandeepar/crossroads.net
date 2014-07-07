@@ -1,22 +1,165 @@
+<div ng-controller="ModalDemoCtrl">
+    <script type="text/ng-template" id="myModalContent.html">
+        <div class="modal-header">
+            <h3 class="modal-title">Im a modal!</h3>
+        </div>
+        <div class="modal-body">
+            <ul>
+                <li ng-repeat="item in items">
+                    <a ng-click="selected.item = item">{{ item }}</a>
+                </li>
+            </ul>
+            Selected: <b>{{ selected.item }}</b>
+        </div>
+        <div class="modal-footer">
+            <button class="btn btn-primary" ng-click="ok()">OK</button>
+            <button class="btn btn-warning" ng-click="cancel()">Cancel</button>
+        </div>
+    </script>
+
+    <button class="btn btn-default" ng-click="open()">Open me!</button>
+    <button class="btn btn-default" ng-click="open('lg')">Large modal</button>
+    <button class="btn btn-default" ng-click="open('sm')">Small modal</button>
+    <div ng-show="selected">Selection from a modal: {{ selected }}</div>
+</div>
+
+
 <form role="form">
 
   <fieldset class="row">
-    <legend class="col-sm-12">Your Selected Skills</legend>
+    <legend class="col-sm-12">My Selected Skills</legend>
     <ul class="col-sm-12 current-skills-list list-inline">
-      <li><a class="label label-info">Software Developer <span class="glyphicon glyphicon-trash"></span></a></li>
-      <li><a class="label label-info">Web Design <span class="glyphicon glyphicon-trash"></span></a></li>
-      <li><a class="label label-info">Web Development <span class="glyphicon glyphicon-trash"></span></a></li>
-      <li><a class="label label-info">Photoshop wizard <span class="glyphicon glyphicon-trash"></span></a></li>
-      <li><a class="label label-info">Administrative <span class="glyphicon glyphicon-trash"></span></a></li>
+      <li><a class="label label-info" href="#" ng-click="open()">Software Developer <span class="glyphicon glyphicon-trash"></span></a></li>
+      <li><a class="label label-info" href="#">Web Design <span class="glyphicon glyphicon-trash"></span></a></li>
+      <li><a class="label label-info" href="#">Web Development <span class="glyphicon glyphicon-trash"></span></a></li>
+      <li><a class="label label-info" href="#">Photoshop wizard <span class="glyphicon glyphicon-trash"></span></a></li>
+      <li><a class="label label-info" href="#">Administrative <span class="glyphicon glyphicon-trash"></span></a></li>
     </ul>
   </fieldset>
 
+  <hr />
+    
   <fieldset class="row">
     <div class="col-sm-12">
+      <p>Select a category below and check off any super powers you may have.</p>
+      
+      <div class="row skill-group">
+        <div class="form-group col-sm-6">
+          <label for="provider">Category</label>
+          <select class="form-control col-sm-12" name="skill-category" id="skill-category" ng-model="cat">
+            <option value="">Select A Category</option>
+            <option value="1">Communications</option>
+            <option value="2">Creative</option>
+          </select>
+        </div> <!-- /.form-group col-sm-6 -->
 
-    </div>
+        <div class="form-group col-sm-12" ng-show="cat=='1'">
+          <label>Creative</label>
+          <div class="cat-skill-group">
+            <div class="checkbox">
+              <label>
+                <input type="checkbox"> Artistic Painting
+              </label>
+            </div>
+            <div class="checkbox">
+              <label>
+                <input type="checkbox"> Audio Engineering
+              </label>
+            </div>
+            <div class="checkbox">
+              <label>
+                <input type="checkbox"> Brainstorming
+              </label>
+            </div>
+            <div class="checkbox">
+              <label>
+                <input type="checkbox"> Camera Operator
+              </label>
+            </div>
+            <div class="checkbox">
+              <label>
+                <input type="checkbox"> I Can Play (guitar, piano, etc)
+              </label>
+            </div>
+            <div class="checkbox">
+              <label>
+                <input type="checkbox"> I Can Sing (really...)
+              </label>
+            </div>
+            <div class="checkbox">
+              <label>
+                <input type="checkbox"> Photography
+              </label>
+            </div>
+            <div class="checkbox">
+              <label>
+                <input type="checkbox"> Poetry / Creative Writing
+              </label>
+            </div>
+            <div class="checkbox">
+              <label>
+                <input type="checkbox"> Production (audio / video)
+              </label>
+            </div>
+            <div class="checkbox">
+              <label>
+                <input type="checkbox"> Sculpture
+              </label>
+            </div>
+            <div class="checkbox">
+              <label>
+                <input type="checkbox"> Video Editing
+              </label>
+            </div>
+          </div> <!-- /.cat-skill-group -->
+        </div> <!-- /.form-group.col-sm-12 -->
+
+        <div class="form-group col-sm-12" ng-show="cat=='2'">
+          <label>Communication</label>
+          <div class="cat-skill-group">
+            <div class="checkbox">
+              <label>
+                <input type="checkbox"> Animation/Motion Graphics
+              </label>
+            </div>
+            <div class="checkbox">
+              <label>
+                <input type="checkbox"> Copy Editor
+              </label>
+            </div>
+            <div class="checkbox">
+              <label>
+                <input type="checkbox"> Excel wizard
+              </label>
+            </div>
+            <div class="checkbox">
+              <label>
+                <input type="checkbox"> Graphic Design (print)
+              </label>
+            </div>
+            <div class="checkbox">
+              <label>
+                <input type="checkbox"> iPhoto/iMovie wizard
+              </label>
+            </div>
+            <div class="checkbox">
+              <label>
+                <input type="checkbox"> Photoshop wizard
+              </label>
+            </div>
+            <div class="checkbox">
+              <label>
+                <input type="checkbox"> Social media wizard
+              </label>
+            </div>
+          </div> <!-- /.cat-skill-group -->
+        </div> <!-- /.form-group.col-sm-12 -->
+
+      </div> <!-- /.row.skill-group -->
+    </div> <!--/.col-sm-12 -->
   </fieldset>
 
+  <button class="btn btn-primary ladda-button" data-style="expand-left"><span class="ladda-label">Add More Skills &nbsp;<span class="glyphicon glyphicon-plus-sign"></span></button>
   <button class="btn btn-primary ladda-button" data-style="expand-left"><span class="ladda-label">Save</span></button>
 
 </form>
