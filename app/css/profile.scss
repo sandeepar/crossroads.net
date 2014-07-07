@@ -155,12 +155,16 @@
   margin-bottom: 20px;
 
   .cat-skill-group {
-    border-bottom: 1px solid $legend-border-color;
-    padding-bottom: 20px;
+    //
+    padding: 0 0 20px 0;
 
     @media (min-width: $screen-sm-min) {
-      @include content-columns(4);
+      @include content-columns(3);
     }
 
+    .checkbox {
+      margin-top: 0px;
+      clear: both;
+    }
   }
 }
