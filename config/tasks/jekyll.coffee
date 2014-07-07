@@ -5,6 +5,11 @@ notifier = new nn()
 browserSync = require 'browser-sync'
 n = args.n
 
+if args.burp
+  yamlConfigString = "_config.yml,config/_config.dev.yml,config/_config.exclude.yml"
+else
+  yamlConfigString = "_config.yml,config/_config.dev.yml"
+
 module.exports = (gulp, devEnv, $) ->
   gulp.task "jekyll", (cb) ->
     bundle = cp.spawn("bundle", [
@@ -12,7 +17,7 @@ module.exports = (gulp, devEnv, $) ->
       "jekyll"
       "build"
       "--config"
-      "_config.yml,config/_config.dev.yml"
+      yamlConfigString
       "--watch"
     ])
     bundle.on "close", cb
