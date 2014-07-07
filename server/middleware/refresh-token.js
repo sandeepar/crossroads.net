@@ -3,11 +3,11 @@ var config, moment, request, config;
 moment = require('moment');
 request = require('superagent');
 config = require('../config/config');
+var util = require('util');
 
 module.exports = function() {
   return function(req, res, next) {
-    // console.log('reg.user: '. req.user);
-    if ((req.user != null) && (req.user.token.expires_at != null) && moment().add('seconds', 30).isAfter(moment(req.user.token.expires_at))) {
+    if ((req.user != null ) && req.user.token && (req.user.token.expires_at != null) && moment().add('seconds', 30).isAfter(moment(req.user.token.expires_at))) {
       return request.post("" + config.api.url + "/oauth/token").send({
         refresh_token: req.user.token.refresh_token,
         client_id: 'client',
