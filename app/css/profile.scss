@@ -84,9 +84,11 @@
 
 .current-skills-list {
   a {
-    padding-left: 10px;
+    padding: .5em .5em .6em 1.9em ;
     @include transition(all .2s ease-in);
     cursor: pointer;
+    background: $cr-orange;
+    line-height: 3;
 
     &:hover {
       color: #fff;
@@ -99,9 +101,15 @@
     }
 
     .glyphicon {
-      color: $brand-info;
+      color: $cr-orange;
     }
   }
+}
+
+.add-skill {
+  border-top: 1px solid $legend-border-color;
+  padding-top: 20px;
+  margin-top: 10px;
 }
 
 .skill-group {
