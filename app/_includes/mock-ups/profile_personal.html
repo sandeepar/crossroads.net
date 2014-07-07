@@ -1,25 +1,26 @@
+<div ng-controller="ProfilePersonalCtrl">
 <form role="form">
   <div class="row">
     <div class="form-group col-sm-6">
       <label for="firstname">Email</label>
-      <input type="email" class="form-control" id="email" placeholder="Enter email address">
+      <input type="email" class="form-control" id="email" placeholder="Enter email address" ng-model="contact.emailaddress.value">
     </div>
   </div>
 
   <div class="row">
     <div class="form-group col-sm-6">
       <label for="firstname">First Name</label>
-      <input type="text" class="form-control" id="firstname" placeholder="Enter first name">
+      <input type="text" class="form-control" id="firstname" placeholder="Enter first name" ng-model="contact.firstname.value">
     </div>
 
     <div class="form-group col-sm-6">
       <label for="middlename">Middle Name</label>
-      <input type="text" class="form-control" id="middlename" placeholder="Enter middle name">
+      <input type="text" class="form-control" id="middlename" placeholder="Enter middle name" ng-model="contact.middlename.value">
     </div>
 
     <div class="form-group col-sm-6">
       <label for="lastname">Last Name</label>
-      <input type="text" class="form-control" id="lastname" placeholder="Enter last name">
+      <input type="text" class="form-control" id="lastname" placeholder="Enter last name" ng-model="contact.lastname.value">
     </div>
 
     <div class="form-group col-sm-6">
@@ -29,14 +30,14 @@
 
     <div class="form-group col-sm-6">
       <label for="nickname">Nick Name <small>(Example: Rob or Becky)</small></label>
-      <input type="text" class="form-control" id="nickname" placeholder="Enter nick name">
+      <input type="text" class="form-control" id="nickname" placeholder="Enter nick name" ng-model="contact.nickname.value">
     </div>
   </div>
-  
+
   <div class="row">
     <div class="form-group col-sm-6">
       <label for="nickname">Mobile Phone</label>
-      <input type="text" class="form-control" id="mobile" placeholder="Enter mobile phone">
+      <input type="text" class="form-control" id="mobile" placeholder="Enter mobile phone" ng-model="contact.mobile.value">
     </div>
 
     <div class="form-group col-sm-6">
@@ -47,33 +48,29 @@
         {% endfor %}
       </select>
     </div>
-  
+
   </div>
 
   <div class="row">
     <div class="form-group col-sm-6" ng-class="{'has-error': datepickerForm.date.$invalid}">
       <label class="control-label"><i class="fa fa-calendar"></i>Birth Date</label>
-      <input type="text" class="form-control" ng-model="selectedDate" name="birthdate" placeholder="md/dd/yy" bs-datepicker>
+      <input type="text" class="form-control" name="birthdate" placeholder="md/dd/yy" bs-datepicker ng-model="contact.birthdate.value">
     </div>
   </div>
 
   <div class="row">
     <div class="form-group col-sm-6">
       <label for="marital_status">Maritial Status</label>
-      <select class="form-control col-sm-12">
-        {% for i in (1..31) %}
-          <option>{{ i }}</option>
-        {% endfor %}
-      </select>
+      <select class="form-control col-sm-12" ng-model="contact.maritalstatus.value" ng-options="maritalstatus.id as maritalstatus.value for maritalstatus in maritalstati"></select>
     </div>
 
     <div class="form-group col-sm-6">
       <label class="block">Gender</label>
       <label class="radio-inline">
-        <input type="radio" id="gender" value="male"> Male
+        <input type="radio" id="gender" value="Male" ng-model="contact.gender.value"> Male
       </label>
       <label class="radio-inline">
-        <input type="radio" id="gender" value="female"> Female
+        <input type="radio" id="gender" value="Female" ng-model="contact.gender.value"> Female
       </label>
     </div>
   </div>
@@ -88,9 +85,10 @@
   <div class="row">
     <div class="form-group col-sm-6" ng-class="{'has-error': datepickerForm.date.$invalid}">
       <label class="control-label"><i class="fa fa-calendar"></i>When did you start attending Crossroads?</label></span>
-      <input type="text" class="form-control" ng-model="selectedDate" name="attenddate" placeholder="mm/dd/yy" bs-datepicker>
+      <input type="text" class="form-control" ng-model="selectedDate" name="attenddate" placeholder="mm/dd/yy" bs-datepicker ng-model="contact.startattending.value">
     </div>
   </div>
 
   <button class="btn btn-primary ladda-button" data-style="expand-left"><span class="ladda-label">Save</span></button>
 </form>
+</div>
