@@ -12,5 +12,13 @@ video-duration: ":"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/heavyweights2_wk6_still.jpg"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/heavyweights2_wk6.mp3"
 audio-duration: ":"
+tag: 
+ - program
+ - crossroads
+ - crossroads-church
+ - heavyweights
+ - chuck-mingo
+ - jesus
+ - religion
 explicit: false
 ---

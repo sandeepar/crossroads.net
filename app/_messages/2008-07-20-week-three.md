@@ -15,5 +15,10 @@ description: "Chuck Mingo discusses grace and how the Church can be \"one.\""
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/One-3.mp4"
 video-duration: "27:50"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/One3-still.jpg"
+tag: 
+ - mingo
+ - grace
+ - unity
+ - mission
 explicit: false
 ---

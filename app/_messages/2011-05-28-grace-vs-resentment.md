@@ -12,5 +12,13 @@ description: "Brian Tome talks about how our guide, the Holy Spirit, leads us aw
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/theguide02.mp4"
 video-duration: "43:56"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/theguide02_still.jpg"
+tag: 
+ - tome
+ - grace
+ - resentment
+ - guide
+ - holy-spirit
+ - program
+ - growth
 explicit: false
 ---

@@ -12,5 +12,10 @@ description: "Karl Martin shares the rhythms he's established in Scotland."
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/rhythm04.mp4"
 video-duration: "39:07"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/rhythm04-still.jpg"
+tag: 
+ - karl-martin
+ - rhythm
+ - program
+ - wheels
 explicit: false
 ---

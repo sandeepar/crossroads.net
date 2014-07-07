@@ -12,5 +12,10 @@ video: "http://s3.amazonaws.com/crossroads-media/messages/video/ForceFeed4.mp4"
 video-duration: "44:01"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/DefaultVideoImage.jpg"
 program: "http://s3.amazonaws.com/crossroads-media/documents/05_01-02_10Program.pdf"
+tag: 
+ - facebook
+ - social-media
+ - technology
+ - todd
 explicit: false
 ---

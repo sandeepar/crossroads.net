@@ -12,5 +12,13 @@ description: "Steven Manuel talks about how Jesus didn't play to the crowds."
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/greatestshow01.mp4"
 video-duration: "47:08"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/greatestshow01_still.jpg"
+tag: 
+ - truth
+ - pride
+ - fame
+ - manuel
+ - program
+ - faith
+ - humility
 explicit: false
 ---

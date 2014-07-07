@@ -12,5 +12,15 @@ video: "http://s3.amazonaws.com/crossroads-media/messages/video/Reset2.mp4"
 video-duration: "37:30"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/Reset2-still.jpg"
 program: "http://s3.amazonaws.com/crossroads-media/documents/020328_01Program.pdf"
+tag: 
+ - fairness
+ - jesus
+ - reset
+ - prodigal-son
+ - brother
+ - siblings
+ - family
+ - tome
+ - grace
 explicit: false
 ---

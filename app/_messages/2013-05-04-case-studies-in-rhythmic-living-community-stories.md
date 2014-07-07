@@ -12,5 +12,10 @@ description: "People in our community share their rhythms"
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/rhythm03.mp4"
 video-duration: "44:44"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/rhythm03_still.jpg"
+tag: 
+ - rhythm
+ - community
+ - program
+ - terry-phillips
 explicit: false
 ---

@@ -15,5 +15,10 @@ program: "http://s3.amazonaws.com/crossroads-media/documents/0704_05Program.pdf"
 notes-description: ""
 notes: "http://s3.amazonaws.com/crossroads-media/documents/SN_07_04-05_09.pdf"
 notes-title: "God Loves Cincinnati (Study Notes)"
+tag: 
+ - cincinnati
+ - mingo
+ - love
+ - city
 explicit: false
 ---

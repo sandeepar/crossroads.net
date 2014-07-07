@@ -12,5 +12,10 @@ video-image: "http://s3.amazonaws.com/crossroads-media/images/rsvp02_still.jpg"
 program: "http://s3.amazonaws.com/crossroads-media/documents/12_03-04_11Program.pdf"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/rsvp02.mp3"
 audio-duration: "37:16"
+tag: 
+ - brian-wells
+ - peace
+ - christmas
+ - program
 explicit: false
 ---

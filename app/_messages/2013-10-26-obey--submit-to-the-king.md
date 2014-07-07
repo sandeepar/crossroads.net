@@ -12,5 +12,12 @@ video: "http://s3.amazonaws.com/crossroads-media/messages/video/102613forweb.mp4
 video-duration: "50:48"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/chuck mingo.jpg"
 program: "http://s3.amazonaws.com/crossroads-media/documents/KingdomProgram_Week3_LO.pdf"
+tag: 
+ - crossroads-church
+ - journey
+ - chuck-mingo
+ - kingdom
+ - kingdom-come
+ - program
 explicit: false
 ---

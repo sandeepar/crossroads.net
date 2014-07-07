@@ -12,5 +12,11 @@ video: "http://s3.amazonaws.com/crossroads-media/messages/video/110913forweb.mp4
 video-duration: "42:37"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/btstill110913.jpg"
 program: "http://s3.amazonaws.com/crossroads-media/documents/KingdomProgram_Week5_LO.pdf"
+tag: 
+ - brian-tome
+ - kingdom-come
+ - journey
+ - crossroads-church
+ - program
 explicit: false
 ---

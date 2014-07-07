@@ -12,5 +12,13 @@ description: "Brian Tome talks about ambition."
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/placeatthetable_04.mp4"
 video-duration: "44:24"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/placeatthetable_04_still.jpg"
+tag: 
+ - tome
+ - ambition
+ - justin-wolfenberg
+ - orphan
+ - foster-care
+ - adoption
+ - program
 explicit: false
 ---

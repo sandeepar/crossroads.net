@@ -12,5 +12,11 @@ video: "http://s3.amazonaws.com/crossroads-media/messages/video/Reset4.mp4"
 video-duration: "39:57"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/Reset4-still.jpg"
 program: "http://s3.amazonaws.com/crossroads-media/documents/0314_15Program.pdf"
+tag: 
+ - love
+ - jesus
+ - reset
+ - tome
+ - cross
 explicit: false
 ---

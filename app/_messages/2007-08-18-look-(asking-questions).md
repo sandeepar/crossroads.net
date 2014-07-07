@@ -7,5 +7,12 @@ date: 2007-08-18-00-00
 message_id: 5
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/Seek_2_Look_08-19-07_Tome.mp3"
 audio-duration: "45:43"
+tag: 
+ - seeking
+ - seek
+ - feeding-5000
+ - disciples
+ - baskets
+ - tome
 explicit: false
 ---

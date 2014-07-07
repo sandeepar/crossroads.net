@@ -11,5 +11,12 @@ description: "Last Wednesday - June - Oakley"
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/062514-lw-oakley.mp4"
 video-duration: ":"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/last-wednesday.jpg"
+tag: 
+ - crossroads
+ - crossroads-church
+ - last-wednesday
+ - june
+ - oakley
+ - chuck-mingo
 explicit: false
 ---

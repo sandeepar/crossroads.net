@@ -12,5 +12,12 @@ video-duration: "36:08"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/rhythm_01_still.jpg"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/rhythm_01a.mp3"
 audio-duration: "36:03"
+tag: 
+ - program
+ - rhythm
+ - tome
+ - rest
+ - work
+ - creation
 explicit: false
 ---

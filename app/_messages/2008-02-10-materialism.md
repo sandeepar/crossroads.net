@@ -11,5 +11,10 @@ video-duration: "49:55"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/consumed1.jpg"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/Consumed_1_Materialism_02-10-08_Tome_webaudio.mp3"
 audio-duration: "50:44"
+tag: 
+ - consumed
+ - materialism
+ - consumerism
+ - tome
 explicit: false
 ---

@@ -12,5 +12,14 @@ description: "Following Jesus often means living counter-culturally. In this tal
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/Reset3.mp4"
 video-duration: "46:26"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/Reset3-still.jpg"
+tag: 
+ - reset
+ - surrender
+ - following
+ - jesus
+ - tome
+ - cross
+ - love
+ - death
 explicit: false
 ---

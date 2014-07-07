@@ -11,5 +11,9 @@ description: "Last Wednesday - Oakley"
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/012914_lw_oakley.mp4"
 video-duration: "47:55"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/012914_lw_still.jpg"
+tag: 
+ - last-wednesday
+ - crossroads
+ - crossroads-church
 explicit: false
 ---

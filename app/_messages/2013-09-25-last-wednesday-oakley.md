@@ -11,5 +11,10 @@ description: "Last Wednesday - Oakley"
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/092513_lw_oakley.mp4"
 video-duration: "42:33"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/092813_lw_oakley_still.jpg"
+tag: 
+ - chuck-mingo
+ - crossroads-church
+ - last-wednesday
+ - oakley
 explicit: false
 ---

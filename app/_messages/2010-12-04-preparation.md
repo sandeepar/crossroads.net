@@ -12,5 +12,10 @@ video: "http://s3.amazonaws.com/crossroads-media/messages/video/preparation.mp4"
 video-duration: "36:27"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/preparation_still.jpg"
 program: "http://s3.amazonaws.com/crossroads-media/documents/12_04-05_10Program.pdf"
+tag: 
+ - baker
+ - preparation
+ - christmas
+ - program
 explicit: false
 ---

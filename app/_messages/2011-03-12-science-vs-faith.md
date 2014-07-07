@@ -12,5 +12,12 @@ description: "We'll be wrestling with the question of how you can believe the Bi
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/heavyweights05.mp4"
 video-duration: "45:32"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/heavyweights05_still.jpg"
+tag: 
+ - tome
+ - keith-crutcher
+ - science
+ - faith
+ - wrestling
+ - doubt
 explicit: false
 ---

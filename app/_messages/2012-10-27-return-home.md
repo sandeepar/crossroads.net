@@ -12,5 +12,12 @@ description: "What does it look like to return home? In order to go home, we hav
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/journeyhome_04.mp4"
 video-duration: "47:59"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/journeyhome_04_still.jpg"
+tag: 
+ - tome
+ - journey
+ - prodigal-son
+ - home
+ - father
+ - program
 explicit: false
 ---

@@ -15,5 +15,12 @@ notes-description: "Study notes for week two of RIQ."
 notes: "http://s3.amazonaws.com/crossroads-media/documents/SN_5-17-18-08.pdf"
 notes-title: "RIQ&#58; Submission"
 program: "http://s3.amazonaws.com/crossroads-media/documents/0517_18Program.pdf"
+tag: 
+ - submission
+ - riq
+ - titus
+ - mamelodi
+ - africa
+ - tome
 explicit: false
 ---

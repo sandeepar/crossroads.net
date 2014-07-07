@@ -12,5 +12,14 @@ description: "Why don't church people act like Jesus?"
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/heavyweights2_wk5.mp4"
 video-duration: "49:16"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/heavyweights2_wk5_still.jpg"
+tag: 
+ - heavyweights
+ - crossroads
+ - crossroads-church
+ - cincinnati
+ - brian-tome
+ - india
+ - freeset
+ - program
 explicit: false
 ---

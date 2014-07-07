@@ -12,5 +12,11 @@ description: "Brian Wells talks about about how Jesus redefined God."
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/greatestshow04.mp4"
 video-duration: "46:04"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/greatestshow04_still.jpg"
+tag: 
+ - wells
+ - prodigal-son
+ - forgiveness
+ - grace
+ - program
 explicit: false
 ---

@@ -12,5 +12,12 @@ description: "We'll wrestle with the question of how God can really be loving wh
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/heavyweights_02.mp4"
 video-duration: "45:19"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/heavyweights_02_still.jpg"
+tag: 
+ - tome
+ - suffering
+ - loving-god
+ - wrestling
+ - job
+ - program
 explicit: false
 ---

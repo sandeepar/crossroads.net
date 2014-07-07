@@ -11,5 +11,10 @@ video-duration: "44:37"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/lw_0213_florence.jpg"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/022713-lw-florence.mp3"
 audio-duration: "44:32"
+tag: 
+ - florence
+ - tribe
+ - history
+ - brian-tome
 explicit: false
 ---

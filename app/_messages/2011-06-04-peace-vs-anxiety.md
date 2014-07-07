@@ -12,5 +12,13 @@ description: "Brian Tome talks about how the Guide can steer us out of fear and 
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/theguide03.mp4"
 video-duration: "45:16"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/theguide03_still.jpg"
+tag: 
+ - tome
+ - holy-spirit
+ - guide
+ - fear
+ - anxiety
+ - peace
+ - program
 explicit: false
 ---

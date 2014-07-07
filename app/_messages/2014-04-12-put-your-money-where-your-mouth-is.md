@@ -12,5 +12,15 @@ description: "Brian Tome talks about how changing the world requires personal in
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/htctw_04.mp4"
 video-duration: ":"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/htctw_04_still.jpg"
+tag: 
+ - crossroads
+ - crossroads-church
+ - money
+ - beans-and-rice-week
+ - change
+ - investment
+ - brian-tome
+ - program
+ - community-groups
 explicit: false
 ---

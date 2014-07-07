@@ -12,5 +12,10 @@ description: "Brian Tome talks about Jesus, the ultimate game changer and how it
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/gamechangers_05.mp4"
 video-duration: "40:26"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/gamechangers_05_still.jpg"
+tag: 
+ - brian-tome
+ - easter
+ - mother-teresa
+ - sacrifice
 explicit: false
 ---

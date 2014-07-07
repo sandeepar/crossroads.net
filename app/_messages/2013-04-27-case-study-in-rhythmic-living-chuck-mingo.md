@@ -12,5 +12,8 @@ description: "Chuck Mingo presents a case study in rhythmic living."
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/rhythm_02.mp4"
 video-duration: "30:12"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/rhythm_02_still.jpg"
+tag: 
+ - rhythm
+ - mingo
 explicit: false
 ---

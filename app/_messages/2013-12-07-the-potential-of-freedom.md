@@ -12,5 +12,13 @@ description: "This year was like climbing the biggest mountain we've ever faced.
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/giftoffreedom_02.mp4"
 video-duration: "45:32"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/giftoffreedom_02_still.jpg"
+tag: 
+ - freedom
+ - christmas
+ - crossroads-church
+ - brian-tome
+ - gift-of-freedom
+ - game-change
+ - program
 explicit: false
 ---

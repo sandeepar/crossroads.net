@@ -8,5 +8,10 @@ message_id: 706
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/rsvp03.mp3"
 audio-duration: "33:51"
 program: "http://s3.amazonaws.com/crossroads-media/documents/12_10-11_11Program.pdf"
+tag: 
+ - tome
+ - invitation
+ - christmas
+ - program
 explicit: false
 ---

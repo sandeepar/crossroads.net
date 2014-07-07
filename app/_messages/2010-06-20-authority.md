@@ -12,5 +12,10 @@ description: "Brian Tome discusses how aligning with authority structures can he
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/HouseWork02.mp4"
 video-duration: "40:43"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/HouseWork02_Still.jpg"
+tag: 
+ - tome
+ - house-work
+ - passion
+ - authority
 explicit: false
 ---

@@ -12,5 +12,10 @@ description: "How are you living at home? God's greatest desire for you is to co
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/journeyhome_05.mp4"
 video-duration: "51:38"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/journeyhome_05_still.jpg"
+tag: 
+ - mingo
+ - journey
+ - home
+ - program
 explicit: false
 ---

@@ -12,5 +12,9 @@ description: "Todd Henry talks about how to build capacity in our lives to do gr
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/htlyj_04.mp4"
 video-duration: "36:30"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/htlyj_04_still.jpg"
+tag: 
+ - todd-henry
+ - work
+ - program
 explicit: false
 ---

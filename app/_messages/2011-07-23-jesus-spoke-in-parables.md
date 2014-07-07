@@ -12,5 +12,12 @@ description: "Chuck Mingo talks about how Jesus spoke truth in the form of parab
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/thegreatestshow06.mp4"
 video-duration: "42:13"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/thegreatestshow06_still.jpg"
+tag: 
+ - mingo
+ - parables
+ - seeking
+ - intentionality
+ - program
+ - metaphors
 explicit: false
 ---

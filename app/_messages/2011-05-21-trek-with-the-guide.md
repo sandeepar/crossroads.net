@@ -12,5 +12,11 @@ description: "Chuck Mingo talks about how to recognize and follow the Holy Spiri
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/theguide01.mp4"
 video-duration: "42:49"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/theguide01_still.jpg"
+tag: 
+ - mingo
+ - guide
+ - holy-spirit
+ - guidance
+ - program
 explicit: false
 ---

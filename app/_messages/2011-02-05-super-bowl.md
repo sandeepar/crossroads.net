@@ -11,5 +11,28 @@ audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/TCPIR_03_03-10-0
 audio-duration: "39:29"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/TCPIR_01_02-24-02_In_Your_Bedroom.mp3"
 audio-duration: "38:42"
+tag: 
+ - friendships
+ - church
+ - friends
+ - community
+ - small-group
+ - tome
+ - job
+ - goal
+ - purpose
+ - manager
+ - business
+ - career
+ - goals
+ - work
+ - husband
+ - wife
+ - sexuality
+ - test
+ - marriage
+ - wells
+ - dating
+ - wives
 explicit: false
 ---

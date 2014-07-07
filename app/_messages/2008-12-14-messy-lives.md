@@ -15,5 +15,10 @@ program: "http://s3.amazonaws.com/crossroads-media/documents/1213_14Program.pdf"
 notes-description: ""
 notes: "http://s3.amazonaws.com/crossroads-media/documents/SN_12_13-14_08.pdf"
 notes-title: "Messy Lives (Study Notes)"
+tag: 
+ - worship
+ - christmas
+ - tome
+ - shredder
 explicit: false
 ---

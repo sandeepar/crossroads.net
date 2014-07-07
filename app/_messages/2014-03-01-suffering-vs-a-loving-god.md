@@ -12,5 +12,13 @@ description: "If God is so loving, why is there suffering in the world?"
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/heavyweights2_wk4.mp4"
 video-duration: "56:39"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/heavyweights2_wk4_still.jpg"
+tag: 
+ - brian-wells
+ - crossroads
+ - crossroads-church
+ - suffering
+ - love
+ - program
+ - heavyweights
 explicit: false
 ---

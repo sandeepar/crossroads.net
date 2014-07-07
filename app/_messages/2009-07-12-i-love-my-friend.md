@@ -15,5 +15,13 @@ description: "Alli Patterson talks about how relating to Jesus as a friend is es
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/071209.mp4"
 video-duration: "39:55"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/Picture 3.png"
+tag: 
+ - alli
+ - patterson
+ - friendships
+ - friend
+ - die-to-self
+ - cost
+ - city
 explicit: false
 ---

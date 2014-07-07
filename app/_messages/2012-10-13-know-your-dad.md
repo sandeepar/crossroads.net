@@ -12,5 +12,11 @@ description: "At some point, we've all felt like we didn't quite belong. But God
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/journeyhome_02.mp4"
 video-duration: "40:39"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/journeyhome_02_still.jpg"
+tag: 
+ - prodigal-son
+ - home
+ - journey
+ - tome
+ - program
 explicit: false
 ---

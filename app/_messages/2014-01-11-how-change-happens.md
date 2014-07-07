@@ -12,5 +12,12 @@ description: "Brian Tome talks about how change happens."
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/powertochange_02.mp4"
 video-duration: "42:45"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/powertochange_02_still.jpg"
+tag: 
+ - crossroads
+ - crossroads-church
+ - cincinnati
+ - brian-tome
+ - change
+ - program
 explicit: false
 ---

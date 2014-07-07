@@ -15,5 +15,11 @@ program: "http://s3.amazonaws.com/crossroads-media/documents/10-11_31-01_09Progr
 notes-description: ""
 notes: "http://s3.amazonaws.com/crossroads-media/documents/SN_11-1_09.pdf"
 notes-title: "Fortification (Study Notes)"
+tag: 
+ - patience
+ - waiting
+ - storm
+ - tome
+ - growth
 explicit: false
 ---

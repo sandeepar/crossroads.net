@@ -12,5 +12,13 @@ description: "Do you have to be anti-gay to go to church?"
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/heavyweights2_wk3.mp4"
 video-duration: "57:06"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/heavyweights2_wk3_still.jpg"
+tag: 
+ - grace
+ - love
+ - crossroads
+ - crossroads-church
+ - brian-tome
+ - program
+ - heavyweights
 explicit: false
 ---

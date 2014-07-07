@@ -12,5 +12,9 @@ description: "We'll be hearing from people in the community about where and how 
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/073011_1145.mp4"
 video-duration: "48:48"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/073011_1145.jpg"
+tag: 
+ - jesus
+ - community
+ - program
 explicit: false
 ---

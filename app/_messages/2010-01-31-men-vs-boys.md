@@ -12,5 +12,9 @@ video: "http://s3.amazonaws.com/crossroads-media/messages/video/Manly1.mp4"
 video-duration: "38:45"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/Manly1-Still.jpg"
 program: "http://s3.amazonaws.com/crossroads-media/documents/01_30-31_10Program.pdf"
+tag: 
+ - men
+ - tome
+ - manly
 explicit: false
 ---

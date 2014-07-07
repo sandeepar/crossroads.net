@@ -12,5 +12,10 @@ description: "Brian Tome talks about troubleshooting what prevents us from lovin
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/htlyj_02.mp4"
 video-duration: "36:54"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/HTLYJ_02_still.jpg"
+tag: 
+ - work
+ - tome
+ - brian-tome
+ - program
 explicit: false
 ---

@@ -12,5 +12,12 @@ description: "Brian Tome talks about the characteristics of Big Bad Wolf."
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/bigbadwolf_01.mp4"
 video-duration: "44:22"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/bigbadwolf01_still.jpg"
+tag: 
+ - money
+ - tome
+ - control
+ - program
+ - community-groups
+ - conflict
 explicit: false
 ---

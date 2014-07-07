@@ -12,5 +12,10 @@ video-duration: "31:58"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/culture_02_still.jpg"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/culture_02.mp3"
 audio-duration: "31:58"
+tag: 
+ - program
+ - culture
+ - crossroads-church
+ - brian-tome
 explicit: false
 ---

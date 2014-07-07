@@ -13,5 +13,10 @@ midst of suffering."
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/goodlife_07.mp4"
 video-duration: "41:47"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/goodlife_07_still.jpg"
+tag: 
+ - suffering
+ - mingo
+ - good-life
+ - program
 explicit: false
 ---

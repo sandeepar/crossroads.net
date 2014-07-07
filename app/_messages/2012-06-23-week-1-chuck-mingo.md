@@ -12,5 +12,8 @@ description: "We're learning some practical ways to live the good life in the he
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/goodlife_01.mp4"
 video-duration: "39:24"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/goodlife_thumbnail.jpg"
+tag: 
+ - mingo
+ - good-life
 explicit: false
 ---

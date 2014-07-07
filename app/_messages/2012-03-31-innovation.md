@@ -12,5 +12,10 @@ description: "Brian Wells talks about how Game Changers defeat Goliath by fighti
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/gamechangers_04.mp4"
 video-duration: "56:21"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/gamechangers_04_still.jpg"
+tag: 
+ - brian-wells
+ - india
+ - don-gerred
+ - wilberforce
 explicit: false
 ---

@@ -12,5 +12,12 @@ video-image: "http://s3.amazonaws.com/crossroads-media/images/Kingdom_Come_1.jpg
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/kingdom_come_1.mp3"
 audio-duration: "44:26"
 program: "http://s3.amazonaws.com/crossroads-media/documents/KingdomProgram_Week1_LO.pdf"
+tag: 
+ - brian-tome
+ - crossroads-church
+ - journey
+ - kingdom
+ - love
+ - program
 explicit: false
 ---

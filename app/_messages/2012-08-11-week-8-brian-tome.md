@@ -12,5 +12,10 @@ description: "Brian Tome talks about finding the good life in the midst of tensi
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/goodlife_08.mp4"
 video-duration: "39:27"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/goodlife_08_still.jpg"
+tag: 
+ - brian-tome
+ - tome
+ - good-life
+ - program
 explicit: false
 ---

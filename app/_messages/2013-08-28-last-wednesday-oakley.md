@@ -11,5 +11,10 @@ description: ""
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/082813%2520LW-Oakley.mp4"
 video-duration: "40:35"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/082813_LW-Oakley_still.jpg"
+tag: 
+ - brian-tome
+ - last-wednesday
+ - crossroads-church
+ - oakley
 explicit: false
 ---

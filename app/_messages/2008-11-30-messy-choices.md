@@ -15,5 +15,13 @@ program: "http://s3.amazonaws.com/crossroads-media/documents/1129_30Program.pdf"
 notes-description: ""
 notes: "http://s3.amazonaws.com/crossroads-media/documents/SN_11_29-30_08.pdf"
 notes-title: "Messy Choices (Study Notes)"
+tag: 
+ - christmas
+ - joseph
+ - relationships
+ - jesus
+ - mingo
+ - career
+ - choices
 explicit: false
 ---

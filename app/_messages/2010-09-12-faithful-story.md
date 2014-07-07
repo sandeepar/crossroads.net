@@ -12,5 +12,10 @@ description: "Brian talks about what it looks like to be faithful in your profes
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/thefaithful05.mp4"
 video-duration: "37:52"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/TheFaithful05_still.jpg"
+tag: 
+ - tome
+ - faithfulness
+ - profession
+ - daniel
 explicit: false
 ---

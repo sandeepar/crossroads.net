@@ -12,5 +12,11 @@ video-duration: "39:32"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/heavyweights01still.jpg"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/heavyweights_01.mp3"
 audio-duration: "39:27"
+tag: 
+ - mingo
+ - wrestling
+ - doubt
+ - belief
+ - program
 explicit: false
 ---

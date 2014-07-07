@@ -11,5 +11,10 @@ description: "Florence"
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/032713_lw_florence.mp4"
 video-duration: "27:23"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/032713_LW_Florence.jpg"
+tag: 
+ - terry-phillips
+ - easter
+ - holy-week
+ - last-wednesday
 explicit: false
 ---

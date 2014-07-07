@@ -12,5 +12,9 @@ description: "Brian Tome talks about how God uses our feelings to move us forwar
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/Next4.mp4"
 video-duration: "36:29"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/Next4-still.jpg"
+tag: 
+ - tome
+ - emotions
+ - nehemiah
 explicit: false
 ---

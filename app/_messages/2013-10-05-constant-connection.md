@@ -12,5 +12,10 @@ description: "Chuck Mingo talks about learning how to engage in #culture."
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/culture_03.mp4"
 video-duration: "46:10"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/culture_03_still.jpg"
+tag: 
+ - chuck-mingo
+ - crossroads-church
+ - culture
+ - program
 explicit: false
 ---

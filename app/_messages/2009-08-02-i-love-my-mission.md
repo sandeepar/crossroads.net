@@ -15,5 +15,14 @@ description: "Mark Stecher shares why he loves his mission, which primarily revo
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/WeLoveCincy5.mp4"
 video-duration: "44:11"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/WeLoveCincy5-still.jpg"
+tag: 
+ - stecher
+ - one-city
+ - reachout
+ - cincinnati
+ - city
+ - mark
+ - whiz-kids
+ - prison
 explicit: false
 ---

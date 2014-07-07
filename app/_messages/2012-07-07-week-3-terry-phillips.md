@@ -12,5 +12,11 @@ video-duration: "37:26"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/goodlife03_still.jpg"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/goodlife_03.mp3"
 audio-duration: "37:21"
+tag: 
+ - program
+ - terry-phillips
+ - good-life
+ - john
+ - florence
 explicit: false
 ---

@@ -12,5 +12,14 @@ description: "Brian Tome talks about God's purpose for creation, and the tragic 
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/thestory02.mp4"
 video-duration: "48:48"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/thestory02_still.jpg"
+tag: 
+ - tome
+ - sin
+ - creation
+ - fall
+ - broken
+ - program
+ - simple
+ - faith
 explicit: false
 ---

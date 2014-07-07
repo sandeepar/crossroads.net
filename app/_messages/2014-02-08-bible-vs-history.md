@@ -12,5 +12,12 @@ description: "Is the Bible a true source of history?"
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/heavyweights2_wk01.mp4"
 video-duration: "50:44"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/heavyweights2_wk01_still.jpg"
+tag: 
+ - brian-tome
+ - bible
+ - history
+ - crossroads
+ - crossroads-church
+ - program
 explicit: false
 ---

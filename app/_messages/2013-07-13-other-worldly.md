@@ -12,5 +12,8 @@ description: "Chuck Mingo talks about how God is other worldly."
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/god_is_01.mp4"
 video-duration: "40:18"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/god-is-01-still.jpg"
+tag: 
+ - mingo
+ - program
 explicit: false
 ---

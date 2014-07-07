@@ -13,5 +13,11 @@ will do in our city and throughout the world, and for allowing us to be a part o
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/gamechange07.mp4"
 video-duration: "29:20"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/gamechange07_still.jpg"
+tag: 
+ - tome
+ - celebrate
+ - game-change
+ - campaign
+ - program
 explicit: false
 ---

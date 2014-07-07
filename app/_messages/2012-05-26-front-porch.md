@@ -12,5 +12,8 @@ description: "Brian Tome examines how to start a conversation about Jesus with y
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/backyardgospel_01.mp4"
 video-duration: "49:00"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/backyardgospel_01_still.jpg"
+tag: 
+ - tome
+ - program
 explicit: false
 ---

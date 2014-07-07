@@ -14,5 +14,13 @@ description: "When we choose to engage with an attitude of gratitude, we find th
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/GIMMEGIMME4.mp4"
 video-duration: "46:27"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/GIMMEGIMME4-still.jpg"
+tag: 
+ - gratitude
+ - thanksgiving
+ - thankfulness
+ - corn
+ - remembering
+ - gratefulness
+ - tome
 explicit: false
 ---

@@ -12,5 +12,11 @@ description: "We're talking about setting ourselves on fire."
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/htctw_01.mp4"
 video-duration: ":"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/HowToChangeWorld_90x90.jpg"
+tag: 
+ - crossroads
+ - crossroads-church
+ - brian-tome
+ - evangelism
+ - program
 explicit: false
 ---

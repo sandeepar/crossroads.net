@@ -7,5 +7,13 @@ date: 2007-08-25-00-00
 message_id: 4
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/Seek_03_Relate_08-25-07_Tome.mp3"
 audio-duration: "48:59"
+tag: 
+ - paths
+ - seeking
+ - seek
+ - intellectualism
+ - activist
+ - mystic
+ - tome
 explicit: false
 ---

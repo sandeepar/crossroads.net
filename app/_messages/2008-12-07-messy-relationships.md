@@ -17,5 +17,14 @@ video-duration: "33:21"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/messyxmas2-still.jpg"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/messyxmas2.mp3"
 audio-duration: "29:29"
+tag: 
+ - tome
+ - relationship
+ - christmas
+ - mary
+ - messiah
+ - jesus
+ - messy
+ - relationships
 explicit: false
 ---

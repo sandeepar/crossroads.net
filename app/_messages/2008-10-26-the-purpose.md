@@ -15,5 +15,13 @@ description: "What is the purpose of all of this \"Kingdom\" talk? In this messa
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/unlocked4.mp4"
 video-duration: "39:31"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/unlocked4-still.jpg"
+tag: 
+ - tome
+ - kingdom
+ - unlocked
+ - keys
+ - wardrobe
+ - purpose
+ - mission
 explicit: false
 ---

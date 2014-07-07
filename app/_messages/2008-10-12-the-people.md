@@ -15,5 +15,12 @@ description: "Brian Tome discusses how we should engage people as a core part of
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/Unlocked2.mp4"
 video-duration: "42:34"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/unlocked2.jpg"
+tag: 
+ - reachout
+ - unlocked
+ - serving
+ - tome
+ - kingdom
+ - doors
 explicit: false
 ---
