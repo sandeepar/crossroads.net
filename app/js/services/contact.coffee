@@ -6,7 +6,7 @@ angular.module('crossroads')
     $http.get('/getMaritalStatus')
       .then ((response) ->
         if typeof response.data is 'object'
-          data = response.data
+          data = formatValues(response.data)
         else
           null
     ), (response) ->
@@ -16,7 +16,7 @@ angular.module('crossroads')
     $http.get('/getGenders')
       .then ((response) ->
         if typeof response.data is 'object'
-          data = response.data
+          data = formatValues(response.data)
         else
           null
     ), (response) ->
@@ -45,6 +45,19 @@ angular.module('crossroads')
           null
     ), (response) ->
       null
+
+formatValues = (data) ->
+  output = []
+  i = 0
+
+  while i < data.length
+    element =
+      id: data[i][0]
+      value: data[i][1]
+
+    output.push element
+    i++
+  output
 
 extractFieldValue = (res, fieldName) ->
   if res.Fields and res.Data and res.Data[0]

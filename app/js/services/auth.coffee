@@ -8,6 +8,7 @@ angular.module('crossroads')
           $rootScope.currentUser = response.data
         else
           $rootScope.currentUser = null
+        $rootScope.$emit 'currentUser:available'
       return
 
   logout: ->

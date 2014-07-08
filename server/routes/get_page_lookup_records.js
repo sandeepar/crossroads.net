@@ -44,8 +44,8 @@ module.exports = function(app) {
         var promise = lookupValues(req.params.pageId);
         promise
             .then(function(data) {
-              var values = formatValues(data.Data);
-              res.send(values);
+              // var values = formatValues(data.Data);
+              res.send(data.Data);
 
             }, function(err) {
                 console.log('Error returning lookup values for pageId = ' + req.parms.pageId);
@@ -62,8 +62,8 @@ module.exports = function(app) {
         var promise = lookupValues(311);
         promise
             .then(function(data) {
-              var values = formatValues(data.Data);
-              res.send(values);
+              // var values = formatValues(data.Data);
+              res.send(data.Data);
 
             }, function(err) {
                 console.log('Error returning lookup values for gender');
@@ -80,8 +80,8 @@ module.exports = function(app) {
         var promise = lookupValues(339);
         promise
             .then(function(data) {
-              var values = formatValues(data.Data);
-              res.send(values);
+              // var values = formatValues(data.Data);
+              res.send(data.Data);
 
             }, function(err) {
                 console.log('Error returning lookup values for Marital Status');
@@ -136,14 +136,14 @@ module.exports = function(app) {
       return deferred.promise;
     };
 
-    var formatValues = function(data) {
-      var output = [];
-      for (var i = 0; i < data.length; i++) {
-          var element = {id: data[i][0],value: data[i][1]};
-          output.push(element);
-      }
-      return output;
-    };
+    // var formatValues = function(data) {
+    //   var output = [];
+    //   for (var i = 0; i < data.length; i++) {
+    //       var element = {id: data[i][0],value: data[i][1]};
+    //       output.push(element);
+    //   }
+    //   return output;
+    // };
 
     //
     // Create Token for server-to-server API calls
