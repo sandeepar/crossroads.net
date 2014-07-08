@@ -3,5 +3,6 @@ module.exports = (gulp) ->
     "clean"
     "sass"
     "karma"
+    "protractor"
     "spec-watch"
   ]
