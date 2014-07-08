@@ -15,36 +15,21 @@
                 <i class="icon--small icon--dropdown icon--right"></i>
               </a>
               <ul class="side-nav__subnav list-unstyled" collapse="menu.collapsed($index)">
-                <li class="side-nav__subnav__item-container col-xs-12">
-          		    <div ng-if="$first">
-                    <div ng-if="!currentUser">
-                			<auth-form></auth-form>
-                    </div>
-          		    </div>
-                </li>
-              		<div ng-if="currentUser">
-                    <li class="side-nav__subnav--item" role="presentation" ng-repeat="item in heading.mobile_items">
-                      <a class="heading__item" role="menuitem" tabindex="-1" href="{{item.link}}">{{item.title}}</a>
-                    </li>
-              		</div>
-              		<div ng-if="$index != 0">
-                    <ul class="side-nav__subnav list-unstyled" collapse="collapsed($index)">
-        		    
-                <div ng-if="$first">
-                  <div ng-if="!currentUser">
-                    <li class="side-nav__subnav--item">
-                      <auth-form></auth-form>
-                    </li>
+                <li class="col-xs-12">
+                  <div class="col-xs-12 col-sm-6">
+            		    <div ng-if="$first">
+                      <div ng-if="!currentUser">
+                  			<auth-form></auth-form>
+                      </div>
+            		    </div>
                   </div>
-        		    </div>
-		            
-                <div ng-if="currentUser">
+                </li>
+            		<div ng-if="currentUser">
                   <li class="side-nav__subnav--item" role="presentation" ng-repeat="item in heading.mobile_items">
                     <a class="heading__item" role="menuitem" tabindex="-1" href="{{item.link}}">{{item.title}}</a>
                   </li>
-		            </div>
-		            
-                <div ng-if="$index != 0">
+            		</div>
+            		<div ng-if="$index != 0">
                   <li class="side-nav__subnav--item" role="presentation" ng-repeat="item in heading.mobile_items">
                     <a class="heading__item" role="menuitem" tabindex="-1" href="{{item.link}}">{{item.title}}</a>
                   </li>
