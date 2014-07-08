@@ -15,15 +15,22 @@ angular.module("crossroads", ["ngCookies", 'angular-growl', 'ui.bootstrap', 'crd
   # Event listeners for notifications that will trigger "Growl" style alerts
   #
   $rootScope.$on 'notify.success', (event, message) ->
-    growl.success message
+    growl.success lookup(message)
 
   $rootScope.$on 'notify.info', (event, message) ->
-    growl.info message
+    growl.info lookup(message)
 
   $rootScope.$on 'notify.warning', (event, message) ->
-    growl.warning message
+    growl.warning lookup(message)
 
   $rootScope.$on 'notify.error', (event, message) ->
-    growl.error message
+    growl.error lookup(message)
+
+  lookup = (messageKey) ->
+    switch messageKey
+      when "form.success" then return "Your request has been submitted successfully"
+      when "form.validation.error" then return "Your request has errors"
+      when "form.server.error" then return "An error has occurred"
+      else return messageKey
 
   return

@@ -2,10 +2,11 @@
   <div class="dd_menu">
     <div class="primary">
       <h3>Login</h3>
+      <p class="text-danger" ng-if="loginError">{{loginError}}</p>
       <form id="nav_login" role="form" ng-submit="login()">
 	<div class="form-group">
 	  <div class="input-group" ng-class="{'has-error': loginError}">
-	    <input class="form-control" type="text" name="userName" id="username_nav" placeholder="Username" ng-model="user.username">
+	    <input class="form-control" type="text" name="userName" id="username_nav" placeholder="Username" ng-model="user.username" autofocus>
 	    <span class="input-group-addon"><a href="#"><i class="icon--small icon--forgot"></i></a></span>
 	  </div>
 	  <div class="input-group navbar--login__input" ng-class="{'has-error': loginError}">
