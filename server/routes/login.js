@@ -1,32 +1,22 @@
 module.exports = function(app) {
-  var config = require('../config/config');
-  var credentials = { clientID: 'client',
-                      clientSecret: 'secret',
-                      site: config.api.url,
-                      authorizationPath: '/oauth/authorize',
-                      tokenPath: '/oauth/token' };
-
-  var OAuth2 = require('simple-oauth2')(credentials);
+  var config = require('../config/config'),
+      auth = require('../util/auth');
 
   app.post("/login", function(req, res, next){
-    var token = OAuth2.Password.getToken({
-      username: req.body.username,
-      password: req.body.password
-    }, saveToken);
-
-    function saveToken(error, result) {
-      if (error) {
-        return res.send(403);
-      }
-      token = OAuth2.AccessToken.create(result);
-      req.login(token, function(error) {
-        if(error) {
-          return res.send(500);
-        }
-        return res.send(200);
-      });
-      return true;
-    };
+    if (req.body.username && req.body.password) {
+      auth.getToken(req.body.username, req.body.password)
+	.then(function(token) {
+	  req.login(auth.wrapToken(token), function(error) {
+            if(error) {
+              return res.send(500);
+            }
+            return res.send(200);
+	  });
+	}, function(error) {
+	  return res.send(403);
+	});
+    } else {
+      return res.send(403);
+    }
   });
-
 };
