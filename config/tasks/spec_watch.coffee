@@ -10,4 +10,5 @@ module.exports = (gulp) ->
       "coffee"
       "karma"
     ]
+    gulp.watch ["spec/integration/**/*.js"], ["protractor"]
     return
