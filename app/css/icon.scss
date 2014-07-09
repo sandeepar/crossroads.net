@@ -45,7 +45,7 @@
 }
 
 .icon--forgot:after {
-  background-image: url('/img/question.svg');
+  background-image: url('/img/question_grey.svg');
 }
 
 .icon--give:after{
@@ -78,4 +78,8 @@
 
 .icon--user__filled:after {
   background-image: url('/img/user_filled.svg');
+}
+
+.icon__container:hover .icon--forgot:after {
+  background-image: url('/img/question.svg');
 }
