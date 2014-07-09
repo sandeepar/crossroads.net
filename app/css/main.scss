@@ -245,4 +245,14 @@ footer .open, footer .office {
       color: #fff;
     }
   }
+
+  .btn-info, .btn-danger, .btn-success {
+    @extend .btn-primary;
+  }
+
+  .active {
+    .text-info {
+      color: #fff;
+    }
+  }
 }
