@@ -44,6 +44,15 @@ header.show .container {
   margin-left: 10px;
 }
 
+.remember{
+  display: inline;
+  margin-bottom: 5px;
+}
+
+.navbar--login__container{
+  padding-top: 20px;
+}
+
 /******************** Mobile ********************/
 
 
@@ -341,14 +350,19 @@ header.show .container {
       opacity: 0;
     }
   }
-  .btn {
-    margin-top: 10px;
-    margin-bottom: 15px;
-  }
   .dropdown-menu {
     left: calc(100% - 300px);
     width: 300px;
   }
+}
+
+.navbar--login__submit {
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.navbar--login__submit--label {
+  text-transform: lowercase;
 }
 
 .navbar--login__button {
