@@ -4,11 +4,12 @@ nn = require 'node-notifier'
 notifier = new nn()
 browserSync = require 'browser-sync'
 n = args.n
-
+yamlConfigString = "_config.yml,config/_config.dev.yml"
+fs = require('fs')
+if fs.existsSync("config/_config.local.yml")
+  yamlConfigString += ",config/_config.local.yml"
 if args.burp
-  yamlConfigString = "_config.yml,config/_config.dev.yml,config/_config.exclude.yml"
-else
-  yamlConfigString = "_config.yml,config/_config.dev.yml"
+  yamlConfigString += ",config/_config.exclude.yml"
 
 module.exports = (gulp, devEnv, $) ->
   gulp.task "jekyll", (cb) ->
@@ -19,6 +20,7 @@ module.exports = (gulp, devEnv, $) ->
       "--config"
       yamlConfigString
       "--watch"
+      "--verbose"
     ])
     bundle.on "close", cb
     bundle.stdout.on "data", (data) ->
