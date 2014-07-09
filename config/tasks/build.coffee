@@ -4,6 +4,7 @@ module.exports = (gulp) ->
     "coffee"
     "sass"
     "html"
+    "icons"
     "imagemin"
     "jb"
   ]
