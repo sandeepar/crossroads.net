@@ -83,10 +83,10 @@
 // Profile (Skills Tab)
 
 .current-skills-list {
-  a {
+  .label {
     padding: .5em .5em .6em 1.9em ;
     @include transition(all .2s ease-in);
-    cursor: pointer;
+    cursor: default;
     background: $cr-orange;
     line-height: 3;
 

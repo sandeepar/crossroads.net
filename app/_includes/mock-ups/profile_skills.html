@@ -1,42 +1,13 @@
-<script>
-
-// Note for Tony (or developer) - this is just a script tag directly in the HTML for mock up purposes. When you implement this with real data, these controllers would be moved to your controller
-
-angular.module('crossroads');
-
-var ModalDemoCtrl = function ($scope, $modal, $log) {
-
-  $scope.open = function (size) {
-
-    var modalInstance = $modal.open({
-      templateUrl: '/pages/mock-ups/modal_skill_remove.html',
-      controller: ModalInstanceCtrl,
-      size: size,
-      resolve: {}
-    });
-  };
-};
-
-var ModalInstanceCtrl = function ($scope, $modalInstance) {
-  $scope.ok = function () {
-    $modalInstance.close();
-  };
-  $scope.cancel = function () {
-    $modalInstance.dismiss('cancel');
-  };
-};
-</script>
-
 <div ng-controller="ModalDemoCtrl">
   <form role="form">
     <fieldset class="row">
       <legend class="col-sm-12">My Selected Skills</legend>
       <ul class="col-sm-12 current-skills-list list-inline">
-        <li><a class="label label-primary" ng-click="open()">Software Developer <span class="glyphicon glyphicon-trash"></span></a></li>
-        <li><a class="label label-primary" ng-click="open()">Web Design <span class="glyphicon glyphicon-trash"></span></a></li>
-        <li><a class="label label-primary" ng-click="open()">Web Development <span class="glyphicon glyphicon-trash"></span></a></li>
-        <li><a class="label label-primary" ng-click="open()">Photoshop wizard <span class="glyphicon glyphicon-trash"></span></a></li>
-        <li><a class="label label-primary" ng-click="open()">Administrative <span class="glyphicon glyphicon-trash"></span></a></li>
+        <li><div class="label label-primary">Software Developer <a class="glyphicon glyphicon-trash" href="#"></a></div></li>
+        <li><div class="label label-primary">Web Design <a class="glyphicon glyphicon-trash" href="#"></a></div></li>
+        <li><div class="label label-primary">Web Development <a class="glyphicon glyphicon-trash" href="#"></a></div></li>
+        <li><div class="label label-primary">Photoshop wizard <a class="glyphicon glyphicon-trash" href="#"></a></div></li>
+        <li><div class="label label-primary">Administrative <a class="glyphicon glyphicon-trash" href="#"></a></div></li>
       </ul>
     </fieldset>
       
@@ -147,7 +118,7 @@ var ModalInstanceCtrl = function ($scope, $modalInstance) {
 
 
       <div class="form-group col-sm-12 row">
-        <label class="col-sm-3">Construction <span class="text-muted">(Professional - you get paid to do this)</span></label>
+        <label class="col-sm-3">Construction <br /><span class="text-muted">(Professional - you get paid to do this)</span></label>
         <div class="cat-skill-group">
           <div class="checkbox col-sm-10">
             <label>
