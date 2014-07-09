@@ -204,14 +204,41 @@ footer .open, footer .office {
 /***************************************************************************************
 * Date Picker
 ***************************************************************************************/
-.datepicker {
-  .btn {
+.dropdown-menu.ng-valid-date {
+  thead {
+    th {
+      .btn-default {
+        // @extend .btn-primary;
+        background: $gray-lighter;
+        color: $gray-darker;
+        border: 1px solid darken($gray-lighter, 20%);
+      }
+    }
+  }
+
+  .btn-default {
     background: white;
     border: none;
     color: $gray-darker;
 
     &:hover {
       background: $gray-lighter;
+    }
+
+    &:hover {
+      .text-info {
+        color: $gray-darker;
+      }
+    }
+  }
+
+  .btn-info, .btn-danger, .btn-success {
+    @extend .btn-primary;
+  }
+
+  .active {
+    .text-info {
+      color: #fff;
     }
   }
 }
