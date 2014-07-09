@@ -1,3 +1,30 @@
+<script>
+// This JS is inline just to show how to use the datpicker from Bootstrap UI. You would put this controller in your actual directive for a real world implementation.
+var DatepickerDemoCtrl = function ($scope) {
+  $scope.today = function() {
+    $scope.dt = new Date();
+  };
+  $scope.today();
+
+  $scope.clear = function () {
+    $scope.dt = null;
+  };
+
+  $scope.open = function($event) {
+    $event.preventDefault();
+    $event.stopPropagation();
+
+    $scope.opened = true;
+  };
+
+  $scope.dateOptions = {
+    formatYear: 'yy',
+    startingDay: 1,
+    showWeeks: false
+  };
+};
+</script>
+
 <form role="form">
   <div class="row">
     <div class="form-group col-sm-6">
@@ -51,9 +78,14 @@
   </div>
 
   <div class="row">
-    <div class="form-group col-sm-6">
+    <div class="col-sm-6" ng-controller="DatepickerDemoCtrl">
       <label class="control-label"><i class="fa fa-calendar"></i>Birth Date</label>
-      <input type="text" class="form-control" name="birthdate" placeholder="md/dd/yy" datepicker-popup="dd-MMMM-yyyy" ng-model="dt">
+      <p class="input-group">
+        <input type="text" class="form-control" datepicker-popup="MM/dd/yyyy" ng-model="dt" is-open="opened" datepicker-options="dateOptions" date-disabled="disabled(date, mode)" ng-required="true" close-text="Close" ng-click="open($event)" />
+        <span class="input-group-btn">
+          <button type="button" class="btn btn-primary" ng-click="open($event)"><i class="glyphicon glyphicon-calendar"></i></button>
+        </span>
+      </p>
     </div>
   </div>
 
@@ -86,9 +118,14 @@
   </div>
 
   <div class="row">
-    <div class="form-group col-sm-6" ng-class="{'has-error': datepickerForm.date.$invalid}">
+    <div class="col-sm-6" ng-controller="DatepickerDemoCtrl">
       <label class="control-label"><i class="fa fa-calendar"></i>When did you start attending Crossroads?</label></span>
-      <input type="text" class="form-control" ng-model="selectedDate" name="attenddate" placeholder="mm/dd/yy" bs-datepicker>
+      <p class="input-group">
+        <input type="text" class="form-control" datepicker-popup="MM/dd/yyyy" ng-model="dt" is-open="opened" datepicker-options="dateOptions" date-disabled="disabled(date, mode)" ng-required="true" close-text="Close" ng-click="open($event)" />
+        <span class="input-group-btn">
+          <button type="button" class="btn btn-primary" ng-click="open($event)"><i class="glyphicon glyphicon-calendar"></i></button>
+        </span>
+      </p>
     </div>
   </div>
 
