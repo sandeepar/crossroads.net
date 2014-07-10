@@ -242,20 +242,6 @@ module.exports = function(app) {
 
     var getTokenForService = function() {
         var deferred = q.defer();
-//        OAuth2.Client.getToken({
-//            client_id: 'client',
-//            client_secret: 'secret'
-//        }, function(error, result) {
-//            if (error) {
-//                console.log('OAuth error: ' + util.inspect(error));
-//                deferred.reject(error);
-//                return;
-//            }
-//
-//            console.log('Access token: ' + util.inspect(result));
-//            deferred.resolve(result);
-//        });
-
         OAuth2.Password.getToken({
                 username: 'form-mailer-service',
                 password: 'password'
@@ -265,8 +251,6 @@ module.exports = function(app) {
                 deferred.reject(error);
                 return;
             }
-
-            //console.log('Access token: ' + util.inspect(result));
             deferred.resolve(result);
         });
 

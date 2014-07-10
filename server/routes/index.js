@@ -6,6 +6,7 @@ module.exports = function(app) {
   var config = require('../config/config');
 
   require('./form-mailer')(app);
+  require('./register')(app);
 
   var credentials = { clientID: 'client',
                       clientSecret: 'secret',
