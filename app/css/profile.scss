@@ -79,3 +79,62 @@
     }
   }
 }
+
+// Profile (Skills Tab)
+
+.current-skills-list {
+  .label {
+    padding: .5em .5em .6em 1.9em ;
+    @include transition(all .2s ease-in);
+    cursor: default;
+    background: $cr-orange;
+    line-height: 3;
+
+    &:hover {
+      color: #fff;
+
+
+      .glyphicon {
+        color: #fff;
+        @include transition(all .2s ease-in);
+      }
+    }
+
+    .glyphicon {
+      color: $cr-orange;
+    }
+  }
+}
+
+.add-skill {
+  border-top: 1px solid $legend-border-color;
+  padding-top: 20px;
+  margin-top: 10px;
+}
+
+.add-skills {
+  border-top: 1px solid $legend-border-color;
+  padding-top: 20px;
+
+  .h4 {
+    clear: both;
+  }
+
+  .cat-skill-group {
+    //
+    padding: 0 0 20px 0;
+
+    @media (min-width: $screen-sm-min) {
+      @include content-columns(3);
+    }
+
+    .checkbox {
+      margin-top: 0px;
+      clear: both;
+      margin-left: $grid-gutter-width/2;
+      @media (min-width: $screen-sm-min) {
+        margin-left: 0;
+      }
+    }
+  }
+}
