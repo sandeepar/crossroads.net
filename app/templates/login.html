@@ -4,16 +4,16 @@
       <p class="text-danger" ng-if="loginError">{{loginError}}</p>
       <form id="nav_login" role="form" ng-submit="login()">
 				<div class="form-group">
-				  <div class="navbar--login__input">
+				  <div class="navbar--login__input" ng-class="{'has-error': loginError}">
 				    <input class="form-control" type="text" name="userName" id="username_nav" placeholder="Email" ng-model="user.username" autocorrect="off" autocapitalize="off">
 				  </div>
-				  <div class="navbar--login__input">
+				  <div class="navbar--login__input" ng-class="{'has-error': loginError}">
 				    <input class="form-control" autocomplete="off" type="password" name="password" id="password_nav" placeholder="Password" ng-model="user.password">
 				    	<a class="icon__container" href="#" tabindex="-1">
 				    		<i class="icon--small icon--forgot"></i>
 				    	</a>
 				  </div>
-				  <input type="submit" name="submit_nav" value="Login" id="submit_nav" class="col-xs-12 btn submit navbar--login__submit">
+				  <input type="submit" name="submit_nav" id="submit_nav" class="col-xs-12 btn submit navbar--login__submit" value="{{ processing || 'Login' }}" ng-class="{disabled: processing }">
 				  <div style="font-size: smaller;">
 				    <input type="checkbox" name="remember" id="remember_nav">
 				    <span class="navbar--login__submit--label">stay logged in</span>
