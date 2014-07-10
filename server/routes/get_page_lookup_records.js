@@ -1,4 +1,5 @@
 module.exports = function(app) {
+    var oauth = require('../oauth/index.js');
     var util = require('util');
     var q = require('q');
     var request = require('superagent');
@@ -18,6 +19,16 @@ module.exports = function(app) {
 
     var getPageLookupRecordsUrl = 'https://my.crossroads.net/ministryplatformapi/PlatformService.svc/GetPageLookupRecords';
     var getPageRecordUrl = 'https://my.crossroads.net/ministryplatformapi/PlatformService.svc/GetPageRecord';
+
+    app.route('/test2')
+      .get(function (req, res) {
+        console.log('test2');
+      });
+
+    app.route('/test4')
+      .get(function (req, res) {
+        console.log('test4');
+      });
 
     //
     // Express Route for Contact - Get Page Record
@@ -92,7 +103,7 @@ module.exports = function(app) {
 
     var getContactPage = function(recordId) {
       var deferred = q.defer();
-      getTokenForService()
+      oauth.getTokenForService()
           .then(function(token) {
               request
                   .get(getPageRecordUrl)
@@ -115,6 +126,7 @@ module.exports = function(app) {
 
     var lookupValues = function(pageId) {
       var deferred = q.defer();
+      oauth.
       getTokenForService()
           .then(function(token) {
               request
@@ -149,6 +161,7 @@ module.exports = function(app) {
     // Create Token for server-to-server API calls
     //
     var getTokenForService = function() {
+      console.log ('getTokenForService - get page')
         var deferred = q.defer();
         OAuth2.Password.getToken({
                 username: 'form-mailer-service',

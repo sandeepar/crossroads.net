@@ -7,6 +7,7 @@ module.exports = function(app) {
 
   require('./form-mailer')(app);
   require('./get_page_lookup_records')(app);
+  require('./ministry_platform')(app);
 
   var credentials = { clientID: 'client',
                       clientSecret: 'secret',

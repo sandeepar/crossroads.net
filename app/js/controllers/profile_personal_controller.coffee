@@ -26,3 +26,6 @@ angular.module('crossroads')
       .then((data) ->
         $scope.contact = data
     )
+
+  $scope.submit = ->
+    console.log 'submit email: ' + $scope.contact.emailaddress.value

@@ -1,9 +1,9 @@
 <div ng-controller="ProfilePersonalCtrl">
-<form role="form">
+<form role="form" ng-submit="submit">
   <div class="row">
     <div class="form-group col-sm-6">
       <label for="firstname">Email</label>
-      <input type="email" class="form-control" id="email" placeholder="Enter email address" ng-model="contact.emailaddress.value">
+      <input type="email" class="form-control" id="email" name="email" placeholder="Enter email address" ng-model="contact.emailaddress.value">
     </div>
   </div>
 
@@ -86,6 +86,6 @@
     </div>
   </div>
 
-  <button class="btn btn-primary ladda-button" data-style="expand-left"><span class="ladda-label">Save</span></button>
+  <button class="btn btn-primary ladda-button" data-style="expand-left" ng-click="submit()"><span class="ladda-label">Save</span></button>
 </form>
 </div>
