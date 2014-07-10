@@ -13,6 +13,6 @@ angular.module('crossroads')
       , (error) ->
         console.log error
         $scope.processing = null
-        $scope.loginError = "Login failed."
+        $scope.loginError = ["Opps!", "Login failed."]
     else
-      $scope.loginError = "Username/password can't be blank"
+      $scope.loginError = ["Hold up!", "Username/password can't be blank"]
