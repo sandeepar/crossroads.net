@@ -17,7 +17,7 @@
           </div>
 	  <input type="submit" name="submit_nav" id="submit_nav" class="col-md-12 btn submit navbar--login__submit" value="{{ processing || 'Log In' }}" ng-class="{disabled: processing }">
 	  <div style="font-size: smaller;">
-	    <input type="checkbox" name="remember" id="remember_nav">
+	    <input type="checkbox" ng-model="checked" ng-init="checked=true" name="remember" id="remember_nav">
 	    <label for="remember">Stay Logged In</label>
 	  </div>
 	</div>
