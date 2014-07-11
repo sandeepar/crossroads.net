@@ -47,6 +47,8 @@ header.show .container {
 .remember{
   display: inline;
   margin-bottom: 5px;
+  font-weight: normal;
+  text-transform: lowercase;
 }
 
 .navbar--login__container{
@@ -186,6 +188,10 @@ header.show .container {
   border-radius: 0px;
   background-clip: padding-box;
   width: 100%;
+}
+
+.side-nav__subnav__item-container, .navbar--login__container {
+  float: none;
 }
 
 .side-nav__subnav--item .heading__item, .side-nav__subnav--item .heading__item:hover {
@@ -384,7 +390,7 @@ header.show .container {
 
 .navbar--login__dropdown.toggleOpen {
   opacity: 1;
-  top: 80%;
+  top: 100%;
   display: block;
   z-index: 1000000;
   -webkit-transition: opacity 0.2s, top 0.75s;
