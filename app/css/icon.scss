@@ -15,30 +15,6 @@
   float: right;
 }
 
-.icon--about:after{
-  background-image: url('https://crossroads-media.s3.amazonaws.com/images/abouticon.svg');
-}
-
-.icon--admin:after{
-  background-image: url('https://crossroads-media.s3.amazonaws.com/images/admin.svg');
-}
-
-.icon--crossroads:after{
-  background-image: url('https://crossroads-media.s3.amazonaws.com/images/CRIcon.svg');
-}
-
-.icon--dropdown:after{
-  background-image: url('https://crossroads-media.s3.amazonaws.com/images/dropdown_arrow.svg');
-}
-
-.icon--engage:after{
-  background-image: url('https://crossroads-media.s3.amazonaws.com/images/engage.svg');
-}
-
-.icon--forgot:after {
-  background-image: url('/img/question_grey.svg');
-}
-
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:300");
 @import url(http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
 
@@ -59,7 +35,6 @@
 .loading {
   position: relative;
   width: 100%;
-  min-height: 50px;
   
   &:after {
     display: block;
@@ -83,10 +58,6 @@
 * Example Loading Div
 ***************************************************************************************/
 
-.icon--user__filled:after {
-  background-image: url('https://crossroads-media.s3.amazonaws.com/images/user_filled.svg');
-}
-
-.icon__container:hover .icon--forgot:after {
-  background-image: url('https://crossroads-media.s3.amazonaws.com/images/question.svg');
+.loading-example {
+  min-height: 300px;
 }
