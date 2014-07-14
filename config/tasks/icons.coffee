@@ -1,11 +1,16 @@
-module.exports = (gulp) ->
   config = 
     className: ".%f-icon"
     defs: true
-
-  svgSprites = require("gulp-svg-sprites")
-  svg = svgSprites.svg
-  gulp.task "sprites", ->
-    gulp.src("svg/*.svg")
-    .pipe(svg(config))
-    .pipe(gulp.dest("svg"))
+    generatePreview: false
+  
+  module.exports = (gulp, $) ->
+    gulp.task "icons", ->
+      svg = $.svgSprites.svg
+      rename = $.rename
+      gulp.src("app/icons/source/*.svg")
+      .pipe(svg(config))
+      .pipe(gulp.dest("app/_includes/icons"))
+      
+      gulp.src('app/_includes/icons/css/sprites.css')
+      .pipe(rename("sprites.scss"))
+      .pipe(gulp.dest('app/css'))

@@ -3,6 +3,7 @@ module.exports = (gulp) ->
     "clean"
     "coffee"
     "sass"
+    "icons"
     "jekyll"
     "server"
     "watch"
