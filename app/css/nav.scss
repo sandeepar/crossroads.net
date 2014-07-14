@@ -44,6 +44,17 @@ header.show .container {
   margin-left: 10px;
 }
 
+.remember{
+  display: inline;
+  margin-bottom: 5px;
+  font-weight: normal;
+  text-transform: lowercase;
+}
+
+.navbar--login__container{
+  padding-top: 20px;
+}
+
 /******************** Mobile ********************/
 
 
@@ -59,11 +70,6 @@ header.show .container {
   -webkit-transition: all 0.563s;
   transition: all 0.563s;
   margin-top: 10px;
-}
-
-.navbar--login__dropdown {
-  margin-top: 10px;
-  margin-right: 5px;
 }
 
 .navbar-header.show {
@@ -182,6 +188,10 @@ header.show .container {
   border-radius: 0px;
   background-clip: padding-box;
   width: 100%;
+}
+
+.side-nav__subnav__item-container, .navbar--login__container {
+  float: none;
 }
 
 .side-nav__subnav--item .heading__item, .side-nav__subnav--item .heading__item:hover {
@@ -346,13 +356,19 @@ header.show .container {
       opacity: 0;
     }
   }
-  .btn {
-    margin-top: 10px;
-  }
   .dropdown-menu {
     left: calc(100% - 300px);
     width: 300px;
   }
+}
+
+.navbar--login__submit {
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.navbar--login__submit--label {
+  text-transform: lowercase;
 }
 
 .navbar--login__button {
@@ -363,7 +379,7 @@ header.show .container {
   opacity: 0;
   display: none;
   position: absolute;
-  right: 0;
+  right: 12px;
   top: -170%;
   border: 1px solid #ccc;
   background-color: #fff;
@@ -374,7 +390,7 @@ header.show .container {
 
 .navbar--login__dropdown.toggleOpen {
   opacity: 1;
-  top: 80%;
+  top: 100%;
   display: block;
   z-index: 1000000;
   -webkit-transition: opacity 0.2s, top 0.75s;
@@ -383,11 +399,18 @@ header.show .container {
 
 .navbar--login__input {
   margin: 10px 0;
+  width: 100%;
 }
 
 .btn.navbar--login__submit {
   color: #fff;
   @include gradient(#7AA8C2, #4A81A0);
+}
+
+.icon__container {
+  position: absolute;
+  margin-top: -32px;
+  right: 18px;
 }
 
 /***** Mobile Nav *****/

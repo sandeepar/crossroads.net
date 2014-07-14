@@ -45,7 +45,7 @@
 }
 
 .icon--forgot:after {
-  background-image: url('https://crossroads-media.s3.amazonaws.com/images/question.svg');
+  background-image: url('/img/question_grey.svg');
 }
 
 .icon--give:after{
@@ -78,4 +78,8 @@
 
 .icon--user__filled:after {
   background-image: url('https://crossroads-media.s3.amazonaws.com/images/user_filled.svg');
+}
+
+.icon__container:hover .icon--forgot:after {
+  background-image: url('https://crossroads-media.s3.amazonaws.com/images/question.svg');
 }
