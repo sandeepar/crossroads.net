@@ -1,85 +1,16 @@
 .icon {
+  display: inline;
   display: inline-block;
   height: 25px;
   width: 25px;
-  margin-right: 5px;
-  &:after {
-    content: "";
-    height: 100%;
-    width: 100%;
-    display: inline-block;
-    background-size: 100%;
-    vertical-align: bottom;
-    background-repeat: no-repeat;
-  }
 }
 
-.icon--small {
+.icon-small {
   @extend .icon;
   width: 15px;
   height: 15px;
 }
 
-.icon--right {
+.icon-right {
   float: right;
-}
-
-.icon--about:after{
-  background-image: url('https://crossroads-media.s3.amazonaws.com/images/abouticon.svg');
-}
-
-.icon--admin:after{
-  background-image: url('https://crossroads-media.s3.amazonaws.com/images/admin.svg');
-}
-
-.icon--crossroads:after{
-  background-image: url('https://crossroads-media.s3.amazonaws.com/images/CRIcon.svg');
-}
-
-.icon--dropdown:after{
-  background-image: url('https://crossroads-media.s3.amazonaws.com/images/dropdown_arrow.svg');
-}
-
-.icon--engage:after{
-  background-image: url('https://crossroads-media.s3.amazonaws.com/images/engage.svg');
-}
-
-.icon--forgot:after {
-  background-image: url('/img/question_grey.svg');
-}
-
-.icon--give:after{
-  background-image: url('https://crossroads-media.s3.amazonaws.com/images/give.svg');
-}
-
-.icon--grow:after{
-  background-image: url('https://crossroads-media.s3.amazonaws.com/images/grow.svg');
-}
-
-.icon--login:after {
-  background-image: url('https://crossroads-media.s3.amazonaws.com/images/search.svg');
-}
-
-.icon--media:after{
-  background-image: url('https://crossroads-media.s3.amazonaws.com/images/media.svg');
-}
-
-.icon--search:after {
-  background-image: url('https://crossroads-media.s3.amazonaws.com/images/search.svg');
-}
-
-.icon--user:after {
-  background-image: url('https://crossroads-media.s3.amazonaws.com/images/user.svg');
-}
-
-.icon--user__white:after {
-  background-image: url('https://crossroads-media.s3.amazonaws.com/images/user_white.svg');
-}
-
-.icon--user__filled:after {
-  background-image: url('https://crossroads-media.s3.amazonaws.com/images/user_filled.svg');
-}
-
-.icon__container:hover .icon--forgot:after {
-  background-image: url('https://crossroads-media.s3.amazonaws.com/images/question.svg');
 }
