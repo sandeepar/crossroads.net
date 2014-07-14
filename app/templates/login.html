@@ -1,28 +1,30 @@
 <div class="navbar--login__container col-sm-10 col-sm-offset-by-1 col-md-12">
   <div class="dd_menu">
     <div class="primary">
-			<div class="form-group">
-			  <div class="navbar--login__input" ng-class="{'has-error': loginError}">
-			    <input class="form-control" type="text" name="userName" id="username_nav" placeholder="Username" ng-model="user.username" autofocus>
-			    	<a class="icon__container" href="#" tabindex="-1">
-			    		<i class="icon--small icon--forgot"></i>
-			    	</a>
-			  </div>
-			  <div class="navbar--login__input" ng-class="{'has-error': loginError}">
-			    <input class="form-control" autocomplete="off" type="password" name="password" id="password_nav" placeholder="Password" ng-model="user.password">
-			    	<a class="icon__container" href="#" tabindex="-1">
-			    		<i class="icon--small icon--forgot"></i>
-			    	</a>
-			  </div>
-			  <div>
-          <div class="text-danger alert alert-danger" ng-if="loginError" role="alert" ><strong>{{loginError[0]}}</strong> {{loginError[1]}}</div>
+      <form id="nav_login" role="form" ng-submit="login()">
+        <div class="form-group">
+          <div class="navbar--login__input" ng-class="{'has-error': loginError}">
+            <input class="form-control" type="text" name="userName" id="username_nav" placeholder="Username" ng-model="user.username" autofocus>
+            <a class="icon__container" href="#" tabindex="-1">
+              <i class="icon--small icon--forgot"></i>
+            </a>
+          </div>
+          <div class="navbar--login__input" ng-class="{'has-error': loginError}">
+            <input class="form-control" autocomplete="off" type="password" name="password" id="password_nav" placeholder="Password" ng-model="user.password">
+            <a class="icon__container" href="#" tabindex="-1">
+              <i class="icon--small icon--forgot"></i>
+            </a>
+          </div>
+          <div>
+            <div class="text-danger alert alert-danger" ng-if="loginError" role="alert" ><strong>{{loginError[0]}}</strong> {{loginError[1]}}</div>
+          </div>
+          <input type="submit" name="submit_nav" value="{{ processing || 'Login' }}" ng-class="{disabled: processing }" id="submit_nav" class="col-xs-12 btn submit navbar--login__submit">
+          <div style="font-size: smaller;">
+            <input type="checkbox" name="remember" id="remember_nav" ng-model="checked" ng-init="checked=true">
+            <label class="remember">Stay Logged In</label>
+          </div>
         </div>
-			  <input type="submit" name="submit_nav" value="{{ processing || 'Login' }}" ng-class="{disabled: processing }" id="submit_nav" class="col-xs-12 btn submit navbar--login__submit">
-			  <div style="font-size: smaller;">
-			    <input type="checkbox" name="remember" id="remember_nav" ng-model="checked" ng-init="checked=true">
-			    <label class="remember">Stay Logged In</label>
-			  </div>
-			</div>
+      </form>
     </div>
   </div>
 </div>
