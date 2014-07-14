@@ -1,5 +1,5 @@
   config =
-    className: ".%f-icon"
+    className: ".icon-%f"
     defs: true
     generatePreview: true
 
