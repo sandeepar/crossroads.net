@@ -13,3 +13,5 @@ require('./middleware')(app);
 require('./routes')(app);
 
 app.listen(process.env.PORT || 8000);
+
+module.exports.crdsApp = app;
