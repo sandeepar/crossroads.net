@@ -1,13 +1,13 @@
   config = 
     className: ".%f-icon"
     defs: true
-    generatePreview: false
+    generatePreview: true
   
   module.exports = (gulp, $) ->
     gulp.task "icons", ->
       svg = $.svgSprites.svg
       rename = $.rename
-      gulp.src("app/icons/source/*.svg")
+      gulp.src("app/icons/*.svg")
       .pipe(svg(config))
       .pipe(gulp.dest("app/_includes/icons"))
       
