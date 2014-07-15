@@ -9,8 +9,6 @@ app.use(bodyParser());
 app.use(expressValidator([]));
 
 require('./middleware')(app);
-
-require('./oauth')(app);
 require('./routes')(app);
 
 app.listen(process.env.PORT || 8000);

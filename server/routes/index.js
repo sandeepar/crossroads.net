@@ -6,16 +6,9 @@ module.exports = function(app) {
   var config = require('../config/config');
 
   require('./form-mailer')(app);
-  require('./get_page_lookup_records')(app);
   require('./ministry_platform')(app);
 
-  var credentials = { clientID: 'client',
-                      clientSecret: 'secret',
-                      site: config.api.url,
-                      authorizationPath: '/oauth/authorize',
-                      tokenPath: '/oauth/token' };
-
-  var OAuth2 = require('simple-oauth2')(credentials);
+  var oauth = require('../oauth/index.js');
 
   passport.serializeUser(function(token, done) {
     if (token.expires_at != null) {
@@ -28,25 +21,19 @@ module.exports = function(app) {
     return done(null, JSON.parse(str));
   });
 
-  app.post("/login", function(req, res, next){
-    var token = OAuth2.Password.getToken({
-      username: req.body.username,
-      password: req.body.password
-    }, saveToken);
-
-    function saveToken(error, result) {
-      if (error) {
-        return res.send(403);
-      }
-      token = OAuth2.AccessToken.create(result);
+  app.post("/login", function(req, res, next) {
+    var userToken = oauth.getTokenForUser(req.body.username, req.body.password);
+    userToken.then(function(token) {
       req.login(token, function(error) {
-        if(error) {
+        if (error) {
           return res.send(500);
         }
         return res.send(200);
       });
       return true;
-    };
+    }, function(error) {
+      return res.send(403);
+    });
   });
 
   app.delete("/logout", function(req, res, next) {

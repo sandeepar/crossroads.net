@@ -3,19 +3,7 @@ module.exports = function(app) {
     var util = require('util');
     var q = require('q');
     var request = require('superagent');
-
-    //
-    // OAuth2 Support for Ministry Platform calls
-    //
-    var credentials = {
-        clientID: 'client',
-        clientSecret: 'secret',
-        site: 'https://my.crossroads.net/ministryplatform',
-        authorizationPath: '/oauth/authorize',
-        tokenPath: '/oauth/token'
-    };
-
-    var OAuth2 = require('simple-oauth2')(credentials);
+    var oauth = require('../oauth/index.js');
 
     var contactUrl = 'https://my.crossroads.net/ministryplatformapi/PlatformService.svc/GetPageRecord';
     var contactPageId = 292;
@@ -128,7 +116,7 @@ module.exports = function(app) {
 
     var lookupContact = function(recordId) {
         var deferred = q.defer();
-        getTokenForService()
+        oauth.getTokenForService()
             .then(function(token) {
                 request
                     .get(contactUrl)
@@ -136,7 +124,7 @@ module.exports = function(app) {
                     .set('Authorization', 'Bearer ' + token.access_token)
                     .end(function(err, res) {
                         if (err || res.error) {
-                            console.log('Contact Lookup Error: ' + util.inspect(err || res.error));
+                            console.log('Contact Lookup Error33: ' + util.inspect(err || res.error));
                             return;
                         }
 
@@ -234,43 +222,6 @@ module.exports = function(app) {
             console.log('A mandrill error occurred: ' + e.name + ' - ' + e.message);
             // A mandrill error occurred: Unknown_Subaccount - No subaccount exists with the id 'customer-123'
         });
-    };
-
-    //
-    // Create Token for server-to-server API calls
-    //
-
-    var getTokenForService = function() {
-        var deferred = q.defer();
-//        OAuth2.Client.getToken({
-//            client_id: 'client',
-//            client_secret: 'secret'
-//        }, function(error, result) {
-//            if (error) {
-//                console.log('OAuth error: ' + util.inspect(error));
-//                deferred.reject(error);
-//                return;
-//            }
-//
-//            console.log('Access token: ' + util.inspect(result));
-//            deferred.resolve(result);
-//        });
-
-        OAuth2.Password.getToken({
-                username: 'form-mailer-service',
-                password: 'password'
-            }, function(error, result) {
-            if (error) {
-                console.log('OAuth error: ' + util.inspect(error));
-                deferred.reject(error);
-                return;
-            }
-
-            //console.log('Access token: ' + util.inspect(result));
-            deferred.resolve(result);
-        });
-
-        return deferred.promise;
     };
 
 };
