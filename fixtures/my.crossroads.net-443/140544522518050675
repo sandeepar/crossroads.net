@@ -1,0 +1,18 @@
+POST /ministryplatform/oauth/token
+authorization: Basic Y2xpZW50OnNlY3JldA==
+host: my.crossroads.net
+content-type: application/x-www-form-urlencoded; charset=utf-8
+body: username=fred&password=flintstone&grant_type=password
+
+400 HTTP/1.1
+cache-control: no-cache, no-store, max-age=0, must-revalidate
+pragma: no-cache
+transfer-encoding: chunked
+content-type: text/html
+server: Microsoft-IIS/8.0
+x-aspnetmvc-version: 4.0
+x-aspnet-version: 4.0.30319
+x-powered-by: ASP.NET
+date: Tue, 15 Jul 2014 17:28:51 GMT
+
+Bad Request

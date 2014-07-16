@@ -1,0 +1,18 @@
+POST /ministryplatform/oauth/token
+authorization: Basic Y2xpZW50OnNlY3JldA==
+host: my.crossroads.net
+content-type: application/x-www-form-urlencoded; charset=utf-8
+body: username=drye&password=danrye11&grant_type=password
+
+200 HTTP/1.1
+cache-control: no-cache, no-store, max-age=0, must-revalidate
+pragma: no-cache
+content-length: 1124
+content-type: application/json; charset=utf-8
+server: Microsoft-IIS/8.0
+x-aspnetmvc-version: 4.0
+x-aspnet-version: 4.0.30319
+x-powered-by: ASP.NET
+date: Mon, 14 Jul 2014 18:17:57 GMT
+
+{"access_token":"AAEAAB_CT_UrCO-wMfqRT02WTTyh1F3DKt-OOuEJcGehjubUArH78d6vXgb02o7zp4l0RmVdPfLuRI6wgX9wYUWh2FqNXeF_Xf_wou7osE7fPRDb_5VPMucZQtT_Ljgr1dR8Zulg_aFcrTL3-LLEsE4bj0YjAdi700-Im6q0YU4rBEwvF1RvojfwSPMZVydDCcvO_gzUebrzWvixS_EvnPdrmX3Xm-ldbkneGWTZohaI54IBkRbVsxDawvpxGScGfBtYcRQc6_9ws0pPuRWORpskVKHY4TYGQBNxoZNsWyXmJ87haZD3dMExQrhuh0ylBCxN8oW_yRu5xYqqNpqwQ_g8QarIAAAATGlmZXRpbWU9MTgwMCZDbGllbnRJZGVudGlmaWVyPWNsaWVudCZVc2VyPWY0YTg4ODQ0LTRhM2UtNDc3ZS04YTk5LTMxZGM2OGY1Y2Q3MiZTY29wZT1odHRwJTNBJTJGJTJGd3d3LnRoaW5rbWluaXN0cnkuY29tJTJGZGF0YXBsYXRmb3JtJTJGc2NvcGVzJTJGYWxsJnRzPTE0MDUzNjE4NzcmdD1Eb3ROZXRPcGVuQXV0aC5PQXV0aDIuQWNjZXNzVG9rZW4","token_type":"bearer","expires_in":1800,"refresh_token":"gBJD!IAAAANghixUMO0LnjhN-09mvYGLCYJzKMbGCCVxVAYedUP0a4QAAAAGYZ2UM0xho8qKNJ3y-zILWOhMEMAJfztUkS6SkvQY8BvU3ixkJcICOgzqBt2mQB9okS7AeZoPnyslzbq9py23haGlxVYciEv0o5SO-CJ7IFL5jyuef-XFP8zhrx0q5H1iMQe1M7wJqKzyXtj0SgtTqfIqLOtUK7qsZNhqH0qv0GMSbX_GRPerQVBLdZbkQXwpH1VsS1Z3nFzocx6pFh3c-XmQbAKs6qSJCpX9AjnO24EG1whVEGjhFVB74qeOgamKQ1OKxN-GJf47_S4CJ_8IECYcNIf7EiO0Biztfh7uIfw","scope":"http:\/\/www.thinkministry.com\/dataplatform\/scopes\/all"}

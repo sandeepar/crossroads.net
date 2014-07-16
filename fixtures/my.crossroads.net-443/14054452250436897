@@ -1,0 +1,18 @@
+POST /ministryplatform/oauth/token
+authorization: Basic Y2xpZW50OnNlY3JldA==
+host: my.crossroads.net
+content-type: application/x-www-form-urlencoded; charset=utf-8
+body: username=form-mailer-service&password=password&grant_type=password
+
+200 HTTP/1.1
+cache-control: no-cache, no-store, max-age=0, must-revalidate
+pragma: no-cache
+content-length: 1124
+content-type: application/json; charset=utf-8
+server: Microsoft-IIS/8.0
+x-aspnetmvc-version: 4.0
+x-aspnet-version: 4.0.30319
+x-powered-by: ASP.NET
+date: Tue, 15 Jul 2014 17:28:51 GMT
+
+{"access_token":"AAEAAD-vTKqf5UgE_HRNbyU7tw0UjeHsnEyXvT-j8Q9PnU17UeLhMmjYcGBQsQt_XpY3DSRo6yy9wR5alicQZM19ioyv3-0Q1vkwZot-HqhSnauZwLjqjAxejFNCemycprKmU8F-HiG_iCilfhXQbxHew8u63wmPuVYmxfYLKIi_8j63Jv8EIU5x1_f8EV2GkiBt7d1VuXS3pScxxfMBWmrzZ7R_nrVz_oy1NgX6MOf7Lx9kx1t2Bhu7_4J6Cm988vILcRPQaday7jF7S6ukOlid0mWjGftuQufIsfnQB1tiUVMv3QEEfTde058keQqmo7kBPbY705x3okOfzGCE7T5PqNTIAAAATGlmZXRpbWU9MTgwMCZDbGllbnRJZGVudGlmaWVyPWNsaWVudCZVc2VyPWQ1YTI2N2QwLTQxODctNGVkOS1iY2NmLTQxZmUzOGE1MmIwNSZTY29wZT1odHRwJTNBJTJGJTJGd3d3LnRoaW5rbWluaXN0cnkuY29tJTJGZGF0YXBsYXRmb3JtJTJGc2NvcGVzJTJGYWxsJnRzPTE0MDU0NDUzMzEmdD1Eb3ROZXRPcGVuQXV0aC5PQXV0aDIuQWNjZXNzVG9rZW4","token_type":"bearer","expires_in":1800,"refresh_token":"oTtg!IAAAANKLw0SqzQiUbwwyt8C_EqvLmn_Cj1ga-H5I39EbZDQW4QAAAAE5omxFvZJdERbH3KGXqQPKCcldnKu-Q36EyrY9O3LhFYfdB1ztmd_m20iWX_NyTF96vtBgRhUcZFyP_uIxunvr0AHH6KXXFREeuwQPdvW5ZOW-pLFVXOVBATY3_FTcwW_D2FMA5KDrxNtUN3U3so91kCqgadfX4eCqvRK6WNSdz7x65W2DGuP2hiWr48gs5WC4_8QK1nFHtl7OgkZxwJqMMoaL-3JG3tooVvs1kZprOrzuDlZjzdy7uhwQshXP4v24GY6DonZFWhOyr--F4sUd--_X5rifW1xxJ2KPw4vEgQ","scope":"http:\/\/www.thinkministry.com\/dataplatform\/scopes\/all"}
