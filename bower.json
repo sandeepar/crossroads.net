@@ -29,7 +29,8 @@
     "angular-cookies": "1.2.16",
     "angular-mocks": "~1.2.16",
     "angular-growl-v2": "~0.6.1",
-    "crds-angular-ajax-form": "*"
+    "crds-angular-ajax-form": "*",
+    "crds-ng-security-context": "*"
   },
   "resolutions": {
     "angular": "1.2.16"
