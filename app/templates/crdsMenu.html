@@ -10,7 +10,6 @@
           <ul class="side-nav__dropdown list-unstyled" id="mobile-menu">
             <li class="side-nav__dropdown--item" ng-repeat="heading in menus.headings">
               <a class="heading__title" ng-click="menu.toggleMenuItem($index)">
-                <i class="icon {{heading.icon}}"></i>
                 {{heading.title}}
                 <i class="icon--small icon--dropdown icon--right"></i>
               </a>

@@ -87,7 +87,6 @@
 .current-skills-list {
   .label {
     padding: .5em .5em .6em 1.9em ;
-    @include transition(all .2s ease-in);
     cursor: default;
     background: $cr-orange;
     line-height: 3;
@@ -95,6 +94,12 @@
 
     a {
       vertical-align: middle;
+    }
+
+    .icon {
+      @include transition(all .2s ease-in);
+      @include opacity(0);
+      fill: #fff;
     }
 
     &:hover {
@@ -107,11 +112,6 @@
       }
     }
 
-    .icon {
-      @include transition(all .2s ease-in);
-      @include opacity(0);
-      fill: #fff;
-    }
   }
 }
 
