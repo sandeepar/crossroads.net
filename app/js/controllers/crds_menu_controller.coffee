@@ -1,11 +1,11 @@
 angular.module('crossroads')
 
-.controller "crdsMenuCtrl", ($scope, $rootScope, Menu, Auth) ->
+.controller "crdsMenuCtrl", ($scope, $rootScope, Menu, SecurityContext) ->
 
   $scope.menu = Menu
 
   $scope.logout = ->
-    Auth.logout()
+    SecurityContext.logout()
 
   $scope.loginShow = false
 
