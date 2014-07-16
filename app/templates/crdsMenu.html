@@ -29,7 +29,7 @@
               		</div>
               		<div ng-if="$index != 0">
                     <ul class="side-nav__subnav list-unstyled" collapse="collapsed($index)">
-        		    
+
                 <div ng-if="$first">
                   <div ng-if="!currentUser">
                     <li class="side-nav__subnav--item">
@@ -37,13 +37,13 @@
                     </li>
                   </div>
         		    </div>
-		            
+
                 <div ng-if="currentUser">
                   <li class="side-nav__subnav--item" role="presentation" ng-repeat="item in heading.mobile_items">
                     <a class="heading__item" role="menuitem" tabindex="-1" href="{{item.link}}">{{item.title}}</a>
                   </li>
 		            </div>
-		            
+
                 <div ng-if="$index != 0">
                   <li class="side-nav__subnav--item" role="presentation" ng-repeat="item in heading.mobile_items">
                     <a class="heading__item" role="menuitem" tabindex="-1" href="{{item.link}}">{{item.title}}</a>
@@ -79,7 +79,7 @@
               </ul>
             </li>
             <li class="navbar--login__mobile visible-xs visible-sm" ng-if="!currentUser">
-              <a class="btn navbar--login__button" href="/login">
+              <a class="btn navbar--login__button" href="/myprofile">
                 <i class="icon icon--no_margin icon--user"></i>
               </a>
             </li>
