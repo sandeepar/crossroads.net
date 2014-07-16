@@ -20,4 +20,9 @@
       gulp.src('app/_includes/icons/preview-svg.html')
       .pipe(replace('background: black;', 'background: black;fill:white;'))
       .pipe(replace('css/sprites.css', '/css/app.css'))
+      .pipe(replace('class="icon ', 'class="icon icon-large '))
       .pipe(gulp.dest('app/icons'))
+
+
+
+      
