@@ -1,14 +1,20 @@
 .icon {
   display: inline;
   display: inline-block;
-  height: 25px;
-  width: 25px;
-}
-
-.icon-small {
-  @extend .icon;
   width: 15px;
   height: 15px;
+}
+
+.icon-large {
+  @extend .icon;
+  width: 24px;
+  height: 24px;
+}
+
+.icon-xlarge {
+  @extend .icon;
+  width: 32px;
+  height: 32px;
 }
 
 .icon-right {

@@ -6,12 +6,12 @@
 @import 'media';
 @import 'gradient';
 @import 'nav';
-@import 'icon';
 @import 'thefeed';
 @import 'explore';
 @import 'profile';
 @import 'timeline';
 @import 'sprites';
+@import 'icon';
 
 
 // @import 'block-grid';
@@ -190,6 +190,12 @@ footer .open, footer .office {
   &:focus {
     border-color: $brand-primary;
     @include box-shadow(inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(59, 110, 143, 0.2));
+  }
+}
+
+.btn {
+  .icon {
+    fill: #fff; 
   }
 }
 
