@@ -19,10 +19,24 @@
 	}
  }
 
-
-
 .container-max {max-width: 1170px;}
 
+
+.message-header {
+  .lead {
+    margin: 0;
+  }
+
+  h2 {
+    margin: 0;
+  }
+}
+
+.message-body {
+  .tab-content {
+    margin-top: $line-height-computed;
+  }
+}
 
 /***************************************************************************************
 * Message Preview Include - used on _includes/media/message_preview.html
