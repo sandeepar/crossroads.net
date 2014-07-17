@@ -7,7 +7,19 @@
   margin-top: 22px;
 
   .profile-name {
-    margin: 0px 0 ($line-height-computed/4);
+    margin: 0;
+
+    @media (min-width: $screen-sm-min) {
+      margin-bottom: $line-height-computed/4;
+    }
+
+  }
+
+  .lead {
+    margin-bottom: ($line-height-computed/4);
+    @media (min-width: $screen-sm-min) {
+      margin-bottom: $line-height-computed;
+    }
   }
 
   .edit-church-site {
@@ -32,7 +44,7 @@
 .profile-pic {
   position: relative;
   display: block;
-  overflow-y: hidden;
+  overflow: hidden;
   background: $gray-lighter;
 
   img {
