@@ -1,36 +1,45 @@
 ---
 layout: one_column
 ---
-<h1>Series: {{ page.series }}</h1>
-<h2>{{ page.title }}</h2>
-<p><span class="message-date">{{ page.date }}</span></p> 
-<div>
-    {% if page.video contains 'mp4' %}
-    <video width="700" height="400" controls poster="{{ page.video-image }}">
-        <source src="{{ page.video }}" type="video/mp4">
-    </video>
-    {% else %}
-    <p><b>Video not found.</b></p>
-    {% endif %}
+<header class="message-header">
+    <h2>{{ page.title }}</h2>
+    <h4 class="lead text-muted">Series: {{ page.series }}</h4>
+    <p><span class="message-date">{{ page.date | date: "%A, %B %-d, %Y" }}</span></p> 
+</header>
+<div class="message-body">
     <p>{{ page.description }}</p>
-</div>
-<div>
-    {% if page.audio contains 'mp3' %}
-    <audio controls>
-        <source src="{{ page.audio }}" type="audio/mpeg">
-    </audio> 
-    {% else %}
-    <p><b>Audio not found.</b></p>
+    {% if page.program contains 'pdf' %}
+    <a href="{{ page.program }}">View Program (pdf)</a><br>
     {% endif %}
-</div>
-  
-{% if page.audio contains 'mp3' %}
-<a href="{{ page.audio }}">Download Audio (mp3)</a><br>
-{% endif %}
-{% if page.video contains 'mp4' %}
-<a href="{{ page.video }}">Download Video (mp4)</a><br>
-{% endif %}
-{% if page.program contains 'pdf' %}
-<a href="{{ page.program }}">View Program (pdf)</a><br>
-{% endif %}
-<a href="#">Share</a>
+    <a href="#">Share</a>
+    <tabset>
+        <tab heading="Video">
+            <div class="col-sm-12">
+                {% if page.video contains 'mp4' %}
+                <video width="700" height="400" controls poster="{{ page.video-image }}">
+                    <source src="{{ page.video }}" type="video/mp4">
+                </video>
+                <div class="download-message">
+                    <a href="{{ page.video }}">Download Video (mp4)</a>
+                </div>
+                {% else %}
+                <p><b>Video not found.</b></p>
+                {% endif %}
+            </div>
+        </tab>
+        <tab heading="Audio">
+            <div class="col-sm-12">
+                {% if page.audio contains 'mp3' %}
+                <audio controls>
+                    <source src="{{ page.audio }}" type="audio/mpeg">
+                </audio>
+                <div class="download-message">
+                    <a href="{{ page.audio }}">Download Audio (mp3)</a><br>
+                </div>
+                {% else %}
+                <p><b>Audio not found.</b></p>
+                {% endif %}
+            </div>
+        </tab>
+    </tabset>
+</div><!--/message-body-->
