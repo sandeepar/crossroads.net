@@ -6,10 +6,13 @@
 @import 'media';
 @import 'gradient';
 @import 'nav';
-@import 'icon';
 @import 'thefeed';
 @import 'explore';
 @import 'profile';
+@import 'timeline';
+@import 'sprites';
+@import 'icon';
+
 
 // @import 'block-grid';
 
@@ -190,6 +193,12 @@ footer .open, footer .office {
   }
 }
 
+.btn {
+  .icon {
+    fill: #fff; 
+  }
+}
+
 /***************************************************************************************
 * Tabs
 ***************************************************************************************/
@@ -201,6 +210,7 @@ footer .open, footer .office {
   background-color: #eeeeee;
   border-color: #eeeeee;
 }
+
 /***************************************************************************************
 * Date Picker
 ***************************************************************************************/

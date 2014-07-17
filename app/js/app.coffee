@@ -1,12 +1,14 @@
-angular.module("crossroads", ["ngCookies", 'angular-growl', 'ui.bootstrap', 'crds-ajax-form'])
+angular.module("crossroads", ["ngCookies", 'ngStorage', 'crdsAuth', 'crdsSecurityContext', 'angular-growl', 'ui.bootstrap', 'crds-ajax-form'])
 
-.config (growlProvider) ->
+.config (growlProvider, $locationProvider, SecurityContextProvider) ->
+  $locationProvider.html5Mode(true)
   growlProvider.globalPosition 'top-center'
   growlProvider.globalTimeToLive 6000
   growlProvider.globalDisableIcons true
 
-.run (Auth) ->
-  Auth.getCurrentUser()
+  SecurityContextProvider.setSessionMinutes(30)
+
+.run () ->
   return
 
 .controller "AppCtrl", ($rootScope, $log, growl)->

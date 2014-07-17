@@ -36,6 +36,11 @@ This will watch the filesystem and compile all the sass into css,
 coffeescript into javascript and run jekyll-build as well. This will also run
 the node server making the site available at localhost:3000
 
+### Media Management
+
+We host all assets (images, audio, video, documents, etc) on S3. Do not check-in media assets into this repo.
+Please contact webteam@crossroads.net if you need access to our S3 bucket.
+
 ### Running the specs
 To run specs use: ```gulp test```
 

@@ -7,21 +7,35 @@
   margin-top: 22px;
 
   .profile-name {
-    margin: 0px 0 ($line-height-computed/4);
+    margin: 0;
+
+    @media (min-width: $screen-sm-min) {
+      margin-bottom: $line-height-computed/4;
+    }
+
+  }
+
+  .lead {
+    margin-bottom: ($line-height-computed/4);
+    @media (min-width: $screen-sm-min) {
+      margin-bottom: $line-height-computed;
+    }
   }
 
   .edit-church-site {
     padding-right: 20px;
 
-    span {
-      display: none;
+    .icon {
+      display: inline-block;
       font-size: .6em;
-      color: $gray;
+      fill: $gray;
+      @include transition(all .1s ease-in);
+      @include opacity(0);
     }
 
     &:hover {
-      span {
-        display: inline;
+      .icon {
+        @include opacity(1);
       }
     }
   }
@@ -30,7 +44,7 @@
 .profile-pic {
   position: relative;
   display: block;
-  overflow-y: hidden;
+  overflow: hidden;
   background: $gray-lighter;
 
   img {
@@ -85,24 +99,31 @@
 .current-skills-list {
   .label {
     padding: .5em .5em .6em 1.9em ;
-    @include transition(all .2s ease-in);
     cursor: default;
     background: $cr-orange;
     line-height: 3;
+    vertical-align: middle;
+
+    a {
+      vertical-align: middle;
+    }
+
+    .icon {
+      @include transition(all .2s ease-in);
+      @include opacity(0);
+      fill: #fff;
+    }
 
     &:hover {
       color: #fff;
 
-
-      .glyphicon {
-        color: #fff;
-        @include transition(all .2s ease-in);
+      a {
+        .icon {
+          @include opacity(1);
+        }
       }
     }
 
-    .glyphicon {
-      color: $cr-orange;
-    }
   }
 }
 

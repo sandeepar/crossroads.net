@@ -1,21 +1,27 @@
-angular.module('crossroads')
+angular.module('crdsAuth', [])
 
-.factory "Auth", ($http, $rootScope) ->
+.factory "Auth", ($http, $rootScope, $q) ->
   getCurrentUser: ->
+    deferred = $q.defer()
     $http.get('/api/ministryplatformapi/PlatformService.svc/GetCurrentUserInfo')
       .then (response) ->
         if typeof response.data is 'object'
-          $rootScope.currentUser = response.data
+          deferred.resolve response.data
         else
-          $rootScope.currentUser = null
-        $rootScope.$emit 'currentUser:available'
-      return
+          deferred.resolve null
+        return
+      , (error) ->
+        deferred.reject error
+
+    return deferred.promise
 
   logout: ->
     $http.delete('/logout').then ->
       $rootScope.currentUser = null
 
   login: (username, password) ->
+    deferred = $q.defer()
+
     data =
       username: username
       password: password
@@ -28,7 +34,13 @@ angular.module('crossroads')
         Authorization: null
     ).success((data, status, headers, config) ->
       $rootScope.$emit 'login:hide'
+      deferred.resolve data
     ).error (data, status) ->
       if status is 0
         console.log "Could not reach API"
-      else console.log "Invalid username & password"
+        deferred.reject "Could not reach API"
+      else
+        console.log "Invalid username & password"
+        deferred.reject "Invalid username & password"
+
+    return deferred.promise
