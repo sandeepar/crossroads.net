@@ -6,8 +6,10 @@ layout: container_row
   {% include breadcrumb.html %}
   {{ content }}
 </div>
+
 <div class="col-sm-4">
-	<h3>Blog Tags</h3>
+    {% include ads/sign_up.html %}
+	<h3 class="right_column_header">Blog Tags</h3>
 	<ul class="list-group">
         <!-- Aravind Try to get rid of this annoying if else conditions by finding a plugin for that -->
         <!--  This is just a quick solution to achieve this  -->
@@ -36,6 +38,15 @@ layout: container_row
             {% endif %}
         {% endfor %}
 	</ul>
-	<hr>
-	<h3>Adbox Space</h3>
+    {% include ads/previous_series.html %}
+    {% include ads/give.html %}
+    {% include ads/donate.html %}
+    {% include ads/sign_up_go.html %}
+    {% include ads/e-gift.html %}
+    {% include ads/faq.html %}
+    {% include ads/kids.html %}
+    {% include ads/grow.html %}
+    {% include ads/teen_jeremy.html %}
+    {% include ads/teen_naomi.html %}
+    {% include ads/spotlight_skip.html %}
 </div>
