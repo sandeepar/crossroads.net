@@ -88,6 +88,7 @@
 
 .ad_header {
 	color: $cr-blue;
+	margin: 0 0 5px 0;
 }
 
 hr.dark {
@@ -121,7 +122,11 @@ hr.dark {
 }
 
 .ad__content {
-	width: 60%;
+	width: 55%;
+}
+
+.ad__content__wide {
+	width: 70%;
 }
 
 .ad__image__container {
@@ -147,7 +152,47 @@ hr.dark {
 }
 
 .ad__image__skip {
-	margin-top: -175px;
-	margin-left: 185px;
-	margin-bottom: -32px;
+	float: left;
+	margin-top: -173px;
+	margin-left: 183px;
+}
+
+.ad__image__kristen {
+	float: left;
+	margin-top: -173px;
+	margin-left: 190px;
+}
+
+.ad__image__daniel {
+	float: left;
+	margin-top: -147px;
+	margin-left: 184px;
+}
+
+.ad__image__heather {
+	float: left;
+	margin-top: -152px;
+	margin-left: 157px;
+}
+
+.ad__image__karen {
+	float: left;
+	margin-top: -168px;
+	margin-left: 196px;
+}
+
+.ad__image__kids {
+	margin-top: -179px;
+	margin-left: 179px;
+}
+
+.ad-btn {
+	padding: 0px 20px;
+	font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue", Helvetica, Arial, san-serif;
+	text-transform: uppercase;
+	font-size: 16px;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+	margin-bottom: 10px;
 }
