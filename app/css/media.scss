@@ -21,13 +21,13 @@
 
 .container-max {max-width: 1170px;}
 
-.message-body {
+.message-media {
   .nav-tabs {
     margin-top: $line-height-computed;
+    @extend .container;
   }
 
   .tab-content {
-    margin-top: $line-height-computed;
   }
 }
 
