@@ -3,5 +3,4 @@ module.exports = (gulp) ->
     "clean"
     "karma"
     "protractor"
-    "mocha"
   ]
