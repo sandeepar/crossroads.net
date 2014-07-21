@@ -3,3 +3,4 @@ vendor/bower
 generated/
 bin/
 *.iml
+/.project
