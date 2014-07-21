@@ -1,0 +1,152 @@
+<script>
+
+// Note for Tony (or developer) - this is just a script tag directly in the HTML for mock up purposes. When you implement this with real data, these controllers would be moved to your controller
+
+//angular.module('crossroads');
+
+var ModalDemoCtrl = function ($scope, $modal, $log) {
+
+  $scope.open = function (size) {
+
+    var modalInstance = $modal.open({
+      templateUrl: '/pages/mock-ups/modal_skill_remove.html',
+      controller: ModalInstanceCtrl,
+      size: size,
+      resolve: {}
+    });
+  };
+};
+
+var ModalInstanceCtrl = function ($scope, $modalInstance) {
+  $scope.ok = function () {
+    $modalInstance.close();
+  };
+  $scope.cancel = function () {
+    $modalInstance.dismiss('cancel');
+  };
+};
+</script>
+
+<div ng-controller="ModalDemoCtrl">
+  <fieldset class="row">
+    <legend class="col-sm-12">Your Household</legend>
+    <div class="col-md-4 profile-card clearfix">
+      <div class="well well-sm">
+        <div class="media">
+          <div class="thumbnail pull-left">
+            <img class="media-object" src="//crossroads-media.s3.amazonaws.com/images/avatar.svg" alt="Profile Default Photo" />
+          </div>
+          <div class="media-body">
+            <h4 class="media-heading">Jane Doe</h4>
+            <p><span class="label label-info">Spouse</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 profile-card clearfix">
+      <div class="well well-sm">
+        <div class="media">
+          <div class="thumbnail pull-left">
+            <img class="media-object" src="//crossroads-media.s3.amazonaws.com/images/avatar.svg" alt="Profile Default Photo" />
+          </div>
+          <div class="media-body">
+            <h4 class="media-heading">John Doe</h4>
+            <p><span class="label label-info">Son</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 profile-card clearfix">
+      <div class="well well-sm">
+        <div class="media">
+          <div class="thumbnail pull-left">
+            <img class="media-object" src="//crossroads-media.s3.amazonaws.com/images/avatar.svg" alt="Profile Default Photo" />
+          </div>
+          <div class="media-body">
+            <h4 class="media-heading">Jill Doe</h4>
+            <p><span class="label label-info">Daughter</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </fieldset>
+
+    <hr class="col-sm-12" />
+
+  <fieldset class="row">
+
+    <div class="form-group col-sm-6">
+      <label for="street">Street</label>
+      <input type="text" class="form-control" id="street" placeholder="Enter street address">
+    </div>
+
+    <div class="form-group col-sm-6">
+      <label for="street2">Street 2</label>
+      <input type="text" class="form-control" id="street2" placeholder="Enter street address (cont.)">
+    </div>
+
+    <div class="form-group col-sm-6">
+      <label for="city">City</label>
+      <input type="text" class="form-control" id="city" placeholder="Enter city">
+    </div>
+
+    <div class="form-group col-sm-6">
+      <label for="state">State</label>
+      <select class="form-control col-sm-12">
+        {% for i in (1..31) %}
+          <option>{{ i }}</option>
+        {% endfor %}
+      </select>
+    </div>
+
+    <div class="form-group col-sm-6">
+      <label for="zip">Zip</label>
+      <input type="text" class="form-control" id="zip" placeholder="Enter zip code">
+    </div>
+
+    <div class="form-group col-sm-6">
+      <label for="county">County</label>
+      <input type="text" class="form-control" id="county" placeholder="Enter county">
+    </div>
+
+    <div class="form-group col-sm-6">
+      <label for="country">Country</label>
+      <select class="form-control col-sm-12">
+        {% for i in (1..31) %}
+          <option>{{ i }}</option>
+        {% endfor %}
+      </select>
+    </div>
+
+    <hr class="col-sm-12" />
+
+    <div class="form-group col-sm-6">
+      <label for="homephone">Home Phone</label>
+      <input type="text" class="form-control" id="homephone" placeholder="Enter home phone">
+    </div>
+
+    <div class="form-group col-sm-6">
+      <label for="provider">Service Provider</label>
+      <select class="form-control col-sm-12">
+        {% for i in (1..31) %}
+          <option>{{ i }}</option>
+        {% endfor %}
+      </select>
+    </div>
+
+    <hr class="col-sm-12" />
+
+    <div class="form-group col-sm-6">
+      <label for="provider">Crossroads Location</label>
+      <select class="form-control col-sm-12">
+        {% for i in (1..31) %}
+          <option>{{ i }}</option>
+        {% endfor %}
+      </select>
+    </div>
+
+  </fieldset>
+
+  <button class="btn btn-primary ladda-button" data-style="expand-left" ng-click="open()"><span class="ladda-label">Save</span></button>
+</div>
