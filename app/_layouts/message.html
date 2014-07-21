@@ -2,49 +2,57 @@
 layout: full_width
 ---
 
-<tabset>
+<tabset class="message-media">
     <tab heading="Video">
         {% if page.video contains 'mp4' %}
-        <div class="video-section">
-            <video width="700" height="400" controls poster="{{ page.video-image }}">
-                <source src="{{ page.video }}" type="video/mp4">
-            </video>
-        </div>
-        <div class="download-message">
-            <a href="{{ page.video }}" class="btn btn-primary">Download Video  <span class="badge filetype-badge">MP4</span></a>
+
+            <div class="video-section">
+                <video width="700" height="400" controls poster="{{ page.video-image }}">
+                    <source src="{{ page.video }}" type="video/mp4">
+                </video>
+            </div>
+        <div class="container">
+            <div class="download-message">
+                <a href="{{ page.video }}" class="btn btn-primary">Download Video  <span class="badge filetype-badge">MP4</span></a>
+            </div>
         </div>
         {% else %}
-        <p><b>Video not found.</b></p>
+        <div class="container">
+            <p><b>Video not found.</b></p>
+        </div>
         {% endif %}
     </tab>
     <tab heading="Audio">
         {% if page.audio contains 'mp3' %}
-        <div class="audio-section">
+        <div class="audio-section container">
             <audio controls>
                 <source src="{{ page.audio }}" type="audio/mpeg">
             </audio>
-        </div>
-        <div class="download-message">
-            <a href="{{ page.audio }}" class="btn btn-primary">Download Audio  <span class="badge filetype-badge">MP3</span></a><br>
+
+            <div class="download-message">
+                <a href="{{ page.audio }}" class="btn btn-primary">Download Audio  <span class="badge filetype-badge">MP3</span></a><br>
+            </div>
         </div>
         {% else %}
-        <p><b>Audio not found.</b></p>
+        <div class="container">
+            <p><b>Audio not found.</b></p>
+        </div>
         {% endif %}
     </tab>
 </tabset>
 
-<header class="message-header">
-    <h1>{{ page.title }}</h1>
-    <h2 class="subheading">Series: {{ page.series }}</h2>
-    <p><span class="message-date text-muted">{{ page.date | date: "%A, %B %-d, %Y" }}</span></p> 
-</header>
-<div class="message-body">
-    
-    <p>{{ page.description }}</p>
-    {% if page.program contains 'pdf' %}
-    {% include addthis.html %}
-    <a href="{{ page.program }}" class="btn btn-primary">View Program  <span class="badge filetype-badge">PDF</span></a>  
-    <br>
-    {% endif %}
-
-</div><!--/message-body-->
+<div class="container">
+    <header class="message-header">
+        <h1>{{ page.title }}</h1>
+        <h2 class="subheading">Series: {{ page.series }}</h2>
+        <p><span class="message-date text-muted">{{ page.date | date: "%A, %B %-d, %Y" }}</span></p> 
+    </header>
+    <div class="message-body">
+        <p>{{ page.description }}</p>
+        {% if page.program contains 'pdf' %}
+        {% include addthis.html %}
+        <a href="{{ page.program }}" class="btn btn-primary">View Program  <span class="badge filetype-badge">PDF</span></a>  
+        <br>
+        {% endif %}
+    </div><!--/message-body-->
+</div>
