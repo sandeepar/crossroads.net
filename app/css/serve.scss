@@ -1,0 +1,19 @@
+.event-group {
+  .list-group-item {
+    @include clearfix;
+  }
+  .list-group-item-heading {
+    font-weight: normal;
+    font-size: $font-size-base;
+  }
+  .btn {
+    .icon {
+      margin-left: 3px;
+    }
+  }
+}
+
+.list-group-item-title {
+  background: $gray-lighter;  
+  font-weight: bold;
+}
