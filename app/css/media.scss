@@ -21,21 +21,28 @@
 
 .container-max {max-width: 1170px;}
 
-
-.message-header {
-  .lead {
-    margin: 0;
-  }
-
-  h2 {
-    margin: 0;
-  }
-}
-
 .message-body {
+  .nav-tabs {
+    margin-top: $line-height-computed;
+  }
+
   .tab-content {
     margin-top: $line-height-computed;
   }
+}
+
+.video-section {
+  background: $gray-darker;
+  text-align: center; 
+  margin-bottom: $line-height-computed;
+
+  iframe,video {
+    margin: 0 auto;
+  }
+}
+
+.audio-section {
+  margin-bottom: $line-height-computed;
 }
 
 /***************************************************************************************

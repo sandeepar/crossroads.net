@@ -2,44 +2,44 @@
 layout: one_column
 ---
 <header class="message-header">
-    <h2>{{ page.title }}</h2>
-    <h4 class="lead text-muted">Series: {{ page.series }}</h4>
-    <p><span class="message-date">{{ page.date | date: "%A, %B %-d, %Y" }}</span></p> 
+    <h1>{{ page.title }}</h1>
+    <h2 class="subheading">Series: {{ page.series }}</h2>
+    <p><span class="message-date text-muted">{{ page.date | date: "%A, %B %-d, %Y" }}</span></p> 
 </header>
 <div class="message-body">
+    {% include addthis.html %}
     <p>{{ page.description }}</p>
     {% if page.program contains 'pdf' %}
-    <a href="{{ page.program }}">View Program (pdf)</a><br>
+    <a href="{{ page.program }}" class="btn btn-default">View Program (PDF)</a><br>
     {% endif %}
-    <a href="#">Share</a>
     <tabset>
         <tab heading="Video">
-            <div class="col-sm-12">
-                {% if page.video contains 'mp4' %}
+            {% if page.video contains 'mp4' %}
+            <div class="video-section">
                 <video width="700" height="400" controls poster="{{ page.video-image }}">
                     <source src="{{ page.video }}" type="video/mp4">
                 </video>
-                <div class="download-message">
-                    <a href="{{ page.video }}">Download Video (mp4)</a>
-                </div>
-                {% else %}
-                <p><b>Video not found.</b></p>
-                {% endif %}
             </div>
+            <div class="download-message">
+                <a href="{{ page.video }}" class="btn btn-default">Download Video (MP4)</a>
+            </div>
+            {% else %}
+            <p><b>Video not found.</b></p>
+            {% endif %}
         </tab>
         <tab heading="Audio">
-            <div class="col-sm-12">
-                {% if page.audio contains 'mp3' %}
+            {% if page.audio contains 'mp3' %}
+            <div class="audio-section">
                 <audio controls>
                     <source src="{{ page.audio }}" type="audio/mpeg">
                 </audio>
-                <div class="download-message">
-                    <a href="{{ page.audio }}">Download Audio (mp3)</a><br>
-                </div>
-                {% else %}
-                <p><b>Audio not found.</b></p>
-                {% endif %}
             </div>
+            <div class="download-message">
+                <a href="{{ page.audio }}" class="btn btn-default">Download Audio (MP3)</a><br>
+            </div>
+            {% else %}
+            <p><b>Audio not found.</b></p>
+            {% endif %}
         </tab>
     </tabset>
 </div><!--/message-body-->
