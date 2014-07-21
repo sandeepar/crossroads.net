@@ -39,11 +39,11 @@
   "devDependencies": {
     "bootstrap": "~3.1.1"
   },
-  "_release": "fc7873524b",
+  "_release": "d34407d191",
   "_resolution": {
     "type": "branch",
     "branch": "master",
-    "commit": "fc7873524b3bec35475bbf168da8bac0bffa78b1"
+    "commit": "d34407d1910c73eb3c2e0bc15c1e5b5ce064251e"
   },
   "_source": "git://github.com/crdschurch/crds-ng-profile.git",
   "_target": "*",
