@@ -7,10 +7,12 @@ layout: one_column
     <p><span class="message-date text-muted">{{ page.date | date: "%A, %B %-d, %Y" }}</span></p> 
 </header>
 <div class="message-body">
-    {% include addthis.html %}
+    
     <p>{{ page.description }}</p>
     {% if page.program contains 'pdf' %}
-    <a href="{{ page.program }}" class="btn btn-default">View Program (PDF)</a><br>
+    {% include addthis.html %}
+    <a href="{{ page.program }}" class="btn btn-primary">View Program  <span class="badge filetype-badge">PDF</span></a>  
+    <br>
     {% endif %}
     <tabset>
         <tab heading="Video">
@@ -21,7 +23,7 @@ layout: one_column
                 </video>
             </div>
             <div class="download-message">
-                <a href="{{ page.video }}" class="btn btn-default">Download Video (MP4)</a>
+                <a href="{{ page.video }}" class="btn btn-primary">Download Video  <span class="badge filetype-badge">MP4</span></a>
             </div>
             {% else %}
             <p><b>Video not found.</b></p>
@@ -35,7 +37,7 @@ layout: one_column
                 </audio>
             </div>
             <div class="download-message">
-                <a href="{{ page.audio }}" class="btn btn-default">Download Audio (MP3)</a><br>
+                <a href="{{ page.audio }}" class="btn btn-primary">Download Audio  <span class="badge filetype-badge">MP3</span></a><br>
             </div>
             {% else %}
             <p><b>Audio not found.</b></p>
