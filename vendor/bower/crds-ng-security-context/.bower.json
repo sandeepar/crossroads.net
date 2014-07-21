@@ -37,11 +37,11 @@
   "devDependencies": {
     "bootstrap": "~3.1.1"
   },
-  "_release": "2db8e72cff",
+  "_release": "91e18ef7bf",
   "_resolution": {
     "type": "branch",
     "branch": "master",
-    "commit": "2db8e72cffc0750d4a5cf65ffd8e22ec9ba5f6d4"
+    "commit": "91e18ef7bf725e969e84d28dbe3d0f7106a992e1"
   },
   "_source": "git://github.com/crdschurch/crds-ng-security-context.git",
   "_target": "*",

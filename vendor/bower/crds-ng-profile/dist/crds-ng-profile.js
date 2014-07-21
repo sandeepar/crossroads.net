@@ -67,8 +67,8 @@
                 var parent, user;
                 user = $scope.securityContext.user;
                 if (loggedIn && user) {
-                  console.log("crdsProfile - Current user has changed to " + user.firstName);
-                  Profile.getContact(user.id).then(function(data) {
+                  console.log("crdsProfile - Current user has changed to " + user.FirstName);
+                  Profile.getContact(user.ContactId).then(function(data) {
                     return $scope.contact = data;
                   });
                   _this.removeLoading();
