@@ -340,6 +340,10 @@ header.show .container {
   }
 }
 
+.login__container {
+  float: none;
+}
+
 .navbar--login {
   float: right;
   margin-top: 2px;
@@ -407,10 +411,14 @@ header.show .container {
   @include gradient(#7AA8C2, #4A81A0);
 }
 
-.icon__container {
+.login__icon__container {
   position: absolute;
-  margin-top: -32px;
-  right: 18px;
+  margin-top: -25px;
+  right: 25px;
+  fill: $gray-light; 
+  &:hover {
+    fill: $cr-orange;
+  }
 }
 
 /***** Mobile Nav *****/
