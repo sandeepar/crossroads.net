@@ -1,13 +1,13 @@
 {
-  "name": "crds-ng-security-context",
-  "homepage": "https://github.com/crdschurch/crds-ng-security-context",
+  "name": "crds-ng-profile",
+  "homepage": "https://github.com/crdschurch/crds-ng-profile",
   "authors": [
     "Chris Tallent <chris@tallented.net>",
     "Dan Rye <drye@crossroads.net>",
     "bzmillerboy <bzmiller82@gmail.com>",
     "Tony Maddox <tony.maddox@ingagepartners.com>"
   ],
-  "description": "SecurityContext AngularJS module providing load and store current user using application-supplied authentication implementation",
+  "description": "AngularJS module for Ministry Platform profile view and edit",
   "keywords": [
     "angular",
     "angularjs",
@@ -16,7 +16,7 @@
     "crossroads.net"
   ],
   "license": "MIT",
-  "main": "dist/crds-ng-security-context.js",
+  "main": "dist/crds-ng-profile.js",
   "ignore": [
     "app",
     "config",
@@ -32,18 +32,20 @@
   ],
   "dependencies": {
     "angular": "1.3.0-beta.14",
-    "ngstorage": "~0.3.0"
+    "crds-ng-security-context": "*",
+    "ngstorage": "~0.3.0",
+    "angular-bootstrap": "~0.11.0"
   },
   "devDependencies": {
     "bootstrap": "~3.1.1"
   },
-  "_release": "91e18ef7bf",
+  "_release": "d34407d191",
   "_resolution": {
     "type": "branch",
     "branch": "master",
-    "commit": "91e18ef7bf725e969e84d28dbe3d0f7106a992e1"
+    "commit": "d34407d1910c73eb3c2e0bc15c1e5b5ce064251e"
   },
-  "_source": "git://github.com/crdschurch/crds-ng-security-context.git",
+  "_source": "git://github.com/crdschurch/crds-ng-profile.git",
   "_target": "*",
-  "_originalSource": "crds-ng-security-context"
+  "_originalSource": "crds-ng-profile"
 }

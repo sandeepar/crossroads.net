@@ -1,0 +1,6 @@
+node_modules/
+vendor/bower
+generated/
+bin/
+*.iml
+/.project

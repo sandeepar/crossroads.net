@@ -23,7 +23,7 @@ This module addresses the possible scenarios for logged in and user authenticati
     * Server may not authenticate user
 * Authenticated user clicks an Ajax Logout button on the page:
     * User is removed from Local Storage and logged out from the Server
-    
+
 ## API
 ### Fields
 
@@ -45,37 +45,37 @@ Demo page source: [server/static/index.html](https://github.com/crdschurch/crds-
 
 ### Include the module
 
-```javascript   
+```javascript
 angular.module("app", ["crdsSecurityContext"])
 ```
- 
+
 ### Including a custom Authentication implementation
 Note that the SecurityContext module expects an authentication implementation to also be an injectable dependency of the application
-using the dependency name **"crdsAuth"** and injecting **"Auth"**.  The Secure User module does not provide its own auth implementation. 
+using the dependency name **"crdsAuth"** and injecting **"Auth"**.  The Secure User module does not provide its own auth implementation.
 
 ### Including the Local Storage module
-The SecurityContext module uses [ngStorage](https://github.com/gsklee/ngStorage) to access Local Storage to persist the 
+The SecurityContext module uses [ngStorage](https://github.com/gsklee/ngStorage) to access Local Storage to persist the
 logged in users between page reloads.  The user's login status is than validated with the server after a reload.
 
-```javascript   
+```javascript
 angular.module("app", ["crdsSecurityContext", "crdsAuth", "ngStorage"])
 ```
-    
-## Use the SecurityContext service 
+
+## Use the SecurityContext service
 
 ### Display information about the authenticated user
 ```html
 <ul ng-show="securityContext.user">
     <li>User Id: {{securityContext.userId}}</li>
-    <li>First Name: {{securityContext.user.firstName}}</li>
-    <li>Last Name: {{securityContext.user.lastName}}</li>
+    <li>First Name: {{securityContext.user.FirstName}}</li>
+    <li>Last Name: {{securityContext.user.LastName}}</li>
 </ul>
 ```
 
-### Login and Logout ###    
+### Login and Logout ###
 Inject SecurityContext into a Login Controller to trigger login and logout actions
 
-```javascript    
+```javascript
 .controller("LoginCtrl", function ($scope, SecurityContext) {
     $scope.login = function() {
         console.log("User logs in");
@@ -102,29 +102,27 @@ This is automatically invoked by the SecurityContext module in a run() function
 ### Set the Session Timeout for the user in Local Storage
 Use a "config" call on your application to set the timeout (default: 30 minutes)
 
-```javascript   
+```javascript
 .config(function (SecurityContextProvider) {
     SecurityContextProvider.setSessionMinutes(5);
 })
-```    
-    
+```
+
 ## How to build and test locally
 ### Install Build Dependencies
     npm install
     bower install
 
 ### Execute the buildfile and watch tasks
-    gulp 
-    
+    gulp
+
 ### View test page at
     http://localhost:3000
-    
+
 ### Build the distribution
     gulp build
-    
+
 Minified and Debug versions copied to:
 
 * dist/crds-ng-security-context.js
 * dist/crds-ng-security-context.min.js
-
-
