@@ -2,7 +2,7 @@
 layout: right_column
 ---
 <h2>{{ page.title }}</h2>
-<a href="#disqus_thread">0 Comments</a>
+<a href="#disqus_thread">0 Comments</a> <svg viewBox="0 0 32 32" class="icon icon-bubble"><use xlink:href="#bubble"></use></svg> 
 	<span class="category_title">
 		<em>
 			<a href="/tags/{{tag}}" class="category-link">{{ page.category }}</a>
@@ -12,7 +12,7 @@ layout: right_column
 	<span class="posted_by_label">Posted by</span>
 	<a class="author_link">Author</a>
 	<span> on </span>
-	<span class="meta">{{ page.date | date_to_string | date: "%B %d, %Y" }}</span>
+	<span class="meta">{{ page.date | date_to_string | date: "%b %d, %Y" }}</span>
 
 <div class="post">
 {{ content }}
