@@ -25,6 +25,7 @@ module.exports =
     "vendor/bower/ngstorage/ngStorage.js"
     "vendor/bower/crds-angular-ajax-form/dist/crds-angular-ajax-form.min.js"
     "vendor/bower/crds-ng-security-context/dist/crds-ng-security-context.js"
+    "vendor/bower/crds-ng-profile/dist/crds-ng-profile.js"
     ".tmp/js/app.js"
     "spec/js/**/*.coffee"
     "app/templates/**/*.html"
