@@ -1,13 +1,16 @@
 ---
 layout: right_column
 permalink: /prayerrequest/
+published: true
 ---
+
 <!-- Template: prayer-request.html -->
 
-<h2>
+<h1 class="heading">
     Prayer Requests
+</h1>
+<h2 class="subheading"><small>We absolutely believe in the power of prayer.</small>
 </h2>
-<h3><small>We absolutely believe in the power of prayer.</small></h3>
 
 <p>
     Please know that your prayer requests are confidential within our Prayer Team, and we are ready to hear you.
@@ -19,10 +22,12 @@ permalink: /prayerrequest/
 <br/>
 
 <div>
-    <form crds-ajax-form="fields" name="form" action="/form-mail" method="post">
+    <form crds-ajax-form="fields" crds-bootstrap-validation name="form" action="/form-mail" method="post" novalidate
+          ng-model-options="{ updateOn: 'default blur', debounce: {'default': 1500, 'blur': 0} }">
+
         <!-- Form Configuration -->
         <input type="hidden" name="crds-form-authorization-signature" value=""/>
-        <input type="hidden" name="crds-form-to" value="302796"/>
+        <input type="hidden" name="crds-form-to" value="2"/>
         <input type="hidden" name="crds-form-subject" value="Prayer Request">
         <input type="hidden" name="crds-form-reply-name" value="replyName"/>
         <input type="hidden" name="crds-form-reply-email" value="replyEmail"/>
@@ -30,16 +35,25 @@ permalink: /prayerrequest/
         <input type="hidden" name="crds-form-require[replyName]" value="true"/>
 
         <div class="form-group">
-            <label for="replyName">Name</label>
-            <input type="text" class="form-control" id="replyName" name="replyName" ng-model="fields.replyName" required/>
+            <label for="reply-name">Name</label>
+            <input type="text" class="form-control" id="reply-name" name="replyName" ng-model="fields.replyName" required/>
+            <span ng-show="form.replyName.$invalid && form.replyName.$dirty">
+                Please provide a name
+            </span>
         </div>
         <div class="form-group">
-            <label for="replyEmail">Email</label>
-            <input type="email" class="form-control" id="replyEmail" name="replyEmail" ng-model="fields.replyEmail" required/>
+            <label for="reply-email">Email</label>
+            <input type="text" class="form-control" id="reply-email" name="replyEmail" ng-model="fields.replyEmail" required ng-pattern="/.*@.*\..*/"/>
+            <span ng-show="form.replyEmail.$invalid && form.replyEmail.$dirty">
+                Please provide a valid email address
+            </span>
         </div>
         <div class="form-group">
             <label for="request">Prayer Request</label>
             <textarea class="form-control" id="request" name="request" ng-model="fields.request" required></textarea>
+            <span ng-show="form.request.$invalid && form.request.$dirty">
+                Please provide a prayer request
+            </span>
         </div>
         <div class="form-group">
             <button type="submit" class="btn btn-default">Submit</button>
