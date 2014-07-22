@@ -19,10 +19,11 @@ permalink: /estategiving/
 <br/>
 
 <div>
-    <form crds-ajax-form="fields" name="form" action="/form-mail" method="post">
+    <form crds-ajax-form="fields" crds-bootstrap-validation name="form" action="/form-mail" method="post" novalidate
+          ng-model-options="{ updateOn: 'default blur', debounce: {'default': 1500, 'blur': 0} }">
         <!-- Form Configuration -->
         <input type="hidden" name="crds-form-authorization-signature" value=""/>
-        <input type="hidden" name="crds-form-to" value="302796"/>
+        <input type="hidden" name="crds-form-to" value="2"/>
         <input type="hidden" name="crds-form-subject" value="Estate Giving"/>
         <input type="hidden" name="crds-form-redirect" value="/contact-submitted"/>
         <input type="hidden" name="crds-form-reply-name" value="replyName"/>
@@ -35,18 +36,30 @@ permalink: /estategiving/
         <div class="form-group">
             <label for="replyName">Name</label>
             <input type="text" class="form-control" id="replyName" name="replyName" ng-model="fields.replyName" required/>
+            <span ng-show="form.replyName.$invalid && form.replyName.$dirty">
+                Please provide a name
+            </span>
         </div>
         <div class="form-group">
             <label for="replyEmail">E-Mail Address</label>
-            <input type="email" class="form-control" id="replyEmail" name="replyEmail" ng-model="fields.replyEmail" required/>
+            <input type="email" class="form-control" id="replyEmail" name="replyEmail" ng-model="fields.replyEmail" required ng-pattern="/.*@.*\..*/"/>
+            <span ng-show="form.replyEmail.$invalid && form.replyEmail.$dirty">
+                Please provide a valid email address
+            </span>
         </div>
         <div class="form-group">
             <label for="phoneNumber">Phone Number</label>
-            <input type="tel" class="form-control" id="phoneNumber" name="phoneNumber" ng-model="fields.phoneNumber"/>
+            <input type="tel" class="form-control" id="phoneNumber" name="phoneNumber" ng-model="fields.phoneNumber" required/>
+            <span ng-show="form.phoneNumber.$invalid && form.phoneNumber.$dirty">
+                Please provide phone number
+            </span>
         </div>
         <div class="form-group">
             <label for="message">Detailed Description of the Transfer</label>
             <textarea class="form-control" id="message" name="message" ng-model="fields.message" required></textarea>
+            <span ng-show="form.message.$invalid && form.message.$dirty">
+                Please provide a description
+            </span>
         </div>
         <div class="form-group">
             <button type="submit" class="btn btn-default">Send</button>
