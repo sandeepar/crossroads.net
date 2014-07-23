@@ -30,7 +30,9 @@
     "angular-mocks": "~1.2.16",
     "angular-growl-v2": "~0.6.1",
     "crds-angular-ajax-form": "*",
-    "crds-ng-security-context": "*"
+    "crds-ng-security-context": "*",
+    "svg4everybody": "git@github.com:jonathantneal/svg4everybody",
+    "angular-fitvids": "git@github.com:jimmyhillis/angular-fitvids"
   },
   "resolutions": {
     "angular": "1.2.16"

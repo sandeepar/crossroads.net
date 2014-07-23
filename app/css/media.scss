@@ -31,6 +31,14 @@
   }
 }
 
+.video-container {
+  @extend .row;
+  @media (min-width: $screen-sm-min) {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 .video-section {
   background: $gray-darker;
   text-align: center; 
