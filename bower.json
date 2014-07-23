@@ -31,8 +31,9 @@
     "angular-growl-v2": "~0.6.1",
     "crds-angular-ajax-form": "*",
     "crds-ng-security-context": "*",
-    "svg4everybody": "git@github.com:jonathantneal/svg4everybody",
-    "angular-fitvids": "git@github.com:jimmyhillis/angular-fitvids"
+    "svg4everybody": "*",
+    "angular-fitvids": "git@github.com:jimmyhillis/angular-fitvids",
+    "plangular": "git@github.com:jxnblk/plangular"
   },
   "resolutions": {
     "angular": "1.2.16"
