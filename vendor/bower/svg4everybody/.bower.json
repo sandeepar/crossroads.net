@@ -7,7 +7,7 @@
     "branch": "master",
     "commit": "1b17243b305fa7f0e95786c5acb586ade06ad1f6"
   },
-  "_source": "git://github.com/jonathantneal/svg4everybody.git",
+  "_source": "git@github.com:jonathantneal/svg4everybody.git",
   "_target": "*",
-  "_originalSource": "svg4everybody"
+  "_originalSource": "git@github.com:jonathantneal/svg4everybody"
 }
