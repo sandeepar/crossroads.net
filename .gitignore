@@ -18,3 +18,4 @@ vendor/ruby
 .project
 npm-debug.log
 config/_config.local.yml
+.env

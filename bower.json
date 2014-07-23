@@ -31,9 +31,10 @@
     "angular-growl-v2": "~0.6.1",
     "crds-angular-ajax-form": "*",
     "crds-ng-security-context": "*",
-    "svg4everybody": "git@github.com:jonathantneal/svg4everybody"
+    "svg4everybody": "*",
+    "crds-ng-profile": "*"
   },
   "resolutions": {
-    "angular": "1.2.16"
+    "angular": "1.3.0-beta.15"
   }
 }
