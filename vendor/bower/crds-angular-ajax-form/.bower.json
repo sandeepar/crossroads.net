@@ -1,6 +1,6 @@
 {
   "name": "crds-angular-ajax-form",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/crdschurch/crds-angular-ajax-form",
   "authors": [
     "Chris Tallent <chris@tallented.net>",
@@ -37,11 +37,11 @@
     "bootstrap": "~3.1.1",
     "angular-growl-v2": "~0.6.1"
   },
-  "_release": "0.1.0",
+  "_release": "0.1.1",
   "_resolution": {
     "type": "version",
-    "tag": "v0.1.0",
-    "commit": "3a313c15a764ede56352cff4e1a55e99f7264d11"
+    "tag": "v0.1.1",
+    "commit": "190f51e33f6d5fab11c9a4f2f3ba3ce94d542449"
   },
   "_source": "git://github.com/crdschurch/crds-angular-ajax-form.git",
   "_target": "*",

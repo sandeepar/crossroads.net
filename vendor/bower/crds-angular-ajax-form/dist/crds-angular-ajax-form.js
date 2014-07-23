@@ -185,6 +185,7 @@
             }
             this.errorFields = [];
             if (form.$valid) {
+              form.$submitting = true;
               fields = $scope.$eval($attrs.crdsAjaxForm) || {};
               _ref1 = this.hidden;
               for (_j = 0, _len1 = _ref1.length; _j < _len1; _j++) {
@@ -212,10 +213,12 @@
                     $scope.$emit('notify.success', _this.FORM_SUCCESS_MESSAGE);
                   }
                   form.$setPristine();
+                  form.$submitting = false;
                 };
               })(this)).error((function(_this) {
                 return function(data, status, headers, config) {
                   var error, _k, _len2;
+                  form.$submitting = false;
                   if (status === 400) {
                     $scope.$emit('notify.error', _this.VALIDATION_ERROR_MESSAGE);
                     if (data) {
