@@ -1,0 +1,51 @@
+{
+  "name": "crds-ng-profile",
+  "homepage": "https://github.com/crdschurch/crds-ng-profile",
+  "authors": [
+    "Chris Tallent <chris@tallented.net>",
+    "Dan Rye <drye@crossroads.net>",
+    "bzmillerboy <bzmiller82@gmail.com>",
+    "Tony Maddox <tony.maddox@ingagepartners.com>"
+  ],
+  "description": "AngularJS module for Ministry Platform profile view and edit",
+  "keywords": [
+    "angular",
+    "angularjs",
+    "ministryplatform",
+    "crds",
+    "crossroads.net"
+  ],
+  "license": "MIT",
+  "main": "dist/crds-ng-profile.js",
+  "ignore": [
+    "app",
+    "config",
+    "**/*.iml",
+    "generated",
+    "gulpfile.*",
+    "node_modules",
+    "package.json",
+    "bower_components",
+    "server",
+    "spec",
+    "vendor"
+  ],
+  "dependencies": {
+    "angular": "1.3.0-beta.14",
+    "crds-ng-security-context": "*",
+    "ngstorage": "~0.3.0",
+    "angular-bootstrap": "~0.11.0"
+  },
+  "devDependencies": {
+    "bootstrap": "~3.1.1"
+  },
+  "_release": "d34407d191",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "d34407d1910c73eb3c2e0bc15c1e5b5ce064251e"
+  },
+  "_source": "git://github.com/crdschurch/crds-ng-profile.git",
+  "_target": "*",
+  "_originalSource": "crds-ng-profile"
+}
