@@ -93,6 +93,9 @@
             console.log("No current user logged in to Ministry Platform");
             return clear();
           }
+        }, function(error) {
+          console.log("No current user logged in to Ministry Platform");
+          return clear();
         });
       };
       clear = function() {
