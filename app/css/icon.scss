@@ -72,3 +72,19 @@
 .loading-example {
   min-height: 300px;
 }
+
+/***************************************************************************************
+* SVG Preview Page
+***************************************************************************************/
+
+.snippet-popover {
+  pre {
+    padding: 0px;
+    background: transparent;
+    border: none;
+
+    code {
+      font-size: 12px;
+    }
+  }
+}

@@ -30,9 +30,11 @@
     "angular-mocks": "~1.2.16",
     "angular-growl-v2": "~0.6.1",
     "crds-angular-ajax-form": "*",
-    "crds-ng-security-context": "*"
+    "crds-ng-security-context": "*",
+    "svg4everybody": "*",
+    "crds-ng-profile": "*"
   },
   "resolutions": {
-    "angular": "1.2.16"
+    "angular": "1.3.0-beta.15"
   }
 }

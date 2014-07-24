@@ -37,7 +37,7 @@
               elapsed = (new Date().getTime() - seenDate.getTime()) / 1000 / 60;
               if (elapsed <= sessionMinutes) {
                 this.user = localUser;
-                this.userId = localUser.id;
+                this.userId = localUser.ContactId;
                 this.loggedIn = true;
                 this.seenDate = new Date();
               } else {
@@ -84,7 +84,7 @@
           if (user) {
             console.log("Received current user from Ministry Platform");
             securityContext.user = user;
-            securityContext.userId = user.id;
+            securityContext.userId = user.ContactId;
             securityContext.loggedIn = true;
             securityContext.seenDate = new Date();
             $localStorage.securityContext = user;
