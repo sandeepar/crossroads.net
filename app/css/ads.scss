@@ -2,8 +2,9 @@
 	color: $cr-blue;
 }
 
-.panel {
-	padding: 20px 20px 10px 20px;
+.ad__panel {
+	@extend .panel;
+	padding: 20px;
 	border-radius: 0px;
   background: -webkit-linear-gradient(#fff, $gray-lighter); /* For Safari 5.1 to 6.0 */
   background: -o-linear-gradient(#fff, $gray-lighter); /* For Opera 11.1 to 12.0 */
@@ -11,9 +12,10 @@
   background: linear-gradient(#fff, $gray-lighter); /* Standard syntax (must be last) */
 }
 
-.panel-label {
+.ad__panel__label {
+	@extend .panel-label;
 	background-color: $gray-light;
-	font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue", Helvetica, Arial, san-serif;
+	font-family: $brand-font-family;
 	text-transform: uppercase;
 	color: #ffffff;
 	padding: 0px 10px;
@@ -24,74 +26,18 @@
 	font-weight: normal;
 }
 
-.panel-headline {
+.ad__panel__headline {
+	@extend .panel-headline;
 	text-transform: uppercase;
 	color: #3b6e8f;
 	font-size: 70px;
 	line-height: 0.9;
-	font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue", Helvetica, Arial, san-serif;
-}
-
-.headline-orange {
-	color: $cr-orange;
-	font-size: 60px;
-	line-height: 0.9;
-	margin-right: 10px;
-	font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue", Helvetica, Arial, san-serif;
-}
-
-.headline-gray {
-	color: $gray-light;
-	text-transform: lowercase;
-	display: inline-block;
-	font-size: 50px;
-	font-weight: 200;
-}
-
-.headline-green {
-	color: #8aaa3c;
-	text-transform: uppercase;
-	font-size: 40px;
-	line-height: 0.9;
-	font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue", Helvetica, Arial, san-serif;
-}
-
-.dropdown {
-  display: inline-block;
-	cursor: pointer;
-	margin: 10px 0px;
-	width: 100%;
-	height: 35px;
-	background: #fff;
-	border: 1px solid #cccccc;
-	font-weight: normal;
-}
-
-.dropdown-label {
-	position:relative;
-	width: 100%;
-	&:after {
-	  content: '';
-		margin-top: -40px;
-		padding: 0 0 2px;
-		border-right: 2px solid #ddd;
-		position: absolute;
-		height: 25px;
-		right: 20px;
-	}
-}
-
-.help__link {
-	color: $cr-orange;
-	font-weight: bold;
-}
-
-.ad_header {
-	color: $cr-blue;
-	margin: 0 0 5px 0;
+	margin-bottom: 15px;
+	font-family: $brand-font-family;
 }
 
 hr.dark {
+	margin-bottom: 10px;
 	border-color: #cdcdcd;
 	border-width: 2px;
 }
@@ -111,22 +57,35 @@ hr.dark {
 		padding: 0;
 	}
 	img.img-responsive {
-		display: block;
-		max-width: 45%;
+		display: inline-block;
+		width: 48%;
+		max-width: 190px;
 		height: auto;
 		float: left;
+		margin-left: 4%;
 		&:first-child {
-			margin-right: 36px;
+			margin-left: 0;
 		}
 	}
 }
 
+.ad__header {
+	color: $cr-blue;
+	margin: 15px 0 5px 0;
+}
+
+.ad__select {
+	margin-bottom: 15px;
+}
+
 .ad__content {
 	width: 55%;
+	line-height: 1.4;
 }
 
 .ad__content__wide {
 	width: 70%;
+	line-height: 1.4;
 }
 
 .ad__image__container {
@@ -134,21 +93,22 @@ hr.dark {
 	display: block;
 	img {
 		position: absolute;
-		top: -115px;
-		right: -20px;
+		top: -106px;
+		right: -19px;
 	}
 }
 
 .ad__image__jeremy {
-	margin-top: -148px;
-	margin-left: 139px;
-	margin-bottom: -11px;
+	margin-top: -112px;
+	margin-left: 136px;
+	margin-bottom: -19px;
+
 }
 
 .ad__image__naomi {
-	margin-top: -128px;
-	margin-left: 164px;
-	margin-bottom: -11px;
+	margin-top: -80px;
+	margin-left: 161px;
+	margin-bottom: -19px;
 }
 
 .ad__image__skip {
@@ -159,43 +119,42 @@ hr.dark {
 
 .ad__image__kristen {
 	float: left;
-	margin-top: -173px;
-	margin-left: 190px;
+	margin-top: -165px;
+	margin-left: 189px;
 }
 
 .ad__image__daniel {
 	float: left;
-	margin-top: -147px;
-	margin-left: 184px;
+	margin-top: -138px;
+	margin-left: 183px;
 }
 
 .ad__image__heather {
 	float: left;
-	margin-top: -152px;
-	margin-left: 157px;
+	margin-top: -144px;
+	margin-left: 156px;
 }
 
 .ad__image__karen {
 	float: left;
-	margin-top: -168px;
-	margin-left: 196px;
+	margin-top: -159px;
+	margin-left: 195px;
 }
 
-.ad__image__kids {
+.ad__image-kids {
 	margin-top: -179px;
 	margin-left: 179px;
 }
 
-.ad-btn {
+.ad__btn {
 	padding: 0px 20px;
-	font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue", Helvetica, Arial, san-serif;
+	font-family: $brand-font-family;
 	text-transform: uppercase;
 	font-size: 16px;
 	-webkit-font-smoothing: antialiased;
 	-moz-font-smoothing: antialiased;
 	font-smoothing: antialiased;
 	margin-bottom: 10px;
-	margin-top: -175px;
-	margin-left: 185px;
-	margin-bottom: -32px;
+	margin-top: 0px;
+	margin-left: -2px;
 }

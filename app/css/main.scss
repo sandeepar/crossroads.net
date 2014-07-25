@@ -47,6 +47,28 @@ h6.subheading {
   font-size: $font-size-h6*$subheading-ratio
 }
 
+.headline--orange {
+  color: $cr-orange;
+  font-size: 60px;
+  line-height: 0.9;
+  margin-right: 10px;
+  font-family: $brand-font-family;
+}
+.headline--gray {
+  color: $gray-light;
+  text-transform: lowercase;
+  display: inline-block;
+  font-size: 50px;
+  font-weight: 200;
+}
+.headline--green {
+  color: #8aaa3c;
+  text-transform: uppercase;
+  font-size: 40px;
+  line-height: 0.9;
+  font-family: $brand-font-family;
+}
+
 .brand-font {
   font-family: $brand-font-family;
   text-transform: uppercase;
@@ -110,6 +132,14 @@ footer .open, footer .office {
 
 .home .coffee-cup {
   max-width: 300px;
+}
+
+.link--orange {
+  color: $cr-orange;
+  font-weight: 400;
+  &:hover {
+    color: $cr-dkblue;
+  }
 }
 
 
