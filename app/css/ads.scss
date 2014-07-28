@@ -13,7 +13,6 @@
 }
 
 .ad__panel__label {
-	@extend .panel-label;
 	background-color: $gray-light;
 	font-family: $brand-font-family;
 	text-transform: uppercase;
@@ -27,10 +26,9 @@
 }
 
 .ad__panel__headline {
-	@extend .panel-headline;
 	text-transform: uppercase;
 	color: #3b6e8f;
-	font-size: 70px;
+	font-size: 60px;
 	line-height: 0.9;
 	margin-bottom: 15px;
 	font-family: $brand-font-family;
