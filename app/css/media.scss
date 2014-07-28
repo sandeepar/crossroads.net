@@ -26,6 +26,10 @@
     margin-top: $line-height-computed;
     border-bottom: 1px solid white;
     @extend .container;
+
+    .li:first-child {
+      margin-left: 100px;
+    }
   }
 
   .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
@@ -53,6 +57,10 @@
   }
 }
 
+.media-background {
+  background: $gray-darker;
+}
+
 .message-body {
   .social_media_buttons {
     padding-top: 0px;
@@ -60,9 +68,60 @@
 }
 
 .audio-container {
-  padding-top: $line-height-computed;
-  padding-bottom: $line-height-computed;
+  .media {
+    margin-top: -($line-height-computed*2);
+  }
 }
+
+// Progress bar
+.progress {
+  position: relative;
+}
+.plangular-progress {
+  background: transparent;
+  margin: 0;
+  z-index: 2;
+  height: $line-height-computed;
+  cursor: pointer;
+}
+.bootstrap-progress {
+  margin-top: -($line-height-computed);
+  z-index: 1;
+}
+.progress-percentage {
+  margin-left: 10px;
+}
+.audio-container {
+  .progress-bar {
+    background: $gray;
+  }
+}
+.progress-bar[aria-valuenow="0"] {
+  color: $brand-primary;
+}
+.plangular-icon {
+  max-width: 24px;
+  max-height: 24px;
+  fill: whitesmoke;
+  -webkit-filter: drop-shadow(0px 1px 2px rgba(0,0,0,.1)); 
+  filter: drop-shadow(0px 1px 2px rgba(0,0,0,.1));
+}
+
+
+@media (max-width: $screen-sm-min) { 
+  .message-body {
+    .btn {
+      width: 100%;
+      margin-top: $line-height-computed/2;
+    }
+    .social_media_buttons {
+      padding-top: 0px;
+      float: left;
+    }
+  }
+}
+
+
 /***************************************************************************************
 * Message Preview Include - used on _includes/media/message_preview.html
 ***************************************************************************************/

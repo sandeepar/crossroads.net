@@ -226,6 +226,12 @@ footer .open, footer .office {
 }
 
 .btn {
+  text-transform: uppercase;
+  font-family: $brand-font-family;
+  font-size: 16px;
+  padding: 3px 8px;
+  font-weight: normal;
+
   .icon {
     fill: #fff;
   }
@@ -300,5 +306,5 @@ footer .open, footer .office {
 ***************************************************************************************/
 .filetype-badge {
   border-radius: 3px;
-  margin-left: 10px;
+  margin-left: 5px;
 }
