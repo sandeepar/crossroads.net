@@ -24,7 +24,14 @@
 .message-media {
   .nav-tabs {
     margin-top: $line-height-computed;
+    border-bottom: 1px solid white;
     @extend .container;
+  }
+
+  .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    background-color: $gray-darker;
+    color: #fff;
+    border: 1px solid $gray-darker;
   }
 
   .tab-content {
@@ -50,6 +57,11 @@
   .social_media_buttons {
     padding-top: 0px;
   }
+}
+
+.audio-container {
+  padding-top: $line-height-computed;
+  padding-bottom: $line-height-computed;
 }
 /***************************************************************************************
 * Message Preview Include - used on _includes/media/message_preview.html
