@@ -14,6 +14,7 @@
 @import 'sprites';
 @import 'icon';
 @import 'ads';
+@import 'utilities';
 
 body {
   font-weight: 300;
@@ -55,11 +56,12 @@ h6.subheading {
   font-family: $brand-font-family;
 }
 .headline--gray {
-  color: $gray-light;
+  color: $cr-grey;
   text-transform: lowercase;
   display: inline-block;
   font-size: 50px;
-  font-weight: 200;
+  font-weight: 300;
+  font-family: $font-family-sans-serif;
 }
 .headline--green {
   color: #8aaa3c;
@@ -224,7 +226,7 @@ footer .open, footer .office {
 
 .btn {
   .icon {
-    fill: #fff; 
+    fill: #fff;
   }
 }
 
