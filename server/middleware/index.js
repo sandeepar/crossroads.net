@@ -8,6 +8,7 @@ cookieParser = require('cookie-parser');
 session = require('express-session');
 RedisStore = require('connect-redis')(session);
 refreshToken = require('./refresh-token');
+path = require('path');
 
 module.exports = function(app) {
   app.use(bodyParser());
@@ -22,7 +23,7 @@ module.exports = function(app) {
   app.use(passport.session());
   app.use(refreshToken());
   app.use('/api', apiProxy('https://my.crossroads.net/'));
-  app.use(express.static(__dirname + "/../../generated"));
+  app.use(express.static(path.resolve(__dirname + '/../../generated')));
   if (process.env.NODE_ENV === 'development') {
     app.use(express.static(__dirname + "/../../.tmp"));
     app.use(express.static(__dirname + "/../../vendor"));
