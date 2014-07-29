@@ -1,8 +1,4 @@
-.right_column_header {
-	color: $cr-blue;
-}
-
-.ad {
+.billboard {
 	@extend .panel;
 	padding: 20px;
 	margin-bottom: 40px;
@@ -15,7 +11,7 @@
   background: linear-gradient(#fff, $gray-lighter); /* Standard syntax (must be last) */
 }
 
-.ad__label {
+.billboard-label {
 	background-color: lighten($gray-light,15);
 	font-family: $brand-font-family;
 	text-transform: uppercase;
@@ -27,7 +23,7 @@
 	font-weight: normal;
 }
 
-.ad__headline {
+.billboard-headline {
 	font-family: $brand-font-family;
 	font-size: 60px;
 	text-transform: uppercase;
@@ -37,30 +33,68 @@
 	margin: 0 auto 15px;
 }
 
-.ad__heading--secondary {
-	color: $brand-secondary;
+.billboard-subheadline {
+	color: $cr-blue;
+	margin: 10px 0 5px 0;
+	font-size: 14px;
 }
 
-.ad__heading--primary {
-	color: $brand-primary;
-}
-
-.ad__heading--lowercase {
+.billboard-headline--light {
 	text-transform: lowercase;
+	display: inline-block;
+	font-size: 50px;
+	font-weight: 300;
+	font-family: $font-family-sans-serif;
 }
 
-.divider--dark {
+.billboard-headline--green {
+	color: #8aaa3c;
+	text-transform: uppercase;
+	font-size: 40px;
+	line-height: 0.9;
+	font-family: $brand-font-family;
+}
+
+.billboard-content {
+	width: 70%;
+	line-height: 1.4;
+}
+
+.billboard-content--short {
+	width: 55%;
+	line-height: 1.4;
+}
+
+
+.billboard-image__bottom-right {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	height: 145px;
+}
+
+.billboard-image__center-right {
+	position: absolute;
+	right: 15px;
+	top: 25%;
+	height: 80px;
+}
+
+//This button style will be applied globally and will be removed//
+.ad__btn {
+	padding: 0px 20px;
+	font-family: $brand-font-family;
+	text-transform: uppercase;
+	font-size: 16px;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	font-smoothing: antialiased;
 	margin-bottom: 10px;
-	border: $cr-grey;
-	border-width: 1px;
+	margin-top: 0px;
 }
 
-.series--container {
-	margin-bottom: 25px;
-}
-
-.carousel-indicators {
-	display: none;
+.carousel-container {
+	margin-bottom: 30px;
 }
 
 .carousel-inner {
@@ -82,57 +116,16 @@
 	}
 }
 
-.ad__subheadline {
-	color: $cr-blue;
-	margin: 10px 0 5px 0;
-	font-size: 14px;
+.carousel-indicators {
+	display: none;
 }
 
-// .ad__select {
-// 	margin-bottom: 15px;
-// }
-
-.ad__content {
-	width: 55%;
-	line-height: 1.4;
-}
-
-.ad__content--wide {
-	width: 70%;
-	line-height: 1.4;
-}
-
-.ad__image{
-	position: absolute;
-	bottom: 0;
-	right: 0;
-	height: 145px;
-}
-
-.ad__image--centered{
-	position: absolute;
-	right: 15px;
-	top: 25%;
-	height: 80px
-}
-
-.ad__btn {
-	padding: 0px 20px;
-	font-family: $brand-font-family;
-	text-transform: uppercase;
-	font-size: 16px;
-	-webkit-font-smoothing: antialiased;
-	-moz-font-smoothing: antialiased;
-	font-smoothing: antialiased;
-	margin-bottom: 10px;
-	margin-top: 0px;
-}
 
 @media only screen and (max-width: 980px){
-	.ad__content, .ad__content--wide {
+	.billboard-content--short, .billboard-content {
 		width: 100%;
 	}
-	.ad__headline{
+	.billboard-headline{
 		font-size: 40px;
 	}
 }
