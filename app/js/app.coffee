@@ -9,7 +9,8 @@ angular.module("crossroads",
     'crds-ajax-form',
     'crdsProfile',
     'fitVids',
-    'plangular'
+    'plangular',
+    'jaydata'
   ])
 
 .config (growlProvider, $locationProvider, SecurityContextProvider) ->

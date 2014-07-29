@@ -1,0 +1,11 @@
+{
+  "name": "crds-jaydata",
+  "version": "1.3.6",
+  "main": "release/jaydata.js",
+  "description": "Create Bower installable release from https://github.com/jaydata/jaydata",
+  "license": "MIT",
+  "ignore": [
+  ],
+  "dependencies": {
+  }
+}

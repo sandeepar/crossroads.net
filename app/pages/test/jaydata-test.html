@@ -1,0 +1,13 @@
+---
+layout: one_column
+title: Jaydata Test
+published: true
+permalink: /jaydata-test/
+---
+
+<!-- THIS FILE IS SAFE TO DELETE BEFORE MOVING TO PRODUCTION -->
+<div ng-controller="JaydataHouseholdCtrl">
+    <h3>Jaydata Test</h3>
+    <div><strong>Status: </strong>{% raw %}{{status}}</div>
+    <button type="button" class="btn btn-default pull-left" ng-click="click()"><span ng-show="!ready.jaydata">Waiting for Jaydata</span><span ng-show="ready.jaydata">Save via Jaydata</span></button>
+</div>

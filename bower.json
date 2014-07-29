@@ -35,6 +35,9 @@
     "crds-ng-profile": "*",
     "angular-fitvids": "git@github.com:jimmyhillis/angular-fitvids",
     "plangular": "git@github.com:jxnblk/plangular"
+    "crds-jaydata": "~1.3.6",
+    "datajs": "~1.1.2",
+    "jquery": "~2.1.1"
   },
   "resolutions": {
     "angular": "1.3.0-beta.15"
