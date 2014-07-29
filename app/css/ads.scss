@@ -8,7 +8,7 @@
 	margin-bottom: 40px;
 	border-radius: 0px;
 	position: relative;
-	min-height: 200px;
+	min-height: 175px;
   background: -webkit-linear-gradient(#fff, $gray-lighter); /* For Safari 5.1 to 6.0 */
   background: -o-linear-gradient(#fff, $gray-lighter); /* For Opera 11.1 to 12.0 */
   background: -moz-linear-gradient(#fff, $gray-lighter); /* For Firefox 3.6 to 15 */
@@ -88,9 +88,9 @@
 	font-size: 14px;
 }
 
-.ad__select {
-	margin-bottom: 15px;
-}
+// .ad__select {
+// 	margin-bottom: 15px;
+// }
 
 .ad__content {
 	width: 55%;
@@ -106,12 +106,14 @@
 	position: absolute;
 	bottom: 0;
 	right: 0;
+	height: 145px;
 }
 
 .ad__image--centered{
 	position: absolute;
-	right: 5px;
+	right: 15px;
 	top: 25%;
+	height: 80px
 }
 
 .ad__btn {
@@ -126,13 +128,11 @@
 	margin-top: 0px;
 }
 
-// @media only screen and (max-width: 767px)
-// 	.ad__content {
-// 		width: 55%;
-// 		line-height: 1.4;
-// 	}
-//
-// 	.ad__content--wide {
-// 		width: 70%;
-// 		line-height: 1.4;
-// 	}
+@media only screen and (max-width: 980px){
+	.ad__content, .ad__content--wide {
+		width: 100%;
+	}
+	.ad__headline{
+		font-size: 40px;
+	}
+}
