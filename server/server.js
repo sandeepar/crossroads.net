@@ -5,11 +5,10 @@ bodyParser = require('body-parser');
 expressValidator = require('express-validator');
 
 app = express();
-app.use(bodyParser());
+app.use(bodyParser.json());
 app.use(expressValidator([]));
 
 require('./middleware')(app);
-
 require('./routes')(app);
 
 app.listen(process.env.PORT || 8000);

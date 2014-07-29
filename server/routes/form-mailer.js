@@ -1,17 +1,18 @@
+var config = require('../config/config')
+var mandrill = require('mandrill-api/mandrill');
+var util = require('util');
+var q = require('q');
+var request = require('superagent');
+var auth = require('../util/auth');
+
 module.exports = function(app) {
-  var mandrill = require('mandrill-api/mandrill');
-  var util = require('util');
-  var q = require('q');
-  var request = require('superagent');
-  var auth = require('../util/auth');
-
-  var contactUrl = 'https://my.crossroads.net/ministryplatformapi/PlatformService.svc/GetPageRecord';
-  var contactPageId = 292;
-
   //
   // Configuration Settings
   //
-  var mandrillApiKey = "c84f6RI_NE-LKsA3n3EB4g";    // Crossroads.net API key
+  var contactUrl = 'https://my.crossroads.net/ministryplatformapi/PlatformService.svc/GetPageRecord';
+  var contactPageId = 292;
+
+  var mandrillApiKey = config.mandrill.apikey;    // Crossroads.net API key
   var fromEmail = "notifications@crossroads.net";
   var fromName = "Notifications";
 
@@ -96,7 +97,7 @@ module.exports = function(app) {
       if (redirect) {
         res.redirect(redirect);
       } else {
-        res.send(200);
+        res.status(200).end();
       }
     });
 

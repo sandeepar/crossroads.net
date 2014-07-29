@@ -14,6 +14,8 @@
 @import 'icon';
 @import 'billboard';
 @import 'utilities';
+@import 'iframe';
+// @import 'block-grid';
 
 body {
   font-weight: 300;
@@ -225,7 +227,11 @@ footer .open, footer .office {
 
 .btn {
   .icon {
+<<<<<<< HEAD
     fill: #fff;
+=======
+    fill: #fff;
+>>>>>>> staging
   }
 }
 

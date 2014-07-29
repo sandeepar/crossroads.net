@@ -5,7 +5,7 @@
         <div class="side-nav col-xs-11 hidden-md hidden-lg hidden-xl" ng-class="{show: menu.isMobileShowing}">
           <div class="side-nav__search input-group">
             <input type="text" class="form-control" placeholder="Search">
-            <span class="input-group-addon"><svg viewBox="0 0 32 32" class="icon icon-search3"><use xlink:href="#search3"></use></svg></span>
+            <span class="input-group-addon"><svg viewBox="0 0 32 32" class="icon icon-search3"><use xlink:href="/icons/cr.svg#search3"></use></svg></span>
           </div>
           <ul class="side-nav__dropdown list-unstyled" id="mobile-menu">
             <li class="side-nav__dropdown--item" ng-repeat="heading in menus.headings">
@@ -21,28 +21,7 @@
                     </div>
           		    </div>
                 </li>
-              		<div ng-if="securityContext.loggedIn">
-                    <li class="side-nav__subnav--item" role="presentation" ng-repeat="item in heading.mobile_items">
-                      <a class="heading__item" role="menuitem" tabindex="-1" href="{{item.link}}">{{item.title}}</a>
-                    </li>
-              		</div>
-              		<div ng-if="$index != 0">
-                    <ul class="side-nav__subnav list-unstyled" collapse="collapsed($index)">
-
-                <div ng-if="$first">
-                  <div ng-if="!securityContext.loggedIn">
-                    <li class="side-nav__subnav--item">
-                      <auth-form></auth-form>
-                    </li>
-                  </div>
-        		    </div>
-                <div ng-if="securityContext.loggedIn">
-                  <li class="side-nav__subnav--item" role="presentation" ng-repeat="item in heading.mobile_items">
-                    <a class="heading__item" role="menuitem" tabindex="-1" href="{{item.link}}">{{item.title}}</a>
-                  </li>
-		            </div>
-
-                <div ng-if="$index != 0">
+            		<div ng-if="securityContext.loggedIn">
                   <li class="side-nav__subnav--item" role="presentation" ng-repeat="item in heading.mobile_items">
                     <a class="heading__item" role="menuitem" tabindex="-1" href="{{item.link}}">{{item.title}}</a>
                   </li>
@@ -98,7 +77,7 @@
               </ul>
             </li>
             <li class="navbar--login__mobile visible-xs visible-sm" ng-if="!securityContext.loggedIn">
-              <a class="btn navbar--login__button" href="/login">
+              <a class="btn navbar--login__button" href="/myprofile">
                 <i class="icon icon--no_margin icon--user"></i>
               </a>
             </li>
