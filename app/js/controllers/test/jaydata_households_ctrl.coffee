@@ -16,8 +16,8 @@ angular.module "crossroads"
     id = 312556
     console.log "Query Household"
     queryPromise = ministryPlatform.Households.single ((data) ->
-        data.Household_ID is @Id
-      ),
+      data.Household_ID is @Id
+    ),
       Id: id
 
     $scope.$apply ->
@@ -48,9 +48,3 @@ angular.module "crossroads"
       console.log "Error ", error
       $scope.ready.jaydata = true
     )
-
-
-
-
-
-
