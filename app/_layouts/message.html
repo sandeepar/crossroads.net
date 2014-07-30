@@ -1,36 +1,85 @@
 ---
-layout: one_column
+layout: full_width
 ---
-<h1>Series: {{ page.series }}</h1>
-<h2>{{ page.title }}</h2>
-<p><span class="message-date">{{ page.date }}</span></p> 
-<div>
-    {% if page.video contains 'mp4' %}
-    <video width="700" height="400" controls poster="{{ page.video-image }}">
-        <source src="{{ page.video }}" type="video/mp4">
-    </video>
-    {% else %}
-    <p><b>Video not found.</b></p>
-    {% endif %}
-    <p>{{ page.description }}</p>
+
+<tabset class="message-media">
+    <tab heading="Video">
+        {% if page.video contains 'mp4' %}
+        <!-- Placeholder YouTube video. Leave the embed code, but replace this with the actual youtube embed variable here: http://www.youtube.com/v/bwvlbJ0h35A?color2={{ page.video }} -->
+        <div class="container">
+            <div class="col-lg-10 col-lg-offset-1 row" fit-vids>
+                <iframe id="ytplayer" type="text/html" width="854" height="480.375" src="https://www.youtube.com/embed/jNRGDzZKDUs?modestbranding=1" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+        {% else %}
+        <div class="container">
+            <div class="alert alert-danger">
+                Video not found.
+            </div>
+        </div>
+        {% endif %}
+    </tab>
+    <tab heading="Audio">
+
+        {% if page.audio contains 'mp3' %}
+        <!-- Placeholder Soundcloud embed. Leave the embed code, but replace this with the actual Soundcloud embed variable here: https://w.soundcloud.com/player/?url={{ page.audio }}-->
+        <div class="container audio-container">
+            <div class="col-lg-10 col-lg-offset-1 row" ng-app="plangular">
+            <img src="http://img.youtube.com/vi/jNRGDzZKDUs/maxresdefault.jpg" class="img-responsive" />
+            {% raw %}
+                <div plangular data-src="http://soundcloud.com/crossroadskc/round-and-round-1" class="media col-xs-12 row">
+                    <div class="controls col-xs-2 col-sm-1">
+                      <a href="" ng-click="player.play(track)" ng-hide="player.playing == track">
+                        <div plangular-icon="play"></div>
+                      </a>
+                      <a href="" ng-click="player.pause()" ng-show="player.playing == track">
+                        <div plangular-icon="pause"></div>
+                      </a>
+                    </div>
+                    <div class="col-xs-10 col-sm-11">
+
+                    <progress value="{{ currentTime / track.duration }}" ng-click="seekTo($event);" class="plangular-progress"></progress>
+
+                    <div class="progress bootstrap-progress">
+                      <div class="progress-bar" role="progressbar" aria-valuenow="{{ (currentTime / track.duration) * 100 }}" aria-valuemin="0" aria-valuemax="100" style="width: {{ (currentTime / track.duration) * 100 }}%;" ng-click="seekTo($event);player.play(track)">
+                        <span class="sr-only">{{ (currentTime / track.duration) * 100 | number:0 }}%</span>
+                        <span class="progress-percentage">{{ (currentTime / track.duration) * 100 | number:0 }}%</span>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+            {% endraw %}
+            </div>
+        </div>
+        {% else %}
+        <div class="container">
+            <div class="alert alert-danger">
+                Audio not found.
+            </div>
+        </div>
+        {% endif %}
+    </tab>
+</tabset>
+
+<div class="container">
+    <header class="message-header col-lg-10 col-lg-offset-1">
+        <h1>{{ page.title }}</h1>
+        <h2 class="subheading">Series: {{ page.series }}</h2>
+        <p><span class="message-date text-muted">{{ page.date | date: "%A, %B %-d, %Y" }}</span></p> 
+    </header>
+    <div class="message-body col-lg-10 col-lg-offset-1">
+        <p>{{ page.description }}</p>
+        
+        {% include addthis.html %}
+        {% if page.program contains 'pdf' %}
+        <a href="{{ page.program }}" class="btn btn-primary">View Program  <span class="badge filetype-badge">PDF</span></a>
+        {% endif %}
+        {% if page.video contains 'mp4' %}
+        <a href="{{ page.video }}" class="btn btn-primary">Download Video  <span class="badge filetype-badge">MP4</span></a>
+        {% endif %}
+        {% if page.audio contains 'mp3' %}
+        <a href="{{ page.audio }}" class="btn btn-primary">Download Audio  <span class="badge filetype-badge">MP3</span></a>
+        {% endif %}
+        
+    </div><!--/message-body-->
 </div>
-<div>
-    {% if page.audio contains 'mp3' %}
-    <audio controls>
-        <source src="{{ page.audio }}" type="audio/mpeg">
-    </audio> 
-    {% else %}
-    <p><b>Audio not found.</b></p>
-    {% endif %}
-</div>
-  
-{% if page.audio contains 'mp3' %}
-<a href="{{ page.audio }}">Download Audio (mp3)</a><br>
-{% endif %}
-{% if page.video contains 'mp4' %}
-<a href="{{ page.video }}">Download Video (mp4)</a><br>
-{% endif %}
-{% if page.program contains 'pdf' %}
-<a href="{{ page.program }}">View Program (pdf)</a><br>
-{% endif %}
-<a href="#">Share</a>

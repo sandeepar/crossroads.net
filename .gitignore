@@ -19,3 +19,4 @@ vendor/ruby
 npm-debug.log
 config/_config.local.yml
 .env
+/vendor/plangular/site/

@@ -7,7 +7,9 @@ angular.module("crossroads",
     'angular-growl',
     'ui.bootstrap',
     'crds-ajax-form',
-    'crdsProfile'
+    'crdsProfile',
+    'fitVids', 
+    'plangular'
   ])
 
 .config (growlProvider, $locationProvider, SecurityContextProvider) ->
