@@ -97,7 +97,7 @@ module.exports = function(app) {
       if (redirect) {
         res.redirect(redirect);
       } else {
-        res.send(200);
+        res.status(200).end();
       }
     });
 

@@ -1,5 +1,6 @@
 {
   "name": "crds-ng-security-context",
+  "version": "0.1.0",
   "homepage": "https://github.com/crdschurch/crds-ng-security-context",
   "authors": [
     "Chris Tallent <chris@tallented.net>",
@@ -37,13 +38,13 @@
   "devDependencies": {
     "bootstrap": "~3.1.1"
   },
-  "_release": "91e18ef7bf",
+  "_release": "0.1.0",
   "_resolution": {
-    "type": "branch",
-    "branch": "master",
-    "commit": "91e18ef7bf725e969e84d28dbe3d0f7106a992e1"
+    "type": "version",
+    "tag": "v0.1.0",
+    "commit": "a85fda7bf592b536e27597a0fbb1824d49adbcc6"
   },
   "_source": "git://github.com/crdschurch/crds-ng-security-context.git",
-  "_target": "*",
+  "_target": "~0.1.0",
   "_originalSource": "crds-ng-security-context"
 }

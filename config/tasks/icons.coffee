@@ -3,8 +3,6 @@
     defs: true
     generatePreview: true
 
-
-
   module.exports = (gulp, $) ->
 
     gulp.task "icons", ->
