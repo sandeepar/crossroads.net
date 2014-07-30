@@ -2,7 +2,7 @@ crossroads.net
 ==============
 
 Code base for Milacron.
-Please feel free to contribute by forking and doing a pull request
+Please feel free to contribute by forking and doing a pull request.
 
 ## Local Development
 crossroads.net uses GulpJS to manage and run things in local development.
@@ -20,7 +20,7 @@ For more information about Gulp visit: http://gulpjs.com
 * you may want to install gulp globally, ```npm -g install gulp```
 * ```gem install bundler```
 * ```bundle install```
-* setup node env var in your bash ```export NODE_ENV=developmebt```
+* setup node env var in your bash ```export NODE_ENV=development```
 
 ### Running the project
 To run the project use: ```gulp```
@@ -28,13 +28,18 @@ To run the project use: ```gulp```
 If you would prefer to disable the growl notifications you may run: ```gulp -n```
 
 For a faster jekyll build you may run: ```gulp -burp```
-(This excludes items, see[_config.exclude.yml](https://github.com/crdschurch/crossroads.net/blob/master/config/_config.exclude.yml]))
+(This excludes items, see[_config.exclude.yml](https://github.com/crdschurch/crossroads.net/blob/master/config/_config.exclude.yml))
 
 If burp doesn't suit your needs you can also add local only jekyll configs here: ```config/_config.local.yml```
 
 This will watch the filesystem and compile all the sass into css,
 coffeescript into javascript and run jekyll-build as well. This will also run
 the node server making the site available at localhost:3000
+
+### Media Management
+
+We host all assets (images, audio, video, documents, etc) on S3. Do not check-in media assets into this repo.
+Please contact webteam@crossroads.net if you need access to our S3 bucket.
 
 ### Running the specs
 To run specs use: ```gulp test```

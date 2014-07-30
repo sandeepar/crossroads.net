@@ -47,6 +47,8 @@ header.show .container {
 .remember{
   display: inline;
   margin-bottom: 5px;
+  font-weight: normal;
+  text-transform: lowercase;
 }
 
 .navbar--login__container{
@@ -188,6 +190,10 @@ header.show .container {
   width: 100%;
 }
 
+.side-nav__subnav__item-container, .navbar--login__container {
+  float: none;
+}
+
 .side-nav__subnav--item .heading__item, .side-nav__subnav--item .heading__item:hover {
   text-transform: none;
 }
@@ -260,7 +266,7 @@ header.show .container {
   &:hover {
     display: inline-block;
     > .navbar__dropdown--subnav {
-      top: 100px;
+      top: 125px;
       opacity: 1;
       padding: 0;
       position: absolute;
@@ -394,7 +400,7 @@ header.show .container {
 
 .navbar--login__dropdown.toggleOpen {
   opacity: 1;
-  top: 80%;
+  top: 100%;
   display: block;
   z-index: 1000000;
   -webkit-transition: opacity 0.2s, top 0.75s;
@@ -411,14 +417,10 @@ header.show .container {
   @include gradient(#7AA8C2, #4A81A0);
 }
 
-.login__icon__container {
+.icon__container {
   position: absolute;
-  margin-top: -25px;
-  right: 25px;
-  fill: $gray-light; 
-  &:hover {
-    fill: $cr-orange;
-  }
+  margin-top: -32px;
+  right: 18px;
 }
 
 /***** Mobile Nav *****/

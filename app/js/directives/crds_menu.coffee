@@ -7,4 +7,4 @@ angular.module('crossroads')
   priority: 99
   scope:
     menus: "=crdsMenu"
-    currentUser: "="
+    securityContext: "="

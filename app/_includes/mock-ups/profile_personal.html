@@ -59,7 +59,7 @@ var DatepickerDemoCtrl = function ($scope) {
       <input type="text" class="form-control" id="nickname" placeholder="Enter nick name">
     </div>
   </div>
-  
+
   <div class="row">
     <div class="form-group col-sm-6">
       <label for="nickname">Mobile Phone</label>
@@ -74,16 +74,16 @@ var DatepickerDemoCtrl = function ($scope) {
         {% endfor %}
       </select>
     </div>
-  
+
   </div>
 
   <div class="row">
     <div class="col-sm-6" ng-controller="DatepickerDemoCtrl">
-      <label class="control-label"><i class="fa fa-calendar"></i>Birth Date</label>
+      <label class="control-label">Birth Date</label>
       <p class="input-group">
         <input type="text" class="form-control" datepicker-popup="MM/dd/yyyy" ng-model="dt" is-open="opened" datepicker-options="dateOptions" date-disabled="disabled(date, mode)" ng-required="true" close-text="Close" ng-click="open($event)" />
         <span class="input-group-btn">
-          <button type="button" class="btn btn-primary" ng-click="open($event)"><i class="glyphicon glyphicon-calendar"></i></button>
+          <button type="button" class="btn btn-primary" ng-click="open($event)"><svg viewBox="0 0 32 32" class="icon icon-calendar"><use xlink:href="/icons/cr.svg#calendar"></use></svg></button>
         </span>
       </p>
     </div>
@@ -119,11 +119,11 @@ var DatepickerDemoCtrl = function ($scope) {
 
   <div class="row">
     <div class="col-sm-6" ng-controller="DatepickerDemoCtrl">
-      <label class="control-label"><i class="fa fa-calendar"></i>When did you start attending Crossroads?</label></span>
+      <label class="control-label">When did you start attending Crossroads?</label></span>
       <p class="input-group">
         <input type="text" class="form-control" datepicker-popup="MM/dd/yyyy" ng-model="dt" is-open="opened" datepicker-options="dateOptions" date-disabled="disabled(date, mode)" ng-required="true" close-text="Close" ng-click="open($event)" />
         <span class="input-group-btn">
-          <button type="button" class="btn btn-primary" ng-click="open($event)"><i class="glyphicon glyphicon-calendar"></i></button>
+          <button type="button" class="btn btn-primary" ng-click="open($event)"><svg viewBox="0 0 32 32" class="icon icon-calendar"><use xlink:href="/icons/cr.svg#calendar"></use></svg></button>
         </span>
       </p>
     </div>

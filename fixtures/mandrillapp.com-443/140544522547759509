@@ -1,0 +1,17 @@
+POST /api/1.0/messages/send-template.json
+content-type: application/json
+body: {\"template_name\":\"primary\",\"template_content\":[{\"name\":\"main\",\"content\":\"<p><b>replyEmail</b><br/>\\njohn.smith@example.net</p>\\n<p><b>replyName</b><br/>\\nJohn Smith</p>\\n\"}],\"message\":{\"subject\":\"Yo!\",\"from_email\":\"notifications@crossroads.net\",\"from_name\":\"Notifications\",\"to\":[{\"email\":\"jim@gaslight.co\",\"type\":\"to\"}],\"headers\":{\"Reply-To\":\"John Smith <john.smith@example.net>\"},\"important\":false,\"track_opens\":null,\"track_clicks\":null,\"auto_text\":null,\"auto_html\":null,\"inline_css\":null,\"url_strip_qs\":null,\"preserve_recipients\":null,\"view_content_link\":null,\"tracking_domain\":null,\"signing_domain\":null,\"return_path_domain\":null},\"async\":false,\"ip_pool\":null,\"send_at\":null,\"key\":\"c84f6RI_NE-LKsA3n3EB4g\"}
+
+500 HTTP/1.1
+server: nginx/1.6.0
+date: Tue, 15 Jul 2014 17:27:05 GMT
+content-type: application/json; charset=utf-8
+transfer-encoding: chunked
+connection: keep-alive
+x-powered-by: PHP/5.3.10-1ubuntu3.11
+access-control-allow-origin: *
+access-control-allow-methods: POST, GET, OPTIONS
+access-control-allow-headers: Content-Type
+access-control-allow-credentials: false
+
+{"status":"error","code":-1,"name":"Invalid_Key","message":"Invalid API key"}

@@ -6,49 +6,11 @@ permalink: /myprofile/
 categories:
 ---
 
-<div class="row">
-  <div class="col-sm-10 col-sm-offset-1">
-    <h1>My Profile</h1> 
-    <h2 class="subheading">Hello, special you.  </h2>
-    <div class="profile-header">
-      <div class="row">
-        <div class="col-xs-3 col-sm-2">
-          <a href="#" class="profile-pic">
-            <img class="profile-image pull-left img-square img-responsive" src="//crossroads-media.s3.amazonaws.com/images/avatar.svg" alt="Profile Default Photo" />
-            <span class="change-photo">Change Photo</span>
-          </a>
-        </div>
-        <div class="profile-desc col-xs-7 col-sm-9">
-          <h3 class="profile-name">Test User</h3>
-          <p class="lead"><a href="#household" data-toggle="tab" class="edit-church-site">Church Site <span class="glyphicon glyphicon-pencil"></span></a></p>
-          <div class="col-sm-6 row">
-            <div class="progress">
-              <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
-                60%
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+<crds-profile loading-class="loading">
+  <crds-profile-login>
+    <div class="crds-login">
+      <!-- Login goes here -->
+      This is the login form
     </div>
-
-    <div class="profile-body col-sm-12 row">
-
-      <tabset ng-init="set = {}">
-        <tab heading="Personal">{% include mock-ups/profile_personal.html %}</tab>
-        <tab heading="Household" class="hidden-xs" active="set.showHousehold">{% include mock-ups/profile_household.html %}</tab>
-        <tab heading="Account">{% include mock-ups/profile_account.html %}</tab>
-        <tab heading="Skills" class="hidden-xs" active="set.showSkills">{% include mock-ups/profile_skills.html %}</tab>
-        <tab heading="History" class="hidden-xs" active="set.showHistory">{% include mock-ups/profile_history.html %}</tab>
-        <li role="tab" data-toggle="tab" class="dropdown hidden-md hidden-lg hidden-sm dropdown-toggle" data-toggle="dropdown">
-          <a href="#">More <span class="caret"></span></a>
-          <ul class="dropdown-menu" role="menu">
-            <li><a href="#" ng-click="set.showHousehold = true">Household</a></li>
-            <li><a href="#" ng-click="set.showSkills = true">Skills</a></li>
-            <li><a href="#" ng-click="set.showHistory = true">History</a></li>
-          </ul>
-        </li>
-      </tabset>
-    </div>
-  </div>
-</div>
+  </crds-profile-login>
+</crds-profile>
