@@ -6,10 +6,13 @@ layout: full_width
     <tab heading="Video">
         {% if page.video contains 'mp4' %}
 
-            <div class="video-section">
-                <video width="700" height="400" controls poster="{{ page.video-image }}">
-                    <source src="{{ page.video }}" type="video/mp4">
-                </video>
+            <div class="video-section clearfix">
+                <!-- Placeholder YouTube video. Leave the embed code, but replace this with the actual youtube embed variable here: http://www.youtube.com/v/bwvlbJ0h35A?color2={{ page.video }} -->
+                <div class="container video-container">
+                    <div class="col-lg-10 col-lg-offset-1 row" fit-vids>
+                        <iframe id="ytplayer" type="text/html" width="854" height="480.375" src="https://www.youtube.com/embed/bwvlbJ0h35A?modestbranding=1" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
             </div>
         <div class="container">
             <div class="download-message">
