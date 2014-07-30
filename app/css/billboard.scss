@@ -5,10 +5,7 @@
 	border-radius: 0px;
 	position: relative;
 	min-height: 175px;
-  background: -webkit-linear-gradient(#fff, $gray-lighter); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#fff, $gray-lighter); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#fff, $gray-lighter); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#fff, $gray-lighter); /* Standard syntax (must be last) */
+	background: linear-gradient(to bottom, #fff, $gray-lighter);
 }
 
 .billboard-label {
