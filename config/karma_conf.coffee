@@ -29,4 +29,6 @@ module.exports =
     ".tmp/js/app.js"
     "spec/js/**/*.coffee"
     "app/templates/**/*.html"
+    "vendor/bower/angular-fitvids/angular-fitvids.js"
+    "vendor/bower/plangular/plangular.js"
   ]
