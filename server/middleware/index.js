@@ -14,10 +14,12 @@ module.exports = function(app) {
 
   app.use(cookieParser());
   app.use(session({
-      store: new RedisStore({ url: process.env.REDISCLOUD_URL }),
-      key: "crossroads.sid",
-      secret: 'secret',
-      cookie: { path: '/', httpOnly: true, maxAge: null }
+    store: new RedisStore({ url: process.env.REDISCLOUD_URL }),
+    key: "crossroads.sid",
+    secret: 'secret',
+    cookie: { path: '/', httpOnly: true, maxAge: null },
+    resave: true,
++   saveUninitialized: true
   }));
 
   app.use(passport.initialize());
