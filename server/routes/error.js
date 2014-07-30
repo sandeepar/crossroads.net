@@ -18,7 +18,7 @@ module.exports = function(app) {
 
     app.get('/500', function(req, res, next){
         // trigger a generic (500) error
-        next(new Error('keyboard cat!'));
+        next(new Error('Some thing went wrong'));
     });
 
 
@@ -33,22 +33,23 @@ module.exports = function(app) {
     // $ curl http://localhost:3000/notfound -H "Accept: text/plain"
 
     app.use(function(req, res, next){
+
         res.status(404);
+        req_type = req.accepts(['html', 'json']);
 
-        // respond with html page
-        if (req.accepts('html')) {
-            res.sendfile(views_dir + '/404.html');
-            return;
+        switch(req_type)
+        {
+            case 'html':
+                res.sendfile(views_dir + '/404.html');
+                return;
+            case 'json':
+                res.send({ error: 'Not found' });
+                return;
+            default:
+                // default to plain-text. send()
+                res.type('txt').send('Not found');
         }
 
-        // respond with json
-        if (req.accepts('json')) {
-            res.send({ error: 'Not found' });
-            return;
-        }
-
-        // default to plain-text. send()
-        res.type('txt').send('Not found');
     });
 
     // error-handling middleware, take the same form
