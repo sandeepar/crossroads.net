@@ -8,7 +8,7 @@ angular.module("crossroads",
     'ui.bootstrap',
     'crds-ajax-form',
     'crdsProfile',
-    'fitVids', 
+    'fitVids',
     'plangular'
   ])
 
