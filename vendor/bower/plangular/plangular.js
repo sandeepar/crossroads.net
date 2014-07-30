@@ -12,9 +12,9 @@
 
 var plangular = angular.module('plangular', []),
     clientID = '0d33361983f16d2527b01fbf6408b7d7',
-    // Tate - 072414 - iconUrl patrh needed to be updated by me to make it work. Was:
+    // Tate - 072414 - iconUrl path needed to be updated by me to make it work. Was:
     //iconUrl = 'icons/plangular-icons.svg';
-    iconUrl = '/bower/plangular/icons/plangular-icons.svg';
+    iconUrl = 'http://s3.amazonaws.com/crossroads-media/images/plangular-icons.svg';
 
 plangular.directive('plangular', function ($document, $rootScope, $http) {
     // Define the audio engine
