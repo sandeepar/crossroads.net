@@ -16,6 +16,7 @@ module.exports =
   files: [
     "spec/helpers/*.js"
     "vendor/js/jquery.js"
+    "vendor/js/underscore.js"
     "vendor/bower/angular/angular.min.js"
     "vendor/bower/angular-bootstrap/ui-bootstrap.min.js"
     "vendor/bower/angular-bootstrap/ui-bootstrap-tpls.min.js"
