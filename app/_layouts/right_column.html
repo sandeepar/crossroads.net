@@ -6,36 +6,7 @@ layout: container_row
   {% include breadcrumb.html %}
   {{ content }}
 </div>
+
 <div class="col-sm-4">
-	<h3>Blog Tags</h3>
-	<ul class="list-group">
-        <!-- Aravind Try to get rid of this annoying if else conditions by finding a plugin for that -->
-        <!--  This is just a quick solution to achieve this  -->
-        {% for tags in site.tags %}
-            {% assign tags = tags | first %}
-            {% if tags contains 'india' %}
-            <li class="list-group-item" ><a href="/tags/india">India</a></li>
-            {% elsif tags contains 'fields-of-gold' %}
-            <li class="list-group-item" ><a href="/tags/fields-of-gold">Fields of Gold</a></li>
-            {% elsif tags contains 'crossroads'  %}
-            <li class="list-group-item" ><a href="/tags/crossroads">Crossroads</a></li>
-            {% elsif tags contains 'game-change' %}
-            <li class="list-group-item" ><a href="/tags/game-change">Game Change</a></li>
-            {% elsif tags contains 'crux' %}
-            <li class="list-group-item" ><a href="/tags/crux">Crux</a></li>
-            {% elsif tags contains 'go-nola' %}
-            <li class="list-group-item" ><a href="/tags/go-nola">Go Nola</a></li>
-            {% elsif tags contains 'discipleship' %}
-            <li class="list-group-item" ><a href="/tags/discipleship">Discipleship</a></li>
-            {% elsif tags contains 'citylink' %}
-            <li class="list-group-item" ><a href="/tags/citylink">CityLink</a></li>
-            {% elsif tags contains 'multi-site' %}
-            <li class="list-group-item" ><a href="/tags/multi-site">Multi-site</a></li>
-            {% elsif tags contains 'south-africa' %}
-            <li class="list-group-item" ><a href="/tags/south-africa">South Africa</a></li>
-            {% endif %}
-        {% endfor %}
-	</ul>
-	<hr>
-	<h3>Adbox Space</h3>
+  {% include blog_tags.html %}
 </div>

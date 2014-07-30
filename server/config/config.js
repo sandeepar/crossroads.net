@@ -4,5 +4,12 @@ dotenv.load();
 module.exports = {
   api: {
     url: process.env.API_URL
+  },
+  client: {
+    id: process.env.CLIENT_ID,
+    secret: process.env.CLIENT_SECRET
+  },
+  mandrill: {
+      apikey: process.env.MANDRILL_API_KEY
   }
 };
