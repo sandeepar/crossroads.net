@@ -1,3 +1,9 @@
+
+.icon-book {
+	width: 32px;
+	height: 32px;
+}
+
 .icon-calendar {
 	width: 32px;
 	height: 32px;
@@ -8,17 +14,37 @@
 	height: 32px;
 }
 
-.icon-cr {
-	width: NaNpx;
-	height: NaNpx;
-}
-
 .icon-crossroads {
 	width: 32px;
 	height: 32px;
 }
 
+.icon-folder {
+	width: 32px;
+	height: 32px;
+}
+
+.icon-folder-open {
+	width: 32px;
+	height: 32px;
+}
+
 .icon-gift {
+	width: 32px;
+	height: 32px;
+}
+
+.icon-home {
+	width: 32px;
+	height: 32px;
+}
+
+.icon-home2 {
+	width: 32px;
+	height: 32px;
+}
+
+.icon-home3 {
 	width: 32px;
 	height: 32px;
 }

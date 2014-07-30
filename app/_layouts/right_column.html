@@ -8,49 +8,4 @@ layout: container_row
 </div>
 
 <div class="col-sm-4">
-    {% include ads/sign_up.html %}
-	<h3 class="right_column_header">Blog Tags</h3>
-	<ul class="list-group">
-        <!-- Aravind Try to get rid of this annoying if else conditions by finding a plugin for that -->
-        <!--  This is just a quick solution to achieve this  -->
-        {% for tags in site.tags %}
-            {% assign tags = tags | first %}
-            {% if tags contains 'india' %}
-            <li class="list-group-item" ><a href="/tags/india">India</a></li>
-            {% elsif tags contains 'fields-of-gold' %}
-            <li class="list-group-item" ><a href="/tags/fields-of-gold">Fields of Gold</a></li>
-            {% elsif tags contains 'crossroads'  %}
-            <li class="list-group-item" ><a href="/tags/crossroads">Crossroads</a></li>
-            {% elsif tags contains 'game-change' %}
-            <li class="list-group-item" ><a href="/tags/game-change">Game Change</a></li>
-            {% elsif tags contains 'crux' %}
-            <li class="list-group-item" ><a href="/tags/crux">Crux</a></li>
-            {% elsif tags contains 'go-nola' %}
-            <li class="list-group-item" ><a href="/tags/go-nola">Go Nola</a></li>
-            {% elsif tags contains 'discipleship' %}
-            <li class="list-group-item" ><a href="/tags/discipleship">Discipleship</a></li>
-            {% elsif tags contains 'citylink' %}
-            <li class="list-group-item" ><a href="/tags/citylink">CityLink</a></li>
-            {% elsif tags contains 'multi-site' %}
-            <li class="list-group-item" ><a href="/tags/multi-site">Multi-site</a></li>
-            {% elsif tags contains 'south-africa' %}
-            <li class="list-group-item" ><a href="/tags/south-africa">South Africa</a></li>
-            {% endif %}
-        {% endfor %}
-	</ul>
-    {% include ads/previous_series.html %}
-    {% include ads/give.html %}
-    {% include ads/donate.html %}
-    {% include ads/sign_up_go.html %}
-    {% include ads/e-gift.html %}
-    {% include ads/faq.html %}
-    {% include ads/kids.html %}
-    {% include ads/grow.html %}
-    {% include ads/teen_jeremy.html %}
-    {% include ads/teen_naomi.html %}
-    {% include ads/spotlight_skip.html %}
-    {% include ads/spotlight_kristen.html %}
-    {% include ads/spotlight_daniel.html %}
-    {% include ads/spotlight_heather.html %}
-    {% include ads/spotlight_karen.html %}
 </div>

@@ -159,3 +159,31 @@
     }
   }
 }
+
+.add-skill {
+  border-top: 1px solid $legend-border-color;
+  padding-top: 20px;
+  margin-top: 10px;
+}
+
+.skill-group {
+  margin-bottom: 20px;
+
+  .cat-skill-group {
+    //
+    padding: 0 0 20px 0;
+
+    @media (min-width: $screen-sm-min) {
+      @include content-columns(3);
+    }
+
+    .checkbox {
+      margin-top: 0px;
+      clear: both;
+      margin-left: $grid-gutter-width/2;
+      @media (min-width: $screen-sm-min) {
+        margin-left: 0;
+      }
+    }
+  }
+}

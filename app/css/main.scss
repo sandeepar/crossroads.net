@@ -12,9 +12,9 @@
 @import 'timeline';
 @import 'sprites';
 @import 'icon';
-@import 'ads';
+@import 'billboard';
+@import 'utilities';
 @import 'iframe';
-
 // @import 'block-grid';
 
 body {
@@ -55,6 +55,29 @@ h6.subheading {
   font-weight: 900;
   letter-spacing: -1.8px;
   }
+
+.right_column_header {
+  color: $cr-blue;
+  font-size: 18px;
+}
+
+.type-color--secondary {
+  color: $brand-secondary;
+}
+
+.type-color{
+  color: $brand-primary;
+}
+
+.type-color--grey{
+  color: $cr-grey;
+}
+
+.divider--dark {
+  margin-bottom: 10px;
+  border: $cr-grey;
+  border-width: 1px;
+}
 
 .navbar{
 	z-index: 100;
@@ -112,6 +135,14 @@ footer .open, footer .office {
 
 .home .coffee-cup {
   max-width: 300px;
+}
+
+.link--orange {
+  color: $cr-orange;
+  font-weight: 400;
+  &:hover {
+    color: $cr-dkblue;
+  }
 }
 
 
@@ -196,7 +227,11 @@ footer .open, footer .office {
 
 .btn {
   .icon {
-    fill: #fff; 
+<<<<<<< HEAD
+    fill: #fff;
+=======
+    fill: #fff;
+>>>>>>> staging
   }
 }
 
@@ -240,6 +275,16 @@ footer .open, footer .office {
       .text-info {
         color: $gray-darker;
       }
+    }
+  }
+
+  .btn-info, .btn-danger, .btn-success {
+    @extend .btn-primary;
+  }
+
+  .active {
+    .text-info {
+      color: #fff;
     }
   }
 
