@@ -14,10 +14,6 @@
       .pipe(svg(config))
       .pipe(gulp.dest("app/icons/generated"))
 
-      gulp.src('app/icons/generated/css/sprites.css')
-      .pipe(rename("sprites.scss"))
-      .pipe(gulp.dest('app/css'))
-
       gulp.src('app/icons/generated/preview-svg.html')
       .pipe(replace('background: black;', 'background: black;fill:white;'))
       .pipe(replace('css/sprites.css', 'generated/css/sprites.css'))
