@@ -19,7 +19,7 @@ module.exports = function(app) {
     secret: 'secret',
     cookie: { path: '/', httpOnly: true, maxAge: null },
     resave: true,
-+   saveUninitialized: true
+    saveUninitialized: true
   }));
 
   app.use(passport.initialize());
