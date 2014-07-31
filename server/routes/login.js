@@ -1,6 +1,5 @@
 module.exports = function(app) {
-  var config = require('../config/config'),
-      auth = require('../util/auth');
+  var auth = require('../util/auth');
 
   app.post("/login", function(req, res, next){
     res.type('txt');
