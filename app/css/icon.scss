@@ -21,6 +21,31 @@
   float: right;
 }
 
+.icon-default {
+  fill: $brand-secondary;
+}
+
+.icon-primary {
+  fill: $brand-primary;
+}
+
+.icon-success {
+  fill: $brand-success;
+}
+
+.icon-info {
+  fill: $brand-info;
+}
+
+.icon-warning {
+  fill: $brand-warning;
+}
+
+.icon-danger {
+  fill: $brand-danger;
+}
+
+
 /***************************************************************************************
 * Loading Icons
 ***************************************************************************************/
