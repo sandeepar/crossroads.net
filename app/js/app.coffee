@@ -24,7 +24,15 @@ angular.module("crossroads",
 .run () ->
   return
 
-.controller "AppCtrl", ($rootScope, $log, growl)->
+.controller "AppCtrl", ($scope, $rootScope, $log, growl, $data)->
+
+  #Init OData Endpoint
+  $rootScope.testing = "abc123"
+  $rootScope.ministryPlatform = null
+  $data.initService('/api/ministryplatformapi/DataService.svc')
+  .then (context) ->
+    console.log "root context returned"
+    $rootScope.ministryPlatform = context
 
   #
   # Event listeners for notifications that will trigger "Growl" style alerts

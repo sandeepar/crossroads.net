@@ -9,5 +9,12 @@ permalink: /jaydata-test/
 <div ng-controller="JaydataHouseholdCtrl">
     <h3>Jaydata Test</h3>
     <div><strong>Status: </strong>{% raw %}{{status}}</div>
-    <button type="button" class="btn btn-default pull-left" ng-click="click()"><span ng-show="!ready.jaydata">Waiting for Jaydata</span><span ng-show="ready.jaydata">Save via Jaydata</span></button>
+    <button type="button" class="btn btn-default pull-left" ng-click="click()">
+      <span ng-show="!ready.jaydata">Waiting for Jaydata</span>
+      <span ng-show="ready.jaydata">Save via Jaydata</span>
+    </button>
+</div>
+
+<div ng-controller="TonyCtrl">
+
 </div>

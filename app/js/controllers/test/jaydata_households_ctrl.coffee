@@ -1,11 +1,32 @@
 angular.module "crossroads"
+.controller "TonyCtrl", ($scope, $rootScope, $data) ->
+  console.log "TonyCtrl Start"
+
+  $rootScope.$watch "ministryPlatform", (context) ->
+    console.log "root scope watch returned: #{context}"
+    return if context is null
+    localContext = context
+    console.log "bbbbbbbb"
+    # getContact("abc")
+    id = 312556
+    console.log "Query Household"
+    queryPromise = localContext.Households.single ((data) ->
+      data.Household_ID is @Id
+    ),
+      Id: id
+
+    queryPromise.then (data) ->
+      console.log('Tony Ctrl - Retrieved Data: ', data)
+
+  console.log "TonyCtrl End"
+
 .controller "JaydataHouseholdCtrl", ($scope, $data, $timeout) ->
   console.log "JaydataHouseholdCtrl initialized"
 
   ministryPlatform = null
   savedData = null
   $scope.ready = { jaydata: false }
-  $scope.status = "Initializing Jaydata Context";
+  $scope.status = "Initializing Jaydata Context"
 
   # Ministry Platform API Get the Contact when the controller is initialized
   # TODO: This service initialization should either be done at App startup OR as a Gulp build task
