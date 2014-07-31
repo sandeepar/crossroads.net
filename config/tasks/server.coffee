@@ -7,6 +7,7 @@ module.exports = (gulp, $) ->
   gulp.task "server", ->
     $.nodemon
       script: "./server/server.js"
+      env: if sync then {'PORT': 8000} else {'PORT': 3000}
       ignore: [
         "app/"
         "_site/"
