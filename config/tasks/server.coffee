@@ -1,4 +1,7 @@
 browserSync = require 'browser-sync'
+args = require('yargs').argv
+
+sync = args.sync
 
 module.exports = (gulp, $) ->
   gulp.task "server", ->
@@ -13,5 +16,5 @@ module.exports = (gulp, $) ->
         "tmp/"
         "vendor/"
       ]
-    browserSync.init(null, proxy: "localhost:8000")
+    browserSync.init(null, proxy: "localhost:8000") if sync
     return
