@@ -6,7 +6,7 @@ module.exports = function(app) {
   require('./ministry_platform')(app);
   require('./login')(app);
   require('./logout')(app);
-
+  require('./error')(app);
 
   passport.serializeUser(function(token, done) {
     if (token.expires_at != null) {
