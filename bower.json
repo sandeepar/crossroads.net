@@ -32,7 +32,9 @@
     "crds-angular-ajax-form": "*",
     "crds-ng-security-context": "~0.1.0",
     "svg4everybody": "*",
-    "crds-ng-profile": "*"
+    "crds-ng-profile": "*",
+    "angular-fitvids": "git@github.com:jimmyhillis/angular-fitvids",
+    "plangular": "git@github.com:jxnblk/plangular"
   },
   "resolutions": {
     "angular": "1.3.0-beta.15"

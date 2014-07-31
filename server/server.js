@@ -6,7 +6,7 @@ expressValidator = require('express-validator');
 path = require('path');
 
 app = express();
-app.use(bodyParser());
+app.use(bodyParser.json());
 app.use(expressValidator([]));
 
 require('./middleware')(app);

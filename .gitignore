@@ -19,4 +19,8 @@ vendor/ruby
 npm-debug.log
 config/_config.local.yml
 .env
+/vendor/plangular/site/
+app/css/sprites.scss
+app/icons/generated/
+app/icons/preview-svg.html
 .idea
