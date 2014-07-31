@@ -25,6 +25,8 @@ For more information about Gulp visit: http://gulpjs.com
 ### Running the project
 To run the project use: ```gulp```
 
+If you would like to take advantage of browserSync you may run: ```gulp -sync```
+
 If you would prefer to disable the growl notifications you may run: ```gulp -n```
 
 For a faster jekyll build you may run: ```gulp -burp```

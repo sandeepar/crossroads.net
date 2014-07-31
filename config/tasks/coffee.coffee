@@ -4,6 +4,7 @@ args = require('yargs').argv
 browserSync = require 'browser-sync'
 
 n = args.n
+sync = args.sync
 
 module.exports = (gulp, devEnv, $) ->
   gulp.task "coffee", ->
@@ -18,5 +19,5 @@ module.exports = (gulp, devEnv, $) ->
       .pipe(if devEnv then gulp.dest(".tmp/js") else $.util.noop())
       .pipe($.concatSourcemap("app.js", prefix: 2))
       .pipe(gulp.dest(".tmp/js"))
-      .pipe(if devEnv then browserSync.reload(stream: true, once: true) else $.util.noop())
+      .pipe(if sync then browserSync.reload(stream: true, once: true) else $.util.noop())
       .pipe(if devEnv and not n then $.notify('Coffee is done') else $.util.noop())
