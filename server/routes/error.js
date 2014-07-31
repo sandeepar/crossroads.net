@@ -40,14 +40,14 @@ module.exports = function(app) {
         switch(req_type)
         {
             case 'html':
-                res.sendfile(views_dir + '/404.html');
+                res.type('text/html').sendfile(views_dir + '/404.html');
                 return;
             case 'json':
-                res.send({ error: 'Not found' });
+                res.type('application/json').send({ error: 'Not found' });
                 return;
             default:
                 // default to plain-text. send()
-                res.type('txt').send('Not found');
+                res.type('text/plain').send('Not found');
         }
 
     });
