@@ -4,6 +4,7 @@ nn = require 'node-notifier'
 notifier = new nn()
 browserSync = require 'browser-sync'
 n = args.n
+sync = args.sync
 yamlConfigString = "_config.yml,config/_config.dev.yml"
 fs = require('fs')
 if fs.existsSync("config/_config.local.yml")
@@ -25,7 +26,7 @@ module.exports = (gulp, devEnv, $) ->
     bundle.on "close", cb
     bundle.stdout.on "data", (data) ->
       console.log "[jekyll] ", data.toString()
-      if devEnv then browserSync.reload() else $.util.noop()
+      if sync then browserSync.reload() else $.util.noop()
       if not n and data.toString().search('done.') != -1
         notifier.notify(title: "Gulp", message: 'Jekyll is done')
       return
