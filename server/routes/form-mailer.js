@@ -12,7 +12,7 @@ module.exports = function(app) {
   var contactUrl = 'https://my.crossroads.net/ministryplatformapi/PlatformService.svc/GetPageRecord';
   var contactPageId = 292;
 
-  var mandrillApiKey = config.mandrill.apikey;    // Crossroads.net API key
+  var mandrillApiKey = config.get('MANDRILL_API_KEY');    // Crossroads.net API key
   var fromEmail = "notifications@crossroads.net";
   var fromName = "Notifications";
 

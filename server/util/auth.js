@@ -5,9 +5,9 @@ var util = require('util'),
 var auth = exports;
 
 auth.credentials =  {
-  clientID: config.client.id,
-  clientSecret: config.client.secret,
-  site: config.api.url,
+  clientID: config.get('CLIENT_ID'),
+  clientSecret: config.get('CLIENT_SECRET'),
+  site: config.get('API_URL'),
   authorizationPath: '/oauth/authorize',
   tokenPath: '/oauth/token'
 };
