@@ -14,7 +14,6 @@ vendor/ruby
 /dump.rdb
 /.tmp/
 .DS_Store
-/**/.DS_Store
 .project
 npm-debug.log
 config/_config.local.yml
