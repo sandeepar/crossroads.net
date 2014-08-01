@@ -11,6 +11,7 @@ program: "http://s3.amazonaws.com/crossroads-media/documents/10_20-21_12_HOMEPro
 description: "Who are you depending on? Our orphan tendencies come from our desperate search for approval."
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/journeyhome_03.mp4"
 video-duration: "45:52"
+yt-embed-url: "//www.youtube.com/embed/6rK60_ondlM"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/journeyhome_03_still.jpg"
 tag: 
  - approval

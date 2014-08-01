@@ -11,6 +11,7 @@ program: "http://s3.amazonaws.com/crossroads-media/documents/08_21-22_10Program.
 description: "Brian Tome talks about how the faithful obey God."
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/TheFaithful01.mp4"
 video-duration: "34:56"
+yt-embed-url: "//www.youtube.com/embed/Urwq43etcnc"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/TheFaithful02_still.jpg"
 tag: 
  - tome

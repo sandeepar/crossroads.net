@@ -10,6 +10,7 @@ audio-duration: "28:07"
 description: "Florence"
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/022614-lw-florence.mp4"
 video-duration: "28:07"
+yt-embed-url: "//www.youtube.com/embed/iN3MGmxksE8"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/last-wednesday.jpg"
 tag: 
  - last-wednesday

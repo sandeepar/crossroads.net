@@ -11,6 +11,7 @@ program: "http://s3.amazonaws.com/crossroads-media/documents/07_13-14_13Program_
 description: "Chuck Mingo talks about how God is other worldly."
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/god_is_01.mp4"
 video-duration: "40:18"
+yt-embed-url: "//www.youtube.com/embed/DqSjjM2-Ti4"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/god-is-01-still.jpg"
 tag: 
  - mingo

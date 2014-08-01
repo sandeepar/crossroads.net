@@ -11,6 +11,7 @@ program: "http://s3.amazonaws.com/crossroads-media/documents/02_23-24_13Program_
 description: "Chuck Mingo talks about how following the Leader is best with a tribe."
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/followtheleader_oakley_03.mp4"
 video-duration: "38:05"
+yt-embed-url: "//www.youtube.com/embed/JNMI1H37oRI"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/followtheleader_oakley_03_still.jpg"
 tag: 
  - mingo

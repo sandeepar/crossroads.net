@@ -11,6 +11,7 @@ program: "http://s3.amazonaws.com/crossroads-media/documents/03_08-09_14Program_
 description: "Why don't church people act like Jesus?"
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/heavyweights2_wk5.mp4"
 video-duration: "49:16"
+yt-embed-url: "//www.youtube.com/embed/pda5csGklCY"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/heavyweights2_wk5_still.jpg"
 tag: 
  - heavyweights

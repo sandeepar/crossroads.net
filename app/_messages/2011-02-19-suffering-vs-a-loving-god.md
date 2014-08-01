@@ -11,6 +11,7 @@ program: "http://s3.amazonaws.com/crossroads-media/documents/02_19-20_11Program.
 description: "We'll wrestle with the question of how God can really be loving when there's so much suffering in the world."
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/heavyweights_02.mp4"
 video-duration: "45:19"
+yt-embed-url: "//www.youtube.com/embed/3yaWG2AwGdM"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/heavyweights_02_still.jpg"
 tag: 
  - tome

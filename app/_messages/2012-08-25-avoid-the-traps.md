@@ -11,6 +11,7 @@ program: "http://s3.amazonaws.com/crossroads-media/documents/08_25-26_12Program.
 description: "Brian Tome talks about troubleshooting what prevents us from loving our jobs."
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/htlyj_02.mp4"
 video-duration: "36:54"
+yt-embed-url: "//www.youtube.com/embed/SlAPiWIZcUw"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/HTLYJ_02_still.jpg"
 tag: 
  - work

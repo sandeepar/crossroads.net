@@ -11,6 +11,7 @@ program: "http://s3.amazonaws.com/crossroads-media/documents/08_11-12_12Program.
 description: "Brian Tome talks about finding the good life in the midst of tension."
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/goodlife_08.mp4"
 video-duration: "39:27"
+yt-embed-url: "//www.youtube.com/embed/ufnOl7iXAts"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/goodlife_08_still.jpg"
 tag: 
  - brian-tome

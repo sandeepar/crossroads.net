@@ -11,6 +11,7 @@ program: "http://s3.amazonaws.com/crossroads-media/documents/10_13-14_12_HOMEPro
 description: "At some point, we've all felt like we didn't quite belong. But God wants to show us to a place where we're surrounded by love and approval, a place where we can find rest, protection and hope."
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/journeyhome_02.mp4"
 video-duration: "40:39"
+yt-embed-url: "//www.youtube.com/embed/b4-YiLsvSvk"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/journeyhome_02_still.jpg"
 tag: 
  - prodigal-son

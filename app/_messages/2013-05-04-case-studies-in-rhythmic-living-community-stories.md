@@ -11,6 +11,7 @@ program: "http://s3.amazonaws.com/crossroads-media/documents/05_04-05_13Program_
 description: "People in our community share their rhythms"
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/rhythm03.mp4"
 video-duration: "44:44"
+yt-embed-url: "//www.youtube.com/embed/Ksbr1_2DalU"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/rhythm03_still.jpg"
 tag: 
  - rhythm

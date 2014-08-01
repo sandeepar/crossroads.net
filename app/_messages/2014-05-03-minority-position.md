@@ -11,6 +11,7 @@ program: "http://s3.amazonaws.com/crossroads-media/documents/05_03-04_14Program_
 description: "The new man takes a minority position."
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/thenewman_02.mp4"
 video-duration: ":"
+yt-embed-url: "//www.youtube.com/embed/hDImFWJw7_s"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/thenewman_02.jpg"
 tag: 
  - crossroads

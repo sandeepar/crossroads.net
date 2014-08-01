@@ -8,6 +8,7 @@ tag:
  - thanksgiving
  - food-drive
  - reachout
+yt-embed-url: "//www.youtube.com/embed/MHQQsJsMDFc"
 video: "http://s3.amazonaws.com/crossroads-media/other-media/video/TFD09.mp4"
 video-poster: "http://s3.amazonaws.com/crossroads-media/images/TFD09-still.jpg"
 ---

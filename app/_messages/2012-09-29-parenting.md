@@ -11,6 +11,7 @@ program: "http://s3.amazonaws.com/crossroads-media/documents/09_29-30_12Program.
 description: "Brian Tome talks about parenting."
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/knockoff_03.mp4"
 video-duration: "43:14"
+yt-embed-url: "//www.youtube.com/embed/sBOFRGOq9I0"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/knockoff_03_still.jpg"
 tag: 
  - brian-tome

@@ -8,6 +8,7 @@ message_id: 826
 description: ""
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/kingdom_come_1.mp4"
 video-duration: "44:26"
+yt-embed-url: "//www.youtube.com/embed/b39vJQS8DZ8"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/Kingdom_Come_1.jpg"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/kingdom_come_1.mp3"
 audio-duration: "44:26"

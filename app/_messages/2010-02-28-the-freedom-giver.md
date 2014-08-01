@@ -11,6 +11,7 @@ program: "http://s3.amazonaws.com/crossroads-media/documents/02_27-28_10Program.
 description: "Brian Tome discusses the Freedom Giver and how he fights for our freedom."
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/Free2.mp4"
 video-duration: "40:29"
+yt-embed-url: "//www.youtube.com/embed/Dm1gBRvbRpk"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/Free2-still.jpg"
 tag: 
  - freedom

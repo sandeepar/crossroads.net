@@ -13,6 +13,7 @@ program: "http://s3.amazonaws.com/crossroads-media/documents/01_22-23_11Program.
 description: "Brian Tome talks about how a lifestyle of sacrifice leads to growth."
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/growup04.mp4"
 video-duration: "36:56"
+yt-embed-url: "//www.youtube.com/embed/bwM7WBXjDn0"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/growup04_still.jpg"
 tag: 
  - forgiveness

@@ -11,6 +11,7 @@ program: "http://s3.amazonaws.com/crossroads-media/documents/11_27-28_10Program.
 description: "Chuck Mingo talks about how we can cultivate an attitude of anticipation year-round."
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/anticipation.mp4"
 video-duration: "34:24"
+yt-embed-url: "//www.youtube.com/embed/3Em-XeU6VvA"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/aniticipation_still.jpg"
 tag: 
  - mingo

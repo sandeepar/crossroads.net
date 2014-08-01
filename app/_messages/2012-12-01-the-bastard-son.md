@@ -11,6 +11,7 @@ program: "http://s3.amazonaws.com/crossroads-media/documents/12_1-2_12Program_LO
 description: "Brian Tome talks about how unexpected Jesus was when he came into the world."
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/awaitedson02.mp4"
 video-duration: "49:58"
+yt-embed-url: "//www.youtube.com/embed/TNIkG2vzgfk"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/awaitedson02.jpg"
 tag: 
  - brian-tome

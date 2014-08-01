@@ -11,6 +11,7 @@ program: "http://s3.amazonaws.com/crossroads-media/documents/08_28-29_10Program.
 description: "Brian Tome talks about how the faithful respond to God's call."
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/TheFaithful03.mp4"
 video-duration: "46:37"
+yt-embed-url: "//www.youtube.com/embed/aypGWDawutc"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/TheFaithful03_still.jpg"
 tag: 
  - tome

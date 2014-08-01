@@ -12,6 +12,7 @@ description: "How is God moving you?
 Remaining with God looks like living from His approval and continually experiencing His fatherhood."
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/journeyhome_06.mp4"
 video-duration: "56:48"
+yt-embed-url: "//www.youtube.com/embed/y5_1whVHkH0"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/journeyhome_06_still.jpg"
 tag: 
  - journey

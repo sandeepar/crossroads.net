@@ -14,6 +14,7 @@ program: "http://s3.amazonaws.com/crossroads-media/documents/0829_30Program.pdf"
 description: "Brian Tome discusses why crossroads exists to mobilize people toward things God cares about."
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/InsideOut3.mp4"
 video-duration: "44:48"
+yt-embed-url: "//www.youtube.com/embed/ZNeYcebh2YI"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/InsideOut3-still.jpg"
 tag: 
  - reachout

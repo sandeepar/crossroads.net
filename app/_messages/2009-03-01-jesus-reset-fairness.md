@@ -10,6 +10,7 @@ audio-duration: "37:30"
 description: "Jesus reset our understanding of fairness. Watch as Brian Tome explains why that's a good thing."
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/Reset2.mp4"
 video-duration: "37:30"
+yt-embed-url: "//www.youtube.com/embed/0Kzzoz9ay9k"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/Reset2-still.jpg"
 program: "http://s3.amazonaws.com/crossroads-media/documents/020328_01Program.pdf"
 tag: 

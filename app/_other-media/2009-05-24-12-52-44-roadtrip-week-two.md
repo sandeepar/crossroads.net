@@ -9,6 +9,7 @@ tag:
  - acts
  - early-church
  - marriage
+yt-embed-url: "//www.youtube.com/embed/NvTOJHBZ4rU"
 video: "http://s3.amazonaws.com/crossroads-media/other-media/video/Roadtrip2.mp4"
 video-poster: "http://s3.amazonaws.com/crossroads-media/images/Roadtrip2-still.jpg"
 ---

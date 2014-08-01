@@ -11,6 +11,7 @@ program: "http://s3.amazonaws.com/crossroads-media/documents/02_26-27_11Program.
 description: "We'll wrestle with the question of how Jesus can claim to be the only way to God."
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/heavyweights_03.mp4"
 video-duration: "52:58"
+yt-embed-url: "//www.youtube.com/embed/Cyt_E36zXG0"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/heavyweights_03_still.jpg"
 tag: 
  - tome

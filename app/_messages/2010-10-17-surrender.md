@@ -13,6 +13,7 @@ program: "http://s3.amazonaws.com/crossroads-media/documents/10_16-17_10Program.
 description: "Brian Tome talks about what it means to surrender."
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/gamechange02.mp4"
 video-duration: "56:21"
+yt-embed-url: "//www.youtube.com/embed/b7EYnpHfC9c"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/gamechange02_still.jpg"
 tag: 
  - growth

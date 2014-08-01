@@ -11,6 +11,7 @@ program: "http://s3.amazonaws.com/crossroads-media/documents/08_06-07_11Program.
 description: "We will be wrapping up our series on what made Jesus the ''Greatest Show on Earth'' with guest speaker Chris Seay."
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/greatestshow08.mp4"
 video-duration: "32:40"
+yt-embed-url: "//www.youtube.com/embed/UtaNdVHseH8"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/greatestshow08_still.jpg"
 tag: 
  - chris-seay

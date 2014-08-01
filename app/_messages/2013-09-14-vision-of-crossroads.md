@@ -10,6 +10,7 @@ audio-duration: "45:32"
 description: "Brian Tome talks about Crossroads' entrepreneurial vision."
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/go_forth_04.mp4"
 video-duration: "45:32"
+yt-embed-url: "//www.youtube.com/embed/-KDLve3YMpw"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/go_forth_04_still.jpg"
 program: "http://s3.amazonaws.com/crossroads-media/documents/09_14-15_13Program_LO.pdf"
 tag: 

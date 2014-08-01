@@ -11,6 +11,7 @@ program: "http://s3.amazonaws.com/crossroads-media/documents/07_10-11_10Program.
 description: "Greg Boyd talks about what the Kingdom is, and what it means to seek it."
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/KingdomCome01.mp4"
 video-duration: "47:36"
+yt-embed-url: "//www.youtube.com/embed/lUHAagh5xwA"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/GregBoyd.jpg"
 tag: 
  - greg-boyd

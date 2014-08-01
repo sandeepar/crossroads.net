@@ -11,6 +11,7 @@ program: "http://s3.amazonaws.com/crossroads-media/documents/07_28-29_12Program.
 description: "We're learning about how the good life comes when we take Jesus at his word."
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/goodlife_06.mp4"
 video-duration: "38:51"
+yt-embed-url: "//www.youtube.com/embed/QKEMXKYkm-0"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/goodlife_06_still.jpg"
 tag: 
  - beechem
