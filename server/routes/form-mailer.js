@@ -1,4 +1,4 @@
-var config = require('../config/config')
+var config = require('../config')
 var mandrill = require('mandrill-api/mandrill');
 var util = require('util');
 var q = require('q');

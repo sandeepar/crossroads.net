@@ -2,7 +2,7 @@ var config, moment, request, config;
 
 moment = require('moment');
 request = require('superagent');
-config = require('../config/config');
+config = require('../config');
 var util = require('util');
 
 module.exports = function() {

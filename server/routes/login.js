@@ -1,4 +1,4 @@
-var config = require('../config/config');
+var config = require('../config');
 
 module.exports = function(app) {
   var auth = require('think-ministry/auth')({
