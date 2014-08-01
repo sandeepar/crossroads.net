@@ -13,6 +13,7 @@ program: "http://s3.amazonaws.com/crossroads-media/documents/01_15-16_11Program.
 description: "Brian Tome talks about what it looks like to bend your life to the truth found in the Bible."
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/growup03.mp4"
 video-duration: "34:49"
+yt-embed-url: "//www.youtube.com/embed/eR0AXpFHB1g"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/growup03_still.jpg"
 tag: 
  - money

@@ -14,6 +14,7 @@ program: "http://s3.amazonaws.com/crossroads-media/documents/1025_26Program.pdf"
 description: "What is the purpose of all of this \"Kingdom\" talk? In this message, Brian Tome discusses what it means for us to receive the key of love and to be unlocked."
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/unlocked4.mp4"
 video-duration: "39:31"
+yt-embed-url: "//www.youtube.com/embed/E3RUthK5Eeg"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/unlocked4-still.jpg"
 tag: 
  - tome

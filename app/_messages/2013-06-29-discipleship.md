@@ -11,6 +11,7 @@ program: "http://s3.amazonaws.com/crossroads-media/documents/06_29-30_13Program_
 description: "Jo Saxton unpacks a word Jesus used a lot&#58; ''disciple.''"
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/htbp_03.mp4"
 video-duration: "43:49"
+yt-embed-url: "//www.youtube.com/embed/5PHQymqx30c"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/htbp_03_still.jpg"
 tag: 
  - discipleship

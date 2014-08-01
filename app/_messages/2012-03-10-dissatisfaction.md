@@ -12,6 +12,7 @@ description: "This week we're talking about how Game Changers share common
 traits, including dissatisfaction with the status quo."
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/gamechangers_01.mp4"
 video-duration: "53:36"
+yt-embed-url: "//www.youtube.com/embed/aKRXDU8vzvM"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/gamechangers_01_still.jpg"
 tag: 
  - tome

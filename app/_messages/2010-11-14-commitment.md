@@ -11,6 +11,7 @@ program: "http://s3.amazonaws.com/crossroads-media/documents/11_13-14_10Program.
 description: "Brian Tome talks about the commitment and acting on that call."
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/gamechange06.mp4"
 video-duration: "35:46"
+yt-embed-url: "//www.youtube.com/embed/bou9AS8htY0"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/gamechange06_still.jpg"
 tag: 
  - tome

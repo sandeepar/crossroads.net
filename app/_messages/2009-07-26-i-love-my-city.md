@@ -10,6 +10,7 @@ audio-duration: "39:47"
 description: "Pastor Fred Luter from New Orleans shares what to do when the storms come. "
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/WeLoveCincy4.mp4"
 video-duration: "39:47"
+yt-embed-url: "//www.youtube.com/embed/nj0sXkljexM"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/WeLoveCincy4-still.jpg"
 tag: 
  - fred-luter

@@ -10,6 +10,7 @@ audio-duration: ":"
 description: "Last Wednesday - June - Oakley"
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/062514-lw-oakley.mp4"
 video-duration: ":"
+yt-embed-url: "//www.youtube.com/embed/UTgzksGHlVY"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/last-wednesday.jpg"
 tag: 
  - crossroads

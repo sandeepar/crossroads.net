@@ -11,6 +11,7 @@ program: "http://s3.amazonaws.com/crossroads-media/documents/02_15-16_14Program_
 description: "Are science and faith mutually exclusive?"
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/heavyweights2_02.mp4"
 video-duration: "55:16"
+yt-embed-url: "//www.youtube.com/embed/d00ZqteHdYQ"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/heavyweight2_02_still.jpg"
 tag: 
  - crossroads

@@ -6,6 +6,7 @@ date: 2010-06-03
 description: "7000 volunteers from 50 churches worked on over 400 projects."
 tag: 
  - go-cincinnati
+yt-embed-url: "//www.youtube.com/embed/E44REheY7zU"
 video: "http://s3.amazonaws.com/crossroads-media/other-media/video/Go%20Cincy%202010%20ReCap%20FINAL.mp4"
 video-poster: "http://s3.amazonaws.com/crossroads-media/images/go-cincy-2010.jpg"
 ---

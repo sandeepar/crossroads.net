@@ -11,6 +11,7 @@ program: "http://s3.amazonaws.com/crossroads-media/documents/12_8-9_12Program_LO
 description: "Brian Tome talks about how Jesus' birth brought division."
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/awaitedson03.mp4"
 video-duration: "46:11"
+yt-embed-url: "//www.youtube.com/embed/JVFT17sszmk"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/awaitedson03_still.jpg"
 tag: 
  - brian-tome

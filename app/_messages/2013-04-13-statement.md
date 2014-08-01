@@ -11,6 +11,7 @@ program: "http://s3.amazonaws.com/crossroads-media/documents/04_13-14_13Program_
 description: "We'll have the chance to invest for an enormous return."
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/roi_06.mp4"
 video-duration: "43:07"
+yt-embed-url: "//www.youtube.com/embed/r02HUn6z5H0"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/roi_06_still.jpg"
 tag: 
  - investment

@@ -14,6 +14,7 @@ program: "http://s3.amazonaws.com/crossroads-media/documents/0801_02Program.pdf"
 description: "Mark Stecher shares why he loves his mission, which primarily revolves around loving his city."
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/WeLoveCincy5.mp4"
 video-duration: "44:11"
+yt-embed-url: "//www.youtube.com/embed/xgyp2e63iLg"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/WeLoveCincy5-still.jpg"
 tag: 
  - stecher

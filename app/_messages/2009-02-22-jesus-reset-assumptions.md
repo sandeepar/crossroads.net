@@ -10,6 +10,7 @@ audio-duration: "47:59"
 description: "In the opening week of our Reset journey, Brian Tome makes the case for an examination of Jesus."
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/Reset1.mp4"
 video-duration: "47:59"
+yt-embed-url: "//www.youtube.com/embed/EBmTJpztnx8"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/Reset1-still.jpg"
 program: "http://s3.amazonaws.com/crossroads-media/documents/0221_22_Program.pdf"
 tag: 

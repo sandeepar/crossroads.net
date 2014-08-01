@@ -10,6 +10,7 @@ audio-duration: "50:48"
 description: "Chuck Mingo talks about submitting to the King"
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/102613forweb.mp4"
 video-duration: "50:48"
+yt-embed-url: "//www.youtube.com/embed/tZ895NZkJqs"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/chuck mingo.jpg"
 program: "http://s3.amazonaws.com/crossroads-media/documents/KingdomProgram_Week3_LO.pdf"
 tag: 

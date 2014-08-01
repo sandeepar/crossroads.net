@@ -11,6 +11,7 @@ program: "http://s3.amazonaws.com/crossroads-media/documents/05_28-29_11Program.
 description: "Brian Tome talks about how our guide, the Holy Spirit, leads us away from resentment and into places of giving and receiving grace."
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/theguide02.mp4"
 video-duration: "43:56"
+yt-embed-url: "//www.youtube.com/embed/vgzSPIlhQQ4"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/theguide02_still.jpg"
 tag: 
  - tome

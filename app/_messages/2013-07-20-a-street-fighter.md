@@ -11,6 +11,7 @@ program: "http://s3.amazonaws.com/crossroads-media/documents/07_20-21_13Program_
 description: "Steven Manuel talks about how God is like a street fighter."
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/god_is_02.mp4"
 video-duration: "48:05"
+yt-embed-url: "//www.youtube.com/embed/xO9hpVVgqDk"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/god_is_still_02.jpg"
 tag: 
  - steven

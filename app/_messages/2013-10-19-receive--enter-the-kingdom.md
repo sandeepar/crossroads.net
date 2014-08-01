@@ -10,6 +10,7 @@ audio-duration: "36:15"
 description: ""
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/101913_Service.mp4"
 video-duration: "36:15"
+yt-embed-url: "//www.youtube.com/embed/_CPIrASvn2w"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/image_640X360.jpg"
 program: "http://s3.amazonaws.com/crossroads-media/documents/KingdomProgram_Week2_LO.pdf"
 tag: 

@@ -11,6 +11,7 @@ program: "http://s3.amazonaws.com/crossroads-media/documents/01_11-12_14Program_
 description: "Brian Tome talks about how change happens."
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/powertochange_02.mp4"
 video-duration: "42:45"
+yt-embed-url: "//www.youtube.com/embed/khLl05quPpA"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/powertochange_02_still.jpg"
 tag: 
  - crossroads

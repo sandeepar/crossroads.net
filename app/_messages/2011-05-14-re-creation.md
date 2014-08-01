@@ -11,6 +11,7 @@ program: "http://s3.amazonaws.com/crossroads-media/documents/05_14-15_11Program.
 description: "Brian Tome talks about how the story ends."
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/thestory08.mp4"
 video-duration: "56:07"
+yt-embed-url: "//www.youtube.com/embed/8T0dY2VFxLQ"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/thestory08_still.jpg"
 tag: 
  - tome

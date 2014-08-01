@@ -12,6 +12,7 @@ description: "We'll be talking about God's redemptive plan for sex.
 (This message contains adult content.)"
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/goodsex_04.mp4"
 video-duration: "42:39"
+yt-embed-url: "//www.youtube.com/embed/hDWQ-Ed6Qws"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/goodsex_04_still.jpg"
 tag: 
  - tome

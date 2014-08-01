@@ -12,6 +12,7 @@ description: "Chuck Mingo talks about how the good life can happen, even in the
 midst of suffering."
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/goodlife_07.mp4"
 video-duration: "41:47"
+yt-embed-url: "//www.youtube.com/embed/q7YGRGj9xSQ"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/goodlife_07_still.jpg"
 tag: 
  - suffering

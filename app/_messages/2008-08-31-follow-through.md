@@ -13,6 +13,7 @@ notes-title: "Rebuild&#58; Follow-Through (Study Notes)"
 description: "Chuck Mingo shares how to deal with setbacks when following a personal vision."
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/Rebuild3-Raw.mp4"
 video-duration: "42:27"
+yt-embed-url: "//www.youtube.com/embed/1FbtweulDyU"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/Rebuild-3-still.jpg"
 program: "http://s3.amazonaws.com/crossroads-media/documents/0830_31Program.pdf"
 tag: 

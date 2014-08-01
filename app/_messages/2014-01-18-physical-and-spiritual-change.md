@@ -11,6 +11,7 @@ program: "http://s3.amazonaws.com/crossroads-media/documents/01_18-19_14Program_
 description: "We're talking about how community can change us."
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/powertochange_03.mp4"
 video-duration: "45:58"
+yt-embed-url: "//www.youtube.com/embed/g3IsK3iynRU"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/powertochange_03_still.jpg"
 tag: 
  - crossroads-church

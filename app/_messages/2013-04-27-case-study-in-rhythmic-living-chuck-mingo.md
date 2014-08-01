@@ -11,6 +11,7 @@ program: "http://s3.amazonaws.com/crossroads-media/documents/04_27-28_13Program_
 description: "Chuck Mingo presents a case study in rhythmic living."
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/rhythm_02.mp4"
 video-duration: "30:12"
+yt-embed-url: "//www.youtube.com/embed/v8Ik13sMTyo"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/rhythm_02_still.jpg"
 tag: 
  - rhythm

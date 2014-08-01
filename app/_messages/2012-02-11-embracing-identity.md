@@ -11,6 +11,7 @@ program: "http://s3.amazonaws.com/crossroads-media/documents/02_11-12_12Program.
 description: "Chuck Mingo talks about how we view our identity&#58; as an abandoned orphan or treasured child of God."
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/placeatthetable_01.mp4"
 video-duration: "42:47"
+yt-embed-url: "//www.youtube.com/embed/K_Hl6khp0yM"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/placeattable_01_still.jpg"
 tag: 
  - mingo

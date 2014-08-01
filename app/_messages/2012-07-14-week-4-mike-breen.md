@@ -11,6 +11,7 @@ program: "http://s3.amazonaws.com/crossroads-media/documents/07_14-15_12Program.
 description: "Mike Breen talks about how Jesus both invites us and challenges us into the good life."
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/goodlife_04.mp4"
 video-duration: "37:31"
+yt-embed-url: "//www.youtube.com/embed/x4altiTB_Dk"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/goodlife_04_still.jpg"
 tag: 
  - mike-breen

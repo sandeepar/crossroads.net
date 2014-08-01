@@ -11,6 +11,7 @@ program: "http://s3.amazonaws.com/crossroads-media/documents/12_07-08_13ProgramF
 description: "This year was like climbing the biggest mountain we've ever faced. It was exhausting, energizing, uncertain and wonderful, and now here we are—standing at the peak of 2013."
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/giftoffreedom_02.mp4"
 video-duration: "45:32"
+yt-embed-url: "//www.youtube.com/embed/PZARGmogRgM"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/giftoffreedom_02_still.jpg"
 tag: 
  - freedom

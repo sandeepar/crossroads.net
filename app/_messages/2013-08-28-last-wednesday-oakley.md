@@ -10,6 +10,7 @@ audio-duration: "40:30"
 description: ""
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/082813%2520LW-Oakley.mp4"
 video-duration: "40:35"
+yt-embed-url: "//www.youtube.com/embed/aWVh4_ZInIU"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/082813_LW-Oakley_still.jpg"
 tag: 
  - brian-tome

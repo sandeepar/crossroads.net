@@ -10,6 +10,7 @@ audio-duration: "37:47"
 description: "Chuck Mingo talks about how freedom is maintained in the midst of community."
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/Free5.mp4"
 video-duration: "37:47"
+yt-embed-url: "//www.youtube.com/embed/SRT6AyyfFNM"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/Free5-still.jpg"
 program: "http://s3.amazonaws.com/crossroads-media/documents/03_20-21_10Program.pdf"
 tag: 

@@ -11,6 +11,7 @@ program: "http://s3.amazonaws.com/crossroads-media/documents/09_07-08_13Program_
 description: "Brian Tome talks about fearlessness in pursuit of new ventures."
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/go_forth_03.mp4"
 video-duration: "43:16"
+yt-embed-url: "//www.youtube.com/embed/IfZn2mzXhP0"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/go_forth_03_still.jpg"
 tag: 
  - crossroads-church

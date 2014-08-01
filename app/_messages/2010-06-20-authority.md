@@ -11,6 +11,7 @@ program: "http://s3.amazonaws.com/crossroads-media/documents/06_19-20_10Program.
 description: "Brian Tome discusses how aligning with authority structures can help us pursue our passions."
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/HouseWork02.mp4"
 video-duration: "40:43"
+yt-embed-url: "//www.youtube.com/embed/4bBKWC-EOKw"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/HouseWork02_Still.jpg"
 tag: 
  - tome
