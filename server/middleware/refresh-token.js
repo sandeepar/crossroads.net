@@ -8,8 +8,8 @@ module.exports = function() {
     if ((req.user != null ) && req.user.token && (req.user.token.expires_at != null) && moment().add('seconds', 30).isAfter(moment(req.user.token.expires_at))) {
       return request.post("" + config.get('API_URL') + "/oauth/token").send({
         refresh_token: req.user.token.refresh_token,
-        client_id: 'client',
-        client_secret: 'secret',
+        client_id: config.get('CLIENT_ID'),
+        client_secret: config.get('CLIENT_SECRET'),
         grant_type: "refresh_token"
       }).end(function(err, response) {
         var auth;
