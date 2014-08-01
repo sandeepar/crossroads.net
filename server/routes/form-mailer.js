@@ -3,7 +3,7 @@ var mandrill = require('mandrill-api/mandrill');
 var util = require('util');
 var q = require('q');
 var request = require('superagent');
-var auth = require('../util/auth');
+var auth = require('../auth');
 
 module.exports = function(app) {
   //

@@ -1,117 +1,49 @@
+var auth = require('../auth'),
+    username = 'form-mailer-service',
+    password = 'password';
+
 module.exports = function(app) {
+  app.route('/getContact/:recordId').get(function(req, res) {
+    getContactPage(req.params.recordId).then(function(data) {
+      res.send(data);
+    }, function(err) {
+      console.log('Error returning page record for recordId = ' + req.parms.recordId);
+    }).done();
+  });
 
-  var oauth = require('../oauth/index.js');
+  app.route('/getMaritalStatus').get(function(req, res) {
+    lookupValues(339).then(function(data) {
+      res.send(data);
+    }, function(err) {
+      console.log('Error returning lookup values for Marital Status');
+    }).done();
+  });
 
-  var util = require('util');
-  var q = require('q');
-  var request = require('superagent');
-
-  var ministryPlatformBaseUrl = 'https://my.crossroads.net/ministryplatformapi/PlatformService.svc/';
-  var getPageLookupRecordsUrl = ministryPlatformBaseUrl + 'GetPageLookupRecords';
-  var getPageRecordUrl = ministryPlatformBaseUrl + 'GetPageRecord';
-  var updatePageRecordUrl = ministryPlatformBaseUrl + 'UpdatePageRecord';
-
-  //
-  // Express Route for Contact - Get Page Record
-  //
-  app.route('/getContact/:recordId')
-    .get(function(req, res) {
-      var promise = getContactPage(req.params.recordId);
-      promise
-        .then(function(data) {
-          res.send(data);
-
-        }, function(err) {
-          console.log('Error returning page record for recordId = ' + req.parms.recordId);
-        })
-        .done();
-
-    });
-
-  //
-  // Express Route for Get Page Lookup Records for Marital Status
-  //
-  app.route('/getMaritalStatus')
-    .get(function(req, res) {
-      var promise = lookupValues(339);
-      promise
-        .then(function(data) {
-          // var values = formatValues(data.Data);
-          res.send(data.Data);
-
-        }, function(err) {
-          console.log('Error returning lookup values for Marital Status');
-        })
-        .done();
-
-    });
-
-  //
-  // Express Route for Get Page Lookup Records for Gender
-  //
-  app.route('/getGenders')
-    .get(function(req, res) {
-      var promise = lookupValues(311);
-      promise
-        .then(function(data) {
-          // var values = formatValues(data.Data);
-          res.send(data.Data);
-
-        }, function(err) {
-          console.log('Error returning lookup values for gender');
-        })
-        .done();
-
-    });
+  app.route('/getGenders').get(function(req, res) {
+    lookupValues(311).then(function(data) {
+      res.send(data.Data);
+    }, function(err) {
+      console.log('Error returning lookup values for gender');
+    }).done();
+  });
 
   var getContactPage = function(recordId) {
-    var deferred = q.defer();
-    oauth.getTokenForService()
-      .then(function(token) {
-        request
-          .get(getPageRecordUrl)
-          .query({
-            pageId: 292,
-            recordId: recordId
-          })
-          .set('Authorization', 'Bearer ' + token.access_token)
-          .end(function(err, res) {
-            if (err || res.error) {
-              console.log('Contact Lookup Error: ' + util.inspect(err || res.error));
-              return;
-            }
-            deferred.resolve(res.body);
-          });
-      }, function(error) {
-        deferred.reject(error);
-      })
-      .done();
+    auth.getToken(username, password).then(function(token) {
+      var thinkMinistry = require('think-ministry')(token);
 
-    return deferred.promise;
+      return thinkMinistry.get('GetPageRecord', { pageId: 292, recordId: recordId })
+    }, function(error) {
+      console.log('Contact Lookup Error: ' + util.inspect(err || res.error));
+    });
   };
 
   var lookupValues = function(pageId) {
-    var deferred = q.defer();
-    oauth.getTokenForService()
-      .then(function(token) {
-        request
-          .get(getPageLookupRecordsUrl)
-          .query({
-            pageId: pageId
-          })
-          .set('Authorization', 'Bearer ' + token.access_token)
-          .end(function(err, res) {
-            if (err || res.error) {
-              console.log('Retrieve Lookup Values Error: ' + util.inspect(err || res.error));
-              return;
-            }
-            deferred.resolve(res.body);
-          });
-      }, function(error) {
-        deferred.reject(error);
-      })
-      .done();
+    auth.getToken(username, password).then(function(token) {
+      var thinkMinistry = require('think-ministry')(token);
 
-    return deferred.promise;
-  };
+      return thinkMinistry.get('GetPageLookupRecords', { pageId: pageId })
+    }, function(error) {
+      console.log('Retrieve Lookup Values Error: ' + util.inspect(err || res.error));
+    });
+  }
 };

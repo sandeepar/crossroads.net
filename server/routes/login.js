@@ -1,14 +1,6 @@
-var config = require('../config');
+var auth = require('../auth');
 
 module.exports = function(app) {
-  var auth = require('think-ministry/auth')({
-    clientID: config.get('CLIENT_ID'),
-    clientSecret: config.get('CLIENT_SECRET'),
-    site: config.get('API_URL'),
-    authorizationPath: '/oauth/authorize',
-    tokenPath: '/oauth/token'
-  });
-
   app.post('/login', function(req, res, next){
     res.type('txt');
 
