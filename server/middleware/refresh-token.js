@@ -1,3 +1,5 @@
+// There are no tests for this and after talking with James Smith, he indicated
+// that he's not sure if this is working or not.
 var moment = require('moment'),
     request = require('superagent'),
     config = require('../config'),
