@@ -1,9 +1,7 @@
-var config, moment, request, config;
-
-moment = require('moment');
-request = require('superagent');
-config = require('../config');
-var util = require('util');
+var moment = require('moment'),
+    request = require('superagent'),
+    config = require('../config'),
+    util = require('util');
 
 module.exports = function() {
   return function(req, res, next) {
