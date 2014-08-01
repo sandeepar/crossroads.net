@@ -1,5 +1,4 @@
-var util = require('util'),
-    config = require('../config'),
+var config = require('../config'),
     q = require('q');
 
 var auth = exports;
