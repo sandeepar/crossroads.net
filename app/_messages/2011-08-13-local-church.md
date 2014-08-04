@@ -11,6 +11,7 @@ program: "http://s3.amazonaws.com/crossroads-media/documents/08_13-14_11Program.
 description: "Mosa Sono talks about the powerful things that can happen when the Church collides with God's intentions."
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/collide_01.mp4"
 video-duration: "53:58"
+yt-embed-url: "//www.youtube.com/embed/t4uuH3NWm9U"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/collide01_still.jpg"
 tag: 
  - local-church

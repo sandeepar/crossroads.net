@@ -11,6 +11,7 @@ program: "http://s3.amazonaws.com/crossroads-media/documents/09_17-18_11Program.
 description: "Chuck Mingo talks about the power of encouragement in friendships."
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/everydayfriends02.mp4"
 video-duration: "33:48"
+yt-embed-url: "//www.youtube.com/embed/tdRQ0JDw_yk"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/everydayfriends02_still2.jpg"
 tag: 
  - mingo

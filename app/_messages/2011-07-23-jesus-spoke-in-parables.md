@@ -11,6 +11,7 @@ program: "http://s3.amazonaws.com/crossroads-media/documents/07_23-24_11Program.
 description: "Chuck Mingo talks about how Jesus spoke truth in the form of parables."
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/thegreatestshow06.mp4"
 video-duration: "42:13"
+yt-embed-url: "//www.youtube.com/embed/HHv4Vo7pseY"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/thegreatestshow06_still.jpg"
 tag: 
  - mingo

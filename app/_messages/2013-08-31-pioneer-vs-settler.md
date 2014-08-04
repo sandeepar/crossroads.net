@@ -11,6 +11,7 @@ program: "http://s3.amazonaws.com/crossroads-media/documents/08_31-9_1_13Program
 description: "Chuck Mingo talks about how a good team needs both pioneers and settlers."
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/go_forth_02.mp4"
 video-duration: "41:04"
+yt-embed-url: "//www.youtube.com/embed/eEckHfvqSDQ"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/go_forth_02_still.jpg"
 tag: 
  - mingo

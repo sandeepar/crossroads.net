@@ -14,6 +14,7 @@ program: "http://s3.amazonaws.com/crossroads-media/documents/0808_09Program.pdf"
 description: "Chuck Mingo shares what being on mission in Cincinnati looks like."
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/WeLoveCincy6.mp4"
 video-duration: "41:23"
+yt-embed-url: "//www.youtube.com/embed/8Aq3_SVC4QM"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/WeLoveCincy6-still.jpg"
 tag: 
  - mingo

@@ -10,6 +10,7 @@ audio-duration: "49:44"
 description: "This week we're focusing on how generosity frees us. "
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/consumed2.mp4"
 video-duration: "39:23"
+yt-embed-url: "//www.youtube.com/embed/uu2yjflb1b8"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/consumed2.jpg"
 tag: 
  - wells

@@ -11,6 +11,7 @@ program: "http://s3.amazonaws.com/crossroads-media/documents/08_17-18_13Program_
 description: "Brian Tome talks about how God is self-absorbed."
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/god_is_06.mp4"
 video-duration: "42:42"
+yt-embed-url: "//www.youtube.com/embed/3N7mnNvKsjU"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/god-is-06-still.jpg"
 tag: 
  - crossroads-church

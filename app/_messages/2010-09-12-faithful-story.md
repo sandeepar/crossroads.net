@@ -11,6 +11,7 @@ program: "http://s3.amazonaws.com/crossroads-media/documents/09_11-12_10Program.
 description: "Brian talks about what it looks like to be faithful in your profession."
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/thefaithful05.mp4"
 video-duration: "37:52"
+yt-embed-url: "//www.youtube.com/embed/s2m1XUvcsZA"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/TheFaithful05_still.jpg"
 tag: 
  - tome

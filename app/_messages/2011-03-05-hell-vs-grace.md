@@ -13,6 +13,7 @@ program: "http://s3.amazonaws.com/crossroads-media/documents/03_05-06_11Program.
 description: "We'll be wrestling with the question of how a good God can allow people to go to hell."
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/heavyweights04.mp4"
 video-duration: "39:55"
+yt-embed-url: "//www.youtube.com/embed/y9QwDE_yvhg"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/heavyweights04_still.jpg"
 tag: 
  - religion

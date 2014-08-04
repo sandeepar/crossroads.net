@@ -15,6 +15,7 @@ description: "Brian Tome discusses how being in community with others is another
 discipline."
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/092008Service.mp4"
 video-duration: "30:59"
+yt-embed-url: "//www.youtube.com/embed/XE6GHtFlcFI"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/092008ServiceStill.jpg"
 tag: 
  - community

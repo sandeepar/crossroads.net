@@ -11,6 +11,7 @@ program: "http://s3.amazonaws.com/crossroads-media/documents/0815_16Program.pdf"
 description: "Brian Tome shares why crossroads is setup to be a place where  normal people can hear about Jesus."
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/InsideOut1.mp4"
 video-duration: "45:31"
+yt-embed-url: "//www.youtube.com/embed/Njl9Mbzav8U"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/InsideOut1-still.jpg"
 tag: 
  - vision

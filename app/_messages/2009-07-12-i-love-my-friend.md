@@ -14,6 +14,7 @@ program: "http://s3.amazonaws.com/crossroads-media/documents/0711_12Program.pdf"
 description: "Alli Patterson talks about how relating to Jesus as a friend is essential to engaging in city-changing relationships."
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/071209.mp4"
 video-duration: "39:55"
+yt-embed-url: "//www.youtube.com/embed/TjMFpmbgQZM"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/Picture 3.png"
 tag: 
  - alli

@@ -8,6 +8,7 @@ tag:
  - mameodi
  - south-africa
  - reachout
+yt-embed-url: "//www.youtube.com/embed/0_zmKlaMloE"
 video: "http://s3.amazonaws.com/crossroads-media/other-media/video/MamelodiPartnership.mp4"
 video-poster: "http://s3.amazonaws.com/crossroads-media/images/MamelodiPartnership-still.jpg"
 ---

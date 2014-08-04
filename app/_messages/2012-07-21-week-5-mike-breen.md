@@ -11,6 +11,7 @@ program: "http://s3.amazonaws.com/crossroads-media/documents/07_21-22_12Program.
 description: "Mike Breen talks about how rest can lead us to the good life."
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/goodlife_05.mp4"
 video-duration: "30:05"
+yt-embed-url: "//www.youtube.com/embed/JKTdSiNlbn0"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/goodlife_05_still.jpg"
 tag: 
  - mike-breen

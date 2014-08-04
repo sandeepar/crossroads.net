@@ -11,6 +11,7 @@ program: "http://s3.amazonaws.com/crossroads-media/documents/03_12-13_11Program.
 description: "We'll be wrestling with the question of how you can believe the Bible when it seems to stand in opposition to modern science."
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/heavyweights05.mp4"
 video-duration: "45:32"
+yt-embed-url: "//www.youtube.com/embed/HY7iawLK0Jc"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/heavyweights05_still.jpg"
 tag: 
  - tome

@@ -13,6 +13,7 @@ program: "http://s3.amazonaws.com/crossroads-media/documents/01_29-30_11Program.
 description: "Brian Tome talks about what the Bible describes as \"walking in the Spirit\" and how it is instrumental to growth."
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/growup05.mp4"
 video-duration: "39:12"
+yt-embed-url: "//www.youtube.com/embed/QfgzWt4XJkU"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/growup05_still.jpg"
 tag: 
  - relationship

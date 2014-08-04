@@ -9,6 +9,7 @@ program: "http://s3.amazonaws.com/crossroads-media/documents/07_07-08_12Program.
 description: "Terry Phillips talks about how a life of expectancy leads to the good life."
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/goodlife_03.mp4"
 video-duration: "37:26"
+yt-embed-url: "//www.youtube.com/embed/7K0dOcKE7FE"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/goodlife03_still.jpg"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/goodlife_03.mp3"
 audio-duration: "37:21"

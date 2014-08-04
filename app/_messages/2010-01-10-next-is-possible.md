@@ -10,6 +10,7 @@ audio-duration: "37:18"
 description: "Chuck Mingo discusses Abraham and the importance of hope."
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/Next2.mp4"
 video-duration: "37:18"
+yt-embed-url: "//www.youtube.com/embed/myPMr011Bko"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/Next2-still.jpg"
 program: "http://s3.amazonaws.com/crossroads-media/documents/01_09-10_10Program.pdf"
 tag: 

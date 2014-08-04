@@ -13,6 +13,7 @@ notes-title: "GIMME GIMME&#58; The Results (Study Notes)"
 description: "When we choose to engage with an attitude of gratitude, we find that \"grace\" becomes the operating ethic in our lives. This week, Brian Tome leads us through an exercise of gratitude and talks about why we need to develop an attitude of remembering."
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/GIMMEGIMME4.mp4"
 video-duration: "46:27"
+yt-embed-url: "//www.youtube.com/embed/3nowVC-XNzE"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/GIMMEGIMME4-still.jpg"
 tag: 
  - gratitude

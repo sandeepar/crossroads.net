@@ -11,6 +11,7 @@ program: "http://s3.amazonaws.com/crossroads-media/documents/07_02-03_11Program.
 description: "Chuck Mingo talks about how Jesus turned religion on its head."
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/greatestshow03.mp4"
 video-duration: "43:32"
+yt-embed-url: "//www.youtube.com/embed/6SUL3D31LLw"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/greatestshow03_still.jpg"
 tag: 
  - mingo

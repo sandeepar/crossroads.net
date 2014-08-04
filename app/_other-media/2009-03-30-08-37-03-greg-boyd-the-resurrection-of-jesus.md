@@ -7,6 +7,7 @@ description: "Greg Boyd discusses evidence for the resurrection of Jesus."
 tag: 
  - boyd
  - resurrection
+yt-embed-url: "//www.youtube.com/embed/UGVTJeQtvZQ"
 video: "http://s3.amazonaws.com/crossroads-media/other-media/video/w6-greg.mp4"
 video-poster: "http://s3.amazonaws.com/crossroads-media/images/w6-greg-still.jpg"
 ---

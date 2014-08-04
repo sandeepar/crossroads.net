@@ -11,6 +11,7 @@ program: "http://s3.amazonaws.com/crossroads-media/documents/11_3-4_12_HOMEProgr
 description: "How are you living at home? God's greatest desire for you is to come home and receive your identity as His treasured child."
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/journeyhome_05.mp4"
 video-duration: "51:38"
+yt-embed-url: "//www.youtube.com/embed/aLwJCXgBK_E"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/journeyhome_05_still.jpg"
 tag: 
  - mingo

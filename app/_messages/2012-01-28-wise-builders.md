@@ -11,6 +11,7 @@ program: "http://s3.amazonaws.com/crossroads-media/documents/01_28-29_12Program.
 description: "We'll hear from people in our community talk about money."
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/bigbadwolf_04.mp4"
 video-duration: "44:28"
+yt-embed-url: "//www.youtube.com/embed/Upo4UCK7GDE"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/bigbadwolf_04_still.jpg"
 tag: 
  - money

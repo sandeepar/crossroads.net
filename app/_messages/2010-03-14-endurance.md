@@ -11,6 +11,7 @@ program: "http://s3.amazonaws.com/crossroads-media/documents/03_13-14_10Program.
 description: "Brian Tome talks about the importance of endurance and the four phases we go through on the way to freedom."
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/Free4.mp4"
 video-duration: "46:10"
+yt-embed-url: "//www.youtube.com/embed/VkahBmpY9Ps"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/Free4-still.jpg"
 tag: 
  - tome

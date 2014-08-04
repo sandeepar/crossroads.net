@@ -11,6 +11,7 @@ program: "http://s3.amazonaws.com/crossroads-media/documents/09_01-02_12Program.
 description: "Chuck Mingo talks about how to put our talents to work."
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/htlyj_03.mp4"
 video-duration: "36:30"
+yt-embed-url: "//www.youtube.com/embed/snRarbK7Wd8"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/htlyj_03_still.jpg"
 tag: 
  - mingo

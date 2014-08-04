@@ -10,6 +10,7 @@ audio-duration: "41:01"
 description: "Brian Tome discusses what it means to do what's next instead of worrying about what's five steps ahead."
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/Next1.mp4"
 video-duration: "41:01"
+yt-embed-url: "//www.youtube.com/embed/u96tHyLDyRA"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/Next1-still.jpg"
 tag: 
  - tome

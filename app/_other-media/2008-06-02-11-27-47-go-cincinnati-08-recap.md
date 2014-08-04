@@ -9,6 +9,7 @@ tag:
  - reachout
  - brad-johansen
  - outreach
+yt-embed-url: "//www.youtube.com/embed/_zyFhy0tf4Q"
 video: "http://s3.amazonaws.com/crossroads-media/other-media/video/GoCincy.mp4"
 video-poster: "http://s3.amazonaws.com/crossroads-media/images/GoCincy-still.jpg"
 ---

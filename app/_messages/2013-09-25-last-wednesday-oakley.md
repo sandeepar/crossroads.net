@@ -10,6 +10,7 @@ audio-duration: "42:33"
 description: "Last Wednesday - Oakley"
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/092513_lw_oakley.mp4"
 video-duration: "42:33"
+yt-embed-url: "//www.youtube.com/embed/tNe1q_02t7U"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/092813_lw_oakley_still.jpg"
 tag: 
  - chuck-mingo

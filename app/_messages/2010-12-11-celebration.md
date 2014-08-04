@@ -11,6 +11,7 @@ program: "http://s3.amazonaws.com/crossroads-media/documents/12_11-12_10Program.
 description: "Brian Tome talks about what it means to live in celebration of the miracle of Christmas."
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/celebration.mp4"
 video-duration: "35:13"
+yt-embed-url: "//www.youtube.com/embed/haoKyKoKiiM"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/celebration_still.jpg"
 tag: 
  - tome

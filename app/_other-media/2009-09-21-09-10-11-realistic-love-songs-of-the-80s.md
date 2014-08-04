@@ -10,6 +10,7 @@ tag:
  - boundaries
  - dating
  - relationships
+yt-embed-url: "//www.youtube.com/embed/je0yoGWtRJI"
 video: "http://s3.amazonaws.com/crossroads-media/other-media/video/80sLoveSongs.mp4"
 video-poster: "http://s3.amazonaws.com/crossroads-media/images/80sLoveSongs-still.jpg"
 ---

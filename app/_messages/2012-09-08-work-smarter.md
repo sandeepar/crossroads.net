@@ -11,6 +11,7 @@ program: "http://s3.amazonaws.com/crossroads-media/documents/09_08-09_12Program.
 description: "Todd Henry talks about how to build capacity in our lives to do great work."
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/htlyj_04.mp4"
 video-duration: "36:30"
+yt-embed-url: "//www.youtube.com/embed/RGJiOfwhCUc"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/htlyj_04_still.jpg"
 tag: 
  - todd-henry
