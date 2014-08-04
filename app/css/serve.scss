@@ -1,4 +1,6 @@
-.event-group {
+ .event-group {
+  margin-top: $line-height-computed;
+
   .list-group-item {
     @include clearfix;
     width: 100%;
@@ -34,4 +36,14 @@
 .list-group-item-title {
   background: $gray-lighter;  
   font-weight: bold;
+}
+
+.serve-signup-form {
+  .checkbox, .radio {
+    margin: 0px;
+  }
+
+  .well {
+    margin-top: $line-height-computed;
+  }
 }
