@@ -1,0 +1,119 @@
+---
+layout: one_column
+title: Serve Signup
+published: true
+permalink: /serve-signup/
+categories:
+---
+
+<form class="serve-signup-form">
+  <h1>KC Oakley Nursery</h1>
+  <h2 class="subheading">Nursery A (K116) &middot; Saturday, July 22, 2014</h2>
+  
+  <div class="well clearfix">
+    <fieldset class="row push--bottom"> 
+      <div class="col-sm-1">
+        <label>Who</label>
+      </div>
+      <div class="col-sm-11">
+        <label class="checkbox-inline">
+          <input type="checkbox" id="inlineCheckbox1" value="option1"> John
+        </label>
+        <label class="checkbox-inline">
+          <input type="checkbox" id="inlineCheckbox2" value="option2"> Jane
+        </label>
+        <label class="checkbox-inline">
+          <input type="checkbox" id="inlineCheckbox3" value="option3"> Joe
+        </label>
+      </div> 
+    </fieldset>
+
+    <fieldset class="row push--bottom">
+      <div class="col-sm-6" ng-controller="DatepickerDemoCtrl">
+        <label class="control-label">From</label>
+        <p class="input-group">
+          <input type="text" class="form-control" datepicker-popup="MM/dd/yyyy" ng-model="dt" is-open="opened" datepicker-options="dateOptions" date-disabled="disabled(date, mode)" ng-required="true" close-text="Close" ng-click="open($event)" />
+          <span class="input-group-btn">
+            <button type="button" class="btn btn-primary" ng-click="open($event)"><svg viewBox="0 0 32 32" class="icon icon-calendar"><use xlink:href="/icons/cr.svg#calendar"></use></svg></button>
+          </span>
+        </p>
+      </div>
+
+      <div class="col-sm-6" ng-controller="DatepickerDemoCtrl">
+        <label class="control-label">Through</label>
+        <p class="input-group">
+          <input type="text" class="form-control" datepicker-popup="MM/dd/yyyy" ng-model="dt" is-open="opened" datepicker-options="dateOptions" date-disabled="disabled(date, mode)" ng-required="true" close-text="Close" ng-click="open($event)" />
+          <span class="input-group-btn">
+            <button type="button" class="btn btn-primary" ng-click="open($event)"><svg viewBox="0 0 32 32" class="icon icon-calendar"><use xlink:href="/icons/cr.svg#calendar"></use></svg></button>
+          </span>
+        </p>
+      </div>
+    </fieldset>
+
+    <fieldset class="row push--bottom"> 
+      <div class="col-sm-1">
+        <label>Signup</label>
+      </div>
+      <div class="col-sm-11">
+        <label class="radio-inline">
+          <input type="radio" id="inlineCheckbox1" value="option1"> Yes
+        </label>
+        <label class="radio-inline">
+          <input type="radio" id="inlineCheckbox2" value="option2"> Maybe
+        </label>
+        <label class="radio-inline">
+          <input type="radio" id="inlineCheckbox3" value="option3"> No
+        </label>
+      </div> 
+    </fieldset>
+
+    <fieldset> 
+      <a href="#" class="btn btn-primary">Every Week</a>
+      <a href="#" class="btn btn-primary">Every Other Week</a>
+    </fieldset>
+  </div>
+</form>
+
+  <ul class="list-group">
+    <li class="list-group-item list-group-item-title">Individual Opportunities</li>
+    <li class="list-group-item">
+      <div class="">
+      <div class="btn-group pull-right">
+        <button type="button" class="btn btn-default active btn-sm">Yes</button>
+        <button type="button" class="btn btn-default btn-sm">No</button>
+        <button type="button" class="btn btn-default btn-sm">Maybe</button>
+      </div>
+      <p>Saturday, July 23, 2014</p>
+      </div>
+    </li>
+    <li class="list-group-item">
+      <div class="">
+      <div class="btn-group pull-right">
+        <button type="button" class="btn btn-default active btn-sm">Yes</button>
+        <button type="button" class="btn btn-default btn-sm">No</button>
+        <button type="button" class="btn btn-default btn-sm">Maybe</button>
+      </div>
+      <p>Saturday, July 24, 2014</p>
+      </div>
+    </li>
+    <li class="list-group-item">
+      <div class="">
+      <div class="btn-group pull-right">
+        <button type="button" class="btn btn-default active btn-sm">Yes</button>
+        <button type="button" class="btn btn-default btn-sm">No</button>
+        <button type="button" class="btn btn-default btn-sm">Maybe</button>
+      </div>
+      <p>Saturday, July 25, 2014</p>
+      </div>
+    </li>
+    <li class="list-group-item">
+      <div class="">
+      <div class="btn-group pull-right">
+        <button type="button" class="btn btn-default active btn-sm">Yes</button>
+        <button type="button" class="btn btn-default btn-sm">No</button>
+        <button type="button" class="btn btn-default btn-sm">Maybe</button>
+      </div>
+      <p>Saturday, July 26, 2014</p>
+      </div>
+    </li>
+  </ul>

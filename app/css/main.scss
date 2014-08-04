@@ -49,6 +49,11 @@ h6.subheading {
   font-size: $font-size-h6*$subheading-ratio
 }
 
+button {
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: inherit;
+}
+
 .brand-font {
   font-family: $brand-font-family;
   text-transform: uppercase;
@@ -231,10 +236,25 @@ footer .open, footer .office {
   font-size: 16px;
   padding: 3px 8px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 700;
 
   .icon {
     fill: #fff;
+  }
+
+  &.btn-xs {
+    padding: 1px 5px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+    font-weight: 400;
+  }
+
+  &.btn-sm {
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
   }
 }
 
