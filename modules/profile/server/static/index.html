@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/html">
+
+<head>
+  <title>User Profile Demo</title>
+
+
+</head>
+
+<body ng-app="app" ng-controller="AppCtrl" class="container">
+  <div growl></div>
+
+  <h1>User Profile Demo</h1>
+
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      Demo Form<span ng-if="securityContext.user"> - Hello </span><span>{{securityContext.user.FirstName}}</span>
+
+      <div class="pull-right">
+        <button class="btn btn-default btn-sm" type="button" ng-click="login()" ng-if="!securityContext.loggedIn">Login</button>
+        <button class="btn btn-default btn-sm" type="button" ng-click="logout()" ng-if="securityContext.loggedIn">Logout</button>
+      </div>
+    </div>
+    <div class="panel-body">
+      <!-- Content goes here -->
+      <crds-profile loading-class="loading">
+        <crds-profile-login>
+          <div class="crds-login">
+            <!-- Login goes here -->
+            This is the login form
+          </div>
+        </crds-profile-login>
+      </crds-profile>
+    </div>
+  </div>
+
+
+  <!-- Include the library JS -->
+  <!-- <link rel="stylesheet" href="/generated/css/app.css"> -->
+  <link rel="stylesheet" href="/vendor/bower/bootstrap/dist/css/bootstrap.css">
+
+  <script src="/vendor/bower/angular/angular.js"></script>
+  <script src="/vendor/bower/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+  <script src="/vendor/bower/ngstorage/ngStorage.js"></script>
+  <script src="/vendor/bower/crds-ng-security-context/dist/crds-ng-security-context.js"></script>
+  <script src="/generated/js/app.js"></script>
+
+  <style type="text/css">
+    .crds-profile-container {
+      border: solid black 1px;
+      padding: 30px;
+    }
+    .crds-login {
+      border: dashed blue 1px;
+      padding: 30px;
+    }
+    .loading:after {
+      content: "Loading..."
+    }
+  </style>
+
+  <script type="text/javascript">
+    //
+     // This is a mock oData service
+     //
+    angular.module("crdsOData", [])
+      .factory("Odata", function($q, $timeout) {
+        return {
+          saveContact: function(contact) {
+            var deferred = $q.defer();
+
+            $timeout(function() {
+              console.log("starting fake save operation");
+              deferred.resolve({});
+            }, 1000);
+
+            return deferred.promise;
+          }
+        };
+      });
+     //
+     // This is a mock Auth implementation service
+     //
+    angular.module("crdsAuth", [])
+      .factory("Auth", function($q, $timeout, $localStorage) {
+        return {
+          login: function(username, password) {
+            var deferred = $q.defer();
+
+            $timeout(function() {
+              console.log("Server: User is logged in");
+              $localStorage.mpLogin = true;
+              $localStorage.mpSeenDate = new Date();
+
+              deferred.resolve({});
+            }, 1000);
+
+            return deferred.promise;
+          },
+
+          logout: function() {
+            console.log("Server: User is logged out");
+            $localStorage.mpLogin = false;
+            $localStorage.mpSeenDate = null;
+          },
+
+          getCurrentUser: function() {
+            var deferred = $q.defer();
+
+            // Fake call to Ministry Platform CurrentUser API
+            $timeout(function() {
+              console.log("Sending response from Ministry Platform CurrentUser API");
+              if ($localStorage.mpLogin) {
+                var seenDate = new Date($localStorage.mpSeenDate);
+                if (!isNaN(seenDate.getTime())) {
+                  var elapsed = (new Date().getTime() - seenDate.getTime()) / 1000 / 60;
+                  if (elapsed <= 5) {
+                    deferred.resolve({
+                      ContactId: "abc123",
+                      FirstName: "John",
+                      LastName: "Doe"
+                    });
+                  } else {
+                    console.log("Server: Session has expired after " + elapsed + " min");
+                    deferred.resolve(null);
+                  }
+                } else {
+                  console.log("Server date is not a number");
+                  deferred.resolve(null);
+                }
+              } else {
+                console.log("No server login date found");
+                deferred.resolve(null);
+              }
+            }, 250);
+
+            return deferred.promise;
+          }
+        };
+      });
+
+     //
+     // This is a mock Crossroads.net application controller
+     //
+    angular.module("app", ["ui.bootstrap", "crdsAuth", "crdsSecurityContext", "crdsProfile", "ngStorage", "crdsOData"])
+      .run(function($timeout, $localStorage, SecurityContext) {
+        SecurityContext.loadCurrentUser();
+      })
+      .config(function(SecurityContextProvider) {
+        SecurityContextProvider.setSessionMinutes(5);
+      })
+      .controller("AppCtrl", function($rootScope, $scope, $localStorage, SecurityContext) {
+        console.log("Test page AppCtrl");
+        $scope.username = "myusername";
+        $scope.password = "mypassword";
+
+        $scope.login = function() {
+          console.log("User logs in");
+          SecurityContext.login($scope.username, $scope.password);
+        };
+
+        $scope.logout = function() {
+          console.log("User logs out");
+          SecurityContext.logout();
+        };
+      });
+  </script>
+</body>
+
+</html>

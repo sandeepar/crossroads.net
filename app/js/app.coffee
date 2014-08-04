@@ -1,5 +1,6 @@
 angular.module("crossroads",
   [
+    'templates',
     'ngCookies',
     'ngStorage',
     'crdsAuth',
