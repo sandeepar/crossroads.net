@@ -5,6 +5,7 @@ series: "Public Enemy"
 title: "Enemy Of The Safe"
 date: 2003-10-26-00-00
 message_id: 200
+sc-permalink-url: "http://soundcloud.com/crdschurch/enemy-of-the-safe"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/PE_03_10-26-03_Enemy_Of_The_Safe.mp3"
 audio-duration: "39:53"
 tag: 

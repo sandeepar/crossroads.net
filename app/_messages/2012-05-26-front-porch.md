@@ -5,6 +5,7 @@ series: "The Backyard Gospel"
 title: "Front Porch"
 date: 2012-05-26-00-00
 message_id: 730
+sc-permalink-url: "http://soundcloud.com/crdschurch/front-porch"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/backyardgospel_01.mp3"
 audio-duration: "48:54"
 program: "http://s3.amazonaws.com/crossroads-media/documents/05_26-27_12Program.pdf"

@@ -5,6 +5,7 @@ series: "GIMME GIMME"
 title: "The Antidote"
 date: 2008-11-16-00-00
 message_id: 534
+sc-permalink-url: "http://soundcloud.com/crdschurch/gimme-gimme-the-antidote"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/GIMMEGIMME3.mp3"
 audio-duration: "36:07"
 notes-description: ""

@@ -5,6 +5,7 @@ series: "Jesus: The Greatest Show on Earth"
 title: " Jesus heals"
 date: 2011-07-16-00-00
 message_id: 683
+sc-permalink-url: "http://soundcloud.com/crdschurch/jesus-heals"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/greatestshow05.mp3"
 audio-duration: "48:44"
 program: "http://s3.amazonaws.com/crossroads-media/documents/07_16-17_11Program.pdf"

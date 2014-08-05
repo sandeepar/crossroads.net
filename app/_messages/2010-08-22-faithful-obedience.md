@@ -5,6 +5,7 @@ series: "The Faithful"
 title: "Faithful Obedience"
 date: 2010-08-22-00-00
 message_id: 634
+sc-permalink-url: "http://soundcloud.com/crdschurch/faithful-obedience"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/TheFaithful02.mp3"
 audio-duration: "42:42"
 program: "http://s3.amazonaws.com/crossroads-media/documents/08_21-22_10Program.pdf"

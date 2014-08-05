@@ -5,6 +5,7 @@ series: "God Is ____"
 title: "A Venture Capitalist"
 date: 2013-07-27-00-00
 message_id: 800
+sc-permalink-url: "http://soundcloud.com/crdschurch/a-venture-capitalist-1"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/god_is_03.mp3"
 audio-duration: "47:33"
 description: "Tim Senff talks about how God is like a venture capitalist."

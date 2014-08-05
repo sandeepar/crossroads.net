@@ -5,6 +5,7 @@ series: "GIMME GIMME"
 title: "The Problem"
 date: 2008-11-02-00-00
 message_id: 532
+sc-permalink-url: "http://soundcloud.com/crdschurch/gimme-gimme-the-problem"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/Gimme_Week1_The_Problem_11-2-2008_Brian_Tome.mp3"
 audio-duration: "36:08"
 notes-description: ""

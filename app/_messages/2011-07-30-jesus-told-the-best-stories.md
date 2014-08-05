@@ -5,6 +5,7 @@ series: "Jesus: The Greatest Show on Earth"
 title: "Jesus told the best stories"
 date: 2011-07-30-00-00
 message_id: 685
+sc-permalink-url: "http://soundcloud.com/crdschurch/jesus-told-the-best-stories"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/073011_1145.mp3"
 audio-duration: "48:41"
 program: "http://s3.amazonaws.com/crossroads-media/documents/07_30-31_11Program.pdf"

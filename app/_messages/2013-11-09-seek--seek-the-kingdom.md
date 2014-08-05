@@ -5,6 +5,7 @@ series: "Kingdom Come"
 title: "Seek | Seek the Kingdom"
 date: 2013-11-09-00-00
 message_id: 830
+sc-permalink-url: "http://soundcloud.com/crdschurch/seek-seek-the-kingdom"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/110913forweb.mp3"
 audio-duration: "42:37"
 description: "Brian Tome talks about seeking the Kingdom"

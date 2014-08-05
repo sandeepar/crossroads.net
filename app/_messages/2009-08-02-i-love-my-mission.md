@@ -5,6 +5,7 @@ series: "We Love Cincinnati"
 title: "I Love My Mission"
 date: 2009-08-02-00-00
 message_id: 574
+sc-permalink-url: "http://soundcloud.com/crdschurch/i-love-my-mission"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/WeLoveCincy5.mp3"
 audio-duration: "44:11"
 notes-description: ""

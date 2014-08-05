@@ -5,6 +5,7 @@ series: "Knock-Off"
 title: "Parenting"
 date: 2012-09-29-00-00
 message_id: 749
+sc-permalink-url: "http://soundcloud.com/crdschurch/parenting"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/knockoff_03.mp3"
 audio-duration: "43:09"
 program: "http://s3.amazonaws.com/crossroads-media/documents/09_29-30_12Program.pdf"

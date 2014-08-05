@@ -5,6 +5,7 @@ series: "ROI"
 title: "Statement"
 date: 2013-04-13-00-00
 message_id: 776
+sc-permalink-url: "http://soundcloud.com/crdschurch/statement"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/roi_06.mp3"
 audio-duration: "43:01"
 program: "http://s3.amazonaws.com/crossroads-media/documents/04_13-14_13Program_LO.pdf"

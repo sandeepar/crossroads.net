@@ -5,6 +5,7 @@ series: "Game Change"
 title: "Celebrate"
 date: 2010-11-20-00-00
 message_id: 650
+sc-permalink-url: "http://soundcloud.com/crdschurch/game-change-celebrate"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/gamechange07.mp3"
 audio-duration: "29:16"
 program: "http://s3.amazonaws.com/crossroads-media/documents/11_20-21_10Program.pdf"

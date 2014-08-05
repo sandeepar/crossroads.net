@@ -5,6 +5,7 @@ series: "The Guide"
 title: "LOVE VS PRIDE"
 date: 2011-06-11-00-00
 message_id: 677
+sc-permalink-url: "http://soundcloud.com/crdschurch/love-vs-pride"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/theguide04.mp3"
 audio-duration: "40:38"
 program: "http://s3.amazonaws.com/crossroads-media/documents/06_11-12_11Program.pdf"

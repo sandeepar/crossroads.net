@@ -5,6 +5,7 @@ series: "Everyday Friends"
 title: "Encouragement"
 date: 2011-09-17-00-00
 message_id: 692
+sc-permalink-url: "http://soundcloud.com/crdschurch/encouragement"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/everydayfriends02.mp3"
 audio-duration: "33:44"
 program: "http://s3.amazonaws.com/crossroads-media/documents/09_17-18_11Program.pdf"

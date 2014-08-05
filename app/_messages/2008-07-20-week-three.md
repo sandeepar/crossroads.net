@@ -5,6 +5,7 @@ series: "One"
 title: "Week Three"
 date: 2008-07-20-00-00
 message_id: 507
+sc-permalink-url: "http://soundcloud.com/crdschurch/one-week-three"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/One-3.mp3"
 audio-duration: "27:50"
 notes-description: ""

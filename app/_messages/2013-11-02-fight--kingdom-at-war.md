@@ -5,6 +5,7 @@ series: "Kingdom Come"
 title: "Fight | Kingdom At War"
 date: 2013-11-02-00-00
 message_id: 829
+sc-permalink-url: "http://soundcloud.com/crdschurch/fight-kingdom-at-war"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/110213Web.mp3"
 audio-duration: "41:51"
 description: ""

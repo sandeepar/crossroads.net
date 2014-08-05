@@ -5,6 +5,7 @@ series: "The Awaited Son"
 title: "The Dividing Son"
 date: 2012-12-08-00-00
 message_id: 760
+sc-permalink-url: "http://soundcloud.com/crdschurch/the-dividing-son"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/awaitedson03.mp3"
 audio-duration: "46:05"
 program: "http://s3.amazonaws.com/crossroads-media/documents/12_8-9_12Program_LO.pdf"

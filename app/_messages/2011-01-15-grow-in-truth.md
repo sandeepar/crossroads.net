@@ -5,8 +5,10 @@ series: "Grow Up"
 title: "Grow in Truth"
 date: 2011-01-15-00-00
 message_id: 653
+sc-permalink-url: "http://soundcloud.com/crdschurch/money-the-power-of-a-plan"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/Power_of_a_Plan.mp3"
 audio-duration: "38:58"
+sc-permalink-url: "http://soundcloud.com/crdschurch/grow-up-grow-in-truth"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/growup03.mp3"
 audio-duration: "34:44"
 program: "http://s3.amazonaws.com/crossroads-media/documents/01_15-16_11Program.pdf"

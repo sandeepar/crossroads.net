@@ -5,6 +5,7 @@ series: "Collide"
 title: "Local Church"
 date: 2011-08-13-00-00
 message_id: 687
+sc-permalink-url: "http://soundcloud.com/crdschurch/local-church"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/collide_01.mp3"
 audio-duration: "53:51"
 program: "http://s3.amazonaws.com/crossroads-media/documents/08_13-14_11Program.pdf"

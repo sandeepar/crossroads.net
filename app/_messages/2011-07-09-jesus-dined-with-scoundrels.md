@@ -5,6 +5,7 @@ series: "Jesus: The Greatest Show on Earth"
 title: "Jesus Dined With Scoundrels"
 date: 2011-07-09-00-00
 message_id: 682
+sc-permalink-url: "http://soundcloud.com/crdschurch/jesus-dined-with-scoundrels"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/greatestshow04.mp3"
 audio-duration: "45:58"
 program: "http://s3.amazonaws.com/crossroads-media/documents/07_09-10_11Program.pdf"

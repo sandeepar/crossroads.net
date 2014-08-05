@@ -5,6 +5,7 @@ series: "How to Love Your Job"
 title: "Avoid the Traps"
 date: 2012-08-25-00-00
 message_id: 744
+sc-permalink-url: "http://soundcloud.com/crdschurch/avoid-the-traps"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/HTLYJ_02.mp3"
 audio-duration: "36:50"
 program: "http://s3.amazonaws.com/crossroads-media/documents/08_25-26_12Program.pdf"

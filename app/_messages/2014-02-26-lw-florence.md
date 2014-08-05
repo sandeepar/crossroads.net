@@ -5,6 +5,7 @@ series: "Heavyweights 2"
 title: "LW - Florence"
 date: 2014-02-26-00-00
 message_id: 855
+sc-permalink-url: "http://soundcloud.com/crdschurch/last-wednesday-florence"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/022614-lw-florence.mp3"
 audio-duration: "28:07"
 description: "Florence"

@@ -5,6 +5,7 @@ series: "Roadmap For A Revolution"
 title: "Commitment"
 date: 2009-05-17-00-00
 message_id: 563
+sc-permalink-url: "http://soundcloud.com/crdschurch/commitment-1"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/roadmap1.mp3"
 audio-duration: "38:55"
 notes-description: ""

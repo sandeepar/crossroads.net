@@ -11,6 +11,7 @@ video: "http://s3.amazonaws.com/crossroads-media/messages/video/Reset7.mp4"
 video-duration: "37:55"
 yt-embed-url: "//www.youtube.com/embed/ZfHfuEriyqw"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/Reset7-still.jpg"
+sc-permalink-url: "http://soundcloud.com/crdschurch/reset-recap"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/Reset7-edit.mp3"
 audio-duration: "33:28"
 tag: 

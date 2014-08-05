@@ -5,6 +5,7 @@ series: "Power To Change"
 title: "How Change Happens"
 date: 2014-01-11-00-00
 message_id: 841
+sc-permalink-url: "http://soundcloud.com/crdschurch/how-change-happens"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/powertochange_02.mp3"
 audio-duration: "42:45"
 program: "http://s3.amazonaws.com/crossroads-media/documents/01_11-12_14Program_LO.pdf"

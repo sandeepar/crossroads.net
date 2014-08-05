@@ -5,6 +5,7 @@ series: "The 365 Days of Christmas"
 title: "Anticipation"
 date: 2010-11-27-00-00
 message_id: 647
+sc-permalink-url: "http://soundcloud.com/crdschurch/anticipation"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/anticipation.mp3"
 audio-duration: "34:20"
 program: "http://s3.amazonaws.com/crossroads-media/documents/11_27-28_10Program.pdf"

@@ -5,6 +5,7 @@ series: "Reset"
 title: "Jesus Reset Assumptions"
 date: 2009-02-22-00-00
 message_id: 546
+sc-permalink-url: "http://soundcloud.com/crdschurch/jesus-reset-assumptions"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/Reset1.mp3"
 audio-duration: "47:59"
 description: "In the opening week of our Reset journey, Brian Tome makes the case for an examination of Jesus."

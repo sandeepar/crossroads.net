@@ -5,6 +5,7 @@ series: "House Work"
 title: "Authority"
 date: 2010-06-20-00-00
 message_id: 625
+sc-permalink-url: "http://soundcloud.com/crdschurch/authority"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/HouseWork02.mp3"
 audio-duration: "40:36"
 program: "http://s3.amazonaws.com/crossroads-media/documents/06_19-20_10Program.pdf"

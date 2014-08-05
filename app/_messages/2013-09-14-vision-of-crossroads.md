@@ -5,6 +5,7 @@ series: "Go Forth"
 title: "Vision of Crossroads"
 date: 2013-09-14-00-00
 message_id: 811
+sc-permalink-url: "http://soundcloud.com/crdschurch/vision-of-crossroads"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/go_forth_04.mp3"
 audio-duration: "45:32"
 description: "Brian Tome talks about Crossroads' entrepreneurial vision."

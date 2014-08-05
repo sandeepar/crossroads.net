@@ -5,6 +5,7 @@ series: "GIMME GIMME"
 title: "The Results"
 date: 2008-11-23-00-00
 message_id: 535
+sc-permalink-url: "http://soundcloud.com/crdschurch/gimme-gimme-the-results"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/GIMMEGIMME4.mp3"
 audio-duration: "46:27"
 notes-description: ""

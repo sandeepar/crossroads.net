@@ -5,6 +5,7 @@ series: "God Is ____"
 title: "Self-Absorbed"
 date: 2013-08-17-00-00
 message_id: 807
+sc-permalink-url: "http://soundcloud.com/crdschurch/self-absorbed"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/god_is_06.mp3"
 audio-duration: "42:36"
 program: "http://s3.amazonaws.com/crossroads-media/documents/08_17-18_13Program_LO.pdf"

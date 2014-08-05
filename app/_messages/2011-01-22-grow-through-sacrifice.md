@@ -5,8 +5,10 @@ series: "Grow Up"
 title: "Grow Through Sacrifice"
 date: 2011-01-22-00-00
 message_id: 654
+sc-permalink-url: "http://soundcloud.com/crdschurch/easter-2"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/Easter2002.mp3"
 audio-duration: "34:04"
+sc-permalink-url: "http://soundcloud.com/crdschurch/grow-up-grow-through-sacrifice"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/growup04.mp3"
 audio-duration: "36:51"
 program: "http://s3.amazonaws.com/crossroads-media/documents/01_22-23_11Program.pdf"

@@ -5,6 +5,7 @@ series: "God Is ____"
 title: "About the Small Places"
 date: 2013-08-10-00-00
 message_id: 806
+sc-permalink-url: "http://soundcloud.com/crdschurch/about-the-small-places"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/god_is_05.mp3"
 audio-duration: "40:14"
 description: "Mosa Sono gives us a South African perspective on who God is."

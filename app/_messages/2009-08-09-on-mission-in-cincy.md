@@ -5,6 +5,7 @@ series: "We Love Cincinnati"
 title: "On Mission In Cincy"
 date: 2009-08-09-00-00
 message_id: 576
+sc-permalink-url: "http://soundcloud.com/crdschurch/on-mission-in-cincy"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/WeLoveCincy6.mp3"
 audio-duration: "41:23"
 notes-description: ""

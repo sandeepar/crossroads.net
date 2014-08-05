@@ -5,6 +5,7 @@ series: "Big Bad Wolf"
 title: "Wise Builders"
 date: 2012-01-28-00-00
 message_id: 711
+sc-permalink-url: "http://soundcloud.com/crdschurch/wise-builders"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/bigbadwolf_04.mp3"
 audio-duration: "44:22"
 program: "http://s3.amazonaws.com/crossroads-media/documents/01_28-29_12Program.pdf"

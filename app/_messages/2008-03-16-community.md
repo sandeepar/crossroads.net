@@ -10,6 +10,7 @@ video: "http://s3.amazonaws.com/crossroads-media/messages/video/Consumed6-031608
 video-duration: "59:35"
 yt-embed-url: "//www.youtube.com/embed/lrGyI6HbMxw"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/consumed6still.jpg"
+sc-permalink-url: "http://soundcloud.com/crdschurch/consumed-week-six"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/Consumed_6_03-16-08_Tome_webaudio.mp3"
 audio-duration: "44:08"
 tag: 

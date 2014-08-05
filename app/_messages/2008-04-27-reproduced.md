@@ -10,6 +10,7 @@ video: "http://s3.amazonaws.com/crossroads-media/messages/video/IAM-Reproduced.m
 video-duration: "42:07"
 yt-embed-url: "//www.youtube.com/embed/ZCBk66JKCIM"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/iam-reproduced-still.jpg"
+sc-permalink-url: "http://soundcloud.com/crdschurch/i-am-reproduced"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/I_AM_4_Reproduced_04-27-08_Tome_webaudio.mp3"
 audio-duration: "35:40"
 tag: 

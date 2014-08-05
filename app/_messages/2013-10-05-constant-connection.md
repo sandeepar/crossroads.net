@@ -5,6 +5,7 @@ series: "#culture"
 title: "Constant Connection"
 date: 2013-10-05-00-00
 message_id: 822
+sc-permalink-url: "http://soundcloud.com/crdschurch/constant-connection"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/culture_03.mp3"
 audio-duration: "46:10"
 program: "http://s3.amazonaws.com/crossroads-media/documents/10_05-06_13Program_LO.pdf"

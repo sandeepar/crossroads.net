@@ -5,6 +5,7 @@ series: "We Wish You A Messy Christmas"
 title: "Messy Lives"
 date: 2008-12-14-00-00
 message_id: 538
+sc-permalink-url: "http://soundcloud.com/crdschurch/messy-lives"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/messyxmas4.mp3"
 audio-duration: "37:11"
 description: "Brian Tome discusses how worship is messy and requires us to bring whatever we have to Jesus."

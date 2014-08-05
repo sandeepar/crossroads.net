@@ -5,6 +5,7 @@ series: "How to Love Your Job"
 title: "Work Smarter"
 date: 2012-09-08-00-00
 message_id: 746
+sc-permalink-url: "http://soundcloud.com/crdschurch/work-smarter"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/htlyj_04.mp3"
 audio-duration: "36:25"
 program: "http://s3.amazonaws.com/crossroads-media/documents/09_08-09_12Program.pdf"

@@ -11,6 +11,7 @@ video: "http://s3.amazonaws.com/crossroads-media/messages/video/goodlife_03.mp4"
 video-duration: "37:26"
 yt-embed-url: "//www.youtube.com/embed/7K0dOcKE7FE"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/goodlife03_still.jpg"
+sc-permalink-url: "http://soundcloud.com/crdschurch/week-3-terry-phillips"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/goodlife_03.mp3"
 audio-duration: "37:21"
 tag: 

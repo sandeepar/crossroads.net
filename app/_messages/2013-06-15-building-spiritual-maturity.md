@@ -5,6 +5,7 @@ series: "How to Build People"
 title: "Building Spiritual Maturity"
 date: 2013-06-15-00-00
 message_id: 791
+sc-permalink-url: "http://soundcloud.com/crdschurch/building-spiritual-maturity"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/htbp_01.mp3"
 audio-duration: "43:53"
 program: "http://s3.amazonaws.com/crossroads-media/documents/06_15-16_13Program_LO.pdf"

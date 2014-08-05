@@ -5,6 +5,7 @@ series: "The Guide"
 title: "PEACE VS ANXIETY"
 date: 2011-06-04-00-00
 message_id: 676
+sc-permalink-url: "http://soundcloud.com/crdschurch/peace-vs-anxiety"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/theguide03.mp3"
 audio-duration: "45:11"
 program: "http://s3.amazonaws.com/crossroads-media/documents/06_04-05_11Program.pdf"

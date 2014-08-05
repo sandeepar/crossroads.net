@@ -5,6 +5,7 @@ series: "The Guide"
 title: "GRACE VS RESENTMENT"
 date: 2011-05-28-00-00
 message_id: 675
+sc-permalink-url: "http://soundcloud.com/crdschurch/grace-vs-resentment"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/theguide02.mp3"
 audio-duration: "43:50"
 program: "http://s3.amazonaws.com/crossroads-media/documents/05_28-29_11Program.pdf"

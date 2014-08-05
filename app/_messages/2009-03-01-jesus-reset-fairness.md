@@ -5,6 +5,7 @@ series: "Reset"
 title: "Jesus Reset Fairness"
 date: 2009-03-01-00-00
 message_id: 550
+sc-permalink-url: "http://soundcloud.com/crdschurch/jesus-reset-fairness"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/Reset2.mp3"
 audio-duration: "37:30"
 description: "Jesus reset our understanding of fairness. Watch as Brian Tome explains why that's a good thing."

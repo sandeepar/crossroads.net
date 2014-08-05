@@ -5,6 +5,7 @@ series: "Power To Change"
 title: "Physical and Spiritual Change"
 date: 2014-01-18-00-00
 message_id: 844
+sc-permalink-url: "http://soundcloud.com/crdschurch/physical-and-spiritual-change"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/powertochange_03.mp3"
 audio-duration: "45:58"
 program: "http://s3.amazonaws.com/crossroads-media/documents/01_18-19_14Program_LO.pdf"

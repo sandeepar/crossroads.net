@@ -5,6 +5,7 @@ series: "Reset"
 title: "Jesus Reset Surrender"
 date: 2009-03-08-00-00
 message_id: 551
+sc-permalink-url: "http://soundcloud.com/crdschurch/jesus-reset-surrender"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/Reset3.mp3"
 audio-duration: "35:50"
 program: "http://s3.amazonaws.com/crossroads-media/documents/0307_08Program.pdf"

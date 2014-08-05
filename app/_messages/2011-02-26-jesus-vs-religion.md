@@ -5,6 +5,7 @@ series: "Heavy-Weights"
 title: "Jesus vs. Religion"
 date: 2011-02-26-00-00
 message_id: 660
+sc-permalink-url: "http://soundcloud.com/crdschurch/jesus-vs-religion"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/heavyweights_03.mp3"
 audio-duration: "52:51"
 program: "http://s3.amazonaws.com/crossroads-media/documents/02_26-27_11Program.pdf"

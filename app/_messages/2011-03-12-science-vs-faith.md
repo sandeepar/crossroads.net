@@ -5,6 +5,7 @@ series: "Heavy-Weights"
 title: "Science vs. Faith"
 date: 2011-03-12-00-00
 message_id: 663
+sc-permalink-url: "http://soundcloud.com/crdschurch/science-vs-faith-1"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/heavyweights05.mp3"
 audio-duration: "45:26"
 program: "http://s3.amazonaws.com/crossroads-media/documents/03_12-13_11Program.pdf"

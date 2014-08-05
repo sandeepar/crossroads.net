@@ -5,6 +5,7 @@ series: "The Faithful"
 title: "Faithful Story"
 date: 2010-09-12-00-00
 message_id: 637
+sc-permalink-url: "http://soundcloud.com/crdschurch/faithful-story"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/thefaithful05.mp3"
 audio-duration: "37:48"
 program: "http://s3.amazonaws.com/crossroads-media/documents/09_11-12_10Program.pdf"

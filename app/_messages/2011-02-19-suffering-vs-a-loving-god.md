@@ -5,6 +5,7 @@ series: "Heavy-Weights"
 title: "Suffering vs. A Loving God"
 date: 2011-02-19-00-00
 message_id: 659
+sc-permalink-url: "http://soundcloud.com/crdschurch/suffering-vs-a-loving-god-1"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/heavyweights_02.mp3"
 audio-duration: "45:13"
 program: "http://s3.amazonaws.com/crossroads-media/documents/02_19-20_11Program.pdf"

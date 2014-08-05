@@ -10,6 +10,7 @@ video: "http://s3.amazonaws.com/crossroads-media/messages/video/022713-lw-floren
 video-duration: "44:37"
 yt-embed-url: "//www.youtube.com/embed/WOwaqUShdSI"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/lw_0213_florence.jpg"
+sc-permalink-url: "http://soundcloud.com/crdschurch/last-wednesday-feb-2013-1"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/022713-lw-florence.mp3"
 audio-duration: "44:32"
 tag: 
