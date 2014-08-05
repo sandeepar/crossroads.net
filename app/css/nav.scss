@@ -287,7 +287,7 @@ header.show .container {
     bottom: -10px;
     width: 0;
     height: 0;
-    border-color: #4A81A0 transparent transparent transparent;
+    border-color: #7aa8c2 transparent transparent transparent;
     border-style: solid;
     border-width: 5px;
   }
@@ -349,11 +349,6 @@ header.show .container {
     left: calc(100% - 300px);
     width: 300px;
   }
-}
-
-.navbar--login__submit {
-  margin-top: 10px;
-  margin-bottom: 15px;
 }
 
 .navbar--login__submit--label {
