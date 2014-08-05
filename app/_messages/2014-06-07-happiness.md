@@ -5,6 +5,7 @@ series: "Meaning"
 title: "Happiness"
 date: 2014-06-07-00-00
 message_id: 867
+sc-permalink-url: "http://soundcloud.com/crdschurch/happiness"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/meaning_01.mp3"
 audio-duration: ":"
 program: "http://s3.amazonaws.com/crossroads-media/documents/06_07-08_02_14Program.pdf"

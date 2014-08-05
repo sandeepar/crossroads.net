@@ -5,6 +5,7 @@ series: "Unlock(ed)"
 title: "The People"
 date: 2008-10-12-00-00
 message_id: 525
+sc-permalink-url: "http://soundcloud.com/crdschurch/unlock-ed-the-people"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/Unlocked_Week2_The_People_10-12-08_Brian_Tome.mp3"
 audio-duration: "45:54"
 notes-description: ""

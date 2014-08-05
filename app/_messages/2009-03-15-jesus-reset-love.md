@@ -5,6 +5,7 @@ series: "Reset"
 title: "Jesus Reset Love"
 date: 2009-03-15-00-00
 message_id: 552
+sc-permalink-url: "http://soundcloud.com/crdschurch/jesus-reset-love"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/Reset4.mp3"
 audio-duration: "35:48"
 description: "Jesus reset our understanding of love by dying on the cross."

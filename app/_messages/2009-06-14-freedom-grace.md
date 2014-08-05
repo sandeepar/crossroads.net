@@ -5,6 +5,7 @@ series: "Roadmap For A Revolution"
 title: "Freedom   Grace"
 date: 2009-06-14-00-00
 message_id: 567
+sc-permalink-url: "http://soundcloud.com/crdschurch/freedom-and-grace"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/Roadmap6.mp3"
 audio-duration: "34:39"
 description: "Brian Tome discusses how Jesus came to set us free."

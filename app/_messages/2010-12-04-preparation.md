@@ -5,6 +5,7 @@ series: "The 365 Days of Christmas"
 title: "Preparation"
 date: 2010-12-04-00-00
 message_id: 648
+sc-permalink-url: "http://soundcloud.com/crdschurch/preparation"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/preparation.mp3"
 audio-duration: "36:23"
 description: "Jenny Baker talks about what it means to prepare room for Jesus in our lives."

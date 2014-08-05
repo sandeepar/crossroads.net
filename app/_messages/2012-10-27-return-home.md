@@ -5,6 +5,7 @@ series: "A Journey Home"
 title: "Return Home"
 date: 2012-10-27-00-00
 message_id: 754
+sc-permalink-url: "http://soundcloud.com/crdschurch/return-home"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/journeyhome_04.mp3"
 audio-duration: "47:52"
 program: "http://s3.amazonaws.com/crossroads-media/documents/10_27-28_12_HOMEProgram.pdf"

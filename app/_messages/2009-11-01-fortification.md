@@ -5,6 +5,7 @@ series: "The Garden"
 title: "Fortification"
 date: 2009-11-01-00-00
 message_id: 588
+sc-permalink-url: "http://soundcloud.com/crdschurch/fortification"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/Garden4.mp3"
 audio-duration: "34:05"
 description: "Brian Tome discusses why it's important for us to be resilient and patiently active, even in the midst of a storm."

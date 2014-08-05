@@ -5,6 +5,7 @@ series: "Jesus: The Greatest Show on Earth"
 title: "Guest Speaker Chris Seay"
 date: 2011-08-06-00-00
 message_id: 686
+sc-permalink-url: "http://soundcloud.com/crdschurch/guest-speaker-chris-seay"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/greatestshow08.mp3"
 audio-duration: "32:35"
 program: "http://s3.amazonaws.com/crossroads-media/documents/08_06-07_11Program.pdf"

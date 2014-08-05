@@ -5,6 +5,7 @@ series: "Next"
 title: "Next Is Near"
 date: 2010-01-24-00-00
 message_id: 598
+sc-permalink-url: "http://soundcloud.com/crdschurch/next-is-near"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/Next4.mp3"
 audio-duration: "36:29"
 program: "http://s3.amazonaws.com/crossroads-media/documents/01_23-24_10Program.pdf"

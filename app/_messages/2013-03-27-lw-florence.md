@@ -5,6 +5,7 @@ series: "Last Wednesday"
 title: "LW-Florence"
 date: 2013-03-27-00-00
 message_id: 779
+sc-permalink-url: "http://soundcloud.com/crdschurch/lw-florence-march-2013"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/032713_lw_florence.mp3"
 audio-duration: "27:19"
 description: "Florence"

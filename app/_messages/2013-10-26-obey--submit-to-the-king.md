@@ -5,6 +5,7 @@ series: "Kingdom Come"
 title: "Obey | Submit to the King"
 date: 2013-10-26-00-00
 message_id: 828
+sc-permalink-url: "http://soundcloud.com/crdschurch/obey-submit-to-the-king"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/102613forweb.mp3"
 audio-duration: "50:48"
 description: "Chuck Mingo talks about submitting to the King"

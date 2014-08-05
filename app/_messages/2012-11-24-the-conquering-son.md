@@ -5,6 +5,7 @@ series: "The Awaited Son"
 title: "The Conquering Son"
 date: 2012-11-24-00-00
 message_id: 758
+sc-permalink-url: "http://soundcloud.com/crdschurch/the-conquering-son"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/awaitedson_01.mp3"
 audio-duration: "45:39"
 program: "http://s3.amazonaws.com/crossroads-media/documents/11_24-25_12Program_LO.pdf"

@@ -5,6 +5,7 @@ series: "The Good Life"
 title: "Week 1 - Chuck Mingo"
 date: 2012-06-23-00-00
 message_id: 734
+sc-permalink-url: "http://soundcloud.com/crdschurch/week-1-chuck-mingo"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/goodlife_01.mp3"
 audio-duration: "39:18"
 program: "http://s3.amazonaws.com/crossroads-media/documents/06_23-24_12Program.pdf"

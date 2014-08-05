@@ -5,6 +5,7 @@ series: "We Love Cincinnati"
 title: "I Love My Friend"
 date: 2009-07-12-00-00
 message_id: 571
+sc-permalink-url: "http://soundcloud.com/crdschurch/i-love-my-friend"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/LoveMyFriend.mp3"
 audio-duration: "39:55"
 notes-description: ""

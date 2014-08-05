@@ -6,6 +6,7 @@ title: "The Promise Of Home"
 date: 2012-10-06-00-00
 message_id: 751
 program: "http://s3.amazonaws.com/crossroads-media/documents/10_06-07_12_HOMEProgram.pdf"
+sc-permalink-url: "http://soundcloud.com/crdschurch/a-journey-home"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/journeyhome_01.mp3"
 audio-duration: "55:29"
 description: "What is it like to be at home?

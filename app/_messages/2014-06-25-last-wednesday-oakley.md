@@ -5,6 +5,7 @@ series: "Meaning"
 title: "Last Wednesday - Oakley"
 date: 2014-06-25-00-00
 message_id: 873
+sc-permalink-url: "http://soundcloud.com/crdschurch/last-wednesday-june-oakley"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/062514-lw-oakley.mp3"
 audio-duration: ":"
 description: "Last Wednesday - June - Oakley"

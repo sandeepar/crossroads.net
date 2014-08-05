@@ -5,6 +5,7 @@ series: "The Good Life"
 title: "Week 8 - Brian Tome "
 date: 2012-08-11-00-00
 message_id: 741
+sc-permalink-url: "http://soundcloud.com/crdschurch/week-8-brian-tome"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/goodlife_08.mp3"
 audio-duration: "39:22"
 program: "http://s3.amazonaws.com/crossroads-media/documents/08_11-12_12Program.pdf"

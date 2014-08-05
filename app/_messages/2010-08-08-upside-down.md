@@ -5,6 +5,7 @@ series: "Kingdom Come"
 title: "Upside Down"
 date: 2010-08-08-00-00
 message_id: 632
+sc-permalink-url: "http://soundcloud.com/crdschurch/upside-down"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/KingdomCome05.mp3"
 audio-duration: "28:21"
 program: "http://s3.amazonaws.com/crossroads-media/documents/08_07-08_10Program.pdf"

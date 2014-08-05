@@ -5,6 +5,7 @@ series: "God Is ____"
 title: "Other Worldly"
 date: 2013-07-13-00-00
 message_id: 798
+sc-permalink-url: "http://soundcloud.com/crdschurch/other-worldly"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/god_is_01.mp3"
 audio-duration: "40:13"
 program: "http://s3.amazonaws.com/crossroads-media/documents/07_13-14_13Program_LO.pdf"

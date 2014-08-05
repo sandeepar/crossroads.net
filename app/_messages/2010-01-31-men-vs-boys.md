@@ -5,6 +5,7 @@ series: "Manly"
 title: "Men vs. Boys"
 date: 2010-01-31-00-00
 message_id: 599
+sc-permalink-url: "http://soundcloud.com/crdschurch/men-vs-boys"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/Manly1.mp3"
 audio-duration: "38:45"
 description: "Brian Tome talks about the five things that separate men from boys."

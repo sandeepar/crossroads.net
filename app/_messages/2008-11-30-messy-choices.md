@@ -5,6 +5,7 @@ series: "We Wish You A Messy Christmas"
 title: "Messy Choices"
 date: 2008-11-30-00-00
 message_id: 536
+sc-permalink-url: "http://soundcloud.com/crdschurch/messy-choices"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/MessyXmas1.mp3"
 audio-duration: "35:59"
 description: "When Jesus enters the world, everyone around him has to change their lives to accommodate. In this talk, Chuck Mingo discusses Joseph and how he had to make changes to accommodate Jesus' arrival."

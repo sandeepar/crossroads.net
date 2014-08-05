@@ -5,6 +5,7 @@ series: "Big Bad Wolf"
 title: "How to Build with Brick"
 date: 2012-01-21-00-00
 message_id: 710
+sc-permalink-url: "http://soundcloud.com/crdschurch/how-to-build-with-brick"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/bigbadwolf_03.mp3"
 audio-duration: "41:24"
 program: "http://s3.amazonaws.com/crossroads-media/documents/01_21-22_12Program.pdf"

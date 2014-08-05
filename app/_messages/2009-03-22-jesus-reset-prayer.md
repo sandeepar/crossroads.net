@@ -5,6 +5,7 @@ series: "Reset"
 title: "Jesus Reset Prayer"
 date: 2009-03-22-00-00
 message_id: 555
+sc-permalink-url: "http://soundcloud.com/crdschurch/jesus-reset-prayer"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/Reset5.mp3"
 audio-duration: "41:58"
 description: "Jesus reset prayer from transactional to relational."

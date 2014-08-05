@@ -5,6 +5,7 @@ series: "Game Changers"
 title: "Dissatisfaction"
 date: 2012-03-10-00-00
 message_id: 717
+sc-permalink-url: "http://soundcloud.com/crdschurch/dissatisfaction"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/gamechangers_01.mp3"
 audio-duration: "53:29"
 program: "http://s3.amazonaws.com/crossroads-media/documents/03_10-11_12Program.pdf"

@@ -5,6 +5,7 @@ series: "A Journey Home"
 title: "Place At The Table"
 date: 2012-11-03-00-00
 message_id: 755
+sc-permalink-url: "http://soundcloud.com/crdschurch/place-at-the-table"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/journeyhome_05.mp3"
 audio-duration: "51:32"
 program: "http://s3.amazonaws.com/crossroads-media/documents/11_3-4_12_HOMEProgram.pdf"

@@ -5,6 +5,7 @@ series: "Free"
 title: "Freedom Fighting"
 date: 2010-03-21-00-00
 message_id: 609
+sc-permalink-url: "http://soundcloud.com/crdschurch/freedom-fighting"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/Free5.mp3"
 audio-duration: "37:47"
 description: "Chuck Mingo talks about how freedom is maintained in the midst of community."

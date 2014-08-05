@@ -5,6 +5,7 @@ series: "Rebuild"
 title: "Follow-through"
 date: 2008-08-31-00-00
 message_id: 513
+sc-permalink-url: "http://soundcloud.com/crdschurch/rebuild-follow-through"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/Rebuild_Week_3_Follow-through_8_31_08_Chuck_Mingo.mp3"
 audio-duration: "41:07"
 notes-description: ""

@@ -5,6 +5,7 @@ series: "Follow the Leader"
 title: "Follow Together"
 date: 2013-02-23-00-00
 message_id: 770
+sc-permalink-url: "http://soundcloud.com/crdschurch/follow-together"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/followtheleader_oakley_03.mp3"
 audio-duration: "38:01"
 program: "http://s3.amazonaws.com/crossroads-media/documents/02_23-24_13Program_LO.pdf"

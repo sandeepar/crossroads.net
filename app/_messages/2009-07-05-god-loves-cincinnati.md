@@ -5,6 +5,7 @@ series: "We Love Cincinnati"
 title: "God Loves Cincinnati"
 date: 2009-07-05-00-00
 message_id: 570
+sc-permalink-url: "http://soundcloud.com/crdschurch/god-loves-cincinnati"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/WeLove1.mp3"
 audio-duration: "36:21"
 description: "Chuck Mingo shares the four actions of a city lover."

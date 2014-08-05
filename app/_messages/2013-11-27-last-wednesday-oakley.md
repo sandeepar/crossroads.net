@@ -5,6 +5,7 @@ series: "Kingdom Come"
 title: "Last Wednesday - Oakley"
 date: 2013-11-27-00-00
 message_id: 838
+sc-permalink-url: "http://soundcloud.com/crdschurch/last-wednesday-1"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/1127813_lw_oakley.mp3"
 audio-duration: "34:39"
 description: "Oakley"

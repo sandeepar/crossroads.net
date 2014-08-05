@@ -5,6 +5,7 @@ series: "How to Build People"
 title: "Discipleship"
 date: 2013-06-29-00-00
 message_id: 793
+sc-permalink-url: "http://soundcloud.com/crdschurch/discipleship"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/htbp_03.mp3"
 audio-duration: "43:50"
 program: "http://s3.amazonaws.com/crossroads-media/documents/06_29-30_13Program_LO.pdf"

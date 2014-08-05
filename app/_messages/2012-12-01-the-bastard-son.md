@@ -5,6 +5,7 @@ series: "The Awaited Son"
 title: "The Bastard Son"
 date: 2012-12-01-00-00
 message_id: 759
+sc-permalink-url: "http://soundcloud.com/crdschurch/the-bastard-son"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/awaitedson02.mp3"
 audio-duration: "49:52"
 program: "http://s3.amazonaws.com/crossroads-media/documents/12_1-2_12Program_LO.pdf"

@@ -5,6 +5,7 @@ series: "Rhythm"
 title: "Case studies in rhythmic living: Community Stories"
 date: 2013-05-04-00-00
 message_id: 785
+sc-permalink-url: "http://soundcloud.com/crdschurch/case-studies-in-rhythmic"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/rhythm03.mp3"
 audio-duration: "44:38"
 program: "http://s3.amazonaws.com/crossroads-media/documents/05_04-05_13Program_LO.pdf"

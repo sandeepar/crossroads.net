@@ -5,6 +5,7 @@ series: "Kingdom Come"
 title: "Kingdom Come"
 date: 2010-07-11-00-00
 message_id: 628
+sc-permalink-url: "http://soundcloud.com/crdschurch/kingdom-come-1"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/KingdomCome01.mp3"
 audio-duration: "47:30"
 program: "http://s3.amazonaws.com/crossroads-media/documents/07_10-11_10Program.pdf"

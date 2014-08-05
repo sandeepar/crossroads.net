@@ -5,6 +5,7 @@ series: "Roadmap For A Revolution"
 title: "Authority"
 date: 2009-06-21-00-00
 message_id: 568
+sc-permalink-url: "http://soundcloud.com/crdschurch/authority-1"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/Roadmap5.mp3"
 audio-duration: "34:47"
 notes-description: ""

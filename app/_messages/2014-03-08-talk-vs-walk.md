@@ -5,6 +5,7 @@ series: "Heavyweights 2"
 title: "Talk vs. Walk"
 date: 2014-03-08-00-00
 message_id: 851
+sc-permalink-url: "http://soundcloud.com/crdschurch/talk-vs-walk"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/heavyweights2_wk5.mp3"
 audio-duration: "49:16"
 program: "http://s3.amazonaws.com/crossroads-media/documents/03_08-09_14Program_LO.pdf"

@@ -5,6 +5,7 @@ series: "Core Strength"
 title: "Community"
 date: 2008-09-21-00-00
 message_id: 520
+sc-permalink-url: "http://soundcloud.com/crdschurch/core-strength-community"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/092008ServiceAudio.mp3"
 audio-duration: "30:59"
 program: "http://s3.amazonaws.com/crossroads-media/documents/0920_21Program.pdf"

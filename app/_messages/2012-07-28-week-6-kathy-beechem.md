@@ -5,6 +5,7 @@ series: "The Good Life"
 title: "Week 6 - Kathy Beechem"
 date: 2012-07-28-00-00
 message_id: 739
+sc-permalink-url: "http://soundcloud.com/crdschurch/week-6-kathy-beechem"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/goodlife_06.mp3"
 audio-duration: "38:46"
 program: "http://s3.amazonaws.com/crossroads-media/documents/07_28-29_12Program.pdf"

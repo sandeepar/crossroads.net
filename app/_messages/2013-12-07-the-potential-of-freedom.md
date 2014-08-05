@@ -5,6 +5,7 @@ series: "The Gift of Freedom"
 title: "The Potential of Freedom"
 date: 2013-12-07-00-00
 message_id: 834
+sc-permalink-url: "http://soundcloud.com/crdschurch/the-potential-of-freedom"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/giftoffreedom_02.mp3"
 audio-duration: "45:32"
 program: "http://s3.amazonaws.com/crossroads-media/documents/12_07-08_13ProgramFinal.pdf"

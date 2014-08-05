@@ -5,6 +5,7 @@ series: "Game Changers"
 title: "Commitment"
 date: 2012-04-14-00-00
 message_id: 722
+sc-permalink-url: "http://soundcloud.com/crdschurch/commitment"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/gamechangers_06.mp3"
 audio-duration: "41:09"
 description: "Brian Tome talks about how Game Changers demonstrate action, commitment and follow through."

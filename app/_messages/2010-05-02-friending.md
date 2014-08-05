@@ -5,6 +5,7 @@ series: "Force Feed"
 title: "Friending"
 date: 2010-05-02-00-00
 message_id: 617
+sc-permalink-url: "http://soundcloud.com/crdschurch/friending"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/ForceFeed4.mp3"
 audio-duration: "36:16"
 description: "Todd Henry talks about how technology is conforming the experience of being human."

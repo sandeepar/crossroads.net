@@ -5,6 +5,7 @@ series: "RSVP"
 title: "Invitation to a Personal God"
 date: 2011-11-26-00-00
 message_id: 704
+sc-permalink-url: "http://soundcloud.com/crdschurch/invitation-to-a-personal-god"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/rsvp01.mp3"
 audio-duration: "45:39"
 program: "http://s3.amazonaws.com/crossroads-media/documents/11_26-27_11Program.pdf"

@@ -5,6 +5,7 @@ series: "Unlock(ed)"
 title: "The Purpose"
 date: 2008-10-26-00-00
 message_id: 527
+sc-permalink-url: "http://soundcloud.com/crdschurch/unlock-ed-the-purpose-1"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/unlocked4.mp3"
 audio-duration: "39:34"
 notes-description: ""

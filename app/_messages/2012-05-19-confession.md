@@ -5,6 +5,7 @@ series: "James: Putting Your Faith to Work"
 title: "Confession"
 date: 2012-05-19-00-00
 message_id: 727
+sc-permalink-url: "http://soundcloud.com/crdschurch/confession"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/james_05.mp3"
 audio-duration: "33:20"
 program: "http://s3.amazonaws.com/crossroads-media/documents/05_19-20_12Program_OAKLEY.pdf"

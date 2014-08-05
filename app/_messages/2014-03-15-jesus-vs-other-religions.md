@@ -11,6 +11,7 @@ video: "http://s3.amazonaws.com/crossroads-media/messages/video/heavyweights2_wk
 video-duration: ":"
 yt-embed-url: "//www.youtube.com/embed/14pm2fYW01E"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/heavyweights2_wk6_still.jpg"
+sc-permalink-url: ""
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/heavyweights2_wk6.mp3"
 audio-duration: ":"
 tag: 

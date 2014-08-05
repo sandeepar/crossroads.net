@@ -5,6 +5,7 @@ series: "The New Man"
 title: "Team Player"
 date: 2014-05-17-00-00
 message_id: 864
+sc-permalink-url: "http://soundcloud.com/crdschurch/team-player"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/thenewman_04.mp3"
 audio-duration: ":"
 program: "http://s3.amazonaws.com/crossroads-media/documents/05_17-18_14Program_LO.pdf"

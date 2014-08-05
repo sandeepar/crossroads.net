@@ -5,6 +5,7 @@ series: "Free"
 title: "Endurance"
 date: 2010-03-14-00-00
 message_id: 608
+sc-permalink-url: "http://soundcloud.com/crdschurch/endurance"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/Free4.mp3"
 audio-duration: "32:35"
 program: "http://s3.amazonaws.com/crossroads-media/documents/03_13-14_10Program.pdf"

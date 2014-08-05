@@ -5,6 +5,7 @@ series: "God Is ____"
 title: "Flesh and Bones - Florence"
 date: 2013-08-03-00-00
 message_id: 804
+sc-permalink-url: "http://soundcloud.com/crdschurch/flesh-and-bone-florence"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/god_is_04_fl.mp3"
 audio-duration: "39:11"
 description: "Terry Phillips talks about how Jesus is God in flesh and bone."

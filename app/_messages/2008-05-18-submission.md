@@ -5,6 +5,7 @@ series: "RIQ"
 title: "Submission"
 date: 2008-05-18-00-00
 message_id: 498
+sc-permalink-url: "http://soundcloud.com/crdschurch/riq-submission"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/RIQ_02_Submission_05-18-08_Tome_webaudio.mp3"
 audio-duration: "37:08"
 description: "Relationally Intelligent people understand how to submit. "

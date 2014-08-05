@@ -5,6 +5,7 @@ series: "Roadmap For A Revolution"
 title: "Relevance"
 date: 2009-06-28-00-00
 message_id: 569
+sc-permalink-url: "http://soundcloud.com/crdschurch/relevance"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/Roadmap7.mp3"
 audio-duration: "33:07"
 description: "Chuck Mingo discusses the importance of relevance in the revolution of the early church."

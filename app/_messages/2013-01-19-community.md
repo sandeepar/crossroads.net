@@ -5,6 +5,7 @@ series: "Saints & Scoundrels"
 title: "Community"
 date: 2013-01-19-00-00
 message_id: 764
+sc-permalink-url: "http://soundcloud.com/crdschurch/community-1"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/saintsandscoundrels-03.mp3"
 audio-duration: "41:24"
 program: "http://s3.amazonaws.com/crossroads-media/documents/01_19-20_13Program_LO.pdf"

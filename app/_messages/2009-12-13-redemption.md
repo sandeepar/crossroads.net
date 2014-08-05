@@ -5,6 +5,7 @@ series: "Redemption"
 title: "Redemption"
 date: 2009-12-13-00-00
 message_id: 594
+sc-permalink-url: "http://soundcloud.com/crdschurch/redemption"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/Redemption1.mp3"
 audio-duration: "26:08"
 description: "Jesus came to be the rescuer of all people."

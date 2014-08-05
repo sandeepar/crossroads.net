@@ -5,6 +5,7 @@ series: "Next"
 title: "Next Is Possible"
 date: 2010-01-10-00-00
 message_id: 596
+sc-permalink-url: "http://soundcloud.com/crdschurch/next-is-possible"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/Next2.mp3"
 audio-duration: "37:18"
 description: "Chuck Mingo discusses Abraham and the importance of hope."

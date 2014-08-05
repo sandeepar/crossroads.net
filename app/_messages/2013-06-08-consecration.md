@@ -5,6 +5,7 @@ series: "GoodSex"
 title: "Consecration"
 date: 2013-06-08-00-00
 message_id: 790
+sc-permalink-url: "http://soundcloud.com/crdschurch/consecration"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/goodsex_04.mp3"
 audio-duration: "42:34"
 program: "http://s3.amazonaws.com/crossroads-media/documents/06_08-09_13Program_LO.pdf"

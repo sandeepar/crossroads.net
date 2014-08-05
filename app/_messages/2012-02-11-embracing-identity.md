@@ -5,6 +5,7 @@ series: "A Place at the Table"
 title: "Embracing Identity"
 date: 2012-02-11-00-00
 message_id: 713
+sc-permalink-url: "http://soundcloud.com/crdschurch/embracing-identity"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/placeatthetable_01.mp3"
 audio-duration: "42:42"
 program: "http://s3.amazonaws.com/crossroads-media/documents/02_11-12_12Program.pdf"

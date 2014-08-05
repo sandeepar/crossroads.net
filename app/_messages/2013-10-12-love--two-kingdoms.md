@@ -10,6 +10,7 @@ video: "http://s3.amazonaws.com/crossroads-media/messages/video/kingdom_come_1.m
 video-duration: "44:26"
 yt-embed-url: "//www.youtube.com/embed/b39vJQS8DZ8"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/Kingdom_Come_1.jpg"
+sc-permalink-url: "http://soundcloud.com/crdschurch/love-two-kingdoms"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/kingdom_come_1.mp3"
 audio-duration: "44:26"
 program: "http://s3.amazonaws.com/crossroads-media/documents/KingdomProgram_Week1_LO.pdf"

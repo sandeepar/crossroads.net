@@ -5,6 +5,7 @@ series: "Inside Out"
 title: "Outside Out"
 date: 2009-09-06-00-00
 message_id: 580
+sc-permalink-url: "http://soundcloud.com/crdschurch/outside-out"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/InsideOut4.mp3"
 audio-duration: "35:40"
 description: "Brian Tome talks with Bret Sims, Jean-Robert Cadet and Joan Conn about some of the great things happening outside of crossroads."
