@@ -1,0 +1,28 @@
+/***************************************************************************************
+* Colors
+***************************************************************************************/
+
+.type-color--secondary {
+  color: $brand-secondary;
+}
+
+.type-color{
+  color: $brand-primary;
+}
+
+.type-color--grey{
+  color: $cr-grey;
+}
+
+.divider--dark {
+  margin-bottom: 10px;
+  border-top: 1px solid $cr-grey
+}
+
+.link--orange {
+  color: $cr-orange;
+  font-weight: 400;
+  &:hover {
+    color: $cr-dkblue;
+  }
+}

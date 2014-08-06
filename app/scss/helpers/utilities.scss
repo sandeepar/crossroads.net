@@ -69,3 +69,21 @@
 .hard--left     { padding-left:  0; }
 .hard--ends     { padding-top:   0; padding-bottom:0; }
 .hard--sides    { padding-right: 0; padding-left:  0; }
+
+
+// Misc helpers
+
+.block {
+  display: block;
+}
+
+.center {
+  float:none;
+  display:inline-block;
+  vertical-align:middle;
+  margin-right:-4px;
+}
+
+// Empty href attributes for UI Bootstrap
+.nav, .pagination, .carousel, .panel-title a { cursor: pointer; }
+

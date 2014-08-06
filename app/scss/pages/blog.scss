@@ -1,3 +1,7 @@
+/***************************************************************************************
+* Blog
+***************************************************************************************/
+
 .blog_path_headline{
   margin-bottom: 30px;
 }
@@ -9,6 +13,9 @@
 .post{
   margin-bottom: 80px;
 }
+
+.posts li {list-style:none;}
+
 .post_body_text{
   padding-bottom: 20px;
 }
@@ -84,4 +91,9 @@ h2 a{
 
 .blog_content{
   padding-bottom: 10px;
+}
+
+.right_column_header {
+  color: $cr-blue;
+  font-size: 18px;
 }
