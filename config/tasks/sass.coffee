@@ -6,7 +6,7 @@ sync = args.sync
 
 module.exports = (gulp, devEnv, $) ->
   gulp.task "sass", ->
-    gulp.src(["app/css/main.scss", "modules/**/css/module.scss"])
+    gulp.src(["app/scss/main.scss", "modules/**/css/module.scss"])
       .pipe($.concat("app.scss"))
       .pipe($.rubySass(sourcemap: false).on("error", $.util.log))
       .pipe($.autoprefixer("last 2 versions", "Firefox >= 20", cascade: true))
