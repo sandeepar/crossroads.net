@@ -3,8 +3,8 @@
 // Profile (Header)
 
 .profile-header {
-  margin-bottom: 22px;
-  margin-top: 22px;
+  margin-bottom: $line-height-computed;
+  margin-top: $line-height-computed;
 
   .profile-name {
     margin: 0;
@@ -12,10 +12,9 @@
     @media (min-width: $screen-sm-min) {
       margin-bottom: $line-height-computed/4;
     }
-
   }
 
-  .lead {
+  .site-name {
     margin-bottom: ($line-height-computed/4);
     @media (min-width: $screen-sm-min) {
       margin-bottom: $line-height-computed;
@@ -100,7 +99,7 @@
   .label {
     padding: .5em .5em .6em 1.9em ;
     cursor: default;
-    background: $cr-orange;
+    background: $brand-secondary;
     line-height: 3;
     vertical-align: middle;
 
