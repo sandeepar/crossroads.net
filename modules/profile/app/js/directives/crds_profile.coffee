@@ -22,10 +22,8 @@ angular.module("crdsProfile")
             if loggedIn and user
               console.log "crdsProfile - Current user has changed to #{user.FirstName}"
 
-              Profile.getContact(user.ContactId)
-                .then((data) ->
-                  $scope.contact = data
-                  )
+              Profile.getContact(user.ContactId).then (data) ->
+                $scope.contact = data
 
               @removeLoading()
 
