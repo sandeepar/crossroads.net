@@ -13,6 +13,5 @@
 /config/_config.local.yml
 /generated/
 /node_modules/*
-!/node_modules/think-ministry
 /vendor/plangular/site/
 
