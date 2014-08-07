@@ -5,7 +5,6 @@ layout: full_width
 <tabset class="message-media">
     <tab heading="Video">
         {% if page.yt-embed-url %}
-        <!-- Placeholder YouTube video. Leave the embed code, but replace this with the actual youtube embed variable here: http://www.youtube.com/v/bwvlbJ0h35A?color2={{ page.video }} -->
         <div class="container">
             <div class="col-lg-10 col-lg-offset-1 row" fit-vids>
                 <iframe id="ytplayer" type="text/html" width="854" height="480.375" src="{{ page.yt-embed-url }}?controls=2&showinfo=0&color=white&hd=1" frameborder="0" allowfullscreen></iframe>
@@ -22,7 +21,6 @@ layout: full_width
     <tab heading="Audio">
 
         {% if page.sc-permalink-url %}
-        <!-- Placeholder Soundcloud embed. Leave the embed code, but replace this with the actual Soundcloud embed variable here: https://w.soundcloud.com/player/?url={{ page.audio }}-->
         <div class="container audio-container">
             <div class="col-lg-10 col-lg-offset-1 row" ng-app="plangular">
             <img src="http://img.youtube.com/vi/jNRGDzZKDUs/maxresdefault.jpg" class="img-responsive" />
