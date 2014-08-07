@@ -10,7 +10,9 @@ angular.module("crossroads",
     'crds-ajax-form',
     'crdsProfile',
     'fitVids',
-    'plangular'
+    'plangular',
+    'duScroll',
+    'ui.scrollfix'
   ])
 
 .config (growlProvider, $locationProvider, SecurityContextProvider) ->

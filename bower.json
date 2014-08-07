@@ -32,9 +32,11 @@
     "crds-angular-ajax-form": "*",
     "crds-ng-security-context": "~0.1.0",
     "ngstorage": "~0.3.0",
-    "svg4everybody": "*",
+    "svg4everybody": "latest",
     "angular-fitvids": "git@github.com:jimmyhillis/angular-fitvids",
-    "plangular": "git@github.com:jxnblk/plangular"
+    "plangular": "git@github.com:jxnblk/plangular",
+    "angular-scroll": "latest",
+    "angular-ui-utils": "bower-scrollfix"
   },
   "resolutions": {
     "angular": "1.3.0-beta.15"
