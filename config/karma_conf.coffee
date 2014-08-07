@@ -31,4 +31,6 @@ module.exports =
     "app/templates/**/*.html"
     "vendor/bower/angular-fitvids/angular-fitvids.js"
     "vendor/bower/plangular/plangular.js"
+    "vendor/bower/angular-scroll/angular-scroll.min.js"
+    "vendor/bower/angular-ui-utils/scrollfix.min.js"
   ]
