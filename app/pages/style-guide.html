@@ -11,7 +11,7 @@ categories:
     <ul class="nav nav-pills nav-stacked push-half--top">
       <li du-scrollspy="getting-started" offset="30"><a href="#getting-started" du-smooth-scroll>Getting Started</a></li>
       <li du-scrollspy="file-structure" offset="30"><a href="#file-structure" du-smooth-scroll>File Structure</a></li>
-      <li><a href="#">The Kitchen Sink</a>
+      <li du-scrollspy="the-kitchen-sink" offset="30"><a href="#the-kitchen-sink" du-smooth-scroll>The Kitchen Sink</a>
         <ul>
           <li><a href="#">The Kitchen Sink</a></li>
           <li><a href="#">Icons</a></li>
@@ -23,7 +23,7 @@ categories:
     </ul>
   </div>
 
-  <div class="col-sm-9 pull-right">
+  <div class="col-sm-9 styleguide-content">
     <h2 class="page-title">Crossroads.net Front End Development &amp; Design Guide</h2>
 
     <div id="getting-started">
@@ -110,8 +110,13 @@ categories:
     </div><!--/file-structure-->
 
     <hr />
-  </div>
 
-</div>
+    <div id="the-kitchen-sink">
+      <h3>The Kitchen Sink</h3>
+      <h3 class="subheading">A list of all of our components</h3>
+    </div> <!--/the-kitchen-sink-->
+  </div> <!--/col-sm-9 pull-right-->
+
+</div> <!--/container-->
 
 {% include footer.html %}
