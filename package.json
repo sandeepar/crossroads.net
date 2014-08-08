@@ -68,7 +68,7 @@
     "q": "~1.0.1",
     "simple-oauth2": "^0.1.9",
     "superagent": "~0.16.0",
-    "think-ministry": "0.0.1",
+    "think-ministry": "0.0.2",
     "validator": "~3.16.0"
   }
 }
