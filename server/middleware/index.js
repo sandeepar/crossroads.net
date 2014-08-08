@@ -9,13 +9,20 @@ session = require('express-session');
 RedisStore = require('connect-redis')(session);
 refreshToken = require('./refresh-token');
 path = require('path');
+sessionStore = new RedisStore({
+  url: process.env.REDISCLOUD_URL
+});
+sessionStore.on('disconnect', function() {
+  console.log('Could not connect to redis/got disconnected.');
+  process.exit(1);
+});
 
 module.exports = function(app) {
   app.enable('trust proxy');
 
   app.use(cookieParser());
   app.use(session({
-    store: new RedisStore({ url: process.env.REDISCLOUD_URL }),
+    store: sessionStore,
     key: "crossroads.sid",
     secret: 'secret',
     cookie: { path: '/', httpOnly: true, maxAge: null },
