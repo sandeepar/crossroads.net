@@ -22,6 +22,6 @@
       .pipe(replace('xlink:href=&quot;#', 'xlink:href=&quot;/icons/cr.svg#'))
       .pipe(gulp.dest('app/icons'))
 
-      gulp.src('app/icons/generated/icons/sprites/svg-defs.svg')
+      gulp.src('app/icons/generated/sprites/svg-defs.svg')
       .pipe(rename("cr.svg"))
       .pipe(gulp.dest('app/icons'))

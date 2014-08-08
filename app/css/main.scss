@@ -8,17 +8,17 @@
 @import 'nav';
 @import 'thefeed';
 @import 'explore';
-@import 'profile';
 @import 'timeline';
 @import 'icon';
 @import 'billboard';
 @import 'utilities';
 @import 'iframe';
+@import 'serve';
+@import 'serve';
 // @import 'block-grid';
 
 body {
   font-weight: 300;
-  -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
 }
 a:hover {
@@ -48,6 +48,11 @@ h6.subheading {
   font-size: $font-size-h6*$subheading-ratio
 }
 
+button {
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: inherit;
+}
+
 .brand-font {
   font-family: $brand-font-family;
   text-transform: uppercase;
@@ -74,8 +79,7 @@ h6.subheading {
 
 .divider--dark {
   margin-bottom: 10px;
-  border: $cr-grey;
-  border-width: 1px;
+  border-top: 1px solid $cr-grey
 }
 
 .navbar{
@@ -229,12 +233,35 @@ footer .open, footer .office {
   font-family: $brand-font-family;
   font-size: 16px;
   padding: 3px 8px;
-  font-weight: normal;
+  font-style: normal;
+  font-weight: 400;
 
   .icon {
     fill: #fff;
   }
 }
+
+.btn-xs, .btn-group-xs>.btn {
+  padding: 1px 5px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+
+.btn-sm, .btn-group-sm>.btn {
+  padding: 5px 10px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+
+.btn-lg, .btn-group-lg>.btn {
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 6px;
+}
+
 
 /***************************************************************************************
 * Tabs

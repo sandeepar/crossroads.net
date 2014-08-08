@@ -1,0 +1,18 @@
+---
+---
+
+{% include brandbar.html %}
+<div class="modal-header">
+  <h3 class="modal-title">Confirm Unverified Address</h3>
+</div>
+<div class="modal-body">
+  <p>We were not able to verify this address with the USPS. Please double check your address and confirm it is correct.</p>
+  <address class="well address-confirm">
+    795 Folsom Ave, Suite 600<br>
+    San Francisco, CA 94107<br>
+  </address>
+</div>
+<div class="modal-footer">
+    <button class="btn btn-default" ng-click="ok()">Confirm</button>
+    <button class="btn btn-default" ng-click="cancel()">Edit</button>
+</div>

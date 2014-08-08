@@ -2,36 +2,25 @@
 layout: full_width
 ---
 
-{% if page.video %}
-    {% if page.video contains 'mp4' %}
-        <!-- Placeholder YouTube video. Leave the embed code, but replace this with the actual youtube embed variable here: http://www.youtube.com/v/bwvlbJ0h35A?color2={{ page.video }} -->
-        <div class="video-container media-background clearfix">
-            <div class="container">
-                <div class="col-lg-10 col-lg-offset-1 row" fit-vids>
-                    <iframe id="ytplayer" type="text/html" width="854" height="480.375" src="https://www.youtube.com/embed/jNRGDzZKDUs?modestbranding=1" frameborder="0" allowfullscreen></iframe>
-                </div>
-            </div>
-        </div>
-    {% else %}
+{% if page.yt-embed-url %}
+    <div class="video-container media-background clearfix">
         <div class="container">
-            <div class="alert alert-danger">
-                Video not found.
+            <div class="col-lg-10 col-lg-offset-1 row" fit-vids>
+                <iframe id="ytplayer" type="text/html" width="854" height="480.375" src="{{ page.yt-embed-url }}?controls=2&showinfo=0&color=white&hd=1" frameborder="0" allowfullscreen></iframe>
             </div>
         </div>
-    {% endif %}
+    </div>
 {% endif %}
 
 
 
-{% if page.audio %}
-    {% if page.audio contains 'mp3' %}
-    <!-- Placeholder Soundcloud embed. Leave the embed code, but replace this with the actual Soundcloud embed variable here: https://w.soundcloud.com/player/?url={{ page.audio }}-->
+{% if page.sc-permalink-url %}
     <div class="audio-container media-background clearfix">
         <div class="container">
             <div class="col-lg-10 col-lg-offset-1 row" ng-app="plangular">
             <img src="{{ page.src }}" class="img-responsive" />
-            {% raw %}
-                <div plangular data-src="http://soundcloud.com/crossroadskc/round-and-round-1" class="media col-xs-12 row">
+                <div plangular data-src="{{ page.sc-permalink-url }}" class="media col-xs-12 row">
+                {% raw %}
                     <div class="controls col-xs-2 col-sm-1">
                       <a href="" ng-click="player.play(track)" ng-hide="player.playing == track">
                         <div plangular-icon="play"></div>
@@ -49,18 +38,11 @@ layout: full_width
                     </div>
                     </div>
                   </div>
+                {% endraw %}
                 </div>
-            {% endraw %}
             </div>
         </div>
     </div>
-    {% else %}
-    <div class="container">
-        <div class="alert alert-danger">
-            Audio not found.
-        </div>
-    </div>
-    {% endif %}
 {% endif %}
 
 <div class="container">
