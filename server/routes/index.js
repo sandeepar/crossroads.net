@@ -3,7 +3,6 @@ module.exports = function(app) {
   var moment = require('moment');
 
   require('./form-mailer')(app);
-  require('./ministry_platform')(app);
   require('./login')(app);
   require('./logout')(app);
   require('./error')(app);

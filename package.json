@@ -59,15 +59,16 @@
     "cookie-parser": "^1.1.0",
     "dotenv": "^0.2.8",
     "express": "^4.4.1",
+    "express-session": "^1.3.1",
+    "express-validator": "~2.3.0",
     "http-server": "latest",
     "mandrill-api": "~1.0.39",
-    "express-validator": "~2.3.0",
-    "validator": "~3.16.0",
-    "express-session": "^1.3.1",
     "moment": "~2.5.1",
     "passport": "~0.2.0",
+    "q": "~1.0.1",
     "simple-oauth2": "^0.1.9",
     "superagent": "~0.16.0",
-    "q": "~1.0.1"
+    "think-ministry": "0.0.1",
+    "validator": "~3.16.0"
   }
 }

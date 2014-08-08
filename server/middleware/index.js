@@ -17,6 +17,11 @@ sessionStore.on('disconnect', function() {
   process.exit(1);
 });
 
+var ThinkMinistry = require('think-ministry'),
+    thinkMinistryProxy = require('think-ministry/middleware');
+
+ThinkMinistry.baseUrl = 'https://my.crossroads.net/ministryplatformapi/PlatformService.svc/'
+
 module.exports = function(app) {
   app.enable('trust proxy');
 
@@ -34,6 +39,11 @@ module.exports = function(app) {
   app.use(passport.session());
   app.use(refreshToken());
   app.use('/api', apiProxy('https://my.crossroads.net/'));
+  app.use('/api2', thinkMinistryProxy({
+    accessToken: function(req) {
+      return req.user && req.user.token && req.user.token.access_token
+    }
+  }));
   app.use(bodyParser.urlencoded({ extended: true }));
   app.use(bodyParser.json());
   app.use(expressValidator([]));

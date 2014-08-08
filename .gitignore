@@ -12,6 +12,6 @@
 /app/icons/preview-svg.html
 /config/_config.local.yml
 /generated/
-/node_modules/
+/node_modules/*
 /vendor/plangular/site/
 
