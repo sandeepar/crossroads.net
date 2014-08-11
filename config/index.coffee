@@ -1,14 +1,19 @@
-devEnv = process.env.NODE_ENV == 'development'
-
+args = require('yargs').argv
 gulp = require 'gulp'
 $ = require('gulp-load-plugins')()
 
+opts =
+  dev: process.env.NODE_ENV == 'development'
+  n: args.n
+  sync: args.sync
+  burp: args.burp
+
 require('./tasks/clean')(gulp, $)
-require('./tasks/jekyll')(gulp, devEnv, $)
+require('./tasks/jekyll')(gulp, opts, $)
 require('./tasks/jekyll_build')(gulp)
-require('./tasks/coffee')(gulp, devEnv, $)
-require('./tasks/sass')(gulp, devEnv, $)
-require('./tasks/server')(gulp, $)
+require('./tasks/coffee')(gulp, opts, $)
+require('./tasks/sass')(gulp, opts, $)
+require('./tasks/server')(gulp, opts, $)
 require('./tasks/karma')(gulp)
 require('./tasks/watch')(gulp)
 require('./tasks/spec_watch')(gulp)
