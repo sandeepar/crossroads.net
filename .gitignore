@@ -13,5 +13,6 @@
 /config/_config.local.yml
 /generated/
 /node_modules/*
+/phantomjsdriver.log
 /vendor/plangular/site/
 /vendor/ruby/
