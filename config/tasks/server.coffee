@@ -1,13 +1,10 @@
 browserSync = require 'browser-sync'
-args = require('yargs').argv
 
-sync = args.sync
-
-module.exports = (gulp, $) ->
+module.exports = (gulp, opts, $) ->
   gulp.task "server", ->
     $.nodemon
       script: "./server/server.js"
-      env: if sync then {'PORT': 8000} else {'PORT': 3000}
+      env: if opts.sync then {'PORT': 8000} else {'PORT': 3000}
       ignore: [
         "app/"
         "_site/"
@@ -17,5 +14,5 @@ module.exports = (gulp, $) ->
         "tmp/"
         "vendor/"
       ]
-    browserSync.init(null, proxy: "localhost:8000") if sync
+    browserSync.init(null, proxy: "localhost:8000") if opts.sync
     return
