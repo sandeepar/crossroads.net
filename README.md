@@ -21,6 +21,14 @@ For more information about Gulp visit: http://gulpjs.com
 * ```gem install bundler```
 * ```bundle install```
 * setup node env var in your bash ```export NODE_ENV=development```
+* create your local .env file
+  * copy the example```cp .env.example .env```
+  * update values (reference current heroku values)
+
+### Daily Routine
+* ```git pull```
+* ```npm update```
+* ```bower install```
 
 ### Running the project
 To run the project use: ```gulp```
