@@ -1,11 +1,8 @@
-assert = require 'assert'
-request = require 'supertest'
-app = require('../../server.js').crdsApp
-replay = require 'replay'
-replay.mode = 'record'
+require('../../test/helper.js')
+request = require('supertest')
 
 describe "/logout", ->
   it "logs the user out", (done) ->
-    request(app)
+    request(crdsApp)
       .delete "/logout"
       .expect 204, done

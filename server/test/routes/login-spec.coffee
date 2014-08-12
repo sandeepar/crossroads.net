@@ -1,13 +1,10 @@
-assert = require 'assert'
-request = require 'supertest'
-app = require('../../server.js').crdsApp
-replay = require 'replay'
-replay.mode = 'replay'
+require('../../test/helper.js')
+request = require('supertest')
 
 describe "/login", ->
   it "with valid credentials", (done) ->
     creds = { username: 'drye', password: 'danrye11' }
-    request(app)
+    request(crdsApp)
       .post '/login'
       .send creds
       .expect 'Content-Type', /plain/
@@ -18,7 +15,7 @@ describe "/login", ->
 
   it "with invalid credentials", (done) ->
     creds = { username: 'fred', password: 'flintstone' }
-    request(app)
+    request(crdsApp)
       .post '/login'
       .send creds
       .expect 'Content-Type', /plain/
@@ -28,7 +25,7 @@ describe "/login", ->
         done()
 
   it "without credentials", (done) ->
-    request(app)
+    request(crdsApp)
       .post '/login'
       .expect 'Content-Type', /plain/
       .expect 403

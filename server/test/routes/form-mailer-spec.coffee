@@ -1,7 +1,5 @@
-assert = require 'assert'
-request = require 'supertest'
-app = require('../../server.js').crdsApp
-replay = require 'replay'
+require('../../test/helper.js')
+request = require('supertest')
 replay.mode = 'record'
 
 describe 'form-mailer', ->
@@ -12,7 +10,7 @@ describe 'form-mailer', ->
       'crds-form-subject': 'Yo!'
       'crds-form-to': '326568'
 
-    request(app)
+    request(crdsApp)
       .post '/form-mail'
       .send fields
       .expect 200, done
