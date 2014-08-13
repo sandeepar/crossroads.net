@@ -28,7 +28,6 @@ require('./tasks/copy')(gulp);
 require('./tasks/html')(gulp, $);
 require('./tasks/build')(gulp);
 require('./tasks/default')(gulp);
-require('./tasks/pagespeed')(gulp);
 require('./tasks/mocha')(gulp, $);
 require('./tasks/server_test')(gulp);
 require('./tasks/server_watch')(gulp);
