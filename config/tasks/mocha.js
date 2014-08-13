@@ -1,6 +1,6 @@
 module.exports = function(gulp, $) {
   return gulp.task('mocha', function() {
-    gulp.src('server/test/**/*.coffee', { read: false })
+    gulp.src('server/test/**/*.js', { read: false })
       .pipe($.mocha());
   });
 };
