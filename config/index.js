@@ -11,7 +11,7 @@ var args = require('yargs').argv,
 require('./tasks/clean')(gulp, $);
 require('./tasks/jekyll')(gulp, opts, $);
 require('./tasks/jekyll_build')(gulp);
-require('./tasks/coffee')(gulp, opts, $);
+require('./tasks/scripts')(gulp, opts, $);
 require('./tasks/sass')(gulp, opts, $);
 require('./tasks/server')(gulp, opts, $);
 require('./tasks/karma')(gulp);

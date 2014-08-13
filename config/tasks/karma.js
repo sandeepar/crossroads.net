@@ -3,7 +3,7 @@ var karma = require('karma').server,
     karmaConf = require('../karma.conf');
 
 module.exports = function(gulp) {
-  return gulp.task("karma", ["coffee"], function(done) {
+  return gulp.task("karma", ["scripts"], function(done) {
     karma.start(_.assign({}, karmaConf, {
       singleRun: true
     }), done);
