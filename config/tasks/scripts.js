@@ -18,7 +18,7 @@ module.exports = function(gulp, opts, $) {
         .pipe($.angularTemplatecache({ standalone: true }))
     );
 
-    stream.done()
+    return stream.done()
       .pipe(opts.dev ? gulp.dest(".tmp/js") : $.util.noop())
       .pipe($.concatSourcemap("app.js", { prefix: 2 }))
       .pipe(gulp.dest(".tmp/js"))
