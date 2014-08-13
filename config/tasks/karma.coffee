@@ -1,6 +1,6 @@
 karma = require('karma').server
 _ = require 'lodash'
-karmaConf = require '../karma_conf'
+karmaConf = require '../karma.conf'
 
 module.exports = (gulp) ->
   gulp.task "karma", ["coffee"], (done) ->
