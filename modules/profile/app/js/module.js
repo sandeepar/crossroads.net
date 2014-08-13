@@ -1,1 +1,1 @@
-angular.module("crdsProfile", ["templates", "crdsSecurityContext"]);
+angular.module('crdsProfile', ['templates', 'crdsSecurityContext']);
