@@ -1,4 +1,19 @@
-angular.module("crossroads", ["ngCookies", 'ngStorage', 'crdsAuth', 'crdsSecurityContext', 'angular-growl', 'ui.bootstrap', 'crds-ajax-form'])
+angular.module("crossroads",
+  [
+    'templates',
+    'ngCookies',
+    'ngStorage',
+    'crdsAuth',
+    'crdsSecurityContext',
+    'angular-growl',
+    'ui.bootstrap',
+    'crds-ajax-form',
+    'crdsProfile',
+    'fitVids',
+    'plangular',
+    'duScroll',
+    'ui.scrollfix'
+  ])
 
 .config (growlProvider, $locationProvider, SecurityContextProvider) ->
   $locationProvider.html5Mode(true)

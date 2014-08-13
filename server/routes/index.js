@@ -5,7 +5,7 @@ module.exports = function(app) {
   require('./form-mailer')(app);
   require('./login')(app);
   require('./logout')(app);
-
+  require('./error')(app);
 
   passport.serializeUser(function(token, done) {
     if (token.expires_at != null) {

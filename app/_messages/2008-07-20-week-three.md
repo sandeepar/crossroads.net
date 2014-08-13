@@ -5,6 +5,7 @@ series: "One"
 title: "Week Three"
 date: 2008-07-20-00-00
 message_id: 507
+sc-permalink-url: "http://soundcloud.com/crdschurch/one-week-three"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/One-3.mp3"
 audio-duration: "27:50"
 notes-description: ""
@@ -14,6 +15,7 @@ program: "http://s3.amazonaws.com/crossroads-media/documents/0719_20Program.pdf"
 description: "Chuck Mingo discusses grace and how the Church can be \"one.\""
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/One-3.mp4"
 video-duration: "27:50"
+yt-embed-url: "//www.youtube.com/embed/ZlKlIb-inUQ"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/One3-still.jpg"
 tag: 
  - mingo

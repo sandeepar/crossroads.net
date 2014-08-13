@@ -5,6 +5,7 @@ series: "Freedom"
 title: "Reception"
 date: 2006-10-14-00-00
 message_id: 47
+sc-permalink-url: "http://soundcloud.com/crdschurch/reception"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/Freedom_01_Reception_10-15-06_Tome.mp3"
 audio-duration: "41:40"
 tag: 

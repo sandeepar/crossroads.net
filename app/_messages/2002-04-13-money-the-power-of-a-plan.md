@@ -5,6 +5,7 @@ series: "Handle with Care"
 title: "Money: The Power of a Plan"
 date: 2002-04-13-00-00
 message_id: 286
+sc-permalink-url: "http://soundcloud.com/crdschurch/money-the-power-of-a-plan"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/Power_of_a_Plan.mp3"
 audio-duration: "38:58"
 tag: 

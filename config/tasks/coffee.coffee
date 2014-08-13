@@ -1,11 +1,8 @@
 paths = require '../paths'
 streamqueue = require 'streamqueue'
-args = require('yargs').argv
 browserSync = require 'browser-sync'
 
-n = args.n
-
-module.exports = (gulp, devEnv, $) ->
+module.exports = (gulp, opts, $) ->
   gulp.task "coffee", ->
     streamqueue(
       objectMode: true,
@@ -14,9 +11,10 @@ module.exports = (gulp, devEnv, $) ->
         .pipe($.coffeelint.reporter())
         .pipe($.coffee().on("error", $.util.log)),
       gulp.src(paths.templates)
-        .pipe($.angularTemplatecache(standalone: true)))
-      .pipe(if devEnv then gulp.dest(".tmp/js") else $.util.noop())
-      .pipe($.concatSourcemap("app.js", prefix: 2))
-      .pipe(gulp.dest(".tmp/js"))
-      .pipe(if devEnv then browserSync.reload(stream: true, once: true) else $.util.noop())
-      .pipe(if devEnv and not n then $.notify('Coffee is done') else $.util.noop())
+        .pipe($.angularTemplatecache(standalone: true))
+    )
+    .pipe(if opts.dev then gulp.dest(".tmp/js") else $.util.noop())
+    .pipe($.concatSourcemap("app.js", prefix: 2))
+    .pipe(gulp.dest(".tmp/js"))
+    .pipe(if opts.dev then browserSync.reload(stream: true, once: true) else $.util.noop())
+    .pipe(if opts.dev and not opts.n then $.notify('Coffee is done') else $.util.noop())

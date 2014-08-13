@@ -7,6 +7,7 @@ description: "What happens when thousands of people and a bunch of church commun
 tag: 
  - go-cincinnati
  - reachout
+yt-embed-url: "//www.youtube.com/embed/cifC0AdSqsY"
 video: "http://s3.amazonaws.com/crossroads-media/other-media/video/GOcincy-recap.mp4"
 video-poster: "http://s3.amazonaws.com/crossroads-media/images/GOcincy-recap-still.jpg"
 ---

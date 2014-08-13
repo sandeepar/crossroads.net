@@ -8,6 +8,7 @@ tag:
  - prison
  - freedom
  - lebanon
+yt-embed-url: "//www.youtube.com/embed/5Oef0PG0FB0"
 video: "http://s3.amazonaws.com/crossroads-media/other-media/video/Roadtrip6.mp4"
 video-poster: "http://s3.amazonaws.com/crossroads-media/images/Roadtrip6-still.jpg"
 ---

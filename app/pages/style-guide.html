@@ -1,0 +1,122 @@
+---
+layout: default
+title: Style Guide
+published: true
+permalink: /styleguide/
+categories:
+---
+
+<div class="container">
+  <div class="col-sm-3" ui-scrollfix>
+    <ul class="nav nav-pills nav-stacked push-half--top">
+      <li du-scrollspy="getting-started" offset="30"><a href="#getting-started" du-smooth-scroll>Getting Started</a></li>
+      <li du-scrollspy="file-structure" offset="30"><a href="#file-structure" du-smooth-scroll>File Structure</a></li>
+      <li du-scrollspy="the-kitchen-sink" offset="30"><a href="#the-kitchen-sink" du-smooth-scroll>The Kitchen Sink</a>
+        <ul>
+          <li><a href="#">The Kitchen Sink</a></li>
+          <li><a href="#">Icons</a></li>
+          <li><a href="#">Porta ac consectetur ac</a></li>
+          <li><a href="#">Vestibulum at eros</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Icons</a></li>
+    </ul>
+  </div>
+
+  <div class="col-sm-9 styleguide-content">
+    <h2 class="page-title">Crossroads.net Front End Development &amp; Design Guide</h2>
+
+    <div id="getting-started">
+    <h3>Getting Started</h3>
+    <p>This style guide is intended to help new designers, developers and content managers understand the structure and patterns of Crossroads.net.</p>
+    </div><!--/getting-started-->
+
+    <hr />
+
+    <div id="file-structure">
+    <h3>File Structure</h3>
+    <h4>Theme Specific Styles</h4>
+    <p>
+      In general, the Sass files for the project will live in <code>/app/scss</code>. Within that directory, there are subdirectories that we use to organize the code.
+    </p>
+    <ul>
+    <li><strong>Base:</strong> The <code>base/</code> folder holds what we might call the boilerplate stuff for your project. </li>
+    <li><strong>Helpers:</strong> The <code>helpers/</code> folder gathers all Sass tools and helpers we’ll use across the project, including variables and overrides to Bootstrap. </li>
+    <li><strong>Layout:</strong> The <code>layout/</code> directory contains files which set up styles for the main sections of the layout (header, footer, and so on). </li>
+    <li><strong>Modules:</strong> For smaller components, there is the <code>modules/</code> folder. While <code>layout/</code> is kind of macro (defining the global wireframe), <code>components/</code> is more micro. It can contain all kinds of specific modules like a slider, a loader, a widget, or anything along those lines. </li>
+    <li><strong>Pages:</strong> If you have page-specific styles, put them in a <code>pages/</code> folder and in a file named after the page.</li>
+    </ul>
+
+    <pre class="push--top">
+    app/
+    |
+    `- scss/ 
+      | 
+      |– base/ 
+      |   |– brand.scss                 # Crossroads colors, etc
+      |   |– typography.scss            # Typography rules 
+      |   ...                           # Etc…
+      | 
+      |– helpers/ 
+      |   |– bootstrap-overrides.scss   # Override Bootstrap styles
+      |   |– variable-overrides.scss    # Override Bootstrap variables
+      |   ...                           # Etc… 
+      |
+      |– layout/ 
+      |   |– footer.scss                # Footer styles
+      |   |– forms.scss                 # Form styles
+      |   ...                           # Etc… 
+      | 
+      |– modules/ 
+      |   |– billboard.scss             # Ad Boxes
+      |   |– brandbar.scss              # Brandbar 
+      |   ...                           # Etc… 
+      | 
+      |– pages/ 
+      |   |– home.scss                  # Home specific styles 
+      |   |– blog.scss                  # Blog specific styles 
+      |   ...                           # Etc… 
+      | 
+      | 
+      `– main.scss                      # primary Sass file 
+    </pre>
+
+    <h4 class="push--top">Module Specific Styles</h4>
+    <p>
+    If a component of the site is turned into an Angular module, then the structural styling for the module will live outside of the <code>app/scss</code> directory. The styling that is required by the module to work on it's own should live in that's module directory. An example of this is the Profile module.  If you have styling for the module that is just theming (colors, typeography, etc) and not structural, then it should live in the scss folder: <code>app/scss/modules/profile.scss</code>
+    </p>
+    <pre class="push--top">
+    modules/ 
+    | 
+    `– profile/                       # Example using the Profile module
+        |
+        `- app/ 
+            |
+            `css
+              |– module.scss          # Non-theme module styles 
+              ...                     # Etc… 
+    </pre>
+
+    <pre class="push--top">
+    app/
+    |
+    `- scss/ 
+      | 
+      `– modules/ 
+         |
+         `– profile.scss             # Theme styles for the Profile module
+    </pre>
+
+    </div><!--/file-structure-->
+
+    <hr />
+
+    <div id="the-kitchen-sink">
+      <h3>The Kitchen Sink</h3>
+      <h3 class="subheading">A list of all of our components</h3>
+    </div> <!--/the-kitchen-sink-->
+  </div> <!--/col-sm-9 pull-right-->
+
+</div> <!--/container-->
+
+{% include footer.html %}

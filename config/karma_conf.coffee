@@ -16,6 +16,7 @@ module.exports =
   files: [
     "spec/helpers/*.js"
     "vendor/js/jquery.js"
+    "vendor/js/underscore.js"
     "vendor/bower/angular/angular.min.js"
     "vendor/bower/angular-bootstrap/ui-bootstrap.min.js"
     "vendor/bower/angular-bootstrap/ui-bootstrap-tpls.min.js"
@@ -28,4 +29,8 @@ module.exports =
     ".tmp/js/app.js"
     "spec/js/**/*.coffee"
     "app/templates/**/*.html"
+    "vendor/bower/angular-fitvids/angular-fitvids.js"
+    "vendor/bower/plangular/plangular.js"
+    "vendor/bower/angular-scroll/angular-scroll.min.js"
+    "vendor/bower/angular-ui-utils/scrollfix.min.js"
   ]

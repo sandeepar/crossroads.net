@@ -5,6 +5,7 @@ series: "Life, The Universe and Everything"
 title: "God Wants Your Obsession"
 date: 2004-09-18-00-00
 message_id: 153
+sc-permalink-url: "http://soundcloud.com/crdschurch/god-wants-your-obsession"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/LTUAE_06_09-18-04_Obsession.mp3"
 audio-duration: "34:08"
 tag: 
