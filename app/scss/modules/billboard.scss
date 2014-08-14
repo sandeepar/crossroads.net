@@ -77,12 +77,8 @@
 	height: 80px;
 }
 
-.billboard .billboard-input--inline {
-	width: 87%;
-}
-
-.billboard .billboard-select--inline {
-	width: 65%;
+.billboard .billboard-btn-inline {
+	width: 110%;
 }
 
 .carousel-container {
@@ -119,5 +115,15 @@
 	}
 	.billboard-headline{
 		font-size: 40px;
+	}
+	.billboard .billboard-btn-inline {
+		width: 100%;
+	}
+
+}
+
+@media only screen and (max-width: 768px){
+	.billboard .billboard-btn-inline {
+		margin-bottom: $line-height-computed / 2 ;
 	}
 }
