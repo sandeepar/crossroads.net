@@ -2,7 +2,7 @@ crossroads.net
 ==============
 
 Code base for Milacron.
-Please feel free to contribute by forking and doing a pull request
+Please feel free to contribute by forking and doing a pull request.
 
 ## Local Development
 crossroads.net uses GulpJS to manage and run things in local development.
@@ -20,15 +20,25 @@ For more information about Gulp visit: http://gulpjs.com
 * you may want to install gulp globally, ```npm -g install gulp```
 * ```gem install bundler```
 * ```bundle install```
-* setup node env var in your bash ```export NODE_ENV=developmebt```
+* setup node env var in your bash ```export NODE_ENV=development```
+* create your local .env file
+  * copy the example```cp .env.example .env```
+  * update values (reference current heroku values)
+
+### Daily Routine
+* ```git pull```
+* ```npm update```
+* ```bower install```
 
 ### Running the project
 To run the project use: ```gulp```
 
+If you would like to take advantage of browserSync you may run: ```gulp -sync```
+
 If you would prefer to disable the growl notifications you may run: ```gulp -n```
 
 For a faster jekyll build you may run: ```gulp -burp```
-(This excludes items, see[_config.exclude.yml](https://github.com/crdschurch/crossroads.net/blob/master/config/_config.exclude.yml]))
+(This excludes items, see[_config.exclude.yml](https://github.com/crdschurch/crossroads.net/blob/master/config/_config.exclude.yml))
 
 If burp doesn't suit your needs you can also add local only jekyll configs here: ```config/_config.local.yml```
 

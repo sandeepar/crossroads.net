@@ -8,6 +8,7 @@ tag:
  - vineyard
  - pruning
  - mingo
+yt-embed-url: "//www.youtube.com/embed/4_hv6Z5kP5o"
 video: "http://s3.amazonaws.com/crossroads-media/other-media/video/vineyard-pruning.mp4"
 video-poster: "http://s3.amazonaws.com/crossroads-media/images/vineyard-pruning-still.jpg"
 ---

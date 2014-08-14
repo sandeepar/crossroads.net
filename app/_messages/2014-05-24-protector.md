@@ -9,7 +9,9 @@ program: "http://s3.amazonaws.com/crossroads-media/documents/05_24-25_14Program.
 description: "Brian Tome talks about how the new man is a protector."
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/thenewman_05.mp4"
 video-duration: ":"
+yt-embed-url: "//www.youtube.com/embed/CsCEpeUQKRk"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/thenewman_05_still.jpg"
+sc-permalink-url: "http://soundcloud.com/crdschurch/protector"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/thenewman_05.mp3"
 audio-duration: ":"
 tag: 

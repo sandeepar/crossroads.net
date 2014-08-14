@@ -5,6 +5,7 @@ series: "The Heart of the Matter"
 title: "The Bible: Fact of Fiction?"
 date: 2000-04-15-00-00
 message_id: 380
+sc-permalink-url: "http://soundcloud.com/crdschurch/the-bible-fact-of-fiction"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/The_Bible_Fact_or_Fiction.mp3"
 audio-duration: "39:07"
 tag: 

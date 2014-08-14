@@ -5,6 +5,7 @@ series: "Context"
 title: "We Hydrate"
 date: 2007-11-17-00-00
 message_id: 469
+sc-permalink-url: "http://soundcloud.com/crdschurch/we-hydrate"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/Context_02_We%20Hydrate_11_18_07_Brian_Tome.mp3"
 audio-duration: "52:06"
 explicit: false

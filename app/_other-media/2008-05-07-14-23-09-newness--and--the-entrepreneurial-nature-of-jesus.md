@@ -13,6 +13,7 @@ tag:
  - body-is-a-cage
  - declaration-of-independence
  - john-adams
+yt-embed-url: "//www.youtube.com/embed/uwU6h8faetA"
 video: "http://s3.amazonaws.com/crossroads-media/other-media/video/go-forth-01.mp4"
 video-poster: "http://s3.amazonaws.com/crossroads-media/images/iamsurrendered - still.jpg"
 ---

@@ -5,6 +5,7 @@ series: "Special Effects"
 title: "Strange Love"
 date: 2005-07-09-00-00
 message_id: 112
+sc-permalink-url: "http://soundcloud.com/crdschurch/strange-love"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/Special_Effects_04_07-10-05_Strange_Love.mp3"
 audio-duration: "42:00"
 tag: 

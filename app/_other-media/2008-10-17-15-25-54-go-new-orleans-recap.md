@@ -9,6 +9,7 @@ tag:
  - reachout
  - go
  - habitat
+yt-embed-url: "//www.youtube.com/embed/GOgX9gu723Q"
 video: "http://s3.amazonaws.com/crossroads-media/other-media/video/Go%20Nola.mp4"
 video-poster: "http://s3.amazonaws.com/crossroads-media/images/GOnolarecap-still.jpg"
 ---

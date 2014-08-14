@@ -5,6 +5,7 @@ series: "Roadmap For A Revolution"
 title: "Authority"
 date: 2009-06-21-00-00
 message_id: 568
+sc-permalink-url: "http://soundcloud.com/crdschurch/authority-1"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/Roadmap5.mp3"
 audio-duration: "34:47"
 notes-description: ""
@@ -13,6 +14,7 @@ notes-title: "Authority (study notes)"
 description: "Alli Patterson discusses why authority is a critical part of a revolution."
 video: "http://s3.amazonaws.com/crossroads-media/messages/video/Roadmap5.mp4"
 video-duration: "34:47"
+yt-embed-url: "//www.youtube.com/embed/Hy02mYOJ44Y"
 video-image: "http://s3.amazonaws.com/crossroads-media/images/Roadmap5-still.jpg"
 program: "http://s3.amazonaws.com/crossroads-media/documents/0613_14Program.pdf"
 tag: 

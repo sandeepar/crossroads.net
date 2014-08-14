@@ -8,6 +8,7 @@ tag:
  - last-wednesday
  - tome
  - adventures
+yt-embed-url: ""
 video: "http://s3.amazonaws.com/crossroads-media/other-media/video/083111_lw.mp4"
 video-poster: "http://s3.amazonaws.com/crossroads-media/images/083111_lw_still.jpg"
 ---

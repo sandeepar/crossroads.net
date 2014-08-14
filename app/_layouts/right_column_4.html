@@ -2,8 +2,27 @@
 layout: container_row
 ---
 <div class="col-sm-8">
-  {{ content }}
+  <div class="soft--bottom">
+    {{ content }}
+  </div>
 </div>
+
 <div class="col-sm-4">
-	<h3>Adbox Space 4</h3>
+  <div class="random-block">
+    {% include ads/kids.html %}
+    {% include ads/spotlight_daniel.html %}
+    {% include ads/spotlight_heather.html %}
+    {% include ads/spotlight_karen.html %}
+  </div>
+
+  <div class="random-block">
+    {% include ads/grow.html %}
+    {% include ads/spotlight_skip.html %}
+    {% include ads/spotlight_kristen.html %}
+  </div>
+
+  <div class="random-block">
+    {% include ads/teen_jeremy.html %}
+    {% include ads/teen_naomi.html %}
+  </div>
 </div>

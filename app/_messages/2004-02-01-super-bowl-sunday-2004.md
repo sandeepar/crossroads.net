@@ -5,6 +5,7 @@ series: "Super Bowl"
 title: "Super Bowl Sunday 2004"
 date: 2004-02-01-00-00
 message_id: 186
+sc-permalink-url: "http://soundcloud.com/crdschurch/super-bowl-sunday-2004"
 audio: "http://s3.amazonaws.com/crossroads-media/messages/audio/SuperBowl_02-01-04.mp3"
 audio-duration: "01:00:04"
 tag: 
