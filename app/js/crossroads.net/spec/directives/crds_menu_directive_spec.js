@@ -1,8 +1,6 @@
 describe("crds menu directive", function() {
   beforeEach(function() {
     module("crossroads");
-    module('/templates/crdsMenu.html');
-    return module('/templates/login.html');
   });
 
   beforeEach(inject(function($compile, $rootScope, $httpBackend) {

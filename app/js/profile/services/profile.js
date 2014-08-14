@@ -10,7 +10,7 @@ angular.module('crdsProfile')
     },
 
     getContact: function(contactId) {
-      $http.get(
+      return $http.get(
         '/api2/GetPageRecord?pageId=292&recordId=' + contactId
       ).then(function(data) {
         return data.data[0];
@@ -18,13 +18,13 @@ angular.module('crdsProfile')
     },
 
     getMaritalStatusValues: function() {
-      $http.get('/api2/GetPageLookupRecords?pageId=339').then(function(data) {
+      return $http.get('/api2/GetPageLookupRecords?pageId=339').then(function(data) {
         return data.data;
       });
     },
 
     getGenderValues: function() {
-      $http.get('/api2/GetPageLookupRecords?pageId=311').then(function(data) {
+      return $http.get('/api2/GetPageLookupRecords?pageId=311').then(function(data) {
         return data.data;
       });
     }

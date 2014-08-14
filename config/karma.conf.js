@@ -1,6 +1,6 @@
 module.exports = {
   preprocessors: {
-    "**/*.html": ["ng-html2js"]
+    "app/js/**/app/templates/**/*.html": ["ng-html2js"]
   },
   ngHtml2JsPreprocessor: {
     stripPrefix: "app"
@@ -21,8 +21,8 @@ module.exports = {
     "vendor/bower/crds-angular-ajax-form/dist/crds-angular-ajax-form.min.js",
     "vendor/bower/crds-ng-security-context/dist/crds-ng-security-context.js",
     ".tmp/js/app.js",
-    "spec/js/**/*.js",
-    "app/templates/**/*.html",
+    "app/js/**/spec/**/*.js",
+    "app/js/**/app/templates/**/*.html",
     "vendor/bower/angular-fitvids/angular-fitvids.js",
     "vendor/bower/plangular/plangular.js",
     "vendor/bower/angular-scroll/angular-scroll.min.js",
