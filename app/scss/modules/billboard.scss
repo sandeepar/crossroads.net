@@ -110,9 +110,6 @@
 
 
 @media only screen and (max-width: 980px){
-	.billboard-content--short, .billboard-content {
-		width: 100%;
-	}
 	.billboard-headline{
 		font-size: 40px;
 	}
@@ -125,5 +122,11 @@
 @media only screen and (max-width: 768px){
 	.billboard .billboard-btn-inline {
 		margin-bottom: $line-height-computed / 2 ;
+	}
+	.billboard-content--short, .billboard-content {
+		width: 100%;
+	}
+	.billboard-image__bottom-right {
+		height: 95px;
 	}
 }
