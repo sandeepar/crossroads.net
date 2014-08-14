@@ -8,7 +8,6 @@ var args = require('yargs').argv,
       burp: args.burp
     };
 
-require('./tasks/clean')(gulp, $);
 require('./tasks/jekyll')(gulp, opts, $);
 require('./tasks/jekyll_build')(gulp);
 require('./tasks/scripts')(gulp, opts, $);
@@ -32,3 +31,5 @@ require('./tasks/mocha')(gulp, $);
 require('./tasks/server_test')(gulp);
 require('./tasks/server_watch')(gulp);
 require('./tasks/jekyll_ci')(gulp);
+require('./tasks/cleancss')(gulp);
+require('./tasks/cleanjs')(gulp);
