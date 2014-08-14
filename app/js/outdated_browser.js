@@ -7,4 +7,4 @@ window.onload=function(){
  e.setAttribute('type', 'text/javascript'); 
  e.setAttribute('src', '//browser-update.org/update.js'); 
  document.body.appendChild(e); 
-};
+}; 
