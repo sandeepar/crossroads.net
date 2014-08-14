@@ -448,7 +448,7 @@ header.show .container {
 
 .navbar--login__dropdown.toggleOpen {
   opacity: 1;
-  top: 100%;
+  top: 75%;
   display: block;
   z-index: 1000000;
   transition: opacity 0.2s, top 0.75s;
