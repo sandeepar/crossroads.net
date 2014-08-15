@@ -1,5 +1,3 @@
-var app, apiProxy, bodyParser, express, session, passport, RedisStore, refreshToken, cookieParser;
-
 apiProxy = require('./api-proxy');
 express = require('express');
 bodyParser = require('body-parser');
@@ -7,18 +5,21 @@ passport = require('passport');
 cookieParser = require('cookie-parser');
 session = require('express-session');
 RedisStore = require('connect-redis')(session);
+expressValidator = require('express-validator');
 refreshToken = require('./refresh-token');
 path = require('path');
+ThinkMinistry = require('think-ministry');
+thinkMinistryProxy = require('think-ministry/middleware');
+logger = require('../logger');
+
 sessionStore = new RedisStore({
   url: process.env.REDISCLOUD_URL
 });
+
 sessionStore.on('disconnect', function() {
-  console.log('Could not connect to redis/got disconnected.');
+  logger.error('Could not connect to redis/got disconnected.');
   process.exit(1);
 });
-
-var ThinkMinistry = require('think-ministry'),
-    thinkMinistryProxy = require('think-ministry/middleware');
 
 ThinkMinistry.baseUrl = 'https://my.crossroads.net/ministryplatformapi/PlatformService.svc/'
 
