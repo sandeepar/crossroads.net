@@ -1,7 +1,7 @@
 var express = require('express'),
     path = require('path'),
     logger = require('./logger'),
-    PORT = config.get('PORT') ? config.get('PORT') : 8000;
+    PORT = config.get('PORT', 8000)
 
 app = express();
 
