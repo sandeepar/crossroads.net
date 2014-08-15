@@ -1,5 +1,5 @@
 (function() {
-  angular.module("crdsSecurityContext", ["crdsAuth"]);
+  angular.module("crdsSecurityContext", []);
 
 }).call(this);
 
@@ -9,15 +9,21 @@
   angular.module("crdsSecurityContext").run(function(SecurityContext) {
     return SecurityContext.loadCurrentUser();
   }).provider("SecurityContext", function() {
-    var sessionMinutes;
-    console.log("SecurityContext provider factory");
+    var authImplName, sessionMinutes;
+    authImplName = "Auth";
     sessionMinutes = 30;
+    this.getSessionMinutes = function() {
+      return sessionMinutes;
+    };
     this.setSessionMinutes = function(value) {
       return sessionMinutes = value;
     };
-    this.$get = function($q, $rootScope, $localStorage, Auth) {
-      var clear, getCurrentUser, securityContext;
-      console.log("SecurityContext.$get, using sessionMinutes " + sessionMinutes);
+    this.setAuthImplName = function(value) {
+      return authImplName = value;
+    };
+    this.$get = function($injector, $q, $rootScope, $localStorage, $log) {
+      var Auth, clear, getCurrentUser, securityContext;
+      Auth = $injector.get(authImplName);
       securityContext = new ((function() {
         function _Class() {
           this.login = __bind(this.login, this);
@@ -41,11 +47,11 @@
                 this.loggedIn = true;
                 this.seenDate = new Date();
               } else {
-                console.log("User session has expired");
+                $log.debug("User session has expired");
                 clear();
               }
             } else {
-              console.log("User session date is invalid");
+              $log.debug("User session date is invalid");
               clear();
             }
           }
@@ -78,11 +84,10 @@
       $rootScope.securityContext = securityContext;
       getCurrentUser = function() {
         var promise;
-        console.log("SecurityContext.getCurrentUser");
         promise = Auth.getCurrentUser();
         return promise.then(function(user) {
           if (user) {
-            console.log("Received current user from Ministry Platform");
+            $log.debug("Received current user from Ministry Platform");
             securityContext.user = user;
             securityContext.userId = user.ContactId;
             securityContext.loggedIn = true;
@@ -90,11 +95,11 @@
             $localStorage.securityContext = user;
             return $localStorage.seenDate = securityContext.seenDate;
           } else {
-            console.log("No current user logged in to Ministry Platform");
+            $log.debug("No current user logged in to Ministry Platform");
             return clear();
           }
         }, function(error) {
-          console.log("No current user logged in to Ministry Platform");
+          $log.debug("No current user logged in to Ministry Platform");
           return clear();
         });
       };

@@ -2,7 +2,11 @@ crds-ng-security-context
 ===================
 
 SecurityContext AngularJS module providing load and store current user using application-supplied authentication implementation.
-All access to the authenticated user should pass through the SecurityContext injected class or manipulate the $rootScope.securityContext
+All access to the authenticated user should pass through the SecurityContext injected class or manipulate the $rootScope.securityContext.  
+
+The SecurityContext depends on an "Auth" service being injected from a module named "crdsAuth", but makes no assumptions about the specific implementation
+ of the Auth service.  The Auth service must provide a specific API which will be utilized by the SecurityContext but the 
+ "crdsAuth" module may be implemented as desired by the parent application.
 
 ## Bower Install
 
@@ -24,7 +28,7 @@ This module addresses the possible scenarios for logged in and user authenticati
 * Authenticated user clicks an Ajax Logout button on the page:
     * User is removed from Local Storage and logged out from the Server
 
-## API
+## SecurityContext API
 ### Fields
 
 | Field    | Description |
@@ -39,6 +43,27 @@ This module addresses the possible scenarios for logged in and user authenticati
 | SecurityContext.loadCurrentUser() | Attempt to get the User from Local Storage as well as calling the CurrentUser API call.  This is automatically called in the module .run() function |
 | SecurityContext.login(username, password) | Call the Auth.login method and store the results in Local Storage and $rootScope.currentUser |
 | SecurityContext.logout() | Call Auth.logout, clear the Local Storage and $rootScope.currentUser |
+
+## "crdsAuth" module Auth Service Interface
+Implementation of the Auth service must provide the following methods 
+
+### Methods
+| Method | Return | Description |
+|--------|--------|-------------|
+| SecurityContext.login(username, password) | promise | Resolve the promise if authentication successful; Reject the promise if authentication fails |
+| SecurityContext.loadCurrentUser() | promise | Resolve the promise with the user data if the server has an authenticated user; Reject the promise if not authenticated |
+| SecurityContext.logout() | none | Log out the user on the server |
+
+### User Data
+The only required field in the user data is ContactID which should be the unique id for that user.  Other user data is simply passed through
+
+e.g.
+
+    {
+        ContactId: "abc123",
+        FirstName: "John",
+        LastName: "Doe"
+    }
 
 ## How to Use
 Demo page source: [server/static/index.html](https://github.com/crdschurch/crds-ng-security-context/blob/master/server/static/index.html)
