@@ -17,3 +17,4 @@
 /vendor/plangular/site/
 /vendor/ruby/
 /bin/
+/server/log/*.log

@@ -22,6 +22,11 @@ h2 a{
   color: $gray-darker;
 }
 
+h2 a:hover{ 
+  color: $gray;
+}
+
+
 .icon-bubble {
   fill: $gray-light;
   position: absolute;
@@ -41,10 +46,6 @@ h2 a{
 
 .category-link{
   text-transform: capitalize;
-}
-
-.category_title {
-  margin-left: 40px;
 }
 
 .post_date{

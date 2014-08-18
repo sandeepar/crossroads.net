@@ -3,7 +3,7 @@ var paths = require('../paths'),
     browserSync = require('browser-sync');
 
 module.exports = function(gulp, opts, $) {
-  return gulp.task("scripts", function() {
+  return gulp.task('scripts', ['clean:js'], function() {
     var stream = streamqueue({ objectMode: true });
 
     stream.queue(

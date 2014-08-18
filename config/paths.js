@@ -1,6 +1,6 @@
 module.exports = {
-  specs: ['spec/js/**/*.js', 'modules/**/spec/js/**/*.js'],
-  templates: ['app/templates/**/*.html', 'modules/**/templates/**/*.html'],
-  scripts: ['modules/**/js/module.js', 'modules/**/js/**/*.js', 'app/js/app.js', 'app/js/**/*.js'],
-  sass: ['app/scss/**/*.scss', 'modules/**/css/**/*.scss']
+  specs: ['app/js/**/spec/**/*.js'],
+  templates: ['app/js/**/templates/**/*.html'],
+  scripts: ['app/js/**/module.js', 'app/js/**/*.js', '!app/js/**/spec/**/*.js'],
+  sass: ['app/scss/**/*.scss', 'app/js/**/css/**/*.scss']
 };

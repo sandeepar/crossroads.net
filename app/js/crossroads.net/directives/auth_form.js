@@ -5,7 +5,7 @@ angular.module('crossroads')
 .directive('authForm', function() {
   return {
     restrict: 'EA',
-    templateUrl: '/templates/login.html',
+    templateUrl: 'crossroads.net/templates/login.html',
     controller: 'LoginCtrl',
     priority: 0
   };

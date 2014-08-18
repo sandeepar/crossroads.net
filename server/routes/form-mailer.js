@@ -4,6 +4,7 @@ var util = require('util');
 var q = require('q');
 var request = require('superagent');
 var auth = require('../auth');
+logger = require('../logger');
 
 module.exports = function(app) {
   //
@@ -81,16 +82,16 @@ module.exports = function(app) {
         var promise = lookupContacts(toList);
         promise
           .then(function(emails) {
-            console.log('Retrieved email addresses: ' + emails);
+            logger.debug('Retrieved email addresses: ' + emails);
 
             // Send the email using Mandrill
             send(emails, replyEmail, replyName, subject, content);
           }, function(err) {
-            console.log('Error looking up email addresses for contact ids: ' + toList);
+            logger.error('Error looking up email addresses for contact ids: ' + toList);
           })
           .done();
       } else {
-        console.log('BOT submitted request');
+        logger.warn('BOT submitted request');
       }
 
       // Redirect to a success page
@@ -125,7 +126,7 @@ module.exports = function(app) {
           .set('Authorization', 'Bearer ' + token.access_token)
           .end(function(err, res) {
             if (err || res.error) {
-              console.log('Contact Lookup Error: ' + util.inspect(err || res.error));
+              logger.error('Contact Lookup Error: ' + util.inspect(err || res.error));
               return;
             }
 
@@ -209,7 +210,7 @@ module.exports = function(app) {
       "message": message,
       "async": async
     }, function (result) {
-      console.log(result);
+      logger.debug(result);
       /*
        [{
        "email": "recipient.email@example.com",
@@ -220,7 +221,7 @@ module.exports = function(app) {
        */
     }, function (e) {
       // Mandrill returns the error as an object with name and message keys
-      console.log('A mandrill error occurred: ' + e.name + ' - ' + e.message);
+      logger.error('A mandrill error occurred: ' + e.name + ' - ' + e.message);
       // A mandrill error occurred: Unknown_Subaccount - No subaccount exists with the id 'customer-123'
     });
   };
